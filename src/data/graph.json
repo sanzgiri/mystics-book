@@ -109,6 +109,14 @@
    "died": 1830
   },
   {
+   "id": "radhavallabh",
+   "name": "Radhavallabh Sampradaya (Hit Harivansh)",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0,
+   "era": "16th c."
+  },
+  {
    "id": "rammohan-roy",
    "name": "Rammohan Roy",
    "born": 1772,
@@ -242,6 +250,22 @@
    "part": 2,
    "tier": "profile",
    "kind": "person"
+  },
+  {
+   "id": "sarvapriyananda",
+   "name": "Swami Sarvapriyananda",
+   "part": 2,
+   "tier": "profile",
+   "kind": "person",
+   "note": "Ramakrishna Order; Vedanta Society of New York"
+  },
+  {
+   "id": "acharya-prashant",
+   "name": "Acharya Prashant",
+   "part": 2,
+   "tier": "profile",
+   "kind": "person",
+   "note": "Vedanta for a mass online audience"
   },
   {
    "id": "totapuri",
@@ -748,6 +772,30 @@
    "kind": "person"
   },
   {
+   "id": "premanand-maharaj",
+   "name": "Premanand Maharaj",
+   "part": 7,
+   "tier": "profile",
+   "kind": "person",
+   "note": "Radhavallabh devotee, Vrindavan"
+  },
+  {
+   "id": "gaur-gopal-das",
+   "name": "Gaur Gopal Das",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "ISKCON monk and speaker"
+  },
+  {
+   "id": "mahant-swami",
+   "name": "Mahant Swami Maharaj",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Current guru of BAPS"
+  },
+  {
    "id": "shirdi-sai-baba",
    "name": "Shirdi Sai Baba",
    "died": 1918,
@@ -895,6 +943,22 @@
    "part": 9,
    "tier": "node",
    "kind": "institution"
+  },
+  {
+   "id": "gurinder-singh-dhillon",
+   "name": "Gurinder Singh Dhillon",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Head of Radha Soami Satsang Beas"
+  },
+  {
+   "id": "daaji",
+   "name": "Kamlesh Patel (Daaji)",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Current guide of Heartfulness"
   },
   {
    "id": "gandhi",
@@ -1080,22 +1144,32 @@
    "id": "ramdev",
    "name": "Baba Ramdev",
    "part": 13,
-   "tier": "node",
-   "kind": "person"
+   "tier": "profile",
+   "kind": "person",
+   "note": "Televised pranayama; Patanjali Ayurved"
   },
   {
    "id": "kalki-bhagavan",
-   "name": "Kalki Bhagavan",
+   "name": "Kalki Bhagavan & Amma Bhagavan (Oneness)",
    "born": 1949,
    "part": 13,
-   "tier": "node",
+   "tier": "profile",
    "kind": "person"
   },
   {
    "id": "nithyananda",
-   "name": "Nithyananda",
+   "name": "Nithyananda (Kailasa)",
    "part": 13,
-   "tier": "node",
+   "tier": "profile",
+   "kind": "person",
+   "born": 1978,
+   "note": "Declared the 'nation' of Kailasa after leaving India in 2019"
+  },
+  {
+   "id": "dhirendra-shastri",
+   "name": "Dhirendra Krishna Shastri (Bageshwar Dham)",
+   "part": 13,
+   "tier": "profile",
    "kind": "person"
   }
  ],
@@ -1705,6 +1779,57 @@
    "type": "lived-with",
    "evidence": "documented",
    "note": "Grew up in the Sri Aurobindo Ashram"
+  },
+  {
+   "from": "vivekananda",
+   "to": "sarvapriyananda",
+   "type": "institutional",
+   "evidence": "documented",
+   "note": "Ramakrishna Order"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "acharya-prashant",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "radhavallabh",
+   "to": "premanand-maharaj",
+   "type": "lineage",
+   "evidence": "documented"
+  },
+  {
+   "from": "prabhupada",
+   "to": "gaur-gopal-das",
+   "type": "institutional",
+   "evidence": "documented",
+   "note": "ISKCON"
+  },
+  {
+   "from": "shastriji-pramukh",
+   "to": "mahant-swami",
+   "type": "lineage",
+   "evidence": "documented"
+  },
+  {
+   "from": "charan-singh",
+   "to": "gurinder-singh-dhillon",
+   "type": "lineage",
+   "evidence": "documented"
+  },
+  {
+   "from": "lalaji-babuji",
+   "to": "daaji",
+   "type": "lineage",
+   "evidence": "documented",
+   "note": "Via Chariji"
+  },
+  {
+   "from": "yoga-nath",
+   "to": "ramdev",
+   "type": "influenced",
+   "evidence": "testimony"
   }
  ]
 }

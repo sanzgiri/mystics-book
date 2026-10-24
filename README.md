@@ -17,6 +17,7 @@ Built with [Astro](https://astro.build) and deployed on Vercel.
 | Part introductions | `src/content/parts/<part-slug>.mdx` |
 | Prologue, Epilogue | `src/content/essays/` |
 | Illustrations | `src/components/art/` |
+| Writing style rules | `STYLE.md` |
 
 ## Adding a chapter
 
