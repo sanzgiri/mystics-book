@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import glossary from '../data/glossary.json';
+const terms = [...glossary].sort((a, b) => a.term.localeCompare(b.term));
+---
+<Base title="Glossary" current="glossary" description="Key terms in plain English, with their original script.">
+<main class="wrap">
+  <div class="col">
+    <span class="label">Companion</span>
+    <h1 style="font-size:clamp(2.2rem,6vw,3.6rem);margin:.4rem 0">Glossary</h1>
+    <p>Each word explained once, in plain English, with the original script where it has one. The book uses these terms sparingly and explains them where they first appear.</p>
+    <dl class="gloss">
+      {terms.map((t) => (
+        <>
+          <dt id={t.term.toLowerCase().replace(/[^a-z]+/g, '-')}>
+            {t.term}
+            {t.script && <span class="script" lang={t.lang}>{t.script}</span>}
+          </dt>
+          <dd>{t.def}</dd>
+        </>
+      ))}
+    </dl>
+  </div>
+</main>
+<style>
+  .gloss{margin:2rem 0 0}
+  .gloss dt{font-family:var(--f-display);font-size:1.2rem;margin-top:1.4rem;display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem 1rem}
+  .gloss dt .script{font-size:1.15rem;color:var(--flame)}
+  .gloss dd{margin:.2rem 0 0;border-bottom:1px dotted var(--rule);padding-bottom:.8rem}
+</style>
+</Base>

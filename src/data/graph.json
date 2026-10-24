@@ -1,0 +1,1710 @@
+{
+ "_readme": "Lineage graph. tier: chapter | profile | sidebar | node | root. kind: person | tradition | institution | symbolic. Edge type: initiated | lived-with | influenced | claimed | reacted-against | institutional | family | lineage | protected. evidence: documented | testimony | hagiographic | devotional. verified=true means checked against sources during chapter writing; everything else is a draft to verify.",
+ "nodes": [
+  {
+   "id": "upanishads",
+   "name": "The Upanishads",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0,
+   "era": "c. 800–200 BCE"
+  },
+  {
+   "id": "advaita-vedanta",
+   "name": "Advaita Vedanta (Shankara)",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0,
+   "era": "8th c."
+  },
+  {
+   "id": "vishishtadvaita",
+   "name": "Vishishtadvaita (Ramanuja)",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0,
+   "era": "11th–12th c."
+  },
+  {
+   "id": "gaudiya",
+   "name": "Gaudiya Vaishnavism (Chaitanya)",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0,
+   "era": "16th c."
+  },
+  {
+   "id": "kashmir-shaivism",
+   "name": "Kashmir Shaivism (Abhinavagupta)",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0,
+   "era": "10th–11th c."
+  },
+  {
+   "id": "tantra-shakta",
+   "name": "Shakta Tantra",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0
+  },
+  {
+   "id": "yoga-nath",
+   "name": "Yoga & the Nath yogis",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0
+  },
+  {
+   "id": "tamil-shaiva",
+   "name": "Tamil Shaiva saints (Nayanars)",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0
+  },
+  {
+   "id": "sant-tradition",
+   "name": "The Sants (Kabir and others)",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0,
+   "era": "15th c. on"
+  },
+  {
+   "id": "sikh-gurus",
+   "name": "The Sikh Gurus",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0,
+   "era": "1469–1708"
+  },
+  {
+   "id": "sufi-orders",
+   "name": "Sufi orders in India",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0
+  },
+  {
+   "id": "jain-tradition",
+   "name": "Jain tradition",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0
+  },
+  {
+   "id": "buddhist-tradition",
+   "name": "Buddhist tradition",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0
+  },
+  {
+   "id": "swaminarayan",
+   "name": "Swaminarayan",
+   "tier": "root",
+   "kind": "person",
+   "part": 0,
+   "born": 1781,
+   "died": 1830
+  },
+  {
+   "id": "rammohan-roy",
+   "name": "Rammohan Roy",
+   "born": 1772,
+   "died": 1833,
+   "part": 1,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "dayananda-saraswati",
+   "name": "Dayananda Saraswati",
+   "born": 1824,
+   "died": 1883,
+   "part": 1,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "debendranath-tagore",
+   "name": "Debendranath Tagore",
+   "born": 1817,
+   "died": 1905,
+   "part": 1,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "keshab-chandra-sen",
+   "name": "Keshab Chandra Sen",
+   "born": 1838,
+   "died": 1884,
+   "part": 1,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "jyotirao-phule",
+   "name": "Jyotirao Phule",
+   "born": 1827,
+   "died": 1890,
+   "part": 1,
+   "tier": "sidebar",
+   "kind": "person"
+  },
+  {
+   "id": "ramakrishna",
+   "name": "Ramakrishna",
+   "born": 1836,
+   "died": 1886,
+   "part": 2,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "vivekananda",
+   "name": "Swami Vivekananda",
+   "born": 1863,
+   "died": 1902,
+   "part": 2,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "narayana-guru",
+   "name": "Sri Narayana Guru",
+   "born": 1856,
+   "died": 1928,
+   "part": 2,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "chandrasekharendra-saraswati",
+   "name": "Chandrasekharendra Saraswati",
+   "born": 1894,
+   "died": 1994,
+   "part": 2,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "sarada-devi",
+   "name": "Sarada Devi",
+   "born": 1853,
+   "died": 1920,
+   "part": 2,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "rama-tirtha",
+   "name": "Swami Rama Tirtha",
+   "born": 1873,
+   "died": 1906,
+   "part": 2,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "chattampi-swamikal",
+   "name": "Chattampi Swamikal",
+   "born": 1853,
+   "died": 1924,
+   "part": 2,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "radhakrishnan",
+   "name": "S. Radhakrishnan",
+   "born": 1888,
+   "died": 1975,
+   "part": 2,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "chinmayananda",
+   "name": "Swami Chinmayananda",
+   "born": 1916,
+   "died": 1993,
+   "part": 2,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "dayananda-arsha",
+   "name": "Swami Dayananda Saraswati (Arsha Vidya)",
+   "born": 1930,
+   "died": 2015,
+   "part": 2,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "totapuri",
+   "name": "Totapuri",
+   "part": 2,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "bhairavi-brahmani",
+   "name": "Bhairavi Brahmani",
+   "part": 2,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "ramana-maharshi",
+   "name": "Ramana Maharshi",
+   "born": 1879,
+   "died": 1950,
+   "part": 3,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "nisargadatta",
+   "name": "Nisargadatta Maharaj",
+   "born": 1897,
+   "died": 1981,
+   "part": 3,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "papaji",
+   "name": "H.W.L. Poonja (Papaji)",
+   "born": 1910,
+   "died": 1997,
+   "part": 3,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "siddharameshwar",
+   "name": "Siddharameshwar Maharaj",
+   "born": 1888,
+   "died": 1936,
+   "part": 3,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "atmananda-krishna-menon",
+   "name": "Atmananda Krishna Menon",
+   "born": 1883,
+   "died": 1959,
+   "part": 3,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "arunachala",
+   "name": "Arunachala (the hill as Shiva)",
+   "part": 3,
+   "tier": "root",
+   "kind": "symbolic",
+   "note": "Named by Ramana as his guru"
+  },
+  {
+   "id": "seshadri-swamigal",
+   "name": "Seshadri Swamigal",
+   "born": 1870,
+   "died": 1929,
+   "part": 3,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "ganapati-muni",
+   "name": "Kavyakantha Ganapati Muni",
+   "born": 1878,
+   "died": 1936,
+   "part": 3,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "muruganar",
+   "name": "Muruganar",
+   "born": 1890,
+   "died": 1973,
+   "part": 3,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "annamalai-swami",
+   "name": "Annamalai Swami",
+   "born": 1906,
+   "died": 1995,
+   "part": 3,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "lakshmana-swamy",
+   "name": "Lakshmana Swamy",
+   "part": 3,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "ranjit-maharaj",
+   "name": "Ranjit Maharaj",
+   "born": 1913,
+   "died": 2000,
+   "part": 3,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "paul-brunton",
+   "name": "Paul Brunton",
+   "born": 1898,
+   "died": 1981,
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "British writer; popularizer"
+  },
+  {
+   "id": "neo-advaita",
+   "name": "Western Neo-Advaita",
+   "part": 3,
+   "tier": "node",
+   "kind": "institution",
+   "note": "Gangaji, Mooji and others"
+  },
+  {
+   "id": "aurobindo",
+   "name": "Sri Aurobindo",
+   "born": 1872,
+   "died": 1950,
+   "part": 4,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "rabindranath-tagore",
+   "name": "Rabindranath Tagore",
+   "born": 1861,
+   "died": 1941,
+   "part": 4,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "iqbal",
+   "name": "Muhammad Iqbal",
+   "born": 1877,
+   "died": 1938,
+   "part": 4,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "kc-bhattacharya",
+   "name": "K.C. Bhattacharya",
+   "born": 1875,
+   "died": 1949,
+   "part": 4,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "gopi-krishna",
+   "name": "Gopi Krishna",
+   "born": 1903,
+   "died": 1984,
+   "part": 4,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "lahiri-mahasaya",
+   "name": "Lahiri Mahasaya",
+   "born": 1828,
+   "died": 1895,
+   "part": 5,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "yogananda",
+   "name": "Paramahansa Yogananda",
+   "born": 1893,
+   "died": 1952,
+   "part": 5,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "krishnamacharya",
+   "name": "T. Krishnamacharya",
+   "born": 1888,
+   "died": 1989,
+   "part": 5,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "sivananda",
+   "name": "Swami Sivananda",
+   "born": 1887,
+   "died": 1963,
+   "part": 5,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "maharishi",
+   "name": "Maharishi Mahesh Yogi",
+   "born": 1918,
+   "died": 2008,
+   "part": 5,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "sri-sri-ravi-shankar",
+   "name": "Sri Sri Ravi Shankar",
+   "born": 1956,
+   "part": 5,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "sadhguru",
+   "name": "Sadhguru (Jaggi Vasudev)",
+   "born": 1957,
+   "part": 5,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "yukteswar",
+   "name": "Sri Yukteswar",
+   "born": 1855,
+   "died": 1936,
+   "part": 5,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "kuvalayananda",
+   "name": "Swami Kuvalayananda",
+   "born": 1883,
+   "died": 1966,
+   "part": 5,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "iyengar",
+   "name": "B.K.S. Iyengar",
+   "born": 1918,
+   "died": 2014,
+   "part": 5,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "pattabhi-jois",
+   "name": "K. Pattabhi Jois",
+   "born": 1915,
+   "died": 2009,
+   "part": 5,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "satyananda",
+   "name": "Swami Satyananda Saraswati",
+   "born": 1923,
+   "died": 2009,
+   "part": 5,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "swami-rama",
+   "name": "Swami Rama",
+   "born": 1925,
+   "died": 1996,
+   "part": 5,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "vethathiri",
+   "name": "Vethathiri Maharishi",
+   "born": 1911,
+   "died": 2006,
+   "part": 5,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "sri-m",
+   "name": "Sri M",
+   "born": 1948,
+   "part": 5,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "babaji",
+   "name": "Mahavatar Babaji",
+   "part": 5,
+   "tier": "node",
+   "kind": "symbolic",
+   "note": "Known only through disciples' accounts"
+  },
+  {
+   "id": "trailanga-swami",
+   "name": "Trailanga Swami",
+   "part": 5,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "desikachar",
+   "name": "T.K.V. Desikachar",
+   "born": 1938,
+   "died": 2016,
+   "part": 5,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "vishnudevananda",
+   "name": "Swami Vishnudevananda",
+   "born": 1927,
+   "died": 1993,
+   "part": 5,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "brahmananda-saraswati",
+   "name": "Brahmananda Saraswati (Jyotirmath)",
+   "born": 1868,
+   "died": 1953,
+   "part": 5,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "lakshmanjoo",
+   "name": "Swami Lakshmanjoo",
+   "born": 1907,
+   "died": 1991,
+   "part": 6,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "muktananda",
+   "name": "Swami Muktananda",
+   "born": 1908,
+   "died": 1982,
+   "part": 6,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "bamakhepa",
+   "name": "Bamakhepa",
+   "born": 1837,
+   "died": 1911,
+   "part": 6,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "shri-mataji",
+   "name": "Shri Mataji Nirmala Devi",
+   "born": 1923,
+   "died": 2011,
+   "part": 6,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "pr-sarkar",
+   "name": "P.R. Sarkar (Anandamurti)",
+   "born": 1921,
+   "died": 1990,
+   "part": 6,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "bhagavan-nityananda",
+   "name": "Bhagavan Nityananda",
+   "died": 1961,
+   "part": 6,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "gurumayi",
+   "name": "Gurumayi Chidvilasananda",
+   "born": 1955,
+   "part": 6,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "lokenath",
+   "name": "Lokenath Brahmachari",
+   "part": 6,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "prabhupada",
+   "name": "A.C. Bhaktivedanta Prabhupada",
+   "born": 1896,
+   "died": 1977,
+   "part": 7,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "anandamayi-ma",
+   "name": "Anandamayi Ma",
+   "born": 1896,
+   "died": 1982,
+   "part": 7,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "amma",
+   "name": "Mata Amritanandamayi (Amma)",
+   "born": 1953,
+   "part": 7,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "bhaktivinoda",
+   "name": "Bhaktivinoda Thakura",
+   "born": 1838,
+   "died": 1914,
+   "part": 7,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "bhaktisiddhanta",
+   "name": "Bhaktisiddhanta Sarasvati",
+   "born": 1874,
+   "died": 1937,
+   "part": 7,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "shastriji-pramukh",
+   "name": "Shastriji Maharaj & Pramukh Swami (BAPS)",
+   "born": 1865,
+   "died": 2016,
+   "part": 7,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "papa-ramdas",
+   "name": "Papa Ramdas",
+   "born": 1884,
+   "died": 1963,
+   "part": 7,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "neem-karoli-baba",
+   "name": "Neem Karoli Baba",
+   "born": 1900,
+   "died": 1973,
+   "part": 7,
+   "tier": "profile",
+   "kind": "person",
+   "note": "Birth year approximate"
+  },
+  {
+   "id": "mother-meera",
+   "name": "Mother Meera",
+   "born": 1960,
+   "part": 7,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "shirdi-sai-baba",
+   "name": "Shirdi Sai Baba",
+   "died": 1918,
+   "part": 8,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "meher-baba",
+   "name": "Meher Baba",
+   "born": 1894,
+   "died": 1969,
+   "part": 8,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "upasni-maharaj",
+   "name": "Upasni Maharaj",
+   "born": 1870,
+   "died": 1941,
+   "part": 8,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "hazrat-babajan",
+   "name": "Hazrat Babajan",
+   "died": 1931,
+   "part": 8,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "tajuddin-baba",
+   "name": "Tajuddin Baba",
+   "born": 1861,
+   "died": 1925,
+   "part": 8,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "narayan-maharaj",
+   "name": "Narayan Maharaj",
+   "born": 1885,
+   "died": 1945,
+   "part": 8,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "shiv-dayal-singh",
+   "name": "Shiv Dayal Singh (Soamiji)",
+   "born": 1818,
+   "died": 1878,
+   "part": 9,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "inayat-khan",
+   "name": "Inayat Khan",
+   "born": 1882,
+   "died": 1927,
+   "part": 9,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "kirpal-singh",
+   "name": "Kirpal Singh",
+   "born": 1894,
+   "died": 1974,
+   "part": 9,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "ram-singh-namdhari",
+   "name": "Satguru Ram Singh",
+   "born": 1816,
+   "died": 1885,
+   "part": 9,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "vallalar",
+   "name": "Ramalinga Swamigal (Vallalar)",
+   "born": 1823,
+   "died": 1874,
+   "part": 9,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "ayya-vaikundar",
+   "name": "Ayya Vaikundar",
+   "born": 1809,
+   "died": 1851,
+   "part": 9,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "lalaji-babuji",
+   "name": "Lalaji & Babuji (Sahaj Marg)",
+   "born": 1873,
+   "died": 1983,
+   "part": 9,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "jaimal-singh",
+   "name": "Jaimal Singh",
+   "born": 1839,
+   "died": 1903,
+   "part": 9,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "sawan-singh",
+   "name": "Sawan Singh",
+   "born": 1858,
+   "died": 1948,
+   "part": 9,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "charan-singh",
+   "name": "Charan Singh",
+   "born": 1916,
+   "died": 1990,
+   "part": 9,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "dera-sacha-sauda",
+   "name": "Dera Sacha Sauda",
+   "part": 9,
+   "tier": "node",
+   "kind": "institution"
+  },
+  {
+   "id": "gandhi",
+   "name": "Mahatma Gandhi",
+   "born": 1869,
+   "died": 1948,
+   "part": 10,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "rajchandra",
+   "name": "Shrimad Rajchandra",
+   "born": 1867,
+   "died": 1901,
+   "part": 10,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "vinoba",
+   "name": "Vinoba Bhave",
+   "born": 1895,
+   "died": 1982,
+   "part": 10,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "kanji-swami",
+   "name": "Kanji Swami",
+   "born": 1890,
+   "died": 1980,
+   "part": 10,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "tulsi-mahapragya",
+   "name": "Acharya Tulsi & Mahapragya",
+   "born": 1914,
+   "died": 2010,
+   "part": 10,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "dada-bhagwan",
+   "name": "Dada Bhagwan",
+   "born": 1908,
+   "died": 1988,
+   "part": 10,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "ambedkar",
+   "name": "B.R. Ambedkar",
+   "born": 1891,
+   "died": 1956,
+   "part": 11,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "dharmapala",
+   "name": "Anagarika Dharmapala",
+   "born": 1864,
+   "died": 1933,
+   "part": 11,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "dipa-ma",
+   "name": "Dipa Ma",
+   "born": 1911,
+   "died": 1989,
+   "part": 11,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "munindra",
+   "name": "Anagarika Munindra",
+   "born": 1915,
+   "died": 2003,
+   "part": 11,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "rahul-sankrityayan",
+   "name": "Rahul Sankrityayan",
+   "born": 1893,
+   "died": 1963,
+   "part": 11,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "goenka",
+   "name": "S.N. Goenka",
+   "born": 1924,
+   "died": 2013,
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born in Burma; outside the book's scope but on the tree"
+  },
+  {
+   "id": "j-krishnamurti",
+   "name": "J. Krishnamurti",
+   "born": 1895,
+   "died": 1986,
+   "part": 12,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "ug-krishnamurti",
+   "name": "U.G. Krishnamurti",
+   "born": 1918,
+   "died": 2007,
+   "part": 12,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "periyar",
+   "name": "Periyar (E.V. Ramasamy)",
+   "born": 1879,
+   "died": 1973,
+   "part": 12,
+   "tier": "sidebar",
+   "kind": "person"
+  },
+  {
+   "id": "theosophical-society",
+   "name": "Theosophical Society",
+   "part": 12,
+   "tier": "node",
+   "kind": "institution",
+   "era": "founded 1875"
+  },
+  {
+   "id": "osho",
+   "name": "Osho (Rajneesh)",
+   "born": 1931,
+   "died": 1990,
+   "part": 13,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "sathya-sai-baba",
+   "name": "Sathya Sai Baba",
+   "born": 1926,
+   "died": 2011,
+   "part": 13,
+   "tier": "chapter",
+   "kind": "person"
+  },
+  {
+   "id": "dada-lekhraj",
+   "name": "Dada Lekhraj (Brahma Kumaris)",
+   "born": 1876,
+   "died": 1969,
+   "part": 13,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "sri-chinmoy",
+   "name": "Sri Chinmoy",
+   "born": 1931,
+   "died": 2007,
+   "part": 13,
+   "tier": "profile",
+   "kind": "person"
+  },
+  {
+   "id": "ramdev",
+   "name": "Baba Ramdev",
+   "part": 13,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "kalki-bhagavan",
+   "name": "Kalki Bhagavan",
+   "born": 1949,
+   "part": 13,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "nithyananda",
+   "name": "Nithyananda",
+   "part": 13,
+   "tier": "node",
+   "kind": "person"
+  }
+ ],
+ "edges": [
+  {
+   "from": "tamil-shaiva",
+   "to": "ramana-maharshi",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Read the Periya Puranam c. 1895"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "ramana-maharshi",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Read after realization; translated the Vivekachudamani into Tamil prose"
+  },
+  {
+   "from": "arunachala",
+   "to": "ramana-maharshi",
+   "type": "claimed",
+   "evidence": "devotional",
+   "verified": true,
+   "note": "He named the hill as his guru"
+  },
+  {
+   "from": "seshadri-swamigal",
+   "to": "ramana-maharshi",
+   "type": "protected",
+   "evidence": "testimony",
+   "verified": true
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "ganapati-muni",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Named him Ramana in 1907"
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "muruganar",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "annamalai-swami",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "lakshmana-swamy",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "papaji",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1944
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "paul-brunton",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1931
+  },
+  {
+   "from": "papaji",
+   "to": "neo-advaita",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "rama-tirtha",
+   "to": "papaji",
+   "type": "family",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Reportedly his maternal uncle"
+  },
+  {
+   "from": "upanishads",
+   "to": "advaita-vedanta",
+   "type": "lineage",
+   "evidence": "documented"
+  },
+  {
+   "from": "upanishads",
+   "to": "vishishtadvaita",
+   "type": "lineage",
+   "evidence": "documented"
+  },
+  {
+   "from": "upanishads",
+   "to": "rammohan-roy",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "rammohan-roy",
+   "to": "debendranath-tagore",
+   "type": "institutional",
+   "evidence": "documented",
+   "note": "Brahmo Samaj"
+  },
+  {
+   "from": "debendranath-tagore",
+   "to": "keshab-chandra-sen",
+   "type": "lived-with",
+   "evidence": "documented"
+  },
+  {
+   "from": "debendranath-tagore",
+   "to": "rabindranath-tagore",
+   "type": "family",
+   "evidence": "documented"
+  },
+  {
+   "from": "upanishads",
+   "to": "dayananda-saraswati",
+   "type": "influenced",
+   "evidence": "documented",
+   "note": "Vedas as sole authority"
+  },
+  {
+   "from": "keshab-chandra-sen",
+   "to": "ramakrishna",
+   "type": "influenced",
+   "evidence": "documented",
+   "note": "Met and publicized him"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "totapuri",
+   "type": "lineage",
+   "evidence": "testimony"
+  },
+  {
+   "from": "totapuri",
+   "to": "ramakrishna",
+   "type": "initiated",
+   "evidence": "documented"
+  },
+  {
+   "from": "tantra-shakta",
+   "to": "bhairavi-brahmani",
+   "type": "lineage",
+   "evidence": "testimony"
+  },
+  {
+   "from": "bhairavi-brahmani",
+   "to": "ramakrishna",
+   "type": "initiated",
+   "evidence": "documented"
+  },
+  {
+   "from": "ramakrishna",
+   "to": "vivekananda",
+   "type": "lived-with",
+   "evidence": "documented"
+  },
+  {
+   "from": "ramakrishna",
+   "to": "sarada-devi",
+   "type": "family",
+   "evidence": "documented"
+  },
+  {
+   "from": "vivekananda",
+   "to": "aurobindo",
+   "type": "influenced",
+   "evidence": "testimony"
+  },
+  {
+   "from": "vivekananda",
+   "to": "rama-tirtha",
+   "type": "influenced",
+   "evidence": "testimony"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "narayana-guru",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "chattampi-swamikal",
+   "to": "narayana-guru",
+   "type": "lived-with",
+   "evidence": "testimony"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "chandrasekharendra-saraswati",
+   "type": "lineage",
+   "evidence": "documented",
+   "note": "Kanchi matha"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "radhakrishnan",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "sivananda",
+   "to": "chinmayananda",
+   "type": "initiated",
+   "evidence": "documented"
+  },
+  {
+   "from": "chinmayananda",
+   "to": "dayananda-arsha",
+   "type": "lived-with",
+   "evidence": "documented"
+  },
+  {
+   "from": "yoga-nath",
+   "to": "siddharameshwar",
+   "type": "lineage",
+   "evidence": "documented",
+   "note": "Navnath Sampradaya (Inchegeri branch)"
+  },
+  {
+   "from": "siddharameshwar",
+   "to": "nisargadatta",
+   "type": "initiated",
+   "evidence": "documented"
+  },
+  {
+   "from": "siddharameshwar",
+   "to": "ranjit-maharaj",
+   "type": "initiated",
+   "evidence": "documented"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "atmananda-krishna-menon",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "upanishads",
+   "to": "aurobindo",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "sufi-orders",
+   "to": "iqbal",
+   "type": "influenced",
+   "evidence": "documented",
+   "note": "Rumi"
+  },
+  {
+   "from": "kashmir-shaivism",
+   "to": "gopi-krishna",
+   "type": "influenced",
+   "evidence": "testimony"
+  },
+  {
+   "from": "babaji",
+   "to": "lahiri-mahasaya",
+   "type": "initiated",
+   "evidence": "hagiographic"
+  },
+  {
+   "from": "lahiri-mahasaya",
+   "to": "yukteswar",
+   "type": "initiated",
+   "evidence": "documented"
+  },
+  {
+   "from": "yukteswar",
+   "to": "yogananda",
+   "type": "lived-with",
+   "evidence": "documented"
+  },
+  {
+   "from": "babaji",
+   "to": "sri-m",
+   "type": "claimed",
+   "evidence": "hagiographic"
+  },
+  {
+   "from": "yoga-nath",
+   "to": "krishnamacharya",
+   "type": "influenced",
+   "evidence": "testimony"
+  },
+  {
+   "from": "krishnamacharya",
+   "to": "iyengar",
+   "type": "lived-with",
+   "evidence": "documented"
+  },
+  {
+   "from": "krishnamacharya",
+   "to": "pattabhi-jois",
+   "type": "lived-with",
+   "evidence": "documented"
+  },
+  {
+   "from": "krishnamacharya",
+   "to": "desikachar",
+   "type": "family",
+   "evidence": "documented"
+  },
+  {
+   "from": "sivananda",
+   "to": "satyananda",
+   "type": "initiated",
+   "evidence": "documented"
+  },
+  {
+   "from": "sivananda",
+   "to": "vishnudevananda",
+   "type": "initiated",
+   "evidence": "documented"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "brahmananda-saraswati",
+   "type": "lineage",
+   "evidence": "documented",
+   "note": "Shankaracharya of Jyotirmath"
+  },
+  {
+   "from": "brahmananda-saraswati",
+   "to": "maharishi",
+   "type": "lived-with",
+   "evidence": "documented"
+  },
+  {
+   "from": "maharishi",
+   "to": "sri-sri-ravi-shankar",
+   "type": "lived-with",
+   "evidence": "documented"
+  },
+  {
+   "from": "kashmir-shaivism",
+   "to": "lakshmanjoo",
+   "type": "lineage",
+   "evidence": "documented"
+  },
+  {
+   "from": "bhagavan-nityananda",
+   "to": "muktananda",
+   "type": "initiated",
+   "evidence": "documented"
+  },
+  {
+   "from": "muktananda",
+   "to": "gurumayi",
+   "type": "initiated",
+   "evidence": "documented"
+  },
+  {
+   "from": "tantra-shakta",
+   "to": "bamakhepa",
+   "type": "lineage",
+   "evidence": "testimony"
+  },
+  {
+   "from": "tantra-shakta",
+   "to": "pr-sarkar",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "gaudiya",
+   "to": "bhaktivinoda",
+   "type": "lineage",
+   "evidence": "documented"
+  },
+  {
+   "from": "bhaktivinoda",
+   "to": "bhaktisiddhanta",
+   "type": "family",
+   "evidence": "documented"
+  },
+  {
+   "from": "bhaktisiddhanta",
+   "to": "prabhupada",
+   "type": "initiated",
+   "evidence": "documented",
+   "year": 1933
+  },
+  {
+   "from": "swaminarayan",
+   "to": "shastriji-pramukh",
+   "type": "lineage",
+   "evidence": "documented"
+  },
+  {
+   "from": "sufi-orders",
+   "to": "shirdi-sai-baba",
+   "type": "influenced",
+   "evidence": "testimony"
+  },
+  {
+   "from": "shirdi-sai-baba",
+   "to": "upasni-maharaj",
+   "type": "lived-with",
+   "evidence": "documented"
+  },
+  {
+   "from": "upasni-maharaj",
+   "to": "meher-baba",
+   "type": "lived-with",
+   "evidence": "documented"
+  },
+  {
+   "from": "hazrat-babajan",
+   "to": "meher-baba",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "tajuddin-baba",
+   "to": "meher-baba",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "narayan-maharaj",
+   "to": "meher-baba",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "shirdi-sai-baba",
+   "to": "sathya-sai-baba",
+   "type": "claimed",
+   "evidence": "hagiographic",
+   "note": "Claimed reincarnation"
+  },
+  {
+   "from": "sant-tradition",
+   "to": "shiv-dayal-singh",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "shiv-dayal-singh",
+   "to": "jaimal-singh",
+   "type": "initiated",
+   "evidence": "documented"
+  },
+  {
+   "from": "jaimal-singh",
+   "to": "sawan-singh",
+   "type": "initiated",
+   "evidence": "documented"
+  },
+  {
+   "from": "sawan-singh",
+   "to": "kirpal-singh",
+   "type": "initiated",
+   "evidence": "documented"
+  },
+  {
+   "from": "sawan-singh",
+   "to": "charan-singh",
+   "type": "initiated",
+   "evidence": "documented"
+  },
+  {
+   "from": "sawan-singh",
+   "to": "dera-sacha-sauda",
+   "type": "lineage",
+   "evidence": "testimony",
+   "note": "Via Shah Mastana"
+  },
+  {
+   "from": "sikh-gurus",
+   "to": "ram-singh-namdhari",
+   "type": "lineage",
+   "evidence": "documented"
+  },
+  {
+   "from": "sufi-orders",
+   "to": "inayat-khan",
+   "type": "initiated",
+   "evidence": "documented",
+   "note": "Chishti order"
+  },
+  {
+   "from": "sufi-orders",
+   "to": "lalaji-babuji",
+   "type": "initiated",
+   "evidence": "documented",
+   "note": "Naqshbandi transmission"
+  },
+  {
+   "from": "tamil-shaiva",
+   "to": "vallalar",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "jain-tradition",
+   "to": "rajchandra",
+   "type": "lineage",
+   "evidence": "documented"
+  },
+  {
+   "from": "rajchandra",
+   "to": "gandhi",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "gandhi",
+   "to": "vinoba",
+   "type": "lived-with",
+   "evidence": "documented"
+  },
+  {
+   "from": "jain-tradition",
+   "to": "kanji-swami",
+   "type": "lineage",
+   "evidence": "documented"
+  },
+  {
+   "from": "jain-tradition",
+   "to": "tulsi-mahapragya",
+   "type": "lineage",
+   "evidence": "documented",
+   "note": "Terapanth"
+  },
+  {
+   "from": "jain-tradition",
+   "to": "dada-bhagwan",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "buddhist-tradition",
+   "to": "dharmapala",
+   "type": "lineage",
+   "evidence": "documented"
+  },
+  {
+   "from": "buddhist-tradition",
+   "to": "ambedkar",
+   "type": "influenced",
+   "evidence": "documented"
+  },
+  {
+   "from": "jyotirao-phule",
+   "to": "ambedkar",
+   "type": "influenced",
+   "evidence": "documented",
+   "note": "Ambedkar named Phule among his three gurus"
+  },
+  {
+   "from": "sant-tradition",
+   "to": "ambedkar",
+   "type": "influenced",
+   "evidence": "documented",
+   "note": "Kabir"
+  },
+  {
+   "from": "munindra",
+   "to": "dipa-ma",
+   "type": "lived-with",
+   "evidence": "documented"
+  },
+  {
+   "from": "theosophical-society",
+   "to": "j-krishnamurti",
+   "type": "institutional",
+   "evidence": "documented"
+  },
+  {
+   "from": "j-krishnamurti",
+   "to": "ug-krishnamurti",
+   "type": "reacted-against",
+   "evidence": "documented"
+  },
+  {
+   "from": "jain-tradition",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "testimony",
+   "note": "Born into a Jain family"
+  },
+  {
+   "from": "aurobindo",
+   "to": "sri-chinmoy",
+   "type": "lived-with",
+   "evidence": "documented",
+   "note": "Grew up in the Sri Aurobindo Ashram"
+  }
+ ]
+}

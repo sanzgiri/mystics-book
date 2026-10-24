@@ -1,0 +1,81 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import MiniTree from '../../components/MiniTree.astro';
+import Arunachala from '../../components/art/Arunachala.astro';
+import Banyan from '../../components/art/Banyan.astro';
+import { nodes, partByN, hasPage, lifespan, TIER_LABEL, partHref, figuresInPart, figureHref } from '../../lib/graph.js';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('figures');
+  const byId = Object.fromEntries(entries.map((e) => [e.id, e]));
+  return nodes.filter(hasPage).map((n) => ({ params: { id: n.id }, props: { node: n, entry: byId[n.id] || null } }));
+}
+
+const { node, entry } = Astro.props;
+const part = partByN[node.part];
+const ART = { arunachala: Arunachala };
+const Art = entry?.data.art ? ART[entry.data.art] : null;
+const rendered = entry ? await render(entry) : null;
+const Content = rendered?.Content;
+
+// prev / next within the part, in book order (chapters, then profiles, then sidebars)
+const order = { chapter: 0, profile: 1, sidebar: 2, node: 3 };
+const inPart = part ? figuresInPart(part.n).filter((x) => x.tier !== 'node' && x.tier !== 'root').sort((a, b) => order[a.tier] - order[b.tier]) : [];
+const idx = inPart.findIndex((x) => x.id === node.id);
+const prev = idx > 0 ? inPart[idx - 1] : null;
+const next = idx >= 0 && idx < inPart.length - 1 ? inPart[idx + 1] : null;
+---
+<Base title={entry ? `${entry.data.title} (${node.name})` : node.name} description={entry?.data.subtitle}>
+<main class="wrap">
+  {part && (
+    <div class="part-head">
+      <a class="label" href={partHref(part.slug)}>Part {part.n} · {part.title}</a>
+      <q>{part.question}</q>
+    </div>
+  )}
+
+  {entry ? (
+    <>
+      <header class="hero">
+        <div>
+          {entry.data.titleScript && <span class="ta-title" lang={entry.data.titleScriptLang}>{entry.data.titleScript}</span>}
+          <h1>{entry.data.title}</h1>
+          <p class="sub">{node.name}, {lifespan(node)}. {entry.data.subtitle}</p>
+          <p><span class={`status ${entry.data.status}`}>{entry.data.status}</span> <span class="tier-tag">{TIER_LABEL[node.tier]}</span></p>
+        </div>
+        {Art ? <Art /> : <Banyan />}
+      </header>
+      <div class="chapter">
+        {entry.data.glance.length > 0 && (
+          <section class="glance" aria-label="At a glance">
+            <span class="label">At a glance</span>
+            <dl>{entry.data.glance.map((g) => (<><dt>{g.label}</dt><dd set:html={g.value} /></>))}</dl>
+          </section>
+        )}
+        <Content components={{ MiniTree }} />
+      </div>
+    </>
+  ) : (
+    <div class="col">
+      <h1 style="font-size:clamp(2.2rem,6vw,3.6rem);margin:.5rem 0">{node.name}</h1>
+      <p class="sub" style="color:var(--muted)">{lifespan(node)}{node.note ? ` · ${node.note}` : ''}</p>
+      <p><span class="status outline">Not yet written</span> <span class="tier-tag">{TIER_LABEL[node.tier]}</span></p>
+      <p>
+        {node.tier === 'node'
+          ? 'This figure appears on the lineage tree but does not have a chapter of their own.'
+          : 'This entry is planned. The lineage below is a draft and will be checked against sources when the chapter is written.'}
+      </p>
+      <h2>Lineage</h2>
+      <MiniTree id={node.id} />
+    </div>
+  )}
+
+  {(prev || next) && (
+    <nav class="col" aria-label="Within this part" style="display:flex;justify-content:space-between;gap:1rem;margin-top:3rem;font-family:var(--f-mono);font-size:.8rem">
+      <span>{prev && <a href={figureHref(prev.id)}>← {prev.name}</a>}</span>
+      <span>{next && <a href={figureHref(next.id)}>{next.name} →</a>}</span>
+    </nav>
+  )}
+</main>
+</Base>

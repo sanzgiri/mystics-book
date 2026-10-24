@@ -1,0 +1,60 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Banyan from '../components/art/Banyan.astro';
+import site from '../data/site.json';
+import { parts, figuresInPart, lifespan, figureHref, href, nodes } from '../lib/graph.js';
+
+const written = new Set((await getCollection('figures')).map((e) => e.id));
+const people = nodes.filter((n) => n.tier === 'chapter' || n.tier === 'profile');
+const nChapters = nodes.filter((n) => n.tier === 'chapter').length;
+const nProfiles = nodes.filter((n) => n.tier === 'profile').length;
+---
+<Base current="contents">
+<main class="wrap">
+  <header class="hero">
+    <div>
+      <span class="label">A web book</span>
+      <h1>{site.title}</h1>
+      <p class="sub">{site.subtitle}. Thirteen questions, {nChapters} chapters, {nProfiles} profiles, and one tree that connects them.</p>
+    </div>
+    <Banyan label="Illustration: a banyan tree, whose aerial roots become new trunks" />
+  </header>
+
+  <div class="col">
+    <p>A banyan never has just one trunk. Its branches drop roots that thicken into new trunks, until you cannot tell which was the first. Modern Indian spirituality grew the same way. This book follows it from the 1830s to today, one person per chapter: who they were, what they actually taught, what was genuinely new, and where they sit on the tree.</p>
+    <p>Each part asks one question. Read straight through, or start with the <a href={href('/tree/')}>tree</a> and follow a branch.</p>
+
+    <h2>Contents</h2>
+    <ul class="toc">
+      <li class="chapter-entry"><span><a href={href('/prologue/')}>Prologue: The Roots</a><span class="tier-tag written">Draft ready</span></span><span class="yrs">800 BCE–1830</span></li>
+    </ul>
+
+    {parts.map((p) => {
+      const figs = figuresInPart(p.n).filter((f) => f.tier === 'chapter' || f.tier === 'profile');
+      return (
+        <section style="margin-top:2.2rem">
+          <a href={href(`/parts/${p.slug}/`)} style="text-decoration:none;color:inherit">
+            <span class="label">Part {p.n} · {p.title}</span>
+            <h3 style="margin:.2rem 0 .6rem;font-size:1.35rem">{p.question}</h3>
+          </a>
+          <ul class="toc">
+            {figs.map((f) => (
+              <li class={f.tier === 'chapter' ? 'chapter-entry' : ''}>
+                <span><a href={figureHref(f.id)}>{f.name}</a>{written.has(f.id) && <span class="tier-tag written">Draft ready</span>}</span>
+                <span class="yrs">{lifespan(f)}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      );
+    })}
+
+    <ul class="toc" style="margin-top:2.2rem">
+      <li class="chapter-entry"><span><a href={href('/epilogue/')}>Epilogue: Reading the Tree</a><span class="tier-tag">Outline</span></span><span class="yrs"></span></li>
+    </ul>
+
+    <p style="margin-top:2rem;color:var(--muted);font-size:.9rem">Bold entries are full chapters; the rest are shorter profiles. {people.length} figures in all, plus many more on the tree.</p>
+  </div>
+</main>
+</Base>

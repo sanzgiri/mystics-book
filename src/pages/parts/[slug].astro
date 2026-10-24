@@ -1,0 +1,59 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { parts, figuresInPart, lifespan, figureHref, TIER_LABEL, href } from '../../lib/graph.js';
+
+export async function getStaticPaths() {
+  const intros = await getCollection('parts');
+  const byId = Object.fromEntries(intros.map((e) => [e.id, e]));
+  const written = new Set((await getCollection('figures')).map((e) => e.id));
+  return parts.map((p) => ({ params: { slug: p.slug }, props: { part: p, intro: byId[p.slug] || null, written: [...written] } }));
+}
+const { part, intro, written } = Astro.props;
+const done = new Set(written);
+const Intro = intro ? (await render(intro)).Content : null;
+const figs = figuresInPart(part.n).filter((f) => f.tier !== 'root');
+const group = (t) => figs.filter((f) => f.tier === t);
+const sections = [['chapter', 'Chapters'], ['profile', 'Profiles'], ['sidebar', 'Sidebars'], ['node', 'Also on the tree']];
+const prev = parts.find((p) => p.n === part.n - 1);
+const next = parts.find((p) => p.n === part.n + 1);
+---
+<Base title={`Part ${part.n}: ${part.title}`} description={part.question}>
+<main class="wrap">
+  <div class="col">
+    <span class="label">Part {part.n}</span>
+    <h1 style="font-size:clamp(2.4rem,6.5vw,4.2rem);margin:.4rem 0 .4rem">{part.question}</h1>
+    <p style="font-family:var(--f-display);font-size:1.2rem;color:var(--flame);margin:0 0 2rem">{part.title}</p>
+
+    {Intro ? (
+      <>
+        <p><span class={`status ${intro.data.status}`}>{intro.data.status}</span> <span class="tier-tag">Introduction</span></p>
+        <Intro />
+      </>
+    ) : (
+      <p style="color:var(--muted)"><span class="status outline">Not yet written</span> The introduction to this part will pose its question in the author's voice.</p>
+    )}
+
+    {sections.map(([t, label]) => group(t).length > 0 && (
+      <>
+        <h2>{label}</h2>
+        <ul class="toc">
+          {group(t).map((f) => (
+            <li class={t === 'chapter' ? 'chapter-entry' : ''}>
+              <span><a href={figureHref(f.id)}>{f.name}</a>{done.has(f.id) && <span class="tier-tag written">Draft ready</span>}</span>
+              <span class="yrs">{lifespan(f)}</span>
+            </li>
+          ))}
+        </ul>
+      </>
+    ))}
+
+    <p style="margin-top:2rem"><a href={href(`/tree/#part-${part.n}`)}>See this part on the lineage tree →</a></p>
+
+    <nav aria-label="Parts" style="display:flex;justify-content:space-between;gap:1rem;margin-top:3rem;font-family:var(--f-mono);font-size:.8rem">
+      <span>{prev && <a href={href(`/parts/${prev.slug}/`)}>← Part {prev.n}</a>}</span>
+      <span>{next && <a href={href(`/parts/${next.slug}/`)}>Part {next.n} →</a>}</span>
+    </nav>
+  </div>
+</main>
+</Base>

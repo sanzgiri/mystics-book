@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/graph.js';
+---
+<Base title="Sources" current="sources" description="How the book handles sources, evidence and media rights.">
+<main class="wrap">
+  <div class="col">
+    <span class="label">Companion</span>
+    <h1 style="font-size:clamp(2.2rem,6vw,3.6rem);margin:.4rem 0">Sources</h1>
+
+    <p>Every chapter ends with its own references and a single "if you read one book" pick. This page explains how evidence is handled across the book.</p>
+
+    <h2>How lineage is graded</h2>
+    <p>Every line on the tree carries two labels: what kind of connection it is, and how good the evidence is.</p>
+    <ul>
+      <li><strong>Documented:</strong> recorded at the time, or by several independent witnesses.</li>
+      <li><strong>Testimony:</strong> reported by one person or by later accounts close to the events.</li>
+      <li><strong>Legendary or devotional:</strong> told by followers, often involving immortal masters, visions or reincarnation. Real as belief; not a historical claim.</li>
+    </ul>
+    <p>A connection is marked verified once it has been checked against sources while writing the chapter it belongs to. Until then it is a draft.</p>
+
+    <h2>Media</h2>
+    <p>Audio and video are linked to the rights holders: the ashrams, archives and official channels that care for them. The book does not re-host recordings. Photographs appear only where they are in the public domain or licensed; otherwise the illustrations are original.</p>
+
+    <h2>General reading</h2>
+    <ol class="refs">
+      <li>Gavin Flood, <i>An Introduction to Hinduism</i> (1996).</li>
+      <li>Jacob Copeman and Aya Ikegame (eds.), <i>The Guru in South Asia: New Interdisciplinary Perspectives</i> (2012).</li>
+      <li>Mark Singleton and Ellen Goldberg (eds.), <i>Gurus of Modern Yoga</i> (2014).</li>
+      <li>Ann Gleig and Lola Williamson (eds.), <i>Homegrown Gurus: From Hinduism in America to American Hinduism</i> (2013).</li>
+      <li>Elizabeth De Michelis, <i>A History of Modern Yoga</i> (2004).</li>
+      <li>Paul Brunton, <i>A Search in Secret India</i> (1934).</li>
+    </ol>
+
+    <p>Spotted an error or a better source? The book is built in the open: <a href="https://github.com/sanzgiri/mystics-book">github.com/sanzgiri/mystics-book</a>.</p>
+    <p><a href={href('/')}>← Back to contents</a></p>
+  </div>
+</main>
+</Base>

@@ -1,0 +1,198 @@
+---
+import Base from '../layouts/Base.astro';
+import { parts } from '../lib/graph.js';
+---
+<Base title="The Tree" current="tree" description="The full lineage graph: who initiated, taught, influenced or claimed whom.">
+<main class="wrap">
+  <div class="col">
+    <span class="label">Companion</span>
+    <h1 style="font-size:clamp(2.2rem,6vw,3.6rem);margin:.4rem 0">The Tree</h1>
+    <p>Every figure in the book and the traditions behind them. Lines run from teacher or influence to the person shaped by it. Tap a name to light up its ancestors and descendants; tap it again to open its page.</p>
+  </div>
+
+  <div class="tree-controls">
+    <label>Part
+      <select id="f-part">
+        <option value="all">All parts</option>
+        <option value="0">Roots</option>
+        {parts.map((p) => <option value={String(p.n)}>{p.n}. {p.title}</option>)}
+      </select>
+    </label>
+    <label>Evidence
+      <select id="f-ev">
+        <option value="all">All edges</option>
+        <option value="documented">Documented only</option>
+        <option value="nodoc">Testimony & legend only</option>
+      </select>
+    </label>
+    <label>Find
+      <input id="f-find" type="search" placeholder="e.g. Papaji" autocomplete="off">
+    </label>
+    <button id="f-reset" type="button">Reset view</button>
+  </div>
+
+  <div class="tree-shell">
+    <div id="cy" aria-label="Interactive lineage graph"></div>
+    <aside id="panel" class="tree-panel">
+      <span class="label">Selected</span>
+      <p id="panel-body">Tap any name.</p>
+    </aside>
+  </div>
+
+  <div class="legend" style="margin-top:.8rem">
+    <span><svg width="34" height="8" viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--indigo)" stroke-width="2"/></svg>influence, lineage, family</span>
+    <span><svg width="34" height="8" viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--flame)" stroke-width="2"/></svg>initiated / lived with</span>
+    <span><svg width="34" height="8" viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--muted)" stroke-width="2" stroke-dasharray="6 4"/></svg>testimony</span>
+    <span><svg width="34" height="8" viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--muted)" stroke-width="2" stroke-dasharray="1.5 4" stroke-linecap="round"/></svg>legendary / devotional</span>
+    <span>Box = has a chapter or profile · Plain text = on the tree only · Most edges outside Part 3 are drafts, to be verified chapter by chapter.</span>
+  </div>
+</main>
+
+<style>
+  .tree-controls{display:flex;flex-wrap:wrap;gap:.8rem 1.2rem;align-items:end;margin:1.5rem 0 .8rem;font-family:var(--f-mono);font-size:.75rem;color:var(--muted)}
+  .tree-controls label{display:flex;flex-direction:column;gap:.25rem}
+  .tree-controls select,.tree-controls input,.tree-controls button{font:inherit;font-size:.85rem;color:var(--ink);background:var(--paper);border:1px solid var(--rule);padding:.35rem .5rem;border-radius:2px}
+  .tree-controls button{cursor:pointer}
+  .tree-shell{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:1rem}
+  #cy{height:min(78vh,820px);background:var(--paper);border:1px solid var(--rule)}
+  .tree-panel{background:var(--paper);border:1px solid var(--rule);padding:1rem;font-size:.92rem;line-height:1.55;align-self:start}
+  .tree-panel ul{padding-left:1.1rem;margin:.3rem 0}
+  @media (max-width:820px){.tree-shell{grid-template-columns:1fr}#cy{height:70vh}}
+</style>
+
+<script>
+  import cytoscape from 'cytoscape';
+  import dagre from 'cytoscape-dagre';
+  import graph from '../data/graph.json';
+  import partsData from '../data/parts.json';
+  cytoscape.use(dagre);
+
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const personal = new Set(['initiated', 'lived-with', 'protected']);
+  const pageTiers = new Set(['chapter', 'profile', 'sidebar', 'node']);
+  const partName = Object.fromEntries(partsData.map((p) => [p.n, p.title]));
+  const life = (n) => n.era || (n.born && n.died ? `${n.born}–${n.died}` : n.born ? `b. ${n.born}` : n.died ? `d. ${n.died}` : '');
+
+  const elements = [
+    ...graph.nodes.map((n) => ({ data: { id: n.id, label: n.name, part: n.part, tier: n.tier, raw: n } })),
+    ...graph.edges.filter((e) => graph.nodes.find((n) => n.id === e.from) && graph.nodes.find((n) => n.id === e.to))
+      .map((e, i) => ({ data: { id: `e${i}`, source: e.from, target: e.to, type: e.type, evidence: e.evidence, raw: e } })),
+  ];
+
+  function styles() {
+    const ink = css('--ink'), muted = css('--muted'), paper = css('--paper'), rule = css('--rule'), flame = css('--flame'), indigo = css('--indigo');
+    return [
+      { selector: 'node', style: {
+        label: 'data(label)', 'font-family': 'Literata, Georgia, serif', 'font-size': 11, color: ink,
+        'text-valign': 'center', 'text-halign': 'center', 'text-wrap': 'wrap', 'text-max-width': 110,
+        shape: 'round-rectangle', width: 'label', height: 'label', padding: 7,
+        'background-color': paper, 'border-width': 1.5, 'border-color': (n) => css(`--p${n.data('part')}`) || rule,
+      } },
+      { selector: 'node[tier = "chapter"]', style: { 'font-size': 12.5, 'font-weight': 600, 'border-width': 3 } },
+      { selector: 'node[tier = "root"]', style: { 'background-color': css('--bg'), 'border-style': 'dashed', color: muted } },
+      { selector: 'node[tier = "node"]', style: { 'border-width': 0, 'background-opacity': 0, color: muted, 'font-size': 10 } },
+      { selector: 'edge', style: {
+        width: 1.4, 'curve-style': 'bezier', 'target-arrow-shape': 'triangle', 'arrow-scale': .7,
+        'line-color': (e) => (e.data('type') === 'claimed' ? muted : personal.has(e.data('type')) ? flame : indigo),
+        'target-arrow-color': (e) => (e.data('type') === 'claimed' ? muted : personal.has(e.data('type')) ? flame : indigo),
+        'line-style': (e) => (e.data('evidence') === 'documented' ? 'solid' : e.data('evidence') === 'testimony' ? 'dashed' : 'dotted'),
+        opacity: .85,
+      } },
+      { selector: '.faded', style: { opacity: .12 } },
+      { selector: '.hidden', style: { display: 'none' } },
+      { selector: 'node.focus', style: { 'background-color': css('--flame-soft'), 'border-color': flame, 'border-width': 3 } },
+      { selector: 'node.hit', style: { 'border-color': flame, 'border-width': 3 } },
+    ];
+  }
+
+  const cy = cytoscape({
+    container: document.getElementById('cy'),
+    elements, style: styles(), wheelSensitivity: .25, minZoom: .15, maxZoom: 2.5,
+    layout: { name: 'dagre', rankDir: 'TB', nodeSep: 18, rankSep: 55, edgeSep: 8 },
+  });
+
+  // Restyle when the theme changes.
+  const mo = new MutationObserver(() => cy.style(styles()));
+  mo.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => cy.style(styles()));
+
+  const panel = document.getElementById('panel-body');
+  let selected = null;
+
+  function show(node) {
+    const n = node.data('raw');
+    const ins = node.incomers('edge').map((e) => `${e.source().data('label')} <em>(${e.data('type')})</em>`);
+    const outs = node.outgoers('edge').map((e) => `${e.target().data('label')} <em>(${e.data('type')})</em>`);
+    const link = pageTiers.has(n.tier) ? `<p><a href="${base}/figures/${n.id}/">Open ${n.tier === 'node' ? 'entry' : 'chapter'} →</a></p>` : '';
+    panel.innerHTML = `<strong style="font-family:var(--f-display);font-size:1.1rem">${n.name}</strong><br>
+      <span style="color:var(--muted)">${life(n)}${n.part ? ` · Part ${n.part}: ${partName[n.part]}` : ' · Root tradition'}</span>
+      ${ins.length ? `<p style="margin:.6rem 0 0"><span class="label">Shaped by</span></p><ul>${ins.map((x) => `<li>${x}</li>`).join('')}</ul>` : ''}
+      ${outs.length ? `<p style="margin:.6rem 0 0"><span class="label">Shaped</span></p><ul>${outs.map((x) => `<li>${x}</li>`).join('')}</ul>` : ''}
+      ${link}`;
+  }
+
+  function focus(node) {
+    cy.elements().removeClass('faded focus');
+    const lineage = node.predecessors().union(node.successors()).union(node);
+    cy.elements().not(lineage).addClass('faded');
+    node.addClass('focus');
+    show(node);
+  }
+
+  cy.on('tap', 'node', (evt) => {
+    const node = evt.target;
+    if (selected === node.id() && pageTiers.has(node.data('tier'))) {
+      window.location.href = `${base}/figures/${node.id()}/`;
+      return;
+    }
+    selected = node.id();
+    focus(node);
+  });
+  cy.on('tap', (evt) => { if (evt.target === cy) { selected = null; cy.elements().removeClass('faded focus'); panel.textContent = 'Tap any name.'; } });
+
+  const fPart = document.getElementById('f-part');
+  const fEv = document.getElementById('f-ev');
+  const fFind = document.getElementById('f-find');
+
+  function applyFilters() {
+    const part = fPart.value, ev = fEv.value;
+    cy.batch(() => {
+      cy.elements().removeClass('hidden');
+      cy.edges().forEach((e) => {
+        const d = e.data('evidence');
+        if (ev === 'documented' && d !== 'documented') e.addClass('hidden');
+        if (ev === 'nodoc' && d === 'documented') e.addClass('hidden');
+      });
+      if (part !== 'all') {
+        const core = cy.nodes().filter((n) => String(n.data('part')) === part);
+        const keep = core.union(core.connectedEdges().not('.hidden').connectedNodes());
+        cy.nodes().not(keep).addClass('hidden');
+      }
+    });
+    const visible = cy.elements().not('.hidden');
+    visible.layout({ name: 'dagre', rankDir: 'TB', nodeSep: 18, rankSep: 55, fit: true, padding: 20 }).run();
+  }
+  fPart.addEventListener('change', applyFilters);
+  fEv.addEventListener('change', applyFilters);
+  fFind.addEventListener('input', () => {
+    const q = fFind.value.trim().toLowerCase();
+    cy.nodes().removeClass('hit');
+    if (!q) return;
+    const hits = cy.nodes().filter((n) => n.data('label').toLowerCase().includes(q) && !n.hasClass('hidden'));
+    hits.addClass('hit');
+    if (hits.length) cy.animate({ fit: { eles: hits, padding: 120 } }, { duration: 300 });
+    if (hits.length === 1) { selected = hits[0].id(); focus(hits[0]); }
+  });
+  document.getElementById('f-reset').addEventListener('click', () => {
+    fPart.value = 'all'; fEv.value = 'all'; fFind.value = ''; selected = null;
+    cy.elements().removeClass('faded focus hit'); panel.textContent = 'Tap any name.';
+    applyFilters();
+  });
+
+  // Deep links: #part-3 or #ramana-maharshi
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (h.startsWith('part-')) { fPart.value = h.slice(5); applyFilters(); }
+  else if (h && cy.getElementById(h).length) { const n = cy.getElementById(h); selected = h; focus(n); cy.fit(n.predecessors().union(n.successors()).union(n), 60); }
+</script>
+</Base>

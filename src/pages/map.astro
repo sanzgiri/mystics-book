@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import placesData from '../data/places.json';
+import { byId, figureHref } from '../lib/graph.js';
+const places = placesData.places.filter((p) => byId[p.figure]);
+---
+<Base title="Map" current="map" description="Birthplaces, ashrams and pilgrimage sites of the book's figures.">
+<main class="wrap">
+  <div class="col">
+    <span class="label">Companion</span>
+    <h1 style="font-size:clamp(2.2rem,6vw,3.6rem);margin:.4rem 0">Map</h1>
+    <p>Where it happened: birthplaces, caves, ashrams and the towns teachers made famous. Tap a marker for the story and a link to the chapter. Locations outside Part 3 are drafts and approximate.</p>
+  </div>
+  <div id="map" aria-label="Map of India with places from the book"></div>
+  <ul class="toc col" style="margin-top:1.5rem">
+    {places.map((p) => (
+      <li><span><a href={figureHref(p.figure)}>{p.name}</a> · {byId[p.figure].name}</span><span class="yrs">{p.what}</span></li>
+    ))}
+  </ul>
+</main>
+<style>
+  #map{height:min(75vh,760px);border:1px solid var(--rule);margin-top:1.5rem;background:var(--paper)}
+  .leaflet-popup-content{font-family:var(--f-body);font-size:.9rem}
+</style>
+<script>
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
+  import placesData from '../data/places.json';
+  import graph from '../data/graph.json';
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  const byId = Object.fromEntries(graph.nodes.map((n) => [n.id, n]));
+  const map = L.map('map', { scrollWheelZoom: false }).setView([21, 79], 5);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18, attribution: '&copy; OpenStreetMap contributors',
+  }).addTo(map);
+  const flame = getComputedStyle(document.documentElement).getPropertyValue('--flame').trim() || '#b8670a';
+  placesData.places.forEach((p) => {
+    const f = byId[p.figure];
+    if (!f) return;
+    L.circleMarker([p.lat, p.lon], { radius: 7, color: flame, weight: 2, fillColor: flame, fillOpacity: .55 })
+      .addTo(map)
+      .bindPopup(`<strong>${p.name}</strong><br>${p.what}<br><a href="${base}/figures/${f.id}/">${f.name} →</a>`);
+  });
+</script>
+</Base>

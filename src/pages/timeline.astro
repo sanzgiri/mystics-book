@@ -1,0 +1,66 @@
+---
+import Base from '../layouts/Base.astro';
+import { nodes, partByN, figureHref, lifespan } from '../lib/graph.js';
+
+const NOW = 2026;
+const people = nodes
+  .filter((n) => n.tier !== 'root' && (n.born || n.died))
+  .map((n) => ({ ...n, b: n.born ?? (n.died ? n.died - 60 : null), d: n.died ?? NOW, est: !n.born }))
+  .sort((a, b) => a.b - b.b);
+
+const events = [
+  [1835, "Macaulay's Minute on English education"],
+  [1857, 'Uprising against Company rule'],
+  [1893, "Parliament of the World's Religions, Chicago"],
+  [1947, 'Independence and Partition'],
+  [1965, 'US immigration reform opens the door to Indian teachers'],
+  [1968, 'The Beatles at Rishikesh'],
+];
+
+const X0 = 1770, X1 = NOW, L = 230, R = 30, W = 1120, ROW = 19, TOP = 70;
+const x = (y) => L + ((y - X0) / (X1 - X0)) * (W - L - R);
+const H = TOP + people.length * ROW + 30;
+const decades = []; for (let y = 1780; y <= 2020; y += 20) decades.push(y);
+---
+<Base title="Timeline" current="timeline" description="Every figure's life from 1772 to today, alongside the events that shaped them.">
+<main class="wrap">
+  <div class="col">
+    <span class="label">Companion</span>
+    <h1 style="font-size:clamp(2.2rem,6vw,3.6rem);margin:.4rem 0">Timeline</h1>
+    <p>Every figure's lifespan, colored by part, against a handful of events that changed the conversation. Bars that run to the right edge belong to living teachers. Names link to their pages.</p>
+  </div>
+  <div class="tl" role="region" aria-label="Timeline chart, scrolls sideways" tabindex="0">
+    <svg viewBox={`0 0 ${W} ${H}`} width={W} height={H} role="img" aria-label="Lifespans of the book's figures from 1772 to 2026">
+      {decades.map((y) => (
+        <g>
+          <line x1={x(y)} x2={x(y)} y1={TOP - 12} y2={H - 20} stroke="var(--rule)" stroke-width="1"/>
+          <text x={x(y)} y={H - 6} text-anchor="middle" font-family="var(--f-mono)" font-size="10" fill="var(--muted)">{y}</text>
+        </g>
+      ))}
+      {events.map(([y, label], i) => (
+        <g>
+          <line x1={x(y)} x2={x(y)} y1={14 + (i % 3) * 16} y2={H - 20} stroke="var(--flame)" stroke-width="1" stroke-dasharray="3 3" opacity=".7"/>
+          <text x={x(y) + 4} y={12 + (i % 3) * 16} font-family="var(--f-mono)" font-size="10" fill="var(--flame)">{y} · {label}</text>
+        </g>
+      ))}
+      {people.map((p, i) => {
+        const y = TOP + i * ROW;
+        return (
+          <a href={figureHref(p.id)}>
+            <title>{`${p.name}, ${lifespan(p)}${p.part ? ' · Part ' + p.part + ': ' + partByN[p.part].title : ''}`}</title>
+            <text x={x(p.b) - 6} y={y + 12} text-anchor="end" font-family="var(--f-body)" font-size="11.5" fill="var(--ink)" font-weight={p.tier === 'chapter' ? 600 : 400}>{p.name}</text>
+            <rect x={x(p.b)} y={y + 3} width={Math.max(3, x(p.d) - x(p.b))} height="11" rx="2" fill={`var(--p${p.part})`} opacity={p.tier === 'node' ? .45 : .9}/>
+            {p.est && <rect x={x(p.b)} y={y + 3} width={Math.max(3, x(p.d) - x(p.b))} height="11" rx="2" fill="var(--paper)" opacity=".5"/>}
+          </a>
+        );
+      })}
+    </svg>
+  </div>
+  <p class="col" style="color:var(--muted);font-size:.85rem;margin-top:.8rem">Where only a death year is known, the bar is faded and its start is an estimate. Figures with no known dates (legendary masters, institutions) appear on the tree but not here.</p>
+</main>
+<style>
+  .tl{overflow-x:auto;background:var(--paper);border:1px solid var(--rule);margin-top:1.5rem;padding:.5rem 0}
+  .tl svg{display:block}
+  .tl a:hover text{fill:var(--flame)}
+</style>
+</Base>
