@@ -22,7 +22,7 @@ Status: todo / running / written / checked / merged.
 | w01 | rammohan-roy (c) | | todo |
 | w02 | dayananda-saraswati (c) | | todo |
 | w03 | debendranath-tagore, keshab-chandra-sen, jyotirao-phule (s) | reason | todo |
-| w04 | ramakrishna (c) | | running |
+| w04 | ramakrishna (c) | | checking |
 | w05 | vivekananda (c) | | checking |
 | w06 | chandrasekharendra-saraswati (c) | | todo |
 | w07 | sarada-devi, rama-tirtha, sarvapriyananda | neo-vedanta | todo |
