@@ -34,26 +34,37 @@ Status: todo / running / written / checked / merged.
 | w13 | sivananda (c) | | todo |
 | w14 | maharishi (c) | | todo |
 | w15 | sadhguru (c) | | todo |
-| w16 | yukteswar, kuvalayananda, satyananda, swami-rama | | todo |
-| w17 | iyengar, pattabhi-jois, vethathiri, sri-m | technique | todo |
 | w18 | muktananda (c) | | todo |
-| w19 | bamakhepa, shri-mataji, pr-sarkar | shakti | todo |
 | w20 | prabhupada (c) | | todo |
 | w21 | amma (c) | | todo |
-| w22 | bhaktivinoda, bhaktisiddhanta, shastriji-pramukh | grace | todo |
-| w23 | papa-ramdas, neem-karoli-baba, premanand-maharaj | | todo |
 | w24 | meher-baba (c) | | todo |
-| w25 | upasni-maharaj; ug-krishnamurti, periyar (s) | across-the-line, against-authority | todo |
 | w26 | inayat-khan (c) | | todo |
-| w27 | kirpal-singh, ram-singh-namdhari, vallalar | sound-and-light | todo |
-| w28 | ayya-vaikundar, lalaji-babuji | | todo |
-| w29 | rajchandra, vinoba, kanji-swami | conduct | todo |
-| w30 | tulsi-mahapragya, dada-bhagwan, dharmapala, dipa-ma | | todo |
 | w31 | ambedkar (c) | buddha-returns | todo |
 | w32 | osho (c) | | todo |
 | w33 | sathya-sai-baba (c) | | todo |
 | w34 | dada-lekhraj, sri-chinmoy | new-revelations (incl. godman essay) | todo |
 | w35 | kalki-bhagavan, nithyananda, dhirendra-shastri | | todo |
+| o16 | satyananda, swami-rama, pattabhi-jois | | todo |
+| o17 | sri-m | technique | todo |
+| o19 | shri-mataji, pr-sarkar | shakti | todo |
+| o22 | premanand-maharaj | grace | todo |
+| o25 | periyar (s) | across-the-line, against-authority | todo |
+| o27 | ram-singh-namdhari | sound-and-light | todo |
+| o29 | dharmapala | conduct | todo |
+
+## Low-risk profiles: writer on Sonnet, fact-checker on Opus
+
+Historical figures with no live legal or sensitive controversy. Writer agents use `model: sonnet`; their fact-check stays on Opus, so accuracy review is unchanged.
+
+| Unit | Entries | Status |
+|---|---|---|
+| s01 | yukteswar, kuvalayananda, iyengar, vethathiri | todo |
+| s02 | bamakhepa, papa-ramdas, neem-karoli-baba | todo |
+| s03 | bhaktivinoda, bhaktisiddhanta, shastriji-pramukh | todo |
+| s04 | upasni-maharaj, ug-krishnamurti, vallalar | todo |
+| s05 | kirpal-singh, ayya-vaikundar, lalaji-babuji | todo |
+| s06 | rajchandra, vinoba, kanji-swami | todo |
+| s07 | tulsi-mahapragya, dada-bhagwan, dipa-ma | todo |
 
 ## After all units
 
