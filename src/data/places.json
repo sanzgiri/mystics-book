@@ -547,7 +547,7 @@
    "lat": 27.49,
    "lon": 77.67,
    "figure": "dayananda-saraswati",
-   "what": "Study with Virjananda, c. 1860–1863",
+   "what": "Study with Virjananda, c. 1860–1863 (arrival 1859 or 1860 in different sources)",
    "verified": true
   },
   {
@@ -555,7 +555,7 @@
    "lat": 25.31,
    "lon": 83.0,
    "figure": "dayananda-saraswati",
-   "what": "Kashi shastrartha on image worship, 16 November 1869 (city-level coordinates)",
+   "what": "Kashi shastrartha on image worship, 16 November 1869 (Sarda; some secondary sources give 22 October) (city-level coordinates)",
    "verified": false
   },
   {
@@ -576,11 +576,11 @@
   },
   {
    "name": "Navlakha Mahal, Udaipur",
-   "lat": 24.58,
-   "lon": 73.68,
+   "lat": 24.571,
+   "lon": 73.693,
    "figure": "dayananda-saraswati",
-   "what": "Revision of Satyarth Prakash, 1882–83 (city-level coordinates)",
-   "verified": false
+   "what": "Revision of Satyarth Prakash, 1882–83 (Navlakha Mahal stands in Gulab Bagh)",
+   "verified": true
   },
   {
    "name": "Ajmer",
@@ -700,6 +700,46 @@
    "lon": 76.43,
    "figure": "shirdi-sai-baba",
    "what": "Claimed birthplace; Sai Janmasthan temple (1999)",
+   "verified": true
+  },
+  {
+   "name": "Jayrambati",
+   "lat": 22.95,
+   "lon": 87.62,
+   "figure": "sarada-devi",
+   "what": "Birthplace, 1853; her home village for much of her life",
+   "verified": true
+  },
+  {
+   "name": "Udbodhan (Mayer Bari), Baghbazar, Kolkata",
+   "lat": 22.601,
+   "lon": 88.366,
+   "figure": "sarada-devi",
+   "what": "Her Calcutta home from 23 May 1909 until her death in 1920",
+   "verified": true
+  },
+  {
+   "name": "Gujranwala",
+   "lat": 32.16,
+   "lon": 74.19,
+   "figure": "rama-tirtha",
+   "what": "Born at Muraliwala, a village near Gujranwala, 1873",
+   "verified": true
+  },
+  {
+   "name": "Forman Christian College, Lahore",
+   "lat": 31.522,
+   "lon": 74.334,
+   "figure": "rama-tirtha",
+   "what": "Studied and later taught mathematics",
+   "verified": true
+  },
+  {
+   "name": "Vedanta Society of New York",
+   "lat": 40.776,
+   "lon": -73.979,
+   "figure": "sarvapriyananda",
+   "what": "Minister and spiritual leader since January 2017",
    "verified": true
   }
  ]

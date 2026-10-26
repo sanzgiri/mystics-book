@@ -1,46 +1,254 @@
 {
   "batch": "w02",
   "nodes_add": [
-    {"id": "virjananda", "name": "Swami Virjananda (Virajanand Dandeesha)", "born": 1778, "died": 1868, "part": 1, "tier": "node", "kind": "person", "note": "Blind Sanskrit grammarian of Mathura; taught Dayananda c. 1860–1863; divided books into arsha (true) and anarsha (later, corrupt)"},
-    {"id": "vedic-samhitas", "name": "The Vedic Samhitas", "part": 0, "tier": "root", "kind": "tradition", "note": "The four collections of Vedic hymns and formulas (Rig, Yajur, Sama, Atharva); the only scripture Dayananda held self-authoritative"},
-    {"id": "shraddhananda", "name": "Swami Shraddhananda (Munshi Ram)", "born": 1856, "died": 1926, "part": 1, "tier": "node", "kind": "person", "note": "Arya Samaj leader; founded Gurukul Kangri (1902); led shuddhi campaign in the 1920s"},
-    {"id": "arya-samaj", "name": "Arya Samaj", "part": 1, "tier": "node", "kind": "institution", "note": "Founded by Dayananda in Bombay, 10 April 1875; ten principles settled at Lahore, 1877"}
+    {
+      "id": "virjananda",
+      "name": "Swami Virjananda (Virajanand Dandeesha)",
+      "born": 1778,
+      "died": 1868,
+      "part": 1,
+      "tier": "node",
+      "kind": "person",
+      "note": "Blind Sanskrit grammarian of Mathura; taught Dayananda c. 1860–1863; divided books into arsha (true) and anarsha (later, corrupt)"
+    },
+    {
+      "id": "vedic-samhitas",
+      "name": "The Vedic Samhitas",
+      "part": 0,
+      "tier": "root",
+      "kind": "tradition",
+      "note": "The four collections of Vedic hymns and formulas (Rig, Yajur, Sama, Atharva); the only scripture Dayananda held self-authoritative"
+    },
+    {
+      "id": "shraddhananda",
+      "name": "Swami Shraddhananda (Munshi Ram)",
+      "born": 1856,
+      "died": 1926,
+      "part": 1,
+      "tier": "node",
+      "kind": "person",
+      "note": "Arya Samaj leader; founded Gurukul Kangri (1902); led shuddhi campaign in the 1920s"
+    },
+    {
+      "id": "arya-samaj",
+      "name": "Arya Samaj",
+      "part": 1,
+      "tier": "node",
+      "kind": "institution",
+      "note": "Founded by Dayananda in Bombay, 10 April 1875; ten principles settled at Lahore, 1877"
+    }
   ],
   "nodes_update": [
-    {"id": "dayananda-saraswati", "born": 1824, "died": 1883, "name": "Dayananda Saraswati", "note": "Arya Samaj founder; born Mul Shankar at Tankara; four Vedic Samhitas as sole self-evident revelation; not Swami Dayananda of Arsha Vidya"}
+    {
+      "id": "dayananda-saraswati",
+      "born": 1824,
+      "died": 1883,
+      "name": "Dayananda Saraswati",
+      "note": "Arya Samaj founder; born Mul Shankar at Tankara; four Vedic Samhitas as sole self-evident revelation; not Swami Dayananda of Arsha Vidya"
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "vedic-samhitas", "to": "dayananda-saraswati", "type": "influenced", "evidence": "documented", "verified": true, "note": "The four Vedas 'absolutely free from error, and an authority unto themselves' (statement of beliefs in Satyarth Prakash)"},
-    {"from": "upanishads", "to": "dayananda-saraswati", "type": "influenced", "evidence": "documented", "verified": true, "note": "Demoted to secondary authority: accepted only where they agree with the Samhitas"},
-    {"from": "virjananda", "to": "dayananda-saraswati", "type": "lineage", "evidence": "documented", "verified": true, "year": 1860, "note": "Studied grammar and Vedas with him in Mathura c. 1860–1863; vowed to spread Vedic knowledge as guru-dakshina"},
-    {"from": "advaita-vedanta", "to": "dayananda-saraswati", "type": "reacted-against", "evidence": "documented", "verified": true, "note": "Took sannyasa in the Saraswati (Dashanami) order, then rejected Advaita: God and soul 'two distinct entities'; Satyarth Prakash ch. 8–9"},
-    {"from": "keshab-chandra-sen", "to": "dayananda-saraswati", "type": "influenced", "evidence": "documented", "verified": true, "year": 1873, "note": "Met in Calcutta, Dec 1872–Apr 1873; advised him to lecture in Hindi, which he did thereafter"},
-    {"from": "debendranath-tagore", "to": "dayananda-saraswati", "type": "reacted-against", "evidence": "documented", "verified": true, "year": 1872, "note": "Met in Calcutta 1872–73; Dayananda rejected the Brahmo abandonment of Vedic infallibility"},
-    {"from": "dayananda-saraswati", "to": "arya-samaj", "type": "institutional", "evidence": "documented", "verified": true, "year": 1875, "note": "Founded in Bombay, 10 April 1875"},
-    {"from": "dayananda-saraswati", "to": "shraddhananda", "type": "influenced", "evidence": "documented", "verified": true, "note": "Arya Samaj leader of the Gurukul party; Gurukul Kangri 1902"},
-    {"from": "dayananda-saraswati", "to": "aurobindo", "type": "influenced", "evidence": "documented", "verified": true, "note": "Aurobindo's essay 'Dayananda and the Veda' calls him 'the first discoverer of the right clues'; sympathetic but independent Vedic interpretation"},
-    {"from": "dayananda-saraswati", "to": "ramdev", "type": "influenced", "evidence": "documented", "verified": true, "note": "Reading Satyarth Prakash led him to Arya Samaj gurukul education"}
+    {
+      "from": "vedic-samhitas",
+      "to": "dayananda-saraswati",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "The four Vedas 'absolutely free from error, and an authority unto themselves' (statement of beliefs in Satyarth Prakash)"
+    },
+    {
+      "from": "upanishads",
+      "to": "dayananda-saraswati",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Demoted to secondary authority: accepted only where they agree with the Samhitas"
+    },
+    {
+      "from": "virjananda",
+      "to": "dayananda-saraswati",
+      "type": "lineage",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1860,
+      "note": "Studied grammar and Vedas with him in Mathura c. 1860–1863; vowed to spread Vedic knowledge as guru-dakshina"
+    },
+    {
+      "from": "advaita-vedanta",
+      "to": "dayananda-saraswati",
+      "type": "reacted-against",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Took sannyasa in the Saraswati (Dashanami) order, then rejected Advaita: God and soul 'two distinct entities'; Satyarth Prakash ch. 8–9"
+    },
+    {
+      "from": "keshab-chandra-sen",
+      "to": "dayananda-saraswati",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1873,
+      "note": "Met in Calcutta, Dec 1872–Apr 1873; advised him to lecture in Hindi, which he did thereafter"
+    },
+    {
+      "from": "debendranath-tagore",
+      "to": "dayananda-saraswati",
+      "type": "reacted-against",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1872,
+      "note": "Met in Calcutta 1872–73; Dayananda rejected the Brahmo abandonment of Vedic infallibility"
+    },
+    {
+      "from": "dayananda-saraswati",
+      "to": "arya-samaj",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1875,
+      "note": "Founded in Bombay, 10 April 1875"
+    },
+    {
+      "from": "dayananda-saraswati",
+      "to": "shraddhananda",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Arya Samaj leader of the Gurukul party after the 1892–93 split; Gurukul Kangri 1902"
+    },
+    {
+      "from": "dayananda-saraswati",
+      "to": "aurobindo",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Aurobindo's essay 'Dayananda and the Veda' calls him 'the first discoverer of the right clues'; sympathetic but independent Vedic interpretation"
+    },
+    {
+      "from": "dayananda-saraswati",
+      "to": "ramdev",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Reading Satyarth Prakash led him to Arya Samaj gurukul education"
+    }
   ],
   "places": [
-    {"name": "Tankara", "lat": 22.656, "lon": 70.749, "figure": "dayananda-saraswati", "what": "Birthplace (1824); the Shivaratri vigil", "verified": true},
-    {"name": "Chanod (Chandod), Narmada", "lat": 21.98, "lon": 73.46, "figure": "dayananda-saraswati", "what": "Initiation as a sannyasi, late 1840s", "verified": false},
-    {"name": "Mathura", "lat": 27.49, "lon": 77.67, "figure": "dayananda-saraswati", "what": "Study with Virjananda, c. 1860–1863", "verified": true},
-    {"name": "Anand Bagh, Varanasi", "lat": 25.31, "lon": 83.0, "figure": "dayananda-saraswati", "what": "Kashi shastrartha on image worship, 16 November 1869 (city-level coordinates)", "verified": false},
-    {"name": "Girgaon, Bombay", "lat": 18.955, "lon": 72.815, "figure": "dayananda-saraswati", "what": "First Arya Samaj founded, 10 April 1875", "verified": false},
-    {"name": "Lahore", "lat": 31.55, "lon": 74.34, "figure": "dayananda-saraswati", "what": "Ten principles settled, 1877", "verified": true},
-    {"name": "Navlakha Mahal, Udaipur", "lat": 24.58, "lon": 73.68, "figure": "dayananda-saraswati", "what": "Revision of Satyarth Prakash, 1882–83 (city-level coordinates)", "verified": false},
-    {"name": "Ajmer", "lat": 26.45, "lon": 74.64, "figure": "dayananda-saraswati", "what": "Death at the Bhinai House, 30 October 1883", "verified": true}
+    {
+      "name": "Tankara",
+      "lat": 22.656,
+      "lon": 70.749,
+      "figure": "dayananda-saraswati",
+      "what": "Birthplace (1824); the Shivaratri vigil",
+      "verified": true
+    },
+    {
+      "name": "Chanod (Chandod), Narmada",
+      "lat": 21.98,
+      "lon": 73.46,
+      "figure": "dayananda-saraswati",
+      "what": "Initiation as a sannyasi, late 1840s",
+      "verified": false
+    },
+    {
+      "name": "Mathura",
+      "lat": 27.49,
+      "lon": 77.67,
+      "figure": "dayananda-saraswati",
+      "what": "Study with Virjananda, c. 1860–1863 (arrival 1859 or 1860 in different sources)",
+      "verified": true
+    },
+    {
+      "name": "Anand Bagh, Varanasi",
+      "lat": 25.31,
+      "lon": 83.0,
+      "figure": "dayananda-saraswati",
+      "what": "Kashi shastrartha on image worship, 16 November 1869 (Sarda; some secondary sources give 22 October) (city-level coordinates)",
+      "verified": false
+    },
+    {
+      "name": "Girgaon, Bombay",
+      "lat": 18.955,
+      "lon": 72.815,
+      "figure": "dayananda-saraswati",
+      "what": "First Arya Samaj founded, 10 April 1875",
+      "verified": false
+    },
+    {
+      "name": "Lahore",
+      "lat": 31.55,
+      "lon": 74.34,
+      "figure": "dayananda-saraswati",
+      "what": "Ten principles settled, 1877",
+      "verified": true
+    },
+    {
+      "name": "Navlakha Mahal, Udaipur",
+      "lat": 24.571,
+      "lon": 73.693,
+      "figure": "dayananda-saraswati",
+      "what": "Revision of Satyarth Prakash, 1882–83 (Navlakha Mahal stands in Gulab Bagh)",
+      "verified": true
+    },
+    {
+      "name": "Ajmer",
+      "lat": 26.45,
+      "lon": 74.64,
+      "figure": "dayananda-saraswati",
+      "what": "Death at the Bhinai House, 30 October 1883",
+      "verified": true
+    }
   ],
   "glossary": [
-    {"term": "Samhita", "script": "संहिता", "lang": "sa", "def": "'Collection.' The four core collections of Vedic hymns and formulas: Rig, Yajur, Sama and Atharva."},
-    {"term": "Shastrartha", "script": "शास्त्रार्थ", "lang": "sa", "def": "A formal public debate on the meaning of scripture between learned opponents, often before a ruler or assembly."},
-    {"term": "Traitavada", "script": "त्रैतवाद", "lang": "sa", "def": "Dayananda's doctrine of three eternal realities: God, individual souls and primal matter (prakriti)."},
-    {"term": "Murti puja", "script": "मूर्तिपूजा", "lang": "sa", "def": "Worship of God through a consecrated image."},
-    {"term": "Arsha", "script": "आर्ष", "lang": "sa", "def": "'Of the rishis.' Texts held to come from the ancient seers, as against later works by ordinary authors (anarsha)."},
-    {"term": "Havan", "script": "हवन", "lang": "hi", "def": "A fire offering of ghee and fragrant materials with Vedic chanting; also called agnihotra or homa."},
-    {"term": "Niyoga", "script": "नियोग", "lang": "sa", "def": "An ancient rule allowing a widow or childless wife to have children by an appointed man."},
-    {"term": "Shuddhi", "script": "शुद्धि", "lang": "sa", "def": "'Purification.' An Arya Samaj rite and campaign to bring converts to other religions into Hinduism."}
+    {
+      "term": "Samhita",
+      "script": "संहिता",
+      "lang": "sa",
+      "def": "'Collection.' The four core collections of Vedic hymns and formulas: Rig, Yajur, Sama and Atharva."
+    },
+    {
+      "term": "Shastrartha",
+      "script": "शास्त्रार्थ",
+      "lang": "sa",
+      "def": "A formal public debate on the meaning of scripture between learned opponents, often before a ruler or assembly."
+    },
+    {
+      "term": "Traitavada",
+      "script": "त्रैतवाद",
+      "lang": "sa",
+      "def": "Dayananda's doctrine of three eternal realities: God, individual souls and primal matter (prakriti)."
+    },
+    {
+      "term": "Murti puja",
+      "script": "मूर्तिपूजा",
+      "lang": "sa",
+      "def": "Worship of God through a consecrated image."
+    },
+    {
+      "term": "Arsha",
+      "script": "आर्ष",
+      "lang": "sa",
+      "def": "'Of the rishis.' Texts held to come from the ancient seers, as against later works by ordinary authors (anarsha)."
+    },
+    {
+      "term": "Havan",
+      "script": "हवन",
+      "lang": "hi",
+      "def": "A fire offering of ghee and fragrant materials with Vedic chanting; also called agnihotra or homa."
+    },
+    {
+      "term": "Niyoga",
+      "script": "नियोग",
+      "lang": "sa",
+      "def": "An ancient rule allowing a widow or childless wife to have children by an appointed man."
+    },
+    {
+      "term": "Shuddhi",
+      "script": "शुद्धि",
+      "lang": "sa",
+      "def": "'Purification.' An Arya Samaj rite and campaign to bring converts to other religions into Hinduism."
+    }
   ],
   "art": [],
   "issues": [
@@ -52,7 +260,11 @@
     "dayananda-saraswati.mdx: Gurukul Kangri 1902, DAV Lahore, Munshi Ram = Shraddhananda, and the 1893 split stated from general knowledge plus Wikipedia (Arya Samaj) mention of 1893 vegetarian split; not separately fetched.",
     "dayananda-saraswati.mdx: Gandhi's often-cited 1924 Young India criticism of Satyarth Prakash could not be verified verbatim; left out.",
     "dayananda-saraswati.mdx: Kenneth W. Jones, Arya Dharm (1976) and Jordens (1978) cited from knowledge/search catalog entries, not opened.",
-    "Places for Chanod, Anand Bagh, Girgaon and Navlakha Mahal are approximate (verified:false)."
+    "Places for Chanod, Anand Bagh, Girgaon and Navlakha Mahal are approximate (verified:false).",
+    "dayananda-saraswati.mdx: sannyasa initiator is Purnananda Saraswati in most accounts (e.g. Daily Pioneer 2013, Arya Samaj sites) but Parmanand Saraswati in Sarda's Life; text now gives both. Jordens not consulted.",
+    "dayananda-saraswati.mdx: Sarda's footnote converts his birth to 15 September 1824 (Aswin, S. 1881), a third value besides 12 Feb 1824 and 1825. Author may wish to mention it.",
+    "dayananda-saraswati.mdx: Gandhi's 1924 Young India criticism of Satyarth Prakash still not verified verbatim (CWMG not reachable); it would strengthen the critiques section if a checked quotation can be added.",
+    "dayananda-saraswati.mdx: that the 1944 Sind ban turned on chapter 14 rests on S. Chandra, The Case of Satyarth Prakash in Sind (1947) catalog keywords and general accounts; the order's text was not seen."
   ],
   "sources": {
     "dayananda-saraswati": [
@@ -77,6 +289,27 @@
       "Virjananda b. 1778 Kartarpur, d. 14 Sept 1868, blind from smallpox at five, Mathura pathshala, no fees; told Dayananda to throw Kaumudi into Yamuna -> https://en.wikipedia.org/wiki/Virajanand_Dandeesha",
       "Satyarth Prakash English scan -> https://archive.org/details/satyarthprakashl00dayauoft",
       "Salmond, Hindu Iconoclasts (2004) catalog -> https://biblioteca.izt.uam.mx/vufind/Record/musev2_12241"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 68,
+    "changes": [
+      "dayananda-saraswati.mdx: sannyasa guru now 'usually named as Purnananda Saraswati (Har Bilas Sarda's biography gives Parmanand)'; glance adds c. 1848 and 'usually by Purnananda' (Sarda epub; dailypioneer.com 2013, initiated at 24)",
+      "dayananda-saraswati.mdx: Mathura arrival hedged to '1860, or in 1859 by some accounts' (Sarda preface 1860 vs chapter outline May 1859)",
+      "dayananda-saraswati.mdx: removed 'evening of' for the death; Wikipedia says morning of Diwali, Arya accounts evening (Wikipedia Dayananda Saraswati; Sarda)",
+      "dayananda-saraswati.mdx: Arya Samaj split date changed from 1893 to 1892–93 (Wikipedia Arya Samaj gives 1893; Wikipedia Shraddhanand gives 1892)",
+      "dayananda-saraswati.mdx: 'Polemics' paragraph rebalanced: chapter 11's criticism of Hindu sects now listed with the others; objection by followers of those faiths stated; added Sanaullah Amritsari's Haq Prakash reply (Wikipedia Sanaullah Amritsari) and the Sikh reformers' break with the Lahore Samaj over remarks on the Gurus (Wikipedia Jawahir Singh Kapur; SikhiWiki Dit Singh; Wikipedia Arya Samaj on Singh Sabha opposition)",
+      "dayananda-saraswati.mdx: Sind ban now attributed to the Muslim League government under Defence of India Rules, with Gandhi's and Nehru's opposition (Nehru to G. S. Gupta, 5 Oct 1945; Wikipedia Satyarth Prakash; Google Books, S. Chandra 1947); 'ban was not lifted' softened to 'reported to remain in force'",
+      "dayananda-saraswati.mdx: added Dayananda's stated aim 'chief aim in writing this book is to unfold the truth' as the response (Light of Truth introduction, aryagan.org PDF)",
+      "dayananda-saraswati.mdx: added references 16–19 for the new statements",
+      "w02.json: Navlakha Mahal coordinates set to Gulab Bagh (24.571, 73.693) and verified (Wikipedia Gulab Bagh and Zoo); Mathura and Anand Bagh notes record the date conflicts; Shraddhananda edge note gives 1892–93"
+    ],
+    "unresolved": [
+      "Gandhi's 1924 Young India remarks on the Satyarth Prakash not verified verbatim; left out",
+      "Birth date: 12 Feb 1824 (standard), VS 1881/1825 (aryasamaj.com), 15 Sept 1824 (Sarda footnote); text hedges 1824/1825 only",
+      "Chapter-14 basis of the Sind ban not confirmed from the order itself",
+      "Jordens (1978) and Jones (Arya Dharm, UC Press, Berkeley, 1976) confirmed as real publications from catalogs but not opened; Jordens not used to settle the sannyasa guru",
+      "Kashi debate date: 16 Nov 1869 is supported by Sarda and by Wikipedia 'Shastrartha' (citing Dalmia/Jordens); 22 Oct appears only in Wikipedia 'Dayananda Saraswati'. Text keeps both; author may prefer 16 Nov alone"
     ]
   }
 }

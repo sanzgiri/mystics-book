@@ -228,7 +228,8 @@
    "died": 1920,
    "part": 2,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Saradamani Mukhopadhyay of Jayrambati; Ramakrishna's wife and first disciple; the Holy Mother; died 20 or 21 July 1920"
   },
   {
    "id": "rama-tirtha",
@@ -237,7 +238,8 @@
    "died": 1906,
    "part": 2,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Tirath Ram Goswami; Lahore mathematics teacher; lectured in Japan and the USA 1902–1904; drowned in the Ganga 17 October 1906"
   },
   {
    "id": "chattampi-swamikal",
@@ -282,7 +284,8 @@
    "part": 2,
    "tier": "profile",
    "kind": "person",
-   "note": "Ramakrishna Order; Vedanta Society of New York"
+   "note": "Biswarup Mitra; Ramakrishna Order (joined 1994); minister of the Vedanta Society of New York since January 2017",
+   "born": 1971
   },
   {
    "id": "acharya-prashant",
@@ -1674,6 +1677,34 @@
    "tier": "node",
    "kind": "person",
    "note": "Promoter of Shirdi Sai Baba's worship from 1936; founded the All India Sai Samaj (1940); never met him"
+  },
+  {
+   "id": "saradananda",
+   "name": "Swami Saradananda",
+   "born": 1865,
+   "died": 1927,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Ramakrishna's disciple; Sarada Devi's guardian; built the Udbodhan house (she moved in 23 May 1909)"
+  },
+  {
+   "id": "madhava-tirtha",
+   "name": "Swami Madhava Tirtha",
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Of the Dwarka Math; inspired Tirath Ram's study of Vedanta in Lahore"
+  },
+  {
+   "id": "puran-singh",
+   "name": "Puran Singh",
+   "born": 1881,
+   "died": 1931,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Punjabi poet; met Rama Tirtha in Tokyo, September 1902; his biographer and editor"
   }
  ],
  "edges": [
@@ -1766,7 +1797,7 @@
    "type": "family",
    "evidence": "testimony",
    "verified": true,
-   "note": "His mother's brother"
+   "note": "His sister's son"
   },
   {
    "from": "upanishads",
@@ -1866,7 +1897,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1859,
-   "note": "Married 1859, never consummated; also his first disciple; Shodashi puja 1872"
+   "note": "Married 1859 when she was about five; never consummated; worshipped her as Shodashi 1872; the order counts her his first disciple"
   },
   {
    "from": "vivekananda",
@@ -1882,9 +1913,9 @@
    "to": "rama-tirtha",
    "type": "influenced",
    "evidence": "testimony",
-   "verified": false,
-   "note": "Rama Tirtha met Vivekananda in Lahore in 1897 and later credited the meeting as an inspiration for his renunciation (1899); sourced to Wikipedia only, Rama Tirtha writer to confirm.",
-   "year": 1897
+   "verified": true,
+   "year": 1897,
+   "note": "Vivekananda lectured in Lahore, 9 and 12 November 1897; Tirath Ram helped arrange the visit (gold watch anecdote); Puran Singh treats it as the turn toward renunciation"
   },
   {
    "from": "advaita-vedanta",
@@ -2324,7 +2355,7 @@
    "type": "institutional",
    "evidence": "documented",
    "verified": true,
-   "note": "Ramakrishna Order; Vedanta Society of New York, founded by Vivekananda in 1894."
+   "note": "Ramakrishna Order (joined 1994); Vedanta Society of New York, founded by Vivekananda in 1894, which he has led since January 2017"
   },
   {
    "from": "advaita-vedanta",
@@ -2988,7 +3019,7 @@
    "type": "influenced",
    "evidence": "documented",
    "verified": true,
-   "note": "Arya Samaj leader of the Gurukul party; Gurukul Kangri 1902"
+   "note": "Arya Samaj leader of the Gurukul party after the 1892–93 split; Gurukul Kangri 1902"
   },
   {
    "from": "dayananda-saraswati",
@@ -3123,6 +3154,49 @@
    "verified": true,
    "year": 1936,
    "note": "Posthumous; promoted his worship in south India"
+  },
+  {
+   "from": "sarada-devi",
+   "to": "saradananda",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1909,
+   "note": "Her attendant and guardian for decades; built the Udbodhan house, where she lived from 23 May 1909"
+  },
+  {
+   "from": "sarada-devi",
+   "to": "nivedita",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1898,
+   "note": "Received Nivedita in 1898; close relationship"
+  },
+  {
+   "from": "madhava-tirtha",
+   "to": "rama-tirtha",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Inspired his study of Vedanta while he taught in Lahore (Wikipedia; Divine Life Society)"
+  },
+  {
+   "from": "rama-tirtha",
+   "to": "puran-singh",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1902,
+   "note": "Met in Tokyo, September 1902; Puran took sannyas under his influence for a time; wrote The Story of Swami Rama (1924)"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "sarvapriyananda",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Teaches Shankara's Advaita from the commentaries"
   }
  ]
 }
