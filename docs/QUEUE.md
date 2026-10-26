@@ -29,7 +29,7 @@ Status: todo / running / written / checked / merged.
 | w08 | radhakrishnan, chinmayananda, dayananda-arsha, acharya-prashant | | merged |
 | w09 | aurobindo (c) | | merged |
 | w10 | rabindranath-tagore, iqbal, kc-bhattacharya, gopi-krishna | integral | written (needs fact check) |
-| w11 | lahiri-mahasaya (c) | | running |
+| w11 | lahiri-mahasaya (c) | | written (needs fact check) |
 | w12 | yogananda (c) | | running |
 | w13 | sivananda (c) | | todo |
 | w14 | maharishi (c) | | todo |

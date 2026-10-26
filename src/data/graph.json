@@ -585,7 +585,8 @@
    "died": 1895,
    "part": 5,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Shyama Charan Lahiri, b. 30 Sept 1828 Ghurni, Nadia; d. 26 Sept 1895 Benares. Clerk/accountant, Military Engineering Department 1851-1886; Kriya Yoga for householders from 1861"
   },
   {
    "id": "yogananda",
@@ -718,7 +719,7 @@
    "part": 5,
    "tier": "node",
    "kind": "symbolic",
-   "note": "Known only through disciples' accounts"
+   "note": "Known only through the accounts of Lahiri Mahasaya, his disciples and Yogananda; met Lahiri near Ranikhet in 1861 by Lahiri's account"
   },
   {
    "id": "trailanga-swami",
@@ -1912,6 +1913,24 @@
    "tier": "node",
    "kind": "person",
    "note": "Philosopher; son of K. C. Bhattacharyya"
+  },
+  {
+   "id": "panchanan-bhattacharya",
+   "name": "Panchanan Bhattacharya",
+   "born": 1853,
+   "died": 1919,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Lahiri Mahasaya; first authorised to initiate others; founded the Arya Mission Institution, Calcutta, c. 1885 or 1886"
+  },
+  {
+   "id": "keshavananda-brahmachari",
+   "name": "Keshavananda Brahmachari (Keshabananda)",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Kriya disciple of Lahiri Mahasaya; ashram (Katyayani Peeth) at Vrindavan. Wikipedia gives 1830-1942; dates rest on devotional sources, so omitted"
   }
  ],
  "edges": [
@@ -2223,13 +2242,19 @@
    "from": "babaji",
    "to": "lahiri-mahasaya",
    "type": "initiated",
-   "evidence": "hagiographic"
+   "evidence": "hagiographic",
+   "verified": true,
+   "year": 1861,
+   "note": "Lahiri's account as reported by disciples and by Yogananda (Autobiography of a Yogi, ch. 34, 1946); no evidence outside the lineage"
   },
   {
    "from": "lahiri-mahasaya",
    "to": "yukteswar",
    "type": "initiated",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1884,
+   "note": "Initiated into Kriya Yoga 1884; visited Lahiri often in Benares"
   },
   {
    "from": "yukteswar",
@@ -3808,6 +3833,38 @@
    "verified": true,
    "year": 1937,
    "note": "The tantric kundalini map (channels, crown lotus) frames his account of the 1937 awakening; no guru"
+  },
+  {
+   "from": "lahiri-mahasaya",
+   "to": "panchanan-bhattacharya",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Required to give up sannyasa and return to household life before initiation; later authorised to found the Arya Mission Institution, Calcutta (c. 1885/1886)"
+  },
+  {
+   "from": "lahiri-mahasaya",
+   "to": "keshavananda-brahmachari",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Initiated by Lahiri; reported meeting Babaji near Badrinath (Yogananda)"
+  },
+  {
+   "from": "lahiri-mahasaya",
+   "to": "yogananda",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Initiated Yogananda's parents; blessed the infant ('Little mother, thy son will be a yogi', per YSS). Died 1895 when Yogananda was under three; training came through Yukteswar"
+  },
+  {
+   "from": "yoga-nath",
+   "to": "lahiri-mahasaya",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Kriya's components (khechari mudra, mahamudra, yoni mudra, pranayama, spinal chakras) are named in earlier hatha texts"
   }
  ]
 }

@@ -1069,6 +1069,54 @@
    "figure": "gopi-krishna",
    "what": "Born in a village about twenty miles away (1903); worked in the state Public Works Department",
    "verified": true
+  },
+  {
+   "name": "Ghurni, Krishnanagar",
+   "lat": 23.4,
+   "lon": 88.5,
+   "figure": "lahiri-mahasaya",
+   "what": "Birthplace, 30 September 1828, on the Jalangi river",
+   "verified": true
+  },
+  {
+   "name": "Danapur",
+   "lat": 25.63,
+   "lon": 85.05,
+   "figure": "lahiri-mahasaya",
+   "what": "Posted as accountant in the Military Engineering Department before and after the 1861 Ranikhet transfer",
+   "verified": true
+  },
+  {
+   "name": "Ranikhet",
+   "lat": 29.643,
+   "lon": 79.432,
+   "figure": "lahiri-mahasaya",
+   "what": "Transferred here in 1861; by his account met Babaji in the nearby hills",
+   "verified": true
+  },
+  {
+   "name": "Dunagiri (Drongiri), near Dwarahat",
+   "lat": 29.81,
+   "lon": 79.42,
+   "figure": "lahiri-mahasaya",
+   "what": "Mountain where, in the lineage's account, Babaji initiated him into Kriya Yoga",
+   "verified": false
+  },
+  {
+   "name": "Moradabad",
+   "lat": 28.84,
+   "lon": 78.77,
+   "figure": "lahiri-mahasaya",
+   "what": "Lineage account of Babaji appearing before Lahiri's doubting friends",
+   "verified": true
+  },
+  {
+   "name": "Varanasi (Benares)",
+   "lat": 25.31,
+   "lon": 83.01,
+   "figure": "lahiri-mahasaya",
+   "what": "Home from childhood; taught Kriya here, retired here 1886, died here 26 September 1895",
+   "verified": true
   }
  ]
 }
