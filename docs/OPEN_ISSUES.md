@@ -25,3 +25,4 @@ Curated list for the author's review before launch. Raw issues from each batch a
 
 - Sri Sri Ravi Shankar: the fact-checker reports a Supreme Court ruling of 22 August 2026 setting aside the 2017 NGT order on the World Culture Festival. This is recent; confirm against the judgment before launch.
 - Ramdev: status of pending cases and the publisher's appeal over *Godman to Tycoon* as of launch date. Ramdev's profile runs ~1,900 words (target 800–1,200) because of the legal material; decide whether to trim.
+- Kanchi Paramacharya chapter: the separate 2002 assault case against Jayendra Saraswati (acquitted 2016) is not mentioned. Decide whether to add it.
