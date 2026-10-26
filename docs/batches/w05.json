@@ -1,0 +1,77 @@
+{
+  "batch": "w05",
+  "nodes_add": [
+    {"id": "nivedita", "name": "Sister Nivedita (Margaret Noble)", "born": 1867, "died": 1911, "part": 2, "tier": "node", "kind": "person", "note": "Irish disciple of Vivekananda, initiated as a brahmacharini on 25 March 1898; author of The Master as I Saw Him (1910)."}
+  ],
+  "nodes_update": [
+    {"id": "vivekananda", "name": "Swami Vivekananda", "born": 1863, "died": 1902, "note": "Narendranath Datta. Ramakrishna's chief disciple; 1893 Parliament of Religions; four yogas and Practical Vedanta; founded the Ramakrishna Mission (1 May 1897)."}
+  ],
+  "edges_remove": [],
+  "edges_upsert": [
+    {"from": "ramakrishna", "to": "vivekananda", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1881, "note": "Guru and disciple from late 1881/early 1882 until Ramakrishna's death in August 1886; nursed him at Cossipore. Formal sannyasa vows taken by the disciples themselves in early 1887."},
+    {"from": "advaita-vedanta", "to": "vivekananda", "type": "influenced", "evidence": "documented", "verified": true, "note": "Shankara's Advaita, reinterpreted as Practical Vedanta."},
+    {"from": "keshab-chandra-sen", "to": "vivekananda", "type": "influenced", "evidence": "documented", "verified": true, "year": 1880, "note": "Attended Keshab's Nava Vidhan c. 1880 and his Band of Hope 1881-1884; later joined the Sadharan Brahmo Samaj."},
+    {"from": "vivekananda", "to": "nivedita", "type": "initiated", "evidence": "documented", "verified": true, "year": 1898, "note": "Brahmacharya initiation and the name Nivedita, 25 March 1898, Calcutta."},
+    {"from": "vivekananda", "to": "aurobindo", "type": "influenced", "evidence": "testimony", "verified": true, "year": 1908, "note": "Aurobindo wrote (1934) that in Alipore jail Vivekananda 'was speaking with me for about 15 days' as a presence in meditation; also read his works."},
+    {"from": "vivekananda", "to": "rama-tirtha", "type": "influenced", "evidence": "testimony", "verified": false, "note": "Rama Tirtha's own testimony; date and circumstances of their meeting (Lahore, 1897?) not checked in this batch."},
+    {"from": "vivekananda", "to": "sarvapriyananda", "type": "institutional", "evidence": "documented", "verified": true, "note": "Ramakrishna Order; Vedanta Society of New York, founded by Vivekananda in 1894."}
+  ],
+  "places": [
+    {"name": "Vivekananda's birthplace, 3 Gourmohan Mukherjee Street, Calcutta", "lat": 22.59, "lon": 88.36, "figure": "vivekananda", "what": "Birthplace (1863); now the Ramakrishna Mission's ancestral house and cultural centre", "verified": false},
+    {"name": "Vivekananda Rock, Kanyakumari", "lat": 8.078, "lon": 77.555, "figure": "vivekananda", "what": "Meditated here, 25-27 December 1892", "verified": true},
+    {"name": "Art Institute of Chicago", "lat": 41.880, "lon": -87.624, "figure": "vivekananda", "what": "World's Parliament of Religions, 11-27 September 1893", "verified": true},
+    {"name": "Thousand Island Park, New York", "lat": 44.29, "lon": -76.03, "figure": "vivekananda", "what": "Summer classes, 1895 (Inspired Talks)", "verified": false},
+    {"name": "Khetri, Rajasthan", "lat": 28.00, "lon": 75.79, "figure": "vivekananda", "what": "Court of his patron Raja Ajit Singh, who suggested the name Vivekananda", "verified": false}
+  ],
+  "glossary": [
+    {"term": "Practical Vedanta", "def": "Vivekananda's name for Advaita applied to everyday life: since the one Self is in everyone, serving others, especially the poor, is worship."},
+    {"term": "Karma yoga", "script": "कर्मयोग", "lang": "sa", "def": "The path of work done without attachment to its results, one of Vivekananda's four yogas."},
+    {"term": "Raja yoga", "script": "राजयोग", "lang": "sa", "def": "The path of meditation and mental control based on Patanjali's Yoga Sutras; also the title of Vivekananda's 1896 book."},
+    {"term": "Math", "script": "मठ", "lang": "sa", "def": "Pronounced 'mutt'. A Hindu monastery; the Ramakrishna Math is the monastic order founded by Vivekananda."},
+    {"term": "Parivrajaka", "script": "परिव्राजक", "lang": "sa", "def": "A wandering monk with no fixed home."}
+  ],
+  "art": [],
+  "issues": [
+    "vivekananda.mdx: the Dakshineswar episode in which Ramakrishna corrects 'compassion for jivas' to service of beings as God is sourced here only to a Ramakrishna Mission Delhi article; it is traditionally from Saradananda's Lilaprasanga (Sri Ramakrishna, the Great Master). Fact-checker should confirm the chapter, and coordinate wording with the Ramakrishna chapter.",
+    "vivekananda.mdx: 'Within months of its founding, the Mission's monks were running famine relief in rural Bengal' (Akhandananda, Murshidabad, 1897) is from general knowledge, not fetched. Verify or cut.",
+    "vivekananda.mdx: Kanyakumari 'swam or was rowed out' is hedged; Order accounts say he swam. Date given as late December 1892 (Wikipedia: arrived 24 Dec, meditated 25-27 Dec).",
+    "vivekananda.mdx: biographies' claim of diabetes and asthma, the Kayastha caste, and the Spencer translation are from Wikipedia without a second source.",
+    "vivekananda.mdx: 'The Ideal of a Universal Religion' is named without a date or place; the claim that he ranked dualism, qualified non-dualism and Advaita as stages is standard but not quoted from a fetched text.",
+    "vivekananda.mdx: no voice recording survives (Belur Math, 2020). Photographs from Chicago 1893 exist but no openly licensed image URL was checked, so no photo block.",
+    "Edge vivekananda -> rama-tirtha left verified:false; the Rama Tirtha writer should confirm.",
+    "Coordinates for birthplace, Thousand Island Park and Khetri are approximate (two decimals) and marked verified:false.",
+    "Overlap with the Ramakrishna chapter: the first meeting ('have you seen God'), the Kali episode after his father's death and the service episode are summarised briefly here; the Ramakrishna writer may tell them in full. Check the two chapters agree on the first-meeting date (Nov 1881 at Surendranath Mitra's house; Dakshineswar late 1881 or early 1882)."
+  ],
+  "sources": {
+    "vivekananda": [
+      "Born Narendranath Datta 12 Jan 1863, 3 Gourmohan Mukherjee St; father attorney Calcutta High Court; mother Bhubaneswari Devi; Metropolitan Institution 1871; Raipur 1877; BA 1884 General Assembly's Institution -> https://en.wikipedia.org/wiki/Swami_Vivekananda",
+      "Nava Vidhan 1880, Sadharan Brahmo Samaj, Band of Hope 1881-84; asked Debendranath Tagore if he had seen God -> https://en.wikipedia.org/wiki/Swami_Vivekananda",
+      "First meeting with Ramakrishna probably Nov 1881 at Surendra Nath Mitra's house; Dakshineswar late 1881 or early 1882 -> https://en.wikipedia.org/wiki/Swami_Vivekananda",
+      "Father died 1884; Ramakrishna died 16 Aug 1886 at Cossipore; Baranagar math; Christmas Eve 1886 Antpur with eight others -> https://en.wikipedia.org/wiki/Swami_Vivekananda",
+      "Wandering from 1888; Ajit Singh of Khetri suggested the name Vivekananda -> https://en.wikipedia.org/wiki/Swami_Vivekananda",
+      "Kanyakumari, arrived 24 Dec 1892, meditated 25-27 Dec; letter to Ramakrishnananda 19 Mar 1894 'on the last bit of Indian rock' -> https://en.wikipedia.org/wiki/Kanyakumari_resolve_of_1892",
+      "Sailed Bombay 31 May 1893; Chicago 30 Jul 1893; Parliament 11-27 Sep 1893; two-minute ovation -> https://en.wikipedia.org/wiki/Swami_Vivekananda ; https://en.wikipedia.org/wiki/Swami_Vivekananda_at_the_Parliament_of_the_World%27s_Religions",
+      "John Henry Wright of Harvard; 'like asking the sun to state its right to shine' (paraphrased) -> https://en.wikipedia.org/wiki/Swami_Vivekananda_at_the_Parliament_of_the_World%27s_Religions",
+      "Quotes 'We believe not only in universal toleration, but we accept all religions as true.' and 'As the different streams having their sources in different places all mingle their water in the sea' -> https://theprint.in/india/sisters-and-brothers-of-america-full-text-of-swami-vivekanandas-iconic-chicago-speech/257916/ ; https://vivekananda.net/BooksBySwami/CompleteWorks/1_Response.html",
+      "20 Sep 1893 'It is an insult to a starving people to offer them religion'; missionaries/souls/bodies -> https://en.wikipedia.org/wiki/Religion_not_the_crying_need_of_India",
+      "Vedanta Society of New York 1894; Thousand Island Park from June 1895, about two months, about a dozen disciples; Margaret Noble Nov 1895; Max Muller May 1896 -> https://en.wikipedia.org/wiki/Swami_Vivekananda",
+      "Raja Yoga published 1896; preface 'Each soul is potentially divine. The goal is to manifest this Divinity within by controlling nature, external and internal.' -> https://vedanta.org/?p=3512",
+      "Practical Vedanta Part I, London, 10 Nov 1896; 'intensely practical'; 'forest caves to busy streets and cities' -> https://vivekananda.net/BooksBySwami/PracticalVedanta/Part1.html",
+      "Left England 16 Dec 1896; Colombo 15 Jan 1897; Ramakrishna Mission founded 1 May 1897 -> https://en.wikipedia.org/wiki/Swami_Vivekananda",
+      "Relics installed at Belur 9 Dec 1898 -> https://en.wikipedia.org/wiki/Belur_Math",
+      "Nivedita: born 28 Oct 1867 Dungannon; initiated 25 Mar 1898; died 13 Oct 1911 Darjeeling; The Master as I Saw Him 1910 -> https://en.wikipedia.org/wiki/Sister_Nivedita",
+      "Second trip West June 1899 - 9 Dec 1900; died 4 Jul 1902 at Belur Math, 9:20 pm, aged 39; reported rupture of blood vessel in brain -> https://en.wikipedia.org/wiki/Swami_Vivekananda",
+      "Motto 'Atmano mokshartham jagad hitaya cha', formulated by Vivekananda -> https://indore.rkmm.org/ramakrishna-order-of-monks",
+      "Dakshineswar episode: 'Compassion for the Jivas' corrected to service to God in man; Narendra said he heard something new -> https://media.rkmdelhi.org/?p=4571",
+      "No recording of his voice known; recorded a couple of times but untraced; Parliament speeches not recorded (Swami Suvirananda, 11 Sep 2020) -> https://media.belurmath.org/clarification-on-swami-vivekanandas-voice-recording-swami-suvirananda-video-6719/",
+      "Viral 'recording' is from the film Vivekananda by Vivekananda (dir. Karthik Saragur) -> https://www.boomlive.in/movie-clipping-shared-as-rare-recording-of-vivekanandas-speech-in-chicago",
+      "Rambachan, The Limits of Scripture, University of Hawaii Press 1994: experience vs Shankara's scriptural authority -> https://openlibrary.org/isbn/0824815424",
+      "Hacker 1962 'Schopenhauer and Hindu ethics': tat tvam asi ethic via Deussen (met Sept 1896); Killingley reply in Radice ed. -> https://loveofallwisdom.com/2010/08/schopenhauer-and-the-tat-tvam-asi-ethic/",
+      "De Michelis, A History of Modern Yoga (2004): Raja Yoga as start of modern yoga; Brahmo/Keshab influence -> https://en.wikipedia.org/wiki/A_History_of_Modern_Yoga ; https://en.wikipedia.org/wiki/Swami_Vivekananda",
+      "Medhananda, Swami Vivekananda's Vedantic Cosmopolitanism (OUP 2022): rejects both Shankara-follower and Neo-Vedantin readings -> https://philarchive.org/rec/MEDSVV",
+      "Sharma, A Restatement of Religion (Yale 2013): Vivekananda and the making of Hindu nationalism -> https://yalebooks.yale.edu/book/9780300197402/restatement-religion ; reply summarised at https://api.philpapers.org/rec/MEDWSV",
+      "National Youth Day declared 1984, first observed 1985 -> https://en.wikipedia.org/wiki/National_Youth_Day_(India)",
+      "Aurobindo: 'he was speaking with me for about 15 days' (1934 letter), Alipore jail -> https://search.motherandsriaurobindo.in/_StaticContent/SriAurobindoAshram/-09 E-Library/-01 Works of Sri Aurobindo/-01 English/-03_CWSA/-35_Letters On Himself And The Ashram/-25_Experiences in Alipur Jail 1908 ­ 1909.htm"
+    ]
+  }
+}

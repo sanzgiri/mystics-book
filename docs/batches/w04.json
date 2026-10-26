@@ -1,0 +1,81 @@
+{
+  "batch": "w04",
+  "nodes_add": [
+    {"id": "jatadhari", "name": "Jatadhari", "part": 2, "tier": "node", "kind": "person", "note": "Wandering Vaishnava (Rama) monk; gave Ramakrishna the Ramlala image, c. 1864"},
+    {"id": "govinda-roy", "name": "Govinda Roy", "part": 2, "tier": "node", "kind": "person", "note": "Hindu convert to Islam on a Sufi path; instructed Ramakrishna in Islamic practice, 1866"},
+    {"id": "mahendranath-gupta", "name": "Mahendranath Gupta (\"M\")", "born": 1854, "died": 1932, "part": 2, "tier": "node", "kind": "person", "note": "Schoolteacher; recorded the Kathamrita (Gospel of Sri Ramakrishna), 1882–1886"},
+    {"id": "christianity", "name": "Christianity", "part": 0, "tier": "root", "kind": "tradition", "note": "Added for Ramakrishna's 1873/1874 Christian episode; merge with any existing Christianity root"}
+  ],
+  "nodes_update": [
+    {"id": "ramakrishna", "name": "Ramakrishna", "born": 1836, "died": 1886, "note": "Priest of the Dakshineswar Kali temple; 'as many faiths, so many paths'"},
+    {"id": "totapuri", "name": "Totapuri", "note": "Naga monk of the Puri order from the Punjab; gave Ramakrishna sannyasa, 1865"},
+    {"id": "bhairavi-brahmani", "name": "Bhairavi Brahmani", "note": "Brahmin woman ascetic from Jessore; Tantric and Vaishnava teacher of Ramakrishna, 1861–1863"}
+  ],
+  "edges_remove": [
+    {"from": "keshab-chandra-sen", "to": "ramakrishna"}
+  ],
+  "edges_upsert": [
+    {"from": "tantra-shakta", "to": "ramakrishna", "type": "influenced", "evidence": "documented", "verified": true, "note": "Kali devotion as temple priest from 1856; Bengali Shakta song tradition (Ramprasad)"},
+    {"from": "bhairavi-brahmani", "to": "ramakrishna", "type": "initiated", "evidence": "testimony", "verified": true, "year": 1861, "note": "64 Tantric sadhanas, 1861–1863; known only through Ramakrishna's testimony and Saradananda"},
+    {"from": "jatadhari", "to": "ramakrishna", "type": "influenced", "evidence": "testimony", "verified": true, "year": 1864, "note": "Vatsalya bhava toward Ramlala"},
+    {"from": "gaudiya", "to": "ramakrishna", "type": "influenced", "evidence": "documented", "verified": true, "note": "Vaishnava bhavas incl. madhura bhava; Bhairavi learned in Gaudiya texts"},
+    {"from": "totapuri", "to": "ramakrishna", "type": "initiated", "evidence": "testimony", "verified": true, "year": 1865, "note": "Sannyasa and Advaita; nirvikalpa samadhi; Totapuri stayed ~11 months (late 1864–1865)"},
+    {"from": "advaita-vedanta", "to": "totapuri", "type": "lineage", "evidence": "testimony", "verified": true, "note": "Puri order of Dashanami sannyasa"},
+    {"from": "tantra-shakta", "to": "bhairavi-brahmani", "type": "lineage", "evidence": "testimony", "verified": true},
+    {"from": "govinda-roy", "to": "ramakrishna", "type": "initiated", "evidence": "testimony", "verified": true, "year": 1866, "note": "Three days of Islamic practice; vision 'perhaps Mohammed' per Nikhilananda"},
+    {"from": "sufi-orders", "to": "govinda-roy", "type": "lineage", "evidence": "hagiographic", "verified": false, "note": "Described in Ramakrishna sources as a Sufi; order unknown"},
+    {"from": "christianity", "to": "ramakrishna", "type": "influenced", "evidence": "testimony", "verified": true, "year": 1874, "note": "Bible readings by Shambhu Charan Mallick; vision of Christ (Nov 1874 per Nikhilananda; end 1873 in other accounts)"},
+    {"from": "ramakrishna", "to": "keshab-chandra-sen", "type": "influenced", "evidence": "testimony", "verified": true, "year": 1875, "note": "Met at Belgharia 1875; close until Keshab's death 1884; Motherhood of God in Keshab's preaching possibly from Ramakrishna. Keshab publicized Ramakrishna to Calcutta's English-educated"},
+    {"from": "ramakrishna", "to": "vivekananda", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1881, "note": "First met Nov 1881; disciple; nursed him at Cossipore 1885–1886, where Ramakrishna gave ochre cloth to the young disciples"},
+    {"from": "ramakrishna", "to": "sarada-devi", "type": "family", "evidence": "documented", "verified": true, "year": 1859, "note": "Married 1859, never consummated; also his first disciple; Shodashi puja 1872"},
+    {"from": "ramakrishna", "to": "mahendranath-gupta", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1882, "note": "Visited Feb/Mar 1882 to Apr 1886; recorded the Kathamrita"}
+  ],
+  "places": [
+    {"name": "Kamarpukur", "lat": 22.91, "lon": 87.65, "figure": "ramakrishna", "what": "Birthplace (1836) and childhood village", "verified": true},
+    {"name": "Dakshineswar Kali Temple", "lat": 22.655, "lon": 88.357, "figure": "ramakrishna", "what": "Priest from 1856; all his sadhanas and teaching years, 1855–1885", "verified": true},
+    {"name": "Cossipore garden house (Udyanbati)", "lat": 22.63, "lon": 88.37, "figure": "ramakrishna", "what": "Last months and death, 11 Dec 1885 – 16 Aug 1886", "verified": false}
+  ],
+  "glossary": [
+    {"term": "Sadhana", "script": "साधना", "lang": "sa", "def": "A course of spiritual discipline undertaken to reach a particular realization."},
+    {"term": "Bhava", "script": "भाव", "lang": "sa", "def": "An emotional attitude toward God, such as servant, child, parent or lover, cultivated in devotional practice."},
+    {"term": "Nirvikalpa samadhi", "script": "निर्विकल्प समाधि", "lang": "sa", "def": "Absorption without any object or thought; in Advaita, the state in which only Brahman remains."},
+    {"term": "Vijnana", "script": "विज्ञान", "lang": "sa", "def": "Discernment; in Ramakrishna's usage, a fuller realization after Advaita absorption that sees the one reality as both personal and impersonal and present in everything."},
+    {"term": "Kali", "script": "কালী", "lang": "bn", "def": "The dark goddess of Bengali Shakta worship, addressed by devotees as Mother; for Ramakrishna, God's power active in the world."},
+    {"term": "Kamini-kanchan", "script": "কামিনী-কাঞ্চন", "lang": "bn", "def": "\"Woman and gold\": Ramakrishna's phrase for lust and greed as the chief attachments that keep a seeker from God."}
+  ],
+  "art": [],
+  "issues": [
+    "ramakrishna.mdx: removed the edge keshab-chandra-sen -> ramakrishna (type influenced) and replaced it with ramakrishna -> keshab-chandra-sen; the documented influence on teaching runs from Ramakrishna to Keshab (Motherhood of God). Author may prefer to keep both directions since Keshab publicized him.",
+    "ramakrishna.mdx: added a root node 'christianity' (part 0). Check for duplicates from other batches (e.g. Abhishiktananda, Brahmabandhab Upadhyay) and merge.",
+    "ramakrishna.mdx: several Saradananda/Great Master episodes (sword vision, glass shard between the eyebrows, pandits including Vaishnavcharan declaring him an avatar, Rasmani's caste making priests reluctant, dressing as a woman in madhura bhava) are told from memory of standard accounts and attributed, but I did not fetch the primary text for each. Fact-checker should verify against Saradananda.",
+    "ramakrishna.mdx: 'Keshab and his circle spoke and wrote about him' is general; specific Brahmo publications (Indian Mirror, Sunday Mirror, P.C. Mozoomdar's 1879 Theistic Quarterly Review article) not verified, so not named.",
+    "ramakrishna.mdx: the 'I have practised all religions' quote and pond parable gloss come from Nikhilananda's introduction page; the Gospel chapter and date of the original conversation were not located.",
+    "ramakrishna.mdx: age at the cranes ecstasy conflicts (about six per RKM Institute chronology, ten or eleven per other accounts); both given.",
+    "ramakrishna.mdx: date of M's first visit conflicts (Nikhilananda: March 1882; Kathamrita entries begin 19-26 Feb 1882); both given. Kathamrita: Nikhilananda's preface gives 1897 for first Bengali volume, other sources 1902; chapter uses 1902–1932.",
+    "Cossipore garden house coordinates are approximate (two decimals); marked verified: false.",
+    "No media of Ramakrishna's voice exists; photographs survive but no openly licensed image URL was loaded, so no photo block."
+  ],
+  "sources": {
+    "ramakrishna": [
+      "Born 18 Feb 1836 Kamarpukur; parents Khudiram and Chandramani Devi; 'Ramakrishnababu' quote; temple dedicated 31 May 1855; Ramkumar d. 1856; married 1859 (Sarada ~5, he 23); Bhairavi 1861, 64 sadhanas by 1863; Jatadhari 1864; Totapuri end 1864, sannyasa 1865, ~11 months; Islam 1866 Govinda Roy, three days; Christianity end 1873; Keshab 1875; Cossipore 11 Dec 1885; died 16 Aug 1886 (lead says night of 15th); cranes at 10-11; Hastie/Wordsworth -> https://en.wikipedia.org/wiki/Ramakrishna",
+      "RKM Institute chronology: ~60 miles NW of Kolkata; cranes c.1842-43 age ~6; father d. 1843; to Calcutta c.1852; Shodashi puja 1872; Narendra 1881; died 16 Aug 1886 shortly after 1 a.m. -> https://sriramakrishna.org/sri-ramakrishna/",
+      "Bhairavi: arrived 1861 by boat, ~40, Jessore Brahmin, Gaudiya and Tantric texts, ~12 years nearby, death unknown -> https://en.wikipedia.org/wiki/Bhairavi_Brahmani",
+      "M's visits: 'Sunday in spring, a few days after Sri Ramakrishna's birthday', dusk, wooden couch facing east; 'Sir, I like to think of God as formless.' 'Very good. It is enough to have faith in either aspect.' 'Remember that God with form is just as true as God without form.' 'That's the one hobby of you Calcutta people...' -> https://vivekananda.net/booksonswami-gospel-1",
+      "Islam end of 1866, three days, 'saw the vision of a radiant figure, perhaps Mohammed' -> https://vivekananda.net/booksonswami-gospel-intro-23",
+      "Christianity Nov 1874, Sambhu Charan Mallick, Madonna and Child at Jadu Mallick's garden house, fourth day Panchavati vision -> https://vivekananda.net/booksonswami-gospel-intro-24",
+      "'I have practised... all religions — Hinduism, Islam, Christianity'; 'the same God toward whom all are directing their steps, though along different paths'; 'The substance is One under different names'; picture of Christ in his room -> https://vivekananda.net/booksonswami-gospel-intro-25",
+      "Totapuri dysentery, Ganges, other bank, 'She is in everything'; Ramakrishna six months in samadhi -> https://vivekananda.net/booksonswami-gospel-intro-21",
+      "Keshab meeting at Jaygopal Sen's garden house, Belgharia; 'People tell me you have seen God; so I have come to hear from you about God.' -> https://vivekananda.net/booksonswami-gospel-intro-32",
+      "Keshab association 1875-1884; Motherhood of God possibly under RK's influence; Nava Bidhan 1880/1881 -> https://en.banglapedia.org/index.php/Sen,_Keshab_Chandra",
+      "Narendra Nov 1881 at Surendra Nath Mitra's house; 'Yes, I have seen God. I see Him as I see you here, only more clearly.' -> https://en.wikipedia.org/wiki/Relationship_of_Ramakrishna_and_Swami_Vivekananda",
+      "Kathamrita vols 1902, 1904, 1908, 1910, 1932; Feb 1882 to 24 Apr 1886; Sarkar: 15-50 years later, 186 days, diary never public -> https://en.wikipedia.org/wiki/Sri_Sri_Ramakrishna_Kathamrita",
+      "M born 1854 died 1932; Feb 1882 first darshan; diary from memory -> https://en.wikipedia.org/wiki/Mahendranath_Gupta",
+      "Nikhilananda translation 1942, Huxley foreword -> https://en.wikipedia.org/wiki/The_Gospel_of_Sri_Ramakrishna",
+      "Saradananda Lilaprasanga written 1909-1919; English 1952 -> https://en.wikipedia.org/wiki/Sri_Ramakrishna,_the_Great_Master",
+      "Kali's Child 1995 UChicago; AAR History of Religions Prize best first book 1995; 2nd ed 1998; ban attempts 1996, 2001 failed; Atmajnanananda 1997; Tyagananda 2000 tract; 'lap' dispute; Kripal regret, overplayed suppression -> https://en.wikipedia.org/wiki/Kali%27s_Child",
+      "Kripal 'repressed homoeroticism'; Tyagananda & Vrajaprana 2010 Motilal; Sil 1991; Neevel, McDaniel, Sarkar, Olson views; Rolland 1929 non-pathological; Ram Chandra Datta biography -> https://en.wikipedia.org/wiki/Views_on_Ramakrishna",
+      "'yato mat tato path' as many faiths, so many paths -> https://media.rkmdelhi.org/?p=4936",
+      "Maharaj/Medhananda vijnana, Vijnana Vedanta, infinite paths; OUP 2018 -> https://ndpr.nd.edu/news/infinite-paths-to-infinite-reality-sri-ramakrishna-and-cross-cultural-philosophy-of-religion/ and https://philarchive.org/rec/AYOQII"
+    ]
+  }
+}

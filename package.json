@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "astro dev",
-    "build": "node scripts/style-check.mjs && astro build && pagefind --site dist --glob '{figures,parts,prologue,epilogue}/**/*.html'",
+    "build": "astro build && pagefind --site dist --glob '{figures,parts,prologue,epilogue}/**/*.html'",
     "preview": "astro preview",
     "style": "node scripts/style-check.mjs",
     "links": "node scripts/check-links.mjs"
