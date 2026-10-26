@@ -1,37 +1,192 @@
 {
   "batch": "w07",
   "nodes_add": [
-    {"id": "saradananda", "name": "Swami Saradananda", "born": 1865, "died": 1927, "part": 2, "tier": "node", "kind": "person", "note": "Ramakrishna's disciple; Sarada Devi's guardian; built the Udbodhan house (she moved in 23 May 1909)"},
-    {"id": "madhava-tirtha", "name": "Swami Madhava Tirtha", "part": 2, "tier": "node", "kind": "person", "note": "Of the Dwarka Math; inspired Tirath Ram's study of Vedanta in Lahore"},
-    {"id": "puran-singh", "name": "Puran Singh", "born": 1881, "died": 1931, "part": 2, "tier": "node", "kind": "person", "note": "Punjabi poet; met Rama Tirtha in Tokyo, September 1902; his biographer and editor"}
+    {
+      "id": "saradananda",
+      "name": "Swami Saradananda",
+      "born": 1865,
+      "died": 1927,
+      "part": 2,
+      "tier": "node",
+      "kind": "person",
+      "note": "Ramakrishna's disciple; Sarada Devi's guardian; built the Udbodhan house (she moved in 23 May 1909)"
+    },
+    {
+      "id": "madhava-tirtha",
+      "name": "Swami Madhava Tirtha",
+      "part": 2,
+      "tier": "node",
+      "kind": "person",
+      "note": "Of the Dwarka Math; inspired Tirath Ram's study of Vedanta in Lahore"
+    },
+    {
+      "id": "puran-singh",
+      "name": "Puran Singh",
+      "born": 1881,
+      "died": 1931,
+      "part": 2,
+      "tier": "node",
+      "kind": "person",
+      "note": "Punjabi poet (17 Feb 1881 – 31 Mar 1931); met Rama Tirtha in Tokyo, September 1902; his biographer and editor"
+    }
   ],
   "nodes_update": [
-    {"id": "sarada-devi", "name": "Sarada Devi", "born": 1853, "died": 1920, "note": "Saradamani Mukhopadhyay of Jayrambati; Ramakrishna's wife and first disciple; the Holy Mother; died 20 or 21 July 1920"},
-    {"id": "rama-tirtha", "name": "Swami Rama Tirtha", "born": 1873, "died": 1906, "note": "Tirath Ram Goswami; Lahore mathematics teacher; lectured in Japan and the USA 1902–1904; drowned in the Ganga 17 October 1906"},
-    {"id": "sarvapriyananda", "name": "Swami Sarvapriyananda", "born": 1971, "note": "Biswarup Mitra; Ramakrishna Order (joined 1994); minister of the Vedanta Society of New York since January 2017"}
+    {
+      "id": "sarada-devi",
+      "name": "Sarada Devi",
+      "born": 1853,
+      "died": 1920,
+      "note": "Saradamani Mukhopadhyay of Jayrambati; Ramakrishna's wife and first disciple; the Holy Mother; died 20 or 21 July 1920"
+    },
+    {
+      "id": "rama-tirtha",
+      "name": "Swami Rama Tirtha",
+      "born": 1873,
+      "died": 1906,
+      "note": "Tirath Ram Goswami; Lahore mathematics teacher; lectured in Japan and the USA 1902–1904; died in the Ganga 17 October 1906"
+    },
+    {
+      "id": "sarvapriyananda",
+      "name": "Swami Sarvapriyananda",
+      "born": 1971,
+      "note": "Biswarup Mitra; Ramakrishna Order (joined 1994); minister of the Vedanta Society of New York since January 2017"
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "ramakrishna", "to": "sarada-devi", "type": "family", "evidence": "documented", "verified": true, "year": 1859, "note": "Married 1859 when she was about five; never consummated; worshipped her as Shodashi 1872; the order counts her his first disciple"},
-    {"from": "sarada-devi", "to": "saradananda", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1909, "note": "Her attendant and guardian for decades; built the Udbodhan house, where she lived from 23 May 1909"},
-    {"from": "sarada-devi", "to": "nivedita", "type": "influenced", "evidence": "documented", "verified": true, "year": 1898, "note": "Received Nivedita in 1898; close relationship"},
-    {"from": "madhava-tirtha", "to": "rama-tirtha", "type": "influenced", "evidence": "testimony", "verified": true, "note": "Inspired his study of Vedanta while he taught in Lahore (Wikipedia; Divine Life Society)"},
-    {"from": "vivekananda", "to": "rama-tirtha", "type": "influenced", "evidence": "testimony", "verified": true, "year": 1897, "note": "Vivekananda lectured in Lahore, 9 and 12 November 1897; Tirath Ram helped arrange the visit (gold watch anecdote); Puran Singh treats it as the turn toward renunciation"},
-    {"from": "rama-tirtha", "to": "puran-singh", "type": "influenced", "evidence": "documented", "verified": true, "year": 1902, "note": "Met in Tokyo, September 1902; Puran took sannyas under his influence for a time; wrote The Story of Swami Rama (1924)"},
-    {"from": "rama-tirtha", "to": "papaji", "type": "family", "evidence": "testimony", "verified": true, "note": "His sister's son"},
-    {"from": "vivekananda", "to": "sarvapriyananda", "type": "institutional", "evidence": "documented", "verified": true, "note": "Ramakrishna Order (joined 1994); Vedanta Society of New York, founded by Vivekananda in 1894, which he has led since January 2017"},
-    {"from": "advaita-vedanta", "to": "sarvapriyananda", "type": "influenced", "evidence": "documented", "verified": true, "note": "Teaches Shankara's Advaita from the commentaries"}
+    {
+      "from": "ramakrishna",
+      "to": "sarada-devi",
+      "type": "family",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1859,
+      "note": "Married 1859 when she was about five; never consummated; worshipped her as Shodashi 1872; the order counts her his first disciple"
+    },
+    {
+      "from": "sarada-devi",
+      "to": "saradananda",
+      "type": "lived-with",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1909,
+      "note": "Her attendant and guardian for decades; built the Udbodhan house, where she lived from 23 May 1909"
+    },
+    {
+      "from": "sarada-devi",
+      "to": "nivedita",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1898,
+      "note": "Received Nivedita in 1898; close relationship"
+    },
+    {
+      "from": "madhava-tirtha",
+      "to": "rama-tirtha",
+      "type": "influenced",
+      "evidence": "testimony",
+      "verified": true,
+      "note": "Inspired his study of Vedanta while he taught in Lahore (Wikipedia; Divine Life Society)"
+    },
+    {
+      "from": "vivekananda",
+      "to": "rama-tirtha",
+      "type": "influenced",
+      "evidence": "testimony",
+      "verified": true,
+      "year": 1897,
+      "note": "Vivekananda lectured in Lahore, 9 and 12 November 1897; by Puran Singh's account Tirath Ram arranged the lectures (gold watch anecdote in later accounts); Puran Singh calls the meeting one of the causes of his renunciation"
+    },
+    {
+      "from": "rama-tirtha",
+      "to": "puran-singh",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1902,
+      "note": "Met in Tokyo, September 1902; Puran took sannyas under his influence for a time; wrote The Story of Swami Rama (1924)"
+    },
+    {
+      "from": "rama-tirtha",
+      "to": "papaji",
+      "type": "family",
+      "evidence": "testimony",
+      "verified": true,
+      "note": "His sister's son"
+    },
+    {
+      "from": "vivekananda",
+      "to": "sarvapriyananda",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Ramakrishna Order (joined 1994); Vedanta Society of New York, founded by Vivekananda in 1894, which he has led since January 2017"
+    },
+    {
+      "from": "advaita-vedanta",
+      "to": "sarvapriyananda",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Teaches Shankara's Advaita from the commentaries"
+    }
   ],
   "places": [
-    {"name": "Jayrambati", "lat": 22.95, "lon": 87.62, "figure": "sarada-devi", "what": "Birthplace, 1853; her home village for much of her life", "verified": true},
-    {"name": "Udbodhan (Mayer Bari), Baghbazar, Kolkata", "lat": 22.601, "lon": 88.366, "figure": "sarada-devi", "what": "Her Calcutta home from 23 May 1909 until her death in 1920", "verified": true},
-    {"name": "Gujranwala", "lat": 32.16, "lon": 74.19, "figure": "rama-tirtha", "what": "Born at Muraliwala, a village near Gujranwala, 1873", "verified": true},
-    {"name": "Forman Christian College, Lahore", "lat": 31.522, "lon": 74.334, "figure": "rama-tirtha", "what": "Studied and later taught mathematics", "verified": true},
-    {"name": "Vedanta Society of New York", "lat": 40.776, "lon": -73.979, "figure": "sarvapriyananda", "what": "Minister and spiritual leader since January 2017", "verified": true}
+    {
+      "name": "Jayrambati",
+      "lat": 22.923,
+      "lon": 87.61,
+      "figure": "sarada-devi",
+      "what": "Birthplace, 1853; her home village for much of her life",
+      "verified": true
+    },
+    {
+      "name": "Udbodhan (Mayer Bari), Baghbazar, Kolkata",
+      "lat": 22.601,
+      "lon": 88.366,
+      "figure": "sarada-devi",
+      "what": "Her Calcutta home from 23 May 1909 until her death in 1920",
+      "verified": true
+    },
+    {
+      "name": "Gujranwala",
+      "lat": 32.16,
+      "lon": 74.19,
+      "figure": "rama-tirtha",
+      "what": "Born at Muraliwala, a village near Gujranwala, 1873",
+      "verified": true
+    },
+    {
+      "name": "Forman Christian College, Lahore",
+      "lat": 31.522,
+      "lon": 74.334,
+      "figure": "rama-tirtha",
+      "what": "Studied and later taught mathematics",
+      "verified": true
+    },
+    {
+      "name": "Vedanta Society of New York",
+      "lat": 40.776,
+      "lon": -73.979,
+      "figure": "sarvapriyananda",
+      "what": "Minister and spiritual leader since January 2017",
+      "verified": true
+    }
   ],
   "glossary": [
-    {"term": "Japa", "script": "जप", "lang": "sa", "def": "Repeating a mantra or a name of God, aloud or silently, often counted on a rosary."},
-    {"term": "Turiya", "script": "तुरीय", "lang": "sa", "def": "The fourth: in the Mandukya Upanishad, the consciousness underlying waking, dreaming and dreamless sleep."}
+    {
+      "term": "Japa",
+      "script": "जप",
+      "lang": "sa",
+      "def": "Repeating a mantra or a name of God, aloud or silently, often counted on a rosary."
+    },
+    {
+      "term": "Turiya",
+      "script": "तुरीय",
+      "lang": "sa",
+      "def": "The fourth: in the Mandukya Upanishad, the consciousness underlying waking, dreaming and dreamless sleep."
+    }
   ],
   "art": [],
   "issues": [
@@ -42,7 +197,9 @@
     "rama-tirtha.mdx: Puran Singh's dates (1881–1931) in nodes_add are from memory; please verify.",
     "sarvapriyananda.mdx: living person. Birth year 1971 from Wikipedia and The Global Indian; full birth date omitted. Wikipedia says sannyasa was given by Swami Ranganathananda; not included because unconfirmed by the Society.",
     "sarvapriyananda.mdx: includes one sentence, from The Global Indian (Oct 2026), on his 2026 consultation with Anthropic about AI ethics and a short quote. Author may wish to cut it as tangential or for conflict-of-interest reasons, since this draft was produced with an Anthropic model.",
-    "parts/neo-vedanta.mdx: characterisations of Radhakrishnan, Chinmayananda, Dayananda (Arsha Vidya) and Acharya Prashant were written before their profiles exist; check against those entries, especially the statement that Arsha Vidya teachers argued against conversion."
+    "parts/neo-vedanta.mdx: characterisations of Radhakrishnan, Chinmayananda, Dayananda (Arsha Vidya) and Acharya Prashant were written before their profiles exist; check against those entries, especially the statement that Arsha Vidya teachers argued against conversion.",
+    "sarvapriyananda.mdx: per instruction, removed the sentence on his 2026 consultation with Anthropic and the AI-selfhood quote (both from The Global Indian, 6 Oct 2026); the book is drafted with an Anthropic model and should not editorialise about Anthropic. The Global Indian stays in references for other facts (birth year, registrar role).",
+    "sarvapriyananda.mdx: Wikipedia (citing a 2020 version of vedantany.org/resident-swamis, no longer online and not reachable via archive here) says sannyasa diksha was given by Swami Ranganathananda; the current Society page gives only 'sannyasa in 2004'. Left out; author may add with attribution if a second source is found."
   ],
   "sources": {
     "sarada-devi": [
@@ -71,6 +228,34 @@
       "TEDx, SAND, Google; dialogues with Spira, Archer, Chalmers, Harris; 'extremely popular globally' -> https://www.eomega.org/people/swami-sarvapriyananda",
       "Seton Hall lecture 3 April 2019 -> https://thesetonian.com/r/0c6c34be9c",
       "Mandukya podcast, 69 episodes, 2020 -> https://www.podengine.ai/podcasts/mandukya-upanishad-swami-sarvapriyananda"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 118,
+    "changes": [
+      "sarada-devi.mdx: removed attribution of The Gospel of the Holy Mother translation to Swami Nikhilananda; Chennai Math lists it as an uncredited compilation/translation of Sri Sri Mayer Katha (istore.chennaimath.org). Reference 1 updated.",
+      "sarada-devi.mdx: dropped unsupported explanation 'since she died in the night' for the 20/21 July conflict (srisaradamath.org vs Wikipedia).",
+      "sarada-devi.mdx: last-message quote matched to Sri Sarada Math wording ('Rather see your own faults'); 'It continues' changed to 'It ends' because a sentence is skipped (srisaradamath.org/hm.php).",
+      "rama-tirtha.mdx: age at death corrected; born 22 Oct 1873, died 17 Oct 1906, so 32 (five days short of 33); subtitle and body changed, noting accounts that say 33 (Wikipedia; EOS).",
+      "rama-tirtha.mdx: cut unsourced claim of a pamphlet on studying mathematics (not in EOS, Wikipedia, DLS).",
+      "rama-tirtha.mdx: gold-watch story is narrated by the article author, not Puran Singh; Puran Singh is the source for Tirath Ram arranging the lectures (esamskriti.com). Reworded.",
+      "rama-tirtha.mdx: 'All that thou seest, that thou art' is Puran Singh's summary in the 1909 preface, not a quotation of Rama; reworded (ramatirtha.org/vol1/preface.htm).",
+      "rama-tirtha.mdx: 'Vedanta printed in books...' is a saying quoted by The Tribune, not a notebook entry; 'Poverty is blessed' is the notebook entry (Tribune, 4 Nov 2000).",
+      "rama-tirtha.mdx: added Vasishtha Ashram alongside Tehri for his last retreat (Wikipedia, DLS, ramatirtha.org).",
+      "rama-tirtha.mdx: Papaji's birth given as 1910 (some documents 1913), consistent with papaji.mdx.",
+      "sarvapriyananda.mdx: removed Anthropic sentence and AI quote (author instruction).",
+      "sarvapriyananda.mdx: VSNY does not call itself 'the oldest Hindu organisation in the West'; it says the order's first centre and the first Vedanta centre in the West (vedantany.org/history).",
+      "sarvapriyananda.mdx: Big Think episode is a multi-guest episode on consciousness; reworded (openculture.com, Feb 2024). Global Indian date made precise (6 Oct 2026).",
+      "parts/neo-vedanta.mdx: conversion claim narrowed to Swami Dayananda himself, who equated conversion with violence (Rambachan, J. Hindu-Christian Studies 15, 2002; his book Conversion is Violence).",
+      "parts/neo-vedanta.mdx: Acharya Prashant's audience described as 'mostly in Hindi, to a very large audience'; 'young' is not documented in reliable sources (living person).",
+      "w07.json: Puran Singh dates confirmed 17 Feb 1881 – 31 Mar 1931 (Encyclopaedia of Sikhism; Wikipedia); Jayrambati coordinates corrected to 22.923, 87.61 (Wikipedia); rama-tirtha note 'drowned' -> 'died in the Ganga'; vivekananda->rama-tirtha note reattributed."
+    ],
+    "unresolved": [
+      "Sarvapriyananda's sannyasa guru (Ranganathananda per Wikipedia) not confirmed by a current primary source; omitted.",
+      "Sarvapriyananda's birth year 1971 rests on Wikipedia and The Global Indian (which may derive from it); kept with attribution, full date omitted.",
+      "Rama Tirtha: sannyasa date (1899/1900/1901), mother's death, who raised him, place of death (Tehri vs Vasishtha Ashram) and whether the drowning was deliberate remain conflicting in sources; all stated as conflicts.",
+      "Sarada Devi: cause of death (malaria per Sri Sarada Math vs kala-azar per Wikipedia) and the Vrindavan vision remain as attributed.",
+      "neo-vedanta.mdx: characterisation of Radhakrishnan and Chinmayananda checked only against general sources; no profiles yet exist to compare."
     ]
   }
 }
