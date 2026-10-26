@@ -11,7 +11,8 @@ const RULES = [
   // [level, id, regex, message]
   ['error', 'em-dash', /—/g, 'Em dash. Use a comma, a period or parentheses.'],
   ['error', 'stock-phrase', /\b(worth noting|it is important to (note|remember)|it's important to|in many ways|a testament to|at the end of the day|needless to say|it goes without saying|delve|tapestry|navigat(e|ing) the complexities)\b/gi, 'Stock phrase.'],
-  ['error', 'not-x-but-y', /\bnot (just |only |merely |simply )?(a |an |the )?[\w'-]+( [\w'-]+){0,3}, but\b/gi, '"Not X, but Y" framing. State the positive claim.'],
+  ['error', 'not-x-but-y', /\b(is|was|are|were|it's|that's|isn't|wasn't)\s+not\s+(just |only |merely |simply )?(a |an |the )?[\w'-]+( [\w'-]+){0,3}, but\b/gi, '"Is not X, but Y" framing. State the positive claim.'],
+  ['warn', 'not-but', /\bnot (just |only |merely |simply )(a |an |the )?[\w'-]+( [\w'-]+){0,3}, but\b/gi, '"Not just X, but Y" framing.'],
   ['error', 'isnt-its', /\b(is|was|are|were)n't (about )?[\w' -]{1,40}[.;] (It|This|That|They)('s| is| was| are| were)\b/g, '"It isn\'t X. It\'s Y." framing.'],
   ['warn', 'rather-than', /\brather than\b/gi, '"Rather than" contrast. Keep only if the contrast is the content.'],
   ['warn', 'colon-reveal', /\b(here's the thing|the answer|the truth|the result|the point|the catch|the twist)( is)?:/gi, 'Colon reveal.'],
@@ -26,6 +27,8 @@ function prose(src) {
   return src
     .replace(/^---[\s\S]*?\n---\n/, (m) => '\n'.repeat(m.split('\n').length - 1))
     .replace(/<q>[\s\S]*?<\/q>/g, '')
+    .replace(/"[^"\n]{3,400}"/g, '""')
+    .replace(/“[^”\n]{3,400}”/g, '""')
     .replace(/<[^>]+>/g, ' ')
     .replace(/\]\([^)]*\)/g, ']')
     .replace(/https?:\/\/\S+/g, '')
