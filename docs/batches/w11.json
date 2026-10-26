@@ -1,0 +1,70 @@
+{
+  "batch": "w11",
+  "nodes_add": [
+    {"id": "panchanan-bhattacharya", "name": "Panchanan Bhattacharya", "born": 1853, "died": 1919, "part": 5, "tier": "node", "kind": "person", "note": "Disciple of Lahiri Mahasaya; first authorised to initiate others; founded the Arya Mission Institution, Calcutta, c. 1885 or 1886"},
+    {"id": "keshavananda-brahmachari", "name": "Keshavananda Brahmachari (Keshabananda)", "part": 5, "tier": "node", "kind": "person", "note": "Kriya disciple of Lahiri Mahasaya; ashram (Katyayani Peeth) at Vrindavan. Wikipedia gives 1830-1942; dates rest on devotional sources, so omitted"}
+  ],
+  "nodes_update": [
+    {"id": "lahiri-mahasaya", "born": 1828, "died": 1895, "name": "Lahiri Mahasaya", "note": "Shyama Charan Lahiri, b. 30 Sept 1828 Ghurni, Nadia; d. 26 Sept 1895 Benares. Clerk/accountant, Military Engineering Department 1851-1886; Kriya Yoga for householders from 1861"},
+    {"id": "babaji", "note": "Known only through the accounts of Lahiri Mahasaya, his disciples and Yogananda; met Lahiri near Ranikhet in 1861 by Lahiri's account"}
+  ],
+  "edges_remove": [],
+  "edges_upsert": [
+    {"from": "babaji", "to": "lahiri-mahasaya", "type": "initiated", "evidence": "hagiographic", "verified": true, "year": 1861, "note": "Lahiri's account as reported by disciples and by Yogananda (Autobiography of a Yogi, ch. 34, 1946); no evidence outside the lineage"},
+    {"from": "lahiri-mahasaya", "to": "yukteswar", "type": "initiated", "evidence": "documented", "verified": true, "year": 1884, "note": "Initiated into Kriya Yoga 1884; visited Lahiri often in Benares"},
+    {"from": "lahiri-mahasaya", "to": "panchanan-bhattacharya", "type": "initiated", "evidence": "documented", "verified": true, "note": "Required to give up sannyasa and return to household life before initiation; later authorised to found the Arya Mission Institution, Calcutta (c. 1885/1886)"},
+    {"from": "lahiri-mahasaya", "to": "keshavananda-brahmachari", "type": "initiated", "evidence": "testimony", "verified": true, "note": "Initiated by Lahiri; reported meeting Babaji near Badrinath (Yogananda)"},
+    {"from": "lahiri-mahasaya", "to": "yogananda", "type": "influenced", "evidence": "testimony", "verified": true, "note": "Initiated Yogananda's parents; blessed the infant ('Little mother, thy son will be a yogi', per YSS). Died 1895 when Yogananda was under three; training came through Yukteswar"},
+    {"from": "yoga-nath", "to": "lahiri-mahasaya", "type": "influenced", "evidence": "documented", "verified": true, "note": "Kriya's components (khechari mudra, mahamudra, yoni mudra, pranayama, spinal chakras) are named in earlier hatha texts"}
+  ],
+  "places": [
+    {"name": "Ghurni, Krishnanagar", "lat": 23.40, "lon": 88.50, "figure": "lahiri-mahasaya", "what": "Birthplace, 30 September 1828, on the Jalangi river", "verified": true},
+    {"name": "Danapur", "lat": 25.63, "lon": 85.05, "figure": "lahiri-mahasaya", "what": "Posted as accountant in the Military Engineering Department before and after the 1861 Ranikhet transfer", "verified": true},
+    {"name": "Ranikhet", "lat": 29.643, "lon": 79.432, "figure": "lahiri-mahasaya", "what": "Transferred here in 1861; by his account met Babaji in the nearby hills", "verified": true},
+    {"name": "Dunagiri (Drongiri), near Dwarahat", "lat": 29.81, "lon": 79.42, "figure": "lahiri-mahasaya", "what": "Mountain where, in the lineage's account, Babaji initiated him into Kriya Yoga", "verified": false},
+    {"name": "Moradabad", "lat": 28.84, "lon": 78.77, "figure": "lahiri-mahasaya", "what": "Lineage account of Babaji appearing before Lahiri's doubting friends", "verified": true},
+    {"name": "Varanasi (Benares)", "lat": 25.31, "lon": 83.01, "figure": "lahiri-mahasaya", "what": "Home from childhood; taught Kriya here, retired here 1886, died here 26 September 1895", "verified": true}
+  ],
+  "glossary": [
+    {"term": "Kriya Yoga", "script": "क्रिया योग", "lang": "sa", "def": "In Lahiri Mahasaya's line, a set of breathing and concentration techniques, moving breath and attention along the spine, given by initiation in graded stages. Patanjali uses the same name for a discipline of austerity, study and devotion."},
+    {"term": "Khechari mudra", "script": "खेचरी मुद्रा", "lang": "sa", "def": "A hatha yoga practice in which the tongue is turned back and up behind the soft palate; part of Kriya Yoga in Lahiri's line."},
+    {"term": "Kutastha", "script": "कूटस्थ", "lang": "sa", "def": "Literally 'unchanging'; in Kriya Yoga, the point between the eyebrows where attention rests and the still awareness experienced there."},
+    {"term": "Grihastha", "script": "गृहस्थ", "lang": "sa", "def": "A householder: someone living with a family and an occupation, as opposed to a renunciant monk."}
+  ],
+  "art": [],
+  "issues": [
+    "lahiri-mahasaya.mdx: Could not fetch the text of Autobiography of a Yogi ch. 31 and 36 (allowlist). Three statements rest on memory of those chapters and should be checked: (a) that several disciples reported Lahiri appearing to them after his death (ch. 36); (b) that Trailanga Swami admired Lahiri (ch. 31); (c) that the prediction 'About fifty years after my passing, an account of my life will be written' is in the book (YSS quotes it, chapter not confirmed).",
+    "lahiri-mahasaya.mdx: The Wikipedia date for the Babaji meeting, 27 November 1861, was not found in a primary source; text gives only 1861 and flags this.",
+    "lahiri-mahasaya.mdx: Mother's death 1832 (Wikipedia, linked to a flood) vs 1833 (Sri Chinmoy note); text gives both and hedges the flood link.",
+    "lahiri-mahasaya.mdx: Job title differs (accountant per Yogananda; clerk per Sri Chinmoy note; 'public works department of military engineering' per kriya.org). Text gives both.",
+    "lahiri-mahasaya.mdx: Arya Mission Institution founding c. 1885 or 1886 (Wikipedia gives both); text gives both.",
+    "lahiri-mahasaya.mdx: Diaries: 26 diaries, held by grandson Satya Charan Lahiri, passed to Ashoke Kumar Chatterjee (Purana Purusha, French 1997, English 2000) per vendor pages and an itch.io listing; no scholarly description found. The claim that they have not been published in full or independently examined is hedged ('as far as I could find').",
+    "lahiri-mahasaya.mdx: David Gordon White's remark is cited via the Wikipedia 'Kriya Yoga school' article, not checked in White 2014 directly. Jones and Ryan, Encyclopedia of Hinduism, year given as 2007 (Wikipedia cites a 2008 printing).",
+    "lahiri-mahasaya.mdx: Trailanga Swami node exists in Part 5 with no edges; I added no edge to Lahiri because no teaching relation is documented. Author may want a different home for Trailanga.",
+    "lahiri-mahasaya.mdx: Descendants paragraph names Bhupendranath Sanyal, Pranabananda, Kebalananda, Shibendu Lahiri, Hariharananda Giri without dates or nodes; Hariharananda's descent is via Yukteswar/Yogananda/Satyananda Giri (Wikipedia 'Kriya Yoga school'). Add nodes if the tree should show them.",
+    "lahiri-mahasaya.mdx: Dunagiri coordinates approximate (place marked verified: false).",
+    "lahiri-mahasaya.mdx: No art created; uses existing 'lamp'."
+  ],
+  "sources": {
+    "lahiri-mahasaya": [
+      "Born 30 Sept 1828, Ghurni, Nadia; parents Gaur Mohan and Muktakeshi; married Kashimoni 1846; clerk from 1851; died 26 Sept 1895 Benares -> https://en.wikipedia.org/wiki/Lahiri_Mahasaya",
+      "Ghurni on the Jalangi near Krishnanagar; mother died 1833; children Tinkori, Dukori, Harimoti, Harikamini, Harimohini; Military Engineering Department 1851; postings Gazipur, Mirzapur, Naini Tal, Danapur, Benares; retired 1886; commentaries on 26 scriptures -> https://www.srichinmoylibrary.com/lm-21e1",
+      "Accountant, Military Engineering Department, Danapur; transfer to Ranikhet ~500 miles, ~30 days; Drongiri; recall letter 'occurred by error'; quotes 'in the crowded marts, serving as an example of the ideal yogi-householder' and 'Give Kriya freely to all who humbly ask for help'; Moradabad episode -> https://anandaindia.org/autobiography-of-a-yogi/materializing-a-palace-in-the-himalaya/",
+      "Quotes 'Solve all your problems through meditation', 'Exchange unprofitable religious speculations for actual God-contact', 'Let the fragrance of the Kriya flower be wafted naturally, without any display'; Abdul Gufoor Khan; Hindus, Muslims, Christians; retired on pension 1886; little parlor, lotus posture; Gita Assembly; 26 scriptures; four graded Kriyas; rejected title Kashi Baba; Arya Mission permitted -> https://hinduwebsite.com/sacredscripts/spiritualism/yogananda/yogananda_35.asp",
+      "'Banat banat ban jai' = 'Striving, striving, one day behold! The Divine Goal!', AoY ch. 27, recalled by Pranabananda -> https://www.ananda.org/ask/phrase-banat-banatban-jai-autobiography-yogi/",
+      "Photograph story, Ganga Dhar Babu, twelve plates, 'I am Spirit. Can your camera reflect the omnipresent Invisible?', AoY ch. 1 -> https://www.ananda.org/blog/lahiri-mahasayas-enigmatic-photograph/ and https://gutenberg.org/cache/epub/7452/pg7452-images.html",
+      "'Little mother, thy son will be a yogi'; no organisation in his lifetime; 'About fifty years after my passing, an account of my life will be written' -> https://yssofindia.org/about/lahiri-mahasaya",
+      "Died on Mahashtami; worked in public works department of military engineering; quotes on Vishwanath -> https://kriya.org/guru/shri-lahiri-mahashaya/en",
+      "Panchanan Bhattacharya 1853-1919; required to leave sannyasa; Arya Mission c.1885/1886; cheap Gita editions, herbal medicines -> https://en.wikipedia.org/wiki/Panchanan_Bhattacharya",
+      "Yukteswar initiated by Lahiri 1884; met Babaji Kumbh Mela Allahabad 1894 -> https://en.wikipedia.org/wiki/Swami_Sri_Yukteswar_Giri",
+      "Babaji witnesses (Yukteswar, Pranabananda, Keshabananda near Badrinath); ~500 years per Pranabananda; Kriya Babaji Sangah founded 17 Oct 1952 by Neelakantan and Ramaiah -> https://en.wikipedia.org/wiki/Mahavatar_Babaji",
+      "Four parts of Kriya, thokar; White on Yogananda's use of the name; lineages; Gita 4.29 reading -> https://en.wikipedia.org/wiki/Kriya_Yoga_school",
+      "Mahamudra, khechari mudra, yoni mudra, pranayama, thokar, higher Kriyas extensions of second -> https://www.yoganiketan.net/aboutus?id=262",
+      "Purana Purusha, Ashoke Kumar Chatterjee, French 1997, English 2000; Satya Charan Lahiri furnished details -> https://www.vedicbooks.net/purana-purusha-yogiraj-shama-churn-lahiree-complete-biography-p-14429.html",
+      "26 diaries held by grandson Satya Charan Lahiri, entrusted to Chatterjee -> https://digitalpublisher999.itch.io/lahirimahasayalectures",
+      "Keshavananda initiated by Lahiri; Katyayani Peeth, Vrindavan -> https://en.wikipedia.org/wiki/Keshavananda_Brahmachari",
+      "Shibendu Lahiri great-grandson, family lineage of Kriya -> https://data.bnf.fr/15545226/shibendu_lahiri/fr.pdf",
+      "Sgt. Pepper cover 1967 -> https://en.wikipedia.org/wiki/Lahiri_Mahasaya"
+    ]
+  }
+}
