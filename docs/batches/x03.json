@@ -1,0 +1,268 @@
+{
+ "batch": "x03",
+ "nodes_add": [
+  {
+   "id": "sudhakar-chaturvedi",
+   "name": "Sudhakar Chaturvedi",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Vedic scholar associated with Gandhi; Sri Sri Ravi Shankar's first teacher"
+  },
+  {
+   "id": "shankar-dev",
+   "name": "Swami Shankar Dev",
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Head of Kripalu Bagh Ashram, Kankhal; gave Ramdev sannyasa; missing since 14 July 2007"
+  },
+  {
+   "id": "acharya-karamveer",
+   "name": "Acharya Karamveer",
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Arya Samaj yoga teacher; taught Ramdev yoga; co-founder of Divya Yog Mandir Trust (1995)"
+  },
+  {
+   "id": "acharya-balkrishna",
+   "name": "Acharya Balkrishna",
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Ramdev's partner; co-founder and managing director of Patanjali Ayurved"
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "sri-sri-ravi-shankar",
+   "born": 1956,
+   "name": "Sri Sri Ravi Shankar",
+   "note": "Sudarshan Kriya; Art of Living Foundation (1981)"
+  },
+  {
+   "id": "ramdev",
+   "name": "Baba Ramdev",
+   "note": "Televised pranayama; Patanjali Ayurved. Birth year uncertain (1965-1975), so born is left blank"
+  }
+ ],
+ "edges_remove": [],
+ "edges_upsert": [
+  {
+   "from": "maharishi",
+   "to": "sri-sri-ravi-shankar",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Worked and travelled with Maharishi from the mid-1970s until about 1980-81"
+  },
+  {
+   "from": "sudhakar-chaturvedi",
+   "to": "sri-sri-ravi-shankar",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "First teacher in childhood, per the Art of Living biography"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "sri-sri-ravi-shankar",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Commentaries on the Ashtavakra Gita and Vedantic talks"
+  },
+  {
+   "from": "yoga-nath",
+   "to": "sri-sri-ravi-shankar",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Ujjayi and bhastrika within the Sudarshan Kriya sequence"
+  },
+  {
+   "from": "yoga-nath",
+   "to": "ramdev",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Hatha-yoga pranayama (anulom vilom, kapalbhati) at the centre of his teaching"
+  },
+  {
+   "from": "dayananda-saraswati",
+   "to": "ramdev",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Reading Satyarth Prakash led him to Arya Samaj gurukul education"
+  },
+  {
+   "from": "shankar-dev",
+   "to": "ramdev",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Gave him sannyasa and the name Ramdev at Kripalu Bagh Ashram, early 1990s (year varies in sources)"
+  },
+  {
+   "from": "acharya-karamveer",
+   "to": "ramdev",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Taught him yoga at Kripalu Bagh; co-founded Divya Yog Mandir Trust with him in 1995",
+   "year": 1995
+  },
+  {
+   "from": "ramdev",
+   "to": "acharya-balkrishna",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Fellow gurukul student; co-founders of Divya Yog Mandir Trust (1995) and Patanjali Ayurved (2006)",
+   "year": 2006
+  }
+ ],
+ "places": [
+  {
+   "name": "Papanasam, Thanjavur district",
+   "lat": 10.93,
+   "lon": 79.27,
+   "figure": "sri-sri-ravi-shankar",
+   "what": "Birthplace (1956)",
+   "verified": true
+  },
+  {
+   "name": "Shimoga (Shivamogga), Karnataka",
+   "lat": 13.93,
+   "lon": 75.57,
+   "figure": "sri-sri-ravi-shankar",
+   "what": "Ten days of silence near the Bhadra river, origin of the Sudarshan Kriya (1982), by his own account",
+   "verified": true
+  },
+  {
+   "name": "Art of Living International Centre, Kanakapura Road, Bengaluru",
+   "lat": 12.83,
+   "lon": 77.51,
+   "figure": "sri-sri-ravi-shankar",
+   "what": "Headquarters ashram",
+   "verified": true
+  },
+  {
+   "name": "Yamuna floodplain near DND Flyway, Delhi",
+   "lat": 28.58,
+   "lon": 77.27,
+   "figure": "sri-sri-ravi-shankar",
+   "what": "World Culture Festival (11-13 March 2016)",
+   "verified": true
+  },
+  {
+   "name": "Kankhal, Haridwar",
+   "lat": 29.93,
+   "lon": 78.15,
+   "figure": "ramdev",
+   "what": "Kripalu Bagh Ashram: sannyasa (early 1990s); Divya Yog Mandir Trust founded (1995)",
+   "verified": true
+  },
+  {
+   "name": "Ramlila Maidan, Delhi",
+   "lat": 28.64,
+   "lon": 77.23,
+   "figure": "ramdev",
+   "what": "Hunger strike against corruption, cleared by police on the night of 4-5 June 2011",
+   "verified": true
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Pranayama",
+   "script": "प्राणायाम",
+   "lang": "sa",
+   "def": "Yogic breath control: deliberate patterns of breathing in, holding and breathing out."
+  },
+  {
+   "term": "Sudarshan Kriya",
+   "script": "सुदर्शन क्रिया",
+   "lang": "sa",
+   "def": "The cyclic breathing sequence taught by Sri Sri Ravi Shankar in Art of Living courses."
+  },
+  {
+   "term": "Kapalbhati",
+   "script": "कपालभाति",
+   "lang": "sa",
+   "def": "\"Skull-shining\": a breathing practice of short, forceful exhalations driven by the belly."
+  }
+ ],
+ "art": [],
+ "issues": [
+  "ramdev.mdx: at about 1,900 words including references, the profile exceeds the 800-1,200 target because Critiques and questions now covers several live legal matters; the author may want to trim the Life or Teaching sections or promote the entry.",
+  "ramdev.mdx: birth year is uncertain (sources range 1965-1975); graph node left without 'born'.",
+  "ramdev.mdx: year of sannyasa from Shankar Dev not established (draft said 1992; sources say only 'after 1992' / early 1990s).",
+  "ramdev.mdx: final status of the Godman to Tycoon litigation (publisher's Supreme Court appeal against the Delhi HC order of 30 Sept 2018) not found; book is listed in Further reading with a note. The Shankar Dev paragraph relies partly on an excerpt from that book (CBI closure move in 2014), attributed to Pathak-Narain.",
+  "ramdev.mdx: current (2026) status of the Kerala DMR Act prosecutions, the 2021 Bihar/Chhattisgarh FIRs and the 2023 Barmer FIR not found; text says no verdict 'in the reports available'. Recheck before publication.",
+  "sri-sri-ravi-shankar.mdx: official video archive URL still [to locate]; youtube.com could not be fetched to confirm the @Gurudev channel.",
+  "sri-sri-ravi-shankar.mdx: chapter has no art: field (optional)."
+ ],
+ "sources": {
+  "sri-sri-ravi-shankar": [
+   "Born 13 May 1956 Papanasam; parents; naming; Sudhakar Chaturvedi; physics St Joseph's 1973; Maharishi from mid-1970s; 1982 Bhadra/Shimoga; AoL 1981; first courses Switzerland 1983, Apple Valley 1986; ECOSOC 1996; FARC Havana 2015; Iraq 2007-08, 2014; Ayodhya panel March 2019; Padma Vibhushan 2016; 2012 Naxalism and 2018 Syria remarks; bloggers suit -> https://en.wikipedia.org/wiki/Ravi_Shankar_(spiritual_leader)",
+   "'like a poem, an inspiration' -> Ashok Mahadevan, Reader's Digest, Feb 2007, as cited in Wikipedia (not seen directly)",
+   "'During a ten-day period of silence, the SudarshanKriya came like an inspiration' -> https://www.artofliving.org/at-en/origin-sudarshan-kriya",
+   "370 million in 180 countries; IAHV 1997; Gita at four; fasting (French page) -> https://www.artofliving.org/cy-el/biography-sri-sri-ravi-shankar",
+   "Zope 2013 'mounting evidence ... adjunct' -> https://doaj.org/article/41e943e1b28e4135a3f20bffd76cc4c9",
+   "Yale trial N=131, arms 47/29/21/34, SKY largest gains -> https://public-pages-files-2025.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2020.00590/text",
+   "BMJ Open 2022: 85 randomised, 59 completed, non-inferior on PCL, inferior on BDI-II and PANAS at 1 year -> https://bmjopen.bmj.com/content/12/8/e056609",
+   "FT 'Thoroughly modern godman', Chloe Cornish, 29 Oct 2022 -> https://www.proquest.com/docview/2740366287",
+   "NGT 7 Dec 2017: responsible, Rs 5 crore to DDA, recover excess, no further penalty, DDA contributory negligence -> https://www.livelaw.in/amp/ngt-holds-sri-sris-art-of-living-guilty-damaging-yamuna-floodplains-told-cough-restoration-cost-read-order",
+   "Expert committee: ~180 ha, >Rs 42 crore, >=10 years; AoL 'flawed, unscientific and biased'; two members unsigned -> https://www.downtoearth.org.in/news/environment/ngt-panel-claims-2016-event-ruined-yamuna-floodplains-art-of-living-calls-it-flawed-57583",
+   "'the Central and state governments and the NGT itself' -> https://www.pressreader.com/india/hindustan-times-delhi/20170419/281595240408005",
+   "SC 22 Aug 2026, Justices S.C. Sharma and N. Kotiswar Singh, Vyakti Vikas Kendra India v. Manoj Misra; refund in 4 weeks; DDA to continue rehabilitation -> https://www.livelaw.in/top-stories/supreme-court-sets-aside-ngt-order-holding-art-of-living-foundation-liable-for-yamuna-riverplain-damage-in-2016-546972",
+   "'of a sweeping nature'; 'damage, if any, cannot be attributed to the appellant'; 'to hold the event on an active floodplain of the river cannot be approved' -> https://theprint.in/india/yamuna-floodplain-sc-overturns-ngt-order-against-art-of-living-directs-refund-of-rs-5-crore-fine/3022437/",
+   "Bloggers suit filed Nov 2010, defamation dismissed June 2011, settled and dismissed with prejudice 2012 -> https://www.dmlp.org/taxonomy/term/59",
+   "IISc objection Oct 2019 and response -> https://www.thenewsminute.com/amp/story/karnataka/sri-sris-mental-health-solutions-unscientific-iisc-staff-students-oppose-event-110276 ; https://thenewsminute.com/amp/story/karnataka/if-you-have-prejudice-can-t-call-yourself-scientist-sri-sri-detractors-iisc-110316"
+  ],
+  "ramdev": [
+   "Birth name, Alipur, Mahendragarh, parents, birth year 1965-1975, Satyarth Prakash, Arsh Gurukul 1984-89, Kripalu Bagh, Karamveer, Divya Yog Mandir Trust 5 Jan 1995, Sanskar 2002, Aastha 2003, Patanjali 2006, Balkrishna majority/Ramdev no shares, Ramlila 2011, Modi 2014, Haryana 2015, 2013 homosexuality, Coronil, 'stupid science' 2021, Pranayama Rahasya 2009 (Diamond) -> https://en.wikipedia.org/wiki/Ramdev",
+   "20 million daily viewers; 'Yoga is self-healing and self-realisation'; cancer testimonies; IMA president 'false hope'; Edamaruku and 1954 Act; 'the communists have an agenda' -> https://mg.co.za/article/2008-07-03-tv-swami-offers-a-cureall",
+   "'Ramdev stresses 90 per cent on breathing' (teacher V.K. Dhir); seven exercises -> https://gulfnews.com/lifestyle/health-fitness/wellbeing-the-yoga-way-1.78398",
+   "SC contempt timeline Nov 2023-13 Aug 2024; bench Kohli/Amanullah -> https://www.livelaw.in/amp/top-stories/supreme-court-patanjali-ayurved-baba-ramdev-contempt-proceedings-closed-266590",
+   "Uttarakhand suspension withdrawn 1 July 2024, fresh notice 8 July -> https://www.livelaw.in/amp/top-stories/supreme-court-patanjali-ima-says-14-ayurvedic-medicines-for-which-licenses-were-suspended-still-being-sold-265046",
+   "Kerala HC stay 3 Apr 2025, Palakkad JFCM II, Justice V.G. Arun -> https://www.storyboard18.com/advertising/misleading-ad-case-kerala-hc-stays-order-against-baba-ramdev-and-acharya-balkrishna-60073.htm",
+   "26 Kerala cases; Feb 2025 Palakkad warrants -> https://maktoobmedia.com/india/26-cases-filed-against-baba-ramdev-in-kerala-courts-so-far-over-misleading-ads/",
+   "2021 Bihar/Chhattisgarh FIRs; SC clubbing plea 2024 -> https://odishabytes.com/supreme-court-seeks-status-of-baba-ramdev-criminal-cases-in-chhattisgarh-bihar/",
+   "Barmer FIR 5 Feb 2023; Rajasthan HC stayed arrest Apr 2023 -> https://www.verdictum.in/court-updates/high-courts/jodhpur-bench-stays-arrest-of-baba-ramdev-for-allegedly-hurting-religious-sentiments-of-muslims-1471972",
+   "Sharbat jihad: 'indefensible and shook its conscience'; affidavits 22 Apr 2025; suit closed 9 May 2025 -> https://www.dtnext.in/news/national/delhi-hc-closes-case-after-ramdev-pledges-no-more-offensive-remarks-against-rooh-afza-833078",
+   "Shankar Dev missing 14 July 2007, note, CBI from Oct 2012, closure move Dec 2014 (book excerpt) -> https://www.newslaundry.com/2017/08/02/ramdev-shankar-dev",
+   "CBI questioned Ramdev Oct 2013; 'I am ready to face any probe'; accuses Congress -> https://www.oneindia.com/india/not-afraid-of-anyone-baba-ramdev-to-congress-1324477.html",
+   "Delhi HC 30 Sep 2018 restrained Juggernaut 'to the extent' of 'unfounded claims' -> https://barandbench.com/hc-directs-jaggernaut-delete-insinuating-content-baba-ramdev"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 118,
+  "changes": [
+   "sri-sri-ravi-shankar: scene: 'poem' quote re-attributed to a 2007 Reader's Digest profile (not confirmed as his words to an interviewer) and paired with his verbatim account on the foundation site (artofliving.org origin page)",
+   "sri-sri-ravi-shankar: reach figure: removed unsourced 'touched' wording (AoL biography says 'over 370 million people in 180 countries'); Descendants '150 countries' changed to the foundation's 180 for consistency",
+   "sri-sri-ravi-shankar: Yale trial: 'improved on more measures than the others' -> 'largest gains compared with the control group' (Frontiers 2020)",
+   "sri-sri-ravi-shankar: removed meta 'Author's voice' aside and first-person sentence in 'In his own voice' (STYLE.md: first person only in verdict/intros/epilogue)",
+   "sri-sri-ravi-shankar: SC 2026 ruling: 'site was already degraded' -> 'already damaged before the site was handed over' (LiveLaw); added verbatim 'active floodplain' quote (ThePrint/PTI); refund ordered from DDA; cut 'That is the final legal position' in favour of dated status",
+   "sri-sri-ravi-shankar: bloggers lawsuit: 'early 2000s' and unsourced allegations (course pressure, money, cult) replaced with documented facts: blogs from c. 2009, suit Nov 2010, defamation claims dismissed June 2011, settled and dismissed with prejudice 2012, and the foundation's stated grounds (DMLP)",
+   "sri-sri-ravi-shankar: IISc protest dated 2019 not 2022, 'hundreds of students' unsupported -> 'a group of students and faculty'; added his response (The News Minute, 10-11 Oct 2019)",
+   "sri-sri-ravi-shankar: FT author corrected Charlotte -> Chloe Cornish, date 29 Oct 2022 (ProQuest); Reader's Digest citation completed; added references 5, 18-21",
+   "ramdev: sannyasa: '1992' hedged to early 1990s and guru Swami Shankar Dev named (Wikipedia; Newslaundry excerpt); Lineage now names Shankar Dev and Karamveer instead of 'claims no single guru line'",
+   "ramdev: 'His organisation describes the balance as ninety per cent breathing' -> attributed to a teacher of his method in Gulf News 2008",
+   "ramdev: 2008 quote attributed to Mail & Guardian; reply to critics made precise ('communist critics')",
+   "ramdev: Patanjali shareholding: added that Ramdev holds no shares (Wikipedia)",
+   "ramdev: Pranayama Rahasya publisher corrected to Diamond Pocket Books (English edition, 2009)",
+   "ramdev: 'remarks about Muslims in 2023 and 2025' double-counted the sharbat-jihad episode; rewritten with Barmer FIR (Feb 2023) and Rajasthan HC stay, and the Delhi HC Hamdard suit closed 9 May 2025 on Ramdev's undertakings (Verdictum, DT Next)",
+   "ramdev: Other cases expanded with Kerala case count, Palakkad warrants, and 2021 Bihar/Chhattisgarh FIRs, all stated as pending/no verdict (Maktoob, Odisha Bytes)",
+   "ramdev: added documented Shankar Dev disappearance (2007) with precise status (no one charged) and Ramdev's denial and response (Oneindia 2013), and the Godman to Tycoon litigation; added references 9-15"
+  ],
+  "unresolved": [
+   "Ramdev's birth year (1965-1975) and year of sannyasa",
+   "2026 status of Ramdev's pending criminal cases (Kerala DMR Act, Bihar/Chhattisgarh 2021, Barmer 2023) and of the Godman to Tycoon appeal",
+   "Sri Sri Reader's Digest 2007 article not seen directly; quote relies on Wikipedia's citation",
+   "Official Art of Living video archive URL not confirmed"
+  ]
+ }
+}
