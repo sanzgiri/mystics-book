@@ -1,37 +1,190 @@
 {
   "batch": "w01",
   "nodes_add": [
-    {"id": "hariharananda-tirthaswami", "name": "Hariharananda Tirthaswami (Nandakumar Vidyalankar)", "part": 1, "tier": "node", "kind": "person", "note": "Sanskrit scholar and Tantric teacher; taught Rammohan Sanskrit and, by biographers' accounts, initiated him into Tantric practice; stayed with him at Rangpur c. 1812"},
-    {"id": "ramchandra-vidyabagish", "name": "Ramchandra Vidyabagish", "born": 1786, "died": 1845, "part": 1, "tier": "node", "kind": "person", "note": "Sanskrit scholar and lexicographer; first secretary of the Brahmo Sabha (1828); kept services going after 1833; brought Debendranath Tagore into the Sabha's trust in 1843"},
-    {"id": "islamic-theology", "name": "Islamic theology and Persian learning", "part": 0, "tier": "root", "kind": "tradition", "note": "Rational and monotheist (tawhid) theology read in Arabic and Persian; shaped Rammohan's Tuhfat-ul-Muwahhidin (c. 1804). Merge with any Islam root if one exists"}
+    {
+      "id": "hariharananda-tirthaswami",
+      "name": "Hariharananda Tirthaswami (Nandakumar Vidyalankar)",
+      "part": 1,
+      "tier": "node",
+      "kind": "person",
+      "note": "Sanskrit scholar and Tantric teacher; taught Rammohan Sanskrit and, by biographers' accounts, initiated him into Tantric practice; stayed with him at Rangpur c. 1812"
+    },
+    {
+      "id": "ramchandra-vidyabagish",
+      "name": "Ramchandra Vidyabagish",
+      "born": 1786,
+      "died": 1845,
+      "part": 1,
+      "tier": "node",
+      "kind": "person",
+      "note": "Sanskrit scholar and lexicographer; first secretary of the Brahmo Sabha (1828); kept services going after 1833; brought Debendranath Tagore into the Sabha's trust in 1843"
+    },
+    {
+      "id": "islamic-theology",
+      "name": "Islamic theology and Persian learning",
+      "part": 0,
+      "tier": "root",
+      "kind": "tradition",
+      "note": "Rational and monotheist (tawhid) theology read in Arabic and Persian; shaped Rammohan's Tuhfat-ul-Muwahhidin (c. 1804). Merge with any Islam root if one exists"
+    }
   ],
   "nodes_update": [
-    {"id": "rammohan-roy", "name": "Rammohan Roy", "born": 1772, "died": 1833, "note": "Born 1772 (some sources 1774); Upanishad translations 1816–1819; founded the Brahmo Sabha, 20 August 1828; died Bristol 27 September 1833"}
+    {
+      "id": "rammohan-roy",
+      "name": "Rammohan Roy",
+      "born": 1772,
+      "died": 1833,
+      "note": "Born 1772 (some sources 1774); Upanishad translations 1816–1819; founded the Brahmo Sabha, 20 August 1828; died Bristol 27 September 1833"
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "upanishads", "to": "rammohan-roy", "type": "influenced", "evidence": "documented", "verified": true, "year": 1815, "note": "Vedanta Grantha (1815) and translations of Isha, Kena, Katha, Mundaka and Mandukya Upanishads (1816–1819)"},
-    {"from": "advaita-vedanta", "to": "rammohan-roy", "type": "influenced", "evidence": "documented", "verified": true, "year": 1815, "note": "Read the Brahma Sutras and Upanishads through Shankara's commentaries"},
-    {"from": "islamic-theology", "to": "rammohan-roy", "type": "influenced", "evidence": "documented", "verified": true, "year": 1804, "note": "Tuhfat-ul-Muwahhidin, Persian with Arabic preface; specific Mu'tazili link is B.N. Seal's interpretation"},
-    {"from": "christianity", "to": "rammohan-roy", "type": "influenced", "evidence": "documented", "verified": true, "year": 1820, "note": "Precepts of Jesus (1820), Appeals (1820–1823); Unitarian reading; Calcutta Unitarian Committee with William Adam (1821)"},
-    {"from": "hariharananda-tirthaswami", "to": "rammohan-roy", "type": "initiated", "evidence": "testimony", "verified": true, "note": "Taught him Sanskrit in youth; biographers say he initiated him into Tantric practice"},
-    {"from": "tantra-shakta", "to": "hariharananda-tirthaswami", "type": "lineage", "evidence": "documented", "verified": true, "note": "Tantric teacher and commentator"},
-    {"from": "rammohan-roy", "to": "ramchandra-vidyabagish", "type": "institutional", "evidence": "documented", "verified": true, "year": 1828, "note": "First secretary of the Brahmo Sabha; taught at Rammohan's Vedanta College"},
-    {"from": "ramchandra-vidyabagish", "to": "debendranath-tagore", "type": "initiated", "evidence": "documented", "verified": true, "year": 1843, "note": "Brought Debendranath and about twenty Tattvabodhini members into the Brahmo Sabha trust, 7 Pous 1765 Shaka (December 1843)"},
-    {"from": "rammohan-roy", "to": "debendranath-tagore", "type": "institutional", "evidence": "documented", "verified": true, "note": "Brahmo Sabha, revived by Debendranath as the Brahmo Samaj; Debendranath's father Dwarkanath was a trustee (1830)"}
+    {
+      "from": "upanishads",
+      "to": "rammohan-roy",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1815,
+      "note": "Vedanta Grantha (1815) and translations of Isha, Kena, Katha, Mundaka and Mandukya Upanishads (1816–1819)"
+    },
+    {
+      "from": "advaita-vedanta",
+      "to": "rammohan-roy",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1815,
+      "note": "Read the Brahma Sutras and Upanishads through Shankara's commentaries"
+    },
+    {
+      "from": "islamic-theology",
+      "to": "rammohan-roy",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1804,
+      "note": "Tuhfat-ul-Muwahhidin, Persian with Arabic preface; specific Mu'tazili link is B.N. Seal's interpretation"
+    },
+    {
+      "from": "christianity",
+      "to": "rammohan-roy",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1820,
+      "note": "Precepts of Jesus (1820), Appeals (1820–1823); Unitarian reading; Calcutta Unitarian Committee with William Adam (1821)"
+    },
+    {
+      "from": "hariharananda-tirthaswami",
+      "to": "rammohan-roy",
+      "type": "initiated",
+      "evidence": "testimony",
+      "verified": true,
+      "note": "Taught him Sanskrit in youth; biographers say he initiated him into Tantric practice"
+    },
+    {
+      "from": "tantra-shakta",
+      "to": "hariharananda-tirthaswami",
+      "type": "lineage",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Tantric teacher and commentator"
+    },
+    {
+      "from": "rammohan-roy",
+      "to": "ramchandra-vidyabagish",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1828,
+      "note": "First secretary of the Brahmo Sabha; taught at Rammohan's Vedanta College"
+    },
+    {
+      "from": "ramchandra-vidyabagish",
+      "to": "debendranath-tagore",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1843,
+      "note": "Brought Debendranath and about twenty Tattvabodhini members into the Brahmo Sabha trust, 7 Pous 1765 Shaka (December 1843)"
+    },
+    {
+      "from": "rammohan-roy",
+      "to": "debendranath-tagore",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Brahmo Sabha, revived by Debendranath as the Brahmo Samaj; Debendranath's father Dwarkanath was a trustee (1830)"
+    }
   ],
   "places": [
-    {"name": "Radhanagar", "lat": 22.73, "lon": 87.86, "figure": "rammohan-roy", "what": "Birthplace (1772 or 1774), near Khanakul, Hooghly district", "verified": false},
-    {"name": "Murshidabad", "lat": 24.18, "lon": 88.27, "figure": "rammohan-roy", "what": "Clerk to the Company; Tuhfat-ul-Muwahhidin published here c. 1804", "verified": true},
-    {"name": "Rangpur", "lat": 25.75, "lon": 89.25, "figure": "rammohan-roy", "what": "Dewan to John Digby, c. 1809–1814; discussions on the unity of God", "verified": true},
-    {"name": "Kolkata (Chitpore Road, Brahmo Sabha)", "lat": 22.585, "lon": 88.357, "figure": "rammohan-roy", "what": "Settled 1814; Atmiya Sabha 1815; Brahmo Sabha 1828, Chitpore Road building under the 1830 trust deed", "verified": false},
-    {"name": "Arnos Vale Cemetery, Bristol", "lat": 51.443, "lon": -2.567, "figure": "rammohan-roy", "what": "Reburial 29 May 1843 under the chhatri funded by Dwarkanath Tagore; died at Stapleton nearby, 27 September 1833", "verified": true}
+    {
+      "name": "Radhanagar",
+      "lat": 22.73,
+      "lon": 87.86,
+      "figure": "rammohan-roy",
+      "what": "Birthplace (1772 or 1774), near Khanakul, Hooghly district",
+      "verified": false
+    },
+    {
+      "name": "Murshidabad",
+      "lat": 24.18,
+      "lon": 88.27,
+      "figure": "rammohan-roy",
+      "what": "Clerk to the Company; Tuhfat-ul-Muwahhidin published here c. 1804",
+      "verified": true
+    },
+    {
+      "name": "Rangpur",
+      "lat": 25.75,
+      "lon": 89.25,
+      "figure": "rammohan-roy",
+      "what": "Dewan to John Digby, c. 1809–1814; discussions on the unity of God",
+      "verified": true
+    },
+    {
+      "name": "Kolkata (Chitpore Road, Brahmo Sabha)",
+      "lat": 22.585,
+      "lon": 88.357,
+      "figure": "rammohan-roy",
+      "what": "Settled 1814; Atmiya Sabha 1815; Brahmo Sabha 1828, Chitpore Road building under the 1830 trust deed",
+      "verified": false
+    },
+    {
+      "name": "Arnos Vale Cemetery, Bristol",
+      "lat": 51.443,
+      "lon": -2.567,
+      "figure": "rammohan-roy",
+      "what": "Reburial 29 May 1843 under the chhatri funded by Dwarkanath Tagore; died at Stapleton nearby, 27 September 1833",
+      "verified": true
+    }
   ],
   "glossary": [
-    {"term": "Brahmo Samaj", "script": "ব্রাহ্মসমাজ", "lang": "bn", "def": "The society of worshippers of Brahman, founded by Rammohan Roy in 1828 as the Brahmo Sabha; congregational worship of one formless God, without images."},
-    {"term": "Sati", "script": "सती", "lang": "sa", "def": "A widow's self-immolation on her husband's funeral pyre, and the woman who does it; prohibited in Bengal on 4 December 1829."},
-    {"term": "Brahmasangit", "script": "ব্রহ্মসংগীত", "lang": "bn", "def": "Hymns to the formless Brahman sung in Brahmo worship; Rammohan wrote many of the first ones."},
-    {"term": "Tawhid", "script": "توحید", "lang": "ar", "def": "The oneness of God, the central doctrine of Islamic theology."}
+    {
+      "term": "Brahmo Samaj",
+      "script": "ব্রাহ্মসমাজ",
+      "lang": "bn",
+      "def": "The society of worshippers of Brahman, founded by Rammohan Roy in 1828 as the Brahmo Sabha; congregational worship of one formless God, without images."
+    },
+    {
+      "term": "Sati",
+      "script": "सती",
+      "lang": "sa",
+      "def": "A widow's self-immolation on her husband's funeral pyre, and the woman who does it; prohibited in Bengal on 4 December 1829."
+    },
+    {
+      "term": "Brahmasangit",
+      "script": "ব্রহ্মসংগীত",
+      "lang": "bn",
+      "def": "Hymns to the formless Brahman sung in Brahmo worship; Rammohan wrote many of the first ones."
+    },
+    {
+      "term": "Tawhid",
+      "script": "توحید",
+      "lang": "ar",
+      "def": "The oneness of God, the central doctrine of Islamic theology."
+    }
   ],
   "art": [],
   "issues": [
@@ -43,7 +196,10 @@
     "rammohan-roy.mdx: Briggs attribution of the Bristol portrait is taken from the Art UK URL's artist filter; the page itself did not show the artist or date.",
     "rammohan-roy.mdx: Dayananda's Calcutta visit given as 1872–1873 and his meeting with Keshab from general knowledge; coordinate with the dayananda-saraswati entry.",
     "rammohan-roy.mdx: Radhanagar and Chitpore Road coordinates approximate (verified: false).",
-    "graph: added root 'islamic-theology'; merge with any Islam/Sufi root the author prefers. Existing 'sufi-orders' root not used since the Tuhfat's sources are rationalist theology, not a Sufi order."
+    "graph: added root 'islamic-theology'; merge with any Islam/Sufi root the author prefers. Existing 'sufi-orders' root not used since the Tuhfat's sources are rationalist theology, not a Sufi order.",
+    "factcheck rammohan-roy.mdx: death date kept as 27 Sept 1833 (Banglapedia, Wikipedia, UUDB, Arnos Vale); Haberman's 22 Sept treated as an outlier, not given as a range. Author may prefer to footnote it.",
+    "factcheck rammohan-roy.mdx: Obaide's English Tuhfat dated 1883 by Mukherjee (India Forum), which also shows a title page of an 1889 edition; reference now reads '1883; reissued 1889'. Confirm against a catalogue record.",
+    "factcheck rammohan-roy.mdx: Radhanagar coordinates still unverified (web session limit reached before the check)."
   ],
   "sources": {
     "rammohan-roy": [
@@ -66,6 +222,31 @@
       "Hatcher, Hinduism Before Reform (2020), reviewed by Tanika Sarkar -> https://www.theindiaforum.in/article/prehistory-religious-modernity",
       "Portrait oil on canvas, Bristol Museum & Art Gallery -> https://artuk.org/discover/artworks/rajah-rammohun-roy-17721833-188130/search/actor:briggs-henry-perronet-179117931844/page/1/view_as/list",
       "Collet, Life and Letters, Calcutta 1914 ed. -> https://archive.org/details/lifelettersofraj00collrich/page/n5/mode/2up"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 78,
+    "changes": [
+      "rammohan-roy.mdx: scene age 'fifty-six' -> 'in his mid-fifties', since birth year is 1772 or 1774 (Banglapedia; Mukherjee, India Forum 2021)",
+      "rammohan-roy.mdx: Digby service 'roughly a decade' -> 'about nine years from 1805' (Mitra, Resurgent India, ch. 5)",
+      "rammohan-roy.mdx: sister-in-law sati year 1811 -> '1811 (some accounts say 1812)' in Life, and '1811 or 1812' in Critiques; Mitra and Utah Ethics of Suicide give 1811, UUDB gives 1812 (brother Jagamohan's death); Wikipedia gives no year",
+      "rammohan-roy.mdx: Shankara 'founder of Advaita Vedanta' -> 'teacher of Advaita Vedanta' (Gaudapada and earlier Advaita teachers precede him; 'founder' overstates)",
+      "rammohan-roy.mdx: Vidyabagish 1843 'brought ... into the Sabha's trust' -> 'formally initiated ... into the Sabha' (Wikipedia, Brahmo Samaj and Ram Chandra Vidyabagish: covenant/initiation, 7 Pous 1765 Shaka)",
+      "rammohan-roy.mdx: portrait 'attributed to' Briggs -> 'by Henry Perronet Briggs ... around 1832' (Art UK artist listing: 'Rajah Rammohun Roy (1772-1833)', c.1832, Bristol Museum & Art Gallery; Arnos Vale and Cardiff University pages also name Briggs)",
+      "rammohan-roy.mdx: Dayananda visit '1872-1873' -> 'between December 1872 and April 1873' (Goswami, 'Dayanand Saraswati's Sojourn at Calcutta': arrived Dec 1872, left 1 April 1873; encyclopedia.com Dayananda entry: four months, met Keshab Chandra Sen, guest of Debendranath)",
+      "rammohan-roy.mdx ref 1: Obaide translation (1889) -> (1883; reissued 1889) (Mukherjee, India Forum)",
+      "rammohan-roy.mdx ref 19: Sumit Sarkar essay confirmed (V.C. Joshi ed., Vikas, Delhi, 1975, from the 1972 NMML bicentenary symposium; catalogue records CSSSC and Rajshahi); added publisher and its reprint as ch. 1 of Sarkar, Essays of a Lifetime (SUNY Press, 2019; De Gruyter chapter listing)",
+      "Confirmed without change: Zastoupil, Rammohun Roy and the Making of Victorian Britain (Palgrave Macmillan, 2010; palgrave.com); sati tracts 1818 and 1820 (UUDB; Princeton Seminary catalogue 'Translation of a conference ...' 1818; franpritchett 'Second Conference' 1820); Nag and Burman English Works 1945-1951, 6 parts (CiNii)",
+      "Quotations verified verbatim: Defence of Hindoo Theism (4 quotes, franpritchett), trust deed (4, Wikipedia), Tuhfat (3, India Forum), autobiographical letter and Collet 'spurious' (Daily Star), Gandhi 1921 and Tagore 10 May 1921 (Guha via franpritchett), 'superior even to the angels in heaven' (UUDB), 'Hindu Unitarian' (Haberman, encyclopedia.com)",
+      "All media and reference URLs checked as live and supporting their claims except archive.org stream text (fetch blocked; item page resolves: Collet, Calcutta 1914)"
+    ],
+    "unresolved": [
+      "Death date 22 Sept (Haberman) vs 27 Sept (all other sources); kept 27 Sept",
+      "Obaide translation first-publication year (1883 vs 1884) not confirmed against a catalogue",
+      "Radhanagar coordinates not verified",
+      "Hatcher characterisation is a fair summary of Hinduism Before Reform's comparison of the Brahmo Sabha with the Swaminarayan sampraday, but the cited review (Tanika Sarkar) does not state it in those words",
+      "'When the Unitarian association became more of a Christian mission, he ... withdrew their money' and 'Around 1816 the Baptist missionaries ... began to hope he would convert' have no source in the ledger; plausible (Kopf) but not checked",
+      "Guha article: franpritchett gives EPW 23 Jan 2010 as 'The Bilingual Intellectual'; a 2009 EPW essay 'The Rise and Fall of the Bilingual Intellectual' also exists; date not reconciled"
     ]
   }
 }

@@ -141,7 +141,8 @@
    "died": 1833,
    "part": 1,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born 1772 (some sources 1774); Upanishad translations 1816–1819; founded the Brahmo Sabha, 20 August 1828; died Bristol 27 September 1833"
   },
   {
    "id": "dayananda-saraswati",
@@ -1524,6 +1525,32 @@
    "tier": "node",
    "kind": "person",
    "note": "Student of Krishnamacharya in Madras; author of Krishnamacharya: His Life and Teachings (2010)."
+  },
+  {
+   "id": "hariharananda-tirthaswami",
+   "name": "Hariharananda Tirthaswami (Nandakumar Vidyalankar)",
+   "part": 1,
+   "tier": "node",
+   "kind": "person",
+   "note": "Sanskrit scholar and Tantric teacher; taught Rammohan Sanskrit and, by biographers' accounts, initiated him into Tantric practice; stayed with him at Rangpur c. 1812"
+  },
+  {
+   "id": "ramchandra-vidyabagish",
+   "name": "Ramchandra Vidyabagish",
+   "born": 1786,
+   "died": 1845,
+   "part": 1,
+   "tier": "node",
+   "kind": "person",
+   "note": "Sanskrit scholar and lexicographer; first secretary of the Brahmo Sabha (1828); kept services going after 1833; brought Debendranath Tagore into the Sabha's trust in 1843"
+  },
+  {
+   "id": "islamic-theology",
+   "name": "Islamic theology and Persian learning",
+   "part": 0,
+   "tier": "root",
+   "kind": "tradition",
+   "note": "Rational and monotheist (tawhid) theology read in Arabic and Persian; shaped Rammohan's Tuhfat-ul-Muwahhidin (c. 1804). Merge with any Islam root if one exists"
   }
  ],
  "edges": [
@@ -1634,14 +1661,18 @@
    "from": "upanishads",
    "to": "rammohan-roy",
    "type": "influenced",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1815,
+   "note": "Vedanta Grantha (1815) and translations of Isha, Kena, Katha, Mundaka and Mandukya Upanishads (1816–1819)"
   },
   {
    "from": "rammohan-roy",
    "to": "debendranath-tagore",
    "type": "institutional",
    "evidence": "documented",
-   "note": "Brahmo Samaj"
+   "verified": true,
+   "note": "Brahmo Sabha, revived by Debendranath as the Brahmo Samaj; Debendranath's father Dwarkanath was a trustee (1830)"
   },
   {
    "from": "debendranath-tagore",
@@ -2704,6 +2735,67 @@
    "type": "influenced",
    "evidence": "documented",
    "verified": true
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "rammohan-roy",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1815,
+   "note": "Read the Brahma Sutras and Upanishads through Shankara's commentaries"
+  },
+  {
+   "from": "islamic-theology",
+   "to": "rammohan-roy",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1804,
+   "note": "Tuhfat-ul-Muwahhidin, Persian with Arabic preface; specific Mu'tazili link is B.N. Seal's interpretation"
+  },
+  {
+   "from": "christianity",
+   "to": "rammohan-roy",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1820,
+   "note": "Precepts of Jesus (1820), Appeals (1820–1823); Unitarian reading; Calcutta Unitarian Committee with William Adam (1821)"
+  },
+  {
+   "from": "hariharananda-tirthaswami",
+   "to": "rammohan-roy",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Taught him Sanskrit in youth; biographers say he initiated him into Tantric practice"
+  },
+  {
+   "from": "tantra-shakta",
+   "to": "hariharananda-tirthaswami",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Tantric teacher and commentator"
+  },
+  {
+   "from": "rammohan-roy",
+   "to": "ramchandra-vidyabagish",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1828,
+   "note": "First secretary of the Brahmo Sabha; taught at Rammohan's Vedanta College"
+  },
+  {
+   "from": "ramchandra-vidyabagish",
+   "to": "debendranath-tagore",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1843,
+   "note": "Brought Debendranath and about twenty Tattvabodhini members into the Brahmo Sabha trust, 7 Pous 1765 Shaka (December 1843)"
   }
  ]
 }

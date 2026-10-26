@@ -485,6 +485,46 @@
    "figure": "krishnamacharya",
    "what": "Teaching 1952–1989; Krishnamacharya Yoga Mandiram.",
    "verified": true
+  },
+  {
+   "name": "Radhanagar",
+   "lat": 22.73,
+   "lon": 87.86,
+   "figure": "rammohan-roy",
+   "what": "Birthplace (1772 or 1774), near Khanakul, Hooghly district",
+   "verified": false
+  },
+  {
+   "name": "Murshidabad",
+   "lat": 24.18,
+   "lon": 88.27,
+   "figure": "rammohan-roy",
+   "what": "Clerk to the Company; Tuhfat-ul-Muwahhidin published here c. 1804",
+   "verified": true
+  },
+  {
+   "name": "Rangpur",
+   "lat": 25.75,
+   "lon": 89.25,
+   "figure": "rammohan-roy",
+   "what": "Dewan to John Digby, c. 1809–1814; discussions on the unity of God",
+   "verified": true
+  },
+  {
+   "name": "Kolkata (Chitpore Road, Brahmo Sabha)",
+   "lat": 22.585,
+   "lon": 88.357,
+   "figure": "rammohan-roy",
+   "what": "Settled 1814; Atmiya Sabha 1815; Brahmo Sabha 1828, Chitpore Road building under the 1830 trust deed",
+   "verified": false
+  },
+  {
+   "name": "Arnos Vale Cemetery, Bristol",
+   "lat": 51.443,
+   "lon": -2.567,
+   "figure": "rammohan-roy",
+   "what": "Reburial 29 May 1843 under the chhatri funded by Dwarkanath Tagore; died at Stapleton nearby, 27 September 1833",
+   "verified": true
   }
  ]
 }
