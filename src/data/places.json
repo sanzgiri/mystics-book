@@ -525,6 +525,182 @@
    "figure": "rammohan-roy",
    "what": "Reburial 29 May 1843 under the chhatri funded by Dwarkanath Tagore; died at Stapleton nearby, 27 September 1833",
    "verified": true
+  },
+  {
+   "name": "Tankara",
+   "lat": 22.656,
+   "lon": 70.749,
+   "figure": "dayananda-saraswati",
+   "what": "Birthplace (1824); the Shivaratri vigil",
+   "verified": true
+  },
+  {
+   "name": "Chanod (Chandod), Narmada",
+   "lat": 21.98,
+   "lon": 73.46,
+   "figure": "dayananda-saraswati",
+   "what": "Initiation as a sannyasi, late 1840s",
+   "verified": false
+  },
+  {
+   "name": "Mathura",
+   "lat": 27.49,
+   "lon": 77.67,
+   "figure": "dayananda-saraswati",
+   "what": "Study with Virjananda, c. 1860–1863",
+   "verified": true
+  },
+  {
+   "name": "Anand Bagh, Varanasi",
+   "lat": 25.31,
+   "lon": 83.0,
+   "figure": "dayananda-saraswati",
+   "what": "Kashi shastrartha on image worship, 16 November 1869 (city-level coordinates)",
+   "verified": false
+  },
+  {
+   "name": "Girgaon, Bombay",
+   "lat": 18.955,
+   "lon": 72.815,
+   "figure": "dayananda-saraswati",
+   "what": "First Arya Samaj founded, 10 April 1875",
+   "verified": false
+  },
+  {
+   "name": "Lahore",
+   "lat": 31.55,
+   "lon": 74.34,
+   "figure": "dayananda-saraswati",
+   "what": "Ten principles settled, 1877",
+   "verified": true
+  },
+  {
+   "name": "Navlakha Mahal, Udaipur",
+   "lat": 24.58,
+   "lon": 73.68,
+   "figure": "dayananda-saraswati",
+   "what": "Revision of Satyarth Prakash, 1882–83 (city-level coordinates)",
+   "verified": false
+  },
+  {
+   "name": "Ajmer",
+   "lat": 26.45,
+   "lon": 74.64,
+   "figure": "dayananda-saraswati",
+   "what": "Death at the Bhinai House, 30 October 1883",
+   "verified": true
+  },
+  {
+   "name": "Villupuram",
+   "lat": 11.94,
+   "lon": 79.49,
+   "figure": "chandrasekharendra-saraswati",
+   "what": "Birthplace, 20 May 1894.",
+   "verified": true
+  },
+  {
+   "name": "Tindivanam",
+   "lat": 12.23,
+   "lon": 79.65,
+   "figure": "chandrasekharendra-saraswati",
+   "what": "Schooling and sacred-thread ceremony, 1905.",
+   "verified": true
+  },
+  {
+   "name": "Kalavai",
+   "lat": 12.77,
+   "lon": 79.42,
+   "figure": "chandrasekharendra-saraswati",
+   "what": "Made 68th head of the monastery, 13 February 1907; samadhis of his two predecessors; golden jubilee 1957.",
+   "verified": false
+  },
+  {
+   "name": "Kumbakonam",
+   "lat": 10.96,
+   "lon": 79.38,
+   "figure": "chandrasekharendra-saraswati",
+   "what": "The monastery's base during his youth; studied there from about 1909.",
+   "verified": true
+  },
+  {
+   "name": "Chengalpattu (Chingleput)",
+   "lat": 12.69,
+   "lon": 79.98,
+   "figure": "chandrasekharendra-saraswati",
+   "what": "Met Paul Brunton, January 1931, and sent him to Ramana Maharshi.",
+   "verified": true
+  },
+  {
+   "name": "Varanasi",
+   "lat": 25.32,
+   "lon": 83.01,
+   "figure": "chandrasekharendra-saraswati",
+   "what": "Reached on 6 October 1934 during the 1919-1939 all-India tour; visited Banaras Hindu University February 1935.",
+   "verified": true
+  },
+  {
+   "name": "Kanchi Kamakoti Peetham, Kanchipuram",
+   "lat": 12.84,
+   "lon": 79.7,
+   "figure": "chandrasekharendra-saraswati",
+   "what": "First entered as head 25 January 1931; died and buried here, 8-9 January 1994.",
+   "verified": true
+  },
+  {
+   "name": "United Nations Headquarters, New York",
+   "lat": 40.749,
+   "lon": -73.968,
+   "figure": "chandrasekharendra-saraswati",
+   "what": "His hymn Maithreem Bhajata sung by M. S. Subbulakshmi, 23 October 1966.",
+   "verified": true
+  },
+  {
+   "name": "Bajitpur",
+   "lat": 24.21,
+   "lon": 90.95,
+   "figure": "anandamayi-ma",
+   "what": "Years of practice (1918-1924) and self-initiation (1922)",
+   "verified": true
+  },
+  {
+   "name": "Ramna, Dhaka",
+   "lat": 23.735,
+   "lon": 90.4,
+   "figure": "anandamayi-ma",
+   "what": "Shahbagh years and the Ramna ashram (1929)",
+   "verified": true
+  },
+  {
+   "name": "Kishenpur, Dehradun",
+   "lat": 30.36,
+   "lon": 78.07,
+   "figure": "anandamayi-ma",
+   "what": "Ashram where Bholanath (1938) and she (1982) died",
+   "verified": true
+  },
+  {
+   "name": "Kankhal, Haridwar",
+   "lat": 29.93,
+   "lon": 78.15,
+   "figure": "anandamayi-ma",
+   "what": "Her samadhi shrine (1982)",
+   "verified": true
+  },
+  {
+   "name": "Bhadaini, Varanasi",
+   "lat": 25.29,
+   "lon": 83.01,
+   "figure": "anandamayi-ma",
+   "what": "Ashram, Kanyapeeth and hospital",
+   "verified": true
+  },
+  {
+   "name": "Pathri",
+   "lat": 19.25,
+   "lon": 76.43,
+   "figure": "shirdi-sai-baba",
+   "what": "Claimed birthplace; Sai Janmasthan temple (1999)",
+   "verified": true
   }
  ]
 }

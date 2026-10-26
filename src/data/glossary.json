@@ -322,5 +322,101 @@
   "script": "توحید",
   "lang": "ar",
   "def": "The oneness of God, the central doctrine of Islamic theology."
+ },
+ {
+  "term": "Samhita",
+  "script": "संहिता",
+  "lang": "sa",
+  "def": "'Collection.' The four core collections of Vedic hymns and formulas: Rig, Yajur, Sama and Atharva."
+ },
+ {
+  "term": "Shastrartha",
+  "script": "शास्त्रार्थ",
+  "lang": "sa",
+  "def": "A formal public debate on the meaning of scripture between learned opponents, often before a ruler or assembly."
+ },
+ {
+  "term": "Traitavada",
+  "script": "त्रैतवाद",
+  "lang": "sa",
+  "def": "Dayananda's doctrine of three eternal realities: God, individual souls and primal matter (prakriti)."
+ },
+ {
+  "term": "Murti puja",
+  "script": "मूर्तिपूजा",
+  "lang": "sa",
+  "def": "Worship of God through a consecrated image."
+ },
+ {
+  "term": "Arsha",
+  "script": "आर्ष",
+  "lang": "sa",
+  "def": "'Of the rishis.' Texts held to come from the ancient seers, as against later works by ordinary authors (anarsha)."
+ },
+ {
+  "term": "Havan",
+  "script": "हवन",
+  "lang": "hi",
+  "def": "A fire offering of ghee and fragrant materials with Vedic chanting; also called agnihotra or homa."
+ },
+ {
+  "term": "Niyoga",
+  "script": "नियोग",
+  "lang": "sa",
+  "def": "An ancient rule allowing a widow or childless wife to have children by an appointed man."
+ },
+ {
+  "term": "Shuddhi",
+  "script": "शुद्धि",
+  "lang": "sa",
+  "def": "'Purification.' An Arya Samaj rite and campaign to bring converts to other religions into Hinduism."
+ },
+ {
+  "term": "Shankaracharya",
+  "script": "शङ्कराचार्य",
+  "lang": "sa",
+  "def": "Title of the heads of monasteries that trace their line to Adi Shankara; a celibate monk chosen and initiated by his predecessor."
+ },
+ {
+  "term": "Varnashrama dharma",
+  "script": "वर्णाश्रमधर्म",
+  "lang": "sa",
+  "def": "The classical scheme of four social classes (varna) and four stages of life (ashrama), each with its own duties."
+ },
+ {
+  "term": "Smarta",
+  "script": "स्मार्त",
+  "lang": "sa",
+  "def": "Brahmin households following the smriti law books and Vedic rites, worshipping five deities, and usually aligned with Shankara's Advaita."
+ },
+ {
+  "term": "Vijaya yatra",
+  "script": "विजययात्रा",
+  "lang": "sa",
+  "def": "A 'victory journey': the traditional touring circuit of a Shankaracharya through the country."
+ },
+ {
+  "term": "Lila",
+  "script": "लीला",
+  "lang": "sa",
+  "def": "\"Play.\" The activity of God, done for its own sake with no need behind it."
+ },
+ {
+  "term": "Dhuni",
+  "script": "धुनी",
+  "lang": "mr",
+  "def": "A sacred fire kept burning by an ascetic."
+ },
+ {
+  "term": "Udi",
+  "script": "उदी",
+  "lang": "mr",
+  "def": "Sacred ash from Shirdi Sai Baba's fire, given to visitors as blessing and medicine."
+ },
+ {
+  "term": "Shraddha and saburi",
+  "script": "श्रद्धा, सबुरी",
+  "lang": "mr",
+  "def": "Faith and patience, the two inner offerings Shirdi Sai Baba asked of devotees."
  }
 ]

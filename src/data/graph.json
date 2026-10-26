@@ -151,7 +151,8 @@
    "died": 1883,
    "part": 1,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Arya Samaj founder; born Mul Shankar at Tankara; four Vedic Samhitas as sole self-evident revelation; not Swami Dayananda of Arsha Vidya"
   },
   {
    "id": "debendranath-tagore",
@@ -217,7 +218,8 @@
    "died": 1994,
    "part": 2,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Swaminathan; the Kanchi Paramacharya, 68th head of the Kanchi Kamakoti Peetham from 13 February 1907 to his death on 8 January 1994. Orthodox counterpoint in Part 2: one God behind all religions, but no conversion and varna by birth. Talks compiled as Deivathin Kural (English: Hindu Dharma)."
   },
   {
    "id": "sarada-devi",
@@ -822,7 +824,8 @@
    "died": 1982,
    "part": 7,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Self-initiated (1922); no human guru; Shree Shree Anandamayee Sangha"
   },
   {
    "id": "amma",
@@ -916,7 +919,8 @@
    "died": 1918,
    "part": 8,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Birth date and place unknown; Pathri claim disputed"
   },
   {
    "id": "meher-baba",
@@ -1551,6 +1555,124 @@
    "tier": "root",
    "kind": "tradition",
    "note": "Rational and monotheist (tawhid) theology read in Arabic and Persian; shaped Rammohan's Tuhfat-ul-Muwahhidin (c. 1804). Merge with any Islam root if one exists"
+  },
+  {
+   "id": "virjananda",
+   "name": "Swami Virjananda (Virajanand Dandeesha)",
+   "born": 1778,
+   "died": 1868,
+   "part": 1,
+   "tier": "node",
+   "kind": "person",
+   "note": "Blind Sanskrit grammarian of Mathura; taught Dayananda c. 1860–1863; divided books into arsha (true) and anarsha (later, corrupt)"
+  },
+  {
+   "id": "vedic-samhitas",
+   "name": "The Vedic Samhitas",
+   "part": 0,
+   "tier": "root",
+   "kind": "tradition",
+   "note": "The four collections of Vedic hymns and formulas (Rig, Yajur, Sama, Atharva); the only scripture Dayananda held self-authoritative"
+  },
+  {
+   "id": "shraddhananda",
+   "name": "Swami Shraddhananda (Munshi Ram)",
+   "born": 1856,
+   "died": 1926,
+   "part": 1,
+   "tier": "node",
+   "kind": "person",
+   "note": "Arya Samaj leader; founded Gurukul Kangri (1902); led shuddhi campaign in the 1920s"
+  },
+  {
+   "id": "arya-samaj",
+   "name": "Arya Samaj",
+   "part": 1,
+   "tier": "node",
+   "kind": "institution",
+   "note": "Founded by Dayananda in Bombay, 10 April 1875; ten principles settled at Lahore, 1877"
+  },
+  {
+   "id": "mahadevendra-saraswati-v",
+   "name": "Mahadevendra Saraswati V",
+   "born": 1889,
+   "died": 1907,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born Lakshmikantan; 67th head of the Kanchi Kamakoti monastery for about a week (6-13 February 1907); first cousin of Chandrasekharendra Saraswati. Samadhi at Kalavai."
+  },
+  {
+   "id": "jayendra-saraswati",
+   "name": "Jayendra Saraswati",
+   "died": 2018,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born Subrahmanyam; initiated as successor 22 March 1954; 69th head of the Kanchi monastery; arrested 2004 in the Sankararaman murder case, acquitted by the Puducherry sessions court in November 2013; died 28 February 2018."
+  },
+  {
+   "id": "bholanath",
+   "name": "Bholanath (Ramani Mohan Chakravarti)",
+   "died": 1938,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Anandamayi Ma's husband and first disciple; initiated by her at Bajitpur (Dec 1922 or 3 Jan 1923); died Kishenpur, Dehradun, 6 May 1938"
+  },
+  {
+   "id": "bhaiji",
+   "name": "Bhaiji (Jyotish Chandra Roy)",
+   "died": 1937,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Dhaka devotee who named her Anandamayi (1925 per ashram chronology); died Almora, August 1937"
+  },
+  {
+   "id": "arnaud-desjardins",
+   "name": "Arnaud Desjardins",
+   "born": 1925,
+   "died": 2011,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "French writer and filmmaker; disciple of Anandamayi Ma"
+  },
+  {
+   "id": "mhalsapati",
+   "name": "Mhalsapati",
+   "died": 1922,
+   "part": 8,
+   "tier": "node",
+   "kind": "person",
+   "note": "Khandoba temple priest at Shirdi who greeted the young fakir as 'Ya Sai'; lived closely with him"
+  },
+  {
+   "id": "abdul-baba",
+   "name": "Abdul Baba",
+   "part": 8,
+   "tier": "node",
+   "kind": "person",
+   "note": "Muslim attendant of Shirdi Sai Baba from 1889; kept a notebook in Deccani Urdu (translated by Marianne Warren); caretaker of the tomb"
+  },
+  {
+   "id": "venkusa",
+   "name": "Venkusa of Selu",
+   "part": 8,
+   "tier": "node",
+   "kind": "person",
+   "note": "Hindu guru named as Sai Baba's teacher in Das Ganu's Bhaktisaramrita (1925) and Narasimhaswami; claim only"
+  },
+  {
+   "id": "narasimhaswami",
+   "name": "B.V. Narasimhaswami",
+   "born": 1874,
+   "died": 1956,
+   "part": 8,
+   "tier": "node",
+   "kind": "person",
+   "note": "Promoter of Shirdi Sai Baba's worship from 1936; founded the All India Sai Samaj (1940); never met him"
   }
  ],
  "edges": [
@@ -1691,7 +1813,8 @@
    "to": "dayananda-saraswati",
    "type": "influenced",
    "evidence": "documented",
-   "note": "Vedas as sole authority"
+   "verified": true,
+   "note": "Demoted to secondary authority: accepted only where they agree with the Samhitas"
   },
   {
    "from": "advaita-vedanta",
@@ -1782,7 +1905,9 @@
    "to": "chandrasekharendra-saraswati",
    "type": "lineage",
    "evidence": "documented",
-   "note": "Kanchi matha"
+   "verified": true,
+   "year": 1907,
+   "note": "Kanchi Kamakoti matha's line from Adi Shankara. The institution's antiquity before the 18th century is disputed (Sringeri, V. R. Sharma 1987, K. P. Sunil 1987, Vidyasankar Sundaresan 2000); the matha's chronology dates its founding to 482 BCE."
   },
   {
    "from": "advaita-vedanta",
@@ -1988,13 +2113,18 @@
    "from": "sufi-orders",
    "to": "shirdi-sai-baba",
    "type": "influenced",
-   "evidence": "testimony"
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Fakir's dress, mosque, Allah Malik, Fatiha and qawwali; Warren's reading from Abdul's notebook"
   },
   {
    "from": "shirdi-sai-baba",
    "to": "upasni-maharaj",
    "type": "lived-with",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1911,
+   "note": "About three years under his instruction, largely at the Khandoba temple"
   },
   {
    "from": "upasni-maharaj",
@@ -2025,7 +2155,9 @@
    "to": "sathya-sai-baba",
    "type": "claimed",
    "evidence": "hagiographic",
-   "note": "Claimed reincarnation"
+   "verified": true,
+   "year": 1940,
+   "note": "Claimed reincarnation, declared May 1940 at age 13; Prema Sai prophecy 1963"
   },
   {
    "from": "sant-tradition",
@@ -2796,6 +2928,200 @@
    "verified": true,
    "year": 1843,
    "note": "Brought Debendranath and about twenty Tattvabodhini members into the Brahmo Sabha trust, 7 Pous 1765 Shaka (December 1843)"
+  },
+  {
+   "from": "vedic-samhitas",
+   "to": "dayananda-saraswati",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "The four Vedas 'absolutely free from error, and an authority unto themselves' (statement of beliefs in Satyarth Prakash)"
+  },
+  {
+   "from": "virjananda",
+   "to": "dayananda-saraswati",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1860,
+   "note": "Studied grammar and Vedas with him in Mathura c. 1860–1863; vowed to spread Vedic knowledge as guru-dakshina"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "dayananda-saraswati",
+   "type": "reacted-against",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Took sannyasa in the Saraswati (Dashanami) order, then rejected Advaita: God and soul 'two distinct entities'; Satyarth Prakash ch. 8–9"
+  },
+  {
+   "from": "keshab-chandra-sen",
+   "to": "dayananda-saraswati",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1873,
+   "note": "Met in Calcutta, Dec 1872–Apr 1873; advised him to lecture in Hindi, which he did thereafter"
+  },
+  {
+   "from": "debendranath-tagore",
+   "to": "dayananda-saraswati",
+   "type": "reacted-against",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1872,
+   "note": "Met in Calcutta 1872–73; Dayananda rejected the Brahmo abandonment of Vedic infallibility"
+  },
+  {
+   "from": "dayananda-saraswati",
+   "to": "arya-samaj",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1875,
+   "note": "Founded in Bombay, 10 April 1875"
+  },
+  {
+   "from": "dayananda-saraswati",
+   "to": "shraddhananda",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Arya Samaj leader of the Gurukul party; Gurukul Kangri 1902"
+  },
+  {
+   "from": "dayananda-saraswati",
+   "to": "aurobindo",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Aurobindo's essay 'Dayananda and the Veda' calls him 'the first discoverer of the right clues'; sympathetic but independent Vedic interpretation"
+  },
+  {
+   "from": "mahadevendra-saraswati-v",
+   "to": "chandrasekharendra-saraswati",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1907,
+   "note": "Emergency succession at Kalavai on 13 February 1907 after the deaths of the 66th and 67th heads within about a week."
+  },
+  {
+   "from": "chandrasekharendra-saraswati",
+   "to": "jayendra-saraswati",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1954,
+   "note": "Sannyasa and the name Jayendra Saraswati given at Kanchipuram, 22 March 1954 (Mahadevan)."
+  },
+  {
+   "from": "chandrasekharendra-saraswati",
+   "to": "paul-brunton",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1931,
+   "note": "Met at Chingleput in January 1931; declined to take Brunton as disciple and sent him to Ramana Maharshi (Brunton, A Search in Secret India, 1934; Mahadevan)."
+  },
+  {
+   "from": "tantra-shakta",
+   "to": "anandamayi-ma",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Took part in Kali worship in Dhaka; devotees called her a form of Kali"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "anandamayi-ma",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Explained herself mainly in Advaita terms (Matri Vani)"
+  },
+  {
+   "from": "gaudiya",
+   "to": "anandamayi-ma",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Bengali Vaishnava devotion of her family; kirtan in childhood"
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "bholanath",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1922,
+   "note": "December 1922 per ashram chronology; 3 January 1923 per Hallstrom"
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "bhaiji",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1924,
+   "note": "Her second disciple; met in Dhaka (1922 or 1924 depending on source)"
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "arnaud-desjardins",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "varkari",
+   "to": "shirdi-sai-baba",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Marathi bhakti framing in the Satcharita (ovi verse)"
+  },
+  {
+   "from": "venkusa",
+   "to": "shirdi-sai-baba",
+   "type": "claimed",
+   "evidence": "hagiographic",
+   "verified": true,
+   "note": "Reported by Das Ganu (1925) and Narasimhaswami; no contemporary evidence"
+  },
+  {
+   "from": "shirdi-sai-baba",
+   "to": "mhalsapati",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1858
+  },
+  {
+   "from": "shirdi-sai-baba",
+   "to": "abdul-baba",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1889
+  },
+  {
+   "from": "shirdi-sai-baba",
+   "to": "meher-baba",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1915,
+   "note": "Single meeting, December 1915 (Meher Baba Trust chronology)"
+  },
+  {
+   "from": "shirdi-sai-baba",
+   "to": "narasimhaswami",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1936,
+   "note": "Posthumous; promoted his worship in south India"
   }
  ]
 }
