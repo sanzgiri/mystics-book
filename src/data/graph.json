@@ -1600,7 +1600,7 @@
    "part": 2,
    "tier": "node",
    "kind": "person",
-   "note": "Born Lakshmikantan; 67th head of the Kanchi Kamakoti monastery for about a week (6-13 February 1907); first cousin of Chandrasekharendra Saraswati. Samadhi at Kalavai."
+   "note": "Born Lakshmikantan; 67th head of the Kanchi Kamakoti monastery for about a week (6-13 February 1907); maternal cousin of Chandrasekharendra Saraswati (Mahadevan). Samadhi at Kalavai."
   },
   {
    "id": "jayendra-saraswati",
@@ -1609,7 +1609,8 @@
    "part": 2,
    "tier": "node",
    "kind": "person",
-   "note": "Born Subrahmanyam; initiated as successor 22 March 1954; 69th head of the Kanchi monastery; arrested 2004 in the Sankararaman murder case, acquitted by the Puducherry sessions court in November 2013; died 28 February 2018."
+   "note": "Born Subrahmanyam, 18 July 1935; given the name Jayendra Saraswati 22 March 1954; 69th head of the Kanchi monastery; arrested 11 November 2004 and charged with murder and criminal conspiracy in the Sankararaman case; acquitted with all co-accused by the Principal District and Sessions Court, Puducherry, 27 November 2013; no appeal filed; died 28 February 2018.",
+   "born": 1935
   },
   {
    "id": "bholanath",
@@ -1907,7 +1908,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1907,
-   "note": "Kanchi Kamakoti matha's line from Adi Shankara. The institution's antiquity before the 18th century is disputed (Sringeri, V. R. Sharma 1987, K. P. Sunil 1987, Vidyasankar Sundaresan 2000); the matha's chronology dates its founding to 482 BCE."
+   "note": "Kanchi Kamakoti matha's line from Adi Shankara. The institution's antiquity before the 18th century is disputed (Sringeri; V. R. Sharma 1987; K. P. Sunil 1987; Vidyasankar Sundaresan 2000); the matha's chronology dates its founding to 482 BCE, and T. A. Gopinatha Rao (1916) read copper plates as placing it at Kanchipuram until 1686."
   },
   {
    "from": "advaita-vedanta",

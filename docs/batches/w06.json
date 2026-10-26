@@ -1,45 +1,178 @@
 {
   "batch": "w06",
   "nodes_add": [
-    {"id": "mahadevendra-saraswati-v", "name": "Mahadevendra Saraswati V", "born": 1889, "died": 1907, "part": 2, "tier": "node", "kind": "person", "note": "Born Lakshmikantan; 67th head of the Kanchi Kamakoti monastery for about a week (6-13 February 1907); first cousin of Chandrasekharendra Saraswati. Samadhi at Kalavai."},
-    {"id": "jayendra-saraswati", "name": "Jayendra Saraswati", "died": 2018, "part": 2, "tier": "node", "kind": "person", "note": "Born Subrahmanyam; initiated as successor 22 March 1954; 69th head of the Kanchi monastery; arrested 2004 in the Sankararaman murder case, acquitted by the Puducherry sessions court in November 2013; died 28 February 2018."}
+    {
+      "id": "mahadevendra-saraswati-v",
+      "name": "Mahadevendra Saraswati V",
+      "born": 1889,
+      "died": 1907,
+      "part": 2,
+      "tier": "node",
+      "kind": "person",
+      "note": "Born Lakshmikantan; 67th head of the Kanchi Kamakoti monastery for about a week (6-13 February 1907); maternal cousin of Chandrasekharendra Saraswati (Mahadevan). Samadhi at Kalavai."
+    },
+    {
+      "id": "jayendra-saraswati",
+      "name": "Jayendra Saraswati",
+      "died": 2018,
+      "part": 2,
+      "tier": "node",
+      "kind": "person",
+      "note": "Born Subrahmanyam, 18 July 1935; given the name Jayendra Saraswati 22 March 1954; 69th head of the Kanchi monastery; arrested 11 November 2004 and charged with murder and criminal conspiracy in the Sankararaman case; acquitted with all co-accused by the Principal District and Sessions Court, Puducherry, 27 November 2013; no appeal filed; died 28 February 2018.",
+      "born": 1935
+    }
   ],
   "nodes_update": [
-    {"id": "chandrasekharendra-saraswati", "name": "Chandrasekharendra Saraswati", "born": 1894, "died": 1994, "note": "Swaminathan; the Kanchi Paramacharya, 68th head of the Kanchi Kamakoti Peetham from 13 February 1907 to his death on 8 January 1994. Orthodox counterpoint in Part 2: one God behind all religions, but no conversion and varna by birth. Talks compiled as Deivathin Kural (English: Hindu Dharma)."}
+    {
+      "id": "chandrasekharendra-saraswati",
+      "name": "Chandrasekharendra Saraswati",
+      "born": 1894,
+      "died": 1994,
+      "note": "Swaminathan; the Kanchi Paramacharya, 68th head of the Kanchi Kamakoti Peetham from 13 February 1907 to his death on 8 January 1994. Orthodox counterpoint in Part 2: one God behind all religions, but no conversion and varna by birth. Talks compiled as Deivathin Kural (English: Hindu Dharma)."
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "advaita-vedanta", "to": "chandrasekharendra-saraswati", "type": "lineage", "evidence": "documented", "verified": true, "year": 1907, "note": "Kanchi Kamakoti matha's line from Adi Shankara. The institution's antiquity before the 18th century is disputed (Sringeri, V. R. Sharma 1987, K. P. Sunil 1987, Vidyasankar Sundaresan 2000); the matha's chronology dates its founding to 482 BCE."},
-    {"from": "mahadevendra-saraswati-v", "to": "chandrasekharendra-saraswati", "type": "lineage", "evidence": "documented", "verified": true, "year": 1907, "note": "Emergency succession at Kalavai on 13 February 1907 after the deaths of the 66th and 67th heads within about a week."},
-    {"from": "chandrasekharendra-saraswati", "to": "jayendra-saraswati", "type": "initiated", "evidence": "documented", "verified": true, "year": 1954, "note": "Sannyasa and the name Jayendra Saraswati given at Kanchipuram, 22 March 1954 (Mahadevan)."},
-    {"from": "chandrasekharendra-saraswati", "to": "paul-brunton", "type": "influenced", "evidence": "documented", "verified": true, "year": 1931, "note": "Met at Chingleput in January 1931; declined to take Brunton as disciple and sent him to Ramana Maharshi (Brunton, A Search in Secret India, 1934; Mahadevan)."}
+    {
+      "from": "advaita-vedanta",
+      "to": "chandrasekharendra-saraswati",
+      "type": "lineage",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1907,
+      "note": "Kanchi Kamakoti matha's line from Adi Shankara. The institution's antiquity before the 18th century is disputed (Sringeri; V. R. Sharma 1987; K. P. Sunil 1987; Vidyasankar Sundaresan 2000); the matha's chronology dates its founding to 482 BCE, and T. A. Gopinatha Rao (1916) read copper plates as placing it at Kanchipuram until 1686."
+    },
+    {
+      "from": "mahadevendra-saraswati-v",
+      "to": "chandrasekharendra-saraswati",
+      "type": "lineage",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1907,
+      "note": "Emergency succession at Kalavai on 13 February 1907 after the deaths of the 66th and 67th heads within about a week."
+    },
+    {
+      "from": "chandrasekharendra-saraswati",
+      "to": "jayendra-saraswati",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1954,
+      "note": "Sannyasa and the name Jayendra Saraswati given at Kanchipuram, 22 March 1954 (Mahadevan)."
+    },
+    {
+      "from": "chandrasekharendra-saraswati",
+      "to": "paul-brunton",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1931,
+      "note": "Met at Chingleput in January 1931; declined to take Brunton as disciple and sent him to Ramana Maharshi (Brunton, A Search in Secret India, 1934; Mahadevan)."
+    }
   ],
   "places": [
-    {"name": "Villupuram", "lat": 11.94, "lon": 79.49, "figure": "chandrasekharendra-saraswati", "what": "Birthplace, 20 May 1894.", "verified": true},
-    {"name": "Tindivanam", "lat": 12.23, "lon": 79.65, "figure": "chandrasekharendra-saraswati", "what": "Schooling and sacred-thread ceremony, 1905.", "verified": true},
-    {"name": "Kalavai", "lat": 12.77, "lon": 79.42, "figure": "chandrasekharendra-saraswati", "what": "Made 68th head of the monastery, 13 February 1907; samadhis of his two predecessors; golden jubilee 1957.", "verified": false},
-    {"name": "Kumbakonam", "lat": 10.96, "lon": 79.38, "figure": "chandrasekharendra-saraswati", "what": "The monastery's base during his youth; studied there from about 1909.", "verified": true},
-    {"name": "Chengalpattu (Chingleput)", "lat": 12.69, "lon": 79.98, "figure": "chandrasekharendra-saraswati", "what": "Met Paul Brunton, January 1931, and sent him to Ramana Maharshi.", "verified": true},
-    {"name": "Varanasi", "lat": 25.32, "lon": 83.01, "figure": "chandrasekharendra-saraswati", "what": "Reached on 6 October 1934 during the 1919-1939 all-India tour; visited Banaras Hindu University February 1935.", "verified": true},
-    {"name": "Kanchi Kamakoti Peetham, Kanchipuram", "lat": 12.84, "lon": 79.70, "figure": "chandrasekharendra-saraswati", "what": "First entered as head 25 January 1931; died and buried here, 8-9 January 1994.", "verified": true},
-    {"name": "United Nations Headquarters, New York", "lat": 40.749, "lon": -73.968, "figure": "chandrasekharendra-saraswati", "what": "His hymn Maithreem Bhajata sung by M. S. Subbulakshmi, 23 October 1966.", "verified": true}
+    {
+      "name": "Villupuram",
+      "lat": 11.94,
+      "lon": 79.49,
+      "figure": "chandrasekharendra-saraswati",
+      "what": "Birthplace, 20 May 1894.",
+      "verified": true
+    },
+    {
+      "name": "Tindivanam",
+      "lat": 12.23,
+      "lon": 79.65,
+      "figure": "chandrasekharendra-saraswati",
+      "what": "Schooling and sacred-thread ceremony, 1905.",
+      "verified": true
+    },
+    {
+      "name": "Kalavai",
+      "lat": 12.77,
+      "lon": 79.42,
+      "figure": "chandrasekharendra-saraswati",
+      "what": "Made 68th head of the monastery, 13 February 1907 (formal installation followed at Kumbakonam, 9 May 1907); samadhis of his two predecessors; golden jubilee 1957.",
+      "verified": false
+    },
+    {
+      "name": "Kumbakonam",
+      "lat": 10.96,
+      "lon": 79.38,
+      "figure": "chandrasekharendra-saraswati",
+      "what": "The monastery's base during his youth; studied there from about 1909.",
+      "verified": true
+    },
+    {
+      "name": "Chengalpattu (Chingleput)",
+      "lat": 12.69,
+      "lon": 79.98,
+      "figure": "chandrasekharendra-saraswati",
+      "what": "Met Paul Brunton, January 1931, and sent him to Ramana Maharshi.",
+      "verified": true
+    },
+    {
+      "name": "Varanasi",
+      "lat": 25.32,
+      "lon": 83.01,
+      "figure": "chandrasekharendra-saraswati",
+      "what": "Reached on 6 October 1934 during the 1919-1939 all-India tour; visited Banaras Hindu University February 1935.",
+      "verified": true
+    },
+    {
+      "name": "Kanchi Kamakoti Peetham, Kanchipuram",
+      "lat": 12.84,
+      "lon": 79.7,
+      "figure": "chandrasekharendra-saraswati",
+      "what": "First entered as head 25 January 1931; died and buried here, 8-9 January 1994.",
+      "verified": true
+    },
+    {
+      "name": "United Nations Headquarters, New York",
+      "lat": 40.749,
+      "lon": -73.968,
+      "figure": "chandrasekharendra-saraswati",
+      "what": "His hymn Maithreem Bhajata sung by M. S. Subbulakshmi, 23 October 1966.",
+      "verified": true
+    }
   ],
   "glossary": [
-    {"term": "Shankaracharya", "script": "शङ्कराचार्य", "lang": "sa", "def": "Title of the heads of monasteries that trace their line to Adi Shankara; a celibate monk chosen and initiated by his predecessor."},
-    {"term": "Varnashrama dharma", "script": "वर्णाश्रमधर्म", "lang": "sa", "def": "The classical scheme of four social classes (varna) and four stages of life (ashrama), each with its own duties."},
-    {"term": "Smarta", "script": "स्मार्त", "lang": "sa", "def": "Brahmin households following the smriti law books and Vedic rites, worshipping five deities, and usually aligned with Shankara's Advaita."},
-    {"term": "Vijaya yatra", "script": "विजययात्रा", "lang": "sa", "def": "A 'victory journey': the traditional touring circuit of a Shankaracharya through the country."}
+    {
+      "term": "Shankaracharya",
+      "script": "शङ्कराचार्य",
+      "lang": "sa",
+      "def": "Title of the heads of monasteries that trace their line to Adi Shankara; a celibate monk chosen and initiated by his predecessor."
+    },
+    {
+      "term": "Varnashrama dharma",
+      "script": "वर्णाश्रमधर्म",
+      "lang": "sa",
+      "def": "The classical scheme of four social classes (varna) and four stages of life (ashrama), each with its own duties."
+    },
+    {
+      "term": "Smarta",
+      "script": "स्मार्त",
+      "lang": "sa",
+      "def": "Brahmin households following the smriti law books and Vedic rites, worshipping five deities, and usually aligned with Shankara's Advaita."
+    },
+    {
+      "term": "Vijaya yatra",
+      "script": "विजययात्रा",
+      "lang": "sa",
+      "def": "A 'victory journey': the traditional touring circuit of a Shankaracharya through the country."
+    }
   ],
   "art": [],
   "issues": [
-    "chandrasekharendra-saraswati.mdx: date of ascension given as 13 February 1907 (matha, Hinduism Today, Wikipedia body); Wikipedia infobox gives 'Ordination: 9 May 1907'. Text mentions the conflict.",
-    "chandrasekharendra-saraswati.mdx: Wikipedia gives the 66th head's death as 1906 in one place; the Mahadevendra Saraswati V article puts the 67th's tenure 6-13 February 1907. Chapter says 'early 1907' for the 66th's death; check.",
-    "chandrasekharendra-saraswati.mdx: Gandhi meeting at Nallicheri, Palghat, dated 1927 from Mahadevan; Mahadevan puts his arrival in Palghat in May 1927, while Gandhi's Kerala tour was in October 1927. Exact month unverified, so only the year is given.",
-    "chandrasekharendra-saraswati.mdx: Wikipedia's source list names V. R. Sharma (1987), 'Kanchi Kamakoti Math - A Myth', while its body text names 'T. V. Sharma'. Chapter uses V. R. Sharma; confirm the author's initials.",
-    "chandrasekharendra-saraswati.mdx: first publication years of Deivathin Kural (Tamil) and of the Bharatiya Vidya Bhavan Hindu Dharma (only a 4th ed. 2000 confirmed) not verified; chapter avoids first-edition dates.",
+    "chandrasekharendra-saraswati.mdx: RESOLVED (factcheck): 13 February 1907 was the accession at Kalavai; 9 May 1907 was the formal installation at Kumbakonam (Mahadevan, kamakoti.org SageOfKanchi3). Text now says so.",
+    "chandrasekharendra-saraswati.mdx: 66th head's death: Mahadevan says he 'attained siddhi at Kalavai' in 1907 without a date; Wikipedia's Mahadevendra Saraswati V page puts the 67th's tenure 6-13 February 1907, implying the 66th died about 6 February 1907. 'Early 1907' kept. Sources also disagree on the 66th's name/number (Chandrasekharendra VI vs VII); chapter does not name him.",
+    "chandrasekharendra-saraswati.mdx: Gandhi meeting: Mahadevan says 'the latter half of 1927'; text now says 'later that year'. Gandhi's Kerala tour was October 1927; exact date not confirmed from Collected Works.",
+    "chandrasekharendra-saraswati.mdx: RESOLVED (factcheck): author is Varanasi Rajgopal Sharma (V. R. Sharma), per Wikipedia's reference list; 'T. V. Sharma' in its body is an error.",
+    "chandrasekharendra-saraswati.mdx: first publication years of Deivathin Kural (Tamil) and of the Bharatiya Vidya Bhavan Hindu Dharma not verified; chapter avoids first-edition dates.",
     "chandrasekharendra-saraswati.mdx: no verifiable archival audio or film of him found; marked [to locate]. Photo not added.",
-    "chandrasekharendra-saraswati.mdx: Kalavai coordinates (12.77, 79.42) are approximate; marked verified: false.",
-    "Graph: jayendra-saraswati birth year left out (not verified)."
+    "chandrasekharendra-saraswati.mdx: Kalavai coordinates conflict: Wikipedia gives 12.68, 79.42; batch has 12.77, 79.42, which fits Mahadevan's 'about ten miles from Arcot' better. Kept verified: false; needs a map check.",
+    "chandrasekharendra-saraswati.mdx: Brunton's physical description ('short man in an ochre robe') and the explicit 'promise' come from A Search in Secret India ch. VIII, which the checker could not read in full; Mahadevan confirms 'noble face', the eyes quote and the instruction not to leave South India before meeting Ramana.",
+    "Author decision: the chapter does not mention the separate 2002 assault case against Jayendra (auditor Radhakrishnan), in which he was acquitted in 2016; checker left it out as outside the scope of this figure's entry."
   ],
   "sources": {
     "chandrasekharendra-saraswati": [
@@ -66,6 +199,35 @@
       "Jayendra named 22 March 1954, died 28 February 2018 -> https://en.wikipedia.org/wiki/Jayendra_Saraswathi",
       "Sankararaman killed 3 September 2004; Jayendra arrested 11 November 2004; case moved to Puducherry; acquitted November 2013 by Puducherry sessions court with Vijayendra and others -> https://english.udayavani.com/article/shankaracharya-overcame-ordeal-of-murder-charge-in-2013/275029",
       "Jayendra left the mutt in 1987 and was readmitted by the senior pontiff; schools and hospitals for the poor -> https://www.thenewsminute.com/opinion/jayendra-saraswathi-controversial-seer-who-took-kanchi-mutt-masses-77205"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 112,
+    "changes": [
+      "chandrasekharendra-saraswati.mdx: 'I was stunned by' corrected to verbatim 'I was stunned with this unexpected turn of events' (Mahadevan, kamakoti.org SageOfKanchi3); 'told on arrival' changed to 'a monastery official told him' (source does not place it on arrival).",
+      "chandrasekharendra-saraswati.mdx: 9 May 1907 explained as formal installation at Kumbakonam, not an error; noted he recalled being thirteen (Mahadevan).",
+      "chandrasekharendra-saraswati.mdx: Gandhi meeting dated 'later that year' after May 1927 arrival in Palghat (Mahadevan SageOfKanchi6: 'latter half of 1927').",
+      "chandrasekharendra-saraswati.mdx: visitors list corrected; Milton Singer met him in 1955 and Queen Frederika at Kalahasti in December 1966, not during the 1957-59 Madras stay (Mahadevan SageOfKanchi9).",
+      "chandrasekharendra-saraswati.mdx: 'teach without charging' removed; the chapter says the Brahmin may accept daksina and be content with it (Hindu Dharma part20/chap10).",
+      "chandrasekharendra-saraswati.mdx: 'topsy-turvy' quote restored to verbatim 'Now it has become topsy-turvy' and put in context (mismatch of work and inner nature) (part20/chap3).",
+      "chandrasekharendra-saraswati.mdx: 'If I myself were to relax them' was presented as his reason for not condemning caste; in Hinduism Today (May 1993) it refers to shastric rules in general. Context corrected.",
+      "chandrasekharendra-saraswati.mdx: 'deeper religious discipline at home' corrected to 'spiritual discipline' (Hinduism Today 1993).",
+      "chandrasekharendra-saraswati.mdx: 'Gandhi, and later Nehru' changed to 'Gandhi and Nehru both' (source gives no sequence).",
+      "chandrasekharendra-saraswati.mdx: Vishnu Sahasranama claim about encouraging women cut; Wikipedia says only that he increased recitals (and that women were not then allowed).",
+      "chandrasekharendra-saraswati.mdx: Voice of God described as the English translation project (advaita-l 2005), not a published fuller edition.",
+      "chandrasekharendra-saraswati.mdx: Tiruppavai competition hedged as 'devotees say he began' (kamakoti.org does not credit him by name).",
+      "chandrasekharendra-saraswati.mdx: 'sixty-first birthday in 1954' clarified as sixtieth birthday, sixty-first by Indian count (born May 1894).",
+      "chandrasekharendra-saraswati.mdx: Kanchi-origin debate: author named as Varanasi Rajgopal Sharma; added Sharma's dispute of Gopinatha Rao's plate readings; 1821 stated as critics' founding date of the Kumbakonam branch (not 'often dated'); Sunil's article dated 1987; Sundaresan's conclusion restated precisely (list reliable from about early 18th century; no firm evidence of a Kanchipuram matha in 1700) and 'the scholar' replaced with 'a writer on Advaita'; David Smith added with Fuller (Wikipedia, citing Scheifinger 2016; Indology list 6 Sept 2000).",
+      "chandrasekharendra-saraswati.mdx: Jayendra case rewritten in precise legal terms: arrested 11 Nov 2004 at Mahabubnagar; charged with murder (IPC 302) and conspiracy (120-B) with 22 others; Supreme Court bail 10 Jan 2005; Supreme Court transfer to Puducherry 26 Oct 2005; all acquitted 27 Nov 2013 by the Principal District and Sessions Court, Puducherry, prosecution failing to prove its case and many witnesses hostile; his response ('Dharma has prevailed. Truth has won.', Organiser 30 Nov 2013); no appeal filed, Madras High Court queried this in 2017 (Udayavani 2018; Deccan Chronicle 27 Nov 2013; Open Dec 2013; DT Next 4 May 2017; Wikipedia Sankararaman murder case).",
+      "chandrasekharendra-saraswati.mdx: references 10 expanded with full titles; added refs 15-17 (Deccan Chronicle, Organiser, DT Next).",
+      "w06.json: Jayendra born 1935 added (The News Minute; Wikipedia); Mahadevendra 'first cousin' made 'maternal cousin' (Mahadevan); Jayendra legal note made precise; Kalavai place note and advaita edge note updated; issues updated."
+    ],
+    "unresolved": [
+      "Exact date of the 1927 Gandhi meeting (probably October 1927).",
+      "Kalavai coordinates (12.68 vs 12.77 N).",
+      "Brunton's 'short man' description and 'promise' not checked against the full text of A Search in Secret India.",
+      "First-edition years of Deivathin Kural and Hindu Dharma.",
+      "Archival audio/film still [to locate]."
     ]
   }
 }
