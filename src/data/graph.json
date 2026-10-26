@@ -117,6 +117,24 @@
    "era": "16th c."
   },
   {
+   "id": "varkari",
+   "name": "Varkari tradition (Vithoba bhakti)",
+   "tier": "root",
+   "kind": "tradition",
+   "part": 0,
+   "era": "13th c. on",
+   "note": "Dnyaneshwar, Namdev, Tukaram"
+  },
+  {
+   "id": "samarth-ramdas",
+   "name": "Samarth Ramdas (Dasbodh)",
+   "tier": "root",
+   "kind": "person",
+   "part": 0,
+   "born": 1608,
+   "died": 1681
+  },
+  {
    "id": "rammohan-roy",
    "name": "Rammohan Roy",
    "born": 1772,
@@ -387,6 +405,93 @@
    "kind": "person"
   },
   {
+   "id": "nimbargi-maharaj",
+   "name": "Nimbargi Maharaj (Gurulingajangam)",
+   "born": 1789,
+   "died": 1875,
+   "part": 3,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "bhausaheb-maharaj",
+   "name": "Bhausaheb Maharaj",
+   "born": 1843,
+   "died": 1914,
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "Founded the Inchegiri line"
+  },
+  {
+   "id": "ramesh-balsekar",
+   "name": "Ramesh Balsekar",
+   "born": 1917,
+   "died": 2009,
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "Translator and later teacher"
+  },
+  {
+   "id": "ramakant-maharaj",
+   "name": "Ramakant Maharaj",
+   "born": 1941,
+   "part": 3,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "maurice-frydman",
+   "name": "Maurice Frydman",
+   "born": 1894,
+   "died": 1976,
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "Editor and translator of I Am That"
+  },
+  {
+   "id": "andrew-cohen",
+   "name": "Andrew Cohen",
+   "born": 1955,
+   "part": 3,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "abhishiktananda",
+   "name": "Swami Abhishiktananda (Henri Le Saux)",
+   "born": 1910,
+   "died": 1973,
+   "part": 3,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "yogananda-calcutta",
+   "name": "Swami Yogananda (of Calcutta)",
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "Atmananda's guru; not Paramahansa Yogananda"
+  },
+  {
+   "id": "john-levy",
+   "name": "John Levy",
+   "part": 3,
+   "tier": "node",
+   "kind": "person"
+  },
+  {
+   "id": "direct-path-west",
+   "name": "Western Direct Path teachers",
+   "part": 3,
+   "tier": "node",
+   "kind": "institution",
+   "note": "Jean Klein, Francis Lucille, Rupert Spira and others"
+  },
+  {
    "id": "paul-brunton",
    "name": "Paul Brunton",
    "born": 1898,
@@ -402,7 +507,7 @@
    "part": 3,
    "tier": "node",
    "kind": "institution",
-   "note": "Gangaji, Mooji and others"
+   "note": "Gangaji, Mooji, Eli Jaxon-Bear and others"
   },
   {
    "id": "aurobindo",
@@ -1263,7 +1368,7 @@
    "type": "family",
    "evidence": "testimony",
    "verified": true,
-   "note": "Reportedly his maternal uncle"
+   "note": "His mother's brother"
   },
   {
    "from": "upanishads",
@@ -1402,29 +1507,19 @@
    "evidence": "documented"
   },
   {
-   "from": "yoga-nath",
-   "to": "siddharameshwar",
-   "type": "lineage",
-   "evidence": "documented",
-   "note": "Navnath Sampradaya (Inchegeri branch)"
-  },
-  {
    "from": "siddharameshwar",
    "to": "nisargadatta",
    "type": "initiated",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1933
   },
   {
    "from": "siddharameshwar",
    "to": "ranjit-maharaj",
    "type": "initiated",
-   "evidence": "documented"
-  },
-  {
-   "from": "advaita-vedanta",
-   "to": "atmananda-krishna-menon",
-   "type": "influenced",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true
   },
   {
    "from": "upanishads",
@@ -1830,6 +1925,138 @@
    "to": "ramdev",
    "type": "influenced",
    "evidence": "testimony"
+  },
+  {
+   "from": "yoga-nath",
+   "to": "nimbargi-maharaj",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "The Inchegiri line traces itself to the Navnath tradition; the early links are disputed"
+  },
+  {
+   "from": "nimbargi-maharaj",
+   "to": "bhausaheb-maharaj",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "bhausaheb-maharaj",
+   "to": "siddharameshwar",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1906
+  },
+  {
+   "from": "samarth-ramdas",
+   "to": "siddharameshwar",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Taught from the Dasbodh"
+  },
+  {
+   "from": "varkari",
+   "to": "nisargadatta",
+   "type": "family",
+   "evidence": "documented",
+   "verified": true,
+   "note": "His parents were Varkari devotees of Vithoba"
+  },
+  {
+   "from": "nisargadatta",
+   "to": "maurice-frydman",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Frydman recorded and edited I Am That (1973)"
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "maurice-frydman",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "j-krishnamurti",
+   "to": "maurice-frydman",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "nisargadatta",
+   "to": "ramesh-balsekar",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1978
+  },
+  {
+   "from": "nisargadatta",
+   "to": "ramakant-maharaj",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1962
+  },
+  {
+   "from": "papaji",
+   "to": "andrew-cohen",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1986,
+   "note": "Cohen later broke with him"
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "abhishiktananda",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1949
+  },
+  {
+   "from": "papaji",
+   "to": "abhishiktananda",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1953
+  },
+  {
+   "from": "yogananda-calcutta",
+   "to": "atmananda-krishna-menon",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1919
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "atmananda-krishna-menon",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "atmananda-krishna-menon",
+   "to": "john-levy",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "atmananda-krishna-menon",
+   "to": "direct-path-west",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Jean Klein's link to Atmananda is disputed"
   }
  ]
 }

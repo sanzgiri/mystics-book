@@ -1,34 +1,257 @@
 {
-  "_readme": "Map points. Coordinates are approximate town/site centers (draft, to verify). figure = node id in graph.json.",
-  "places": [
-    {"name": "Tiruchuzhi", "lat": 9.535, "lon": 78.200, "figure": "ramana-maharshi", "what": "Birthplace (1879)", "verified": true},
-    {"name": "Madurai", "lat": 9.925, "lon": 78.120, "figure": "ramana-maharshi", "what": "Uncle's house, scene of the 1896 awakening", "verified": true},
-    {"name": "Tiruvannamalai", "lat": 12.225, "lon": 79.075, "figure": "ramana-maharshi", "what": "Arunachala; Sri Ramanasramam (1896–1950)", "verified": true},
-    {"name": "Dakshineswar", "lat": 22.655, "lon": 88.357, "figure": "ramakrishna", "what": "Kali temple where he lived and taught"},
-    {"name": "Belur Math", "lat": 22.632, "lon": 88.355, "figure": "vivekananda", "what": "Headquarters of the Ramakrishna Order"},
-    {"name": "Sivagiri, Varkala", "lat": 8.740, "lon": 76.720, "figure": "narayana-guru", "what": "His ashram and samadhi"},
-    {"name": "Kanchipuram", "lat": 12.834, "lon": 79.703, "figure": "chandrasekharendra-saraswati", "what": "Kanchi Kamakoti matha"},
-    {"name": "Puducherry", "lat": 11.934, "lon": 79.830, "figure": "aurobindo", "what": "Sri Aurobindo Ashram"},
-    {"name": "Varanasi", "lat": 25.317, "lon": 82.973, "figure": "lahiri-mahasaya", "what": "Home of the householder yogi"},
-    {"name": "Ranchi", "lat": 23.344, "lon": 85.310, "figure": "yogananda", "what": "Yogoda Satsanga school and ashram"},
-    {"name": "Mysore", "lat": 12.296, "lon": 76.639, "figure": "krishnamacharya", "what": "Yoga school at the Jaganmohan Palace"},
-    {"name": "Rishikesh", "lat": 30.087, "lon": 78.268, "figure": "sivananda", "what": "Divine Life Society"},
-    {"name": "Mumbai (Khetwadi)", "lat": 18.958, "lon": 72.822, "figure": "nisargadatta", "what": "The small loft where he received visitors"},
-    {"name": "Lucknow", "lat": 26.847, "lon": 80.947, "figure": "papaji", "what": "Satsangs of his final years"},
-    {"name": "Srinagar", "lat": 34.083, "lon": 74.797, "figure": "lakshmanjoo", "what": "Ishwar Ashram"},
-    {"name": "Ganeshpuri", "lat": 19.530, "lon": 73.020, "figure": "muktananda", "what": "Ashram of Nityananda and Muktananda"},
-    {"name": "Vrindavan", "lat": 27.580, "lon": 77.700, "figure": "prabhupada", "what": "Where he lived before sailing to America"},
-    {"name": "Amritapuri", "lat": 9.093, "lon": 76.492, "figure": "amma", "what": "Her home village and ashram"},
-    {"name": "Shirdi", "lat": 19.766, "lon": 74.477, "figure": "shirdi-sai-baba", "what": "The mosque he called Dwarkamai"},
-    {"name": "Meherabad", "lat": 19.050, "lon": 74.780, "figure": "meher-baba", "what": "His ashram and tomb"},
-    {"name": "Agra (Soami Bagh)", "lat": 27.210, "lon": 78.020, "figure": "shiv-dayal-singh", "what": "Birthplace of Radha Soami"},
-    {"name": "Beas", "lat": 31.530, "lon": 75.290, "figure": "sawan-singh", "what": "Dera Baba Jaimal Singh"},
-    {"name": "Vadalur", "lat": 11.550, "lon": 79.550, "figure": "vallalar", "what": "Sathya Gnana Sabha, hall of light"},
-    {"name": "Sabarmati Ashram", "lat": 23.060, "lon": 72.580, "figure": "gandhi", "what": "Ashram, 1917–1930"},
-    {"name": "Nagpur (Deekshabhoomi)", "lat": 21.128, "lon": 79.067, "figure": "ambedkar", "what": "Site of the 1956 conversion"},
-    {"name": "Pune", "lat": 18.537, "lon": 73.887, "figure": "osho", "what": "His commune and resort"},
-    {"name": "Puttaparthi", "lat": 14.165, "lon": 77.811, "figure": "sathya-sai-baba", "what": "Prasanthi Nilayam"},
-    {"name": "Mount Abu", "lat": 24.593, "lon": 72.708, "figure": "dada-lekhraj", "what": "Brahma Kumaris headquarters"},
-    {"name": "Coimbatore (Isha)", "lat": 10.976, "lon": 76.738, "figure": "sadhguru", "what": "Isha Yoga Center"}
-  ]
+ "_readme": "Map points. Coordinates are approximate town/site centers (draft, to verify). figure = node id in graph.json.",
+ "places": [
+  {
+   "name": "Tiruchuzhi",
+   "lat": 9.535,
+   "lon": 78.2,
+   "figure": "ramana-maharshi",
+   "what": "Birthplace (1879)",
+   "verified": true
+  },
+  {
+   "name": "Madurai",
+   "lat": 9.925,
+   "lon": 78.12,
+   "figure": "ramana-maharshi",
+   "what": "Uncle's house, scene of the 1896 awakening",
+   "verified": true
+  },
+  {
+   "name": "Tiruvannamalai",
+   "lat": 12.225,
+   "lon": 79.075,
+   "figure": "ramana-maharshi",
+   "what": "Arunachala; Sri Ramanasramam (1896–1950)",
+   "verified": true
+  },
+  {
+   "name": "Dakshineswar",
+   "lat": 22.655,
+   "lon": 88.357,
+   "figure": "ramakrishna",
+   "what": "Kali temple where he lived and taught"
+  },
+  {
+   "name": "Belur Math",
+   "lat": 22.632,
+   "lon": 88.355,
+   "figure": "vivekananda",
+   "what": "Headquarters of the Ramakrishna Order"
+  },
+  {
+   "name": "Sivagiri, Varkala",
+   "lat": 8.74,
+   "lon": 76.72,
+   "figure": "narayana-guru",
+   "what": "His ashram and samadhi"
+  },
+  {
+   "name": "Kanchipuram",
+   "lat": 12.834,
+   "lon": 79.703,
+   "figure": "chandrasekharendra-saraswati",
+   "what": "Kanchi Kamakoti matha"
+  },
+  {
+   "name": "Puducherry",
+   "lat": 11.934,
+   "lon": 79.83,
+   "figure": "aurobindo",
+   "what": "Sri Aurobindo Ashram"
+  },
+  {
+   "name": "Varanasi",
+   "lat": 25.317,
+   "lon": 82.973,
+   "figure": "lahiri-mahasaya",
+   "what": "Home of the householder yogi"
+  },
+  {
+   "name": "Ranchi",
+   "lat": 23.344,
+   "lon": 85.31,
+   "figure": "yogananda",
+   "what": "Yogoda Satsanga school and ashram"
+  },
+  {
+   "name": "Mysore",
+   "lat": 12.296,
+   "lon": 76.639,
+   "figure": "krishnamacharya",
+   "what": "Yoga school at the Jaganmohan Palace"
+  },
+  {
+   "name": "Rishikesh",
+   "lat": 30.087,
+   "lon": 78.268,
+   "figure": "sivananda",
+   "what": "Divine Life Society"
+  },
+  {
+   "name": "Mumbai (Khetwadi)",
+   "lat": 18.958,
+   "lon": 72.822,
+   "figure": "nisargadatta",
+   "what": "The small loft where he received visitors",
+   "verified": true
+  },
+  {
+   "name": "Lucknow",
+   "lat": 26.847,
+   "lon": 80.947,
+   "figure": "papaji",
+   "what": "Satsangs of his final years",
+   "verified": true
+  },
+  {
+   "name": "Srinagar",
+   "lat": 34.083,
+   "lon": 74.797,
+   "figure": "lakshmanjoo",
+   "what": "Ishwar Ashram"
+  },
+  {
+   "name": "Ganeshpuri",
+   "lat": 19.53,
+   "lon": 73.02,
+   "figure": "muktananda",
+   "what": "Ashram of Nityananda and Muktananda"
+  },
+  {
+   "name": "Vrindavan",
+   "lat": 27.58,
+   "lon": 77.7,
+   "figure": "prabhupada",
+   "what": "Where he lived before sailing to America"
+  },
+  {
+   "name": "Amritapuri",
+   "lat": 9.093,
+   "lon": 76.492,
+   "figure": "amma",
+   "what": "Her home village and ashram"
+  },
+  {
+   "name": "Shirdi",
+   "lat": 19.766,
+   "lon": 74.477,
+   "figure": "shirdi-sai-baba",
+   "what": "The mosque he called Dwarkamai"
+  },
+  {
+   "name": "Meherabad",
+   "lat": 19.05,
+   "lon": 74.78,
+   "figure": "meher-baba",
+   "what": "His ashram and tomb"
+  },
+  {
+   "name": "Agra (Soami Bagh)",
+   "lat": 27.21,
+   "lon": 78.02,
+   "figure": "shiv-dayal-singh",
+   "what": "Birthplace of Radha Soami"
+  },
+  {
+   "name": "Beas",
+   "lat": 31.53,
+   "lon": 75.29,
+   "figure": "sawan-singh",
+   "what": "Dera Baba Jaimal Singh"
+  },
+  {
+   "name": "Vadalur",
+   "lat": 11.55,
+   "lon": 79.55,
+   "figure": "vallalar",
+   "what": "Sathya Gnana Sabha, hall of light"
+  },
+  {
+   "name": "Sabarmati Ashram",
+   "lat": 23.06,
+   "lon": 72.58,
+   "figure": "gandhi",
+   "what": "Ashram, 1917–1930"
+  },
+  {
+   "name": "Nagpur (Deekshabhoomi)",
+   "lat": 21.128,
+   "lon": 79.067,
+   "figure": "ambedkar",
+   "what": "Site of the 1956 conversion"
+  },
+  {
+   "name": "Pune",
+   "lat": 18.537,
+   "lon": 73.887,
+   "figure": "osho",
+   "what": "His commune and resort"
+  },
+  {
+   "name": "Puttaparthi",
+   "lat": 14.165,
+   "lon": 77.811,
+   "figure": "sathya-sai-baba",
+   "what": "Prasanthi Nilayam"
+  },
+  {
+   "name": "Mount Abu",
+   "lat": 24.593,
+   "lon": 72.708,
+   "figure": "dada-lekhraj",
+   "what": "Brahma Kumaris headquarters"
+  },
+  {
+   "name": "Coimbatore (Isha)",
+   "lat": 10.976,
+   "lon": 76.738,
+   "figure": "sadhguru",
+   "what": "Isha Yoga Center"
+  },
+  {
+   "name": "Basavana Bagewadi",
+   "lat": 16.578,
+   "lon": 75.977,
+   "figure": "siddharameshwar",
+   "what": "His samadhi shrine"
+  },
+  {
+   "name": "Inchgiri",
+   "lat": 16.8,
+   "lon": 75.55,
+   "figure": "bhausaheb-maharaj",
+   "what": "Seat of the Inchegiri line (approximate)"
+  },
+  {
+   "name": "Gujranwala",
+   "lat": 32.161,
+   "lon": 74.188,
+   "figure": "papaji",
+   "what": "Birthplace (1910), now in Pakistan",
+   "verified": true
+  },
+  {
+   "name": "Lyallpur (Faisalabad)",
+   "lat": 31.418,
+   "lon": 73.079,
+   "figure": "papaji",
+   "what": "Family home in 1944",
+   "verified": true
+  },
+  {
+   "name": "Peringara, near Tiruvalla",
+   "lat": 9.383,
+   "lon": 76.575,
+   "figure": "atmananda-krishna-menon",
+   "what": "Birthplace (1883)"
+  },
+  {
+   "name": "Thiruvananthapuram",
+   "lat": 8.524,
+   "lon": 76.936,
+   "figure": "atmananda-krishna-menon",
+   "what": "Where he taught and died (1959)"
+  }
+ ]
 }

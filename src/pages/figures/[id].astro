@@ -4,6 +4,10 @@ import Base from '../../layouts/Base.astro';
 import MiniTree from '../../components/MiniTree.astro';
 import Arunachala from '../../components/art/Arunachala.astro';
 import Banyan from '../../components/art/Banyan.astro';
+import Loft from '../../components/art/Loft.astro';
+import River from '../../components/art/River.astro';
+import Lamp from '../../components/art/Lamp.astro';
+import Bird from '../../components/art/Bird.astro';
 import { nodes, partByN, hasPage, lifespan, TIER_LABEL, partHref, figuresInPart, figureHref } from '../../lib/graph.js';
 
 export async function getStaticPaths() {
@@ -14,7 +18,7 @@ export async function getStaticPaths() {
 
 const { node, entry } = Astro.props;
 const part = partByN[node.part];
-const ART = { arunachala: Arunachala };
+const ART = { arunachala: Arunachala, loft: Loft, river: River, lamp: Lamp, bird: Bird };
 const Art = entry?.data.art ? ART[entry.data.art] : null;
 const rendered = entry ? await render(entry) : null;
 const Content = rendered?.Content;
