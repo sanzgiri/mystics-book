@@ -528,7 +528,8 @@
    "died": 1950,
    "part": 4,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Aurobindo Ghose; Cambridge classicist, Baroda teacher, Calcutta nationalist editor; Alipore bomb case 1908–09 (acquitted); Pondicherry from 4 April 1910; Integral Yoga, the Supermind, The Life Divine, Savitri"
   },
   {
    "id": "rabindranath-tagore",
@@ -1200,7 +1201,8 @@
    "died": 1986,
    "part": 12,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Madanapalle (11 May 1895 per Lutyens; claims range 4 May 1895 to 25 May 1896); dissolved the Order of the Star at Ommen, 3 August 1929; died Ojai, 17 February 1986."
   },
   {
    "id": "ug-krishnamurti",
@@ -1727,6 +1729,72 @@
    "tier": "node",
    "kind": "person",
    "note": "Postal official, Postmaster-General of the North-Western Provinces from 1881; met Shiv Dayal Singh 1858; asked for the public satsang of 1861; gave the faith the name Radhasoami; head of the main Agra group 1878-1898."
+  },
+  {
+   "id": "vishnu-bhaskar-lele",
+   "name": "Vishnu Bhaskar Lele",
+   "part": 4,
+   "tier": "node",
+   "kind": "person",
+   "note": "Maharashtrian yogi; taught Aurobindo to silence the mind in three days of meditation in Baroda, January 1908"
+  },
+  {
+   "id": "mirra-alfassa",
+   "name": "Mirra Alfassa (the Mother)",
+   "born": 1878,
+   "died": 1973,
+   "part": 4,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born Paris 21 Feb 1878; met Aurobindo 29 March 1914; in Pondicherry from 24 April 1920; led the Sri Aurobindo Ashram from November 1926; founded Auroville 1968; died 17 Nov 1973"
+  },
+  {
+   "id": "auroville",
+   "name": "Auroville",
+   "part": 4,
+   "tier": "node",
+   "kind": "institution",
+   "note": "International township near Pondicherry founded by the Mother; inaugurated 28 Feb 1968; Auroville Foundation Act 1988"
+  },
+  {
+   "id": "annie-besant",
+   "name": "Annie Besant",
+   "born": 1847,
+   "died": 1933,
+   "part": 12,
+   "tier": "node",
+   "kind": "person",
+   "note": "President of the Theosophical Society from 1907; Krishnamurti's guardian from 1910; head of the Order of the Star's sponsors."
+  },
+  {
+   "id": "cw-leadbeater",
+   "name": "C.W. Leadbeater",
+   "born": 1854,
+   "died": 1934,
+   "part": 12,
+   "tier": "node",
+   "kind": "person",
+   "note": "Theosophist and former Anglican curate who claimed clairvoyance; picked out Krishnamurti at Adyar in 1909 and called him Alcyone."
+  },
+  {
+   "id": "david-bohm",
+   "name": "David Bohm",
+   "born": 1917,
+   "died": 1992,
+   "part": 12,
+   "tier": "node",
+   "kind": "person",
+   "note": "Physicist; read The First and Last Freedom c. 1959, met Krishnamurti c. 1960-61, recorded dialogues 1965-1984 (The Ending of Time, 1985)."
+  },
+  {
+   "id": "aldous-huxley",
+   "name": "Aldous Huxley",
+   "born": 1894,
+   "died": 1963,
+   "part": 12,
+   "tier": "node",
+   "kind": "person",
+   "note": "Novelist; met Krishnamurti in 1938 and became a close friend; encouraged and introduced The First and Last Freedom (1954)."
   }
  ],
  "edges": [
@@ -2000,7 +2068,9 @@
    "from": "upanishads",
    "to": "aurobindo",
    "type": "influenced",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Read in Baroda; translated and commented on the Isha and Kena; Sachchidananda as the basis of The Life Divine"
   },
   {
    "from": "sufi-orders",
@@ -2360,13 +2430,18 @@
    "from": "theosophical-society",
    "to": "j-krishnamurti",
    "type": "institutional",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1909,
+   "note": "Raised and educated by the Society from 1909 as the vehicle of the World Teacher; head of the Order of the Star in the East from 1911; dissolved the Order 1929 and resigned from the Society 1930."
   },
   {
    "from": "j-krishnamurti",
    "to": "ug-krishnamurti",
    "type": "reacted-against",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Listened to him for years, broke with him and argued against him for the rest of his life."
   },
   {
    "from": "jain-tradition",
@@ -2378,9 +2453,11 @@
   {
    "from": "aurobindo",
    "to": "sri-chinmoy",
-   "type": "lived-with",
+   "type": "institutional",
    "evidence": "documented",
-   "note": "Grew up in the Sri Aurobindo Ashram"
+   "verified": true,
+   "year": 1944,
+   "note": "Entered the Sri Aurobindo Ashram in 1944 aged twelve; stayed about twenty years; New York from 1964"
   },
   {
    "from": "vivekananda",
@@ -2495,7 +2572,8 @@
    "to": "maurice-frydman",
    "type": "influenced",
    "evidence": "documented",
-   "verified": true
+   "verified": true,
+   "note": "Close to Krishnamurti before he recorded Nisargadatta's talks."
   },
   {
    "from": "nisargadatta",
@@ -3288,6 +3366,103 @@
    "verified": true,
    "year": 1932,
    "note": "Poona Pact 1932; Annihilation of Caste exchange 1936-37; What Congress and Gandhi Have Done to the Untouchables (1945)"
+  },
+  {
+   "from": "vedic-samhitas",
+   "to": "aurobindo",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1914,
+   "note": "The Secret of the Veda (Arya, 1914–1920) reads the Rig Veda hymns as a psychological and spiritual code"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "aurobindo",
+   "type": "reacted-against",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Had the silent Brahman realisation himself (Jan 1908) but argued against Shankara's world-negation ('Illusionism', 'The Refusal of the Ascetic') in The Life Divine"
+  },
+  {
+   "from": "vishnu-bhaskar-lele",
+   "to": "aurobindo",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1908,
+   "note": "Three days of meditation in Baroda, January 1908, produced the silent mind; Aurobindo declined him as guru, writing that 'a human Guru was not necessary for me'"
+  },
+  {
+   "from": "aurobindo",
+   "to": "mirra-alfassa",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1914,
+   "note": "First met 29 March 1914; together in Pondicherry from April 1920; he gave her charge of the ashram in November 1926 and called her the Mother"
+  },
+  {
+   "from": "mirra-alfassa",
+   "to": "auroville",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1968,
+   "note": "Founded and conceived by her; charter handwritten by her in French; inaugurated 28 Feb 1968"
+  },
+  {
+   "from": "cw-leadbeater",
+   "to": "j-krishnamurti",
+   "type": "claimed",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1909,
+   "note": "Picked him out on the Adyar beach in spring 1909 and claimed to read his past lives as Alcyone (letters of late 1909)."
+  },
+  {
+   "from": "annie-besant",
+   "to": "j-krishnamurti",
+   "type": "protected",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1910,
+   "note": "Guardian by his father's letter of March 1910; kept custody after the Privy Council dismissed the father's suit, 25 May 1914."
+  },
+  {
+   "from": "theosophical-society",
+   "to": "annie-besant",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1907,
+   "note": "President of the Society from 1907 to her death in 1933."
+  },
+  {
+   "from": "theosophical-society",
+   "to": "cw-leadbeater",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Leading Theosophist at Adyar."
+  },
+  {
+   "from": "j-krishnamurti",
+   "to": "david-bohm",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1961,
+   "note": "Met about 1960-61 after Bohm read The First and Last Freedom; recorded dialogues 1965-1984; friendship strained in the 1980s per F. David Peat."
+  },
+  {
+   "from": "j-krishnamurti",
+   "to": "aldous-huxley",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1938,
+   "note": "Met 1938; close friends in California."
   }
  ]
 }

@@ -797,6 +797,102 @@
    "figure": "gandhi",
    "what": "Prayer ground where he was killed, 30 January 1948",
    "verified": true
+  },
+  {
+   "name": "King's College, Cambridge",
+   "lat": 52.204,
+   "lon": 0.117,
+   "figure": "aurobindo",
+   "what": "Classics scholar 1890–1892; First in Part One of the Classical Tripos, May 1892",
+   "verified": true
+  },
+  {
+   "name": "Vadodara (Baroda)",
+   "lat": 22.307,
+   "lon": 73.181,
+   "figure": "aurobindo",
+   "what": "Baroda State service and Baroda College 1893–1906; silent-mind experience with Lele, January 1908",
+   "verified": true
+  },
+  {
+   "name": "Alipore, Kolkata",
+   "lat": 22.527,
+   "lon": 88.332,
+   "figure": "aurobindo",
+   "what": "Alipore jail and sessions court, May 1908 to 6 May 1909",
+   "verified": false
+  },
+  {
+   "name": "Uttarpara",
+   "lat": 22.666,
+   "lon": 88.347,
+   "figure": "aurobindo",
+   "what": "Uttarpara Speech, 30 May 1909",
+   "verified": true
+  },
+  {
+   "name": "Chandannagar (Chandernagore)",
+   "lat": 22.867,
+   "lon": 88.367,
+   "figure": "aurobindo",
+   "what": "In hiding in the French enclave, February to March 1910",
+   "verified": true
+  },
+  {
+   "name": "Auroville (Matrimandir)",
+   "lat": 12.007,
+   "lon": 79.81,
+   "figure": "mirra-alfassa",
+   "what": "Township founded by the Mother, inaugurated 28 February 1968",
+   "verified": true
+  },
+  {
+   "name": "Madanapalle",
+   "lat": 13.55,
+   "lon": 78.5,
+   "figure": "j-krishnamurti",
+   "what": "Birthplace, 1895",
+   "verified": true
+  },
+  {
+   "name": "Theosophical Society, Adyar, Chennai",
+   "lat": 13.01,
+   "lon": 80.27,
+   "figure": "j-krishnamurti",
+   "what": "Where Leadbeater noticed him on the beach, 1909",
+   "verified": true
+  },
+  {
+   "name": "Pine Cottage, Ojai, California",
+   "lat": 34.46,
+   "lon": -119.21,
+   "figure": "j-krishnamurti",
+   "what": "The 1922 experience and the start of the process; his home; died here 1986",
+   "verified": false
+  },
+  {
+   "name": "Rishi Valley",
+   "lat": 13.63,
+   "lon": 78.45,
+   "figure": "j-krishnamurti",
+   "what": "First of his schools; land acquired from 1926",
+   "verified": true
+  },
+  {
+   "name": "Castle Eerde, Ommen",
+   "lat": 52.51,
+   "lon": 6.45,
+   "figure": "j-krishnamurti",
+   "what": "Star Camp where he dissolved the Order of the Star, 3 August 1929",
+   "verified": true
+  },
+  {
+   "name": "Brockwood Park, Hampshire",
+   "lat": 51.04,
+   "lon": -1.09,
+   "figure": "j-krishnamurti",
+   "what": "School founded 1969; home of the Krishnamurti Foundation Trust",
+   "verified": true
   }
  ]
 }

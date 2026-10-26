@@ -13,7 +13,7 @@ Status: todo / running / written / checked / merged.
 | x03 | sri-sri-ravi-shankar (P5), ramdev (P13) | merged |
 | x04 | anandamayi-ma (P7), shirdi-sai-baba (P8) | merged |
 | x05 | shiv-dayal-singh (P9), gandhi (P10) | merged |
-| x06 | j-krishnamurti (P12) | running |
+| x06 | j-krishnamurti (P12) | merged |
 
 ## Writer units
 
@@ -28,7 +28,7 @@ Status: todo / running / written / checked / merged.
 | w07 | sarada-devi, rama-tirtha, sarvapriyananda | neo-vedanta | merged |
 | w08 | radhakrishnan, chinmayananda, dayananda-arsha, acharya-prashant | | running |
 | w09 | aurobindo (c) | | checking |
-| w10 | rabindranath-tagore, iqbal, kc-bhattacharya, gopi-krishna | integral | todo |
+| w10 | rabindranath-tagore, iqbal, kc-bhattacharya, gopi-krishna | integral | running |
 | w11 | lahiri-mahasaya (c) | | todo |
 | w12 | yogananda (c) | | todo |
 | w13 | sivananda (c) | | todo |
