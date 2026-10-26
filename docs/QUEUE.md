@@ -21,7 +21,7 @@ Status: todo / running / written / checked / merged.
 |---|---|---|---|
 | w01 | rammohan-roy (c) | | merged |
 | w02 | dayananda-saraswati (c) | | merged |
-| w03 | debendranath-tagore, keshab-chandra-sen, jyotirao-phule (s) | reason | running |
+| w03 | debendranath-tagore, keshab-chandra-sen, jyotirao-phule (s) | reason | checking |
 | w04 | ramakrishna (c) | | merged |
 | w05 | vivekananda (c) | | merged |
 | w06 | chandrasekharendra-saraswati (c) | | merged |
