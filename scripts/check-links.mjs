@@ -20,6 +20,7 @@ let bad = 0, total = 0;
 for (const file of walk(DIST)) {
   const html = readFileSync(file, 'utf8');
   for (const m of html.matchAll(/\b(?:href|src)="(\/[^"]*)"/g)) {
+    if (m[1].startsWith('/pagefind/')) continue;
     total++;
     if (!exists(m[1])) { bad++; console.log(`BROKEN ${file.replace(DIST, '')} → ${m[1]}`); }
   }

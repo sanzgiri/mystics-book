@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Merge batches, commit ONLY finished files, verify a clean build of the commit, then push.
 # Usage: scripts/integrate.sh "message" <content files of finished units...>
-set -e
+set -e -o pipefail
 cd "$(dirname "$0")/.."
 MSG="$1"; shift
 python3 scripts/merge-batches.py
