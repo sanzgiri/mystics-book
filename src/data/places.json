@@ -367,19 +367,19 @@
   },
   {
    "name": "Thousand Island Park, New York",
-   "lat": 44.29,
-   "lon": -76.03,
+   "lat": 44.2883,
+   "lon": -76.0258,
    "figure": "vivekananda",
-   "what": "Summer classes, 1895 (Inspired Talks)",
-   "verified": false
+   "what": "Summer classes, about seven weeks in 1895 (Inspired Talks); Vivekananda Cottage",
+   "verified": true
   },
   {
    "name": "Khetri, Rajasthan",
-   "lat": 28.0,
-   "lon": 75.79,
+   "lat": 28.0035,
+   "lon": 75.7885,
    "figure": "vivekananda",
-   "what": "Court of his patron Raja Ajit Singh, who suggested the name Vivekananda",
-   "verified": false
+   "what": "Court of his patron Raja Ajit Singh (visits 1891 and 1893), who by most accounts suggested the name Vivekananda",
+   "verified": true
   },
   {
    "name": "Papanasam, Thanjavur district",
@@ -427,6 +427,14 @@
    "lon": 77.23,
    "figure": "ramdev",
    "what": "Hunger strike against corruption, cleared by police on the night of 4-5 June 2011",
+   "verified": true
+  },
+  {
+   "name": "Vivekananda's birthplace, 3 Gourmohan Mukherjee Street (now 105 Vivekananda Road), Calcutta",
+   "lat": 22.5863,
+   "lon": 88.3674,
+   "figure": "vivekananda",
+   "what": "Birthplace (1863); now the Ramakrishna Mission Swami Vivekananda's Ancestral House and Cultural Centre (opened 2004)",
    "verified": true
   }
  ]

@@ -1,34 +1,161 @@
 {
   "batch": "w05",
   "nodes_add": [
-    {"id": "nivedita", "name": "Sister Nivedita (Margaret Noble)", "born": 1867, "died": 1911, "part": 2, "tier": "node", "kind": "person", "note": "Irish disciple of Vivekananda, initiated as a brahmacharini on 25 March 1898; author of The Master as I Saw Him (1910)."}
+    {
+      "id": "nivedita",
+      "name": "Sister Nivedita (Margaret Noble)",
+      "born": 1867,
+      "died": 1911,
+      "part": 2,
+      "tier": "node",
+      "kind": "person",
+      "note": "Irish disciple of Vivekananda, initiated as a brahmacharini on 25 March 1898; author of The Master as I Saw Him (1910)."
+    }
   ],
   "nodes_update": [
-    {"id": "vivekananda", "name": "Swami Vivekananda", "born": 1863, "died": 1902, "note": "Narendranath Datta. Ramakrishna's chief disciple; 1893 Parliament of Religions; four yogas and Practical Vedanta; founded the Ramakrishna Mission (1 May 1897)."}
+    {
+      "id": "vivekananda",
+      "name": "Swami Vivekananda",
+      "born": 1863,
+      "died": 1902,
+      "note": "Narendranath Datta. Ramakrishna's chief disciple; 1893 Parliament of Religions; four yogas and Practical Vedanta; founded the Ramakrishna Mission (1 May 1897)."
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "ramakrishna", "to": "vivekananda", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1881, "note": "Guru and disciple from late 1881/early 1882 until Ramakrishna's death in August 1886; nursed him at Cossipore. Formal sannyasa vows taken by the disciples themselves in early 1887."},
-    {"from": "advaita-vedanta", "to": "vivekananda", "type": "influenced", "evidence": "documented", "verified": true, "note": "Shankara's Advaita, reinterpreted as Practical Vedanta."},
-    {"from": "keshab-chandra-sen", "to": "vivekananda", "type": "influenced", "evidence": "documented", "verified": true, "year": 1880, "note": "Attended Keshab's Nava Vidhan c. 1880 and his Band of Hope 1881-1884; later joined the Sadharan Brahmo Samaj."},
-    {"from": "vivekananda", "to": "nivedita", "type": "initiated", "evidence": "documented", "verified": true, "year": 1898, "note": "Brahmacharya initiation and the name Nivedita, 25 March 1898, Calcutta."},
-    {"from": "vivekananda", "to": "aurobindo", "type": "influenced", "evidence": "testimony", "verified": true, "year": 1908, "note": "Aurobindo wrote (1934) that in Alipore jail Vivekananda 'was speaking with me for about 15 days' as a presence in meditation; also read his works."},
-    {"from": "vivekananda", "to": "rama-tirtha", "type": "influenced", "evidence": "testimony", "verified": false, "note": "Rama Tirtha's own testimony; date and circumstances of their meeting (Lahore, 1897?) not checked in this batch."},
-    {"from": "vivekananda", "to": "sarvapriyananda", "type": "institutional", "evidence": "documented", "verified": true, "note": "Ramakrishna Order; Vedanta Society of New York, founded by Vivekananda in 1894."}
+    {
+      "from": "ramakrishna",
+      "to": "vivekananda",
+      "type": "lived-with",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1881,
+      "note": "Guru and disciple from late 1881/early 1882 until Ramakrishna's death in August 1886; nursed him at Cossipore. Formal sannyasa vows taken by the disciples themselves in early 1887."
+    },
+    {
+      "from": "advaita-vedanta",
+      "to": "vivekananda",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Shankara's Advaita, reinterpreted as Practical Vedanta."
+    },
+    {
+      "from": "keshab-chandra-sen",
+      "to": "vivekananda",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1880,
+      "note": "Attended Keshab's Nava Vidhan c. 1880 and his Band of Hope 1881-1884; later joined the Sadharan Brahmo Samaj."
+    },
+    {
+      "from": "vivekananda",
+      "to": "nivedita",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1898,
+      "note": "Brahmacharya initiation and the name Nivedita, 25 March 1898, Calcutta."
+    },
+    {
+      "from": "vivekananda",
+      "to": "aurobindo",
+      "type": "influenced",
+      "evidence": "testimony",
+      "verified": true,
+      "year": 1908,
+      "note": "Aurobindo wrote (1934) that in Alipore jail Vivekananda 'was speaking with me for about 15 days' as a presence in meditation; also read his works."
+    },
+    {
+      "from": "vivekananda",
+      "to": "rama-tirtha",
+      "type": "influenced",
+      "evidence": "testimony",
+      "verified": false,
+      "note": "Rama Tirtha met Vivekananda in Lahore in 1897 and later credited the meeting as an inspiration for his renunciation (1899); sourced to Wikipedia only, Rama Tirtha writer to confirm.",
+      "year": 1897
+    },
+    {
+      "from": "vivekananda",
+      "to": "sarvapriyananda",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Ramakrishna Order; Vedanta Society of New York, founded by Vivekananda in 1894."
+    }
   ],
   "places": [
-    {"name": "Vivekananda's birthplace, 3 Gourmohan Mukherjee Street, Calcutta", "lat": 22.59, "lon": 88.36, "figure": "vivekananda", "what": "Birthplace (1863); now the Ramakrishna Mission's ancestral house and cultural centre", "verified": false},
-    {"name": "Vivekananda Rock, Kanyakumari", "lat": 8.078, "lon": 77.555, "figure": "vivekananda", "what": "Meditated here, 25-27 December 1892", "verified": true},
-    {"name": "Art Institute of Chicago", "lat": 41.880, "lon": -87.624, "figure": "vivekananda", "what": "World's Parliament of Religions, 11-27 September 1893", "verified": true},
-    {"name": "Thousand Island Park, New York", "lat": 44.29, "lon": -76.03, "figure": "vivekananda", "what": "Summer classes, 1895 (Inspired Talks)", "verified": false},
-    {"name": "Khetri, Rajasthan", "lat": 28.00, "lon": 75.79, "figure": "vivekananda", "what": "Court of his patron Raja Ajit Singh, who suggested the name Vivekananda", "verified": false}
+    {
+      "name": "Vivekananda's birthplace, 3 Gourmohan Mukherjee Street (now 105 Vivekananda Road), Calcutta",
+      "lat": 22.5863,
+      "lon": 88.3674,
+      "figure": "vivekananda",
+      "what": "Birthplace (1863); now the Ramakrishna Mission Swami Vivekananda's Ancestral House and Cultural Centre (opened 2004)",
+      "verified": true
+    },
+    {
+      "name": "Vivekananda Rock, Kanyakumari",
+      "lat": 8.078,
+      "lon": 77.555,
+      "figure": "vivekananda",
+      "what": "Meditated here, 25-27 December 1892",
+      "verified": true
+    },
+    {
+      "name": "Art Institute of Chicago",
+      "lat": 41.88,
+      "lon": -87.624,
+      "figure": "vivekananda",
+      "what": "World's Parliament of Religions, 11-27 September 1893",
+      "verified": true
+    },
+    {
+      "name": "Thousand Island Park, New York",
+      "lat": 44.2883,
+      "lon": -76.0258,
+      "figure": "vivekananda",
+      "what": "Summer classes, about seven weeks in 1895 (Inspired Talks); Vivekananda Cottage",
+      "verified": true
+    },
+    {
+      "name": "Khetri, Rajasthan",
+      "lat": 28.0035,
+      "lon": 75.7885,
+      "figure": "vivekananda",
+      "what": "Court of his patron Raja Ajit Singh (visits 1891 and 1893), who by most accounts suggested the name Vivekananda",
+      "verified": true
+    }
   ],
   "glossary": [
-    {"term": "Practical Vedanta", "def": "Vivekananda's name for Advaita applied to everyday life: since the one Self is in everyone, serving others, especially the poor, is worship."},
-    {"term": "Karma yoga", "script": "कर्मयोग", "lang": "sa", "def": "The path of work done without attachment to its results, one of Vivekananda's four yogas."},
-    {"term": "Raja yoga", "script": "राजयोग", "lang": "sa", "def": "The path of meditation and mental control based on Patanjali's Yoga Sutras; also the title of Vivekananda's 1896 book."},
-    {"term": "Math", "script": "मठ", "lang": "sa", "def": "Pronounced 'mutt'. A Hindu monastery; the Ramakrishna Math is the monastic order founded by Vivekananda."},
-    {"term": "Parivrajaka", "script": "परिव्राजक", "lang": "sa", "def": "A wandering monk with no fixed home."}
+    {
+      "term": "Practical Vedanta",
+      "def": "Vivekananda's name for Advaita applied to everyday life: since the one Self is in everyone, serving others, especially the poor, is worship."
+    },
+    {
+      "term": "Karma yoga",
+      "script": "कर्मयोग",
+      "lang": "sa",
+      "def": "The path of work done without attachment to its results, one of Vivekananda's four yogas."
+    },
+    {
+      "term": "Raja yoga",
+      "script": "राजयोग",
+      "lang": "sa",
+      "def": "The path of meditation and mental control based on Patanjali's Yoga Sutras; also the title of Vivekananda's 1896 book."
+    },
+    {
+      "term": "Math",
+      "script": "मठ",
+      "lang": "sa",
+      "def": "Pronounced 'mutt'. A Hindu monastery; the Ramakrishna Math is the monastic order founded by Vivekananda."
+    },
+    {
+      "term": "Parivrajaka",
+      "script": "परिव्राजक",
+      "lang": "sa",
+      "def": "A wandering monk with no fixed home."
+    }
   ],
   "art": [],
   "issues": [
@@ -40,7 +167,8 @@
     "vivekananda.mdx: no voice recording survives (Belur Math, 2020). Photographs from Chicago 1893 exist but no openly licensed image URL was checked, so no photo block.",
     "Edge vivekananda -> rama-tirtha left verified:false; the Rama Tirtha writer should confirm.",
     "Coordinates for birthplace, Thousand Island Park and Khetri are approximate (two decimals) and marked verified:false.",
-    "Overlap with the Ramakrishna chapter: the first meeting ('have you seen God'), the Kali episode after his father's death and the service episode are summarised briefly here; the Ramakrishna writer may tell them in full. Check the two chapters agree on the first-meeting date (Nov 1881 at Surendranath Mitra's house; Dakshineswar late 1881 or early 1882)."
+    "Overlap with the Ramakrishna chapter: the first meeting ('have you seen God'), the Kali episode after his father's death and the service episode are summarised briefly here; the Ramakrishna writer may tell them in full. Check the two chapters agree on the first-meeting date (Nov 1881 at Surendranath Mitra's house; Dakshineswar late 1881 or early 1882).",
+    "Factcheck: please cite the Great Master/Divine Play chapter for the 'serve beings as Shiva' episode from a print copy, and confirm the Kayastha/Spencer details in the Life by His Eastern and Western Disciples."
   ],
   "sources": {
     "vivekananda": [
@@ -72,6 +200,28 @@
       "Sharma, A Restatement of Religion (Yale 2013): Vivekananda and the making of Hindu nationalism -> https://yalebooks.yale.edu/book/9780300197402/restatement-religion ; reply summarised at https://api.philpapers.org/rec/MEDWSV",
       "National Youth Day declared 1984, first observed 1985 -> https://en.wikipedia.org/wiki/National_Youth_Day_(India)",
       "Aurobindo: 'he was speaking with me for about 15 days' (1934 letter), Alipore jail -> https://search.motherandsriaurobindo.in/_StaticContent/SriAurobindoAshram/-09 E-Library/-01 Works of Sri Aurobindo/-01 English/-03_CWSA/-35_Letters On Himself And The Ashram/-25_Experiences in Alipur Jail 1908 ­ 1909.htm"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 78,
+    "changes": [
+      "vivekananda.mdx: two-minute ovation attributed to 'Biographies' instead of 'Accounts from the hall'; no contemporary report of the duration found (Smithsonian NMAA blog and Wikipedia give only 'thunderous applause').",
+      "vivekananda.mdx: famine relief sentence made specific: Swami Akhandananda opened the first famine relief work at Mahula, Murshidabad, 15 May 1897, weeks after the Mission's founding (belurmath.org/past-presidents/swami-akhandananda). Reference 20 added.",
+      "vivekananda.mdx: 'stages' of dualism/qualified non-dualism/Advaita reattributed to 'The Vedanta Philosophy' (Harvard, 1896), which says the interpretations 'have been progressive'; 'The Ideal of a Universal Religion' kept for the philosopher/devotee/mystic/worker point. Reference 21 added.",
+      "vivekananda.mdx: Killingley reply: removed the claim that Killingley argued the Dakshineswar episode predates Deussen (not in the source, loveofallwisdom.com); his point restated as the meeting sharpening an existing idea; Dakshineswar point attributed to the Order's tradition.",
+      "vivekananda.mdx: Thousand Island Park 'some two months' -> 'some seven weeks' (Wikipedia, Thousand Island Park, NY; Order dates 19 June to early August 1895).",
+      "vivekananda.mdx: time of death 'about nine' -> 'about twenty past nine' (9.20 pm per Wikipedia and Order accounts).",
+      "vivekananda.mdx: Places list, Khetri year 1893 -> 1891–1893 (visits in 1891 and 1893), fixing chronological order.",
+      "w05.json: birthplace coordinates corrected to 22.5863, 88.3674 (ancestral house, now 105 Vivekananda Road; old value 22.59, 88.36 was ~700 m off); Thousand Island Park 44.2883, -76.0258 (historic district); Khetri 28.0035, 75.7885; all marked verified.",
+      "w05.json: rama-tirtha edge given year 1897 (Lahore meeting, Wikipedia Rama_Tirtha); still verified:false."
+    ],
+    "unresolved": [
+      "Dakshineswar 'Shiva jnane jiva seva' episode: could not locate the chapter in Saradananda's Lilaprasanga / Sri Ramakrishna the Great Master online. Only Order-affiliated secondary accounts found (Shantatmananda, rkmdelhi; kamarpukurjayrambati.com), none citing a chapter. The text already attributes it to 'the Order's tradition'; author should cite Great Master (Divine Play) part/chapter from a print copy. The Ramakrishna chapter does not tell this episode, so no wording conflict.",
+      "Kayastha caste and the Bengali translation of Spencer's Education rest on Wikipedia only; no second online source found. Both are standard in the Order's Life, which should be checked in print.",
+      "Illnesses: diabetes confirmed by a second source (Shankar, The Monk as Man, via hinduwebsite.com); asthma only in Wikipedia.",
+      "Hacker essay date: given as 1962 by loveofallwisdom.com; some bibliographies may give 1961 (Saeculum). Not resolved.",
+      "Two-minute ovation: traditional biographical detail; no contemporary newspaper source for the duration found.",
+      "'All morning ... he asked to speak later' and 'He had never addressed a large audience' rest on the Order's biography (not independently checked)."
     ]
   }
 }
