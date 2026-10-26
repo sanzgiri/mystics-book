@@ -1,61 +1,290 @@
 {
   "batch": "w08",
   "nodes_add": [
-    {"id": "a-g-hogg", "name": "A. G. Hogg", "part": 2, "tier": "node", "kind": "person", "note": "Scottish Presbyterian missionary and philosopher at Madras Christian College; supervised Radhakrishnan's MA thesis (1908)"},
-    {"id": "tapovan-maharaj", "name": "Swami Tapovan Maharaj", "born": 1889, "died": 1957, "part": 2, "tier": "node", "kind": "person", "note": "Born Subrahmanyan Nair in Kerala, 3 December 1889; died 16 January 1957; taught Chinmayananda at Uttarkashi, 1949 onward"},
-    {"id": "pranavananda-gudivada", "name": "Swami Pranavananda (Gudivada)", "part": 2, "tier": "node", "kind": "person", "note": "Taught Dayananda of Arsha Vidya at Gudivada, Andhra Pradesh, in 1961; credited with his view of the Veda as pramana"},
-    {"id": "tejomayananda", "name": "Swami Tejomayananda", "part": 2, "tier": "node", "kind": "person", "note": "Disciple of Chinmayananda; succeeded him as head of Chinmaya Mission"},
-    {"id": "paramarthananda", "name": "Swami Paramarthananda", "part": 2, "tier": "node", "kind": "person", "note": "Direct sannyasi disciple of Dayananda of Arsha Vidya; teaches in Chennai"},
-    {"id": "anantanand-rambachan", "name": "Anantanand Rambachan", "part": 2, "tier": "node", "kind": "person", "note": "Trinidad-born scholar of Hinduism; studied under Dayananda at Sandeepany from 1973; author of The Limits of Scripture (1994)"}
+    {
+      "id": "a-g-hogg",
+      "name": "A. G. Hogg",
+      "part": 2,
+      "tier": "node",
+      "kind": "person",
+      "note": "Scottish Presbyterian missionary and philosopher at Madras Christian College; supervised Radhakrishnan's MA thesis (1908)"
+    },
+    {
+      "id": "tapovan-maharaj",
+      "name": "Swami Tapovan Maharaj",
+      "born": 1889,
+      "died": 1957,
+      "part": 2,
+      "tier": "node",
+      "kind": "person",
+      "note": "Born Subrahmanyan Nair in Kerala, 3 December 1889; died 16 January 1957; taught Chinmayananda at Uttarkashi, 1949 onward"
+    },
+    {
+      "id": "pranavananda-gudivada",
+      "name": "Swami Pranavananda (Gudivada)",
+      "part": 2,
+      "tier": "node",
+      "kind": "person",
+      "note": "Taught Dayananda of Arsha Vidya at Gudivada, Andhra Pradesh, in 1961; credited with his view of the Veda as pramana"
+    },
+    {
+      "id": "tejomayananda",
+      "name": "Swami Tejomayananda",
+      "part": 2,
+      "tier": "node",
+      "kind": "person",
+      "note": "Disciple of Chinmayananda (sannyasa 21 October 1983); head of Chinmaya Mission 1993-2017"
+    },
+    {
+      "id": "paramarthananda",
+      "name": "Swami Paramarthananda",
+      "part": 2,
+      "tier": "node",
+      "kind": "person",
+      "note": "Direct sannyasi disciple of Dayananda of Arsha Vidya; teaches in Chennai"
+    },
+    {
+      "id": "anantanand-rambachan",
+      "name": "Anantanand Rambachan",
+      "part": 2,
+      "tier": "node",
+      "kind": "person",
+      "note": "Trinidad-born scholar of Hinduism; studied under Dayananda at Sandeepany from 1973; author of The Limits of Scripture (1994)"
+    }
   ],
   "nodes_update": [
-    {"id": "radhakrishnan", "born": 1888, "died": 1975, "name": "S. Radhakrishnan", "note": "Sarvepalli Radhakrishnan; born Tiruttani 5 September 1888; died Madras 17 April 1975; philosopher of intuition and religious experience"},
-    {"id": "chinmayananda", "born": 1916, "died": 1993, "name": "Swami Chinmayananda", "note": "Balakrishna Menon; born Ernakulam 8 May 1916; sannyasa from Sivananda 25 February 1949; Chinmaya Mission 1953; died San Diego 3 August 1993"},
-    {"id": "dayananda-arsha", "born": 1930, "died": 2015, "name": "Swami Dayananda Saraswati (Arsha Vidya)", "note": "Natarajan; born Manjakkudi 15 August 1930; sannyasa from Chinmayananda 1962; Arsha Vidya Gurukulam, Saylorsburg, 1986; died Rishikesh 23 September 2015"},
-    {"id": "acharya-prashant", "born": 1978, "name": "Acharya Prashant", "note": "Prashant Tripathi; reportedly born Agra 7 March 1978; PrashantAdvait Foundation 2015; Vedanta online, mostly in Hindi"}
+    {
+      "id": "radhakrishnan",
+      "born": 1888,
+      "died": 1975,
+      "name": "S. Radhakrishnan",
+      "note": "Sarvepalli Radhakrishnan; born Tiruttani 5 September 1888; died Madras 17 April 1975; philosopher of intuition and religious experience"
+    },
+    {
+      "id": "chinmayananda",
+      "born": 1916,
+      "died": 1993,
+      "name": "Swami Chinmayananda",
+      "note": "Balakrishna Menon; born Ernakulam 8 May 1916; sannyasa from Sivananda 25 February 1949; Chinmaya Mission 1953; died San Diego 3 August 1993"
+    },
+    {
+      "id": "dayananda-arsha",
+      "born": 1930,
+      "died": 2015,
+      "name": "Swami Dayananda Saraswati (Arsha Vidya)",
+      "note": "Natarajan; born Manjakkudi 15 August 1930; sannyasa from Chinmayananda 1962; Arsha Vidya Gurukulam, Saylorsburg, 1986; died Rishikesh 23 September 2015"
+    },
+    {
+      "id": "acharya-prashant",
+      "born": 1978,
+      "name": "Acharya Prashant",
+      "note": "Prashant Tripathi; reportedly born Agra 7 March 1978; PrashantAdvait Foundation 2015; Vedanta online, mostly in Hindi"
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "advaita-vedanta", "to": "radhakrishnan", "type": "influenced", "evidence": "documented", "verified": true, "note": "Presented Advaita as 'religion itself' (The Hindu View of Life, 1927)"},
-    {"from": "vivekananda", "to": "radhakrishnan", "type": "influenced", "evidence": "documented", "verified": true, "note": "Radhakrishnan credited Vivekananda with rousing his pride in Hinduism; emphasis on experience"},
-    {"from": "a-g-hogg", "to": "radhakrishnan", "type": "reacted-against", "evidence": "documented", "verified": true, "year": 1908, "note": "MA supervisor at Madras Christian College; the thesis The Ethics of the Vedanta (1908) answered Christian critics of Vedanta"},
-    {"from": "sivananda", "to": "chinmayananda", "type": "initiated", "evidence": "documented", "verified": true, "year": 1949, "note": "Sannyasa on Mahashivaratri, 25 February 1949, Rishikesh"},
-    {"from": "tapovan-maharaj", "to": "chinmayananda", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1949, "note": "Studied Gita, Upanishads and Brahma Sutras under him at Uttarkashi, about two years from 1949"},
-    {"from": "advaita-vedanta", "to": "chinmayananda", "type": "lineage", "evidence": "documented", "verified": true, "note": "Saraswati order of the Dashanami sampradaya via Sivananda"},
-    {"from": "chinmayananda", "to": "dayananda-arsha", "type": "initiated", "evidence": "documented", "verified": true, "year": 1962, "note": "Joined Chinmaya Mission 1952 after hearing him in Madras; sannyasa 1962; taught at Sandeepany from 1963. Replaces the earlier 'lived-with' edge."},
-    {"from": "pranavananda-gudivada", "to": "dayananda-arsha", "type": "influenced", "evidence": "documented", "verified": true, "year": 1961, "note": "Gudivada, 1961; per Rambachan, brought him to the view of the Veda as pramana"},
-    {"from": "chinmayananda", "to": "tejomayananda", "type": "initiated", "evidence": "documented", "verified": false, "note": "Successor as head of Chinmaya Mission (1993); initiation details not checked in this batch"},
-    {"from": "dayananda-arsha", "to": "paramarthananda", "type": "initiated", "evidence": "documented", "verified": true, "note": "Listed as direct sannyasi disciple (advaita.org.uk; Wikipedia)"},
-    {"from": "dayananda-arsha", "to": "anantanand-rambachan", "type": "influenced", "evidence": "documented", "verified": true, "year": 1973, "note": "Studied under him at Sandeepany, Bombay, about three years from 1973 (Rambachan's obituary)"},
-    {"from": "advaita-vedanta", "to": "acharya-prashant", "type": "influenced", "evidence": "documented", "verified": true, "note": "Self-described Vedanta/Advaita teacher; no guru claimed"}
+    {
+      "from": "advaita-vedanta",
+      "to": "radhakrishnan",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Presented Advaita as 'religion itself' (The Hindu View of Life, 1927)"
+    },
+    {
+      "from": "vivekananda",
+      "to": "radhakrishnan",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Radhakrishnan credited Vivekananda with rousing his pride in Hinduism; emphasis on experience"
+    },
+    {
+      "from": "a-g-hogg",
+      "to": "radhakrishnan",
+      "type": "reacted-against",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1908,
+      "note": "MA supervisor at Madras Christian College; the thesis The Ethics of the Vedanta (1908) answered Christian critics of Vedanta"
+    },
+    {
+      "from": "sivananda",
+      "to": "chinmayananda",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1949,
+      "note": "Sannyasa on Mahashivaratri, 25 February 1949, Rishikesh"
+    },
+    {
+      "from": "tapovan-maharaj",
+      "to": "chinmayananda",
+      "type": "lived-with",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1949,
+      "note": "Studied Gita, Upanishads and Brahma Sutras under him at Uttarkashi, about two years from 1949"
+    },
+    {
+      "from": "advaita-vedanta",
+      "to": "chinmayananda",
+      "type": "lineage",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Saraswati order of the Dashanami sampradaya via Sivananda"
+    },
+    {
+      "from": "chinmayananda",
+      "to": "dayananda-arsha",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1962,
+      "note": "Joined Chinmaya Mission 1952 after hearing him in Madras; sannyasa 1962; taught at Sandeepany from 1963. Replaces the earlier 'lived-with' edge."
+    },
+    {
+      "from": "pranavananda-gudivada",
+      "to": "dayananda-arsha",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1961,
+      "note": "Gudivada, 1961; per Rambachan, brought him to the view of the Veda as pramana"
+    },
+    {
+      "from": "chinmayananda",
+      "to": "tejomayananda",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Sannyasa 21 October 1983; succeeded him as head of the mission in 1993 (chinmayamission.com)",
+      "year": 1983
+    },
+    {
+      "from": "dayananda-arsha",
+      "to": "paramarthananda",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Listed as direct sannyasi disciple (advaita.org.uk; Wikipedia)"
+    },
+    {
+      "from": "dayananda-arsha",
+      "to": "anantanand-rambachan",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1973,
+      "note": "Studied under him at Sandeepany, Bombay, about three years from 1973 (Rambachan's obituary)"
+    },
+    {
+      "from": "advaita-vedanta",
+      "to": "acharya-prashant",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Self-described Vedanta/Advaita teacher; no guru claimed"
+    }
   ],
   "places": [
-    {"name": "Tiruttani", "lat": 13.18, "lon": 79.61, "figure": "radhakrishnan", "what": "Birthplace, 5 September 1888", "verified": true},
-    {"name": "Ernakulam", "lat": 9.98, "lon": 76.28, "figure": "chinmayananda", "what": "Birthplace, 8 May 1916", "verified": true},
-    {"name": "Uttarkashi", "lat": 30.73, "lon": 78.44, "figure": "chinmayananda", "what": "Study under Tapovan Maharaj from 1949", "verified": true},
-    {"name": "Sandeepany Sadhanalaya, Powai, Mumbai", "lat": 19.12, "lon": 72.91, "figure": "chinmayananda", "what": "Residential Vedanta school opened 1963; VHP founding meeting August 1964; Dayananda taught here", "verified": true},
-    {"name": "Sidhbari", "lat": 32.20, "lon": 76.37, "figure": "chinmayananda", "what": "Samadhi shrine at the mission's ashram near Dharamshala", "verified": false},
-    {"name": "Arsha Vidya Gurukulam, Saylorsburg, Pennsylvania", "lat": 40.90, "lon": -75.32, "figure": "dayananda-arsha", "what": "Founded 1986", "verified": false},
-    {"name": "Rishikesh", "lat": 30.09, "lon": 78.27, "figure": "dayananda-arsha", "what": "Arsha Vidya Pitham; died here 23 September 2015", "verified": true},
-    {"name": "Greater Noida", "lat": 28.47, "lon": 77.50, "figure": "acharya-prashant", "what": "PrashantAdvait Foundation, founded 2015", "verified": true}
+    {
+      "name": "Tiruttani",
+      "lat": 13.18,
+      "lon": 79.61,
+      "figure": "radhakrishnan",
+      "what": "Birthplace, 5 September 1888",
+      "verified": true
+    },
+    {
+      "name": "Ernakulam",
+      "lat": 9.98,
+      "lon": 76.28,
+      "figure": "chinmayananda",
+      "what": "Birthplace, 8 May 1916",
+      "verified": true
+    },
+    {
+      "name": "Uttarkashi",
+      "lat": 30.73,
+      "lon": 78.44,
+      "figure": "chinmayananda",
+      "what": "Study under Tapovan Maharaj from 1949",
+      "verified": true
+    },
+    {
+      "name": "Sandeepany Sadhanalaya, Powai, Mumbai",
+      "lat": 19.12,
+      "lon": 72.91,
+      "figure": "chinmayananda",
+      "what": "Residential Vedanta school opened 1963; VHP founding meeting August 1964; Dayananda taught here",
+      "verified": true
+    },
+    {
+      "name": "Sidhbari",
+      "lat": 32.2,
+      "lon": 76.37,
+      "figure": "chinmayananda",
+      "what": "Samadhi shrine at the mission's ashram near Dharamshala",
+      "verified": false
+    },
+    {
+      "name": "Arsha Vidya Gurukulam, Saylorsburg, Pennsylvania",
+      "lat": 40.9,
+      "lon": -75.32,
+      "figure": "dayananda-arsha",
+      "what": "Founded 1986",
+      "verified": false
+    },
+    {
+      "name": "Rishikesh",
+      "lat": 30.09,
+      "lon": 78.27,
+      "figure": "dayananda-arsha",
+      "what": "Arsha Vidya Pitham; died here 23 September 2015",
+      "verified": true
+    },
+    {
+      "name": "Greater Noida",
+      "lat": 28.47,
+      "lon": 77.5,
+      "figure": "acharya-prashant",
+      "what": "PrashantAdvait Foundation, founded 2015",
+      "verified": true
+    }
   ],
   "glossary": [
-    {"term": "Pramana", "script": "प्रमाण", "lang": "sa", "def": "A valid means of knowledge, such as perception, inference or scripture."},
-    {"term": "Jnana yajna", "script": "ज्ञानयज्ञ", "lang": "sa", "def": "Offering of knowledge: Chinmayananda's name for a public lecture series on a Vedanta text."},
-    {"term": "Maya", "script": "माया", "lang": "sa", "def": "In Advaita, the power or appearance by which the one reality seems to be a world of many things."}
+    {
+      "term": "Pramana",
+      "script": "प्रमाण",
+      "lang": "sa",
+      "def": "A valid means of knowledge, such as perception, inference or scripture."
+    },
+    {
+      "term": "Jnana yajna",
+      "script": "ज्ञानयज्ञ",
+      "lang": "sa",
+      "def": "Offering of knowledge: Chinmayananda's name for a public lecture series on a Vedanta text."
+    },
+    {
+      "term": "Maya",
+      "script": "माया",
+      "lang": "sa",
+      "def": "In Advaita, the power or appearance by which the one reality seems to be a world of many things."
+    }
   ],
   "art": [],
   "issues": [
     "figures/chinmayananda.mdx: Wikipedia quotes him in 1993 saying demolishing the Babri Masjid was 'nothing wrong'; I could not see the primary report, so the profile says only that a Times News Service report of 7 January 1993 had him supporting the temple. The checker should locate the original.",
     "figures/chinmayananda.mdx: the quote 'Let us convert Hindus to Hinduism, then everything will be all right' (1964) is sourced only via Wikipedia; needs a primary or scholarly citation (e.g. Katju, Jaffrelot) or removal.",
-    "figures/chinmayananda.mdx: Tejomayananda named as successor from general knowledge; not checked in a fetched source this session. Nancy Patchen's biography (1989) cited from memory; verify publisher and year.",
     "figures/dayananda-arsha.mdx: the Anaikatti and Rishikesh centres' founding years, and the year he convened the Hindu Dharma Acharya Sabha (2000 per Wikipedia, 2003 elsewhere), are left out. His Brahma Sutra study in Rishikesh (Wikipedia: three years under Tarananda Giri from 1963) overlaps his 1963 Sandeepany start; left vague.",
     "figures/dayananda-arsha.mdx: Narendra Modi is widely described as his disciple; omitted as not bearing on the teaching and not verified.",
     "figures/dayananda-arsha.mdx: the 1999 context of 'Conversion is Violence' (response to Pope John Paul II's visit and Ecclesia in Asia) was not verified, so it is not stated.",
     "figures/acharya-prashant.mdx: civil service record conflicts (Pioneer: left 'IRPS Services'; Wikipedia: cleared exam but did not pursue). Birth date only from Wikipedia, which is flagged for COI/deletion. No well-documented critical coverage of his teaching was found before the session limit; research was cut short and the Lineage note on influences (e.g. J. Krishnamurti, Kabir) is left out.",
     "figures/acharya-prashant.mdx: the date of the IIT Delhi 'vote merchants' video is not in the Outlook article; described as 'ahead of the Lok Sabha elections'.",
     "figures/radhakrishnan.mdx: the Paul Hacker 'inclusivism' attribution is from general knowledge of the literature, not from a fetched source; check. IEP article author (Michael Hawley) assumed.",
-    "parts/neo-vedanta.mdx: consistent with the four profiles. Two small notes: (1) 'Chinmayananda and his student Swami Dayananda' is accurate (sannyasa 1962); (2) the intro's 'Vivekananda and Radhakrishnan rest the claim on mystical experience that anyone can test' versus 'Arsha Vidya teachers hold that the Upanishads are a means of knowledge' matches Rambachan's account; Chinmayananda himself is less clearly on the Arsha Vidya side of that divide than the intro's grouping might suggest."
+    "parts/neo-vedanta.mdx: consistent with the four profiles. Two small notes: (1) 'Chinmayananda and his student Swami Dayananda' is accurate (sannyasa 1962); (2) the intro's 'Vivekananda and Radhakrishnan rest the claim on mystical experience that anyone can test' versus 'Arsha Vidya teachers hold that the Upanishads are a means of knowledge' matches Rambachan's account; Chinmayananda himself is less clearly on the Arsha Vidya side of that divide than the intro's grouping might suggest.",
+    "figures/chinmayananda.mdx: Nancy Patchen, The Journey of a Master (1989), cited from memory; verify publisher and year."
   ],
   "sources": {
     "radhakrishnan": [
@@ -84,7 +313,8 @@
       "VHP with S. S. Apte at Sandeepany Aug 1964; 'convert Hindus to Hinduism' quote; BMI chart -> https://en.wikipedia.org/wiki/Chinmayananda_Saraswati",
       "Times News Service 7 Jan 1993, supported temple -> https://www.chinmayaudghosh.in/special-feature/chinmayananda-for-temple",
       "Tapovan Maharaj 1889-1957, born Kerala -> https://en.wikipedia.org/wiki/Tapovan_Maharaj",
-      "samadhi at Sidhbari -> https://chinmayamission.com/global/swami-chinmayananda"
+      "samadhi at Sidhbari -> https://chinmayamission.com/global/swami-chinmayananda",
+      "Tejomayananda sannyasa 21 Oct 1983; head 1993-2017 -> https://www.chinmayamission.com/global/swami-tejomayananda"
     ],
     "dayananda-arsha": [
       "born Natarajan 15 Aug 1930 Manjakkudi; father died when 8; Madras at 17; Air Force; 1952 heard Chinmayananda; secretary; 1961 Pranavananda Gudivada; sannyasa 1962; Sandeepany 1963; courses 1972-79; Piercy 1979; ten courses; four centres; AIM for Seva 2000; Millennium summit 2000; died 23 Sept 2015 Rishikesh; Padma Bhushan 2016 -> https://en.wikipedia.org/wiki/Dayananda_Saraswati_(Arsha_Vidya)",

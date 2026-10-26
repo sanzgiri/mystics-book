@@ -26,7 +26,7 @@ Status: todo / running / written / checked / merged.
 | w05 | vivekananda (c) | | merged |
 | w06 | chandrasekharendra-saraswati (c) | | merged |
 | w07 | sarada-devi, rama-tirtha, sarvapriyananda | neo-vedanta | merged |
-| w08 | radhakrishnan, chinmayananda, dayananda-arsha, acharya-prashant | | running |
+| w08 | radhakrishnan, chinmayananda, dayananda-arsha, acharya-prashant | | checking |
 | w09 | aurobindo (c) | | checking |
 | w10 | rabindranath-tagore, iqbal, kc-bhattacharya, gopi-krishna | integral | running |
 | w11 | lahiri-mahasaya (c) | | todo |
