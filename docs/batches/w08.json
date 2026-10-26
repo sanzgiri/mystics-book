@@ -78,7 +78,7 @@
       "id": "acharya-prashant",
       "born": 1978,
       "name": "Acharya Prashant",
-      "note": "Prashant Tripathi; reportedly born Agra 7 March 1978; PrashantAdvait Foundation 2015; Vedanta online, mostly in Hindi"
+      "note": "Prashant Tripathi; reportedly born Agra, 1978; PrashantAdvait Foundation 2015; Vedanta online, mostly in Hindi"
     }
   ],
   "edges_remove": [],
@@ -226,7 +226,7 @@
       "lon": 76.37,
       "figure": "chinmayananda",
       "what": "Samadhi shrine at the mission's ashram near Dharamshala",
-      "verified": false
+      "verified": true
     },
     {
       "name": "Arsha Vidya Gurukulam, Saylorsburg, Pennsylvania",
@@ -234,7 +234,7 @@
       "lon": -75.32,
       "figure": "dayananda-arsha",
       "what": "Founded 1986",
-      "verified": false
+      "verified": true
     },
     {
       "name": "Rishikesh",
@@ -284,7 +284,11 @@
     "figures/acharya-prashant.mdx: the date of the IIT Delhi 'vote merchants' video is not in the Outlook article; described as 'ahead of the Lok Sabha elections'.",
     "figures/radhakrishnan.mdx: the Paul Hacker 'inclusivism' attribution is from general knowledge of the literature, not from a fetched source; check. IEP article author (Michael Hawley) assumed.",
     "parts/neo-vedanta.mdx: consistent with the four profiles. Two small notes: (1) 'Chinmayananda and his student Swami Dayananda' is accurate (sannyasa 1962); (2) the intro's 'Vivekananda and Radhakrishnan rest the claim on mystical experience that anyone can test' versus 'Arsha Vidya teachers hold that the Upanishads are a means of knowledge' matches Rambachan's account; Chinmayananda himself is less clearly on the Arsha Vidya side of that divide than the intro's grouping might suggest.",
-    "figures/chinmayananda.mdx: Nancy Patchen, The Journey of a Master (1989), cited from memory; verify publisher and year."
+    "figures/chinmayananda.mdx: Nancy Patchen, The Journey of a Master (1989), cited from memory; verify publisher and year.",
+    "figures/chinmayananda.mdx (factcheck): the verbatim quote 'Let us convert Hindus to Hinduism, then everything will be all right' is cited by Wikipedia to Manjari Katju, 'The Early Vishva Hindu Parishad: 1964 to 1983', Social Scientist 26 (5/6), 1998, p. 42, which I could not open (JSTOR blocked). Replaced with the Münster project's paraphrase 'converting Hindus to Hinduism'. If the author can check Katju p. 42, the direct quote can be restored with that citation.",
+    "figures/chinmayananda.mdx (factcheck): the 'pulling down that structure is nothing wrong' quote (January 1993 interview with Ram Madhav) is sourced on Wikipedia only to a Chinmaya Yuva Kendra page archived in 2008 and a 2019 blog repost; neither could be opened. Left out; the profile keeps the Times News Service report of support for the temple.",
+    "figures/chinmayananda.mdx (factcheck): original publisher/year of Patchen's The Journey of a Master not confirmed (Asian Humanities Press 1989 unverified; a 2016 Central Chinmaya Mission Trust edition is catalogued). Reference now names CCMT without a year.",
+    "figures/acharya-prashant.mdx (factcheck): no well-documented critical coverage of his teaching found in reputable outlets; the profile has no critiques paragraph. Exact birth date (7 March 1978) dropped as sourced only to a COI-flagged Wikipedia article."
   ],
   "sources": {
     "radhakrishnan": [
@@ -331,6 +335,29 @@
       "Gita 2.42-2.46 on ritual; quote 'rituals end, and honesty begins' -> https://sundayguardianlive.com/feature/the-gitas-revolt-against-ritualism-136535/",
       "'vote merchants' video shared by BJP and Congress -> https://outlookindia.com/outlookhub/acharya-prashants-video-sparks-bjp-congress-showdown",
       "April 2026 death threat after Ambedkar video; foundation statement -> https://ianslive.in/acharya-prashant-receives-fresh-death-threat-over-his-remarks-honouring-dr-br-ambedkar--20260414184258"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 112,
+    "changes": [
+      "radhakrishnan.mdx: Sinha dispute restated precisely: Sinha a Meerut College lecturer; thesis submitted to Calcutta University 1922 with Radhakrishnan as an examiner; Modern Review Jan 1929 and next issue; Radhakrishnan's defences (lectures, manuscript ready 1924, shared translations); defamation suit against Sinha and editor Ramananda Chatterjee and Sinha's copyright suit in Calcutta High Court, filing order disputed; withdrawn April 1933 after Syama Prasad Mookerjee's mediation; compromise recorded 3 May 1933; terms undisclosed; no ruling on merits (Wikipedia 'Jadunath Sinha' citing Gopal 1989 pp. 116-119, Minor 1987 pp. 34-37, Murty & Vohra 1990; The Wire). Page refs added to Gopal and Minor.",
+      "radhakrishnan.mdx: marriage year 1904 -> '1903 or 1904 (sources differ)' (Wikipedia May 1903; IEP 1904).",
+      "radhakrishnan.mdx: glance death place 'Mylapore, Madras' -> 'Madras' (Mylapore not found in sources checked).",
+      "chinmayananda.mdx: VHP founding corrected: conference convened by RSS leaders M. S. Golwalkar and S. S. Apte, held at Sandeepany, Chinmayananda first president (Wikipedia VHP; Münster C2-20; Scroll). Wikipedia-only direct quote replaced by Münster's attributed paraphrase 'converting Hindus to Hinduism'.",
+      "chinmayananda.mdx: Times News Service report placed at Thiruvananthapuram and stated as support for building the temple (Chinmaya Udghosh reprint).",
+      "chinmayananda.mdx: Patchen reference publisher changed to Central Chinmaya Mission Trust, year removed (library catalogue).",
+      "dayananda-arsha.mdx: 'conversion is violence' argument now quoted from his own 1999 Hinduism Today essay ('Conversion is violence. It generates violence.'; 'it hurts deeply'; 'explode into violence'); booklet dated 2009 (AVRPT); Bauman's critique quoted verbatim from the abstract and his conclusion added (definitions of violence and religion). Hinduism Today 1999 added to references.",
+      "acharya-prashant.mdx: exact birth date dropped (living person; Wikipedia only); civil service question hedged with all versions attributed: exam cleared 2000 by his own account (Pioneer), left IRPS (Pioneer), resigned during officer training (Kalinga Literary Festival), did not pursue (New Indian Express via Wikipedia). KLF reference added.",
+      "acharya-prashant.mdx: death-threat sentence aligned to IANS (YouTube account; remarks honouring Ambedkar); punctuation fixes.",
+      "w08.json: acharya-prashant node note hedged (no exact birth date); Sidhbari and Saylorsburg places marked verified (Chinmaya Mission site; advaita.org.uk, 1986)."
+    ],
+    "unresolved": [
+      "Katju 1998 p. 42 not seen; direct 'convert Hindus to Hinduism' quote withheld.",
+      "Chinmayananda January 1993 'nothing wrong' interview: primary not located.",
+      "Paul Hacker 'inclusivism' applied to Radhakrishnan: consistent with the literature (Hacker; Halbfass) but no source fetched.",
+      "Patchen first edition publisher and year.",
+      "Hindu Dharma Acharya Sabha founding year (2000 vs 2003) and whether the 1999 essay responded to the papal visit: still unstated.",
+      "Acharya Prashant: no reputable critical coverage found; 'vote merchants' video date (probably early 2024) not confirmed."
     ]
   }
 }
