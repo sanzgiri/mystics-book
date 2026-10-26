@@ -23,6 +23,7 @@ import { parts } from '../lib/graph.js';
         <option value="all">All edges</option>
         <option value="documented">Documented only</option>
         <option value="nodoc">Testimony & legend only</option>
+        <option value="verified">Verified only</option>
       </select>
     </label>
     <label>Find
@@ -44,7 +45,7 @@ import { parts } from '../lib/graph.js';
     <span><svg width="34" height="8" viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--flame)" stroke-width="2"/></svg>initiated / lived with</span>
     <span><svg width="34" height="8" viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--muted)" stroke-width="2" stroke-dasharray="6 4"/></svg>testimony</span>
     <span><svg width="34" height="8" viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--muted)" stroke-width="2" stroke-dasharray="1.5 4" stroke-linecap="round"/></svg>legendary / devotional</span>
-    <span>Box = has a chapter or profile · Plain text = on the tree only · Most edges outside Part 3 are drafts, to be verified chapter by chapter.</span>
+    <span>Faded lines are not yet verified · Box = has a chapter or profile · Plain text = on the tree only</span>
   </div>
 </main>
 
@@ -97,7 +98,7 @@ import { parts } from '../lib/graph.js';
         'line-color': (e) => (e.data('type') === 'claimed' ? muted : personal.has(e.data('type')) ? flame : indigo),
         'target-arrow-color': (e) => (e.data('type') === 'claimed' ? muted : personal.has(e.data('type')) ? flame : indigo),
         'line-style': (e) => (e.data('evidence') === 'documented' ? 'solid' : e.data('evidence') === 'testimony' ? 'dashed' : 'dotted'),
-        opacity: .85,
+        opacity: (e) => (e.data('raw').verified ? .9 : .4),
       } },
       { selector: '.faded', style: { opacity: .12 } },
       { selector: '.hidden', style: { display: 'none' } },
@@ -122,8 +123,9 @@ import { parts } from '../lib/graph.js';
 
   function show(node) {
     const n = node.data('raw');
-    const ins = node.incomers('edge').map((e) => `${e.source().data('label')} <em>(${e.data('type')})</em>`);
-    const outs = node.outgoers('edge').map((e) => `${e.target().data('label')} <em>(${e.data('type')})</em>`);
+    const tag = (e) => `<em>(${e.data('type')}${e.data('raw').verified ? '' : ', draft'})</em>${e.data('raw').note ? `<br><small>${e.data('raw').note}</small>` : ''}`;
+    const ins = node.incomers('edge').map((e) => `${e.source().data('label')} ${tag(e)}`);
+    const outs = node.outgoers('edge').map((e) => `${e.target().data('label')} ${tag(e)}`);
     const link = pageTiers.has(n.tier) ? `<p><a href="${base}/figures/${n.id}/">Open ${n.tier === 'node' ? 'entry' : 'chapter'} →</a></p>` : '';
     panel.innerHTML = `<strong style="font-family:var(--f-display);font-size:1.1rem">${n.name}</strong><br>
       <span style="color:var(--muted)">${life(n)}${n.part ? ` · Part ${n.part}: ${partName[n.part]}` : ' · Root tradition'}</span>
@@ -163,6 +165,7 @@ import { parts } from '../lib/graph.js';
         const d = e.data('evidence');
         if (ev === 'documented' && d !== 'documented') e.addClass('hidden');
         if (ev === 'nodoc' && d === 'documented') e.addClass('hidden');
+        if (ev === 'verified' && !e.data('raw').verified) e.addClass('hidden');
       });
       if (part !== 'all') {
         const core = cy.nodes().filter((n) => String(n.data('part')) === part);

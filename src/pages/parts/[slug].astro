@@ -19,7 +19,7 @@ const prev = parts.find((p) => p.n === part.n - 1);
 const next = parts.find((p) => p.n === part.n + 1);
 ---
 <Base title={`Part ${part.n}: ${part.title}`} description={part.question}>
-<main class="wrap">
+<main class="wrap" data-pagefind-body>
   <div class="col">
     <span class="label">Part {part.n}</span>
     <h1 style="font-size:clamp(2.4rem,6.5vw,4.2rem);margin:.4rem 0 .4rem">{part.question}</h1>

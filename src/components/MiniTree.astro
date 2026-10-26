@@ -41,7 +41,7 @@ const path = (p) => {
       <marker id={`ah-${id}`} viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--muted)"/></marker>
     </defs>
     {placed.map((p) => (
-      <path d={path(p)} fill="none" stroke={stroke(p.edge.type)} stroke-width="1.6" stroke-dasharray={dash(p.edge.evidence)} stroke-linecap="round" marker-end={`url(#ah-${id})`}>
+      <path d={path(p)} fill="none" stroke={stroke(p.edge.type)} stroke-width="1.6" stroke-dasharray={dash(p.edge.evidence)} stroke-linecap="round" opacity={p.edge.verified ? 1 : 0.45} marker-end={`url(#ah-${id})`}>
         <title>{`${p.dir === 'up' ? p.node.name + ' → ' + me.name : me.name + ' → ' + p.node.name}: ${EDGE_LABEL[p.edge.type] || p.edge.type} (${p.edge.evidence})${p.edge.note ? '. ' + p.edge.note : ''}${p.edge.verified ? '' : ' [draft]'}`}</title>
       </path>
     ))}
@@ -69,6 +69,7 @@ const path = (p) => {
     <span><svg width="34" height="8" viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--muted)" stroke-width="2"/></svg>documented</span>
     <span><svg width="34" height="8" viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--muted)" stroke-width="2" stroke-dasharray="6 4"/></svg>testimony</span>
     <span><svg width="34" height="8" viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--muted)" stroke-width="2" stroke-dasharray="1.5 4" stroke-linecap="round"/></svg>legendary / devotional</span>
+    <span><svg width="34" height="8" viewBox="0 0 34 8"><line x1="0" y1="4" x2="34" y2="4" stroke="var(--indigo)" stroke-width="2" opacity=".45"/></svg>faded = not yet verified</span>
   </div>
 </figure>
 )}

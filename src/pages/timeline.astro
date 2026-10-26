@@ -9,12 +9,17 @@ const people = nodes
   .sort((a, b) => a.b - b.b);
 
 const events = [
-  [1835, "Macaulay's Minute on English education"],
+  [1828, 'Brahmo Sabha founded in Calcutta'],
   [1857, 'Uprising against Company rule'],
+  [1875, 'Arya Samaj and Theosophical Society founded'],
   [1893, "Parliament of the World's Religions, Chicago"],
+  [1920, 'Yogananda sails for America'],
+  [1929, 'Krishnamurti dissolves the Order of the Star'],
   [1947, 'Independence and Partition'],
-  [1965, 'US immigration reform opens the door to Indian teachers'],
+  [1956, 'Ambedkar and followers convert, Nagpur'],
+  [1965, 'US immigration reform'],
   [1968, 'The Beatles at Rishikesh'],
+  [1991, 'Economic liberalisation; satellite TV'],
 ];
 
 const X0 = 1770, X1 = NOW, L = 230, R = 30, W = 1120, ROW = 19, TOP = 70;
@@ -39,8 +44,8 @@ const decades = []; for (let y = 1780; y <= 2020; y += 20) decades.push(y);
       ))}
       {events.map(([y, label], i) => (
         <g>
-          <line x1={x(y)} x2={x(y)} y1={14 + (i % 3) * 16} y2={H - 20} stroke="var(--flame)" stroke-width="1" stroke-dasharray="3 3" opacity=".7"/>
-          <text x={x(y) + 4} y={12 + (i % 3) * 16} font-family="var(--f-mono)" font-size="10" fill="var(--flame)">{y} · {label}</text>
+          <line x1={x(y)} x2={x(y)} y1={14 + (i % 4) * 14} y2={H - 20} stroke="var(--flame)" stroke-width="1" stroke-dasharray="3 3" opacity=".7"/>
+          <text x={y > 1950 ? x(y) - 4 : x(y) + 4} y={12 + (i % 4) * 14} text-anchor={y > 1950 ? "end" : "start"} font-family="var(--f-mono)" font-size="10" fill="var(--flame)">{y} · {label}</text>
         </g>
       ))}
       {people.map((p, i) => {

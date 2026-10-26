@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/graph.js';
+---
+<Base title="Search" current="search" description="Search every chapter, profile and essay.">
+<main class="wrap">
+  <div class="col">
+    <span class="label">Companion</span>
+    <h1 style="font-size:clamp(2.2rem,6vw,3.6rem);margin:.4rem 0">Search</h1>
+    <p>Search the full text of every chapter, profile, part introduction and essay.</p>
+    <div id="search"></div>
+    <noscript><p>Search needs JavaScript. The <a href={href('/')}>contents</a> list every entry.</p></noscript>
+  </div>
+</main>
+<link rel="stylesheet" href={href('/pagefind/pagefind-ui.css')}>
+<script is:inline src="/pagefind/pagefind-ui.js"></script>
+<script is:inline>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (window.PagefindUI) new PagefindUI({ element: '#search', showSubResults: true, showImages: false, resetStyles: false });
+    else document.getElementById('search').textContent = 'Search index not built yet.';
+  });
+</script>
+<style is:global>
+  #search{--pagefind-ui-primary:var(--flame);--pagefind-ui-text:var(--ink);--pagefind-ui-background:var(--paper);--pagefind-ui-border:var(--rule);--pagefind-ui-tag:var(--flame-soft);--pagefind-ui-font:var(--f-body);margin-top:1.5rem}
+</style>
+</Base>

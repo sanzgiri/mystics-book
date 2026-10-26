@@ -31,7 +31,7 @@ const prev = idx > 0 ? inPart[idx - 1] : null;
 const next = idx >= 0 && idx < inPart.length - 1 ? inPart[idx + 1] : null;
 ---
 <Base title={entry ? `${entry.data.title} (${node.name})` : node.name} description={entry?.data.subtitle}>
-<main class="wrap">
+<main class="wrap" data-pagefind-body>
   {part && (
     <div class="part-head">
       <a class="label" href={partHref(part.slug)}>Part {part.n} · {part.title}</a>
