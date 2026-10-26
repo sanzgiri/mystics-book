@@ -997,6 +997,78 @@
    "figure": "acharya-prashant",
    "what": "PrashantAdvait Foundation, founded 2015",
    "verified": true
+  },
+  {
+   "name": "Jorasanko Thakur Bari, Kolkata",
+   "lat": 22.585,
+   "lon": 88.359,
+   "figure": "rabindranath-tagore",
+   "what": "Born 7 May 1861 and died 7 August 1941 in the family mansion",
+   "verified": true
+  },
+  {
+   "name": "Shilaidaha Kuthibari, Kushtia",
+   "lat": 23.92,
+   "lon": 89.22,
+   "figure": "rabindranath-tagore",
+   "what": "Managed the family estates from 1890; met Baul singers",
+   "verified": true
+  },
+  {
+   "name": "Santiniketan",
+   "lat": 23.68,
+   "lon": 87.68,
+   "figure": "rabindranath-tagore",
+   "what": "School founded 1901; Visva-Bharati opened 1921",
+   "verified": true
+  },
+  {
+   "name": "Sialkot",
+   "lat": 32.49,
+   "lon": 74.53,
+   "figure": "iqbal",
+   "what": "Born 9 November 1877",
+   "verified": true
+  },
+  {
+   "name": "Lahore",
+   "lat": 31.588,
+   "lon": 74.31,
+   "figure": "iqbal",
+   "what": "Studied at Government College; practised law; Asrar-i-Khudi published 1915; died 21 April 1938",
+   "verified": true
+  },
+  {
+   "name": "Serampore",
+   "lat": 22.75,
+   "lon": 88.34,
+   "figure": "kc-bhattacharya",
+   "what": "Born 12 May 1875",
+   "verified": true
+  },
+  {
+   "name": "Chandernagore (Chandannagar)",
+   "lat": 22.87,
+   "lon": 88.37,
+   "figure": "kc-bhattacharya",
+   "what": "Delivered 'Svaraj in Ideas' as the Sir Asutosh Memorial Lecture, October 1931",
+   "verified": true
+  },
+  {
+   "name": "Jammu",
+   "lat": 32.73,
+   "lon": 74.86,
+   "figure": "gopi-krishna",
+   "what": "Kundalini awakening, Christmas season 1937, in a house on the outskirts",
+   "verified": true
+  },
+  {
+   "name": "Srinagar",
+   "lat": 34.08,
+   "lon": 74.8,
+   "figure": "gopi-krishna",
+   "what": "Born in a village about twenty miles away (1903); worked in the state Public Works Department",
+   "verified": true
   }
  ]
 }

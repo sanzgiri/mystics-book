@@ -545,7 +545,8 @@
    "died": 1941,
    "part": 4,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Poet; son of Debendranath Tagore; Shilaidaha estates from 1890; Santiniketan school 1901; Visva-Bharati 1921; Gitanjali (1910, English 1912); Nobel 1913; The Religion of Man (Hibbert Lectures 1930, pub. 1931); jivan devata; Baul Man of the Heart"
   },
   {
    "id": "iqbal",
@@ -554,16 +555,18 @@
    "died": 1938,
    "part": 4,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Poet-philosopher of Sialkot and Lahore; Cambridge, Munich doctorate (1907/1908), Lincoln's Inn 1908; Asrar-i-Khudi 1915; knighted 1922; Reconstruction of Religious Thought in Islam (1930, 1934); khudi; Allahabad address Dec 1930"
   },
   {
    "id": "kc-bhattacharya",
-   "name": "K.C. Bhattacharya",
+   "name": "K. C. Bhattacharyya",
    "born": 1875,
    "died": 1949,
    "part": 4,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Krishnachandra Bhattacharyya of Serampore; The Subject as Freedom (1930); 'Svaraj in Ideas' (Chandernagore, Oct 1931; pub. 1954); 'The Concept of Philosophy' (1936); death year 1947 in some sources"
   },
   {
    "id": "gopi-krishna",
@@ -572,7 +575,8 @@
    "died": 1984,
    "part": 4,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Kashmiri Pandit; Public Works Department clerk; kundalini awakening Christmas season 1937 near Jammu; Kundalini: The Evolutionary Energy in Man (1967); kundalini as the biological mechanism of human evolution"
   },
   {
    "id": "lahiri-mahasaya",
@@ -1880,6 +1884,34 @@
    "tier": "node",
    "kind": "person",
    "note": "Trinidad-born scholar of Hinduism; studied under Dayananda at Sandeepany from 1973; author of The Limits of Scripture (1994)"
+  },
+  {
+   "id": "baul-tradition",
+   "name": "Baul tradition",
+   "part": 0,
+   "tier": "root",
+   "kind": "tradition",
+   "note": "Wandering singers of rural Bengal from Hindu and Muslim backgrounds; songs of the moner manush (Man of the Heart); Lalon Fakir (d. 1890)"
+  },
+  {
+   "id": "thomas-arnold",
+   "name": "Thomas Arnold",
+   "born": 1864,
+   "died": 1930,
+   "part": 4,
+   "tier": "node",
+   "kind": "person",
+   "note": "British orientalist; Iqbal's teacher at Government College, Lahore, in the 1890s"
+  },
+  {
+   "id": "kalidas-bhattacharyya",
+   "name": "Kalidas Bhattacharyya",
+   "born": 1911,
+   "died": 1984,
+   "part": 4,
+   "tier": "node",
+   "kind": "person",
+   "note": "Philosopher; son of K. C. Bhattacharyya"
   }
  ],
  "edges": [
@@ -2019,7 +2051,7 @@
    "type": "family",
    "evidence": "documented",
    "verified": true,
-   "note": "Father; Rabindranath founded his school at Debendranath's Santiniketan ashram"
+   "note": "Father; Rabindranath grew up in Brahmo services and wrote Brahmo hymns; founded his school at Debendranath's Santiniketan ashram (1901)"
   },
   {
    "from": "upanishads",
@@ -2176,13 +2208,16 @@
    "to": "iqbal",
    "type": "influenced",
    "evidence": "documented",
-   "note": "Rumi"
+   "verified": true,
+   "note": "Rumi as his guide (Javid Nama, 1932); but he attacked the Sufi ideal of fana and the poet Hafiz in the first edition of Asrar-i-Khudi (1915)"
   },
   {
    "from": "kashmir-shaivism",
    "to": "gopi-krishna",
    "type": "influenced",
-   "evidence": "testimony"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Kashmiri Pandit background; translated and commented on the Panchastavi, Kashmiri hymns to the goddess (1976 or 1978)"
   },
   {
    "from": "babaji",
@@ -3697,6 +3732,82 @@
    "verified": true,
    "year": 1973,
    "note": "Studied under him at Sandeepany, Bombay, about three years from 1973 (Rambachan's obituary)"
+  },
+  {
+   "from": "upanishads",
+   "to": "rabindranath-tagore",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Upanishadic verses at family Brahmo services; Sadhana (1913) and The Religion of Man draw on them"
+  },
+  {
+   "from": "baul-tradition",
+   "to": "rabindranath-tagore",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1890,
+   "note": "Met Baul singers at Shilaidaha; collected and published Lalon's songs; 'An Indian Folk Religion' (1922) and The Religion of Man on the Man of my Heart"
+  },
+  {
+   "from": "sant-tradition",
+   "to": "rabindranath-tagore",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1915,
+   "note": "One Hundred Poems of Kabir (1915), translated with Evelyn Underhill from Kshitimohan Sen's collection"
+  },
+  {
+   "from": "islamic-theology",
+   "to": "iqbal",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1930,
+   "note": "The Reconstruction of Religious Thought in Islam (1930, 1934); ijtihad as the principle of movement"
+  },
+  {
+   "from": "thomas-arnold",
+   "to": "iqbal",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Teacher at Government College, Lahore"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "kc-bhattacharya",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Studies in Vedantism (1907/1909); the self as subject distinct from all objects"
+  },
+  {
+   "from": "jain-tradition",
+   "to": "kc-bhattacharya",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Essay on the Jaina theory of anekanta (many-sidedness), collected in Studies in Philosophy"
+  },
+  {
+   "from": "kc-bhattacharya",
+   "to": "kalidas-bhattacharyya",
+   "type": "family",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Son; continued his philosophical work"
+  },
+  {
+   "from": "tantra-shakta",
+   "to": "gopi-krishna",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1937,
+   "note": "The tantric kundalini map (channels, crown lotus) frames his account of the 1937 awakening; no guru"
   }
  ]
 }
