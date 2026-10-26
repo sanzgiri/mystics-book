@@ -252,6 +252,70 @@
    "lon": 76.936,
    "figure": "atmananda-krishna-menon",
    "what": "Where he taught and died (1959)"
+  },
+  {
+   "name": "Chempazhanthy",
+   "lat": 8.57,
+   "lon": 76.9,
+   "figure": "narayana-guru",
+   "what": "Birthplace, Vayalvaram house (1854-56)",
+   "verified": true
+  },
+  {
+   "name": "Maruthwamala",
+   "lat": 8.12,
+   "lon": 77.49,
+   "figure": "narayana-guru",
+   "what": "Pillathadam cave: years of meditation (1880s)",
+   "verified": true
+  },
+  {
+   "name": "Aruvippuram",
+   "lat": 8.43,
+   "lon": 77.12,
+   "figure": "narayana-guru",
+   "what": "Shiva consecration on the Neyyar, Shivaratri 1888",
+   "verified": false
+  },
+  {
+   "name": "Advaita Ashram, Aluva",
+   "lat": 10.11,
+   "lon": 76.35,
+   "figure": "narayana-guru",
+   "what": "Ashram founded 1913; all-religions conference 1924",
+   "verified": true
+  },
+  {
+   "name": "Skandashram, Arunachala",
+   "lat": 12.233,
+   "lon": 79.063,
+   "figure": "narayana-guru",
+   "what": "Meeting with Ramana Maharshi (1916)",
+   "verified": true
+  },
+  {
+   "name": "Kalavancode",
+   "lat": 9.72,
+   "lon": 76.33,
+   "figure": "narayana-guru",
+   "what": "Mirror consecration (June 1927)",
+   "verified": false
+  },
+  {
+   "name": "Kannammoola",
+   "lat": 8.51,
+   "lon": 76.94,
+   "figure": "chattampi-swamikal",
+   "what": "Birthplace (1853)",
+   "verified": true
+  },
+  {
+   "name": "Panmana",
+   "lat": 9.0,
+   "lon": 76.55,
+   "figure": "chattampi-swamikal",
+   "what": "Death and samadhi shrine (1924)",
+   "verified": true
   }
  ]
 }

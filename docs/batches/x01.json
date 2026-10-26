@@ -1,0 +1,388 @@
+{
+ "batch": "x01",
+ "nodes_add": [
+  {
+   "id": "thycaud-ayyavu",
+   "name": "Thycaud Ayyavu Swamikal",
+   "born": 1814,
+   "died": 1909,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Tamil-born yogi in Thiruvananthapuram; taught hatha yoga to Chattampi Swamikal and Narayana Guru."
+  },
+  {
+   "id": "raman-pillai-asan",
+   "name": "Kummampilli Raman Pillai Asan",
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Sanskrit scholar of central Travancore who taught Narayana Guru from about 1877."
+  },
+  {
+   "id": "p-palpu",
+   "name": "Dr P. Palpu",
+   "born": 1863,
+   "died": 1950,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Ezhava physician; organiser of the SNDP Yogam (1903); father of Nataraja Guru."
+  },
+  {
+   "id": "kumaran-asan",
+   "name": "Kumaran Asan",
+   "born": 1873,
+   "died": 1924,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Malayalam poet and disciple of Narayana Guru; first general secretary of the SNDP Yogam."
+  },
+  {
+   "id": "nataraja-guru",
+   "name": "Nataraja Guru",
+   "born": 1895,
+   "died": 1973,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Narayana Guru; founded the Narayana Gurukula in 1923; commentator on his works."
+  },
+  {
+   "id": "nitya-chaitanya-yati",
+   "name": "Guru Nitya Chaitanya Yati",
+   "born": 1924,
+   "died": 1999,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Nataraja Guru; author of That Alone, a commentary on the Atmopadesa Satakam."
+  },
+  {
+   "id": "neelakanta-theerthapada",
+   "name": "Neelakanta Theerthapada",
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Chattampi Swamikal from 1893."
+  },
+  {
+   "id": "theerthapada-paramahamsa",
+   "name": "Theerthapada Paramahamsa",
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Chattampi Swamikal from 1898."
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "narayana-guru",
+   "name": "Sree Narayana Guru",
+   "born": 1854,
+   "died": 1928,
+   "note": "Birth year given as 1854, 1855 or 1856 in different sources; 1854 follows Britannica and Nataraja Guru's chronology."
+  },
+  {
+   "id": "chattampi-swamikal",
+   "name": "Chattampi Swamikal",
+   "born": 1853,
+   "died": 1924,
+   "note": "Born Ayyappan (Kunjan), 25 August 1853; died Panmana, 5 May 1924."
+  }
+ ],
+ "edges_remove": [],
+ "edges_upsert": [
+  {
+   "from": "advaita-vedanta",
+   "to": "narayana-guru",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "chattampi-swamikal",
+   "to": "narayana-guru",
+   "type": "lived-with",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Lifelong companions and fellow students of Thycaud Ayyavu; some of Chattampi's admirers call him Narayana Guru's guru, which Narayana Guru's followers reject."
+  },
+  {
+   "from": "thycaud-ayyavu",
+   "to": "narayana-guru",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Taught him yoga; Kerala Tourism says Ayyavu formally accepted him as a disciple on a Chitra Pournami day."
+  },
+  {
+   "from": "thycaud-ayyavu",
+   "to": "chattampi-swamikal",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Taught him hatha yoga and Shaiva mantras."
+  },
+  {
+   "from": "raman-pillai-asan",
+   "to": "narayana-guru",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1877,
+   "note": "Sanskrit studies in central Travancore."
+  },
+  {
+   "from": "tamil-shaiva",
+   "to": "narayana-guru",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "tamil-shaiva",
+   "to": "chattampi-swamikal",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Murugan devotion (Shanmukhadasa), Tamil and Siddha learning."
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "chattampi-swamikal",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "narayana-guru",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1916,
+   "note": "Single meeting at Arunachala in 1916; no evidence that either changed the other's teaching. Draw dotted."
+  },
+  {
+   "from": "narayana-guru",
+   "to": "p-palpu",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1903,
+   "note": "SNDP Yogam, founded 15 May 1903 with the Guru as president."
+  },
+  {
+   "from": "narayana-guru",
+   "to": "kumaran-asan",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "narayana-guru",
+   "to": "nataraja-guru",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "p-palpu",
+   "to": "nataraja-guru",
+   "type": "family",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Father and son."
+  },
+  {
+   "from": "nataraja-guru",
+   "to": "nitya-chaitanya-yati",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "chattampi-swamikal",
+   "to": "neelakanta-theerthapada",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1893
+  },
+  {
+   "from": "chattampi-swamikal",
+   "to": "theerthapada-paramahamsa",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1898
+  }
+ ],
+ "places": [
+  {
+   "name": "Chempazhanthy",
+   "lat": 8.57,
+   "lon": 76.9,
+   "figure": "narayana-guru",
+   "what": "Birthplace, Vayalvaram house (1854-56)",
+   "verified": true
+  },
+  {
+   "name": "Maruthwamala",
+   "lat": 8.12,
+   "lon": 77.49,
+   "figure": "narayana-guru",
+   "what": "Pillathadam cave: years of meditation (1880s)",
+   "verified": true
+  },
+  {
+   "name": "Aruvippuram",
+   "lat": 8.43,
+   "lon": 77.12,
+   "figure": "narayana-guru",
+   "what": "Shiva consecration on the Neyyar, Shivaratri 1888",
+   "verified": false
+  },
+  {
+   "name": "Advaita Ashram, Aluva",
+   "lat": 10.11,
+   "lon": 76.35,
+   "figure": "narayana-guru",
+   "what": "Ashram founded 1913; all-religions conference 1924",
+   "verified": true
+  },
+  {
+   "name": "Skandashram, Arunachala",
+   "lat": 12.233,
+   "lon": 79.063,
+   "figure": "narayana-guru",
+   "what": "Meeting with Ramana Maharshi (1916)",
+   "verified": true
+  },
+  {
+   "name": "Kalavancode",
+   "lat": 9.72,
+   "lon": 76.33,
+   "figure": "narayana-guru",
+   "what": "Mirror consecration (June 1927)",
+   "verified": false
+  },
+  {
+   "name": "Kannammoola",
+   "lat": 8.51,
+   "lon": 76.94,
+   "figure": "chattampi-swamikal",
+   "what": "Birthplace (1853)",
+   "verified": true
+  },
+  {
+   "name": "Panmana",
+   "lat": 9.0,
+   "lon": 76.55,
+   "figure": "chattampi-swamikal",
+   "what": "Death and samadhi shrine (1924)",
+   "verified": true
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Karu",
+   "script": "കരു",
+   "lang": "ml",
+   "def": "Malayalam for core, embryo or mould; Narayana Guru's word for the one source from which knower and known both arise."
+  },
+  {
+   "term": "Arivu",
+   "script": "അറിവ്",
+   "lang": "ml",
+   "def": "Malayalam for knowledge or awareness; in Narayana Guru, the one consciousness that appears as knower, known and knowing."
+  },
+  {
+   "term": "Jati",
+   "script": "ജാതി",
+   "lang": "ml",
+   "def": "Birth group: both 'species' and 'caste'. Narayana Guru argued that humans are one jati because they share one form and one way of birth."
+  },
+  {
+   "term": "Avadhuta",
+   "script": "अवधूत",
+   "lang": "sa",
+   "def": "A wandering ascetic who has dropped social and ritual rules."
+  }
+ ],
+ "art": [],
+ "issues": [
+  "narayana-guru.mdx: birth year 1854, 1855 or 1856 (and day 20 or 28 August) varies by source; graph node set to 1854 per Britannica and Nataraja Guru's chronology. Author may prefer another convention.",
+  "narayana-guru.mdx: place of first meeting with Chattampi Swamikal: Perunnelli (Kerala Tourism) vs Aniyoor temple, 1882 (exam-prep and secondary sources only). Text gives both.",
+  "narayana-guru.mdx: Gandhi's 'great privilege ... darshan' quotation could not be found in any fetched source and was removed. Restore only with a primary citation (e.g. Collected Works of Mahatma Gandhi, vol. 26).",
+  "narayana-guru.mdx: wording of the 1916 'I have left caste and religion' statement is given as paraphrase; a primary source (the 1916 notice in Malayalam) would let it be quoted.",
+  "narayana-guru.mdx: the 'not a Brahmin Shiva but an Ezhava Shiva' quotation was unsourced and replaced with an attributed paraphrase plus Kerala Tourism's 'We consecrated our Shiva'.",
+  "narayana-guru.mdx: Jati Nirnayam date (1914) and Daiva Dasakam place (Aluva vs Sivagiri) rest on Kerala Tourism / Narayana Gurukula only; not independently checked.",
+  "chattampi-swamikal.mdx: Vedadhikara Nirupanam date (written 1899, printed 1920) rests on Wikipedia only.",
+  "chattampi-swamikal.mdx: early jobs (document writer, government clerk) hedged as 'is said to'; not confirmed in a fetched source.",
+  "places: Aruvippuram and Kalavancode coordinates approximate; flagged verified:false."
+ ],
+ "sources": {
+  "narayana-guru": [
+   "Birth 28 Aug 1855, parents Madan Asan and Kuttiyamma, Raman Pillai Asan of Puthuppally Varanappally, Kaliamma, 8 years Pillathadam cave, SNDP 15 May 1903 -> https://sngm.org/sree-narayana-guru/",
+   "Birth 28 Aug 1856 -> https://www.keralatourism.org/sreenarayanaguru/life",
+   "Birth 20 Aug 1854?, wife died a few years later, Aluva 1914, mother died 1872 -> https://www.britannica.com/print/article/403430",
+   "Chronology: 1877 Karunagappalli; 1897 Atmopadesa Satakam at Aruvippuram; 1913 Aluva; 1921 brotherhood conference; 1924 all-religions conference, Brahma Vidya Mandiram -> https://sngm.org/index.php/guru/life-of-guru/biographi-of-narayana-guru",
+   "Aruvippuram midnight, 3 am, 'We consecrated our Shiva' -> https://www.keralatourism.org/sreenarayanaguru/temple-concept/aruvippuram-siva-temple",
+   "Perunnelli, P.K. Krishnan Vaidyar; Maruthwamala; Ayyavu accepted Nanu -> https://www.keralatourism.org/sreenarayanaguru/life/guruvaryan",
+   "1916 Ramana visit, Palani Swami, Nirvrtti Pancakam, Darsanamala verses, Ramana quote -> https://archive.arunachala.org/docs/nirvrtti-pancakam",
+   "Tagore 15 Nov 1922, C.F. Andrews, visitors' book quote -> https://thesouthfirst.com/kerala/lunatic-asylum-to-gods-abode-when-tagore-met-narayana-guru-in-keralas-sivagiri-100-years-ago/",
+   "Gandhi 12 March 1925, topics; centenary 2025 -> https://www.theweek.in/wire-updates/national/2025/06/23/del69-pm-guru-gandhi.html",
+   "Gandhi disagreed at Aluva, came round by 1937 -> https://www.keralatourism.org/sreenarayanaguru/meetings",
+   "'Whatever the religion...' 1923 with Sahodaran Ayyappan; 1924 conference; 'Not to argue and win' -> https://www.keralatourism.org/sreenarayanaguru/message/whatever-religion-good-man-argue-to-know-and-inform",
+   "Murukkumpuzha prabha; Kalavancode June 1927; schools over temples -> https://www.keralatourism.org/sreenarayanaguru/temple-concept/murukkumpuzha-sree-kalakanteswara-temple-kalayancode-mirror-consecration",
+   "Verse 44, Jati Mimamsa, Aruvippuram verse translations -> https://gurunarayanalokam.com/guru-wisdom/narayana-guru-by-vinaya-chaitanya.html",
+   "Verse 1 translation (Nitya Chaitanya Yati) -> https://www.narayanagurukula.org/Media/MagArchive/fulltext/1996-4.pdf",
+   "SNDP constitution Ezhava/Thiya/Billava; resigned 1916 -> https://natarajaguru.org/?p=9072",
+   "Daiva Dasakam believed 1914, Sivagiri orphans -> https://natarajaguru.org/?p=13058",
+   "BJP Facebook post 16 Sept 2016; Pinarayi Vijayan reply -> https://swarajyamag.com/amp/story/culture%2Fsree-narayana-guru-was-anything-but-non-hindu"
+  ],
+  "chattampi-swamikal": [
+   "Born 25 Aug 1853 Kannammoola; Nambudiri father, Nair mother; Pettayil Raman Pillai Asan; Sundaram Pillai; Shanmukhadasa; avadhuta at Vadaveeswaram; disciples 1893, 1898; died Panmana 5 May 1924; Vedadhikara 1899/1920; 33 works -> https://en.wikipedia.org/wiki/Chattampi_Swamikal",
+   "Stamp 30 Apr 2014; birth Kollur; 15 books -> https://istampgallery.com/chattampiswamikal/",
+   "Sanskrit by overhearing; Sudra; inter-dining; dogs; Kochavu Vaidyar/Sahodaran; books; samadhi verse by Narayana Guru; mixed legacy -> https://deccanchronicle.com/lifestyle/viral-and-trending/250817/varied-legacies-of-chattamby-swamikal.html",
+   "Thycaud Ayyavu 1814-1909, guru of both -> https://en.wikipedia.org/wiki/Ayyavu_Swamikal"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 96,
+  "changes": [
+   "narayana-guru: scene: removed unsourced canopy/crowd detail; replaced unsourced 'not a Brahmin Shiva but an Ezhava Shiva' quote with attributed paraphrase and Kerala Tourism's 'We consecrated our Shiva' (keralatourism.org Aruvippuram page)",
+   "narayana-guru: Raman Pillai Asan location: Puthuppally (Varanappally family) per SNGM, with Karunagappally per Nataraja Guru's chronology",
+   "narayana-guru: added Perunnelli host (P.K. Krishnan Vaidyar) and alternative Aniyoor 1882 meeting",
+   "narayana-guru: Maruthwamala: 'meditated together' corrected to separate periods of solitary meditation; added Ayyavu's acceptance (Kerala Tourism Guruvaryan)",
+   "narayana-guru: SNDP 'registered' -> 'founded' 15 May 1903; cut unsourced 'seven years of building' for the Sarada temple",
+   "narayana-guru: Ramana visit: inviter named (Palani Swami), Ramana came down to receive them; quote attributed to Arunachala Ashrama (not Ramanasramam) and to a later conversation (archive.arunachala.org)",
+   "narayana-guru: removed unverifiable Gandhi 'darshan' quotation",
+   "narayana-guru: 1921 conference renamed per Nataraja Guru chronology; 'Brahma Vidyalaya' -> 'Brahma Vidya Mandiram'; added Kerala Tourism variant of entrance notice",
+   "narayana-guru: Murukkumpuzha 'metal arch' -> five-metal prabha; mirror placement added; schools-over-temples remark redated to 1917 (Kerala Tourism)",
+   "narayana-guru: Aruvippuram verse quote trimmed to the verified first line",
+   "narayana-guru: 'Whatever the religion' dated to 1923 conversation with Sahodaran Ayyappan",
+   "narayana-guru: Darsana Mala attribution corrected to Arunachala Ashrama; Daiva Dasakam date hedged ('believed')",
+   "narayana-guru: SNDP 'rules' -> 'constitution', 'stepped away' -> 'resigned' (natarajaguru.org)",
+   "narayana-guru: 2016 dispute: BJP Facebook post 16 Sept 2016 was around his birth anniversary, not death anniversary; Pinarayi quote corrected (Swarajya)",
+   "narayana-guru: Gandhi's 1925 position restated as defence of varna; Kerala Tourism 1937 claim attributed",
+   "narayana-guru: Places: Aluva entry dated 1913-1924; reference 8 retitled; added refs 14-15",
+   "chattampi-swamikal: caste sentence clarified (matrilineal Nair; Namboodiri father) (Wikipedia)",
+   "chattampi-swamikal: [to verify] realization replaced with attributed Vadaveeswaram avadhuta account (Wikipedia)",
+   "chattampi-swamikal: Sahodaran Ayyappan link corrected to Kochavu Vaidyar's Kumbalath house at Cherai (Deccan Chronicle, Sekher)",
+   "chattampi-swamikal: book count 'some fifteen' -> range 15 to 33 (istampgallery; Wikipedia); Vedadhikara date hedged",
+   "chattampi-swamikal: Theerthapada [to verify] replaced with Neelakanta Theerthapada (1893) and Theerthapada Paramahamsa (1898); unsupported NSS claim cut; Sekher's 'mixed legacy' restated accurately",
+   "chattampi-swamikal: early jobs hedged; Maruthwamala 'together' corrected; dog anecdote attributed to Sekher"
+  ],
+  "unresolved": [
+   "Narayana Guru birth year (1854/1855/1856) and day (20/28 August).",
+   "First meeting of Narayana Guru and Chattampi: Perunnelli vs Aniyoor (1882).",
+   "Gandhi 'darshan' quote needs a primary citation before reinstatement.",
+   "Vedadhikara Nirupanam date rests on Wikipedia alone.",
+   "Reference URLs on natarajaguru.org, Arunachala archive, keralatourism.org, Deccan Chronicle, istampgallery, The Week, South First, Swarajya confirmed by fetch; archive.org, wbct.org and webcf.waybackmachine.org could not be fetched in this session (archive.org PDF confirmed via search result)."
+  ]
+ }
+}

@@ -199,12 +199,13 @@
   },
   {
    "id": "narayana-guru",
-   "name": "Sri Narayana Guru",
-   "born": 1856,
+   "name": "Sree Narayana Guru",
+   "born": 1854,
    "died": 1928,
    "part": 2,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Birth year given as 1854, 1855 or 1856 in different sources; 1854 follows Britannica and Nataraja Guru's chronology."
   },
   {
    "id": "chandrasekharendra-saraswati",
@@ -240,7 +241,8 @@
    "died": 1924,
    "part": 2,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Ayyappan (Kunjan), 25 August 1853; died Panmana, 5 May 1924."
   },
   {
    "id": "radhakrishnan",
@@ -1276,6 +1278,80 @@
    "part": 13,
    "tier": "profile",
    "kind": "person"
+  },
+  {
+   "id": "thycaud-ayyavu",
+   "name": "Thycaud Ayyavu Swamikal",
+   "born": 1814,
+   "died": 1909,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Tamil-born yogi in Thiruvananthapuram; taught hatha yoga to Chattampi Swamikal and Narayana Guru."
+  },
+  {
+   "id": "raman-pillai-asan",
+   "name": "Kummampilli Raman Pillai Asan",
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Sanskrit scholar of central Travancore who taught Narayana Guru from about 1877."
+  },
+  {
+   "id": "p-palpu",
+   "name": "Dr P. Palpu",
+   "born": 1863,
+   "died": 1950,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Ezhava physician; organiser of the SNDP Yogam (1903); father of Nataraja Guru."
+  },
+  {
+   "id": "kumaran-asan",
+   "name": "Kumaran Asan",
+   "born": 1873,
+   "died": 1924,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Malayalam poet and disciple of Narayana Guru; first general secretary of the SNDP Yogam."
+  },
+  {
+   "id": "nataraja-guru",
+   "name": "Nataraja Guru",
+   "born": 1895,
+   "died": 1973,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Narayana Guru; founded the Narayana Gurukula in 1923; commentator on his works."
+  },
+  {
+   "id": "nitya-chaitanya-yati",
+   "name": "Guru Nitya Chaitanya Yati",
+   "born": 1924,
+   "died": 1999,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Nataraja Guru; author of That Alone, a commentary on the Atmopadesa Satakam."
+  },
+  {
+   "id": "neelakanta-theerthapada",
+   "name": "Neelakanta Theerthapada",
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Chattampi Swamikal from 1893."
+  },
+  {
+   "id": "theerthapada-paramahamsa",
+   "name": "Theerthapada Paramahamsa",
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Chattampi Swamikal from 1898."
   }
  ],
  "edges": [
@@ -1473,13 +1549,16 @@
    "from": "advaita-vedanta",
    "to": "narayana-guru",
    "type": "influenced",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true
   },
   {
    "from": "chattampi-swamikal",
    "to": "narayana-guru",
    "type": "lived-with",
-   "evidence": "testimony"
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Lifelong companions and fellow students of Thycaud Ayyavu; some of Chattampi's admirers call him Narayana Guru's guru, which Narayana Guru's followers reject."
   },
   {
    "from": "advaita-vedanta",
@@ -2057,6 +2136,116 @@
    "evidence": "testimony",
    "verified": true,
    "note": "Via Jean Klein, whose own named teacher was in Bangalore"
+  },
+  {
+   "from": "thycaud-ayyavu",
+   "to": "narayana-guru",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Taught him yoga; Kerala Tourism says Ayyavu formally accepted him as a disciple on a Chitra Pournami day."
+  },
+  {
+   "from": "thycaud-ayyavu",
+   "to": "chattampi-swamikal",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Taught him hatha yoga and Shaiva mantras."
+  },
+  {
+   "from": "raman-pillai-asan",
+   "to": "narayana-guru",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1877,
+   "note": "Sanskrit studies in central Travancore."
+  },
+  {
+   "from": "tamil-shaiva",
+   "to": "narayana-guru",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "tamil-shaiva",
+   "to": "chattampi-swamikal",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Murugan devotion (Shanmukhadasa), Tamil and Siddha learning."
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "chattampi-swamikal",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "narayana-guru",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1916,
+   "note": "Single meeting at Arunachala in 1916; no evidence that either changed the other's teaching. Draw dotted."
+  },
+  {
+   "from": "narayana-guru",
+   "to": "p-palpu",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1903,
+   "note": "SNDP Yogam, founded 15 May 1903 with the Guru as president."
+  },
+  {
+   "from": "narayana-guru",
+   "to": "kumaran-asan",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "narayana-guru",
+   "to": "nataraja-guru",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "p-palpu",
+   "to": "nataraja-guru",
+   "type": "family",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Father and son."
+  },
+  {
+   "from": "nataraja-guru",
+   "to": "nitya-chaitanya-yati",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "chattampi-swamikal",
+   "to": "neelakanta-theerthapada",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1893
+  },
+  {
+   "from": "chattampi-swamikal",
+   "to": "theerthapada-paramahamsa",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1898
   }
  ]
 }
