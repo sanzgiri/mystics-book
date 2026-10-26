@@ -502,5 +502,53 @@
  {
   "term": "Theosophy",
   "def": "A nineteenth-century movement founded by Helena Blavatsky and Henry Steel Olcott that blended Western esotericism with Hindu and Buddhist ideas and taught that all religions share a hidden core of wisdom."
+ },
+ {
+  "term": "Acharya",
+  "script": "আচার্য",
+  "lang": "bn",
+  "def": "In the Brahmo Samaj, the minister who leads congregational worship; more widely, a teacher."
+ },
+ {
+  "term": "Adi Brahmo Samaj",
+  "script": "আদি ব্রাহ্মসমাজ",
+  "lang": "bn",
+  "def": "The 'original' Brahmo Samaj, Debendranath Tagore's body after Keshab Chandra Sen's group left in 1865-66."
+ },
+ {
+  "term": "Nava Vidhan",
+  "script": "নববিধান",
+  "lang": "bn",
+  "def": "The New Dispensation, Keshab Chandra Sen's church (1880 or 1881), which treated all religions as parts of one continuing revelation."
+ },
+ {
+  "term": "Satyashodhak Samaj",
+  "script": "सत्यशोधक समाज",
+  "lang": "mr",
+  "def": "The Society of Truth-Seekers, founded by Jotirao Phule in Poona in 1873 against caste and priestly mediation."
+ },
+ {
+  "term": "Nirmik",
+  "script": "निर्मिक",
+  "lang": "mr",
+  "def": "Phule's name for God: the Creator, worshipped directly by everyone without a priest."
+ },
+ {
+  "term": "Pramana",
+  "script": "प्रमाण",
+  "lang": "sa",
+  "def": "A valid means of knowledge, such as perception, inference or scripture."
+ },
+ {
+  "term": "Jnana yajna",
+  "script": "ज्ञानयज्ञ",
+  "lang": "sa",
+  "def": "Offering of knowledge: Chinmayananda's name for a public lecture series on a Vedanta text."
+ },
+ {
+  "term": "Maya",
+  "script": "माया",
+  "lang": "sa",
+  "def": "In Advaita, the power or appearance by which the one reality seems to be a world of many things."
  }
 ]

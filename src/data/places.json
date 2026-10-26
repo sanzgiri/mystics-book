@@ -893,6 +893,110 @@
    "figure": "j-krishnamurti",
    "what": "School founded 1969; home of the Krishnamurti Foundation Trust",
    "verified": true
+  },
+  {
+   "name": "Jorasanko Thakur Bari, Kolkata",
+   "lat": 22.586,
+   "lon": 88.359,
+   "figure": "debendranath-tagore",
+   "what": "Tagore family house; birthplace (1817) and place of death (1905)",
+   "verified": true
+  },
+  {
+   "name": "Santiniketan, Bolpur",
+   "lat": 23.68,
+   "lon": 87.685,
+   "figure": "debendranath-tagore",
+   "what": "Land leased 1863; ashram trust deed 8 March 1888; Upasana Mandir 1891",
+   "verified": true
+  },
+  {
+   "name": "Belgharia, near Kolkata",
+   "lat": 22.66,
+   "lon": 88.39,
+   "figure": "keshab-chandra-sen",
+   "what": "Garden house where Ramakrishna first met him, 1875",
+   "verified": true
+  },
+  {
+   "name": "Bhide Wada, Pune",
+   "lat": 18.517,
+   "lon": 73.856,
+   "figure": "jyotirao-phule",
+   "what": "Site traditionally given for the Phules' first girls' school, 1848",
+   "verified": false
+  },
+  {
+   "name": "Phule Wada, Ganj Peth, Pune",
+   "lat": 18.504,
+   "lon": 73.866,
+   "figure": "jyotirao-phule",
+   "what": "The Phules' home, now a memorial",
+   "verified": false
+  },
+  {
+   "name": "Tiruttani",
+   "lat": 13.18,
+   "lon": 79.61,
+   "figure": "radhakrishnan",
+   "what": "Birthplace, 5 September 1888",
+   "verified": true
+  },
+  {
+   "name": "Ernakulam",
+   "lat": 9.98,
+   "lon": 76.28,
+   "figure": "chinmayananda",
+   "what": "Birthplace, 8 May 1916",
+   "verified": true
+  },
+  {
+   "name": "Uttarkashi",
+   "lat": 30.73,
+   "lon": 78.44,
+   "figure": "chinmayananda",
+   "what": "Study under Tapovan Maharaj from 1949",
+   "verified": true
+  },
+  {
+   "name": "Sandeepany Sadhanalaya, Powai, Mumbai",
+   "lat": 19.12,
+   "lon": 72.91,
+   "figure": "chinmayananda",
+   "what": "Residential Vedanta school opened 1963; VHP founding meeting August 1964; Dayananda taught here",
+   "verified": true
+  },
+  {
+   "name": "Sidhbari",
+   "lat": 32.2,
+   "lon": 76.37,
+   "figure": "chinmayananda",
+   "what": "Samadhi shrine at the mission's ashram near Dharamshala",
+   "verified": false
+  },
+  {
+   "name": "Arsha Vidya Gurukulam, Saylorsburg, Pennsylvania",
+   "lat": 40.9,
+   "lon": -75.32,
+   "figure": "dayananda-arsha",
+   "what": "Founded 1986",
+   "verified": false
+  },
+  {
+   "name": "Rishikesh",
+   "lat": 30.09,
+   "lon": 78.27,
+   "figure": "dayananda-arsha",
+   "what": "Arsha Vidya Pitham; died here 23 September 2015",
+   "verified": true
+  },
+  {
+   "name": "Greater Noida",
+   "lat": 28.47,
+   "lon": 77.5,
+   "figure": "acharya-prashant",
+   "what": "PrashantAdvait Foundation, founded 2015",
+   "verified": true
   }
  ]
 }
