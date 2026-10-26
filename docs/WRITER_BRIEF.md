@@ -3,11 +3,17 @@
 You are researching and writing entries for **The Banyan**, a web book on Indian mystics and philosophers from the 1830s to today. The site is an Astro project in `/home/claude/book`. Read this whole brief, then read these files before you write anything:
 
 - `STYLE.md`: the house style. Follow it strictly.
-- `src/content/figures/ramana-maharshi.mdx`, `src/content/figures/nisargadatta.mdx` and `src/content/figures/papaji.mdx`: model **chapters**.
-- `src/content/figures/siddharameshwar.mdx` and `src/content/figures/atmananda-krishna-menon.mdx`: model **profiles**.
-- `src/content/parts/direct-path.mdx`: a model **part introduction**.
+- `docs/TEMPLATE.md`: the exact skeletons for chapters, profiles, sidebars and part introductions. Do not read the long model chapters; the template is enough. If you need to see one finished example, read `src/content/figures/papaji.mdx` only.
 - `src/data/parts.json`: the 13 parts and their questions.
-- `src/data/graph.json`: every figure and lineage edge. Find your figures' nodes and every edge that touches them.
+- In `src/data/graph.json`, look up only your figures' nodes and the edges that touch them (use Grep on the id; do not read the whole file).
+
+## Working budget
+
+Usage is limited, so work economically:
+- Research each entry with about 8–12 targeted searches and fetches. Use WebFetch with a specific extraction prompt instead of reading whole pages.
+- Write each entry as soon as its research is done, then move to the next.
+- If an existing file for your entry is already present in `src/content/figures/`, do not rewrite it unless told to.
+- Keep a short claims ledger as you go (see the batch file's `"sources"` field). The fact-checker will use it.
 
 ## What the book is
 
@@ -82,7 +88,8 @@ Do **not** edit `src/data/graph.json`, `places.json` or `glossary.json`, and do 
   "places": [ {"name": "...", "lat": 0.0, "lon": 0.0, "figure": "node-id", "what": "...", "verified": true} ],
   "glossary": [ {"term": "...", "script": "...", "lang": "sa", "def": "Plain-English definition."} ],
   "art": [ {"name": "camelCaseName", "file": "src/components/art/PascalName.astro"} ],
-  "issues": [ "Short description of anything unresolved, uncertain or needing the author's decision, with the file and the reason." ]
+  "issues": [ "Short description of anything unresolved, uncertain or needing the author's decision, with the file and the reason." ],
+  "sources": { "figure-id": [ "claim (date, quote or fact) -> URL" ] }
 }
 ```
 
