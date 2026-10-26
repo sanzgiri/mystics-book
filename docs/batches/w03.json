@@ -1,42 +1,231 @@
 {
   "batch": "w03",
   "nodes_add": [
-    {"id": "akshay-kumar-datta", "name": "Akshay Kumar Datta", "born": 1820, "died": 1886, "part": 1, "tier": "node", "kind": "person", "note": "Rationalist writer; edited the Tattvabodhini Patrika from 1843; led the radical Brahmos who pressed Debendranath to abandon Vedic infallibility (c. 1847-1850). Birth/death years from general knowledge, not rechecked this batch"},
-    {"id": "sadharan-brahmo-samaj", "name": "Sadharan Brahmo Samaj", "part": 1, "tier": "node", "kind": "institution", "note": "Founded 15 May 1878 by Sivanath Sastri, Ananda Mohan Bose and others who left Keshab after the Cooch Behar marriage; constitution with adult franchise"},
-    {"id": "thomas-paine", "name": "Thomas Paine", "born": 1737, "died": 1809, "part": 1, "tier": "node", "kind": "person", "note": "English-born radical; Phule read Rights of Man in 1847 and named Paine as an influence"}
+    {
+      "id": "akshay-kumar-datta",
+      "name": "Akshay Kumar Datta",
+      "born": 1820,
+      "died": 1886,
+      "part": 1,
+      "tier": "node",
+      "kind": "person",
+      "note": "Rationalist writer; edited the Tattvabodhini Patrika from 1843; led the radical Brahmos who pressed Debendranath to abandon Vedic infallibility (c. 1847-1850). Birth/death years from general knowledge, not rechecked this batch"
+    },
+    {
+      "id": "sadharan-brahmo-samaj",
+      "name": "Sadharan Brahmo Samaj",
+      "part": 1,
+      "tier": "node",
+      "kind": "institution",
+      "note": "Founded 15 May 1878 by Sivanath Sastri, Ananda Mohan Bose and others who left Keshab after the Cooch Behar marriage; constitution with adult franchise"
+    },
+    {
+      "id": "thomas-paine",
+      "name": "Thomas Paine",
+      "born": 1737,
+      "died": 1809,
+      "part": 1,
+      "tier": "node",
+      "kind": "person",
+      "note": "English-born radical; Phule read Rights of Man in 1847 and named Paine as an influence"
+    }
   ],
   "nodes_update": [
-    {"id": "debendranath-tagore", "born": 1817, "died": 1905, "name": "Debendranath Tagore", "note": "Born 15 May 1817, Jorasanko; Tattvabodhini Sabha 6 Oct 1839; Brahmo covenant 21 Dec 1843 (7 Pous 1765 Shaka); four students to Benares 1845; Vedic infallibility abandoned c. 1847-1850; Brahmo Dharma (1848-1854 in different sources); Adi Brahmo Samaj after 1866; Santiniketan lease 1863; died 19 Jan 1905"},
-    {"id": "keshab-chandra-sen", "born": 1838, "died": 1884, "name": "Keshab Chandra Sen", "note": "Born 19 Nov 1838, Calcutta; joined Brahmo Samaj 1857 (some say 1859); acharya 1862; Brahmo Samaj of India Nov 1866; England 1870; Act III of 1872; Cooch Behar marriage 1878; Nava Vidhan Jan 1880 (1881 in some sources); died 8 Jan 1884"},
-    {"id": "jyotirao-phule", "born": 1827, "died": 1890, "name": "Jyotirao Phule", "note": "Mali caste, Poona; girls' school 1848; Gulamgiri June 1873; Satyashodhak Samaj 24 Sept 1873; one Creator (Nirmik) without mediators; titled Mahatma 11 May 1888; died 28 Nov 1890"}
+    {
+      "id": "debendranath-tagore",
+      "born": 1817,
+      "died": 1905,
+      "name": "Debendranath Tagore",
+      "note": "Born 15 May 1817, Jorasanko; Tattvabodhini Sabha 6 Oct 1839; Brahmo covenant 21 Dec 1843 (7 Pous 1765 Shaka); four students to Benares 1845; Vedic infallibility abandoned c. 1847-1850; Brahmo Dharma (1848-1854 in different sources); Adi Brahmo Samaj after 1866; Santiniketan lease 1863 (Visva-Bharati; 1867 in Banglapedia and Wikipedia); Anglo-Hindu College 1827 or 1829; died 19 Jan 1905"
+    },
+    {
+      "id": "keshab-chandra-sen",
+      "born": 1838,
+      "died": 1884,
+      "name": "Keshab Chandra Sen",
+      "note": "Born 19 Nov 1838, Calcutta; joined Brahmo Samaj 1857 (some say 1859); acharya 1862; Brahmo Samaj of India 11 or 15 Nov 1866; lecture on Jesus Christ May 1866; England 1870; Act III of 1872; Cooch Behar marriage 1878; Nava Vidhan Jan 1880 (1881 in some sources); died 8 Jan 1884"
+    },
+    {
+      "id": "jyotirao-phule",
+      "born": 1827,
+      "died": 1890,
+      "name": "Jyotirao Phule",
+      "note": "Mali caste, Poona; girls' school 1848; Gulamgiri June 1873; Satyashodhak Samaj 24 Sept 1873; one Creator (Nirmik) without mediators; titled Mahatma 11 May 1888; died 28 Nov 1890"
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "rammohan-roy", "to": "debendranath-tagore", "type": "institutional", "evidence": "documented", "verified": true, "year": 1843, "note": "Brahmo Sabha, revived by Debendranath as the Brahmo Samaj; Debendranath's father Dwarkanath was a trustee (1830)"},
-    {"from": "upanishads", "to": "debendranath-tagore", "type": "influenced", "evidence": "documented", "verified": true, "year": 1840, "note": "Bengali Katha Upanishad 1840; Brahmo Dharma compiled mainly from Upanishadic passages"},
-    {"from": "akshay-kumar-datta", "to": "debendranath-tagore", "type": "influenced", "evidence": "documented", "verified": true, "year": 1847, "note": "Banglapedia: the radical section led by Akshay Kumar Datta questioned Vedic infallibility before the leadership abandoned it c. 1847"},
-    {"from": "debendranath-tagore", "to": "keshab-chandra-sen", "type": "influenced", "evidence": "documented", "verified": true, "year": 1857, "note": "Keshab joined Debendranath's Samaj 1857; installed as acharya 1862; withdrew Feb 1865; founded Brahmo Samaj of India Nov 1866. Replaces earlier 'lived-with' type, which is not supported"},
-    {"from": "debendranath-tagore", "to": "rabindranath-tagore", "type": "family", "evidence": "documented", "verified": true, "note": "Father; Rabindranath founded his school at Debendranath's Santiniketan ashram"},
-    {"from": "christianity", "to": "keshab-chandra-sen", "type": "influenced", "evidence": "documented", "verified": true, "year": 1866, "note": "Lecture 'Jesus Christ: Europe and Asia' (1866); Christ central to the New Dispensation, though he never converted; Eucharist adapted with rice and water"},
-    {"from": "keshab-chandra-sen", "to": "sadharan-brahmo-samaj", "type": "reacted-against", "evidence": "documented", "verified": true, "year": 1878, "note": "Founded 15 May 1878 by followers who left Keshab over the Cooch Behar marriage"},
-    {"from": "sadharan-brahmo-samaj", "to": "vivekananda", "type": "institutional", "evidence": "documented", "verified": true, "note": "Narendranath joined the Sadharan Brahmo Samaj as a student (per vivekananda.mdx)"},
-    {"from": "christianity", "to": "jyotirao-phule", "type": "influenced", "evidence": "documented", "verified": true, "year": 1841, "note": "Mission school 1841-1847; Omvedt notes he called Christ the 'Bali of the West'"},
-    {"from": "thomas-paine", "to": "jyotirao-phule", "type": "influenced", "evidence": "documented", "verified": true, "year": 1847, "note": "Read Rights of Man in 1847 (Pune University Phule Chair life sketch)"},
-    {"from": "jyotirao-phule", "to": "ambedkar", "type": "influenced", "evidence": "documented", "verified": true, "year": 1946, "note": "Ambedkar named Phule among his three gurus and dedicated Who Were the Shudras? (1946) 'to the Memory of Mahatma Jotiba Fule'"}
+    {
+      "from": "rammohan-roy",
+      "to": "debendranath-tagore",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1843,
+      "note": "Brahmo Sabha, revived by Debendranath as the Brahmo Samaj; Debendranath's father Dwarkanath was a trustee (1830)"
+    },
+    {
+      "from": "upanishads",
+      "to": "debendranath-tagore",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1840,
+      "note": "Bengali Katha Upanishad 1840; Brahmo Dharma compiled mainly from Upanishadic passages"
+    },
+    {
+      "from": "akshay-kumar-datta",
+      "to": "debendranath-tagore",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1847,
+      "note": "Banglapedia: the radical section led by Akshay Kumar Datta questioned Vedic infallibility before the leadership abandoned it c. 1847"
+    },
+    {
+      "from": "debendranath-tagore",
+      "to": "keshab-chandra-sen",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1857,
+      "note": "Keshab joined Debendranath's Samaj 1857; installed as acharya 1862; withdrew Feb 1865; founded Brahmo Samaj of India Nov 1866. Replaces earlier 'lived-with' type, which is not supported"
+    },
+    {
+      "from": "debendranath-tagore",
+      "to": "rabindranath-tagore",
+      "type": "family",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Father; Rabindranath founded his school at Debendranath's Santiniketan ashram"
+    },
+    {
+      "from": "christianity",
+      "to": "keshab-chandra-sen",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1866,
+      "note": "Lecture 'Jesus Christ: Europe and Asia' (1866); Christ central to the New Dispensation, though he never converted; Eucharist adapted with rice and water"
+    },
+    {
+      "from": "keshab-chandra-sen",
+      "to": "sadharan-brahmo-samaj",
+      "type": "reacted-against",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1878,
+      "note": "Founded 15 May 1878 by followers who left Keshab over the Cooch Behar marriage"
+    },
+    {
+      "from": "sadharan-brahmo-samaj",
+      "to": "vivekananda",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Narendranath joined the Sadharan Brahmo Samaj as a student (per vivekananda.mdx)"
+    },
+    {
+      "from": "christianity",
+      "to": "jyotirao-phule",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1841,
+      "note": "Mission school 1841-1847; Omvedt notes he called Christ the 'Bali of the West'"
+    },
+    {
+      "from": "thomas-paine",
+      "to": "jyotirao-phule",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1847,
+      "note": "Read Rights of Man in 1847 (Pune University Phule Chair life sketch)"
+    },
+    {
+      "from": "jyotirao-phule",
+      "to": "ambedkar",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1946,
+      "note": "Ambedkar named Phule among his three gurus and dedicated Who Were the Shudras? (1946) 'to the Memory of Mahatma Jotiba Fule'"
+    }
   ],
   "places": [
-    {"name": "Jorasanko Thakur Bari, Kolkata", "lat": 22.586, "lon": 88.359, "figure": "debendranath-tagore", "what": "Tagore family house; birthplace (1817) and place of death (1905)", "verified": true},
-    {"name": "Santiniketan, Bolpur", "lat": 23.68, "lon": 87.685, "figure": "debendranath-tagore", "what": "Land leased 1863; ashram trust deed 8 March 1888; Upasana Mandir 1891", "verified": true},
-    {"name": "Belgharia, near Kolkata", "lat": 22.66, "lon": 88.39, "figure": "keshab-chandra-sen", "what": "Garden house where Ramakrishna first met him, 1875", "verified": true},
-    {"name": "Bhide Wada, Pune", "lat": 18.517, "lon": 73.856, "figure": "jyotirao-phule", "what": "Site traditionally given for the Phules' first girls' school, 1848", "verified": false},
-    {"name": "Phule Wada, Ganj Peth, Pune", "lat": 18.504, "lon": 73.866, "figure": "jyotirao-phule", "what": "The Phules' home, now a memorial", "verified": false}
+    {
+      "name": "Jorasanko Thakur Bari, Kolkata",
+      "lat": 22.586,
+      "lon": 88.359,
+      "figure": "debendranath-tagore",
+      "what": "Tagore family house; birthplace (1817) and place of death (1905)",
+      "verified": true
+    },
+    {
+      "name": "Santiniketan, Bolpur",
+      "lat": 23.68,
+      "lon": 87.685,
+      "figure": "debendranath-tagore",
+      "what": "Land leased 1863; ashram trust deed 8 March 1888; Upasana Mandir 1891",
+      "verified": true
+    },
+    {
+      "name": "Belgharia, near Kolkata",
+      "lat": 22.66,
+      "lon": 88.39,
+      "figure": "keshab-chandra-sen",
+      "what": "Garden house where Ramakrishna first met him, 1875",
+      "verified": true
+    },
+    {
+      "name": "Bhide Wada, Pune",
+      "lat": 18.517,
+      "lon": 73.856,
+      "figure": "jyotirao-phule",
+      "what": "Site traditionally given for the Phules' first girls' school, 1848",
+      "verified": false
+    },
+    {
+      "name": "Phule Wada, Ganj Peth, Pune",
+      "lat": 18.504,
+      "lon": 73.866,
+      "figure": "jyotirao-phule",
+      "what": "The Phules' home, now a memorial",
+      "verified": false
+    }
   ],
   "glossary": [
-    {"term": "Acharya", "script": "আচার্য", "lang": "bn", "def": "In the Brahmo Samaj, the minister who leads congregational worship; more widely, a teacher."},
-    {"term": "Adi Brahmo Samaj", "script": "আদি ব্রাহ্মসমাজ", "lang": "bn", "def": "The 'original' Brahmo Samaj, Debendranath Tagore's body after Keshab Chandra Sen's group left in 1865-66."},
-    {"term": "Nava Vidhan", "script": "নববিধান", "lang": "bn", "def": "The New Dispensation, Keshab Chandra Sen's church (1880 or 1881), which treated all religions as parts of one continuing revelation."},
-    {"term": "Satyashodhak Samaj", "script": "सत्यशोधक समाज", "lang": "mr", "def": "The Society of Truth-Seekers, founded by Jotirao Phule in Poona in 1873 against caste and priestly mediation."},
-    {"term": "Nirmik", "script": "निर्मिक", "lang": "mr", "def": "Phule's name for God: the Creator, worshipped directly by everyone without a priest."}
+    {
+      "term": "Acharya",
+      "script": "আচার্য",
+      "lang": "bn",
+      "def": "In the Brahmo Samaj, the minister who leads congregational worship; more widely, a teacher."
+    },
+    {
+      "term": "Adi Brahmo Samaj",
+      "script": "আদি ব্রাহ্মসমাজ",
+      "lang": "bn",
+      "def": "The 'original' Brahmo Samaj, Debendranath Tagore's body after Keshab Chandra Sen's group left in 1865-66."
+    },
+    {
+      "term": "Nava Vidhan",
+      "script": "নববিধান",
+      "lang": "bn",
+      "def": "The New Dispensation, Keshab Chandra Sen's church (1880 or 1881), which treated all religions as parts of one continuing revelation."
+    },
+    {
+      "term": "Satyashodhak Samaj",
+      "script": "सत्यशोधक समाज",
+      "lang": "mr",
+      "def": "The Society of Truth-Seekers, founded by Jotirao Phule in Poona in 1873 against caste and priestly mediation."
+    },
+    {
+      "term": "Nirmik",
+      "script": "निर्मिक",
+      "lang": "mr",
+      "def": "Phule's name for God: the Creator, worshipped directly by everyone without a priest."
+    }
   ],
   "art": [],
   "issues": [
@@ -48,7 +237,11 @@
     "keshab-chandra-sen.mdx: no verbatim quotation from Keshab's own lectures could be fetched (archive.org blocked); the teaching section paraphrases. A short quote from 'Asia's Message to Europe' would strengthen it.",
     "jyotirao-phule.mdx: birthplace given as Poona; some accounts name the family's village (Katgun, Satara) instead; not checked. The wedding-procession insult (1848) is his own later account.",
     "Possible new edge jyotirao-phule -> dayananda-saraswati (Phule protected Dayananda's Poona procession, 5 Sept 1875, per Forward Press 2026). Not added, since it is not an influence; the author may want a 'protected' edge.",
-    "Bhide Wada and Phule Wada coordinates are approximate and marked unverified."
+    "Bhide Wada and Phule Wada coordinates are approximate and marked unverified.",
+    "factcheck: Debendranath's grandmother episode and Isha page could not be read in the Autobiography body (nvli PDF holds only Underhill's introduction and the translator's chapter); hedged as his autobiography 'as summarised by later writers'. Banglapedia gives 1838 for the grandmother's death; Wikipedia garbles it as the grandfather.",
+    "factcheck: Debendranath's Himalayan retreat: translator's chapter says from 1856, about a year and a half near Simla; Underhill's introduction says he set out in Ashwin 1857 and travelled about three years. Text now gives both.",
+    "factcheck: Keshab's grandfather Ramkamal Sen as an opponent of Rammohan still rests on Wikipedia ('lifelong opponent'); Banglapedia is silent. Hedged as 'by some accounts'. A scholarly source (Kopf or Stevens) would settle it.",
+    "factcheck: Phule's 1848 school: Pune University Phule Chair says it was for Shudra and Atishudra girls; other accounts say girls of all castes. Text gives both."
   ],
   "sources": {
     "debendranath-tagore": [
@@ -81,6 +274,32 @@
       "Mali caste; Paine and Christianity influences; Sarvajanik Satyadharma Pustak 1891 -> https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/S000033SO/P000300/M015924/ET/146475552224ET.pdf",
       "Dayananda Poona procession 5 Sept 1875, Phule and Satyashodhaks guarded it -> https://www.forwardpress.in/?p=98287",
       "Who Were the Shudras dedication 'Inscribed to the Memory of MAHATMA JOTIBA FULE' (1946) -> https://sabrangindia.in/reading-dr-ambedkars-who-were-shudras/"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 92,
+    "changes": [
+      "debendranath-tagore.mdx: Anglo-Hindu College entry dated 1827 or 1829 (Banglapedia 1827; Wikipedia 1829)",
+      "debendranath-tagore.mdx: grandmother episode attributed to the autobiography as summarised by later writers, since the episode text was not seen",
+      "debendranath-tagore.mdx: 'nineteen others' clarified as twenty in all (translator's chapter, nvli PDF)",
+      "debendranath-tagore.mdx: Simla stay now 'from 1856', with the differing span in Underhill's introduction (nvli PDF)",
+      "debendranath-tagore.mdx: Santiniketan 1863 attributed to Visva-Bharati with 1867 noted (Visva-Bharati AboutVB.pdf; Banglapedia; Wikipedia)",
+      "debendranath-tagore.mdx: sacred-thread sentence corrected. The dispute was over thread-wearing ministers: he first appointed two thread-less ministers, then reinstated the thread-wearing ones (translator's chapter)",
+      "keshab-chandra-sen.mdx: 'The same year' (1872) for the Jesus Christ lecture corrected to May 1866 (Banglapedia)",
+      "keshab-chandra-sen.mdx: Brahmo Samaj of India date given as 11 or 15 November 1866",
+      "keshab-chandra-sen.mdx: grandfather described as first Indian secretary of the Asiatic Society (Banglapedia); opposition to Rammohan hedged (Wikipedia only)",
+      "keshab-chandra-sen.mdx: 'within a year was closest helper' changed to after Debendranath's 1858 return (Debendranath was away 1856-58)",
+      "keshab-chandra-sen.mdx: Motherhood of God influence reattributed from Mozoomdar (unsupported) to Banglapedia",
+      "jyotirao-phule.mdx: glance notes Katgun, Satara as the family village that some accounts give as birthplace (Wikipedia 'Katgun')",
+      "jyotirao-phule.mdx: 1848 school pupils hedged (Pune Univ. Phule Chair: Shudra/Atishudra girls; The Leaflet: all castes)",
+      "jyotirao-phule.mdx: 'Later historians question his history' made specific: Sunthankar's criticism and Omvedt's reading (Caravan excerpt of Omvedt)"
+    ],
+    "unresolved": [
+      "Autobiography body (grandmother 1835/1838, Isha page, who explained it) not read directly",
+      "Ramkamal Sen's opposition to Rammohan: single source",
+      "Satyadipika '700 families' rests on Forward Press only (confirmed there)",
+      "Bhide Wada and Phule Wada coordinates still approximate",
+      "Ramakrishna-Keshab first meeting: 1875 Belgharia here and in ramakrishna.mdx; Wikipedia's Keshub article says 1876 at Sadhan Kanan"
     ]
   }
 }

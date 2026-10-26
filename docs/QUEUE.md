@@ -21,7 +21,7 @@ Status: todo / running / written / checked / merged.
 |---|---|---|---|
 | w01 | rammohan-roy (c) | | merged |
 | w02 | dayananda-saraswati (c) | | merged |
-| w03 | debendranath-tagore, keshab-chandra-sen, jyotirao-phule (s) | reason | checking |
+| w03 | debendranath-tagore, keshab-chandra-sen, jyotirao-phule (s) | reason | merged |
 | w04 | ramakrishna (c) | | merged |
 | w05 | vivekananda (c) | | merged |
 | w06 | chandrasekharendra-saraswati (c) | | merged |
@@ -30,7 +30,7 @@ Status: todo / running / written / checked / merged.
 | w09 | aurobindo (c) | | merged |
 | w10 | rabindranath-tagore, iqbal, kc-bhattacharya, gopi-krishna | integral | running |
 | w11 | lahiri-mahasaya (c) | | running |
-| w12 | yogananda (c) | | todo |
+| w12 | yogananda (c) | | running |
 | w13 | sivananda (c) | | todo |
 | w14 | maharishi (c) | | todo |
 | w15 | sadhguru (c) | | todo |
