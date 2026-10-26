@@ -976,7 +976,8 @@
    "died": 1878,
    "part": 9,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Founder of the Radhasoami faith; opened public satsang at Panni Gali, Agra, on Basant Panchami, 15 February 1861. Succession disputed between branches."
   },
   {
    "id": "inayat-khan",
@@ -1089,7 +1090,8 @@
    "died": 1948,
    "part": 10,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Religious thought: Truth is God, ahimsa, satyagraha, the ashram vows, a nonviolent reading of the Gita."
   },
   {
    "id": "rajchandra",
@@ -1705,6 +1707,26 @@
    "tier": "node",
    "kind": "person",
    "note": "Punjabi poet; met Rama Tirtha in Tokyo, September 1902; his biographer and editor"
+  },
+  {
+   "id": "tulsi-sahib",
+   "name": "Tulsi Sahib of Hathras",
+   "born": 1763,
+   "died": 1843,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Sant poet, author of Ghat Ramayan; teacher of Shiv Dayal Singh's parents, stayed in their house in Panni Gali, Agra. No record that he initiated Shiv Dayal Singh."
+  },
+  {
+   "id": "salig-ram",
+   "name": "Salig Ram (Huzur Maharaj)",
+   "born": 1829,
+   "died": 1898,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Postal official, Postmaster-General of the North-Western Provinces from 1881; met Shiv Dayal Singh 1858; asked for the public satsang of 1861; gave the faith the name Radhasoami; head of the main Agra group 1878-1898."
   }
  ],
  "edges": [
@@ -2195,13 +2217,18 @@
    "from": "sant-tradition",
    "to": "shiv-dayal-singh",
    "type": "influenced",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Sant vocabulary of Naam and Shabd"
   },
   {
    "from": "shiv-dayal-singh",
    "to": "jaimal-singh",
    "type": "initiated",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1856,
+   "note": "Year per the Beas branch's account; Beas traces its line through him"
   },
   {
    "from": "jaimal-singh",
@@ -2264,13 +2291,19 @@
    "from": "rajchandra",
    "to": "gandhi",
    "type": "influenced",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1891,
+   "note": "Met in Bombay 1891; Gandhi named him first of the three moderns who left a deep impress on his life, but said he could not enthrone him as guru"
   },
   {
    "from": "gandhi",
    "to": "vinoba",
    "type": "lived-with",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1916,
+   "note": "Joined the ashram 1916; chosen first individual satyagrahi 1940"
   },
   {
    "from": "jain-tradition",
@@ -3197,6 +3230,64 @@
    "evidence": "documented",
    "verified": true,
    "note": "Teaches Shankara's Advaita from the commentaries"
+  },
+  {
+   "from": "sant-tradition",
+   "to": "tulsi-sahib",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Sant poet in the line of Kabir"
+  },
+  {
+   "from": "sikh-gurus",
+   "to": "shiv-dayal-singh",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Sahajdhari Sikh family; the Guru Granth Sahib quoted constantly"
+  },
+  {
+   "from": "tulsi-sahib",
+   "to": "shiv-dayal-singh",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Family teacher who held satsang in the Panni Gali house; whether he was Shiv Dayal Singh's guru is disputed, and no initiation is recorded. Girdhari Das (died 1860), Tulsi Sahib's disciple, also taught him."
+  },
+  {
+   "from": "shiv-dayal-singh",
+   "to": "salig-ram",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1858,
+   "note": "Met 21 November 1858 per the Peepal Mandi branch; Agra branches trace their succession through him, which other branches dispute"
+  },
+  {
+   "from": "jain-tradition",
+   "to": "gandhi",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Ahimsa and vows in Kathiawar; the Jain monk Becharji Swami administered his 1888 vows"
+  },
+  {
+   "from": "christianity",
+   "to": "gandhi",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Sermon on the Mount (London, c. 1890); Tolstoy's The Kingdom of God Is Within You (1894)"
+  },
+  {
+   "from": "gandhi",
+   "to": "ambedkar",
+   "type": "reacted-against",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1932,
+   "note": "Poona Pact 1932; Annihilation of Caste exchange 1936-37; What Congress and Gandhi Have Done to the Untouchables (1945)"
   }
  ]
 }

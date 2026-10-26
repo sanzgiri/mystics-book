@@ -741,6 +741,62 @@
    "figure": "sarvapriyananda",
    "what": "Minister and spiritual leader since January 2017",
    "verified": true
+  },
+  {
+   "name": "Panni Gali, Agra",
+   "lat": 27.19,
+   "lon": 78.02,
+   "figure": "shiv-dayal-singh",
+   "what": "Birthplace and home; public satsang from 1861; died here 1878",
+   "verified": true
+  },
+  {
+   "name": "Hathras",
+   "lat": 27.6,
+   "lon": 78.05,
+   "figure": "shiv-dayal-singh",
+   "what": "Home of Tulsi Sahib, his family's teacher",
+   "verified": true
+  },
+  {
+   "name": "Kirti Mandir, Porbandar",
+   "lat": 21.641,
+   "lon": 69.604,
+   "figure": "gandhi",
+   "what": "Birthplace, 1869",
+   "verified": true
+  },
+  {
+   "name": "Rajkot",
+   "lat": 22.3,
+   "lon": 70.8,
+   "figure": "gandhi",
+   "what": "Childhood; the vows of 1888",
+   "verified": true
+  },
+  {
+   "name": "Phoenix Settlement, Inanda",
+   "lat": -29.7,
+   "lon": 30.96,
+   "figure": "gandhi",
+   "what": "First community, founded 1904 after reading Ruskin",
+   "verified": false
+  },
+  {
+   "name": "Sevagram",
+   "lat": 20.73,
+   "lon": 78.66,
+   "figure": "gandhi",
+   "what": "Last ashram, 1936-1948",
+   "verified": true
+  },
+  {
+   "name": "Gandhi Smriti (Birla House), New Delhi",
+   "lat": 28.601,
+   "lon": 77.214,
+   "figure": "gandhi",
+   "what": "Prayer ground where he was killed, 30 January 1948",
+   "verified": true
   }
  ]
 }

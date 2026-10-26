@@ -1,0 +1,104 @@
+{
+  "batch": "x05",
+  "nodes_add": [
+    {"id": "tulsi-sahib", "name": "Tulsi Sahib of Hathras", "born": 1763, "died": 1843, "part": 9, "tier": "node", "kind": "person", "note": "Sant poet, author of Ghat Ramayan; teacher of Shiv Dayal Singh's parents, stayed in their house in Panni Gali, Agra. No record that he initiated Shiv Dayal Singh."},
+    {"id": "salig-ram", "name": "Salig Ram (Huzur Maharaj)", "born": 1829, "died": 1898, "part": 9, "tier": "node", "kind": "person", "note": "Postal official, Postmaster-General of the North-Western Provinces from 1881; met Shiv Dayal Singh 1858; asked for the public satsang of 1861; gave the faith the name Radhasoami; head of the main Agra group 1878-1898."}
+  ],
+  "nodes_update": [
+    {"id": "shiv-dayal-singh", "born": 1818, "died": 1878, "name": "Shiv Dayal Singh (Soamiji)", "note": "Founder of the Radhasoami faith; opened public satsang at Panni Gali, Agra, on Basant Panchami, 15 February 1861. Succession disputed between branches."},
+    {"id": "gandhi", "born": 1869, "died": 1948, "name": "Mahatma Gandhi", "note": "Religious thought: Truth is God, ahimsa, satyagraha, the ashram vows, a nonviolent reading of the Gita."}
+  ],
+  "edges_remove": [],
+  "edges_upsert": [
+    {"from": "sant-tradition", "to": "tulsi-sahib", "type": "lineage", "evidence": "documented", "verified": true, "note": "Sant poet in the line of Kabir"},
+    {"from": "sant-tradition", "to": "shiv-dayal-singh", "type": "influenced", "evidence": "documented", "verified": true, "note": "Sant vocabulary of Naam and Shabd"},
+    {"from": "sikh-gurus", "to": "shiv-dayal-singh", "type": "influenced", "evidence": "documented", "verified": true, "note": "Sahajdhari Sikh family; the Guru Granth Sahib quoted constantly"},
+    {"from": "tulsi-sahib", "to": "shiv-dayal-singh", "type": "influenced", "evidence": "documented", "verified": true, "note": "Family teacher who held satsang in the Panni Gali house; whether he was Shiv Dayal Singh's guru is disputed, and no initiation is recorded. Girdhari Das (died 1860), Tulsi Sahib's disciple, also taught him."},
+    {"from": "shiv-dayal-singh", "to": "salig-ram", "type": "initiated", "evidence": "documented", "verified": true, "year": 1858, "note": "Met 21 November 1858 per the Peepal Mandi branch; Agra branches trace their succession through him, which other branches dispute"},
+    {"from": "shiv-dayal-singh", "to": "jaimal-singh", "type": "initiated", "evidence": "documented", "verified": true, "year": 1856, "note": "Year per the Beas branch's account; Beas traces its line through him"},
+    {"from": "rajchandra", "to": "gandhi", "type": "influenced", "evidence": "documented", "verified": true, "year": 1891, "note": "Met in Bombay 1891; Gandhi named him first of the three moderns who left a deep impress on his life, but said he could not enthrone him as guru"},
+    {"from": "jain-tradition", "to": "gandhi", "type": "influenced", "evidence": "documented", "verified": true, "note": "Ahimsa and vows in Kathiawar; the Jain monk Becharji Swami administered his 1888 vows"},
+    {"from": "christianity", "to": "gandhi", "type": "influenced", "evidence": "documented", "verified": true, "note": "Sermon on the Mount (London, c. 1890); Tolstoy's The Kingdom of God Is Within You (1894)"},
+    {"from": "gandhi", "to": "vinoba", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1916, "note": "Joined the ashram 1916; chosen first individual satyagrahi 1940"},
+    {"from": "gandhi", "to": "ambedkar", "type": "reacted-against", "evidence": "documented", "verified": true, "year": 1932, "note": "Poona Pact 1932; Annihilation of Caste exchange 1936-37; What Congress and Gandhi Have Done to the Untouchables (1945)"}
+  ],
+  "places": [
+    {"name": "Panni Gali, Agra", "lat": 27.19, "lon": 78.02, "figure": "shiv-dayal-singh", "what": "Birthplace and home; public satsang from 1861; died here 1878", "verified": true},
+    {"name": "Hathras", "lat": 27.60, "lon": 78.05, "figure": "shiv-dayal-singh", "what": "Home of Tulsi Sahib, his family's teacher", "verified": true},
+    {"name": "Kirti Mandir, Porbandar", "lat": 21.641, "lon": 69.604, "figure": "gandhi", "what": "Birthplace, 1869", "verified": true},
+    {"name": "Rajkot", "lat": 22.30, "lon": 70.80, "figure": "gandhi", "what": "Childhood; the vows of 1888", "verified": true},
+    {"name": "Phoenix Settlement, Inanda", "lat": -29.70, "lon": 30.96, "figure": "gandhi", "what": "First community, founded 1904 after reading Ruskin", "verified": false},
+    {"name": "Sevagram", "lat": 20.73, "lon": 78.66, "figure": "gandhi", "what": "Last ashram, 1936-1948", "verified": true},
+    {"name": "Gandhi Smriti (Birla House), New Delhi", "lat": 28.601, "lon": 77.214, "figure": "gandhi", "what": "Prayer ground where he was killed, 30 January 1948", "verified": true}
+  ],
+  "glossary": [
+    {"term": "Surat shabd yoga", "script": "सुरत शब्द योग", "lang": "hi", "def": "The Radhasoami practice of joining the attention (surat) to an inner current of sound (shabd) and following it upward."},
+    {"term": "Satyagraha", "script": "सत्याग्रह", "lang": "sa", "def": "Gandhi's word for firmness in truth: nonviolent resistance in which the resister accepts suffering instead of inflicting it."},
+    {"term": "Ahimsa", "script": "अहिंसा", "lang": "sa", "def": "Nonviolence; not harming living beings in deed, word or thought."},
+    {"term": "Brahmacharya", "script": "ब्रह्मचर्य", "lang": "sa", "def": "Celibacy; for Gandhi, control of all the senses in thought, word and deed."},
+    {"term": "Anasakti", "script": "अनासक्ति", "lang": "sa", "def": "Non-attachment, especially to the fruits of one's actions, as taught in the Bhagavad Gita."},
+    {"term": "Sthitaprajna", "script": "स्थितप्रज्ञ", "lang": "sa", "def": "The person of steady wisdom described in the second chapter of the Bhagavad Gita."}
+  ],
+  "art": [],
+  "issues": [
+    "gandhi.mdx: R.P. Parasuram's resignation over the brahmacharya experiments is widely reported by biographers (e.g. Lelyveld) but I could not fetch a primary source in this pass; hedged as 'according to his biographers'.",
+    "gandhi.mdx: Nirmal Kumar Bose's reason for leaving in March 1947 is disputed; rewritten to give both views. Author may want to cite Bose's book directly.",
+    "gandhi.mdx: frontmatter has no art: value (optional). Author may want to assign one.",
+    "shiv-dayal-singh.mdx: art: innerSound is referenced; confirm the component exists or was registered by another batch.",
+    "shiv-dayal-singh.mdx: whether Agam Prasad Mathur (born 1930) is still living could not be confirmed; text says the branch names him as guru since 1959.",
+    "shiv-dayal-singh.mdx: no reliable source found for a count of Radhasoami succession lines (former 'more than twenty'); softened to 'many separate lines'.",
+    "Places: Phoenix Settlement coordinates given to two decimals but not verified against a map; marked verified false."
+  ],
+  "sources": {
+    "shiv-dayal-singh": [
+      "Born 25 Aug 1818; opened satsang 15 Feb 1861 (Basant Panchami) at Panni Gali; name Radhasoami c.1866; died 15 June 1878; wife Naraini Devi daughter of Izzat Rai of Faridabad; Persian jobs; practice from age six; quotes 'easier than pranayam' and 'pre-requisite' -> https://www.radhasoamisatsang.org/?p=30",
+      "Parents Seth Dilwali Singh and Mata Maha Maya; brothers Partap Singh, Rai Bindraban; Juergensmeyer on Agra base and Sikh recruits; no initiation from Tulsi Sahib; SPIRICON 2010 boycott; processions rule; Twitchell letter 8 July 1963 -> https://en.wikipedia.org/wiki/Shiv_Dayal_Singh",
+      "Tulsi Sahib stayed in family house; family disciples; Girdhari Das; last words 'Sat Naam and Anami' (Dayalbagh translation); Ghat Ramayan regions -> https://santmat.substack.com/p/shiv-dayal-singhs-path-of-sat-naam",
+      "Tulsi Sahib 1763-1843; no record of initiating Shiv Dayal; Girdhari Das died 1860 -> https://en.wikipedia.org/wiki/Tulsi_Sahib",
+      "Salig Ram born 14 Mar 1829, met 21 Nov 1858, first Indian PMG NWP 1881, died 6 Dec 1898 -> https://www.radhasoamisatsang.org/?p=51",
+      "Successors after 1878; Central Administrative Council 1902; 111 of 116 branches to Kamta Prasad Sinha; Beas 1891; ~2 million initiates estimate; Dera Sacha Sauda 1948; Manavta Mandir 1962; six elements -> https://en.wikipedia.org/wiki/Radha_Soami",
+      "Brahm Shankar Misra head 1898-1907 -> https://en.wikipedia.org/wiki/Maharaj_Sahab",
+      "Jaimal Singh born July 1839 near Batala; initiated 1856 in Agra; havildar; died 1903 -> https://en.wikipedia.org/wiki/Jaimal_Singh",
+      "Agam Prasad Mathur guru since 1959 -> https://www.radhasoamisatsang.org/?p=83; great-great-grandson and VC Agra University -> https://www.patrika.com/agra-news/radhasoami-guru-dadaji-maharaj-birth-day-special-stoty-latest-news-4893726/",
+      "Jasdeep Singh Gill named patron and successor-designate 2 Sept 2024; Dhillon continues -> https://rssb.org/JSG.html ; https://tribuneindia.com/news/punjab/beas-dera-names-gill-as-spiritual-head-retracts-hours-later",
+      "Verse Sar Bachan printed Allahabad 1884 -> https://list.indology.info/pipermail/indology/2016-April/043036.html",
+      "Soami Bagh samadh construction began 1908 (official tourism) -> https://incredibleindia.gov.in/en/uttar-pradesh/agra/radhasoami-samadhi-soamibagh-temple"
+    ],
+    "gandhi": [
+      "'But two years ago I went a step further and said that Truth is God'; Young India 31 Dec 1931; Bradlaugh; sat -> https://www.mkgandhi.org/truthisgod/04truthisgod.php",
+      "'more correct to say that Truth is God, than to say that God is Truth' -> https://gandhiashramsevagram.org/from-yeravda-mandir/chapter-01-truth.php",
+      "'To me the Gita became the guide of conduct. It became my dictionary of daily reference.'; thirteen chapters memorised while washing -> https://www.mkgandhi.org/storyofmylife/33gita.php",
+      "Theosophist brothers end of second year; 'priceless worth'; Sermon on the Mount; unify Gita, Light of Asia, Sermon; renunciation -> https://www.mkgandhi.org/storyofmylife/14acquaintance_with_religions.php",
+      "Raychandbhai 'by his living contact'; Tolstoy; Ruskin; 'The throne has remained vacant' -> https://www.mkgandhi.org/my_religion/06raychandbhai.php",
+      "1931 recorded talk on God, London, Kingsley Hall -> https://www.openculture.com/2015/01/hear-gandhis-famous-speech-on-the-existence-of-god-1931.html",
+      "Bose's March 1947 departure and dispute over its cause -> https://www.theindiaforum.in/book-reviews/always-gandhis-side",
+      "My Days with Gandhi, 1953 -> https://en.wikipedia.org/wiki/Nirmal_Kumar_Bose"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 82,
+    "changes": [
+      "shiv-dayal-singh.mdx: Salig Ram 'twelve years younger' corrected to ten (born 1829 vs 1818) (radhasoamisatsang.org/?p=51)",
+      "shiv-dayal-singh.mdx: removed unsupported claim that Salig Ram built a memorial in 1879; marble shrine start given as 1904 or 1908 since sources conflict (incredibleindia.gov.in); Places entry updated to match",
+      "shiv-dayal-singh.mdx: Agam Prasad Mathur is a great-great-grandson, not great-grandson, of Salig Ram; added branch's dating of his headship from 1959 (Patrika 2019; radhasoamisatsang.org/?p=83)",
+      "shiv-dayal-singh.mdx: unsourced 'Lane counts more than twenty lines, most now extinct' softened to 'many separate lines, some now extinct'",
+      "shiv-dayal-singh.mdx: Beas succession updated with the September 2024 naming of Jasdeep Singh Gill as patron and successor-designate (rssb.org/JSG.html; Tribune); 'it reports two million initiates' changed to an attributed estimate (Wikipedia Radha Soami)",
+      "shiv-dayal-singh.mdx: samadh dispute rewritten to match source (processions barred to anyone outside the Soami Bagh council, not specifically Dayalbagh); conference named SPIRICON 2010 and attributed to the Dayalbagh Sabha; removed unsourced 'reached the courts more than once' and 'Dayalbagh has sought access' (Wikipedia Shiv Dayal Singh)",
+      "shiv-dayal-singh.mdx: Beas claim of 1856 initiation attributed to the Beas account; guru-question sentence rebalanced to remove insinuation ('a disciple who did not admit to being one')",
+      "shiv-dayal-singh.mdx: Dera Sacha Sauda 'one of the largest religious bodies in north India' replaced with a neutral statement (unsourced size claim)",
+      "shiv-dayal-singh.mdx: added references for RSSB 2024 notice and Peepal Mandi Dadaji page",
+      "gandhi.mdx: Bose's departure rewritten; sources disagree on whether the brahmacharya episode caused it (The India Forum 2024 review of Manu's diaries); Parasuram's resignation attributed to biographers",
+      "gandhi.mdx: Monday silence 'kept from the 1920s' removed (start year not verified)",
+      "gandhi.mdx: 'the Ghaffar Khan's Pathan Khudai Khidmatgar' corrected to 'Abdul Ghaffar Khan's Khudai Khidmatgar movement among the Pashtuns'",
+      "gandhi.mdx: '[to locate]' resolved with a media card for the 1931 recorded talk on God (Open Culture); 'October 1931' generalised to 1931 at Kingsley Hall (date not confirmed)",
+      "gandhi.mdx: added India Forum reference"
+    ],
+    "unresolved": [
+      "Parasuram's resignation not confirmed against a primary source in this pass.",
+      "Whether Agam Prasad Mathur is living in 2026 not confirmed.",
+      "No published count of Radhasoami succession lines located.",
+      "Phoenix Settlement coordinates unverified.",
+      "Both entries checked for completeness against TEMPLATE.md: all chapter sections present; no missing section needed writing."
+    ]
+  }
+}
