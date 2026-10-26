@@ -20,7 +20,7 @@ Status: todo / running / written / checked / merged.
 | Unit | Entries | Intro | Status |
 |---|---|---|---|
 | w01 | rammohan-roy (c) | | merged |
-| w02 | dayananda-saraswati (c) | | running |
+| w02 | dayananda-saraswati (c) | | checking |
 | w03 | debendranath-tagore, keshab-chandra-sen, jyotirao-phule (s) | reason | todo |
 | w04 | ramakrishna (c) | | merged |
 | w05 | vivekananda (c) | | merged |

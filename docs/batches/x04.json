@@ -1,0 +1,353 @@
+{
+ "batch": "x04",
+ "nodes_add": [
+  {
+   "id": "bholanath",
+   "name": "Bholanath (Ramani Mohan Chakravarti)",
+   "died": 1938,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Anandamayi Ma's husband and first disciple; initiated by her at Bajitpur (Dec 1922 or 3 Jan 1923); died Kishenpur, Dehradun, 6 May 1938"
+  },
+  {
+   "id": "bhaiji",
+   "name": "Bhaiji (Jyotish Chandra Roy)",
+   "died": 1937,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Dhaka devotee who named her Anandamayi (1925 per ashram chronology); died Almora, August 1937"
+  },
+  {
+   "id": "arnaud-desjardins",
+   "name": "Arnaud Desjardins",
+   "born": 1925,
+   "died": 2011,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "French writer and filmmaker; disciple of Anandamayi Ma"
+  },
+  {
+   "id": "mhalsapati",
+   "name": "Mhalsapati",
+   "died": 1922,
+   "part": 8,
+   "tier": "node",
+   "kind": "person",
+   "note": "Khandoba temple priest at Shirdi who greeted the young fakir as 'Ya Sai'; lived closely with him"
+  },
+  {
+   "id": "abdul-baba",
+   "name": "Abdul Baba",
+   "part": 8,
+   "tier": "node",
+   "kind": "person",
+   "note": "Muslim attendant of Shirdi Sai Baba from 1889; kept a notebook in Deccani Urdu (translated by Marianne Warren); caretaker of the tomb"
+  },
+  {
+   "id": "venkusa",
+   "name": "Venkusa of Selu",
+   "part": 8,
+   "tier": "node",
+   "kind": "person",
+   "note": "Hindu guru named as Sai Baba's teacher in Das Ganu's Bhaktisaramrita (1925) and Narasimhaswami; claim only"
+  },
+  {
+   "id": "narasimhaswami",
+   "name": "B.V. Narasimhaswami",
+   "born": 1874,
+   "died": 1956,
+   "part": 8,
+   "tier": "node",
+   "kind": "person",
+   "note": "Promoter of Shirdi Sai Baba's worship from 1936; founded the All India Sai Samaj (1940); never met him"
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "anandamayi-ma",
+   "born": 1896,
+   "died": 1982,
+   "name": "Anandamayi Ma",
+   "note": "Self-initiated (1922); no human guru; Shree Shree Anandamayee Sangha"
+  },
+  {
+   "id": "shirdi-sai-baba",
+   "died": 1918,
+   "name": "Shirdi Sai Baba",
+   "note": "Birth date and place unknown; Pathri claim disputed"
+  }
+ ],
+ "edges_remove": [],
+ "edges_upsert": [
+  {
+   "from": "tantra-shakta",
+   "to": "anandamayi-ma",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Took part in Kali worship in Dhaka; devotees called her a form of Kali"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "anandamayi-ma",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Explained herself mainly in Advaita terms (Matri Vani)"
+  },
+  {
+   "from": "gaudiya",
+   "to": "anandamayi-ma",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Bengali Vaishnava devotion of her family; kirtan in childhood"
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "bholanath",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1922,
+   "note": "December 1922 per ashram chronology; 3 January 1923 per Hallstrom"
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "bhaiji",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1924,
+   "note": "Her second disciple; met in Dhaka (1922 or 1924 depending on source)"
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "arnaud-desjardins",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "sufi-orders",
+   "to": "shirdi-sai-baba",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Fakir's dress, mosque, Allah Malik, Fatiha and qawwali; Warren's reading from Abdul's notebook"
+  },
+  {
+   "from": "varkari",
+   "to": "shirdi-sai-baba",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Marathi bhakti framing in the Satcharita (ovi verse)"
+  },
+  {
+   "from": "venkusa",
+   "to": "shirdi-sai-baba",
+   "type": "claimed",
+   "evidence": "hagiographic",
+   "verified": true,
+   "note": "Reported by Das Ganu (1925) and Narasimhaswami; no contemporary evidence"
+  },
+  {
+   "from": "shirdi-sai-baba",
+   "to": "mhalsapati",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1858
+  },
+  {
+   "from": "shirdi-sai-baba",
+   "to": "abdul-baba",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1889
+  },
+  {
+   "from": "shirdi-sai-baba",
+   "to": "upasni-maharaj",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1911,
+   "note": "About three years under his instruction, largely at the Khandoba temple"
+  },
+  {
+   "from": "shirdi-sai-baba",
+   "to": "meher-baba",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1915,
+   "note": "Single meeting, December 1915 (Meher Baba Trust chronology)"
+  },
+  {
+   "from": "shirdi-sai-baba",
+   "to": "narasimhaswami",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1936,
+   "note": "Posthumous; promoted his worship in south India"
+  },
+  {
+   "from": "shirdi-sai-baba",
+   "to": "sathya-sai-baba",
+   "type": "claimed",
+   "evidence": "hagiographic",
+   "verified": true,
+   "year": 1940,
+   "note": "Claimed reincarnation, declared May 1940 at age 13; Prema Sai prophecy 1963"
+  }
+ ],
+ "places": [
+  {
+   "name": "Bajitpur",
+   "lat": 24.21,
+   "lon": 90.95,
+   "figure": "anandamayi-ma",
+   "what": "Years of practice (1918-1924) and self-initiation (1922)",
+   "verified": true
+  },
+  {
+   "name": "Ramna, Dhaka",
+   "lat": 23.735,
+   "lon": 90.4,
+   "figure": "anandamayi-ma",
+   "what": "Shahbagh years and the Ramna ashram (1929)",
+   "verified": true
+  },
+  {
+   "name": "Kishenpur, Dehradun",
+   "lat": 30.36,
+   "lon": 78.07,
+   "figure": "anandamayi-ma",
+   "what": "Ashram where Bholanath (1938) and she (1982) died",
+   "verified": true
+  },
+  {
+   "name": "Kankhal, Haridwar",
+   "lat": 29.93,
+   "lon": 78.15,
+   "figure": "anandamayi-ma",
+   "what": "Her samadhi shrine (1982)",
+   "verified": true
+  },
+  {
+   "name": "Bhadaini, Varanasi",
+   "lat": 25.29,
+   "lon": 83.01,
+   "figure": "anandamayi-ma",
+   "what": "Ashram, Kanyapeeth and hospital",
+   "verified": true
+  },
+  {
+   "name": "Pathri",
+   "lat": 19.25,
+   "lon": 76.43,
+   "figure": "shirdi-sai-baba",
+   "what": "Claimed birthplace; Sai Janmasthan temple (1999)",
+   "verified": true
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Lila",
+   "script": "लीला",
+   "lang": "sa",
+   "def": "\"Play.\" The activity of God, done for its own sake with no need behind it."
+  },
+  {
+   "term": "Dhuni",
+   "script": "धुनी",
+   "lang": "mr",
+   "def": "A sacred fire kept burning by an ascetic."
+  },
+  {
+   "term": "Udi",
+   "script": "उदी",
+   "lang": "mr",
+   "def": "Sacred ash from Shirdi Sai Baba's fire, given to visitors as blessing and medicine."
+  },
+  {
+   "term": "Shraddha and saburi",
+   "script": "श्रद्धा, सबुरी",
+   "lang": "mr",
+   "def": "Faith and patience, the two inner offerings Shirdi Sai Baba asked of devotees."
+  }
+ ],
+ "art": [],
+ "issues": [
+  "shirdi-sai-baba.mdx: frontmatter art was 'dhuni', which has no component and is not wired in src/pages/figures/[id].astro; changed to 'lamp'. The author may want a Dhuni illustration created and registered.",
+  "anandamayi-ma.mdx: the move to Dhaka is April 1922 in the ashram chronology and 1924 in Hallstrom; the text gives both. Bholanath's initiation likewise (Dec 1922 vs 3 Jan 1923).",
+  "anandamayi-ma.mdx: Qur'an recitation at a Muslim shrine in Dhaka is kept hedged ('her biographers report') but was not found in the sources fetched.",
+  "anandamayi-ma.mdx: 'around twenty-five to thirty' ashrams at her death and the Sangha's founding date (now 'by the early 1950s') were not verified against a primary source.",
+  "Both chapters run close to the lower bound of the 3,000-4,500 word range once references are excluded."
+ ],
+ "sources": {
+  "anandamayi-ma": [
+   "Birth 30 Apr 1896 Kheora; Feb marriage at 12y10m; joined husband 1915 Ashtagram; self-initiation Aug 1922; Purna Brahma Narayan Dec 1922; Dhaka Apr 1922 -> https://www.anandamayi.org/life-history/",
+   "Marriage 7 Feb 1909; joined 1914; Bholanath initiation 3 Jan 1923; 3-year silence; fed by others from 1926 -> https://mahavidya.ca/2008/04/15/anandamayi-ma/",
+   "Marriage 1908 (conflict); self-initiation 3 Aug 1922; Dhaka 1924; Ramna 1929 -> https://en.wikipedia.org/wiki/Anandamayi_Ma",
+   "Named Anandamayi 1925; 1925 Kali puja goat sacrifice; Raipur June 1932; Kamala Nehru July 1933; Bose 20 Oct 1938; Bhaiji d. 17 Aug 1937 Almora; Bholanath d. 6 May 1938 Kishenpur; Gandhi Wardha Feb 1942; Kanya Ashram 1938 -> https://www.anandamayi.org/ashram/cc.htm",
+   "Indira Gandhi 13 Apr 1966 visit; hospital 26 Dec 1968; Trudeau 11 Jan 1971 Varanasi -> https://www.anandamayi.org/life-history-1963-1972",
+   "Rudraksha at 1966 swearing-in; Kanyapeeth early 1940s -> https://granta.com/?p=175",
+   "Matri Vani quotes (entries 1, 4, 8, 45, 48, 69, 73, 93, 96) verbatim -> https://shreeshreeanandamayeesangha.org/matrivani.html",
+   "Yogananda quote 'Father, there is little to tell...' -> https://hinduwebsite.com/sacredscripts/spiritualism/yogananda/yogananda_45.asp",
+   "Elite/high-caste criticism; purity rules in ashrams; charity remark -> https://www.encyclopedia.com/religion/dictionaries-thesauruses-pictures-and-press-releases/anandamayi-ma"
+  ],
+  "shirdi-sai-baba": [
+   "'Nobody knew the parents, birth or birth-place'; lad of sixteen under neem; Chand Patil, Dhoop, two months, 'Ya Sai'; Hemadpant first visit 1910 -> https://cincysaitemple.org/storage/2024/08/sai-charitra-english-complete-book.pdf",
+   "Ch. VII: pierced ears / believed in circumcision; Ramnavami and Sandal procession; dhuni; 'always recite Allah Malik' -> https://sai.org.in/sites/default/files/sai-samarth-charita-english-chapter7.pdf",
+   "Dabholkar 1859 (or 1856)-1929; magistrate; at Shirdi intermittently 1910-1916; writing after 1918; 53 chapters, 9,000+ ovis -> https://www.sai.org.in/sites/default/files/sai-samarth-charita-english-preface.pdf",
+   "Publication 26 Nov 1930; writing begun 1922; Gunaji 1944 -> https://en.everybodywiki.com/Sai_Satcharitra",
+   "Satcharita cited as 1929 edition; Abdul arrived 1889, Deccani Urdu notebook; Warren 1999; 'never bark' paraphrase; 1985 fieldwork -> https://iris.unive.it/bitstream/10278/5105678/1/13.%20KERVAN_SOUTH%20ASIA_RIGOPOULOS.pdf",
+   "Pathri via Narasimhaswami/Mhalsapati; Venkusa in Das Ganu's Bhaktisaramrita 1925; Sansthan 1922; Narasimhaswami 1874-1956 -> https://wrldrels.org/?p=18481",
+   "Rani of Jhansi remark in Charters and Sayings; 25,000 pilgrims/day; Mohiddin Tamboli; age 16, c.1858 -> https://en.wikipedia.org/wiki/Sai_Baba_of_Shirdi",
+   "Pathri 1970s field research; temple 1994-1999 -> https://en.wikipedia.org/wiki/Sri_Sai_Janmasthan_Temple,_Pathri",
+   "Rs 100 crore, Shirdi bandh, 'janmasthan' dropped; 8th edition of Shri Sai Charitra (1972-76); Durrani's response -> https://www.deccanherald.com/amp/story/opinion%2Fcontroversy-over-sai-baba-s-janmabhoomi-prakatbhoomi-karmabhoomi-797669.html",
+   "Varanasi Oct 2024 removals; Ajay Sharma detained -> https://www.business-standard.com/india-news/hindu-group-removes-sai-baba-statues-from-dozen-up-temples-chief-detained-124100300458_1.html",
+   "Meher Baba met Sai Baba and Upasni Dec 1915 -> https://avatarmeherbabatrust.org/wp-content/uploads/2022/08/CHRONOLOGY_1.pdf",
+   "Oral Testimonies, Oct-Nov 1985 interviews, 2020, CC BY -> https://edizionicafoscari.unive.it/en/edizioni4/libri/978-88-6969-447-9/preface"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 74,
+  "changes": [
+   "anandamayi-ma.mdx: marriage date now notes 1908 in some sources (Wikipedia vs Hallstrom-based mahavidya.ca)",
+   "anandamayi-ma.mdx: joined husband 'in 1914 (1915 in the ashram's chronology)' (mahavidya.ca; anandamayi.org)",
+   "anandamayi-ma.mdx: removed unsourced 'according to Bholanath' celibacy wish and the 'mother of bliss' Ashtagram name; replaced with biographers' account and chronology's 'Kushir Ma' c.1915",
+   "anandamayi-ma.mdx: naming as Anandamayi dated 1925 per chronology (was 'about 1926')",
+   "anandamayi-ma.mdx: corrected claim that she led Kali worship without animal sacrifice; chronology records a goat sacrifice at the 1925 Shahbagh Kali puja (anandamayi.org/ashram/cc.htm); lineage line adjusted",
+   "anandamayi-ma.mdx: Gandhi meeting made specific (Wardha, Feb 1942); Kasturba removed (unverified)",
+   "anandamayi-ma.mdx: Sangha founding hedged to 'by the early 1950s'; Kanyapeeth dating gives 1938 (chronology) and early 1940s (Khilnani)",
+   "anandamayi-ma.mdx: Maschmann title corrected to Encountering Bliss (2002); Granta credit adds Dayanita Singh; reference numbering fixed",
+   "shirdi-sai-baba.mdx: art 'dhuni' (nonexistent component) changed to 'lamp'",
+   "shirdi-sai-baba.mdx: Pathri and Venkusa accounts attributed to Narasimhaswami and Das Ganu's Bhaktisaramrita (1925) (wrldrels.org)",
+   "shirdi-sai-baba.mdx: Rani of Jhansi story re-attributed as a remark ascribed to Sai Baba in Narasimhaswami's Charters and Sayings (Wikipedia)",
+   "shirdi-sai-baba.mdx: Satcharita publication sentence rewritten: writing begun 1922, usually dated 1930 (26 Nov 1930 in one account), Rigopoulos cites 1929",
+   "shirdi-sai-baba.mdx: 'Look to me' saying corrected to the commonly quoted form, flagged as devotees' quotation, and paired with the Satcharita's own wording",
+   "shirdi-sai-baba.mdx: 'bark at him like a dog' quotation not verified verbatim; paraphrased (Rigopoulos 2019 paraphrase)",
+   "shirdi-sai-baba.mdx: Dattatreya identification noted as already present in the Satcharita (Rigopoulos)",
+   "shirdi-sai-baba.mdx: Pathri evidence specified as Narasimhaswami's testimony plus a reference in the 8th edition (1972-76) of the Sansthan's Shri Sai Charitra, with Pathri's response (Deccan Herald 2020)",
+   "shirdi-sai-baba.mdx: Sathya Sai Baba was thirteen, not fourteen, in May 1940 (born Nov 1926)",
+   "shirdi-sai-baba.mdx: added a paragraph in Critiques separating contemporary records (Khaparde, Das Ganu, Dabholkar's notes) from later devotional layers (Narasimhaswami from 1936, Pathri, Jhansi story, slogan), as the coordinator asked",
+   "shirdi-sai-baba.mdx: 2024 Varanasi removals made precise (about a dozen temples; leader Ajay Sharma detained) with Business Standard reference added",
+   "shirdi-sai-baba.mdx: pilgrim figure attributed to widely reported averages; Warren dated 1999; Rigopoulos interviews described accurately (Oct-Nov 1985)"
+  ],
+  "unresolved": [
+   "anandamayi-ma.mdx: Qur'an recitation at a Dhaka Muslim shrine not found in sources fetched (kept hedged)",
+   "anandamayi-ma.mdx: number of ashrams at her death and Sangha founding year not verified",
+   "shirdi-sai-baba.mdx: provenance of the 'If you look to me, I look to you' wording (the later 'eleven assurances') not traced to a first source",
+   "shirdi-sai-baba.mdx: Upasni's 1911 arrival and about three-year stay, and the 1963 Prema Sai prophecy, rest on standard accounts and were not fetched this session"
+  ]
+ }
+}
