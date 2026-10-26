@@ -133,3 +133,9 @@ footer.site-foot{max-width:1080px;margin:4rem auto 0;padding-block:1rem 2rem;bor
   .hero .thread{stroke-dasharray:900;stroke-dashoffset:900;animation:trace 4.5s ease-out .4s forwards}
   @keyframes trace{to{stroke-dashoffset:0}}
 }
+
+/* portrait with credit line */
+.portrait{margin:0;display:flex;flex-direction:column;gap:.4rem}
+.portrait img{width:100%;max-height:420px;object-fit:cover;object-position:top;filter:grayscale(.15) contrast(1.02);border:1px solid var(--rule)}
+.portrait figcaption{font-family:var(--f-mono);font-size:.7rem;color:var(--muted)}
+.portrait figcaption a{color:var(--muted)}

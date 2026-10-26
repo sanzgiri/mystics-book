@@ -1,0 +1,95 @@
+---
+// Editorial dashboard: what is written, how long it is, and how much of its lineage is verified.
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { nodes, edges, parts, figureHref, href } from '../lib/graph.js';
+
+const figures = Object.fromEntries((await getCollection('figures')).map((e) => [e.id, e]));
+const essays = await getCollection('essays');
+const intros = Object.fromEntries((await getCollection('parts')).map((e) => [e.id, e]));
+
+const words = (body = '') => body
+  .replace(/^---[\s\S]*?---/, '')
+  .replace(/<[^>]+>/g, ' ')
+  .replace(/[#*_>\[\]()`|-]/g, ' ')
+  .split(/\s+/).filter((w) => /[A-Za-z]/.test(w)).length;
+
+const TARGET = { chapter: 4000, profile: 1000, sidebar: 600 };
+const rows = nodes
+  .filter((n) => TARGET[n.tier])
+  .map((n) => {
+    const e = figures[n.id];
+    const mine = edges.filter((x) => x.to === n.id || x.from === n.id);
+    return {
+      n, status: e ? e.data.status : 'not started', words: e ? words(e.body) : 0, target: TARGET[n.tier],
+      edgesTotal: mine.length, edgesVerified: mine.filter((x) => x.verified).length,
+    };
+  });
+
+const count = (s) => rows.filter((r) => r.status === s).length;
+const totalWords = rows.reduce((a, r) => a + r.words, 0) + essays.reduce((a, e) => a + words(e.body), 0) + Object.values(intros).reduce((a, e) => a + words(e.body), 0);
+const targetWords = rows.reduce((a, r) => a + r.target, 0);
+const verified = edges.filter((e) => e.verified).length;
+---
+<Base title="Status" description="Editorial progress for every entry in the book.">
+<main class="wrap">
+  <div class="col">
+    <span class="label">Editorial</span>
+    <h1 style="font-size:clamp(2.2rem,6vw,3.6rem);margin:.4rem 0">Status</h1>
+    <p>Progress on every entry. Targets are about 4,000 words for a chapter, 1,000 for a profile and 600 for a sidebar.</p>
+  </div>
+
+  <div class="kpis">
+    <div><span class="label">Entries final</span><b>{count('final')}</b><small>of {rows.length}</small></div>
+    <div><span class="label">In draft or review</span><b>{count('draft') + count('review')}</b><small>{count('not started')} not started</small></div>
+    <div><span class="label">Words written</span><b>{totalWords.toLocaleString('en-US')}</b><small>of ~{(targetWords + 15000).toLocaleString('en-US')}</small></div>
+    <div><span class="label">Lineage edges verified</span><b>{verified}</b><small>of {edges.length}</small></div>
+  </div>
+
+  <h2>Essays</h2>
+  <ul class="toc col">
+    {essays.map((e) => <li><span><a href={href(`/${e.id}/`)}>{e.data.title}</a> <span class={`status ${e.data.status}`}>{e.data.status}</span></span><span class="yrs">{words(e.body).toLocaleString('en-US')} words</span></li>)}
+  </ul>
+
+  {parts.map((p) => {
+    const pr = rows.filter((r) => r.n.part === p.n);
+    const intro = intros[p.slug];
+    return (
+      <section>
+        <h2 style="font-size:1.3rem">Part {p.n} · {p.title}</h2>
+        <div class="tbl">
+          <table>
+            <thead><tr><th>Entry</th><th>Tier</th><th>Status</th><th class="num">Words</th><th>Progress</th><th class="num">Edges verified</th></tr></thead>
+            <tbody>
+              <tr><td><a href={href(`/parts/${p.slug}/`)}>Part introduction</a></td><td>intro</td><td><span class={`status ${intro ? intro.data.status : 'outline'}`}>{intro ? intro.data.status : 'not started'}</span></td><td class="num">{intro ? words(intro.body) : 0}</td><td></td><td></td></tr>
+              {pr.map((r) => (
+                <tr>
+                  <td><a href={figureHref(r.n.id)}>{r.n.name}</a></td>
+                  <td>{r.n.tier}</td>
+                  <td><span class={`status ${r.status === 'not started' ? 'outline' : r.status}`}>{r.status}</span></td>
+                  <td class="num">{r.words.toLocaleString('en-US')}</td>
+                  <td><span class="bar"><span style={`width:${Math.min(100, Math.round((r.words / r.target) * 100))}%`}></span></span></td>
+                  <td class="num">{r.edgesVerified}/{r.edgesTotal}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    );
+  })}
+</main>
+<style>
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:1rem;margin:1.5rem 0}
+  .kpis div{background:var(--paper);border:1px solid var(--rule);padding:1rem;display:flex;flex-direction:column;gap:.2rem}
+  .kpis b{font-family:var(--f-display);font-weight:400;font-size:2rem;font-variant-numeric:tabular-nums}
+  .kpis small{color:var(--muted);font-size:.85rem}
+  .tbl{overflow-x:auto}
+  table{width:100%;border-collapse:collapse;font-size:.9rem;min-width:620px}
+  th,td{text-align:left;padding:.4rem .5rem;border-bottom:1px solid var(--rule)}
+  th{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:400}
+  .num{text-align:right;font-variant-numeric:tabular-nums}
+  .bar{display:block;height:6px;background:var(--rule);border-radius:3px;overflow:hidden;min-width:80px}
+  .bar span{display:block;height:100%;background:var(--flame)}
+</style>
+</Base>

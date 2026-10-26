@@ -11,6 +11,13 @@ const figures = defineCollection({
     subtitle: z.string(),
     status: z.enum(['draft', 'review', 'final']).default('draft'),
     art: z.string().optional(),   // name of a component in src/components/art/
+    photo: z.object({            // optional portrait; only public-domain or openly licensed images
+      src: z.string(),           // direct image URL (e.g. upload.wikimedia.org) or /photos/<file>
+      alt: z.string(),
+      credit: z.string(),        // photographer or archive, year
+      license: z.string(),       // e.g. "Public domain (PD-India)", "CC BY-SA 4.0"
+      sourceUrl: z.string(),     // page documenting the license
+    }).optional(),
     glance: z.array(z.object({ label: z.string(), value: z.string() })).default([]),
   }),
 });

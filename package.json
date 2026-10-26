@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview"
+    "build": "node scripts/style-check.mjs && astro build",
+    "preview": "astro preview",
+    "style": "node scripts/style-check.mjs",
+    "links": "node scripts/check-links.mjs"
   },
   "keywords": [],
   "author": "",

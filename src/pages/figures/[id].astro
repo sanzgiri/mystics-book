@@ -44,7 +44,12 @@ const next = idx >= 0 && idx < inPart.length - 1 ? inPart[idx + 1] : null;
           <p class="sub">{node.name}, {lifespan(node)}. {entry.data.subtitle}</p>
           <p><span class={`status ${entry.data.status}`}>{entry.data.status}</span> <span class="tier-tag">{TIER_LABEL[node.tier]}</span></p>
         </div>
-        {Art ? <Art /> : <Banyan />}
+        {entry.data.photo ? (
+          <figure class="portrait">
+            <img src={entry.data.photo.src} alt={entry.data.photo.alt} loading="eager" referrerpolicy="no-referrer">
+            <figcaption>{entry.data.photo.credit}. <a href={entry.data.photo.sourceUrl}>{entry.data.photo.license}</a></figcaption>
+          </figure>
+        ) : Art ? <Art /> : <Banyan />}
       </header>
       <div class="chapter">
         {entry.data.glance.length > 0 && (

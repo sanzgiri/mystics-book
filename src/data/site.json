@@ -1,5 +1,6 @@
 {
   "title": "The Banyan",
   "subtitle": "Indian mystics and philosophers, 1830 to today",
-  "note": "Working title. Change it here and it updates everywhere."
+  "launched": false,
+  "note": "Working title. 'launched' controls search-engine indexing: keep false until launch day."
 }
