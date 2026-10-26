@@ -24,7 +24,7 @@ Status: todo / running / written / checked / merged.
 | w03 | debendranath-tagore, keshab-chandra-sen, jyotirao-phule (s) | reason | todo |
 | w04 | ramakrishna (c) | | merged |
 | w05 | vivekananda (c) | | merged |
-| w06 | chandrasekharendra-saraswati (c) | | running |
+| w06 | chandrasekharendra-saraswati (c) | | checking |
 | w07 | sarada-devi, rama-tirtha, sarvapriyananda | neo-vedanta | running |
 | w08 | radhakrishnan, chinmayananda, dayananda-arsha, acharya-prashant | | todo |
 | w09 | aurobindo (c) | | todo |
