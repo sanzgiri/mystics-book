@@ -10,7 +10,7 @@ Status: todo / running / written / checked / merged.
 |---|---|---|
 | x01 | narayana-guru, chattampi-swamikal (P2) | merged |
 | x02 | lakshmanjoo (P6), krishnamacharya (P5) | running |
-| x03 | sri-sri-ravi-shankar (P5), ramdev (P13) | running |
+| x03 | sri-sri-ravi-shankar (P5), ramdev (P13) | merged |
 | x04 | anandamayi-ma (P7), shirdi-sai-baba (P8) | todo |
 | x05 | shiv-dayal-singh (P9), gandhi (P10) | todo |
 | x06 | j-krishnamurti (P12) | todo |
@@ -19,7 +19,7 @@ Status: todo / running / written / checked / merged.
 
 | Unit | Entries | Intro | Status |
 |---|---|---|---|
-| w01 | rammohan-roy (c) | | todo |
+| w01 | rammohan-roy (c) | | running |
 | w02 | dayananda-saraswati (c) | | todo |
 | w03 | debendranath-tagore, keshab-chandra-sen, jyotirao-phule (s) | reason | todo |
 | w04 | ramakrishna (c) | | checking |

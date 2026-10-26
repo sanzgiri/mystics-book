@@ -186,7 +186,8 @@
    "died": 1886,
    "part": 2,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Priest of the Dakshineswar Kali temple; 'as many faiths, so many paths'"
   },
   {
    "id": "vivekananda",
@@ -195,7 +196,8 @@
    "died": 1902,
    "part": 2,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Narendranath Datta. Ramakrishna's chief disciple; 1893 Parliament of Religions; four yogas and Practical Vedanta; founded the Ramakrishna Mission (1 May 1897)."
   },
   {
    "id": "narayana-guru",
@@ -292,14 +294,16 @@
    "name": "Totapuri",
    "part": 2,
    "tier": "node",
-   "kind": "person"
+   "kind": "person",
+   "note": "Naga monk of the Puri order from the Punjab; gave Ramakrishna sannyasa, 1865"
   },
   {
    "id": "bhairavi-brahmani",
    "name": "Bhairavi Brahmani",
    "part": 2,
    "tier": "node",
-   "kind": "person"
+   "kind": "person",
+   "note": "Brahmin woman ascetic from Jessore; Tantric and Vaishnava teacher of Ramakrishna, 1861–1863"
   },
   {
    "id": "ramana-maharshi",
@@ -607,7 +611,8 @@
    "born": 1956,
    "part": 5,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Sudarshan Kriya; Art of Living Foundation (1981)"
   },
   {
    "id": "sadhguru",
@@ -1253,7 +1258,7 @@
    "part": 13,
    "tier": "profile",
    "kind": "person",
-   "note": "Televised pranayama; Patanjali Ayurved"
+   "note": "Televised pranayama; Patanjali Ayurved. Birth year uncertain (1965-1975), so born is left blank"
   },
   {
    "id": "kalki-bhagavan",
@@ -1352,6 +1357,82 @@
    "tier": "node",
    "kind": "person",
    "note": "Disciple of Chattampi Swamikal from 1898."
+  },
+  {
+   "id": "jatadhari",
+   "name": "Jatadhari",
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Wandering Vaishnava (Rama) monk; gave Ramakrishna the Ramlala image, c. 1864"
+  },
+  {
+   "id": "govinda-roy",
+   "name": "Govinda Roy",
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Hindu convert to Islam on a Sufi path; instructed Ramakrishna in Islamic practice, 1866"
+  },
+  {
+   "id": "mahendranath-gupta",
+   "name": "Mahendranath Gupta (\"M\")",
+   "born": 1854,
+   "died": 1932,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Schoolteacher; recorded the Kathamrita (Gospel of Sri Ramakrishna), 1882–1886"
+  },
+  {
+   "id": "christianity",
+   "name": "Christianity",
+   "part": 0,
+   "tier": "root",
+   "kind": "tradition",
+   "note": "Added for Ramakrishna's 1873/1874 Christian episode; merge with any existing Christianity root"
+  },
+  {
+   "id": "nivedita",
+   "name": "Sister Nivedita (Margaret Noble)",
+   "born": 1867,
+   "died": 1911,
+   "part": 2,
+   "tier": "node",
+   "kind": "person",
+   "note": "Irish disciple of Vivekananda, initiated as a brahmacharini on 25 March 1898; author of The Master as I Saw Him (1910)."
+  },
+  {
+   "id": "sudhakar-chaturvedi",
+   "name": "Sudhakar Chaturvedi",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Vedic scholar associated with Gandhi; Sri Sri Ravi Shankar's first teacher"
+  },
+  {
+   "id": "shankar-dev",
+   "name": "Swami Shankar Dev",
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Head of Kripalu Bagh Ashram, Kankhal; gave Ramdev sannyasa; missing since 14 July 2007"
+  },
+  {
+   "id": "acharya-karamveer",
+   "name": "Acharya Karamveer",
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Arya Samaj yoga teacher; taught Ramdev yoga; co-founder of Divya Yog Mandir Trust (1995)"
+  },
+  {
+   "id": "acharya-balkrishna",
+   "name": "Acharya Balkrishna",
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Ramdev's partner; co-founder and managing director of Patanjali Ayurved"
   }
  ],
  "edges": [
@@ -1491,59 +1572,72 @@
    "note": "Vedas as sole authority"
   },
   {
-   "from": "keshab-chandra-sen",
-   "to": "ramakrishna",
-   "type": "influenced",
-   "evidence": "documented",
-   "note": "Met and publicized him"
-  },
-  {
    "from": "advaita-vedanta",
    "to": "totapuri",
    "type": "lineage",
-   "evidence": "testimony"
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Puri order of Dashanami sannyasa"
   },
   {
    "from": "totapuri",
    "to": "ramakrishna",
    "type": "initiated",
-   "evidence": "documented"
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1865,
+   "note": "Sannyasa and Advaita; nirvikalpa samadhi; Totapuri stayed ~11 months (late 1864–1865)"
   },
   {
    "from": "tantra-shakta",
    "to": "bhairavi-brahmani",
    "type": "lineage",
-   "evidence": "testimony"
+   "evidence": "testimony",
+   "verified": true
   },
   {
    "from": "bhairavi-brahmani",
    "to": "ramakrishna",
    "type": "initiated",
-   "evidence": "documented"
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1861,
+   "note": "64 Tantric sadhanas, 1861–1863; known only through Ramakrishna's testimony and Saradananda"
   },
   {
    "from": "ramakrishna",
    "to": "vivekananda",
    "type": "lived-with",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1881,
+   "note": "Guru and disciple from late 1881/early 1882 until Ramakrishna's death in August 1886; nursed him at Cossipore. Formal sannyasa vows taken by the disciples themselves in early 1887."
   },
   {
    "from": "ramakrishna",
    "to": "sarada-devi",
    "type": "family",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1859,
+   "note": "Married 1859, never consummated; also his first disciple; Shodashi puja 1872"
   },
   {
    "from": "vivekananda",
    "to": "aurobindo",
    "type": "influenced",
-   "evidence": "testimony"
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1908,
+   "note": "Aurobindo wrote (1934) that in Alipore jail Vivekananda 'was speaking with me for about 15 days' as a presence in meditation; also read his works."
   },
   {
    "from": "vivekananda",
    "to": "rama-tirtha",
    "type": "influenced",
-   "evidence": "testimony"
+   "evidence": "testimony",
+   "verified": false,
+   "note": "Rama Tirtha's own testimony; date and circumstances of their meeting (Lahore, 1897?) not checked in this batch."
   },
   {
    "from": "advaita-vedanta",
@@ -1696,7 +1790,9 @@
    "from": "maharishi",
    "to": "sri-sri-ravi-shankar",
    "type": "lived-with",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Worked and travelled with Maharishi from the mid-1970s until about 1980-81"
   },
   {
    "from": "kashmir-shaivism",
@@ -1959,7 +2055,8 @@
    "to": "sarvapriyananda",
    "type": "institutional",
    "evidence": "documented",
-   "note": "Ramakrishna Order"
+   "verified": true,
+   "note": "Ramakrishna Order; Vedanta Society of New York, founded by Vivekananda in 1894."
   },
   {
    "from": "advaita-vedanta",
@@ -2003,7 +2100,9 @@
    "from": "yoga-nath",
    "to": "ramdev",
    "type": "influenced",
-   "evidence": "testimony"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Hatha-yoga pranayama (anulom vilom, kapalbhati) at the centre of his teaching"
   },
   {
    "from": "yoga-nath",
@@ -2246,6 +2345,159 @@
    "evidence": "testimony",
    "verified": true,
    "year": 1898
+  },
+  {
+   "from": "tantra-shakta",
+   "to": "ramakrishna",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Kali devotion as temple priest from 1856; Bengali Shakta song tradition (Ramprasad)"
+  },
+  {
+   "from": "jatadhari",
+   "to": "ramakrishna",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1864,
+   "note": "Vatsalya bhava toward Ramlala"
+  },
+  {
+   "from": "gaudiya",
+   "to": "ramakrishna",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Vaishnava bhavas incl. madhura bhava; Bhairavi learned in Gaudiya texts"
+  },
+  {
+   "from": "govinda-roy",
+   "to": "ramakrishna",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1866,
+   "note": "Three days of Islamic practice; vision 'perhaps Mohammed' per Nikhilananda"
+  },
+  {
+   "from": "sufi-orders",
+   "to": "govinda-roy",
+   "type": "lineage",
+   "evidence": "hagiographic",
+   "verified": false,
+   "note": "Described in Ramakrishna sources as a Sufi; order unknown"
+  },
+  {
+   "from": "christianity",
+   "to": "ramakrishna",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1874,
+   "note": "Bible readings by Shambhu Charan Mallick; vision of Christ (Nov 1874 per Nikhilananda; end 1873 in other accounts)"
+  },
+  {
+   "from": "ramakrishna",
+   "to": "keshab-chandra-sen",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1875,
+   "note": "Met at Belgharia 1875; close until Keshab's death 1884; Motherhood of God in Keshab's preaching possibly from Ramakrishna. Keshab publicized Ramakrishna to Calcutta's English-educated"
+  },
+  {
+   "from": "ramakrishna",
+   "to": "mahendranath-gupta",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1882,
+   "note": "Visited Feb/Mar 1882 to Apr 1886; recorded the Kathamrita"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "vivekananda",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Shankara's Advaita, reinterpreted as Practical Vedanta."
+  },
+  {
+   "from": "keshab-chandra-sen",
+   "to": "vivekananda",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1880,
+   "note": "Attended Keshab's Nava Vidhan c. 1880 and his Band of Hope 1881-1884; later joined the Sadharan Brahmo Samaj."
+  },
+  {
+   "from": "vivekananda",
+   "to": "nivedita",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1898,
+   "note": "Brahmacharya initiation and the name Nivedita, 25 March 1898, Calcutta."
+  },
+  {
+   "from": "sudhakar-chaturvedi",
+   "to": "sri-sri-ravi-shankar",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "First teacher in childhood, per the Art of Living biography"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "sri-sri-ravi-shankar",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Commentaries on the Ashtavakra Gita and Vedantic talks"
+  },
+  {
+   "from": "yoga-nath",
+   "to": "sri-sri-ravi-shankar",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Ujjayi and bhastrika within the Sudarshan Kriya sequence"
+  },
+  {
+   "from": "dayananda-saraswati",
+   "to": "ramdev",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Reading Satyarth Prakash led him to Arya Samaj gurukul education"
+  },
+  {
+   "from": "shankar-dev",
+   "to": "ramdev",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Gave him sannyasa and the name Ramdev at Kripalu Bagh Ashram, early 1990s (year varies in sources)"
+  },
+  {
+   "from": "acharya-karamveer",
+   "to": "ramdev",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Taught him yoga at Kripalu Bagh; co-founded Divya Yog Mandir Trust with him in 1995",
+   "year": 1995
+  },
+  {
+   "from": "ramdev",
+   "to": "acharya-balkrishna",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Fellow gurukul student; co-founders of Divya Yog Mandir Trust (1995) and Patanjali Ayurved (2006)",
+   "year": 2006
   }
  ]
 }

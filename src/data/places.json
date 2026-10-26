@@ -316,6 +316,118 @@
    "figure": "chattampi-swamikal",
    "what": "Death and samadhi shrine (1924)",
    "verified": true
+  },
+  {
+   "name": "Kamarpukur",
+   "lat": 22.91,
+   "lon": 87.65,
+   "figure": "ramakrishna",
+   "what": "Birthplace (1836) and childhood village",
+   "verified": true
+  },
+  {
+   "name": "Dakshineswar Kali Temple",
+   "lat": 22.655,
+   "lon": 88.357,
+   "figure": "ramakrishna",
+   "what": "Priest from 1856; all his sadhanas and teaching years, 1855–1885",
+   "verified": true
+  },
+  {
+   "name": "Cossipore garden house (Udyanbati)",
+   "lat": 22.63,
+   "lon": 88.37,
+   "figure": "ramakrishna",
+   "what": "Last months and death, 11 Dec 1885 – 16 Aug 1886",
+   "verified": false
+  },
+  {
+   "name": "Vivekananda's birthplace, 3 Gourmohan Mukherjee Street, Calcutta",
+   "lat": 22.59,
+   "lon": 88.36,
+   "figure": "vivekananda",
+   "what": "Birthplace (1863); now the Ramakrishna Mission's ancestral house and cultural centre",
+   "verified": false
+  },
+  {
+   "name": "Vivekananda Rock, Kanyakumari",
+   "lat": 8.078,
+   "lon": 77.555,
+   "figure": "vivekananda",
+   "what": "Meditated here, 25-27 December 1892",
+   "verified": true
+  },
+  {
+   "name": "Art Institute of Chicago",
+   "lat": 41.88,
+   "lon": -87.624,
+   "figure": "vivekananda",
+   "what": "World's Parliament of Religions, 11-27 September 1893",
+   "verified": true
+  },
+  {
+   "name": "Thousand Island Park, New York",
+   "lat": 44.29,
+   "lon": -76.03,
+   "figure": "vivekananda",
+   "what": "Summer classes, 1895 (Inspired Talks)",
+   "verified": false
+  },
+  {
+   "name": "Khetri, Rajasthan",
+   "lat": 28.0,
+   "lon": 75.79,
+   "figure": "vivekananda",
+   "what": "Court of his patron Raja Ajit Singh, who suggested the name Vivekananda",
+   "verified": false
+  },
+  {
+   "name": "Papanasam, Thanjavur district",
+   "lat": 10.93,
+   "lon": 79.27,
+   "figure": "sri-sri-ravi-shankar",
+   "what": "Birthplace (1956)",
+   "verified": true
+  },
+  {
+   "name": "Shimoga (Shivamogga), Karnataka",
+   "lat": 13.93,
+   "lon": 75.57,
+   "figure": "sri-sri-ravi-shankar",
+   "what": "Ten days of silence near the Bhadra river, origin of the Sudarshan Kriya (1982), by his own account",
+   "verified": true
+  },
+  {
+   "name": "Art of Living International Centre, Kanakapura Road, Bengaluru",
+   "lat": 12.83,
+   "lon": 77.51,
+   "figure": "sri-sri-ravi-shankar",
+   "what": "Headquarters ashram",
+   "verified": true
+  },
+  {
+   "name": "Yamuna floodplain near DND Flyway, Delhi",
+   "lat": 28.58,
+   "lon": 77.27,
+   "figure": "sri-sri-ravi-shankar",
+   "what": "World Culture Festival (11-13 March 2016)",
+   "verified": true
+  },
+  {
+   "name": "Kankhal, Haridwar",
+   "lat": 29.93,
+   "lon": 78.15,
+   "figure": "ramdev",
+   "what": "Kripalu Bagh Ashram: sannyasa (early 1990s); Divya Yog Mandir Trust founded (1995)",
+   "verified": true
+  },
+  {
+   "name": "Ramlila Maidan, Delhi",
+   "lat": 28.64,
+   "lon": 77.23,
+   "figure": "ramdev",
+   "what": "Hunger strike against corruption, cleared by police on the night of 4-5 June 2011",
+   "verified": true
   }
  ]
 }
