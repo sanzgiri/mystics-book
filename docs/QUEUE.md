@@ -31,7 +31,7 @@ Status: todo / running / written / checked / merged.
 | w10 | rabindranath-tagore, iqbal, kc-bhattacharya, gopi-krishna | integral | running |
 | w11 | lahiri-mahasaya (c) | | running |
 | w12 | yogananda (c) | | running |
-| w13 | sivananda (c) | | running |
+| w13 | sivananda (c) | | todo |
 | w14 | maharishi (c) | | todo |
 | w15 | sadhguru (c) | | todo |
 | w18 | muktananda (c) | | todo |
@@ -75,3 +75,7 @@ Historical figures with no live legal or sensitive controversy. Writer agents us
 ## Auto-resume
 
 A scheduled check-in fires every ~3 hours (send_later). On each check-in: resume stopped agents, merge finished units, keep 4 running, push, and schedule the next check-in. When a usage limit hits, schedule a check-in for 5 minutes after the reset time.
+
+## Weekly cap note (26 Oct, 16:50)
+
+Weekly usage nearly exhausted. No new units are launched until the weekly limit resets. Units in flight at that point: w10 (Part 4 profiles), w11 (Lahiri), w12 (Yogananda), s01 (Sonnet profiles). Any draft they leave on disk is pushed as Draft status; each still needs its Opus fact check before it counts as merged.
