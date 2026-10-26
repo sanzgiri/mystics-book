@@ -585,7 +585,8 @@
    "died": 1989,
    "part": 5,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Muchukundapura, 18 November 1888; died Madras, 28 February 1989."
   },
   {
    "id": "sivananda",
@@ -742,7 +743,8 @@
    "died": 1991,
    "part": 6,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Lakshman Raina, Srinagar, 9 May 1907; died Noida, 27 September 1991."
   },
   {
    "id": "muktananda",
@@ -1433,6 +1435,95 @@
    "tier": "node",
    "kind": "person",
    "note": "Ramdev's partner; co-founder and managing director of Patanjali Ayurved"
+  },
+  {
+   "id": "swami-ram-kashmir",
+   "name": "Swami Ram (Rama Joo) of Srinagar",
+   "part": 6,
+   "tier": "node",
+   "kind": "person",
+   "note": "Kashmiri Shaiva teacher and Lakshmanjoo's family guru; dates given as 1852–1914 (Lakshmanjoo Academy) or 1854–1915 (other sources)."
+  },
+  {
+   "id": "mahatab-kak",
+   "name": "Swami Mahatab Kak",
+   "born": 1870,
+   "died": 1942,
+   "part": 6,
+   "tier": "node",
+   "kind": "person",
+   "note": "Chief disciple of Swami Ram; initiated Lakshmanjoo and taught him the Shaiva scriptures."
+  },
+  {
+   "id": "lilian-silburn",
+   "name": "Lilian Silburn",
+   "born": 1908,
+   "died": 1993,
+   "part": 6,
+   "tier": "node",
+   "kind": "person",
+   "note": "French Indologist; studied with Lakshmanjoo from 1948 and translated Kashmiri Shaiva texts into French."
+  },
+  {
+   "id": "jaideva-singh",
+   "name": "Jaideva Singh",
+   "born": 1893,
+   "died": 1986,
+   "part": 6,
+   "tier": "node",
+   "kind": "person",
+   "note": "Indian scholar and musicologist; studied with Lakshmanjoo and translated the Shiva Sutras, Spanda Karikas and Vijnana Bhairava into English."
+  },
+  {
+   "id": "alexis-sanderson",
+   "name": "Alexis Sanderson",
+   "born": 1948,
+   "part": 6,
+   "tier": "node",
+   "kind": "person",
+   "note": "Oxford scholar of Shaivism; spent six years in Kashmir studying with Lakshmanjoo."
+  },
+  {
+   "id": "john-hughes",
+   "name": "John Hughes",
+   "part": 6,
+   "tier": "node",
+   "kind": "person",
+   "note": "American student of Lakshmanjoo from 1971; recorded and edited his English teachings (Universal Shaiva Fellowship / Lakshmanjoo Academy)."
+  },
+  {
+   "id": "ramamohana-brahmachari",
+   "name": "Ramamohana Brahmachari",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Himalayan yogi whom Krishnamacharya named as his teacher; no independent record has been found."
+  },
+  {
+   "id": "indra-devi",
+   "name": "Indra Devi",
+   "born": 1899,
+   "died": 2002,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born Eugenie Peterson in Riga; studied with Krishnamacharya in Mysore in the late 1930s; taught yoga in Shanghai, Hollywood and Argentina."
+  },
+  {
+   "id": "srivatsa-ramaswami",
+   "name": "Srivatsa Ramaswami",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Long-time student of Krishnamacharya in Madras; teaches vinyasa krama."
+  },
+  {
+   "id": "ag-mohan",
+   "name": "A.G. Mohan",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Student of Krishnamacharya in Madras; author of Krishnamacharya: His Life and Teachings (2010)."
   }
  ],
  "edges": [
@@ -1742,25 +1833,35 @@
    "from": "yoga-nath",
    "to": "krishnamacharya",
    "type": "influenced",
-   "evidence": "testimony"
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Hatha yoga texts he cited and taught."
   },
   {
    "from": "krishnamacharya",
    "to": "iyengar",
    "type": "lived-with",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1934,
+   "note": "Brother-in-law; lived with the family in Mysore."
   },
   {
    "from": "krishnamacharya",
    "to": "pattabhi-jois",
    "type": "lived-with",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1927,
+   "note": "Student from 1927 (Hassan), then in Mysore."
   },
   {
    "from": "krishnamacharya",
    "to": "desikachar",
    "type": "family",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Son and student; founded the Krishnamacharya Yoga Mandiram, Madras, 1976."
   },
   {
    "from": "sivananda",
@@ -1799,7 +1900,9 @@
    "from": "kashmir-shaivism",
    "to": "lakshmanjoo",
    "type": "lineage",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Taught the Trika/Pratyabhijna system of Abhinavagupta; the claim of an unbroken chain of masters back to the medieval teachers rests on the tradition's account."
   },
   {
    "from": "bhagavan-nityananda",
@@ -2499,6 +2602,108 @@
    "verified": true,
    "note": "Fellow gurukul student; co-founders of Divya Yog Mandir Trust (1995) and Patanjali Ayurved (2006)",
    "year": 2006
+  },
+  {
+   "from": "kashmir-shaivism",
+   "to": "swami-ram-kashmir",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Line through Swami Manakak (fl. 1860) as presented by the Lakshmanjoo Academy."
+  },
+  {
+   "from": "swami-ram-kashmir",
+   "to": "mahatab-kak",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Mahatab Kak was Swami Ram's chief disciple (G.N. Raina; Lakshmanjoo Academy)."
+  },
+  {
+   "from": "swami-ram-kashmir",
+   "to": "lakshmanjoo",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Family guru; named the boy and taught him the Gayatri mantra (G.N. Raina)."
+  },
+  {
+   "from": "mahatab-kak",
+   "to": "lakshmanjoo",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Entrusted with the boy at about seven; initiated him (Ishwar Ashram Trust); formal initiation at seventeen per Stillness Speaks."
+  },
+  {
+   "from": "lakshmanjoo",
+   "to": "lilian-silburn",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1948
+  },
+  {
+   "from": "lakshmanjoo",
+   "to": "jaideva-singh",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "lakshmanjoo",
+   "to": "alexis-sanderson",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "lakshmanjoo",
+   "to": "john-hughes",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1971,
+   "note": "Studied and recorded in Kashmir 1971–1986; hosted Lakshmanjoo in Los Angeles in 1991."
+  },
+  {
+   "from": "lakshmanjoo",
+   "to": "muktananda",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Muktananda visited him (twice, per Wikipedia); Kashmir Shaivism became the philosophical frame of Siddha Yoga. Lighter branch."
+  },
+  {
+   "from": "ramamohana-brahmachari",
+   "to": "krishnamacharya",
+   "type": "claimed",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "By Krishnamacharya's own account, seven and a half years of study in the Himalaya; journey usually dated c. 1919; no independent record."
+  },
+  {
+   "from": "krishnamacharya",
+   "to": "indra-devi",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1937,
+   "note": "Studied with him in Mysore in the late 1930s."
+  },
+  {
+   "from": "krishnamacharya",
+   "to": "srivatsa-ramaswami",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "krishnamacharya",
+   "to": "ag-mohan",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true
   }
  ]
 }

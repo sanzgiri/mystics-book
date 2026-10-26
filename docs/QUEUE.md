@@ -9,9 +9,9 @@ Status: todo / running / written / checked / merged.
 | Unit | Files | Status |
 |---|---|---|
 | x01 | narayana-guru, chattampi-swamikal (P2) | merged |
-| x02 | lakshmanjoo (P6), krishnamacharya (P5) | running |
+| x02 | lakshmanjoo (P6), krishnamacharya (P5) | merged |
 | x03 | sri-sri-ravi-shankar (P5), ramdev (P13) | merged |
-| x04 | anandamayi-ma (P7), shirdi-sai-baba (P8) | todo |
+| x04 | anandamayi-ma (P7), shirdi-sai-baba (P8) | running |
 | x05 | shiv-dayal-singh (P9), gandhi (P10) | todo |
 | x06 | j-krishnamurti (P12) | todo |
 

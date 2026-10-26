@@ -106,10 +106,11 @@
   },
   {
    "name": "Srinagar",
-   "lat": 34.083,
-   "lon": 74.797,
+   "lat": 34.08,
+   "lon": 74.8,
    "figure": "lakshmanjoo",
-   "what": "Ishwar Ashram"
+   "what": "Birthplace, 1907.",
+   "verified": true
   },
   {
    "name": "Ganeshpuri",
@@ -435,6 +436,54 @@
    "lon": 88.3674,
    "figure": "vivekananda",
    "what": "Birthplace (1863); now the Ramakrishna Mission Swami Vivekananda's Ancestral House and Cultural Centre (opened 2004)",
+   "verified": true
+  },
+  {
+   "name": "Ishwar Ashram, Ishber (above Gupta Ganga, near Nishat Bagh)",
+   "lat": 34.13,
+   "lon": 74.89,
+   "figure": "lakshmanjoo",
+   "what": "His house from 1934 and Ishwar Ashram, overlooking Dal Lake.",
+   "verified": true
+  },
+  {
+   "name": "Harvan",
+   "lat": 34.16,
+   "lon": 74.91,
+   "figure": "lakshmanjoo",
+   "what": "Danyahama, where he studied with Maheshwar Nath Razdan.",
+   "verified": true
+  },
+  {
+   "name": "Noida",
+   "lat": 28.54,
+   "lon": 77.39,
+   "figure": "lakshmanjoo",
+   "what": "Death, 27 September 1991.",
+   "verified": true
+  },
+  {
+   "name": "Jaganmohan Palace, Mysore",
+   "lat": 12.306,
+   "lon": 76.65,
+   "figure": "krishnamacharya",
+   "what": "Yogashala, 1933–1950.",
+   "verified": true
+  },
+  {
+   "name": "Varanasi (Banaras)",
+   "lat": 25.32,
+   "lon": 82.99,
+   "figure": "krishnamacharya",
+   "what": "Sanskrit and philosophical study from c. 1906.",
+   "verified": true
+  },
+  {
+   "name": "Chennai (Madras)",
+   "lat": 13.08,
+   "lon": 80.27,
+   "figure": "krishnamacharya",
+   "what": "Teaching 1952–1989; Krishnamacharya Yoga Mandiram.",
    "verified": true
   }
  ]

@@ -1,0 +1,123 @@
+{
+ "batch": "x02",
+ "nodes_add": [
+  {"id": "swami-ram-kashmir", "name": "Swami Ram (Rama Joo) of Srinagar", "part": 6, "tier": "node", "kind": "person", "note": "Kashmiri Shaiva teacher and Lakshmanjoo's family guru; dates given as 1852–1914 (Lakshmanjoo Academy) or 1854–1915 (other sources)."},
+  {"id": "mahatab-kak", "name": "Swami Mahatab Kak", "born": 1870, "died": 1942, "part": 6, "tier": "node", "kind": "person", "note": "Chief disciple of Swami Ram; initiated Lakshmanjoo and taught him the Shaiva scriptures."},
+  {"id": "lilian-silburn", "name": "Lilian Silburn", "born": 1908, "died": 1993, "part": 6, "tier": "node", "kind": "person", "note": "French Indologist; studied with Lakshmanjoo from 1948 and translated Kashmiri Shaiva texts into French."},
+  {"id": "jaideva-singh", "name": "Jaideva Singh", "born": 1893, "died": 1986, "part": 6, "tier": "node", "kind": "person", "note": "Indian scholar and musicologist; studied with Lakshmanjoo and translated the Shiva Sutras, Spanda Karikas and Vijnana Bhairava into English."},
+  {"id": "alexis-sanderson", "name": "Alexis Sanderson", "born": 1948, "part": 6, "tier": "node", "kind": "person", "note": "Oxford scholar of Shaivism; spent six years in Kashmir studying with Lakshmanjoo."},
+  {"id": "john-hughes", "name": "John Hughes", "part": 6, "tier": "node", "kind": "person", "note": "American student of Lakshmanjoo from 1971; recorded and edited his English teachings (Universal Shaiva Fellowship / Lakshmanjoo Academy)."},
+  {"id": "ramamohana-brahmachari", "name": "Ramamohana Brahmachari", "part": 5, "tier": "node", "kind": "person", "note": "Himalayan yogi whom Krishnamacharya named as his teacher; no independent record has been found."},
+  {"id": "indra-devi", "name": "Indra Devi", "born": 1899, "died": 2002, "part": 5, "tier": "node", "kind": "person", "note": "Born Eugenie Peterson in Riga; studied with Krishnamacharya in Mysore in the late 1930s; taught yoga in Shanghai, Hollywood and Argentina."},
+  {"id": "srivatsa-ramaswami", "name": "Srivatsa Ramaswami", "part": 5, "tier": "node", "kind": "person", "note": "Long-time student of Krishnamacharya in Madras; teaches vinyasa krama."},
+  {"id": "ag-mohan", "name": "A.G. Mohan", "part": 5, "tier": "node", "kind": "person", "note": "Student of Krishnamacharya in Madras; author of Krishnamacharya: His Life and Teachings (2010)."}
+ ],
+ "nodes_update": [
+  {"id": "lakshmanjoo", "born": 1907, "died": 1991, "name": "Swami Lakshmanjoo", "note": "Born Lakshman Raina, Srinagar, 9 May 1907; died Noida, 27 September 1991."},
+  {"id": "krishnamacharya", "born": 1888, "died": 1989, "name": "T. Krishnamacharya", "note": "Born Muchukundapura, 18 November 1888; died Madras, 28 February 1989."}
+ ],
+ "edges_remove": [],
+ "edges_upsert": [
+  {"from": "kashmir-shaivism", "to": "lakshmanjoo", "type": "lineage", "evidence": "documented", "verified": true, "note": "Taught the Trika/Pratyabhijna system of Abhinavagupta; the claim of an unbroken chain of masters back to the medieval teachers rests on the tradition's account."},
+  {"from": "kashmir-shaivism", "to": "swami-ram-kashmir", "type": "lineage", "evidence": "testimony", "verified": true, "note": "Line through Swami Manakak (fl. 1860) as presented by the Lakshmanjoo Academy."},
+  {"from": "swami-ram-kashmir", "to": "mahatab-kak", "type": "initiated", "evidence": "testimony", "verified": true, "note": "Mahatab Kak was Swami Ram's chief disciple (G.N. Raina; Lakshmanjoo Academy)."},
+  {"from": "swami-ram-kashmir", "to": "lakshmanjoo", "type": "influenced", "evidence": "testimony", "verified": true, "note": "Family guru; named the boy and taught him the Gayatri mantra (G.N. Raina)."},
+  {"from": "mahatab-kak", "to": "lakshmanjoo", "type": "initiated", "evidence": "documented", "verified": true, "note": "Entrusted with the boy at about seven; initiated him (Ishwar Ashram Trust); formal initiation at seventeen per Stillness Speaks."},
+  {"from": "lakshmanjoo", "to": "lilian-silburn", "type": "influenced", "evidence": "documented", "verified": true, "year": 1948},
+  {"from": "lakshmanjoo", "to": "jaideva-singh", "type": "influenced", "evidence": "documented", "verified": true},
+  {"from": "lakshmanjoo", "to": "alexis-sanderson", "type": "influenced", "evidence": "documented", "verified": true},
+  {"from": "lakshmanjoo", "to": "john-hughes", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1971, "note": "Studied and recorded in Kashmir 1971–1986; hosted Lakshmanjoo in Los Angeles in 1991."},
+  {"from": "lakshmanjoo", "to": "muktananda", "type": "influenced", "evidence": "testimony", "verified": true, "note": "Muktananda visited him (twice, per Wikipedia); Kashmir Shaivism became the philosophical frame of Siddha Yoga. Lighter branch."},
+  {"from": "yoga-nath", "to": "krishnamacharya", "type": "influenced", "evidence": "testimony", "verified": true, "note": "Hatha yoga texts he cited and taught."},
+  {"from": "ramamohana-brahmachari", "to": "krishnamacharya", "type": "claimed", "evidence": "testimony", "verified": true, "note": "By Krishnamacharya's own account, seven and a half years of study in the Himalaya; journey usually dated c. 1919; no independent record."},
+  {"from": "krishnamacharya", "to": "iyengar", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1934, "note": "Brother-in-law; lived with the family in Mysore."},
+  {"from": "krishnamacharya", "to": "pattabhi-jois", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1927, "note": "Student from 1927 (Hassan), then in Mysore."},
+  {"from": "krishnamacharya", "to": "desikachar", "type": "family", "evidence": "documented", "verified": true, "note": "Son and student; founded the Krishnamacharya Yoga Mandiram, Madras, 1976."},
+  {"from": "krishnamacharya", "to": "indra-devi", "type": "influenced", "evidence": "documented", "verified": true, "year": 1937, "note": "Studied with him in Mysore in the late 1930s."},
+  {"from": "krishnamacharya", "to": "srivatsa-ramaswami", "type": "influenced", "evidence": "documented", "verified": true},
+  {"from": "krishnamacharya", "to": "ag-mohan", "type": "influenced", "evidence": "documented", "verified": true}
+ ],
+ "places": [
+  {"name": "Srinagar", "lat": 34.08, "lon": 74.8, "figure": "lakshmanjoo", "what": "Birthplace, 1907.", "verified": true},
+  {"name": "Ishwar Ashram, Ishber (above Gupta Ganga, near Nishat Bagh)", "lat": 34.13, "lon": 74.89, "figure": "lakshmanjoo", "what": "His house from 1934 and Ishwar Ashram, overlooking Dal Lake.", "verified": true},
+  {"name": "Harvan", "lat": 34.16, "lon": 74.91, "figure": "lakshmanjoo", "what": "Danyahama, where he studied with Maheshwar Nath Razdan.", "verified": true},
+  {"name": "Noida", "lat": 28.54, "lon": 77.39, "figure": "lakshmanjoo", "what": "Death, 27 September 1991.", "verified": true},
+  {"name": "Jaganmohan Palace, Mysore", "lat": 12.306, "lon": 76.65, "figure": "krishnamacharya", "what": "Yogashala, 1933–1950.", "verified": true},
+  {"name": "Varanasi (Banaras)", "lat": 25.32, "lon": 82.99, "figure": "krishnamacharya", "what": "Sanskrit and philosophical study from c. 1906.", "verified": true},
+  {"name": "Chennai (Madras)", "lat": 13.08, "lon": 80.27, "figure": "krishnamacharya", "what": "Teaching 1952–1989; Krishnamacharya Yoga Mandiram.", "verified": true}
+ ],
+ "glossary": [
+  {"term": "Vinyasa", "script": "विन्यास", "lang": "sa", "def": "Arrangement or placing in order; in Krishnamacharya's usage, a counted sequence of movements linked to the breath."},
+  {"term": "Pratyabhijna", "script": "प्रत्यभिज्ञा", "lang": "sa", "def": "Recognition; the Kashmiri Shaiva school holding that liberation is recognising one's own nature as Shiva."},
+  {"term": "Trika", "script": "त्रिक", "lang": "sa", "def": "Threefold; Abhinavagupta's school of Kashmir Shaivism, named for its three goddesses and its triad of Shiva, Shakti and the individual."},
+  {"term": "Anugraha", "script": "अनुग्रह", "lang": "sa", "def": "Grace; in Kashmir Shaivism, the fifth of Shiva's five acts, by which he reveals his own nature."}
+ ],
+ "art": [],
+ "issues": [
+  "lakshmanjoo.mdx: the YouTube channel card (youtube.com/@LakshmanjooAcademy) was removed because the URL could not be fetched or confirmed; re-add if the channel handle is verified.",
+  "krishnamacharya: Muchukundapura is not in places because exact coordinates could not be confirmed.",
+  "lakshmanjoo.mdx: the scene's 1990 Gita recording appears in Wikipedia's bibliography as made in Nepal; the scene does not name the place. Author may wish to add it.",
+  "krishnamacharya.mdx: body is about 3,000 words, at the lower bound for a chapter.",
+  "lakshmanjoo.mdx: Sanderson's chapter in Samvidullasah (2007) is cited by title from memory of the volume; the volume is confirmed but the chapter title was not checked against a table of contents."
+ ],
+ "sources": {
+  "lakshmanjoo": [
+   "born 9 May 1907 Srinagar; died 27 Sept 1991 Noida; Swami Rama Joo 1854–1915; Mehatab Kak 1870–1942; Razdan 1926–1933; ashram 1962; Silburn 1948; Reps 1957; Muktananda visits; USF 1991; Gitartha Samgraha 1933 -> https://en.wikipedia.org/wiki/Lakshman_Joo",
+   "father Narayandas Raina, houseboats; mother Aranyamali; named by Swami Ram; Gayatri; entrusted to Mahtab Kak at seven; experience at 20 at 4 a.m.; Sadhuganga ashram at Sopore, then Danyahama, Harvan; Razdan seven years; ashram built 1934 -> https://ikashmir.net/gnraina/lakshmanjoo.html",
+   "Swami Ram 1852–1914; badhi bhod 'greater than the greatest'; glimpse at nineteen and celibacy vow; visitors from 1965; 'the last in an unbroken chain of Masters'; Manakak 1860 -> https://lakshmanjooacademy.org/swami-lakshmanjoo",
+   "formal initiation at seventeen; vow of lifelong celibacy; established Ishwara Ashram Trust; laid foundation for USF -> https://www.stillnessspeaks.com/teacher/swami-lakshmanjoo/",
+   "Hughes to Kashmir 1971 for PhD; fifteen years; left 1986; 8 books and 35 hours of video -> https://www.lakshmanjooacademy.org/editor-in-chief",
+   "84th birthday celebrated 11 April 1991 in LA; one of eighteen children; live 15 more years, mahasamadhi 2006; Gopi Krishna sought authentication, 'He didn't give it'; Kaviraj 'He was secretly my disciple' -> https://hinduismtoday.com/magazine/july-1991/1991-07-last-bhairav-master-will-teach-until-year-2006/",
+   "'Through viewing this!'; 'They will be initiated by themselves'; 1990 Gita commentary; recordings to be transcribed and published -> https://lakshmanjooacademy.org/blog/how-will-people-be-initiated-in-kashmir-shaivism",
+   "'There is no question of deserving. Grace can shine on anybody.' -> https://www.lakshmanjooacademy.org/blog/why-doesnt-lord-shiva-give-grace-to-everyone-grace-in-kashmir-shaivism%2F",
+   "'secretly in deserved hearts of disciples' -> https://lakshmanjooacademy.org/blog/how-lord-shiva-creates-masters-and-disciples-in-kashmir-shaivism",
+   "annual havan at Ishwar Ashram, Srinagar; 'Great Sage of Ishber' -> https://ishwarashramtrust.com/about",
+   "Sanderson six years in Kashmir with Lakshman Joo -> https://en.wikipedia.org/wiki/Alexis_Sanderson"
+  ],
+  "krishnamacharya": [
+   "born 18 Nov 1888 Muchukundapura; died 28 Feb 1989 Madras; eldest of six; father died when he was ten; Mysore at 12, Parakala Matha; Banaras 1906; Queen's College, Patna; Irwin, Simla, 1919; Kailash cave; married Namagiriamma 1925; coffee plantation Hasan; Maharaja in Banaras 1926; Town Hall 1931; yogashala 11 Aug 1933; Yoga Makaranda 1934; Yogasanagalu c. 1941; closed 1950; Madras 1952; Vivekananda College; Goldberg on abuse; 'Teach what is appropriate for an individual' -> https://en.wikipedia.org/wiki/Tirumalai_Krishnamacharya",
+   "Iyengar: 'those few days determined what I have become today'; joined 1934 -> https://en.wikipedia.org/wiki/B._K._S._Iyengar",
+   "Iyengar: 'He would hit us hard on our backs as if with iron rods' (Astadala Yogamala 1:52) -> https://yogaanatomy.org/wp-content/uploads/2023/11/Seizing-the-Whip-B.-K.-S.-Iyengar-and-the-Making-of-Modern-Yoga-.-Eric-Shaw.-December-2016.pdf",
+   "Desikachar 1995: 'What makes my father's yoga teachings unique is his insistence on attending to each individual and to his or her uniqueness.' -> https://www.yogajournal.com/yoga-101/philosophy/krishnamacharya/",
+   "Pagés Ruiz: five conflicting Korunta accounts; 1920s demonstrations (pulse, cars, teeth) -> https://www.yogajournal.com/yoga-101/history-of-yoga/krishnamacharya-s-legacy/",
+   "Korunta found in Calcutta University Library, later damaged by ants -> https://www.ashtangayoga.info/ashtangayoga/spot-on-tradition/111998-roots-of-a-tradition/",
+   "Singleton: not cited in Yoga Makaranda; surprising no copies -> https://en.wikipedia.org/wiki/Yoga_Korunta",
+   "1938 film, 57 min, sponsored by Maharaja, young Iyengar, 'may be the earliest footage of harmoniously linked postures' -> https://asia.si.edu/explore-art-culture/video/yoga-the-art-of-transformation/t-krishnamacharya-asanas",
+   "K.V. Iyer gymnasium next to yogasala; silent film for national circulation; Sritattvanidhi -> https://wellcomecollection.org/stories/yoga-adapts-to-time-and-place",
+   "Sjoman 1996/1999 Abhinav; 122 asanas; Vyayama Dipika; ropes, mallakhamba; Singleton compares to Bukh -> https://en.wikipedia.org/wiki/The_Yoga_Tradition_of_the_Mysore_Palace",
+   "Singleton preface: no plagiarism claim, 'adaptation, reframing, reinterpretation'; hostile criticism; ashtanga dandavat; Gourley 'a bold and stunning hypothesis' -> https://en.wikipedia.org/wiki/Yoga_Body"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 112,
+  "changes": [
+   "lakshmanjoo.mdx subtitle: 'celibate householder-yogi' changed to 'celibate yogi without monastic vows' (he never married or ran a household; Lakshmanjoo Academy, Stillness Speaks).",
+   "lakshmanjoo.mdx glance: 11 April birthday reframed as the date his 84th birthday was celebrated in 1991; removed lunar-calendar speculation (Hinduism Today, July 1991).",
+   "lakshmanjoo.mdx scene: John Hughes does not speak in the transcript; scene now names Denise Hughes and Jonathan. The 'initiated by themselves' answer concerned people who meet the teaching through the transcribed lectures, not 'only read the books'; quote made verbatim (Lakshmanjoo Academy blog, 2 Jan 2024).",
+   "lakshmanjoo.mdx Life: removed unsourced 'simple yogic exercises'; added age seven for the handover to Mahatab Kak (G.N. Raina).",
+   "lakshmanjoo.mdx Life and Places: the ashram he ran away to was Sadhuganga, placed at Sopore (G.N. Raina) or Handwara (Wikipedia); Harvan (Danyahama) was where he later studied with Razdan. The draft had conflated them.",
+   "lakshmanjoo.mdx Life: father 'persuaded' him back (Wikipedia); 1933 publication described as an edition of the Gitartha Samgraha (the Hindi commentary dates from 1986 per Wikipedia).",
+   "lakshmanjoo.mdx Life: Muktananda 'spent several summers near him' changed to 'visited him' (Wikipedia: two visits); 'next chapter' changed to 'has his own chapter in this part'.",
+   "lakshmanjoo.mdx Life: Universal Shaiva Fellowship founding hedged to the Academy's account; Ishwar Ashram Trust was set up by him, not formed by devotees after his death, and the havan is held at the ashram in Srinagar (Stillness Speaks; ishwarashramtrust.com).",
+   "lakshmanjoo.mdx Teaching: unverified direct quotation 'This whole universe is the expansion of your own nature' paraphrased; 'Lakshmanjoo liked to say' for Shiva/Shakti changed to 'as the tradition puts it'.",
+   "lakshmanjoo.mdx Lineage: Somananda was not Abhinavagupta's teacher (he was Utpaladeva's); reworded.",
+   "lakshmanjoo.mdx Places: removed 'his only visit to the United States' (unverified).",
+   "lakshmanjoo.mdx Own voice: '8 books and 35 hours of video' attributed to the Lakshmanjoo Academy editor page, not the USF; removed unverifiable YouTube channel card.",
+   "lakshmanjoo.mdx Critiques: removed unverified claim that John Hughes holds copyright; Kaviraj item now quotes the 1991 interview verbatim and drops the insinuation about Kaviraj's circle.",
+   "lakshmanjoo.mdx References: Hinduism Today byline corrected (staff byline; correspondent Archana Dongre).",
+   "krishnamacharya.mdx Life: Singleton's point restated as documented (Singleton and Tara Fraser on contradictory accounts; Wikipedia).",
+   "krishnamacharya.mdx Yoga Korunta: Calcutta story attributed to Ronald Steiner's version (University Library, ants later), with note that other versions differ.",
+   "krishnamacharya.mdx Mysore: Maharaja's crediting yoga for his ailments hedged; K.V. Iyer's gym attributed to Wellcome Collection and 'that many young men preferred' cut (unsourced); demonstrations dated to the 1920s per Pagés Ruiz rather than 'accounts from the 1920s and 1930s collected by' him.",
+   "krishnamacharya.mdx Critiques: Sjoman 'longtime student of Iyengar' softened to 'had studied with Iyengar'; Gourley review corrected to his actual words ('a bold and stunning hypothesis', not persuaded) (Wikipedia, Yoga Body).",
+   "krishnamacharya.mdx Critiques: added a verbatim Iyengar quotation on beatings with source; removed unverifiable claim that no formal complaint was made.",
+   "krishnamacharya.mdx References: added URL to Pagés Ruiz article, Iyengar's Astadala Yogamala vol. 1 and Eric Shaw's 2016 paper; renumbered."
+  ],
+  "unresolved": [
+   "Lakshmanjoo Academy YouTube channel URL not verifiable from this session (fetch blocked); card removed.",
+   "Formal initiation at seventeen rests on Stillness Speaks only; G.N. Raina and Wikipedia do not give the age.",
+   "Sanderson chapter title in Samvidullasah (2007) not checked against the volume's contents.",
+   "Krishnamacharya's scholarly titles (Samkhya-yoga-shikhamani, Mimamsa-ratna) come from family biographies; Wikipedia lists Yogacharya and Veda-kesari. Left as attributed.",
+   "Krishnamacharya Yoga Mandiram founding year 1976 not independently re-checked in this pass (widely given)."
+  ]
+ }
+}
