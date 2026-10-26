@@ -60,3 +60,7 @@ Status: todo / running / written / checked / merged.
 1. Epilogue from the verdicts and the finished graph.
 2. Full build, link check, style check, status page review.
 3. Compile docs/OPEN_ISSUES.md from docs/OPEN_ISSUES_BATCHES.md.
+
+## Auto-resume
+
+A scheduled check-in fires every ~3 hours (send_later). On each check-in: resume stopped agents, merge finished units, keep 4 running, push, and schedule the next check-in. When a usage limit hits, schedule a check-in for 5 minutes after the reset time.
