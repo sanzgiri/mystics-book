@@ -1,0 +1,242 @@
+{
+ "batch": "w32",
+ "nodes_add": [
+  {
+   "id": "gurdjieff",
+   "name": "G. I. Gurdjieff",
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Armenian-Greek teacher of the Fourth Way. Osho's Poona work departments were modelled on Gurdjieff's 1930s community in France, and his picture of 'man as a machine' resembles Gurdjieff's. Birth/death years not verified in this batch."
+  },
+  {
+   "id": "human-potential-movement",
+   "name": "Human potential movement (Esalen and encounter therapy)",
+   "part": 13,
+   "tier": "node",
+   "kind": "movement",
+   "note": "Western group therapies (encounter, primal, bodywork) brought to the Poona ashram from 1975 by therapists who became sannyasins; Wilhelm Reich's body therapy is cited as an influence on the active meditations. Time magazine called the ashram the 'Esalen East'."
+  },
+  {
+   "id": "ma-anand-sheela",
+   "name": "Ma Anand Sheela",
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Rajneesh's secretary 1981-85 and head of Rajneeshpuram. Entered Alford pleas on 22 July 1986 to charges including the 1984 Dalles salmonella poisoning and attempted murder of Rajneesh's physician; concurrent sentences up to 20 years; paroled after 29 months; later lived in Switzerland. Birth year given as 1949 or 1950 in different sources; omitted."
+  },
+  {
+   "id": "osho-international-foundation",
+   "name": "Osho International Foundation",
+   "part": 13,
+   "tier": "node",
+   "kind": "institution",
+   "era": "Zurich; formerly Rajneesh International Foundation / Neo-Sannyas International Foundation",
+   "note": "Swiss foundation that claims copyright in Osho's words and holds the OSHO trademark; runs the Osho International Meditation Resort, Pune. US OSHO marks cancelled January 2009; EU mark upheld by the General Court 11 October 2017."
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "osho",
+   "born": 1931,
+   "died": 1990,
+   "name": "Osho (Rajneesh)",
+   "note": "Chandra Mohan Jain, born Kuchwada 11 Dec 1931; awakening by his account 21 Mar 1953, Jabalpur; philosophy lecturer Jabalpur 1958-66; Dynamic Meditation 1970; first neo-sannyas 26 Sept 1970 (Manali); Poona 1974-81; Rajneeshpuram 1981-85; Alford/guilty plea to two immigration counts Nov 1985; returned to Pune Jan 1987; died Pune 19 Jan 1990."
+  }
+ ],
+ "edges_remove": [],
+ "edges_upsert": [
+  {
+   "from": "jain-tradition",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1931,
+   "note": "Born into a Digambar Jain family whose parents followed Taran Svami; his 1968 sex lectures began at a Jain youth group's Paryushan series and provoked Jain anger."
+  },
+  {
+   "from": "kashmir-shaivism",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Discourses on the Vijnana Bhairava Tantra's 112 methods, published as The Book of Secrets."
+  },
+  {
+   "from": "tantra-shakta",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1968,
+   "note": "Tantric acceptance of desire as a path, from the 1968 talks (From Sex to Superconsciousness) through discourses on Tilopa's Song of Mahamudra (Tantra: The Supreme Understanding)."
+  },
+  {
+   "from": "buddhist-tradition",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1988,
+   "note": "Many Zen discourse series; from early 1988 his talks dealt almost entirely with Zen. Also Tilopa (Tibetan Mahamudra)."
+  },
+  {
+   "from": "sufi-orders",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Discourse series on Sufi teaching stories; Sufi dance compared with his active meditations."
+  },
+  {
+   "from": "bhagavad-gita",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Discourses on the Gita (title confirmed only via a Romanian bibliography; English/Hindi titles not checked)."
+  },
+  {
+   "from": "christianity",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Discourse series on the sayings of Jesus and on the Gospel of Thomas."
+  },
+  {
+   "from": "upanishads",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Discourses on several Upanishads (Kena, Mandukya, Sarvasar, Kaivalya, Adhyatma, Akshya). Lewis Carter saw his ideas as rooted in Advaita."
+  },
+  {
+   "from": "sant-tradition",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Discourses on the poems of Kabir."
+  },
+  {
+   "from": "gurdjieff",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Poona work communities modelled on Gurdjieff's 1930s community in France; 'man as a machine'."
+  },
+  {
+   "from": "human-potential-movement",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1975,
+   "note": "Therapy groups run at the Poona ashram from 1975 by Western therapists; central to ashram life and income."
+  },
+  {
+   "from": "osho",
+   "to": "ma-anand-sheela",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1981,
+   "note": "Secretary and head of Rajneeshpuram 1981-85; denounced by Rajneesh as a 'gang of fascists' 16 Sept 1985."
+  },
+  {
+   "from": "osho",
+   "to": "osho-international-foundation",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1990,
+   "note": "Holds copyright and trademark claims to his name and words after his death; runs the Pune resort."
+  }
+ ],
+ "places": [
+  {"name": "Gadarwara", "lat": 22.923, "lon": 78.785, "figure": "osho", "what": "Parents' town, where he grew up from about age eight.", "verified": true},
+  {"name": "Jabalpur", "lat": 23.181, "lon": 79.986, "figure": "osho", "what": "Bhanvartal garden awakening (21 March 1953, by his account); studied and taught philosophy, lecturer 1958, professor 1960, resigned 1966.", "verified": true},
+  {"name": "Mumbai (Bombay)", "lat": 18.968, "lon": 72.809, "figure": "osho", "what": "1968 talks at Bharatiya Vidya Bhavan and Gowalia Tank; Woodlands apartment from December 1970. Coordinates are approximate for the Peddar Road area.", "verified": false},
+  {"name": "Manali", "lat": 32.240, "lon": 77.189, "figure": "osho", "what": "Meditation camp where the first neo-sannyasins were initiated, 26 September 1970.", "verified": true},
+  {"name": "Osho International Meditation Resort, Koregaon Park, Pune", "lat": 18.536, "lon": 73.893, "figure": "osho", "what": "Ashram from 1974; his death, cremation and samadhi, 1990.", "verified": true},
+  {"name": "Rajneeshpuram (Big Muddy Ranch), Oregon", "lat": 44.842, "lon": -120.482, "figure": "osho", "what": "Commune city 1981-85, incorporated May 1982; now Young Life's Washington Family Ranch.", "verified": true},
+  {"name": "The Dalles, Oregon", "lat": 45.594, "lon": -121.179, "figure": "osho", "what": "Town whose restaurant salad bars were contaminated with salmonella by Rajneeshpuram leaders, 1984.", "verified": true},
+  {"name": "Kuchwada, Raisen district", "figure": "osho", "what": "Birthplace, 11 December 1931. Coordinates not verified; omitted.", "verified": false}
+ ],
+ "glossary": [
+  {"term": "Dhyana", "script": "ध्यान", "lang": "sa", "def": "Meditation. In Hindi, dhyan; Osho's early camps taught what he called Rajneesh Dhyan Yoga."},
+  {"term": "Mala", "script": "माला", "lang": "sa", "def": "A string of beads, usually 108, for counting prayers or mantras. Osho's neo-sannyasins wore one with his picture in a locket as the sign of initiation."},
+  {"term": "Bhagwan", "script": "भगवान", "lang": "hi", "def": "Lord, blessed one; a word for God also used by devotees of some saints. Rajneesh's title from 1971 to 1989."},
+  {"term": "Sakshi", "script": "साक्षी", "lang": "sa", "def": "The witness: awareness that watches thoughts, feelings and actions without identifying with them. Central to Osho's meditations."},
+  {"term": "Sambhog", "script": "संभोग", "lang": "hi", "def": "Sexual union. Used in the Hindi title of the talks published in English as From Sex to Superconsciousness."},
+  {"term": "Satori", "script": "悟り", "lang": "ja", "def": "Zen term for a sudden glimpse of awakening. Common in Osho's Zen discourses."},
+  {"term": "Neo-sannyas", "def": "Osho's form of initiation (from 1970): a new name, orange or red clothes and a mala, worn by people who stay in the world instead of renouncing it."}
+ ],
+ "art": [],
+ "issues": [
+  "osho.mdx: Alford plea. Wikipedia (Rajneesh; Rajneesh movement) calls his November 1985 plea an Alford plea, but no fetched contemporary source (New Republic, Seattle Times, Britannica, EBSCO) used the term; they say he pleaded guilty. Chapter says 'widely described as an Alford plea' and notes the news reports. A primary source (court record, Oregonian, UPI 15 Nov 1985 - the UPI page failed to load) should confirm the plea form and exact date (14 Nov 1985 assumed from UPI URL but not stated in text).",
+  "osho.mdx: Number of counts in the October 1985 indictment differs: 34 (Wikipedia, arraignment) vs 35 (New Republic). Chapter gives both.",
+  "osho.mdx: First neo-sannyas initiation 26 Sept 1970 placed in Manali by Osho News (Ma Dharm Jyoti accounts) and in Mumbai by Wikipedia. Chapter says Manali and notes the alternative.",
+  "osho.mdx: Start of Jabalpur teaching: 1958 (Wikipedia) vs 1957 (Britannica). Both given.",
+  "osho.mdx: 'Histories of the movement report the ashram stopped permitting physical violence in groups in January 1979' rests only on Wikipedia; needs a book source (e.g. Urban 2015 or Fox 2002).",
+  "osho.mdx: The salmonella attack described as 'regarded as the first confirmed case of biological terrorism in the United States' follows Wikipedia's wording; check against Torok et al. JAMA 1997.",
+  "osho.mdx: The 1994 Sociology of Religion study and FitzGerald quote are taken from the Wikipedia article on the attack; not seen in the originals. FitzGerald's book (Cities on a Hill, 1986) not cited in References for that reason.",
+  "osho.mdx: Pune land sale: Supreme Court appeal by OIF was listed for 22 July 2024 (ThePrint); outcome not checked. Update before publication.",
+  "osho.mdx: Death time: spokesman said 5:30 p.m. (Seattle Times); Gokani says he was summoned at 5 p.m. and the NewsMinute says declared dead at 5 p.m. Chapter gives both accounts without resolving.",
+  "osho.mdx: Abhay Vaidya, Who Killed Osho? publication year and publisher not verified; given without year.",
+  "osho.mdx: The 2013 will: one source (Quint) mentions a 2013 US court case; NewsMinute says it was 'produced in 2013' and later withdrawn by Jayesh and Amrito (attributed to Vaidya). Chapter keeps it general.",
+  "osho.mdx: Official Osho International YouTube channel URL not seen directly (only the handle @oshointernational via third-party stats sites); media card marked [link to locate].",
+  "osho.mdx: Epitaph quoted from Wikipedia's text (which uses an en dash); confirm against a photo or the resort's site.",
+  "osho.mdx: Glimpses of a Golden Childhood is described both as dictated in Oregon (Wikipedia) and as his account of childhood mentors; publication year not given.",
+  "osho.mdx: Kundalini Meditation's usual evening timing, and other active meditations (Nataraj, Mystic Rose, No-Mind) were left out because not verified on a fetched page.",
+  "w32.json: Sheela's birth year (1949 vs 1950, Oregon History Project) and Gurdjieff's dates omitted."
+ ],
+ "sources": {
+  "osho": [
+   "Born Chandra Mohan Jain 11 Dec 1931, Kuchwada, Raisen; eldest of 11; cloth merchant father; Digambar Jain, Taran Svami -> https://en.wikipedia.org/wiki/Rajneesh",
+   "Born 11 Dec 1931 Kuchwada; BA 1955, MA Saugar, began teaching 1957; pleaded guilty 1985; refused by 21 countries; died 19 Jan 1990 Pune -> https://www.britannica.com/print/article/490155",
+   "Hitkarini College 1951, D.N. Jain College BA 1955, MA Sagar 1957 with distinction; Raipur vice-chancellor transfer; lecturer 1958, professor 1960, resigned 1966 -> https://en.wikipedia.org/wiki/Rajneesh",
+   "Enlightenment 21 March 1953, Bhanvartal garden Jabalpur (his account) -> https://en.wikipedia.org/wiki/Rajneesh",
+   "Mentors Nani, Pagal Baba, Magga Baba, Masto; Magga Baba touched his feet; Nani first disciple -> https://www.oshonews.com/2026/03/20/oshos-mentors/",
+   "Acharya Rajneesh; Gandhi 'masochist reactionary who worshipped poverty'; socialism would socialise poverty; camps from 1962; Jivan Jagruti Kendra -> https://en.wikipedia.org/wiki/Rajneesh",
+   "28 Aug 1968 Bharatiya Vidya Bhavan talk at Jain Paryushan series; Gowalia Tank 28 Sept-2 Oct 1968; 25,000-30,000 attended; book From Sex to Superconsciousness -> https://www.oshonews.com/2018/01/07/sex-religion-and-life/",
+   "'sex guru' label; Mumbai end June 1970; Woodlands Dec 1970; title Bhagwan 1971 -> https://en.wikipedia.org/wiki/Rajneesh",
+   "First sannyas 26 Sept 1970 in Kulu Manali -> https://www.oshonews.com/2015/12/26/sannyas-from-the-beginning-to-now/",
+   "Manali camp first group of sannyasins; orange lungi and kurta; 'Acharya Rajneesh Ke Pravachan' -> https://www.oshonews.com/2024/09/19/ma-dharm-jyoti-tnn/",
+   "Poona 1974 on 21st anniversary; Ma Yoga Mukta (Catherine Venizelos); daily Dynamic, Buddha Hall lectures, evening darshans; therapy groups from 1975; ~30,000 visitors/yr by 1981; violence ended Jan 1979; Price broken arm -> https://en.wikipedia.org/wiki/Rajneesh",
+   "Poona day began with Dynamic; 7,000-8,000 people in red; Time 'Esalen East'; Tao Group quote 'two cracked ribs, a concussion, and a subconjunctival hemorrhage in each eye' -> https://newrepublic.com/article/147911/beautiful-place-ashram",
+   "Boadella: 'violence, bone-breakinq presented as good for the soul' (OCR); Dick Price resigned after brutality in encounter groups -> https://cdn.ahpweb.org/AHPb/self-and-society/15_05/RSEL_A_11084865_O.pdf",
+   "Ashram in Poona film, Wolfgang Dobrowolny, 1981; condemned by followers; woman said therapy helped her overcome fear of men -> https://www.oshonews.com/2011/08/01/ashram-the-movie/",
+   "Dynamic Meditation five stages, durations, silent version; source Meditation: The First and Last Freedom -> https://www.oshonews.com/2011/02/15/osho-dynamic-meditation/",
+   "Quote 'This is a meditation in which you have to be continuously alert, conscious, aware of whatsoever you do.' (A Bird on the Wing ch.1) -> https://www.oshonews.com/?p=58795",
+   "Osho never tells people to begin by just sitting; cathartic methods for modern people -> https://en.wikipedia.org/wiki/Dynamic_meditation",
+   "Kundalini Meditation four 15-minute stages -> https://www.oshonews.com/2011/02/15/osho-kundalini-meditation-2/",
+   "Quote 'The new man I talk about, and the new humanity, will not be Eastern or Western. It will believe in the totality of man.' (Book of Wisdom ch.26) -> https://www.oshonews.com/2013/05/27/zorba-the-buddha/",
+   "'materialist spiritualist', 'rich man's guru' (Urban) -> https://readingreligion.org/books/zorba-buddha",
+   "Gurdjieff work-community model, 'man as machine'; Reich influence on dynamic meditations; Zen exclusively from early 1988; >100 techniques; mala with locket; optional since 1985; denied being religious teacher 30 Sept 1985; 'a religionless religion'; Carter: rooted in Advaita; dictated books in Oregon -> https://en.wikipedia.org/wiki/Rajneesh",
+   "Discourse titles on Tilopa, Patanjali, Kabir, Lao Tzu, Chuang Tzu, Upanishads, Jesus, Gospel of Thomas, Sufi stories, Gita, Zen -> https://www.bibmet.ro/wp-content/uploads/2019/11/OSHO_Bibliografie-completa_Simona-Galatchi.pdf",
+   "Silence 10 Apr 1981-30 Oct 1984; US 1 June 1981 tourist visa; ranch 64,229 acres $5.75m; moved 29 Aug 1981; incorporated May 1982; 93 Rolls-Royces -> https://en.wikipedia.org/wiki/Rajneesh",
+   "Rajneeshpuram coordinates 44.842 N 120.482 W; ~7,000 peak; now Young Life Washington Family Ranch -> https://en.wikipedia.org/wiki/Rajneeshpuram",
+   "Sheela and leaders left Sept 14 1985; 750 sickened; plea bargain and agreement to leave -> https://oregonencyclopedia.org/articles/rajneeshees",
+   "Salmonella Typhimurium; 751 ill, 45 hospitalised, none died; Sheela and Puja Alford pleas 22 July 1986; concurrent terms up to 20 and 15 years; paroled after 29 months; Rajneesh never prosecuted for attack; 16 Sept 1985 'gang of fascists'; Knapp quote; 1994 study; FitzGerald quote; Torok JAMA 1997 -> https://en.wikipedia.org/wiki/1984_Rajneeshee_bioterror_attack",
+   "Indicted 23 Oct 1985; arrested 28 Oct Charlotte, Learjets, Bermuda; arraigned 8 Nov before Judge Leavy, 34 counts; Alford plea to two counts (visa intent; sham marriage); 10-yr suspended, 5 yrs probation, $400,000; not return 5 yrs -> https://en.wikipedia.org/wiki/Rajneesh",
+   "35 counts; 10-year suspended sentence, five years probation, $400,000 fine; ordered by Judge Edward Leavy to leave; left immediately -> https://newrepublic.com/article/147914/bhagwans-final-year",
+   "World tour: Delhi 17 Nov 1985; Crete arrest; Uruguay 19 June 1986; Jamaica; Bombay 30 July 1986; Pune Jan 1987; Osho Rajneesh Feb 1989, Osho Sept 1989; last discourse April 1989; epitaph; commune poisoning claim -> https://en.wikipedia.org/wiki/Rajneesh",
+   "Died 19 Jan 1990 heart failure; 'Osho left his body at 5:30 p.m. The doctors say it's heart failure,'; Sheela pleaded guilty to attempted murder etc. -> https://archive.seattletimes.com/archive/19900119/1051537/bhagwan-rajneesh-dies-at-58----former-oregon-guru-had-been-living-in-india",
+   "Gokani called ~5pm, asked by Amrito and Jayesh to record heart cause to avoid post-mortem; cremated within the hour; Sadhana: 'Anyone can say anything. What's the proof?' and 'It's completely wrong. I cannot comment on it as the matter is in court.' -> https://thequint.com/news/india/was-osho-killed-7-haunting-questions-return-after-26-years",
+   "Gokani ENT surgeon (Swami Anand Krishna); Vaidya, Who Killed Osho?; will produced 2013, withdrawn by Jayesh and Amrito -> https://www.thenewsminute.com/article/who-killed-osho-interview-author-abhay-vaidya-64965",
+   "2013 FIR by Yogesh Thakkar alleging forged will and misappropriation; Pune police C summary; Bombay HC Oct 2018 refused CBI probe -> https://www.oshonews.com/2018/10/16/bombay-hc-no-to-cbi-probe-into-osho-will/",
+   "EU General Court 11 Oct 2017 upheld OIF's OSHO trademark against Osho Lotus Commune, Cologne -> https://www.oshonews.com/2017/10/15/osho-brand-belongs-to-zurich-entity-rules-european-court/",
+   "US cancellation Jan 2009 after Osho Friends International challenge; 'The primary significance of Osho is as a religious or meditation movement.'; OIF claims copyright to 'all the published and unpublished words' -> https://www.oshonews.com/2017/12/07/osho-can-the-name-of-an-india-born-spiritual-guru-become-a-european-trademark/",
+   "US OSHO trademark lost Jan 2009 after 10-year battle with OFI; ~200,000 visitors/yr (SFGate 2004); two 1.5-acre plots; ten disciples objected -> https://en.wikipedia.org/wiki/Rajneesh_movement",
+   "Delhi HC plea by Osho Friends International, March 2025, responses sought from Centre and Trademark Registry -> https://www.barandbench.com/news/litigation/plea-delhi-high-court-disallow-registration-trademarks-name-osho",
+   "Land sale: Rs 107 crore to Rajivnayan Rahulkumar Bajaj and Rishab Family Trust, MOU 8 Dec 2020; JCC refused Dec 2023, special audit 2005-2023, funds diverted finding; HC (Kulkarni, Pooniwalla) dismissed 8 Apr 2024, no 'genuine and compelling case'; OIF cited COVID, Ukraine war -> https://www.oshonews.com/2024/04/09/bombay-hc-dismisses-osho-intl-foundations-challenge-to-jcc-denying-it-permission-to-sell-koregaon-plot/",
+   "OIF appealed to Supreme Court, listed 22 July 2024 -> https://theprint.in/ground-reports/osho-land-feud-is-a-battle-for-legacy-rebel-swamis-court-cases-bollywood-factor/2183039/",
+   "KGW 1984 Peabody documentary -> https://kgw.com/article/news/archive-kgw-documentary-of-rajneeshpuram-commune-in-oregon/283-151859"
+  ]
+ }
+}
