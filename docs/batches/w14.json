@@ -1,0 +1,90 @@
+{
+  "batch": "w14",
+  "nodes_add": [
+    {"id": "deepak-chopra", "name": "Deepak Chopra", "born": 1946, "part": 5, "tier": "node", "kind": "person", "note": "Endocrinologist; met Maharishi 1985, directed the movement's Ayurvedic centre at Lancaster, Massachusetts, promoted Maharishi Ayur-Veda; parted from the movement in the early 1990s"},
+    {"id": "tony-nader", "name": "Tony Nader (Maharaja Adhiraj Rajaraam)", "part": 5, "tier": "node", "kind": "person", "note": "Physician and neuroscientist; named head of the Global Country of World Peace (2000); leads the TM organisations after Maharishi's death in 2008"}
+  ],
+  "nodes_update": [
+    {"id": "maharishi", "name": "Maharishi Mahesh Yogi", "born": 1918, "died": 2008, "note": "Born Mahesh Prasad Varma (also Srivastava), 12 January 1917 or 1918 (1911 in some accounts), near Jabalpur; died Vlodrop, Netherlands, 5 February 2008; cremated at the Sangam, Allahabad, 11 February 2008. Founder of Transcendental Meditation."},
+    {"id": "brahmananda-saraswati", "name": "Brahmananda Saraswati (Jyotirmath)", "born": 1868, "died": 1953, "note": "Born Rajaram Mishra near Ayodhya; birth year given as 1868, 1870 or 1871; sannyasa 1904; Shankaracharya of Jyotirmath from April 1941 until his death in 1953; called Guru Dev in the TM movement"}
+  ],
+  "edges_remove": [],
+  "edges_upsert": [
+    {"from": "advaita-vedanta", "to": "brahmananda-saraswati", "type": "lineage", "evidence": "documented", "verified": true, "year": 1941, "note": "Installed as Shankaracharya of Jyotirmath, April 1941"},
+    {"from": "brahmananda-saraswati", "to": "maharishi", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1941, "note": "Disciple and secretary about thirteen years, by most accounts 1941-1953, as Bal Brahmachari Mahesh; not eligible to succeed (not a Brahmin, not a sannyasi). TM initiation ceremony honours Brahmananda as Guru Dev."},
+    {"from": "maharishi", "to": "sri-sri-ravi-shankar", "type": "lived-with", "evidence": "documented", "verified": true, "note": "Worked and travelled with Maharishi from the mid-1970s until about 1980-81"},
+    {"from": "maharishi", "to": "deepak-chopra", "type": "influenced", "evidence": "documented", "verified": true, "year": 1985, "note": "Met Maharishi 1985; directed the movement's Ayurvedic centre at Lancaster, Massachusetts; parted in the early 1990s after the 1991 JAMA controversy (Warrier)"},
+    {"from": "maharishi", "to": "tony-nader", "type": "institutional", "evidence": "documented", "verified": true, "year": 2000, "note": "Named head of the Global Country of World Peace (2000) as Maharaja Adhiraj Rajaraam; took over leadership on Maharishi's death, 2008"}
+  ],
+  "places": [
+    {"name": "Jabalpur", "lat": 23.181, "lon": 79.986, "figure": "maharishi", "what": "Birthplace in most accounts (city-level coordinates; year and exact place disputed)", "verified": true},
+    {"name": "Jyotirmath", "lat": 30.556, "lon": 79.566, "figure": "maharishi", "what": "Seat of his teacher Brahmananda Saraswati, Shankaracharya from 1941", "verified": true},
+    {"name": "Allahabad University", "lat": 25.462, "lon": 81.858, "figure": "maharishi", "what": "Physics degree, 1942", "verified": true},
+    {"name": "Uttarkashi", "lat": 30.727, "lon": 78.435, "figure": "maharishi", "what": "About two years of retreat after Brahmananda's death, 1953-55", "verified": true},
+    {"name": "Madras (Chennai)", "lat": 13.083, "lon": 80.270, "figure": "maharishi", "what": "Seminar founding the Spiritual Regeneration Movement, late 1957 or 1 January 1958 (city-level)", "verified": true},
+    {"name": "Chaurasi Kutia (Beatles Ashram), Rishikesh", "lat": 30.112, "lon": 78.313, "figure": "maharishi", "what": "Maharishi's ashram; teacher training from 1961; the Beatles' stay, February-April 1968; now in Rajaji National Park (approximate coordinates)", "verified": true},
+    {"name": "London Hilton, Park Lane", "lat": 51.505, "lon": -0.150, "figure": "maharishi", "what": "Lecture attended by the Beatles, 24 August 1967", "verified": true},
+    {"name": "Bangor, Wales", "lat": 53.228, "lon": -4.129, "figure": "maharishi", "what": "Course attended by the Beatles, August 1967", "verified": true},
+    {"name": "Seelisberg, Switzerland", "lat": 46.972, "lon": 8.585, "figure": "maharishi", "what": "Movement headquarters from about 1968 until 1990 (village-level)", "verified": true},
+    {"name": "Fairfield, Iowa", "lat": 41.009, "lon": -91.963, "figure": "maharishi", "what": "Maharishi International University from 1974", "verified": true},
+    {"name": "Vlodrop, Netherlands", "lat": 51.133, "lon": 6.083, "figure": "maharishi", "what": "Headquarters and residence from 1990; died here 5 February 2008 (village-level)", "verified": true},
+    {"name": "Sangam, Allahabad", "lat": 25.424, "lon": 81.885, "figure": "maharishi", "what": "Cremation, 11 February 2008", "verified": true}
+  ],
+  "glossary": [
+    {"term": "Mantra", "script": "मन्त्र", "lang": "sa", "def": "A sacred sound, syllable or phrase repeated aloud or silently. In Transcendental Meditation a short Sanskrit sound is given by the teacher and thought silently, with its meaning playing no part in the practice."},
+    {"term": "Puja", "script": "पूजा", "lang": "sa", "def": "A ritual of worship or honour with offerings such as flowers, fruit, light and water. In TM a short puja to the line of masters ending with Brahmananda Saraswati precedes the giving of the mantra."},
+    {"term": "Siddhi", "script": "सिद्धि", "lang": "sa", "def": "An extraordinary power said to come from advanced yoga practice; Patanjali's Yoga Sutras list many. The TM-Sidhi programme, spelled that way by the movement, is Maharishi's course built on them."},
+    {"term": "Bija mantra", "script": "बीज मन्त्र", "lang": "sa", "def": "A seed mantra: a one-syllable sound such as aim or shrim used in Tantric and devotional practice, traditionally associated with a particular deity."},
+    {"term": "Brahmachari", "script": "ब्रह्मचारी", "lang": "sa", "def": "A celibate student devoted to a teacher or to sacred study; a stage before, or apart from, full monastic renunciation."}
+  ],
+  "art": [],
+  "issues": [
+    "maharishi.mdx: birth date and year conflict (12 January 1917 per AP; 1918 in many movement sources and in the graph; 18 October c.1911 per EBSCO); birthplace given as near Jabalpur in most accounts. Graph born kept at 1918; author may prefer to leave born blank or note the range.",
+    "maharishi.mdx: founding date of the Spiritual Regeneration Movement given as late 1957 or 1 January 1958; only the 1957 Madras seminar was seen in a source (Wikipedia mirror). The 1 January 1958 date is from general knowledge and should be checked.",
+    "maharishi.mdx: Wallace (1970) Science paper cited from general knowledge; the journal page was not fetched. Fact-checker should confirm volume and that he was a practitioner and graduate researcher at UCLA at the time.",
+    "maharishi.mdx: The Times quotation (\"it does not go on me. I have nothing\") seen only in a Wikipedia mirror (en-academic), not in The Times itself. The 'theory of mantras is the theory of sound' quote likewise comes from Wikipedia's summary; its primary source (probably Science of Being or a 1955 Kerala talk) was not seen.",
+    "maharishi.mdx: Kropinski v. World Plan Executive Council was remanded for retrial in 1988; I could not find the later outcome (retrial, settlement or dismissal). The text says so.",
+    "maharishi.mdx: Rishikesh guests (Donovan, Mike Love, Mia Farrow) and McCartney's departure date ('some weeks later') are from general knowledge plus CNN keywords; Wikipedia mirror gives McCartney 'three weeks', other accounts about five weeks.",
+    "maharishi.mdx: Hagelin's three presidential runs (1992, 1996, 2000): only 2000 confirmed (RNS). David Lynch Foundation founding year left as 'mid-2000s' (2005 commonly given, not checked). Tony Nader described as 'physician and neuroscientist' from general knowledge.",
+    "maharishi.mdx: AHA 2013 statement wording ('may be considered', Class IIb) taken from ACP Internist summary; Goyal 2014 summarised from Relias commentary. Fact-checker may want the original abstracts.",
+    "maharishi.mdx: Robert Park's phrase 'clinic in data distortion' was attributed in the Wikipedia mirror to one Maharishi Effect study without saying which; text says 'one Maharishi Effect study'.",
+    "maharishi.mdx: Chicago Quiet Time settlement (Hudgins class action, N.D. Ill., approved 7 May 2025) case name not confirmed; the David Lynch Foundation's response not found.",
+    "maharishi.mdx: no photo added; media cards are CNN transcript, MSU 1968 silent film and the movement's research page. A link to an official audio/video archive of his lectures is marked [to locate].",
+    "maharishi.mdx: the 1991 JAMA controversy over Maharishi Ayur-Veda and the Chopra et al. lawsuit against JAMA were left out of the chapter beyond a mention of Chopra's departure, because the lawsuit outcome could not be verified."
+  ],
+  "sources": {
+    "maharishi": [
+      "Born Mahesh Prasad Varma, 12 Jan 1917 (disputed; 1911/1918 also given), Jabalpur; Kayastha; father Ram Prasad; secretary to Brahmananda 1941 as Bal Brahmachari Mahesh; physics degree Allahabad 1942; could not succeed (not Brahmin); Uttarkashi 1953; 1955 Kerala, Transcendental Deep Meditation, Beacon Light of the Himalayas; 1957 Madras seminar, Spiritual Regeneration Movement; 1958-59 world tour; 1961 first TTC Rishikesh ~60; 1963 Science of Being; 1966 SIMS; 1968 Seelisberg; 1970 Maine/California courses; 1973 MIU classes Santa Barbara; 1974 Fairfield; 1975 Age of Enlightenment; TM-Sidhi 1975/76; 1988 Indian tax dispute; 1990 Vlodrop; 1991 illness per Chopra; 1992 NLP; 2000 GCWP with Nader; 2002 Larry King; Times quote on money; theory of mantras quote -> https://en-academic.com/dic.nsf/enwiki/118951",
+      "Physics degree Allahabad 1942; IMS 1959; SIMS 1966; Chopra parted ~1994; Time/Newsweek reported Indian scholars' criticism as oversimplified -> https://www.ebsco.com/research-starters/health-and-medicine/maharishi-mahesh-yogi",
+      "Died 5 Feb 2008 about 7 p.m., Vlodrop, per Bob Roth, natural causes; born reportedly 12 Jan 1917; refused to discuss early life; secretary to holy man; two-year retreat; taught from 1955, US 1959; moved to monastery grounds Vlodrop 1990; quote 'the unified field of all the laws of nature' -> https://www.hinduismtoday.com/hpi/?p=6579",
+      "Lay in state at Allahabad ashram; cremated Monday at Sangam; ~2,000 foreign followers and ~5,000 Indians; Maharaja Adhiraj Rajaraam took over -> https://www.nbcnews.com/id/wbna23096121",
+      "Retirement into silence Jan 2008, quote 'I think I have done whatever can be done'; Rajaraam heads GCWP; Hagelin NLP 2000; mantra 'meaningless' per Roth -> https://religionnews.com/?p=29024",
+      "Spokesman: personal fortune 'may exceed $1 billion'; Gilpin $2-3 billion; fees ~$35 late 1960s to $2,500 -> https://www.npr.org/transcripts/87890203",
+      "Hilton lecture 24 Aug 1967, attendees, Ringo absent (son born 19 Aug), 90-minute audience, Euston train 25 Aug with Jagger and Faithfull, Cynthia held back by security guard, Epstein found dead 27 Aug; quote 'such practical and intelligent young boys' -> https://beatlesbible.com/people/maharishi-mahesh-yogi",
+      "Lennon and Harrison left Rishikesh 12 April 1968; Mardas allegation; Cynthia Lennon 'being rather mischievous'; Lennon on 'public recognition, celebrities and money'; Sexy Sadie title change at Harrison's suggestion -> https://www.beatlesbible.com/1968/04/12/john-lennon-and-george-harrison-leave-rishikesh/",
+      "Harrison Royal Albert Hall 6 April 1992 in support of Natural Law Party before 9 April election -> https://ultimateclassicrock.com/george-harrison-final-concert/",
+      "Chaurasi Kutia in Rajaji National Park; Forest Department took over 2003; about 40 songs written, some on White Album and Abbey Road -> https://edition.cnn.com/travel/article/the-beatles-ashram-india",
+      "Brahmananda born Rajaram Mishra near Ayodhya, 1868/1870/1871 variants; sannyasa 1904; Shankaracharya April 1941 -> https://paulmason.info/gurudev/GuruDevbirthdate.htm",
+      "Larry King Weekend 12 May 2002 from Vlodrop; quotes 'a means to do what one wants to do in a better way', 'There is nothing difficult, there is nothing complicated' -> https://transcripts.cnn.com/TRANSCRIPTS/0205/12/lklw.00.html",
+      "Seven states of consciousness definitions -> https://mvsthesaurus.miu.edu/thesaurus/tr462.htm",
+      "Gita commentary 1967; blurb 'restore the fundamental truths' -> https://janolofbengtsson.com/2012/01/23/maharishi-mahesh-yogi-on-the-bhagavad-gita/",
+      "Back-cover phrase 'the transcendental field of existence' (Science of Being) -> https://janolofbengtsson.com/2013/05/12/maharishi-mahesh-yogi-science-of-being-and-art-of-living/",
+      "Seven-step course, puja items, fees by year, mantra by age and sex per sources, bija mantra origins (Williamson) -> https://en-academic.com/dic.nsf/enwiki/11678143",
+      "TM-Sidhi 1975 (or 1976), Patanjali basis, hopping only demonstrated, 1% (1960) and square root of 1%, critics Park 'clinic in data distortion', Fales and Markovsky -> https://en-academic.com/dic.nsf/enwiki/4225020",
+      "Malnak v. Yogi: 3d Cir. per curiam 2 Feb 1979 affirming D.N.J. 1977 (440 F.Supp. 1284); SCI/TM elective in five NJ high schools 1975-76; puja with offerings to Guru Dev; Establishment Clause -> https://law.resource.org/pub/us/case/reporter/F2/592/592.F2d.197.78-1882.78-1568.html",
+      "Kropinski: jury for plaintiff on fraud and negligence, $137,890; D.C. Cir. 5 Aug 1988 reversed in part, psychological injury claim dismissed, Singer testimony improperly admitted, remanded for new trial on fraud and physical injury -> https://law.resource.org/pub/us/case/reporter/F2/853/853.F2d.948.87-7060.87-7033.html",
+      "1985 suit by seven former students claiming levitation promised; course introduced 1976 at MIU -> https://www.upi.com/Archives/1985/09/10/Students-cant-fly-sue-guru/9228495172800/",
+      "Chicago Quiet Time class action, N.D. Ill., $2.6M settlement approved 7 May 2025; Chicago Board of Education and David Lynch Foundation; no admission of liability -> https://www.abajournal.com/web/article/suit-claiming-meditation-instruction-in-public-schools-violated-students-religious-rights-settles-for-26m",
+      "Archives of Internal Medicine pulled Schneider paper June 2011, 12 minutes before publication; published Circ CQO 13 Nov 2012; 201 patients; event counts changed; 48% composite risk reduction -> https://retractionwatch.com/2012/11/13/transcendental-meditation-paper-pulled-minutes-before-publication-appears-in-a-new-journal/",
+      "AHA 2013: 'TM may be considered in clinical practice to lower BP'; other meditation Class III -> https://immattersacp.org/weekly/archives/2013/04/30/1.htm",
+      "Goyal 2014: 47 trials, 3,515 participants; mantra programmes low or no effect / insufficient evidence -> https://reliasmedia.com/articles/16867-meditation-effectiveness-for-stress-related-outcomes",
+      "DC project 7 June-30 July 1993, ~4,000 participants, HRA crimes down up to 23.3% vs predicted -> https://research.miu.edu/?p=15101",
+      "Hagelin et al. 1999 Social Indicators Research 47(2):153-201 -> https://ideas.repec.org/a/spr/soinre/v47y1999i2p153-201.html",
+      "Ig Nobel Peace Prize 1994 to Hagelin -> https://improbable.com/2020/04/10/a-look-back-at-some-high-flying-crime-fighters/",
+      "Shear: initiation 'not a religious ceremony at all'; Merv Griffin April 1975; 700,000 US meditators since 1965; ~30,000/month -> https://christianitytoday.com/ct/1976/march26/transcendental-meditation-challenges-church.html",
+      "Chopra met Maharishi 1985 in Washington; directed Lancaster, Massachusetts centre; 1991 JAMA controversy key factor in parting -> https://cris.winchester.ac.uk/ws/portalfiles/portal/337272/13181318_Warrier_AyurvedaDeepakChopra_withstatement.pdf",
+      "MSU film 17 June 1968 -> https://onthebanks.msu.edu/Object/162-565-6720/maharishi-mahesh-yogi-1968/",
+      "Movement: 'hundreds of peer-reviewed published studies' from 'a wide range of independent research institutions' -> https://research.miu.edu/tm-research/"
+    ]
+  }
+}
