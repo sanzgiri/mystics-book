@@ -1,0 +1,305 @@
+{
+ "batch": "s06",
+ "nodes_add": [
+  {
+   "id": "kundakunda",
+   "name": "Kundakunda",
+   "part": 10,
+   "tier": "node",
+   "kind": "person",
+   "note": "Digambar Jain author of the Samayasara; dates uncertain and omitted."
+  },
+  {
+   "id": "saubhagbhai",
+   "name": "Saubhagbhai",
+   "part": 10,
+   "tier": "node",
+   "kind": "person",
+   "note": "Rajchandra's disciple said to have asked for the Atmasiddhi in verse; dates omitted."
+  },
+  {
+   "id": "todarmal",
+   "name": "Pandit Todarmal",
+   "part": 10,
+   "tier": "node",
+   "kind": "person",
+   "note": "Digambar Jain scholar read by Kanji Swami; dates omitted, unverified this session."
+  },
+  {
+   "id": "bhagavad-gita",
+   "name": "The Bhagavad Gita",
+   "part": 0,
+   "tier": "root",
+   "kind": "tradition",
+   "note": "Scripture central to Vinoba's teaching. May duplicate a node added by another batch."
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "kanji-swami",
+   "born": 1890,
+   "died": 1980,
+   "note": "Born 1889 or 1890 depending on source; Sthanakvasi monk 1913, Digambar layman at Songadh 1934."
+  },
+  {
+   "id": "rajchandra",
+   "note": "Jain poet and jeweller; Atmasiddhi (1896); correspondent of Gandhi."
+  },
+  {
+   "id": "vinoba",
+   "note": "Talks on the Gita; Gitai; Bhoodan (1951) and gramdan as practice."
+  }
+ ],
+ "edges_remove": [],
+ "edges_upsert": [
+  {
+   "from": "jain-tradition",
+   "to": "rajchandra",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Born to a Sthanakvasi mother and Vaishnava father; no sect or guru recorded."
+  },
+  {
+   "from": "rajchandra",
+   "to": "gandhi",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1891,
+   "note": "Introduced in Bombay 1891; Gandhi calls him first of three moderns, 'refuge' in spiritual crisis, not enthroned as Guru."
+  },
+  {
+   "from": "saubhagbhai",
+   "to": "rajchandra",
+   "type": "influenced",
+   "evidence": "hagiographic",
+   "verified": false,
+   "year": 1896,
+   "note": "Said to have asked for the letter in verse; tradition's account."
+  },
+  {
+   "from": "rajchandra",
+   "to": "kanji-swami",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1921,
+   "note": "Through writings; Kanji Swami was about 11 at Rajchandra's death. Commentary on Atmasiddhi 1943."
+  },
+  {
+   "from": "jain-tradition",
+   "to": "kanji-swami",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "kundakunda",
+   "to": "kanji-swami",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1921,
+   "note": "Samayasara read c. 1921."
+  },
+  {
+   "from": "todarmal",
+   "to": "kanji-swami",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": false,
+   "note": "Read after the Samayasara, per summaries."
+  },
+  {
+   "from": "gandhi",
+   "to": "vinoba",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1916,
+   "note": "Met 7 June 1916, Kochrab Ashram; first individual satyagrahi 1940."
+  },
+  {
+   "from": "bhagavad-gita",
+   "to": "vinoba",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Gitai, Talks on the Gita; by his own account."
+  }
+ ],
+ "places": [
+  {
+   "name": "Vavania, Morbi",
+   "lat": 22.96,
+   "lon": 70.78,
+   "figure": "rajchandra",
+   "what": "Birthplace of Shrimad Rajchandra, 1867.",
+   "verified": false
+  },
+  {
+   "name": "Nadiad",
+   "lat": 22.69,
+   "lon": 72.86,
+   "figure": "rajchandra",
+   "what": "Where the Atmasiddhi was composed, 1896.",
+   "verified": true
+  },
+  {
+   "name": "Umrala, Kathiawar",
+   "lat": 21.9,
+   "lon": 71.6,
+   "figure": "kanji-swami",
+   "what": "Birthplace of Kanji Swami.",
+   "verified": false
+  },
+  {
+   "name": "Songadh, Bhavnagar district",
+   "lat": 21.17,
+   "lon": 71.57,
+   "figure": "kanji-swami",
+   "what": "1934 declaration as Digambar layman; Svadhyaya Mandir (1937).",
+   "verified": true
+  },
+  {
+   "name": "Paunar, Wardha",
+   "lat": 20.75,
+   "lon": 78.53,
+   "figure": "vinoba",
+   "what": "Paramdham Ashram, Vinoba's base from 1938 and place of death 1982.",
+   "verified": false
+  },
+  {
+   "name": "Pochampally",
+   "lat": 17.33,
+   "lon": 78.82,
+   "figure": "vinoba",
+   "what": "18 April 1951, first land gift launching Bhoodan.",
+   "verified": false
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Atmasiddhi",
+   "script": "આત્મસિદ્ધિ",
+   "lang": "gu",
+   "def": "Rajchandra's 142-verse Gujarati poem on the soul, written in 1896."
+  },
+  {
+   "term": "Avadhana",
+   "script": "અવધાન",
+   "lang": "gu",
+   "def": "A memory feat of attending to many tasks at once; a hundred-fold performance is shatavadhana."
+  },
+  {
+   "term": "Samyaktva",
+   "script": "સમ્યક્ત્વ",
+   "lang": "gu",
+   "def": "Right perception or faith, the first direct seeing of the soul in Jain teaching."
+  },
+  {
+   "term": "Nishchaya naya",
+   "script": "निश्चयनय",
+   "lang": "sa",
+   "def": "The Jain standpoint that describes a thing as it is in its own nature, set against vyavahara naya, the standpoint of ordinary life."
+  },
+  {
+   "term": "Anekantavada",
+   "script": "अनेकान्तवाद",
+   "lang": "sa",
+   "def": "The Jain principle that truth has many sides."
+  },
+  {
+   "term": "Digambara",
+   "script": "दिगम्बर",
+   "lang": "sa",
+   "def": "One of the two main Jain branches; its monks go without clothes."
+  },
+  {
+   "term": "Svetambara",
+   "script": "श्वेताम्बर",
+   "lang": "sa",
+   "def": "The other main Jain branch, whose monks wear white."
+  },
+  {
+   "term": "Sthanakvasi",
+   "script": "स्थानकवासी",
+   "lang": "hi",
+   "def": "A Svetambara Jain tradition that rejects temple images."
+  },
+  {
+   "term": "Muhpatti",
+   "script": "मुहपत्ती",
+   "lang": "hi",
+   "def": "A cloth held over the mouth by some Jain monks to avoid harming small life."
+  },
+  {
+   "term": "Samayasara",
+   "script": "समयसार",
+   "lang": "sa",
+   "def": "Kundakunda's Prakrit text on the pure self, central to Kanji Swami."
+  },
+  {
+   "term": "Bhoodan",
+   "script": "भूदान",
+   "lang": "hi",
+   "def": "Land-gift: Vinoba's campaign from 1951 asking landowners to give land to the landless."
+  },
+  {
+   "term": "Gramdan",
+   "script": "ग्रामदान",
+   "lang": "hi",
+   "def": "Village-gift: the donation of a whole village to its community."
+  },
+  {
+   "term": "Sarvodaya",
+   "script": "सर्वोदय",
+   "lang": "sa",
+   "def": "The welfare or rising of all; the name of the Gandhian movement Vinoba led."
+  },
+  {
+   "term": "Gitai",
+   "script": "गीताई",
+   "lang": "mr",
+   "def": "Vinoba's Marathi verse rendering of the Gita; the name means Mother Gita."
+  }
+ ],
+ "art": [],
+ "issues": [
+  "kanji-swami.mdx: the brief called the movement the Kahan Panth. Sources fetched use Kanji Swami Panth or Kanji Panth; the 'Kahan' spelling (Kahan Gurudev) was not found, so the entry uses Kanji.",
+  "kanji-swami.mdx: birth year 1889 (Colostate, IndiaNetzone) vs 1890 (Wikipedia, SOAS); death 1980 vs 1981 (IndiaNetzone). Both ranges stated.",
+  "kanji-swami.mdx: named Digambar critics (e.g. over the Jaipur Khaniya tattvacharcha, niyati/kramabaddha paryaya) could not be sourced and are omitted. Dundas' view of Svetambara criticism and favourable assessment are via a herenow4u summary, not the book. Neerah Jain, Bauer and Balcerowicz are cited via Wikipedia only; originals not read. Needs a Digambar-side source.",
+  "kanji-swami.mdx: Hirachand as initiator, 'Star of India' house, Mahavir Jayanti 1934 and the 1937 mandir rest on Wikipedia and herenow4u summaries. Songadh 'in Saurashtra' is unsourced.",
+  "kanji-swami.mdx: Todarmal described as Digambar scholar from background knowledge; not fetched. Campabahen as 'head of the Panth' rests on herenow4u only.",
+  "rajchandra.mdx: death place Rajkot only from Wikipedia; SRMD does not name it. Jatismaran 1874 (Wikipedia) vs 1875 (SRMD); marriage 1887 vs 1888; self-realisation 1890 is the Mission's claim. Lantern/ninety minutes story is legend per Wikipedia 'Atma Siddhi', unverified elsewhere.",
+  "rajchandra.mdx: claim that Dada Bhagwan and the Dharampur Mission cite him rests on Wikipedia. The phrase 'Saraswati in person' is my gloss of Sakshat Saraswati. Gandhi's 'Three moderns' phrase was seen only partly; fuller text is quoted in gandhi.mdx.",
+  "rajchandra.mdx: the Emma Salter reference points to a chapter whose text was not read; only table of contents seen.",
+  "vinoba.mdx: Brahma Vidya Mandir (1959), Paunar move 1938 (mkgandhi) vs other accounts; 1959 omitted from text because mkgandhi bio did not mention it. Wikipedia says Vinoba went to Banaras; mkgandhi says Kashi.",
+  "vinoba.mdx: Talks on the Gita text could not be read (epub returned binary), so no quotation from it; only 'Providence took me to Gandhi' (mkgandhi bio) and 'life's breath' (Wikipedia) are quoted. Interpretive points on the teaching (Arjuna's despair, action without attachment, Bhoodan as practice of non-possession) are not tied to a Vinoba text and need a primary source.",
+  "vinoba.mdx: 'burned his certificates' per Wikipedia only. Disputed Bhoodan results statement is unsourced and should be sourced or cut. The Emergency 'sarkari sant' line is from Wikipedia. The Sarvodaya 'welfare of all' gloss is general.",
+  "Place coordinates for Vavania, Umrala and Paunar and Pochampally are approximate, from memory, and need checking.",
+  "Style check passes with one pre-existing warning in ambedkar.mdx, not in s06 files."
+ ],
+ "sources": {
+  "rajchandra": [
+   "born 9 Nov 1867 Vavania, parents, died 9 Apr 1901 Rajkot, avadhana 22 Jan 1887, Mokshamala 1887, marriage 1887 -> https://en.wikipedia.org/wiki/Shrimad_Rajchandra",
+   "Atmasiddhi 1896 Nadiad, Aso Vad 1, self-realisation 1890, jatismaran 1875, marriage 1888, death 9 Apr 1901 -> https://www.srmd.org/shrimad-rajchandraji/life",
+   "142 verses, six padas, structure vv.24-33 and 34-42, Chha Padno Patra 31-3-1888, Saubhagbhai request, legend of 90 minutes and lantern, Kanji Swami commentary 1943 -> https://en.wikipedia.org/wiki/Atma_Siddhi",
+   "'I could not enthrone him in my heart as my Guru'; 'In my moments of spiritual crisis, therefore, he was my refuge'; memory feat 'in the precise order in which I had given them' -> https://franpritchett.com/00litlinks/gandhi/part2/201chapter.html",
+   "introduced to Gandhi Bombay 1891 -> https://en.wikipedia.org/wiki/Shrimad_Rajchandra"
+  ],
+  "kanji-swami": [
+   "born 21 Apr 1890 Umrala, parents, 1913 initiation under Hirachand, 1921 Samayasara, 1934 Digambara at Songadh, 'vows, giving and fasting were ultimately worthless...', Neerah Jain, 1977 interview, Mahavideha, Campabahen, Jayasena/Balcerowicz, Bauer convergence, died 28 Nov 1980 Mumbai -> https://en.wikipedia.org/wiki/Kanji_Swami",
+   "1889 birth, 1934 muhpatti/Mahavir Jayanti, Rajchandra and Todarmal read, lay movement, image consecration -> https://www.indianetzone.com/kanji_swami_panth",
+   "1934 Songadh, 'Star of India' house, 1937 Svadhyaya Mandir, Svetambara criticism of next-birth claim, Dundas (The Jains p.231f) -> https://herenow4u.net/?id=80192",
+   "'For those who are engaged in personal effort...there are not many lives to live', 1889, died 28 Nov 1980 -> https://www.cs.colostate.edu/~malaiya/kanji.html",
+   "1890, celibacy vows among householders, no English academic study, Corinne Smith 2023 -> https://www.soas.ac.uk/research/kanji-swami-history-teachings-community"
+  ],
+  "vinoba": [
+   "born 11 Sep 1895 Gagode, mother Rukmini Devi, met Gandhi 7 Jun 1916, Bhoodan 18 Apr 1951, gramdan after 1954, Emergency anushasana parva / sarkari sant, died 15 Nov 1982, Magsaysay 1958, Bharat Ratna 1983, 'The Gita is my life's breath' -> https://en.wikipedia.org/wiki/Vinoba_Bhave",
+   "Dhulia jail 1932 six months, Gita lectures to prisoners, Gitai proofs, Ishavasyavritti, Sthitaprajna Darshan, 'Providence took me to Gandhi', Paunar 1938, Pochampalli and Ram Chandra Reddy, Mangrath May 1952, Sevagram March 1948 -> https://www.mkgandhi.org/vinoba/bio.htm",
+   "first individual satyagrahi 1940 -> existing graph.json edge gandhi->vinoba (not re-fetched)"
+  ]
+ }
+}
