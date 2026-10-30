@@ -37,7 +37,7 @@ Status: todo / running / written / checked / merged.
 | w18 | muktananda (c) | | merged |
 | w20 | prabhupada (c) | | merged |
 | w21 | amma (c) | | merged |
-| w24 | meher-baba (c) [Sonnet writer] | | running |
+| w24 | meher-baba (c) [Sonnet writer] | | checking |
 | w26 | inayat-khan (c) [Sonnet writer] | | checking |
 | w31 | ambedkar (c) | buddha-returns | todo |
 | w32 | osho (c) | | todo |

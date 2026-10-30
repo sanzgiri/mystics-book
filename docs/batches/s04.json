@@ -1,0 +1,228 @@
+{
+ "batch": "s04",
+ "nodes_add": [
+  {
+   "id": "godavari-mata",
+   "name": "Godavari Mataji",
+   "born": 1914,
+   "died": 1990,
+   "part": 8,
+   "tier": "node",
+   "kind": "person",
+   "note": "Sati Godavari Mataji of Sakori; arrived 1924 aged 10; named Upasni's successor (Hinduism Today); led the Kanya Kumari Sthan after 1941. Dates 1914-1990 from Wikipedia and a Cafoscari interview title; Hinduism Today gives none."
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "upasni-maharaj",
+   "born": 1870,
+   "died": 1941,
+   "note": "Kashinath Govind Upasni; b. 15 May 1870 Satana; d. 24 Dec 1941 Sakori. Settled at Sakori 1917, 1918 or 1922 depending on source."
+  },
+  {
+   "id": "vallalar",
+   "born": 1823,
+   "died": 1874,
+   "note": "Ramalingam; b. 5 Oct 1823 Marudur; vanished 30 Jan 1874 Mettukuppam by followers' account. Death is a faith claim."
+  },
+  {
+   "id": "ug-krishnamurti",
+   "born": 1918,
+   "died": 2007,
+   "note": "b. 9 Jul 1918 Machilipatnam; d. 22 Mar 2007 Vallecrosia (one source: 25 Mar)."
+  }
+ ],
+ "edges_remove": [],
+ "edges_upsert": [
+  {
+   "from": "shirdi-sai-baba",
+   "to": "upasni-maharaj",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1911,
+   "note": "Reached Shirdi late June 1911; more than a year in the Khandoba temple; ordered worshipped by Sai Baba on Guru Purnima 1913."
+  },
+  {
+   "from": "upasni-maharaj",
+   "to": "meher-baba",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1915,
+   "note": "Met at Shirdi 1915; about seven years of association per Meher Baba literature; Avatar declaration Dec 1921 reported via Purdom."
+  },
+  {
+   "from": "upasni-maharaj",
+   "to": "godavari-mata",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1932,
+   "note": "Per Hinduism Today she received a rudraksha mala and mantra at 18 and was named successor; year computed from 1914 birth, so approximate."
+  },
+  {
+   "from": "tamil-shaiva",
+   "to": "vallalar",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Hymns on Shiva and Muruga in the Nayanar tradition; he also criticised orthodox ritual and was attacked by Arumuga Navalar."
+  },
+  {
+   "from": "vallalar",
+   "to": "vethathiri",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Wikipedia: inspired by Ramalinga Swamigal; no personal contact possible."
+  },
+  {
+   "from": "j-krishnamurti",
+   "to": "ug-krishnamurti",
+   "type": "reacted-against",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1953,
+   "note": "Heard talks from 1947, direct dialogue from 1953, break after a heated exchange; 1967 Saanen events; argued against him afterwards."
+  },
+  {
+   "from": "theosophical-society",
+   "to": "ug-krishnamurti",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1941,
+   "note": "Raised in a Theosophist household; worked in Leadbeater's library from 1941; joint general secretary of the Indian section; left early-to-mid 1950s."
+  }
+ ],
+ "places": [
+  {
+   "name": "Sakori",
+   "lat": 19.726,
+   "lon": 74.478,
+   "figure": "upasni-maharaj",
+   "what": "Ashram and Kanya Kumari Sthan; about 5 km south of Shirdi; he died here 1941.",
+   "verified": true
+  },
+  {
+   "name": "Satana",
+   "lat": 20.59,
+   "lon": 74.2,
+   "figure": "upasni-maharaj",
+   "what": "Birthplace, 1870 (Nashik district).",
+   "verified": false
+  },
+  {
+   "name": "Mettukuppam",
+   "lat": 11.52,
+   "lon": 79.53,
+   "figure": "vallalar",
+   "what": "Siddhi Valagam, where he entered a locked room on 30 Jan 1874.",
+   "verified": false
+  },
+  {
+   "name": "Saanen",
+   "lat": 46.49,
+   "lon": 7.26,
+   "figure": "ug-krishnamurti",
+   "what": "July 1967: heard J. Krishnamurti, then the 'calamity'.",
+   "verified": true
+  },
+  {
+   "name": "Vallecrosia",
+   "lat": 43.79,
+   "lon": 7.63,
+   "figure": "ug-krishnamurti",
+   "what": "Died here 22 March 2007.",
+   "verified": true
+  },
+  {
+   "name": "Machilipatnam",
+   "lat": 16.18,
+   "lon": 81.14,
+   "figure": "ug-krishnamurti",
+   "what": "Birthplace, 9 July 1918.",
+   "verified": true
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Suddha Sanmarga",
+   "script": "சுத்த சன்மார்க்கம்",
+   "lang": "ta",
+   "def": "The 'pure true path' taught by Vallalar: compassion for all living beings, worship of God as a light of grace, and a goal of a transformed, deathless body."
+  },
+  {
+   "term": "Jeevakarunyam",
+   "script": "ஜீவகாருண்யம்",
+   "lang": "ta",
+   "def": "Compassion for all living beings, Vallalar's central ethic, shown above all in feeding the hungry and refusing to kill animals."
+  },
+  {
+   "term": "Arutperunjothi",
+   "script": "அருட்பெருஞ்ஜோதி",
+   "lang": "ta",
+   "def": "'Supreme Grace-Light', Vallalar's name for God and the first word of his mantra."
+  },
+  {
+   "term": "Thiruvarutpa",
+   "script": "திருவருட்பா",
+   "lang": "ta",
+   "def": "'Poems of Divine Grace', the roughly 5,800 poems of Vallalar in six books."
+  },
+  {
+   "term": "Kanya Kumari Sthan",
+   "script": "कन्या कुमारी स्थान",
+   "lang": "mr",
+   "def": "The community of unmarried women founded by Upasni Maharaj at Sakori, trained in Sanskrit and Vedic ritual."
+  },
+  {
+   "term": "Natural state",
+   "lang": "en",
+   "def": "U.G. Krishnamurti's name for the condition he said remained after thought stopped interpreting experience. He offered no method for reaching it."
+  }
+ ],
+ "art": [],
+ "issues": [
+  "upasni-maharaj.mdx: Devadasi-Act case. Wikipedia (Upasni_Maharaj) says convicted in the first court and acquitted on appeal; Shepherd's contents list gives 'Court Case ... 1935'; I could not read the body of either. Court, charge and dates unconfirmed. Needs a primary or scholarly source before it stays.",
+  "upasni-maharaj.mdx: Sakori settling date conflicts: July 1917 (Wikipedia Sakori/Upasni), 1918 (Shepherd), 1922 (Hinduism Today). Text gives all three. Cage dated 1922 for 14-15 months (Wikipedia, Hinduism Today). Dahigaon 17 Oct 1941 and Dec 1921 'Avatar' statement come only via Wikipedia citing Purdom, not checked at source.",
+  "upasni-maharaj.mdx: Kanya Kumari Sthan founding year not found; 'spiritual marriage' claim is Wikipedia-only and the 'Godavari Mataji was one of the girls' point was left out. Godavari edge year (1932) is computed, not sourced.",
+  "upasni-maharaj.mdx: Sai Baba death year given only as 1918 in a Shepherd snippet; Meher Baba's account of Upasni's role is the movement's account and the Babajan edge to Meher Baba belongs to another unit.",
+  "ug-krishnamurti.mdx: Death date 22 March 2007 (Wikipedia) vs 25 March (DNA excerpt on spiritualteachers.org). Calamity duration: seven days (Remembering UG page), eight days (Wikipedia per fetch summary), 49 minutes of dying (UG bio ch.), Wikipedia also ties it to his 49th birthday. Text hedges.",
+  "ug-krishnamurti.mdx: Quotations were taken from fetched summaries of the Remembering U.G. page ('I have no teaching. There is nothing to preserve.'; 'bogus chartered journey') and Wikipedia ('You have no way of knowing it for yourself'; 'How do I know that I am in that state?'), not from the primary books. Verify against The Mystique of Enlightenment before publication.",
+  "ug-krishnamurti.mdx: Not verified and left out: the Ramana Maharshi visit, Sivananda yoga study, travel pattern and the number of his children surviving him, and the 'ash' as an UG statement (kept as 'one account'). No media cards (no 'in his own voice' section for a profile).",
+  "vallalar.mdx: Tamil script for Suddha Sanmarga and Jeevakarunyam (சுத்த சன்மார்க்கம், ஜீவகாருண்யம்) is from my own knowledge, partly confirmed by the Sangam name and Wikipedia page, not seen as isolated terms on a fetched page. Please have a Tamil reader check, as well as 'சத்திய ஞான சபை' (used only in notes, not in the text).",
+  "vallalar.mdx: Door-opening date conflicts (May 1874 per Wikipedia; 'a year later' per tamil.wiki). Free kitchen date 23 May 1867 (tamil.wiki) vs 1867 only (Wikipedia). Birth place Marudur coordinates not added (not confident). Mettukuppam coordinates approximate.",
+  "vallalar.mdx: Arutpa-Marutpa lawsuit outcome and dates not found (Saravanan and Thiagarajan 2026 only listed by contents). Weiss, Recipes for Immortality (2009) is listed for further reading but I did not open it. Vethathiri link rests on Wikipedia only. Mid-text claim that Sathya Gnana Sabha seven curtains open only on Thai Poosam is from Wikipedia; vallalar.org says they must be lifted one by one.",
+  "vallalar.mdx: Lamp/mirror childhood vision is reported by Wikipedia as 'reportedly'; not independently sourced.",
+  "All three: no first-person text outside verdict lines; no photos or media cards added."
+ ],
+ "sources": {
+  "upasni-maharaj": [
+   "b. 15 May 1870 Satana; family; Ayurveda; Amraoti dispensary; Gwalior venture 1906; Shirdi late June 1911; Khandoba temple; Guru Purnima 1913; 1915 meeting with Meher Baba; Sakori July 1917; Dec 1921 Avatar statement (Purdom); last meeting 17 Oct 1941; d. 24 Dec 1941; three rules; bamboo cage; Devadasi case; Godavari 1914-1990 -> https://en.wikipedia.org/wiki/Upasni_Maharaj",
+   "Sakori ~5 km south of Shirdi, 19.72556N 74.4781E; ashram July 1917 -> https://en.wikipedia.org/wiki/Sakori",
+   "Quote 'I have undertaken this bondage to liberate my devotees'; cage 15 months; settled 1922; Kanyas' vows, rites, 48 kanyas; Godavari arrived 1924 age 10, mantra at 18, successor, took over at 27 -> https://hinduismtoday.com/magazine/august-1992/1992-08-women-revive-lost-art-of-vedic-priestess/",
+   "Quote 'I tell everyone that I am not a saint. I am not God.'; settled Sakori 1918; Court Case ... 1935 in contents; Kanya project 1930s opposed -> https://independentphilosophy.net/Upasani_Maharaj_Radical_Rishi_Part_Three.html and https://independentphilosophy.net/Upasani_Maharaj_Radical_Rishi_Part_One.html",
+   "Meher Baba: Babajan 1913, seven years with Upasni -> https://avatarmeherbaba.org/bio.html",
+   "Bombay Devadasi Protection Act 1934 -> https://en.wikipedia.org/wiki/Bombay_Devadasi_Protection_Act"
+  ],
+  "ug-krishnamurti": [
+   "b. 9 Jul 1918 Machilipatnam; mother d. a week later; grandfather Theosophist; BA Madras; Leadbeater library 1941; marriage 1943; US 1955; separation 1961; JK talks 1947-53; 'You have no way of knowing it for yourself'; Saanen 1967; 'How do I know...'; 'sellers of shoddy goods'; thought sphere; d. 22 Mar 2007; books -> https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "Saanen July 1967; JK describing U.G.'s state; walked out of the tent -> https://people.well.com/user/jct/ugbio/ugbio7.htm",
+   "Chalet Pfynegg; 49 minutes; Douglas Rosestone as only eyewitness -> https://people.well.com/user/jct/ugbio/ugbio8.htm",
+   "'I have no teaching. There is nothing to preserve.'; 'My teaching ... has no copyright'; 'bogus chartered journey'; seven days of changes -> https://people.well.com/user/jct/Final_Remembering.htm",
+   "white ash / 'burnt thoughts'; natural state -> https://www.advaita-vision.org/natural-state-and-ug/",
+   "death date 25 Mar 2007, Mahesh Bhatt cremation, stopping listeners building conclusions -> https://www.spiritualteachers.org/u-g-krishnamurti/"
+  ],
+  "vallalar": [
+   "b. 5 Oct 1823 Marudur; parents; father d. 1824; Chennai 1826; left Chennai 1858; Karunguzhi nine years; 1865 Sangam; 1867 kitchen; 25 Jan 1872 Sabha; 30 Jan 1874; door forced May 1874; 5,818 poems; Arutperunjothi; Tamil name of Sangam and mantra in Tamil script -> https://en.wikipedia.org/wiki/Ramalinga_Swamigal",
+   "Brothers; Ezhukinaru; Tiruvotriyur; 23 May 1867 kitchen; 25 Jan 1872; 30 Jan 1874 Siddhivalaga Maaligai, opened a year later; first four volumes published by Velayutha Mudaliar -> https://tamil.wiki/wiki/இராமலிங்க_வள்ளலார்",
+   "Sabha built 1872, dedicated 25.1.1872; hall closed 1873 -> https://www.vallalar.org/English/VORG000000014B",
+   "Octagonal; seven curtains parted on Thai Poosam -> https://en.wikipedia.org/wiki/Satyagnana_Sabha,_Vadalur",
+   "Quotes 'watchword'; 'Conquest of death by imbibing Supreme Grace'; mantra translation 'Supreme Grace-Light: Supreme Universal Compassion'; six paths; three bodies -> https://www.tamildigitallibrary.in/admin/assets/book/TVA_BOK_0001763_An_Introduction_to_the_Philosophy_of_Ramalinga_Swami.pdf",
+   "Navalar rejected hymns as Marutpa; nearly fifty-year feud; libel suit appendix -> https://www.perlego.com/book/5298876/vaalr-and-nvalar-a-history-of-the-literary-feud-of-arup-poems-of-divine-grace-vs-marup-poems-of-delusion-pdf",
+   "Vethathiri inspired by Ramalinga -> https://en.wikipedia.org/wiki/Ramalinga_Swamigal"
+  ]
+ }
+}
