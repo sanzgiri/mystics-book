@@ -1,53 +1,291 @@
 {
  "batch": "s07",
  "nodes_add": [
-  {"id": "acharya-bhikshu", "name": "Acharya Bhikshu", "born": 1726, "died": 1803, "part": 10, "tier": "node", "kind": "person", "note": "Founder of the Shvetambara Terapanth; left the Sthanakvasi group of Acharya Raghunath. Dates from Wikipedia; founding year not verified (commonly given as 1760)."},
-  {"id": "mahasi-sayadaw", "name": "Mahasi Sayadaw", "part": 11, "tier": "node", "kind": "person", "note": "Burmese monk, teacher at Thathana Yeiktha, Rangoon; teacher of Munindra and, via retreats at his centre, of Dipa Ma. Dates not verified in this unit."},
-  {"id": "joseph-goldstein", "name": "Joseph Goldstein", "part": 11, "tier": "node", "kind": "person", "note": "Co-founder of IMS; student of Dipa Ma per IMS and Lion's Roar. Dates not verified."},
-  {"id": "sharon-salzberg", "name": "Sharon Salzberg", "part": 11, "tier": "node", "kind": "person", "note": "Co-founder of IMS; student of Dipa Ma. Dates not verified."},
-  {"id": "jack-kornfield", "name": "Jack Kornfield", "part": 11, "tier": "node", "kind": "person", "note": "Co-founder of IMS; Dipa Ma was one of his teachers. Dates not verified."},
-  {"id": "niruben-amin", "name": "Niruben Amin (Niruma)", "born": 1944, "died": 2006, "part": 10, "tier": "node", "kind": "person", "note": "Doctor and disciple; led the Dada Bhagwan Foundation side of the 1988 split; succeeded by Deepakbhai Desai (Wikipedia citing Flugel 2005)."},
-  {"id": "kanubhai-patel", "name": "Kanubhai Patel", "died": 2020, "part": 10, "tier": "node", "kind": "person", "note": "Early disciple and business partner of Dada Bhagwan; led the Jay Sachchidanand Sangh side of the split. Death date 9 June 2020 per Wikipedia only."}
+  {
+   "id": "acharya-bhikshu",
+   "name": "Acharya Bhikshu",
+   "born": 1726,
+   "died": 1803,
+   "part": 10,
+   "tier": "node",
+   "kind": "person",
+   "note": "Founder of the Shvetambara Terapanth; left the Sthanakvasi group of Acharya Raghunath. Dates 1726-1803 (Wikipedia; Flügel, Jainpedia). Flügel's Jainpedia table dates his acharyaship from 1760."
+  },
+  {
+   "id": "mahasi-sayadaw",
+   "name": "Mahasi Sayadaw",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "Burmese monk (29 Jul 1904 - 14 Aug 1982, Wikipedia); resident teacher from 1947 at the Rangoon centre later called Mahasi Sasana Yeiktha (Thathana Yeiktha); teacher of Munindra and, via retreats at his centre, of Dipa Ma.",
+   "born": 1904,
+   "died": 1982
+  },
+  {
+   "id": "joseph-goldstein",
+   "name": "Joseph Goldstein",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "b. 20 May 1944 (Wikipedia); co-founded IMS, Barre, in 1975 with Kornfield and Salzberg; student of Dipa Ma per IMS and Lion's Roar.",
+   "born": 1944
+  },
+  {
+   "id": "sharon-salzberg",
+   "name": "Sharon Salzberg",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "b. 5 Aug 1952 (Wikipedia); co-founder of IMS (1975); student of Dipa Ma (Wikipedia, Lion's Roar).",
+   "born": 1952
+  },
+  {
+   "id": "jack-kornfield",
+   "name": "Jack Kornfield",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "b. 1945; co-founder of IMS (1975); Dipa Ma was one of his teachers (Lion's Roar; IMS).",
+   "born": 1945
+  },
+  {
+   "id": "niruben-amin",
+   "name": "Niruben Amin (Niruma)",
+   "born": 1944,
+   "died": 2006,
+   "part": 10,
+   "tier": "node",
+   "kind": "person",
+   "note": "Doctor and disciple; led the Dada Bhagwan Foundation side of the 1988 split; succeeded by Deepakbhai Desai (Wikipedia citing Flugel 2005)."
+  },
+  {
+   "id": "kanubhai-patel",
+   "name": "Kanubhai Patel",
+   "died": 2020,
+   "part": 10,
+   "tier": "node",
+   "kind": "person",
+   "note": "Early disciple and business partner of Dada Bhagwan; led the Jay Sachchidanand Sangh side of the 1988 split. Death June 2020 (9 June per Wikipedia only). A 2020 fraud complaint reported by News18 Gujarati could not be read or corroborated and is not in the profile."
+  }
  ],
  "nodes_update": [
-  {"id": "tulsi-mahapragya", "note": "One node for two men: Acharya Tulsi (20 Oct 1914 Ladnun - 23 Jun 1997) and Acharya Mahapragya (14 Jun 1920 Tamkor - 9 May 2010 Sardarshahar). Node born is Tulsi's birth and died is Mahapragya's death."},
-  {"id": "dada-bhagwan", "note": "Ambalal Muljibhai Patel, b. 7 Nov 1908 Tarsali (Wikipedia), d. 2 Jan 1988. Surat station experience June 1958 by his account."},
-  {"id": "dipa-ma", "note": "Nani Bala Barua, b. 25 Mar 1911 near Chittagong, d. 1 Sep 1989 Calcutta (Wikipedia; IMS and Lion's Roar give year only)."},
-  {"id": "munindra", "note": "Anagarika Munindra; b. 1915 (a citation gives 1914) Chittagong, d. 14 Oct 2003 Igatpuri (Wikipedia); close disciple of Mahasi Sayadaw 1957-1966."}
+  {
+   "id": "tulsi-mahapragya",
+   "note": "One node for two men: Acharya Tulsi (20 Oct 1914 Ladnun - 23 Jun 1997 Gangasahar per JVBI) and Acharya Mahapragya (14 Jun 1920 Tamkor - 9 May 2010 Sardarshahar). Node born is Tulsi's birth and died is Mahapragya's death. Mahapragya was given the title 12 Nov 1978 and made yuvacharya 4 Feb 1979."
+  },
+  {
+   "id": "dada-bhagwan",
+   "note": "Ambalal Muljibhai Patel, b. 7 Nov 1908 Tarsali (Wikipedia citing Flügel, Jani, Wiley), d. 2 Jan 1988. Surat station experience June 1958 by his own account (Mahavideh Foundation booklet; Flügel abstract names Surat)."
+  },
+  {
+   "id": "dipa-ma",
+   "note": "Nani Bala Barua, b. 25 Mar 1911 near Chittagong, d. 1 Sep 1989 Calcutta (Wikipedia; IMS and Lion's Roar give year only)."
+  },
+  {
+   "id": "munindra",
+   "note": "Anagarika Munindra; b. 1915 or 1914 (Wikipedia infobox vs its Tricycle citation) Chittagong, d. 14 Oct 2003 Igatpuri (Wikipedia); in Burma 1957-1966 as a close disciple of Mahasi Sayadaw."
+  }
  ],
  "edges_remove": [],
  "edges_upsert": [
-  {"from": "jain-tradition", "to": "tulsi-mahapragya", "type": "lineage", "evidence": "documented", "verified": true, "note": "Shvetambara Terapanth"},
-  {"from": "jain-tradition", "to": "acharya-bhikshu", "type": "lineage", "evidence": "documented", "verified": true, "note": "Left the Sthanakvasi group of Raghunath."},
-  {"from": "acharya-bhikshu", "to": "tulsi-mahapragya", "type": "lineage", "evidence": "documented", "verified": true, "note": "Tulsi was ninth acharya of the order Bhikshu founded; named successor by Kalugani 26 Aug 1936."},
-  {"from": "jain-tradition", "to": "dada-bhagwan", "type": "influenced", "evidence": "documented", "verified": true, "note": "Jain vocabulary and Simandhar Swami belief; Flugel reads the movement as Jain-Vaishnava syncretism (via Wikipedia)."},
-  {"from": "gaudiya", "to": "dada-bhagwan", "type": "influenced", "evidence": "testimony", "verified": false, "note": "Vaishnava elements; scholarly reading by Flugel via Wikipedia, not verified at source. Consider removing."},
-  {"from": "dada-bhagwan", "to": "kanubhai-patel", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1963, "note": "Business partner; received knowledge 1963 (Wikipedia)."},
-  {"from": "dada-bhagwan", "to": "niruben-amin", "type": "claimed", "evidence": "testimony", "verified": true, "year": 1988, "note": "She claimed he trained her in Gnan Vidhi; succeeded him on her side of the split."},
-  {"from": "munindra", "to": "dipa-ma", "type": "influenced", "evidence": "documented", "verified": true, "year": 1964, "note": "Family friend who urged her to practise at Mahasi's centre (Lion's Roar; dipama.com). Type changed from lived-with."},
-  {"from": "mahasi-sayadaw", "to": "munindra", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1957, "note": "Close disciple 1957-1966; authorised to teach (Wikipedia)."},
-  {"from": "mahasi-sayadaw", "to": "dipa-ma", "type": "influenced", "evidence": "documented", "verified": true, "note": "Retreat at Thathana Yeiktha where he was teacher-in-residence (Wikipedia)."},
-  {"from": "dipa-ma", "to": "joseph-goldstein", "type": "influenced", "evidence": "documented", "verified": true, "note": "Lion's Roar lists him as a primary student."},
-  {"from": "dipa-ma", "to": "sharon-salzberg", "type": "influenced", "evidence": "documented", "verified": true, "note": "Lion's Roar lists her as a primary student."},
-  {"from": "dipa-ma", "to": "jack-kornfield", "type": "influenced", "evidence": "documented", "verified": true, "note": "One of Kornfield's teachers (Lion's Roar; IMS)."}
+  {
+   "from": "jain-tradition",
+   "to": "tulsi-mahapragya",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Shvetambara Terapanth"
+  },
+  {
+   "from": "jain-tradition",
+   "to": "acharya-bhikshu",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Left the Sthanakvasi group of Raghunath; acharya of the new order from 1760 (Flügel, Jainpedia)."
+  },
+  {
+   "from": "acharya-bhikshu",
+   "to": "tulsi-mahapragya",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Tulsi was ninth acharya of the order Bhikshu founded; named successor by Kalugani 26 Aug 1936."
+  },
+  {
+   "from": "jain-tradition",
+   "to": "dada-bhagwan",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Jain vocabulary and Simandhar Swami belief; Flugel reads the movement as Jain-Vaishnava syncretism (via Wikipedia)."
+  },
+  {
+   "from": "dada-bhagwan",
+   "to": "kanubhai-patel",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1963,
+   "note": "Business partner; received knowledge 1963 (Wikipedia)."
+  },
+  {
+   "from": "dada-bhagwan",
+   "to": "niruben-amin",
+   "type": "claimed",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1988,
+   "note": "She claimed he trained her in Gnan Vidhi; travelled with him 1982-1987; led one side of the 1988 split (Wikipedia, Niruben Amin)."
+  },
+  {
+   "from": "munindra",
+   "to": "dipa-ma",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1964,
+   "note": "Family friend who urged her to practise at Mahasi's centre, about age 53 (Lion's Roar); Wikipedia dates their siddhi study to 1963. Type changed from lived-with."
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "munindra",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1957,
+   "note": "Close disciple during his years in Burma, 1957-1966 (Wikipedia)."
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "dipa-ma",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Retreat at Thathana Yeiktha where he was teacher-in-residence (Wikipedia)."
+  },
+  {
+   "from": "dipa-ma",
+   "to": "joseph-goldstein",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Lion's Roar lists him as a primary student."
+  },
+  {
+   "from": "dipa-ma",
+   "to": "sharon-salzberg",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Lion's Roar and Wikipedia (Salzberg) call her a student."
+  },
+  {
+   "from": "dipa-ma",
+   "to": "jack-kornfield",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "One of Kornfield's teachers (Lion's Roar; IMS)."
+  }
  ],
  "places": [
-  {"name": "Ladnun", "lat": 27.65, "lon": 74.39, "figure": "tulsi-mahapragya", "what": "Tulsi's birthplace and initiation (1914, 1925); Jeevan Vigyan conceived 1979", "verified": true},
-  {"name": "Sardarshahar", "lat": 28.44, "lon": 74.49, "figure": "tulsi-mahapragya", "what": "Anuvrat launched 1 March 1949 (Jainology); Mahapragya died here 2010", "verified": true},
-  {"name": "Surat railway station", "lat": 21.205, "lon": 72.84, "figure": "dada-bhagwan", "what": "Site of the June 1958 experience by his account", "verified": true},
-  {"name": "Calcutta", "lat": 22.57, "lon": 88.36, "figure": "dipa-ma", "what": "Home and teaching from 1967; died here 1989", "verified": true},
-  {"name": "Insight Meditation Society, Barre", "lat": 42.42, "lon": -72.11, "figure": "dipa-ma", "what": "Taught here in 1980 and 1984 (IMS)", "verified": true}
+  {
+   "name": "Ladnun",
+   "lat": 27.65,
+   "lon": 74.39,
+   "figure": "tulsi-mahapragya",
+   "what": "Tulsi's birthplace and initiation (1914, 1925); Jeevan Vigyan conceived 1979",
+   "verified": true
+  },
+  {
+   "name": "Sardarshahar",
+   "lat": 28.44,
+   "lon": 74.49,
+   "figure": "tulsi-mahapragya",
+   "what": "Anuvrat launched March 1949 (Jainpedia; 1 March per Jainology); Mahapragya died here 2010",
+   "verified": true
+  },
+  {
+   "name": "Surat railway station",
+   "lat": 21.205,
+   "lon": 72.84,
+   "figure": "dada-bhagwan",
+   "what": "Site of the June 1958 experience by his own account (platform 3)",
+   "verified": true
+  },
+  {
+   "name": "Calcutta",
+   "lat": 22.57,
+   "lon": 88.36,
+   "figure": "dipa-ma",
+   "what": "Home and teaching from 1967; died here 1989",
+   "verified": true
+  },
+  {
+   "name": "Insight Meditation Society, Barre",
+   "lat": 42.42,
+   "lon": -72.11,
+   "figure": "dipa-ma",
+   "what": "Taught here in 1980 and 1984 (IMS)",
+   "verified": true
+  }
  ],
  "glossary": [
-  {"term": "Anuvrat", "script": "अणुव्रत", "lang": "hi", "def": "\"Small vow.\" The Terapanth movement, launched in 1949, that offers the five Jain monastic vows in reduced form to lay people of any religion."},
-  {"term": "Preksha dhyana", "script": "प्रेक्षाध्यान", "lang": "sa", "def": "\"Meditation of perception.\" A Jain meditation system of eight parts, including breath and body perception, formulated by Mahapragya."},
-  {"term": "Terapanth", "script": "तेरापंथ", "lang": "hi", "def": "A Shvetambara Jain order founded by Acharya Bhikshu, led by one acharya at a time."},
-  {"term": "Mahavrata", "script": "महाव्रत", "lang": "sa", "def": "The five great vows of Jain monks and nuns: nonviolence, truth, not stealing, celibacy and non-possession."},
-  {"term": "Akram Vignan", "script": "અક્રમ વિજ્ઞાન", "lang": "gu", "def": "\"Stepless science.\" The movement founded by Dada Bhagwan, which offers knowledge of the Self through a ceremony instead of the step-by-step (kram) path."},
-  {"term": "Gnan Vidhi", "script": "જ્ઞાનવિધિ", "lang": "gu", "def": "The ceremony in Akram Vignan said to give direct knowledge of the Self."},
-  {"term": "Simandhar Swami", "script": "સીમંધર સ્વામી", "lang": "gu", "def": "In Jain belief a living tirthankara in the realm of Mahavideha; central to Akram Vignan."},
-  {"term": "Vipassana", "script": "विपश्यना", "lang": "hi", "def": "\"Insight.\" Buddhist meditation in which attention follows bodily and mental experience as it arises."},
-  {"term": "Dhamma", "script": "ধম্ম", "lang": "bn", "def": "The Buddha's teaching, in its Pali form."}
+  {
+   "term": "Anuvrat",
+   "script": "अणुव्रत",
+   "lang": "hi",
+   "def": "\"Small vow.\" The Terapanth movement, launched in 1949, that offers the five Jain monastic vows in reduced form to lay people of any religion."
+  },
+  {
+   "term": "Preksha dhyana",
+   "script": "प्रेक्षाध्यान",
+   "lang": "sa",
+   "def": "\"Meditation of perception.\" A Jain meditation system of eight parts, including breath and body perception, formulated by Mahapragya in 1975."
+  },
+  {
+   "term": "Terapanth",
+   "script": "तेरापंथ",
+   "lang": "hi",
+   "def": "A Shvetambara Jain order founded by Acharya Bhikshu in the eighteenth century (his leadership dated from 1760), led by one acharya at a time; it does not worship images."
+  },
+  {
+   "term": "Mahavrata",
+   "script": "महाव्रत",
+   "lang": "sa",
+   "def": "The five great vows of Jain monks and nuns: nonviolence, truth, not stealing, celibacy and non-possession."
+  },
+  {
+   "term": "Akram Vignan",
+   "script": "અક્રમ વિજ્ઞાન",
+   "lang": "gu",
+   "def": "\"Stepless science.\" The movement founded by Dada Bhagwan, which offers knowledge of the Self through a ceremony instead of the step-by-step (kram) path."
+  },
+  {
+   "term": "Gnan Vidhi",
+   "script": "જ્ઞાનવિધિ",
+   "lang": "gu",
+   "def": "The ceremony in Akram Vignan said to give direct knowledge of the Self."
+  },
+  {
+   "term": "Simandhar Swami",
+   "script": "સીમંધર સ્વામી",
+   "lang": "gu",
+   "def": "In Jain belief a living tirthankara in the realm of Mahavideha; central to Akram Vignan."
+  },
+  {
+   "term": "Vipassana",
+   "script": "विपश्यना",
+   "lang": "hi",
+   "def": "\"Insight.\" Buddhist meditation in which attention follows bodily and mental experience as it arises."
+  },
+  {
+   "term": "Dhamma",
+   "script": "ধম্ম",
+   "lang": "bn",
+   "def": "The Buddha's teaching, in its Pali form."
+  }
  ],
  "art": [],
  "issues": [
@@ -60,7 +298,8 @@
   "dada-bhagwan.mdx: Edge gaudiya -> dada-bhagwan is a weak scholarly reading (verified:false); consider removing. Place of death unknown. The Wikipedia Dada Bhagwan page says Niruben's group is the 'Dada Bhagwan Foundation', while a 'Dada Bhagwan Vignan Foundation' appears there only as a publisher; relation unclear.",
   "dipa-ma.mdx: Date 25 March 1911 and place of death Calcutta (1 Sep 1989) are Wikipedia only (flagged citation-needed elsewhere in that article); other sources give the year only. Siddhis in 1963 and the first stage of awakening are Wikipedia claims that conflict in places (Wikipedia places the Munindra meeting in 1963, Lion's Roar around her age 53, about 1964). Wikipedia's Barre dating (early 1980s) agrees with IMS (1980, 1984); a 1977 visit often cited elsewhere was not found.",
   "dipa-ma.mdx: Quotations 'They are hungry for the dhamma, so let them come.' (seen on three pages) and 'Being a wife, being a mother...' (dipama.com) came through a summarising fetch tool, not raw page text. 'If you are busy, then busyness is the meditation' was left out. Amy Schmidt's book year not confirmed; omitted. Mahasi Sayadaw, Goldstein, Salzberg and Kornfield nodes have no dates.",
-  "No media cards or photos were added to profiles (profile template has none). Mahasi's method of noting is not described because no source on it was fetched."
+  "No media cards or photos were added to profiles (profile template has none). Mahasi's method of noting is not described because no source on it was fetched.",
+  "factcheck s07: Agni-pariksha paragraph added to tulsi-mahapragya.mdx in Life; author may prefer it in a 'Critiques' section if the profile template allows one. Kanubhai Patel fraud complaint cut pending a readable news source."
  ],
  "sources": {
   "tulsi-mahapragya": [
@@ -83,6 +322,33 @@
    "Monks offered help to stay in Burma; 'Being a wife, being a mother' (Sharon Kreider); 'They are hungry for the dhamma' -> https://dipama.com/about-dipa-ma/",
    "Taught at IMS in 1980 and 1984 -> https://ims.dharma.org/courses/lineage-project-dipa-ma",
    "Munindra b. 1915, d. 14 Oct 2003 Igatpuri, disciple of Mahasi 1957-66 -> https://en.wikipedia.org/wiki/Anagarika_Munindra"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 112,
+  "changes": [
+   "dada-bhagwan.mdx: removed the 2020 police case / Rs 5.54 crore fraud complaint and the loss-of-leadership claim against Kanubhai Patel. The only source is Wikipedia citing News18 Gujarati and Loksatta, neither of which could be fetched (allowlist) or corroborated by any other reliable outlet; no FIR details or outcome found. Death kept as 'June 2020 per Wikipedia'.",
+   "dada-bhagwan.mdx: Surat 1958 account now attributed to his own account in the movement's booklet (Mahavideh Foundation, Tri Mantra: June evening 1958, about six o'clock, platform 3, forty-eight minutes) with Wikipedia (Flügel 2005, Jani 2011) and the Flügel OCHS abstract (Surat, waiting for return train to Bombay); removed the 'one source only' sentence.",
+   "dada-bhagwan.mdx: replaced unchecked 'medium' caveat with Wikipedia's 'medium (nimitta)' and the movement's own formulation (Dada Bhagwan = the Lord manifest within, present in all beings; Tri Mantra booklet). Added the booklet to Further reading.",
+   "dada-bhagwan.mdx: Aptavani '14 volumes, per Wikipedia citing Flügel' not found on Wikipedia; changed to 'a multi-volume series'.",
+   "s07.json: removed edge gaudiya -> dada-bhagwan (unsupported; Flügel's abstract speaks of Hindu-Jain synthesis, Wikipedia of 'Jain-Vaishnava syncretism' without a Gaudiya link). jain-tradition edge kept.",
+   "tulsi-mahapragya.mdx: added Terapanth leadership date 1760 and the doctrinal differences (no image worship; even compassionate acts bind karma) from Flügel, Jainpedia.",
+   "tulsi-mahapragya.mdx: Mahapragya naming corrected: title given 12 Nov 1978, became his name and yuvacharya 4 Feb 1979 (Wikipedia).",
+   "tulsi-mahapragya.mdx: Anuvrat now 'March 1949 at Sardarshahar' (Jainpedia, Bothra) with 1 March from Jainology; removed 'carried it abroad' (Jainology mentions only a golden jubilee in Nepal).",
+   "tulsi-mahapragya.mdx: preksha 1975 now also sourced to Jainpedia; 'camps began 1977' corrected to 'first formal camp 1977' (Wikipedia).",
+   "tulsi-mahapragya.mdx: quotation 'Religion is beyond rituals.' confirmed verbatim on Wikipedia (Mahāprajña) and given context.",
+   "tulsi-mahapragya.mdx: added Jain Vishva Bharati (founded by Tulsi at Ladnun, JVBI page; deemed university 1991, Wikipedia) and the Agni-pariksha controversy (1961 poem; 1970 agitation, MP government confiscated copies, revised version 1972, per Danuta Stasik 2020; Tulsi's apology and departure from Raipur per Terapanth account on HereNow4U). Four references added.",
+   "tulsi-mahapragya.mdx: node aside 'over fifty years' changed to 'over several decades'.",
+   "dipa-ma.mdx: husband's death year 1957 attributed to Wikipedia (Lion's Roar gives no year); 'let them come' context corrected (said to her daughter, per Lion's Roar and dipama.com); IMS founding year 1975 added (Wikipedia, Goldstein); Munindra birth year given as 1915 or 1914.",
+   "dipa-ma.mdx: quotations 'Being a wife, being a mother—these were my first teachers' (dipama.com, Kreider) and 'They are hungry for the dhamma, so let them come.' (dipama.com, Lion's Roar, IMS with 'Dhamma') confirmed.",
+   "s07.json: added dates for Mahasi Sayadaw (1904-1982), Goldstein (1944), Salzberg (1952), Kornfield (1945); updated notes for Bhikshu, Munindra, Kanubhai Patel, Tulsi-Mahapragya, Dada Bhagwan; glossary Terapanth and Preksha defs; Sardarshahar and Surat place notes."
+  ],
+  "unresolved": [
+   "Kanubhai Patel: 2020 fraud complaint and its outcome unverified (News18 Gujarati and Loksatta blocked); cut from the profile. Exact death date 9 June 2020 rests on Wikipedia only.",
+   "Dipa Ma: exact birth date 25 March 1911 and place of death Calcutta are Wikipedia only; other sources give years only. Munindra meeting 1963 (Wikipedia) vs about age 53, c. 1964 (Lion's Roar) left as attributed.",
+   "Quotations were checked through a summarising fetch tool that was asked for verbatim text; no raw-page diff was possible.",
+   "Mahashraman as eleventh acharya and Tulsi's death at Gangasahar (JVBI only) not independently corroborated.",
+   "Agni-pariksha: the account of violence, the Jabalpur High Court and Tulsi's later withdrawal of the book comes from a devotional Terapanth source; only the Stasik abstract (agitation, confiscation, court battles, 1972 revision) is scholarly, and the full chapter was not read."
   ]
  }
 }

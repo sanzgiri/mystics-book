@@ -1169,7 +1169,7 @@
    "part": 10,
    "tier": "profile",
    "kind": "person",
-   "note": "One node for two men: Acharya Tulsi (20 Oct 1914 Ladnun - 23 Jun 1997) and Acharya Mahapragya (14 Jun 1920 Tamkor - 9 May 2010 Sardarshahar). Node born is Tulsi's birth and died is Mahapragya's death."
+   "note": "One node for two men: Acharya Tulsi (20 Oct 1914 Ladnun - 23 Jun 1997 Gangasahar per JVBI) and Acharya Mahapragya (14 Jun 1920 Tamkor - 9 May 2010 Sardarshahar). Node born is Tulsi's birth and died is Mahapragya's death. Mahapragya was given the title 12 Nov 1978 and made yuvacharya 4 Feb 1979."
   },
   {
    "id": "dada-bhagwan",
@@ -1179,7 +1179,7 @@
    "part": 10,
    "tier": "profile",
    "kind": "person",
-   "note": "Ambalal Muljibhai Patel, b. 7 Nov 1908 Tarsali (Wikipedia), d. 2 Jan 1988. Surat station experience June 1958 by his account."
+   "note": "Ambalal Muljibhai Patel, b. 7 Nov 1908 Tarsali (Wikipedia citing Flügel, Jani, Wiley), d. 2 Jan 1988. Surat station experience June 1958 by his own account (Mahavideh Foundation booklet; Flügel abstract names Surat)."
   },
   {
    "id": "ambedkar",
@@ -1218,7 +1218,7 @@
    "part": 11,
    "tier": "node",
    "kind": "person",
-   "note": "Anagarika Munindra; b. 1915 (a citation gives 1914) Chittagong, d. 14 Oct 2003 Igatpuri (Wikipedia); close disciple of Mahasi Sayadaw 1957-1966."
+   "note": "Anagarika Munindra; b. 1915 or 1914 (Wikipedia infobox vs its Tricycle citation) Chittagong, d. 14 Oct 2003 Igatpuri (Wikipedia); in Burma 1957-1966 as a close disciple of Mahasi Sayadaw."
   },
   {
    "id": "rahul-sankrityayan",
@@ -2501,7 +2501,7 @@
    "part": 10,
    "tier": "node",
    "kind": "person",
-   "note": "Founder of the Shvetambara Terapanth; left the Sthanakvasi group of Acharya Raghunath. Dates from Wikipedia; founding year not verified (commonly given as 1760)."
+   "note": "Founder of the Shvetambara Terapanth; left the Sthanakvasi group of Acharya Raghunath. Dates 1726-1803 (Wikipedia; Flügel, Jainpedia). Flügel's Jainpedia table dates his acharyaship from 1760."
   },
   {
    "id": "mahasi-sayadaw",
@@ -2509,7 +2509,9 @@
    "part": 11,
    "tier": "node",
    "kind": "person",
-   "note": "Burmese monk, teacher at Thathana Yeiktha, Rangoon; teacher of Munindra and, via retreats at his centre, of Dipa Ma. Dates not verified in this unit."
+   "note": "Burmese monk (29 Jul 1904 - 14 Aug 1982, Wikipedia); resident teacher from 1947 at the Rangoon centre later called Mahasi Sasana Yeiktha (Thathana Yeiktha); teacher of Munindra and, via retreats at his centre, of Dipa Ma.",
+   "born": 1904,
+   "died": 1982
   },
   {
    "id": "joseph-goldstein",
@@ -2517,7 +2519,8 @@
    "part": 11,
    "tier": "node",
    "kind": "person",
-   "note": "Co-founder of IMS; student of Dipa Ma per IMS and Lion's Roar. Dates not verified."
+   "note": "b. 20 May 1944 (Wikipedia); co-founded IMS, Barre, in 1975 with Kornfield and Salzberg; student of Dipa Ma per IMS and Lion's Roar.",
+   "born": 1944
   },
   {
    "id": "sharon-salzberg",
@@ -2525,7 +2528,8 @@
    "part": 11,
    "tier": "node",
    "kind": "person",
-   "note": "Co-founder of IMS; student of Dipa Ma. Dates not verified."
+   "note": "b. 5 Aug 1952 (Wikipedia); co-founder of IMS (1975); student of Dipa Ma (Wikipedia, Lion's Roar).",
+   "born": 1952
   },
   {
    "id": "jack-kornfield",
@@ -2533,7 +2537,8 @@
    "part": 11,
    "tier": "node",
    "kind": "person",
-   "note": "Co-founder of IMS; Dipa Ma was one of his teachers. Dates not verified."
+   "note": "b. 1945; co-founder of IMS (1975); Dipa Ma was one of his teachers (Lion's Roar; IMS).",
+   "born": 1945
   },
   {
    "id": "niruben-amin",
@@ -2552,7 +2557,7 @@
    "part": 10,
    "tier": "node",
    "kind": "person",
-   "note": "Early disciple and business partner of Dada Bhagwan; led the Jay Sachchidanand Sangh side of the split. Death date 9 June 2020 per Wikipedia only."
+   "note": "Early disciple and business partner of Dada Bhagwan; led the Jay Sachchidanand Sangh side of the 1988 split. Death June 2020 (9 June per Wikipedia only). A 2020 fraud complaint reported by News18 Gujarati could not be read or corroborated and is not in the profile."
   },
   {
    "id": "chandramani",
@@ -3289,7 +3294,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1964,
-   "note": "Family friend who urged her to practise at Mahasi's centre (Lion's Roar; dipama.com). Type changed from lived-with."
+   "note": "Family friend who urged her to practise at Mahasi's centre, about age 53 (Lion's Roar); Wikipedia dates their siddhi study to 1963. Type changed from lived-with."
   },
   {
    "from": "theosophical-society",
@@ -5330,7 +5335,7 @@
    "type": "lineage",
    "evidence": "documented",
    "verified": true,
-   "note": "Left the Sthanakvasi group of Raghunath."
+   "note": "Left the Sthanakvasi group of Raghunath; acharya of the new order from 1760 (Flügel, Jainpedia)."
   },
   {
    "from": "acharya-bhikshu",
@@ -5364,7 +5369,7 @@
    "evidence": "testimony",
    "verified": true,
    "year": 1988,
-   "note": "She claimed he trained her in Gnan Vidhi; succeeded him on her side of the split."
+   "note": "She claimed he trained her in Gnan Vidhi; travelled with him 1982-1987; led one side of the 1988 split (Wikipedia, Niruben Amin)."
   },
   {
    "from": "mahasi-sayadaw",
@@ -5373,7 +5378,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1957,
-   "note": "Close disciple 1957-1966; authorised to teach (Wikipedia)."
+   "note": "Close disciple during his years in Burma, 1957-1966 (Wikipedia)."
   },
   {
    "from": "mahasi-sayadaw",
@@ -5397,7 +5402,7 @@
    "type": "influenced",
    "evidence": "documented",
    "verified": true,
-   "note": "Lion's Roar lists her as a primary student."
+   "note": "Lion's Roar and Wikipedia (Salzberg) call her a student."
   },
   {
    "from": "dipa-ma",
