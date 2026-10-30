@@ -1334,8 +1334,8 @@
    "lat": 12.31,
    "lon": 75.1,
    "figure": "papa-ramdas",
-   "what": "Founded 15 May 1931 near Manjapathi hill; his home until death in 1963.",
-   "verified": false
+   "what": "Opened 15 May 1931 (Wikipedia; ashram timeline gives 1931); his home until death in 1963.",
+   "verified": true
   },
   {
    "name": "Kasaragod",
@@ -1366,7 +1366,7 @@
    "lat": 12.23,
    "lon": 79.07,
    "figure": "papa-ramdas",
-   "what": "Met Ramana Maharshi and spent about 21 days in a cave on Arunachala, 1922-23.",
+   "what": "Met Ramana Maharshi and spent three weeks to a month in a cave on Arunachala, 1922-23.",
    "verified": true
   },
   {
@@ -1374,7 +1374,7 @@
    "lat": 29.4,
    "lon": 79.5,
    "figure": "neem-karoli-baba",
-   "what": "Ashram near Nainital; site chosen 1962, Hanuman consecrated 15 June 1964; where Ram Dass met him in 1967.",
+   "what": "Ashram near Nainital; site chosen 1962, Hanuman consecrated 15 June 1964; his main base in his last decade and the ashram where Ram Dass later stayed with him.",
    "verified": true
   },
   {
