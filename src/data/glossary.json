@@ -1068,5 +1068,287 @@
   "script": "तानसेन",
   "lang": "hi",
   "def": "The legendary singer of Akbar's court; later used as an honorific for great musicians."
+ },
+ {
+  "term": "Pranahuti",
+  "script": "प्राणाहुति",
+  "lang": "sa",
+  "def": "Literally 'offering of the life-force'. In Sahaj Marg, the master's transmission of spiritual energy into the practitioner's heart."
+ },
+ {
+  "term": "Sahaj Marg",
+  "script": "सहज मार्ग",
+  "lang": "hi",
+  "def": "'The natural path'. The heart-centred Raja Yoga method taught by Babuji and the Shri Ram Chandra Mission, now also called Heartfulness."
+ },
+ {
+  "term": "Tawajjuh",
+  "script": "توجّہ",
+  "lang": "ur",
+  "def": "In Sufi practice, the shaykh's concentrated attention directed at a disciple's heart to transmit spiritual states."
+ },
+ {
+  "term": "Naqshbandi",
+  "script": "نقشبندی",
+  "lang": "ur",
+  "def": "One of the main Sufi orders, strong in India through its Mujaddidi branch, known for silent remembrance of God in the heart."
+ },
+ {
+  "term": "Naam",
+  "script": "नाम",
+  "lang": "hi",
+  "def": "'Name'. In Sant Mat and Radhasoami teaching, the inner divine Word or sound current, also called Shabd."
+ },
+ {
+  "term": "Simran",
+  "script": "सिमरन",
+  "lang": "pa",
+  "def": "Silent repetition of charged names, the first step of Sant Mat practice, followed by inner light (dhyan) and inner sound (bhajan)."
+ },
+ {
+  "term": "Ayyavazhi",
+  "script": "அய்யாவழி",
+  "lang": "ta",
+  "def": "'The path of the Father'. The movement around Ayya Vaikundar, centred on Kanyakumari and southern Tamil Nadu."
+ },
+ {
+  "term": "Akilathirattu Ammanai",
+  "script": "அகிலத்திரட்டு அம்மானை",
+  "lang": "ta",
+  "def": "The principal scripture of Ayyavazhi, a long Tamil verse narrative that followers date to 1841."
+ },
+ {
+  "term": "Nizhal Thangal",
+  "script": "நிழல் தாங்கல்",
+  "lang": "ta",
+  "def": "A small Ayyavazhi place of worship and teaching, without idols and open to all castes."
+ },
+ {
+  "term": "Pathi",
+  "script": "பதி",
+  "lang": "ta",
+  "def": "An Ayyavazhi holy place; five major pathis centre on Swamithoppu."
+ },
+ {
+  "term": "Thuvayal Thavasu",
+  "script": "துவையல் தவசு",
+  "lang": "ta",
+  "def": "The 'washing penance', a collective penance by Vaikundar's followers that tradition dates from 1840."
+ },
+ {
+  "term": "Atmasiddhi",
+  "script": "આત્મસિદ્ધિ",
+  "lang": "gu",
+  "def": "Rajchandra's 142-verse Gujarati poem on the soul, written in 1896."
+ },
+ {
+  "term": "Avadhana",
+  "script": "અવધાન",
+  "lang": "gu",
+  "def": "A memory feat of attending to many tasks at once; a hundred-fold performance is shatavadhana."
+ },
+ {
+  "term": "Samyaktva",
+  "script": "સમ્યક્ત્વ",
+  "lang": "gu",
+  "def": "Right perception or faith, the first direct seeing of the soul in Jain teaching."
+ },
+ {
+  "term": "Nishchaya naya",
+  "script": "निश्चयनय",
+  "lang": "sa",
+  "def": "The Jain standpoint that describes a thing as it is in its own nature, set against vyavahara naya, the standpoint of ordinary life."
+ },
+ {
+  "term": "Anekantavada",
+  "script": "अनेकान्तवाद",
+  "lang": "sa",
+  "def": "The Jain principle that truth has many sides."
+ },
+ {
+  "term": "Digambara",
+  "script": "दिगम्बर",
+  "lang": "sa",
+  "def": "One of the two main Jain branches; its monks go without clothes."
+ },
+ {
+  "term": "Svetambara",
+  "script": "श्वेताम्बर",
+  "lang": "sa",
+  "def": "The other main Jain branch, whose monks wear white."
+ },
+ {
+  "term": "Sthanakvasi",
+  "script": "स्थानकवासी",
+  "lang": "hi",
+  "def": "A Svetambara Jain tradition that rejects temple images."
+ },
+ {
+  "term": "Muhpatti",
+  "script": "मुहपत्ती",
+  "lang": "hi",
+  "def": "A cloth held over the mouth by some Jain monks to avoid harming small life."
+ },
+ {
+  "term": "Samayasara",
+  "script": "समयसार",
+  "lang": "sa",
+  "def": "Kundakunda's Prakrit text on the pure self, central to Kanji Swami."
+ },
+ {
+  "term": "Bhoodan",
+  "script": "भूदान",
+  "lang": "hi",
+  "def": "Land-gift: Vinoba's campaign from 1951 asking landowners to give land to the landless."
+ },
+ {
+  "term": "Gramdan",
+  "script": "ग्रामदान",
+  "lang": "hi",
+  "def": "Village-gift: the donation of a whole village to its community."
+ },
+ {
+  "term": "Sarvodaya",
+  "script": "सर्वोदय",
+  "lang": "sa",
+  "def": "The welfare or rising of all; the name of the Gandhian movement Vinoba led."
+ },
+ {
+  "term": "Gitai",
+  "script": "गीताई",
+  "lang": "mr",
+  "def": "Vinoba's Marathi verse rendering of the Gita; the name means Mother Gita."
+ },
+ {
+  "term": "Anuvrat",
+  "script": "अणुव्रत",
+  "lang": "hi",
+  "def": "\"Small vow.\" The Terapanth movement, launched in 1949, that offers the five Jain monastic vows in reduced form to lay people of any religion."
+ },
+ {
+  "term": "Preksha dhyana",
+  "script": "प्रेक्षाध्यान",
+  "lang": "sa",
+  "def": "\"Meditation of perception.\" A Jain meditation system of eight parts, including breath and body perception, formulated by Mahapragya."
+ },
+ {
+  "term": "Terapanth",
+  "script": "तेरापंथ",
+  "lang": "hi",
+  "def": "A Shvetambara Jain order founded by Acharya Bhikshu, led by one acharya at a time."
+ },
+ {
+  "term": "Mahavrata",
+  "script": "महाव्रत",
+  "lang": "sa",
+  "def": "The five great vows of Jain monks and nuns: nonviolence, truth, not stealing, celibacy and non-possession."
+ },
+ {
+  "term": "Akram Vignan",
+  "script": "અક્રમ વિજ્ઞાન",
+  "lang": "gu",
+  "def": "\"Stepless science.\" The movement founded by Dada Bhagwan, which offers knowledge of the Self through a ceremony instead of the step-by-step (kram) path."
+ },
+ {
+  "term": "Gnan Vidhi",
+  "script": "જ્ઞાનવિધિ",
+  "lang": "gu",
+  "def": "The ceremony in Akram Vignan said to give direct knowledge of the Self."
+ },
+ {
+  "term": "Simandhar Swami",
+  "script": "સીમંધર સ્વામી",
+  "lang": "gu",
+  "def": "In Jain belief a living tirthankara in the realm of Mahavideha; central to Akram Vignan."
+ },
+ {
+  "term": "Vipassana",
+  "script": "विपश्यना",
+  "lang": "hi",
+  "def": "\"Insight.\" Buddhist meditation in which attention follows bodily and mental experience as it arises."
+ },
+ {
+  "term": "Dhamma",
+  "script": "ধম্ম",
+  "lang": "bn",
+  "def": "The Buddha's teaching, in its Pali form."
+ },
+ {
+  "term": "Navayana",
+  "script": "नवयान",
+  "lang": "sa",
+  "def": "\"New vehicle\": the name given to Ambedkar's rationalist and socially directed reading of Buddhism."
+ },
+ {
+  "term": "Dhamma diksha",
+  "script": "धम्मदीक्षा",
+  "lang": "mr",
+  "def": "Initiation into the Dhamma; the Marathi name for the 1956 conversion and for later mass conversion ceremonies."
+ },
+ {
+  "term": "Deekshabhoomi",
+  "script": "दीक्षाभूमी",
+  "lang": "mr",
+  "def": "\"Ground of initiation\": the site in Nagpur where Ambedkar converted on 14 October 1956; now marked by a large stupa."
+ },
+ {
+  "term": "Mahar",
+  "script": "महार",
+  "lang": "mr",
+  "def": "A caste of Maharashtra treated as untouchable; Ambedkar's community and the source of most of the 1956 converts."
+ },
+ {
+  "term": "Tisarana",
+  "script": "तिसरण",
+  "lang": "pi",
+  "def": "The three refuges: going for refuge to the Buddha, the Dhamma and the Sangha, the formula by which a person becomes a Buddhist."
+ },
+ {
+  "term": "Pancasila",
+  "script": "पञ्चसील",
+  "lang": "pi",
+  "def": "The five precepts of a lay Buddhist: to refrain from killing, stealing, sexual misconduct, false speech and intoxicants."
+ },
+ {
+  "term": "Bhikkhu",
+  "script": "भिक्खु",
+  "lang": "pi",
+  "def": "A Buddhist monk, literally one who lives on alms."
+ },
+ {
+  "term": "Dukkha",
+  "script": "दुक्ख",
+  "lang": "pi",
+  "def": "Suffering or unsatisfactoriness, the subject of the first of the Four Noble Truths. Ambedkar read it chiefly as suffering caused by injustice."
+ },
+ {
+  "term": "Margadata",
+  "script": "मार्गदाता",
+  "lang": "sa",
+  "def": "\"Giver of the path\": Ambedkar's term for the Buddha as a guide who shows the way, as opposed to a mokshadata, a giver of salvation."
+ },
+ {
+  "term": "Parivraja",
+  "script": "परिव्रज्या",
+  "lang": "sa",
+  "def": "Going forth from home into the wandering religious life. Ambedkar retold the Buddha's going forth as exile after a dispute over war."
+ },
+ {
+  "term": "Kabir Panth",
+  "script": "कबीरपंथ",
+  "lang": "hi",
+  "def": "The sect formed around the songs and teaching of Kabir; Ambedkar's father belonged to it."
+ },
+ {
+  "term": "Manusmriti",
+  "script": "मनुस्मृति",
+  "lang": "sa",
+  "def": "The Laws of Manu, an ancient Sanskrit law book setting out the duties and disabilities of each caste; publicly burned by Ambedkar's followers at Mahad in 1927."
+ },
+ {
+  "term": "Vihara",
+  "script": "विहार",
+  "lang": "pi",
+  "def": "A Buddhist monastery or meeting hall; in Ambedkarite neighbourhoods, the local Buddhist centre."
  }
 ]

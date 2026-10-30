@@ -40,7 +40,7 @@ Status: todo / running / written / checked / merged.
 | w24 | meher-baba (c) | | merged |
 | w26 | inayat-khan (c) | | merged |
 | w31 | ambedkar (c) | buddha-returns | checking |
-| w32 | osho (c) | | todo |
+| w32 | osho (c) | | running |
 | w33 | sathya-sai-baba (c) | | todo |
 | w34 | dada-lekhraj, sri-chinmoy | new-revelations (incl. godman essay) | todo |
 | w35 | kalki-bhagavan, nithyananda, dhirendra-shastri | | todo |
@@ -63,7 +63,7 @@ Historical figures with no live legal or sensitive controversy. Writer agents us
 | s03 | bhaktivinoda, bhaktisiddhanta, shastriji-pramukh | merged |
 | s04 | upasni-maharaj, ug-krishnamurti, vallalar | merged |
 | s05 | kirpal-singh, ayya-vaikundar, lalaji-babuji | checking |
-| s06 | rajchandra, vinoba, kanji-swami | checking |
+| s06 | rajchandra, vinoba, kanji-swami | merged |
 | s07 | tulsi-mahapragya, dada-bhagwan, dipa-ma | checking |
 
 ## After all units

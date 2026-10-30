@@ -15,7 +15,7 @@
    "part": 10,
    "tier": "node",
    "kind": "person",
-   "note": "Rajchandra's disciple said to have asked for the Atmasiddhi in verse; dates omitted."
+   "note": "Disciple of Rajchandra said to have asked for the Atmasiddhi in verse; dates omitted."
   },
   {
    "id": "todarmal",
@@ -39,7 +39,7 @@
    "id": "kanji-swami",
    "born": 1890,
    "died": 1980,
-   "note": "Born 1889 or 1890 depending on source; Sthanakvasi monk 1913, Digambar layman at Songadh 1934."
+   "note": "Born 1889 or 1890 depending on source; died 1980 (1981 in one source); Sthanakvasi monk 1913, Digambar layman at Songadh 1934."
   },
   {
    "id": "rajchandra",
@@ -67,16 +67,16 @@
    "evidence": "documented",
    "verified": true,
    "year": 1891,
-   "note": "Introduced in Bombay 1891; Gandhi calls him first of three moderns, 'refuge' in spiritual crisis, not enthroned as Guru."
+   "note": "Introduced in Bombay 1891 by Dr. Mehta; Gandhi names him first of three moderns, 'refuge' in spiritual crisis, not enthroned as Guru."
   },
   {
-   "from": "saubhagbhai",
-   "to": "rajchandra",
+   "from": "rajchandra",
+   "to": "saubhagbhai",
    "type": "influenced",
-   "evidence": "hagiographic",
-   "verified": false,
+   "evidence": "testimony",
+   "verified": true,
    "year": 1896,
-   "note": "Said to have asked for the letter in verse; tradition's account."
+   "note": "Disciple; the Mission names him among four foremost devotees, and tradition says he asked for the Atmasiddhi in verse (1896)."
   },
   {
    "from": "rajchandra",
@@ -84,8 +84,8 @@
    "type": "influenced",
    "evidence": "testimony",
    "verified": true,
-   "year": 1921,
-   "note": "Through writings; Kanji Swami was about 11 at Rajchandra's death. Commentary on Atmasiddhi 1943."
+   "year": 1943,
+   "note": "Through writings, read after the Samayasara; Kanji Swami was about 11 at Rajchandra's death. Commentary on Atmasiddhi 1943."
   },
   {
    "from": "jain-tradition",
@@ -124,9 +124,9 @@
    "from": "bhagavad-gita",
    "to": "vinoba",
    "type": "influenced",
-   "evidence": "testimony",
+   "evidence": "documented",
    "verified": true,
-   "note": "Gitai, Talks on the Gita; by his own account."
+   "note": "Gitai; Talks on the Gita (Dhule jail 1932, book 1940); 'The place of the Gita in my life is unique' (preface)."
   }
  ],
  "places": [
@@ -156,27 +156,27 @@
   },
   {
    "name": "Songadh, Bhavnagar district",
-   "lat": 21.17,
-   "lon": 71.57,
+   "lat": 21.71,
+   "lon": 71.89,
    "figure": "kanji-swami",
    "what": "1934 declaration as Digambar layman; Svadhyaya Mandir (1937).",
    "verified": true
   },
   {
    "name": "Paunar, Wardha",
-   "lat": 20.75,
-   "lon": 78.53,
+   "lat": 20.79,
+   "lon": 78.67,
    "figure": "vinoba",
-   "what": "Paramdham Ashram, Vinoba's base from 1938 and place of death 1982.",
+   "what": "Paramdham Ashram, Vinoba's base from 1938, Brahma Vidya Mandir (1959) and place of death 1982.",
    "verified": false
   },
   {
    "name": "Pochampally",
-   "lat": 17.33,
-   "lon": 78.82,
+   "lat": 17.35,
+   "lon": 78.81,
    "figure": "vinoba",
    "what": "18 April 1951, first land gift launching Bhoodan.",
-   "verified": false
+   "verified": true
   }
  ],
  "glossary": [
@@ -279,7 +279,8 @@
   "vinoba.mdx: Talks on the Gita text could not be read (epub returned binary), so no quotation from it; only 'Providence took me to Gandhi' (mkgandhi bio) and 'life's breath' (Wikipedia) are quoted. Interpretive points on the teaching (Arjuna's despair, action without attachment, Bhoodan as practice of non-possession) are not tied to a Vinoba text and need a primary source.",
   "vinoba.mdx: 'burned his certificates' per Wikipedia only. Disputed Bhoodan results statement is unsourced and should be sourced or cut. The Emergency 'sarkari sant' line is from Wikipedia. The Sarvodaya 'welfare of all' gloss is general.",
   "Place coordinates for Vavania, Umrala and Paunar and Pochampally are approximate, from memory, and need checking.",
-  "Style check passes with one pre-existing warning in ambedkar.mdx, not in s06 files."
+  "Style check passes with one pre-existing warning in ambedkar.mdx, not in s06 files.",
+  "factcheck: Vavania, Umrala, Paunar coordinates still unverified; Kanji Swami Digambar critique sourced only to a 2023 SOAS workshop paper title."
  ],
  "sources": {
   "rajchandra": [
@@ -300,6 +301,30 @@
    "born 11 Sep 1895 Gagode, mother Rukmini Devi, met Gandhi 7 Jun 1916, Bhoodan 18 Apr 1951, gramdan after 1954, Emergency anushasana parva / sarkari sant, died 15 Nov 1982, Magsaysay 1958, Bharat Ratna 1983, 'The Gita is my life's breath' -> https://en.wikipedia.org/wiki/Vinoba_Bhave",
    "Dhulia jail 1932 six months, Gita lectures to prisoners, Gitai proofs, Ishavasyavritti, Sthitaprajna Darshan, 'Providence took me to Gandhi', Paunar 1938, Pochampalli and Ram Chandra Reddy, Mangrath May 1952, Sevagram March 1948 -> https://www.mkgandhi.org/vinoba/bio.htm",
    "first individual satyagrahi 1940 -> existing graph.json edge gandhi->vinoba (not re-fetched)"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 112,
+  "changes": [
+   "vinoba.mdx: Talks on the Gita described from publisher's note (18 Sunday talks, Dhule jail 1932, Sane Guruji, book 1940, 24 languages) (mkgandhi.org/talksongita/note.htm)",
+   "vinoba.mdx: Gita interpretation now tied to Vinoba's text: preface quotes 'The place of the Gita in my life is unique', 'the story of my life...'; chapter 1 quotes on Arjuna's 'attachment to his kith and kin' and swadharma (mkgandhi.org/talksongita/vinoba.htm, chap01.php)",
+   "vinoba.mdx: unsourced 'followers describe donor/walker' and 'supporters called this the Gita's selfless action' cut; replaced with Satish Kumar's attributed account ('belongs to all or none', change of heart) and publisher's statement that Vinoba saw the book as a vehicle for Bhoodan (mkgandhi.org/movedbylove/intro.htm)",
+   "vinoba.mdx: disputed-results sentence replaced with sourced figures: ~4.19m acres pledged, ~1.29m distributed by 1975, ~1.86m unfit (mkgandhi.org/vinoba/bio.htm)",
+   "vinoba.mdx: added Brahma Vidya Mandir 1959 at Paunar (Wikipedia; Jamnalal Bajaj Foundation); death described as chosen per Times of India 2009 via herenow4u; three references added",
+   "kanji-swami.mdx: birth-range note that Colostate's 1889 is given as VS 1946 (overlaps 1889/1890)",
+   "kanji-swami.mdx: added unnamed Digambar criticism of his nimitta-upadana teaching, sourced to SOAS 24th Jaina Studies Workshop (2023) paper title; reference added",
+   "kanji-swami.mdx: Campabahen 'born 1924' corrected to 1914-1990 per atmadharma.org; 'head of the Panth' attributed to one summary (herenow4u)",
+   "kanji-swami.mdx: unsourced '1937' date for past-life claim removed; glance 'Kanji Panth' changed to 'Kanji Swami Panth' (IndiaNetzone, herenow4u)",
+   "rajchandra.mdx: Rajkot death place now corroborated (istampgallery, 2017 India Post stamp); introducer Dr. Mehta added (Gandhi, Autobiography II.1); Kanji Swami reading of Rajchandra dated as after Samayasara (IndiaNetzone)",
+   "s06.json: Songadh coords corrected 21.17,71.57 -> 21.71,71.89 (Wikipedia); Pochampally 17.35,78.81 verified (Wikipedia); Paunar adjusted to 20.79,78.67",
+   "s06.json: saubhagbhai edge reversed to rajchandra -> saubhagbhai (disciple; Wikipedia, SRMD); rajchandra -> kanji-swami year 1921 -> 1943 (documented commentary); Gita edge evidence documented with preface quote"
+  ],
+  "unresolved": [
+   "Coordinates for Vavania (22.96,70.78), Umrala (21.9,71.6) and Paunar (20.79,78.67) not confirmed from a gazetteer; left verified:false.",
+   "Kanji Swami: no named Digambar critic or Khaniya tattvacharcha content sourced; Khaniya Tattva-Charcha volumes (Jaipur, 1967) exist per Phoolchandra Shastri Wikipedia but participants/topics unread. 'Kahanji Swami' spelling attested (1964 Abhinandan Granth).",
+   "Kanji Swami: Hirachand initiator, Star of India house, Mahavir Jayanti 1934 rest on Wikipedia, herenow4u and IndiaNetzone (tertiary).",
+   "Vinoba: 'Gita is my life's breath' and 'burned certificates' on Wikipedia/mkgandhi only; Sthitaprajna Darshan written in jail per mkgandhi ledger, not re-fetched.",
+   "Rajchandra: lantern/90 minutes legend only from Wikipedia 'Atma Siddhi' (SRMD does not mention lantern); Emma Salter chapter unread; Chha Padno Patra addressed to Lalluji per Wikipedia."
   ]
  }
 }

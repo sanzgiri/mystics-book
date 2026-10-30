@@ -1029,7 +1029,8 @@
    "died": 1974,
    "part": 9,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "b. 6 Feb 1894 Sayyad Kasran; initiated 1924; d. 21 Aug 1974 per his movement and the Wikipedia infobox (body text says 24 Aug)."
   },
   {
    "id": "ram-singh-namdhari",
@@ -1057,7 +1058,8 @@
    "died": 1851,
    "part": 9,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Muthukutty, per devotional and Kerala accounts b. 1809; 1833 Tiruchendur event; d. 1851 (2 or 3 June). Dates rest on movement sources."
   },
   {
    "id": "lalaji-babuji",
@@ -1066,7 +1068,8 @@
    "died": 1983,
    "part": 9,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Lalaji b. 2 Feb 1873, d. 14 Aug 1931; Babuji b. 30 Apr 1899, d. 19 Apr 1983 (Wikipedia; SRCM says 'April 1983')."
   },
   {
    "id": "jaimal-singh",
@@ -1135,7 +1138,8 @@
    "died": 1901,
    "part": 10,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Jain poet and jeweller; Atmasiddhi (1896); correspondent of Gandhi."
   },
   {
    "id": "vinoba",
@@ -1144,7 +1148,8 @@
    "died": 1982,
    "part": 10,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Talks on the Gita; Gitai; Bhoodan (1951) and gramdan as practice."
   },
   {
    "id": "kanji-swami",
@@ -1153,7 +1158,8 @@
    "died": 1980,
    "part": 10,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born 1889 or 1890 depending on source; died 1980 (1981 in one source); Sthanakvasi monk 1913, Digambar layman at Songadh 1934."
   },
   {
    "id": "tulsi-mahapragya",
@@ -1162,7 +1168,8 @@
    "died": 2010,
    "part": 10,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "One node for two men: Acharya Tulsi (20 Oct 1914 Ladnun - 23 Jun 1997) and Acharya Mahapragya (14 Jun 1920 Tamkor - 9 May 2010 Sardarshahar). Node born is Tulsi's birth and died is Mahapragya's death."
   },
   {
    "id": "dada-bhagwan",
@@ -1171,7 +1178,8 @@
    "died": 1988,
    "part": 10,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Ambalal Muljibhai Patel, b. 7 Nov 1908 Tarsali (Wikipedia), d. 2 Jan 1988. Surat station experience June 1958 by his account."
   },
   {
    "id": "ambedkar",
@@ -1180,7 +1188,8 @@
    "died": 1956,
    "part": 11,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Mhow 14 April 1891; Yeola vow 13 October 1935; converted to Buddhism at Nagpur (Deekshabhoomi) 14 October 1956 and gave the 22 vows; died Delhi 6 December 1956; The Buddha and His Dhamma published 1957. Named three gurus: Buddha, Kabir, Phule (speech, 28 October 1954)."
   },
   {
    "id": "dharmapala",
@@ -1198,7 +1207,8 @@
    "died": 1989,
    "part": 11,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Nani Bala Barua, b. 25 Mar 1911 near Chittagong, d. 1 Sep 1989 Calcutta (Wikipedia; IMS and Lion's Roar give year only)."
   },
   {
    "id": "munindra",
@@ -1207,7 +1217,8 @@
    "died": 2003,
    "part": 11,
    "tier": "node",
-   "kind": "person"
+   "kind": "person",
+   "note": "Anagarika Munindra; b. 1915 (a citation gives 1914) Chittagong, d. 14 Oct 2003 Igatpuri (Wikipedia); close disciple of Mahasi Sayadaw 1957-1966."
   },
   {
    "id": "rahul-sankrityayan",
@@ -2385,6 +2396,191 @@
    "tier": "node",
    "kind": "person",
    "note": "Inayat Khan's eldest daughter; SOE wireless operator; shot at Dachau 13 September 1944"
+  },
+  {
+   "id": "jagat-singh",
+   "name": "Jagat Singh",
+   "born": 1884,
+   "died": 1951,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Retired chemistry professor; named by Sawan Singh in a will of 20 Mar 1948 per Beas records (installed 13 Apr 1948); Beas master 1948-1951; named Charan Singh by will of 22 Oct 1951."
+  },
+  {
+   "id": "fazl-ahmad-khan",
+   "name": "Maulana Fazl Ahmad Khan",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Naqshbandi-Mujaddidi shaykh of Raipur, Farrukhabad district; teacher of Lalaji. Birth 1838 or 1857 in different sources; per Dahnhardt (via EverybodyWiki) chose Lalaji as successor in 1896."
+  },
+  {
+   "id": "chaturbhuj-sahay",
+   "name": "Chaturbhuj Sahay",
+   "born": 1883,
+   "died": 1957,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Lalaji; founded Ramashram Satsang at Etah in 1930, later based at Mathura."
+  },
+  {
+   "id": "chariji",
+   "name": "Parthasarathi Rajagopalachari (Chariji)",
+   "born": 1927,
+   "died": 2014,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Met Babuji 1964; president of Shri Ram Chandra Mission 1983-2014; his claim contested by Umeshchandra Saxena's side in litigation reaching the Supreme Court (2008). Named Kamlesh Patel successor Oct 2011."
+  },
+  {
+   "id": "umeshchandra-saxena",
+   "name": "Umeshchandra Saxena",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Claimant to Babuji's succession and Mission presidency on the basis of a 1982 nomination (per the court record). Dates unknown."
+  },
+  {
+   "id": "darshan-singh",
+   "name": "Darshan Singh",
+   "born": 1921,
+   "died": 1989,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Kirpal Singh's most widely recognised successor; led the Sawan Kirpal Ruhani Mission; b. 14 Sep 1921, d. 30 May 1989; succeeded by his son Rajinder Singh."
+  },
+  {
+   "id": "ajaib-singh",
+   "name": "Ajaib Singh",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Kirpal Singh; founded Sant Bani Ashram in Rajasthan; recognised as successor by Sant Bani supporters in the US. Dates not verified."
+  },
+  {
+   "id": "kundakunda",
+   "name": "Kundakunda",
+   "part": 10,
+   "tier": "node",
+   "kind": "person",
+   "note": "Digambar Jain author of the Samayasara; dates uncertain and omitted."
+  },
+  {
+   "id": "saubhagbhai",
+   "name": "Saubhagbhai",
+   "part": 10,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Rajchandra said to have asked for the Atmasiddhi in verse; dates omitted."
+  },
+  {
+   "id": "todarmal",
+   "name": "Pandit Todarmal",
+   "part": 10,
+   "tier": "node",
+   "kind": "person",
+   "note": "Digambar Jain scholar read by Kanji Swami; dates omitted, unverified this session."
+  },
+  {
+   "id": "bhagavad-gita",
+   "name": "The Bhagavad Gita",
+   "part": 0,
+   "tier": "root",
+   "kind": "tradition",
+   "note": "Scripture central to Vinoba's teaching. May duplicate a node added by another batch."
+  },
+  {
+   "id": "acharya-bhikshu",
+   "name": "Acharya Bhikshu",
+   "born": 1726,
+   "died": 1803,
+   "part": 10,
+   "tier": "node",
+   "kind": "person",
+   "note": "Founder of the Shvetambara Terapanth; left the Sthanakvasi group of Acharya Raghunath. Dates from Wikipedia; founding year not verified (commonly given as 1760)."
+  },
+  {
+   "id": "mahasi-sayadaw",
+   "name": "Mahasi Sayadaw",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "Burmese monk, teacher at Thathana Yeiktha, Rangoon; teacher of Munindra and, via retreats at his centre, of Dipa Ma. Dates not verified in this unit."
+  },
+  {
+   "id": "joseph-goldstein",
+   "name": "Joseph Goldstein",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "Co-founder of IMS; student of Dipa Ma per IMS and Lion's Roar. Dates not verified."
+  },
+  {
+   "id": "sharon-salzberg",
+   "name": "Sharon Salzberg",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "Co-founder of IMS; student of Dipa Ma. Dates not verified."
+  },
+  {
+   "id": "jack-kornfield",
+   "name": "Jack Kornfield",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "Co-founder of IMS; Dipa Ma was one of his teachers. Dates not verified."
+  },
+  {
+   "id": "niruben-amin",
+   "name": "Niruben Amin (Niruma)",
+   "born": 1944,
+   "died": 2006,
+   "part": 10,
+   "tier": "node",
+   "kind": "person",
+   "note": "Doctor and disciple; led the Dada Bhagwan Foundation side of the 1988 split; succeeded by Deepakbhai Desai (Wikipedia citing Flugel 2005)."
+  },
+  {
+   "id": "kanubhai-patel",
+   "name": "Kanubhai Patel",
+   "died": 2020,
+   "part": 10,
+   "tier": "node",
+   "kind": "person",
+   "note": "Early disciple and business partner of Dada Bhagwan; led the Jay Sachchidanand Sangh side of the split. Death date 9 June 2020 per Wikipedia only."
+  },
+  {
+   "id": "chandramani",
+   "name": "U Chandramani Mahathera",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "Burmese-born Theravada monk settled at Kushinagar; gave Ambedkar and Savita Ambedkar the three refuges and five precepts at Nagpur, 14 October 1956, with six other monks. Birth/death years not verified."
+  },
+  {
+   "id": "john-dewey",
+   "name": "John Dewey",
+   "born": 1859,
+   "died": 1952,
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "American pragmatist philosopher; taught Ambedkar at Columbia (1913-16), courses on psychological ethics and moral and political philosophy."
+  },
+  {
+   "id": "sangharakshita",
+   "name": "Sangharakshita",
+   "born": 1925,
+   "died": 2018,
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "English Buddhist monk who met Ambedkar and worked among the new Buddhists after 1956; author of Ambedkar and Buddhism (1986); founded the order whose Indian wing is the Triratna Bauddha Mahasangha. Dates and founding details to verify."
   }
  ],
  "edges": [
@@ -2955,7 +3151,10 @@
    "from": "sawan-singh",
    "to": "kirpal-singh",
    "type": "initiated",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1924,
+   "note": "Initiated at Beas, 1924. His claim to have been entrusted with the mission (12 Oct or Dec 1947) is Ruhani Satsang's account; Beas records name Jagat Singh by will of 20 Mar 1948."
   },
   {
    "from": "sawan-singh",
@@ -2990,7 +3189,8 @@
    "to": "lalaji-babuji",
    "type": "initiated",
    "evidence": "documented",
-   "note": "Naqshbandi transmission"
+   "verified": true,
+   "note": "Naqshbandi transmission, now routed through Fazl Ahmad Khan. Remove if the combined node is split."
   },
   {
    "from": "tamil-shaiva",
@@ -3004,7 +3204,9 @@
    "from": "jain-tradition",
    "to": "rajchandra",
    "type": "lineage",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Born to a Sthanakvasi mother and Vaishnava father; no sect or guru recorded."
   },
   {
    "from": "rajchandra",
@@ -3028,20 +3230,24 @@
    "from": "jain-tradition",
    "to": "kanji-swami",
    "type": "lineage",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true
   },
   {
    "from": "jain-tradition",
    "to": "tulsi-mahapragya",
    "type": "lineage",
    "evidence": "documented",
-   "note": "Terapanth"
+   "verified": true,
+   "note": "Shvetambara Terapanth"
   },
   {
    "from": "jain-tradition",
    "to": "dada-bhagwan",
    "type": "influenced",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Jain vocabulary and Simandhar Swami belief; Flugel reads the movement as Jain-Vaishnava syncretism (via Wikipedia)."
   },
   {
    "from": "buddhist-tradition",
@@ -3053,7 +3259,10 @@
    "from": "buddhist-tradition",
    "to": "ambedkar",
    "type": "influenced",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1956,
+   "note": "Keluskar's life of the Buddha (1907); Maha Bodhi essay (May 1950); conversion at Nagpur 14 Oct 1956; The Buddha and His Dhamma (1957). Named the Buddha his first guru (1954)."
   },
   {
    "from": "jyotirao-phule",
@@ -3062,20 +3271,25 @@
    "evidence": "documented",
    "verified": true,
    "year": 1946,
-   "note": "Ambedkar named Phule among his three gurus and dedicated Who Were the Shudras? (1946) 'to the Memory of Mahatma Jotiba Fule'"
+   "note": "Named third guru (28 October 1954); Who Were the Shudras? (1946) dedicated 'to the Memory of Mahatma Jotiba Fule'."
   },
   {
    "from": "sant-tradition",
    "to": "ambedkar",
    "type": "influenced",
    "evidence": "documented",
-   "note": "Kabir"
+   "verified": true,
+   "year": 1954,
+   "note": "Kabir named his second guru in the speech of 28 October 1954; father Ramji Sakpal reported to be a Kabir Panthi (not yet seen on a fetched page)."
   },
   {
    "from": "munindra",
    "to": "dipa-ma",
-   "type": "lived-with",
-   "evidence": "documented"
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1964,
+   "note": "Family friend who urged her to practise at Mahasi's centre (Lion's Roar; dipama.com). Type changed from lived-with."
   },
   {
    "from": "theosophical-society",
@@ -4978,6 +5192,247 @@
    "verified": true,
    "year": 2000,
    "note": "Invested 2000; succeeded on Vilayat's death 2004"
+  },
+  {
+   "from": "sawan-singh",
+   "to": "jagat-singh",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1910,
+   "note": "Initiated 28 Dec 1910 at Abbottabad; named successor 1948 per Beas."
+  },
+  {
+   "from": "jagat-singh",
+   "to": "charan-singh",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1951,
+   "note": "Named by will dated 22 Oct 1951."
+  },
+  {
+   "from": "kirpal-singh",
+   "to": "darshan-singh",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1974,
+   "note": "Most widely recognised successor; led the mission from 1974. Succession contested by other claimants."
+  },
+  {
+   "from": "kirpal-singh",
+   "to": "ajaib-singh",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": false,
+   "note": "Described as a disciple of Kirpal Singh on the Gurus of Shabdism page; date and nature of initiation not checked."
+  },
+  {
+   "from": "sufi-orders",
+   "to": "fazl-ahmad-khan",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Naqshbandi-Mujaddidi, via Dahnhardt (2002) as summarised on EverybodyWiki."
+  },
+  {
+   "from": "fazl-ahmad-khan",
+   "to": "lalaji-babuji",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1896,
+   "note": "Lalaji's teacher; 1896 successor appointment per Dahnhardt via EverybodyWiki. Ramashram names the teacher Maulana Shah Fazal Ahmed Khan. SRCM pages consulted do not name him."
+  },
+  {
+   "from": "lalaji-babuji",
+   "to": "chaturbhuj-sahay",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1910,
+   "note": "Met Lalaji around 1910-11 (Wikipedia); founded Ramashram Satsang in 1930, naming it for Lalaji. Whether he was Lalaji's chosen successor is the Ramashram view; SRCM names Babuji."
+  },
+  {
+   "from": "lalaji-babuji",
+   "to": "chariji",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1983,
+   "note": "Named by Babuji according to SRCM; president from 1983. Contested in litigation by Umeshchandra Saxena's side, which relied on a 1982 nomination."
+  },
+  {
+   "from": "lalaji-babuji",
+   "to": "umeshchandra-saxena",
+   "type": "claimed",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1982,
+   "note": "Per the Supreme Court record (2008), a 1982 nomination named him spiritual successor; Chariji's side disputed it."
+  },
+  {
+   "from": "chariji",
+   "to": "daaji",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 2011,
+   "note": "Named successor Oct 2011 per SRCM; vice president Aug 2012; guide from 20 Dec 2014."
+  },
+  {
+   "from": "rajchandra",
+   "to": "saubhagbhai",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1896,
+   "note": "Disciple; the Mission names him among four foremost devotees, and tradition says he asked for the Atmasiddhi in verse (1896)."
+  },
+  {
+   "from": "rajchandra",
+   "to": "kanji-swami",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1943,
+   "note": "Through writings, read after the Samayasara; Kanji Swami was about 11 at Rajchandra's death. Commentary on Atmasiddhi 1943."
+  },
+  {
+   "from": "kundakunda",
+   "to": "kanji-swami",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1921,
+   "note": "Samayasara read c. 1921."
+  },
+  {
+   "from": "todarmal",
+   "to": "kanji-swami",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": false,
+   "note": "Read after the Samayasara, per summaries."
+  },
+  {
+   "from": "bhagavad-gita",
+   "to": "vinoba",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Gitai; Talks on the Gita (Dhule jail 1932, book 1940); 'The place of the Gita in my life is unique' (preface)."
+  },
+  {
+   "from": "jain-tradition",
+   "to": "acharya-bhikshu",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Left the Sthanakvasi group of Raghunath."
+  },
+  {
+   "from": "acharya-bhikshu",
+   "to": "tulsi-mahapragya",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Tulsi was ninth acharya of the order Bhikshu founded; named successor by Kalugani 26 Aug 1936."
+  },
+  {
+   "from": "gaudiya",
+   "to": "dada-bhagwan",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": false,
+   "note": "Vaishnava elements; scholarly reading by Flugel via Wikipedia, not verified at source. Consider removing."
+  },
+  {
+   "from": "dada-bhagwan",
+   "to": "kanubhai-patel",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1963,
+   "note": "Business partner; received knowledge 1963 (Wikipedia)."
+  },
+  {
+   "from": "dada-bhagwan",
+   "to": "niruben-amin",
+   "type": "claimed",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1988,
+   "note": "She claimed he trained her in Gnan Vidhi; succeeded him on her side of the split."
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "munindra",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1957,
+   "note": "Close disciple 1957-1966; authorised to teach (Wikipedia)."
+  },
+  {
+   "from": "mahasi-sayadaw",
+   "to": "dipa-ma",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Retreat at Thathana Yeiktha where he was teacher-in-residence (Wikipedia)."
+  },
+  {
+   "from": "dipa-ma",
+   "to": "joseph-goldstein",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Lion's Roar lists him as a primary student."
+  },
+  {
+   "from": "dipa-ma",
+   "to": "sharon-salzberg",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Lion's Roar lists her as a primary student."
+  },
+  {
+   "from": "dipa-ma",
+   "to": "jack-kornfield",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "One of Kornfield's teachers (Lion's Roar; IMS)."
+  },
+  {
+   "from": "chandramani",
+   "to": "ambedkar",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1956,
+   "note": "Three refuges and five precepts, Nagpur, 14 October 1956; Ambedkar then administered refuges, precepts and the 22 vows to the crowd himself."
+  },
+  {
+   "from": "john-dewey",
+   "to": "ambedkar",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1913,
+   "note": "Teacher at Columbia 1913-16; Annihilation of Caste uses Dewey's distinction between rules and principles."
+  },
+  {
+   "from": "ambedkar",
+   "to": "sangharakshita",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": false,
+   "year": 1956,
+   "note": "Met Ambedkar in the 1950s; worked among Ambedkarite Buddhists after his death; wrote Ambedkar and Buddhism (1986). Details not verified on a fetched page."
   }
  ]
 }

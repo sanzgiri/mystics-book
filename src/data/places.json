@@ -1952,6 +1952,222 @@
    "figure": "inayat-khan",
    "what": "Died at Tilak Lodge, Delhi, 5 February 1927; buried beside the shrine of Nizamuddin Auliya",
    "verified": true
+  },
+  {
+   "name": "Sayyad Kasran",
+   "lat": 33.65,
+   "lon": 73.05,
+   "figure": "kirpal-singh",
+   "what": "Birthplace, 1894 (village in Punjab, now Pakistan; exact location not found)",
+   "verified": false
+  },
+  {
+   "name": "Dera Baba Jaimal Singh, Beas",
+   "lat": 31.52,
+   "lon": 75.27,
+   "figure": "kirpal-singh",
+   "what": "Initiated by Sawan Singh, 1924; seat of the Beas line",
+   "verified": true
+  },
+  {
+   "name": "Sawan Ashram, Shakti Nagar, Delhi",
+   "lat": 28.68,
+   "lon": 77.2,
+   "figure": "kirpal-singh",
+   "what": "Headquarters of Ruhani Satsang, built 1951",
+   "verified": false
+  },
+  {
+   "name": "Fatehgarh",
+   "lat": 27.37,
+   "lon": 79.63,
+   "figure": "lalaji-babuji",
+   "what": "Lalaji's birthplace and home",
+   "verified": true
+  },
+  {
+   "name": "Shahjahanpur",
+   "lat": 27.88,
+   "lon": 79.91,
+   "figure": "lalaji-babuji",
+   "what": "Babuji's home; Shri Ram Chandra Mission registered 1945",
+   "verified": true
+  },
+  {
+   "name": "Kanha Shanti Vanam",
+   "lat": 17.18,
+   "lon": 78.2,
+   "figure": "lalaji-babuji",
+   "what": "Headquarters of the Mission near Hyderabad (Wikipedia); coordinates approximate",
+   "verified": false
+  },
+  {
+   "name": "Tiruchendur",
+   "lat": 8.5,
+   "lon": 78.12,
+   "figure": "ayya-vaikundar",
+   "what": "1833 sea episode",
+   "verified": true
+  },
+  {
+   "name": "Swamithoppu",
+   "lat": 8.19,
+   "lon": 77.41,
+   "figure": "ayya-vaikundar",
+   "what": "Headquarters Pathi of Ayyavazhi, penance from 1834; coordinates approximate",
+   "verified": false
+  },
+  {
+   "name": "Poovandanthoppu",
+   "lat": 8.17,
+   "lon": 77.44,
+   "figure": "ayya-vaikundar",
+   "what": "Traditional birthplace near Tamaraikkulam; coordinates approximate",
+   "verified": false
+  },
+  {
+   "name": "Vavania, Morbi",
+   "lat": 22.96,
+   "lon": 70.78,
+   "figure": "rajchandra",
+   "what": "Birthplace of Shrimad Rajchandra, 1867.",
+   "verified": false
+  },
+  {
+   "name": "Nadiad",
+   "lat": 22.69,
+   "lon": 72.86,
+   "figure": "rajchandra",
+   "what": "Where the Atmasiddhi was composed, 1896.",
+   "verified": true
+  },
+  {
+   "name": "Umrala, Kathiawar",
+   "lat": 21.9,
+   "lon": 71.6,
+   "figure": "kanji-swami",
+   "what": "Birthplace of Kanji Swami.",
+   "verified": false
+  },
+  {
+   "name": "Songadh, Bhavnagar district",
+   "lat": 21.71,
+   "lon": 71.89,
+   "figure": "kanji-swami",
+   "what": "1934 declaration as Digambar layman; Svadhyaya Mandir (1937).",
+   "verified": true
+  },
+  {
+   "name": "Paunar, Wardha",
+   "lat": 20.79,
+   "lon": 78.67,
+   "figure": "vinoba",
+   "what": "Paramdham Ashram, Vinoba's base from 1938, Brahma Vidya Mandir (1959) and place of death 1982.",
+   "verified": false
+  },
+  {
+   "name": "Pochampally",
+   "lat": 17.35,
+   "lon": 78.81,
+   "figure": "vinoba",
+   "what": "18 April 1951, first land gift launching Bhoodan.",
+   "verified": true
+  },
+  {
+   "name": "Ladnun",
+   "lat": 27.65,
+   "lon": 74.39,
+   "figure": "tulsi-mahapragya",
+   "what": "Tulsi's birthplace and initiation (1914, 1925); Jeevan Vigyan conceived 1979",
+   "verified": true
+  },
+  {
+   "name": "Sardarshahar",
+   "lat": 28.44,
+   "lon": 74.49,
+   "figure": "tulsi-mahapragya",
+   "what": "Anuvrat launched 1 March 1949 (Jainology); Mahapragya died here 2010",
+   "verified": true
+  },
+  {
+   "name": "Surat railway station",
+   "lat": 21.205,
+   "lon": 72.84,
+   "figure": "dada-bhagwan",
+   "what": "Site of the June 1958 experience by his account",
+   "verified": true
+  },
+  {
+   "name": "Calcutta",
+   "lat": 22.57,
+   "lon": 88.36,
+   "figure": "dipa-ma",
+   "what": "Home and teaching from 1967; died here 1989",
+   "verified": true
+  },
+  {
+   "name": "Insight Meditation Society, Barre",
+   "lat": 42.42,
+   "lon": -72.11,
+   "figure": "dipa-ma",
+   "what": "Taught here in 1980 and 1984 (IMS)",
+   "verified": true
+  },
+  {
+   "name": "Mhow (Dr. Ambedkar Nagar)",
+   "lat": 22.554,
+   "lon": 75.759,
+   "figure": "ambedkar",
+   "what": "Birthplace, 14 April 1891",
+   "verified": true
+  },
+  {
+   "name": "Mahad (Chavdar tank)",
+   "lat": 18.083,
+   "lon": 73.417,
+   "figure": "ambedkar",
+   "what": "Chavdar tank satyagraha (March 1927) and the burning of the Manusmriti (25 December 1927)",
+   "verified": true
+  },
+  {
+   "name": "Nashik (Kalaram temple)",
+   "lat": 20.007,
+   "lon": 73.795,
+   "figure": "ambedkar",
+   "what": "Temple entry campaign, 1930-1935",
+   "verified": true
+  },
+  {
+   "name": "Yeola",
+   "lat": 20.042,
+   "lon": 74.489,
+   "figure": "ambedkar",
+   "what": "Conference of 13 October 1935: vow not to die a Hindu",
+   "verified": true
+  },
+  {
+   "name": "Chandrapur",
+   "lat": 19.961,
+   "lon": 79.296,
+   "figure": "ambedkar",
+   "what": "Second mass conversion, 16 October 1956",
+   "verified": true
+  },
+  {
+   "name": "Delhi, 26 Alipur Road",
+   "lat": 28.68,
+   "lon": 77.224,
+   "figure": "ambedkar",
+   "what": "House where he died, 6 December 1956; now a national memorial",
+   "verified": false
+  },
+  {
+   "name": "Chaityabhoomi, Dadar, Mumbai",
+   "lat": 19.025,
+   "lon": 72.834,
+   "figure": "ambedkar",
+   "what": "Cremation ground, 7 December 1956; now a memorial",
+   "verified": false
   }
  ]
 }
