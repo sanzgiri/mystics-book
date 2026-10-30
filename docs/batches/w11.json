@@ -11,7 +11,7 @@
   "edges_remove": [],
   "edges_upsert": [
     {"from": "babaji", "to": "lahiri-mahasaya", "type": "initiated", "evidence": "hagiographic", "verified": true, "year": 1861, "note": "Lahiri's account as reported by disciples and by Yogananda (Autobiography of a Yogi, ch. 34, 1946); no evidence outside the lineage"},
-    {"from": "lahiri-mahasaya", "to": "yukteswar", "type": "initiated", "evidence": "documented", "verified": true, "year": 1884, "note": "Initiated into Kriya Yoga 1884; visited Lahiri often in Benares"},
+    {"from": "lahiri-mahasaya", "to": "yukteswar", "type": "initiated", "evidence": "documented", "verified": true, "year": 1884, "note": "Met Lahiri in 1884 (Wikipedia, Yukteswar) and was initiated into Kriya Yoga; visited Lahiri often in Benares"},
     {"from": "lahiri-mahasaya", "to": "panchanan-bhattacharya", "type": "initiated", "evidence": "documented", "verified": true, "note": "Required to give up sannyasa and return to household life before initiation; later authorised to found the Arya Mission Institution, Calcutta (c. 1885/1886)"},
     {"from": "lahiri-mahasaya", "to": "keshavananda-brahmachari", "type": "initiated", "evidence": "testimony", "verified": true, "note": "Initiated by Lahiri; reported meeting Babaji near Badrinath (Yogananda)"},
     {"from": "lahiri-mahasaya", "to": "yogananda", "type": "influenced", "evidence": "testimony", "verified": true, "note": "Initiated Yogananda's parents; blessed the infant ('Little mother, thy son will be a yogi', per YSS). Died 1895 when Yogananda was under three; training came through Yukteswar"},
@@ -43,7 +43,8 @@
     "lahiri-mahasaya.mdx: Trailanga Swami node exists in Part 5 with no edges; I added no edge to Lahiri because no teaching relation is documented. Author may want a different home for Trailanga.",
     "lahiri-mahasaya.mdx: Descendants paragraph names Bhupendranath Sanyal, Pranabananda, Kebalananda, Shibendu Lahiri, Hariharananda Giri without dates or nodes; Hariharananda's descent is via Yukteswar/Yogananda/Satyananda Giri (Wikipedia 'Kriya Yoga school'). Add nodes if the tree should show them.",
     "lahiri-mahasaya.mdx: Dunagiri coordinates approximate (place marked verified: false).",
-    "lahiri-mahasaya.mdx: No art created; uses existing 'lamp'."
+    "lahiri-mahasaya.mdx: No art created; uses existing 'lamp'.",
+    "lahiri-mahasaya.mdx (factcheck): Trailanga's admiration for Lahiri and Lahiri's posthumous appearances rest on AoY chapters the checker could not read; author should confirm against a print copy (ch. 31 and 35-36) or cut."
   ],
   "sources": {
     "lahiri-mahasaya": [
@@ -65,6 +66,29 @@
       "Keshavananda initiated by Lahiri; Katyayani Peeth, Vrindavan -> https://en.wikipedia.org/wiki/Keshavananda_Brahmachari",
       "Shibendu Lahiri great-grandson, family lineage of Kriya -> https://data.bnf.fr/15545226/shibendu_lahiri/fr.pdf",
       "Sgt. Pepper cover 1967 -> https://en.wikipedia.org/wiki/Lahiri_Mahasaya"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 68,
+    "changes": [
+      "lahiri-mahasaya.mdx: scene, Babaji greets him and says he was the one who called (AoY ch. 34: 'It was I who called you'); 'says he has been waiting' not in source (anandaindia.org ch. 34)",
+      "lahiri-mahasaya.mdx: Babaji meeting dated 'autumn of 1861' per AoY ch. 34; removed first-person 'which I have not found' (style: first person only in verdict)",
+      "lahiri-mahasaya.mdx: seven days of samadhi located 'in the hills', not 'in the cave' (AoY ch. 34 does not name the cave)",
+      "lahiri-mahasaya.mdx: Babaji's first rule paraphrased closer to source ('qualified chelas' who vow to sacrifice all) and Lahiri's plea for seekers who cannot yet vow 'complete inner renunciation' (AoY ch. 34)",
+      "lahiri-mahasaya.mdx: cut unsupported sentence that accountant and clerk work was 'keeping the books for construction and supply'",
+      "lahiri-mahasaya.mdx: Yukteswar 'met him in 1884 and became his disciple' (Wikipedia gives 1884 as meeting year, no separate initiation year); Lineage '(met 1884)'",
+      "lahiri-mahasaya.mdx: 'banat, banat, ban jai' changed from 'the one he repeated most often' to 'one he often repeated' (ananda.org says he often used it)",
+      "lahiri-mahasaya.mdx: 'One photograph survives' changed to 'Only one photograph is known' and 'never again' attributed to Yogananda, who hedges 'at least, I have seen none' (ananda.org photograph article, AoY ch. 1)",
+      "lahiri-mahasaya.mdx: diaries critique, removed unsourced claim that Chatterjee's books show a Lahiri 'more critical of ritual and image worship'; replaced with the sourced reader view that Babaji was another form of Lahiri (vedicbooks.net reviews)",
+      "lahiri-mahasaya.mdx: removed first person outside the verdict in the diaries aside and Lineage section ('as far as I could find', 'that I can document')",
+      "w11.json: Yukteswar edge note reworded to 'met 1884 and was initiated'"
+    ],
+    "unresolved": [
+      "AoY chapters 31 and 35/36 could not be fetched in full (allowlist/size). Still unverified from the text: Trailanga Swami's admiration for Lahiri (ch. 31; Wikipedia 'Trailanga' confirms he appears in ch. 31), and posthumous appearances to disciples. The 'fifty years after my passing' prediction is confirmed by YSS as Lahiri's words relayed by Yukteswar to Yogananda, but its chapter in AoY was not confirmed.",
+      "The batch issue labels the posthumous appearances as ch. 36; they may be at the end of ch. 35 or 36. Not material to the text, which cites no chapter.",
+      "Keshavananda dates: Wikipedia gives 25 Dec 1830 to 1942, sourced to devotional sites; node rightly omits them.",
+      "Yoganiketan and itch.io pages are not independently checked for technique details; technique list corroborated by Wikipedia 'Kriya Yoga school' and standard hatha texts.",
+      "Yukteswar's initiation year: 1884 is the meeting year in Wikipedia; some lineage sources give 1883 or 1884. Edge year kept at 1884."
     ]
   }
 }
