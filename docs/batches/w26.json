@@ -1,57 +1,297 @@
 {
   "batch": "w26",
   "nodes_add": [
-    {"id": "abu-hashim-madani", "name": "Sayyid Muhammad Abu Hashim Madani", "died": 1908, "part": 9, "tier": "node", "kind": "person", "note": "Hyderabad Sufi teacher, head of the Chishti-Nizami-Kalimi line; Inayat Khan's murshid. Death given as 1907 (Wikipedia) or 1908 (Inayati Order)"},
-    {"id": "maulabakhsh", "name": "Maulabakhsh (Sholay Khan)", "born": 1833, "died": 1896, "part": 9, "tier": "node", "kind": "person", "note": "Baroda musician and notation pioneer; founded the Gayanshala in 1886; Inayat Khan's maternal grandfather"},
-    {"id": "rabia-martin", "name": "Rabia Martin (Ada Martin)", "part": 9, "tier": "node", "kind": "person", "note": "First American disciple of Inayat Khan (San Francisco, 1910 or 1911); broke away after 1927; her line led to Sufism Reoriented"},
-    {"id": "maheboob-khan", "name": "Maheboob Khan", "died": 1948, "part": 9, "tier": "node", "kind": "person", "note": "Inayat Khan's brother; led the Sufi Movement from 1927 until his death in 1948"},
-    {"id": "vilayat-inayat-khan", "name": "Vilayat Inayat Khan", "born": 1916, "died": 2004, "part": 9, "tier": "node", "kind": "person", "note": "Inayat Khan's eldest son; took his father's mantle in 1956 or 1957; founded the Sufi Order (name adopted 1968), now the Inayati Order"},
-    {"id": "zia-inayat-khan", "name": "Zia Inayat Khan", "part": 9, "tier": "node", "kind": "person", "note": "Vilayat's son; invested 2000; leads the Inayati Order (Inayatiyya)"},
-    {"id": "noor-inayat-khan", "name": "Noor Inayat Khan", "born": 1914, "died": 1944, "part": 9, "tier": "node", "kind": "person", "note": "Inayat Khan's eldest daughter; SOE wireless operator; shot at Dachau 13 September 1944"}
+    {
+      "id": "abu-hashim-madani",
+      "name": "Sayyid Muhammad Abu Hashim Madani",
+      "died": 1908,
+      "part": 9,
+      "tier": "node",
+      "kind": "person",
+      "note": "Hyderabad Sufi teacher, head of the Chishti-Nizami-Kalimi line; Inayat Khan's murshid. Death given as 1907 (Wikipedia) or 1908 (Inayati Order)"
+    },
+    {
+      "id": "maulabakhsh",
+      "name": "Maulabakhsh (Sholay Khan)",
+      "born": 1833,
+      "died": 1896,
+      "part": 9,
+      "tier": "node",
+      "kind": "person",
+      "note": "Baroda musician and notation pioneer; founded the Gayanshala in 1886; Inayat Khan's maternal grandfather"
+    },
+    {
+      "id": "rabia-martin",
+      "name": "Rabia Martin (Ada Martin)",
+      "part": 9,
+      "tier": "node",
+      "kind": "person",
+      "note": "First American disciple of Inayat Khan (San Francisco, 1910 or 1911); broke away after 1927; her line led to Sufism Reoriented"
+    },
+    {
+      "id": "maheboob-khan",
+      "name": "Maheboob Khan",
+      "died": 1948,
+      "part": 9,
+      "tier": "node",
+      "kind": "person",
+      "note": "Inayat Khan's brother; led the Sufi Movement from 1927 until his death in 1948; a council voted by majority to appoint him esoteric leader (Sufipedia chronology, 14-15 June, year not shown); followed by Mohammed Ali Khan (1948-1958) and Musharaff Khan (to 1967)"
+    },
+    {
+      "id": "vilayat-inayat-khan",
+      "name": "Vilayat Inayat Khan",
+      "born": 1916,
+      "died": 2004,
+      "part": 9,
+      "tier": "node",
+      "kind": "person",
+      "note": "Inayat Khan's eldest son; designated successor by his father in 1926; took up his father's mantle in 1956 or 1957 outside the Sufi Movement; revived the name Sufi Order in 1968 (now the Inayati Order / Inayatiyya); died 17 June 2004"
+    },
+    {
+      "id": "zia-inayat-khan",
+      "name": "Zia Inayat Khan",
+      "part": 9,
+      "tier": "node",
+      "kind": "person",
+      "note": "Vilayat's son; invested 2000; leads the Inayati Order (Inayatiyya)"
+    },
+    {
+      "id": "noor-inayat-khan",
+      "name": "Noor Inayat Khan",
+      "born": 1914,
+      "died": 1944,
+      "part": 9,
+      "tier": "node",
+      "kind": "person",
+      "note": "Inayat Khan's eldest daughter; SOE wireless operator; shot at Dachau 13 September 1944"
+    }
   ],
   "nodes_update": [
-    {"id": "inayat-khan", "born": 1882, "died": 1927, "note": "Born Baroda 5 July 1882; Chishti initiation under Abu Hashim Madani, Hyderabad, c. 1903-1904; sailed for the US 13 September 1910; Sufi Order in London (1914, 1915 or 1918 in different sources); Sufi Movement, Geneva, 1923; died Delhi 5 February 1927"}
+    {
+      "id": "inayat-khan",
+      "born": 1882,
+      "died": 1927,
+      "note": "Born Baroda 5 July 1882; Chishti initiation under Abu Hashim Madani, Hyderabad, c. 1903-1904; sailed for the US 13 September 1910; Sufi Order in London (1914, 1915 or 1918 in different sources); Universal Worship, London, 1921 (Suluk Press); Sufi Movement, Geneva, 1923; died Delhi 5 February 1927"
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "sufi-orders", "to": "inayat-khan", "type": "initiated", "evidence": "documented", "verified": true, "year": 1904, "note": "Chishti line (Chishti-Nizami-Kalimi). Claim of training in Suhrawardi, Qadiri and Naqshbandi too rests on his own account"},
-    {"from": "abu-hashim-madani", "to": "inayat-khan", "type": "initiated", "evidence": "testimony", "verified": true, "year": 1904, "note": "Initiation and four years of discipleship in Hyderabad, known from Inayat Khan's own essay and the movement's biographies; no independent record found"},
-    {"from": "sufi-orders", "to": "abu-hashim-madani", "type": "lineage", "evidence": "testimony", "verified": true, "note": "Chishti-Nizami-Kalimi, via Shah Kalim Allah Jahanabadi (Wikipedia)"},
-    {"from": "maulabakhsh", "to": "inayat-khan", "type": "family", "evidence": "documented", "verified": true, "note": "Maternal grandfather; musical training at the Gayanshala, Baroda"},
-    {"from": "inayat-khan", "to": "rabia-martin", "type": "initiated", "evidence": "documented", "verified": true, "year": 1911, "note": "First American disciple, San Francisco"},
-    {"from": "inayat-khan", "to": "maheboob-khan", "type": "family", "evidence": "documented", "verified": true, "note": "Brother; led the Sufi Movement 1927-1948"},
-    {"from": "inayat-khan", "to": "vilayat-inayat-khan", "type": "family", "evidence": "documented", "verified": true, "year": 1926, "note": "Eldest son; told 'You must follow in my footsteps' per the Inayati Order"},
-    {"from": "inayat-khan", "to": "noor-inayat-khan", "type": "family", "evidence": "documented", "verified": true},
-    {"from": "vilayat-inayat-khan", "to": "zia-inayat-khan", "type": "institutional", "evidence": "documented", "verified": true, "year": 2000, "note": "Invested 2000; succeeded on Vilayat's death 2004"},
-    {"from": "inayat-khan", "to": "maheboob-khan", "type": "institutional", "evidence": "documented", "verified": true, "year": 1927, "note": "Leader of the Sufi Movement after 1927; a council is recorded appointing him esoteric leader in June (year not given on the page)"}
+    {
+      "from": "sufi-orders",
+      "to": "inayat-khan",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1904,
+      "note": "Chishti line (Chishti-Nizami-Kalimi). Claim of training in Suhrawardi, Qadiri and Naqshbandi too rests on his own account ('My Initiation in Sufism'); Wikipedia repeats it as four transmissions"
+    },
+    {
+      "from": "abu-hashim-madani",
+      "to": "inayat-khan",
+      "type": "initiated",
+      "evidence": "testimony",
+      "verified": true,
+      "year": 1904,
+      "note": "Initiation and four years of discipleship in Hyderabad, known from Inayat Khan's own essay and the movement's biographies; no independent record found"
+    },
+    {
+      "from": "sufi-orders",
+      "to": "abu-hashim-madani",
+      "type": "lineage",
+      "evidence": "testimony",
+      "verified": true,
+      "note": "Chishti-Nizami-Kalimi, via Shah Kalim Allah Jahanabadi (Wikipedia)"
+    },
+    {
+      "from": "maulabakhsh",
+      "to": "inayat-khan",
+      "type": "family",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Maternal grandfather; musical training at the Gayanshala, Baroda"
+    },
+    {
+      "from": "inayat-khan",
+      "to": "rabia-martin",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1911,
+      "note": "First American disciple, San Francisco"
+    },
+    {
+      "from": "inayat-khan",
+      "to": "maheboob-khan",
+      "type": "family",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Brother; led the Sufi Movement 1927-1948"
+    },
+    {
+      "from": "inayat-khan",
+      "to": "vilayat-inayat-khan",
+      "type": "family",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1926,
+      "note": "Eldest son; designated successor in 1926 and told 'You must follow in my footsteps' per the Inayati Order (also Kuehn and Pokorny 2018)"
+    },
+    {
+      "from": "inayat-khan",
+      "to": "noor-inayat-khan",
+      "type": "family",
+      "evidence": "documented",
+      "verified": true
+    },
+    {
+      "from": "vilayat-inayat-khan",
+      "to": "zia-inayat-khan",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 2000,
+      "note": "Invested 2000; succeeded on Vilayat's death 2004"
+    },
+    {
+      "from": "inayat-khan",
+      "to": "maheboob-khan",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1927,
+      "note": "Leader of the Sufi Movement after 1927; a council is recorded appointing him esoteric leader in June (year not given on the page)"
+    }
   ],
   "places": [
-    {"name": "Baroda (Vadodara)", "lat": 22.307, "lon": 73.181, "figure": "inayat-khan", "what": "Birthplace (1882); Gayanshala and the court of Maharaja Sayajirao Gaekwad", "verified": true},
-    {"name": "Hyderabad", "lat": 17.385, "lon": 78.487, "figure": "inayat-khan", "what": "Nizam's court; meeting with Abu Hashim Madani and Chishti initiation, c. 1903-1904", "verified": true},
-    {"name": "San Francisco", "lat": 37.775, "lon": -122.419, "figure": "inayat-khan", "what": "First American disciple Rabia Martin, 1910-1911", "verified": true},
-    {"name": "London (86 Ladbroke Road)", "lat": 51.512, "lon": -0.205, "figure": "inayat-khan", "what": "Sufi Order khankah and the magazine The Sufi, 1914-1920", "verified": true},
-    {"name": "Geneva", "lat": 46.204, "lon": 6.143, "figure": "inayat-khan", "what": "International headquarters of the Sufi Movement, 1923", "verified": true},
-    {"name": "Suresnes (Fazal Manzil)", "lat": 48.871, "lon": 2.229, "figure": "inayat-khan", "what": "Family home and summer school, 1920s", "verified": true},
-    {"name": "Nizamuddin, Delhi", "lat": 28.591, "lon": 77.242, "figure": "inayat-khan", "what": "Died at Tilak Lodge, Delhi, 5 February 1927; buried beside the shrine of Nizamuddin Auliya", "verified": true}
+    {
+      "name": "Baroda (Vadodara)",
+      "lat": 22.307,
+      "lon": 73.181,
+      "figure": "inayat-khan",
+      "what": "Birthplace (1882); Gayanshala and the court of Maharaja Sayajirao Gaekwad",
+      "verified": true
+    },
+    {
+      "name": "Hyderabad",
+      "lat": 17.385,
+      "lon": 78.487,
+      "figure": "inayat-khan",
+      "what": "Nizam's court; meeting with Abu Hashim Madani and Chishti initiation, c. 1903-1904",
+      "verified": true
+    },
+    {
+      "name": "San Francisco",
+      "lat": 37.775,
+      "lon": -122.419,
+      "figure": "inayat-khan",
+      "what": "First American disciple Rabia Martin, 1910-1911",
+      "verified": true
+    },
+    {
+      "name": "London (86 Ladbroke Road)",
+      "lat": 51.512,
+      "lon": -0.205,
+      "figure": "inayat-khan",
+      "what": "Sufi Order khankah and the magazine The Sufi, 1914-1920",
+      "verified": true
+    },
+    {
+      "name": "Geneva",
+      "lat": 46.204,
+      "lon": 6.143,
+      "figure": "inayat-khan",
+      "what": "International headquarters of the Sufi Movement, 1923",
+      "verified": true
+    },
+    {
+      "name": "Suresnes (Fazal Manzil)",
+      "lat": 48.871,
+      "lon": 2.229,
+      "figure": "inayat-khan",
+      "what": "Family home and summer school, 1920s",
+      "verified": true
+    },
+    {
+      "name": "Nizamuddin, Delhi",
+      "lat": 28.591,
+      "lon": 77.242,
+      "figure": "inayat-khan",
+      "what": "Died at Tilak Lodge, Delhi, 5 February 1927; buried beside the shrine of Nizamuddin Auliya",
+      "verified": true
+    }
   ],
   "glossary": [
-    {"term": "Murshid", "script": "مرشد", "lang": "ur", "def": "A Sufi spiritual guide who initiates and trains students."},
-    {"term": "Mureed", "script": "مرید", "lang": "ur", "def": "A student bound to a Sufi guide by initiation."},
-    {"term": "Silsila", "script": "سلسلہ", "lang": "ur", "def": "The chain of teachers by which a Sufi order traces itself back to the Prophet."},
-    {"term": "Chishti", "script": "چشتی", "lang": "ur", "def": "A major Sufi order of South Asia, named for the town of Chisht and centred on shrines such as Ajmer and Nizamuddin in Delhi."},
-    {"term": "Khankah", "script": "خانقاہ", "lang": "ur", "def": "A Sufi lodge where students live, worship and are taught."},
-    {"term": "Dargah", "script": "درگاہ", "lang": "ur", "def": "The shrine built over the tomb of a Sufi saint."},
-    {"term": "Urs", "script": "عرس", "lang": "ur", "def": "The annual death anniversary of a Sufi saint, observed as his union with God."},
-    {"term": "Zikr", "script": "ذکر", "lang": "ur", "def": "Sufi remembrance of God by repeating divine names, alone or in a group."},
-    {"term": "Sama", "script": "سماع", "lang": "ur", "def": "Devotional music and poetry sessions in Sufi practice, especially in the Chishti order."},
-    {"term": "Cherag", "script": "چراغ", "lang": "ur", "def": "Lamp; the title of a minister who conducts the Universal Worship service."},
-    {"term": "Tansen", "script": "तानसेन", "lang": "hi", "def": "The legendary singer of Akbar's court; later used as an honorific for great musicians."}
+    {
+      "term": "Murshid",
+      "script": "مرشد",
+      "lang": "ur",
+      "def": "A Sufi spiritual guide who initiates and trains students."
+    },
+    {
+      "term": "Mureed",
+      "script": "مرید",
+      "lang": "ur",
+      "def": "A student bound to a Sufi guide by initiation."
+    },
+    {
+      "term": "Silsila",
+      "script": "سلسلہ",
+      "lang": "ur",
+      "def": "The chain of teachers by which a Sufi order traces itself back to the Prophet."
+    },
+    {
+      "term": "Chishti",
+      "script": "چشتی",
+      "lang": "ur",
+      "def": "A major Sufi order of South Asia, named for the town of Chisht and centred on shrines such as Ajmer and Nizamuddin in Delhi."
+    },
+    {
+      "term": "Khankah",
+      "script": "خانقاہ",
+      "lang": "ur",
+      "def": "A Sufi lodge where students live, worship and are taught."
+    },
+    {
+      "term": "Dargah",
+      "script": "درگاہ",
+      "lang": "ur",
+      "def": "The shrine built over the tomb of a Sufi saint."
+    },
+    {
+      "term": "Urs",
+      "script": "عرس",
+      "lang": "ur",
+      "def": "The annual death anniversary of a Sufi saint, observed as his union with God."
+    },
+    {
+      "term": "Zikr",
+      "script": "ذکر",
+      "lang": "ur",
+      "def": "Sufi remembrance of God by repeating divine names, alone or in a group."
+    },
+    {
+      "term": "Sama",
+      "script": "سماع",
+      "lang": "ur",
+      "def": "Devotional music and poetry sessions in Sufi practice, especially in the Chishti order."
+    },
+    {
+      "term": "Cherag",
+      "script": "چراغ",
+      "lang": "ur",
+      "def": "Lamp; the title of a minister who conducts the Universal Worship service."
+    },
+    {
+      "term": "Tansen",
+      "script": "तानसेन",
+      "lang": "hi",
+      "def": "The legendary singer of Akbar's court; later used as an honorific for great musicians."
+    }
   ],
   "art": [],
   "issues": [
     "inayat-khan.mdx: 'Sirdar' succession. The brief mentions succession to 'Sirdar and Vilayat'. No fetched source mentions a Sirdar (searches for 'Sirdar van Tuyll' returned nothing). The chapter gives only the verified succession (Maheboob 1927-1948, Mohammed Ali Khan, Vilayat from 1956 or 1957, Sufi Order name 1968, Zia 2000/2004). Author to supply a source if a Sirdar is meant.",
     "inayat-khan.mdx: Sufi Order founding date conflicts: 1914 (Wikipedia Inayat Khan), 1915 (letterheads Oct 1915; Univie paper says chartered 1915), 1918 (wahiduddin.net timeline; Wikipedia Western Sufism and Inayati Order). Chapter gives the range.",
-    "inayat-khan.mdx: Universal Worship year not found. Sufipedia chronology gives 7 May (London, 35 Tregunter Road) and 3 September (Netherlands) without years. Chapter says early 1920s is likely; verify.",
     "inayat-khan.mdx: Abu Hashim Madani's death 1907 (Wikipedia) vs 1908 (Inayati Order); initiation 1904 (Ruhaniat) vs arrival in Hyderabad c. 1903 (Inayati class notes). Scene hedges as 1907 or 1908.",
     "inayat-khan.mdx: the Madani initiation quote ('granted the request, initiating me into Sufism there and then') is from 'My Initiation in Sufism'; the fetched passage does not itself name Madani as the master (the link is implied by the next section). The four-orders training quote is verbatim from the same page.",
     "inayat-khan.mdx: four-orders claim (Suhrawardi, Qadiri, Naqshbandi) has no independent source; chapter attributes it to his own account.",
@@ -60,7 +300,10 @@
     "inayat-khan.mdx: 'If you read one book' points to the free Biography of Pir-o-Murshid Inayat Khan; publication year is only given as the 1977 editors' introduction. Zia Inayat-Khan's A Pearl in Wine (2001) was not verified and was left out.",
     "inayat-khan.mdx: Maheboob Khan appointment as esoteric leader, 14-15 June, comes from the Sufipedia list under 'Death and succession'; the year (probably 1927) is inferred from placement. Sedgwick, Jironet and Wikipedia do not name titles consistently.",
     "inayat-khan.mdx: Wikipedia's Inayat Khan article is internally inconsistent on whether Vilayat or Maheboob was the successor; chapter follows Western Sufism and Inayati Order pages (Maheboob led the Movement; Vilayat founded the Order).",
-    "inayat-khan.mdx: edge sufi-orders -> inayat-khan existed; evidence kept as documented for the Chishti initiation only."
+    "inayat-khan.mdx: edge sufi-orders -> inayat-khan existed; evidence kept as documented for the Chishti initiation only.",
+    "inayat-khan.mdx (factcheck): Sirdar van Tuyll van Serooskerken appears in the Sufipedia chronology as opener of the 'Church of All' and as one of those who voted against Maheboob Khan's appointment as esoteric leader; he was not a successor. Chapter now says so. The brief's 'succession to Sirdar' should be dropped.",
+    "inayat-khan.mdx (factcheck): Universal Worship year now given as 1921 on the authority of Suluk Press (sulukpress.com/?p=3452); the Sufipedia chronology gives day and month only. A second independent source for 1921 would help.",
+    "inayat-khan.mdx (factcheck): orthodox Muslim criticism still rests on two 2016 papers from one Malaysian university; no stronger source (Hermansen, Sedgwick, Indian ulama) found in the time available. Section kept modest and attributed."
   ],
   "sources": {
     "inayat-khan": [
@@ -92,6 +335,36 @@
       "Noor Inayat Khan: born 1 Jan 1914 Moscow; Dachau 13 Sept 1944; George Cross announced 5 April 1949 -> https://en.wikipedia.org/wiki/Noor_Inayat_Khan",
       "Maheboob Khan led Sufi Movement until death 1948 -> https://en.wikipedia.org/wiki/Maheboob_Khan",
       "Jironet PhD, UvA 1998 -> https://dare.uva.nl/id/68f68866-19fd-456a-b086-a215a015e0c9"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 68,
+    "changes": [
+      "inayat-khan.mdx scene: teacher 'foretold the day of his death' and a group zikr were not in the source; now 'predicted its coming' six months ahead, bade farewell, and himself continued zikr; noted the account does not say the blessing was at the deathbed (hazrat-inayat-khan.org, My Initiation in Sufism)",
+      "inayat-khan.mdx: vision and initiation quotes made verbatim ('a most haunting and spiritual face, radiant with light'; 'the Master smiled and granted the request...') (same source)",
+      "inayat-khan.mdx: 'ways of light' quote corrected to verbatim 'opened up in me the ways of light' (same source)",
+      "inayat-khan.mdx: Nizam exchange given verbatim, 'My music is my thought, and my thought is my emotion' (wahiduddin.net/hik/hik_music_bio.htm); 'My music is my religion' attributed as said to the Nizam (inayatiyya.org)",
+      "inayat-khan.mdx: Sufi Order date paragraph: Kuehn and Pokorny 2018 named and shown to give both 1915 and 1918; 'International Sufi Order' letterhead dated 8 February with year not stated on the archive page (wahiduddin.net during_ww1)",
+      "inayat-khan.mdx: 'women held senior posts from the start' changed to 'rose to senior posts'; 'London order' to 'order' (during_ww1 page)",
+      "inayat-khan.mdx: Universal Worship dated 1921 per Suluk Press; removed 'early 1920s is the likely range' guess",
+      "inayat-khan.mdx: Sufi Movement founding phrased as 1923 with day from the chronology (chronology shows no year)",
+      "inayat-khan.mdx: sailing on 13 September 1910 (Ruhaniat says sailed, not left Baroda); Musharaff 'followed a year later' unverified, now 'joined them later'",
+      "inayat-khan.mdx: death: removed unsourced 'cold after Ajmer' and 'bank of the Yamuna'; ill since 1925 (Inayati class 6 notes), pneumonia attributed to Wikipedia",
+      "inayat-khan.mdx: Practice step 4 said his teacher's circle did zikr; source says the teacher himself (My Initiation in Sufism)",
+      "inayat-khan.mdx: Genn quote corrected from 'legal tradition' to verbatim 'exoteric tradition of Islam' (Equinox abstract)",
+      "inayat-khan.mdx: Muthaliff quote trimmed to match source spelling; second 2016 paper given its venue (Journal of Education and Social Sciences 5) and full abstract phrase; section notes both papers come from one university",
+      "inayat-khan.mdx: succession: added Mohammed Ali Khan 1948-1958 (Wikipedia Ali Khan), Musharaff Khan to 1967 and Fazal after (Western Sufism; Sufipedia), the 1926 designation of Vilayat (inayatiyya.org ?p=11419; Kuehn and Pokorny), and Sirdar van Tuyll as a disciple who voted against Maheboob's appointment, not a successor (Sufipedia)",
+      "inayat-khan.mdx: media kind 'Text · 1914' for Ten Sufi Thoughts had no source for the year; changed to 'Text · Creed'. Vimeo 678885707 confirmed as 'Heal the Earth/Heal Ourselves Universal Worship July 2020'",
+      "inayat-khan.mdx: 'If you read one book' corrected to East-West Publications, 1979, reprinted by the Nekbakht Foundation (wahiduddin.net/mv2/bio/cover.htm; sulukpress.com/?p=3663); linked the free online text and noted it lacks the original references and illustrations",
+      "w26.json: Vilayat and Maheboob node notes and two edge notes updated with the 1926 designation, Ali Khan and Musharaff tenures; Universal Worship 1921 added to inayat-khan note; resolved Universal Worship issue removed"
+    ],
+    "unresolved": [
+      "Madani's death 1907 vs 1908 and initiation 1903 vs 1904 remain conflicting; no independent record found",
+      "Year of the 14-15 June council appointing Maheboob Khan not shown on the Sufipedia page (presumably 1927)",
+      "Universal Worship 1921 rests on one source (Suluk Press)",
+      "Cornerstone at Suresnes on 13 September 1926: Inayati class notes caption the photo as a 'Confraternity ceremony'; cornerstone wording not directly confirmed",
+      "Orthodox Muslim criticism lacks a source beyond two USIM papers",
+      "No recording or film of Inayat Khan located"
     ]
   }
 }
