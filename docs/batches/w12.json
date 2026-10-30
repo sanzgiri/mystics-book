@@ -1,0 +1,85 @@
+{
+  "batch": "w12",
+  "nodes_add": [
+    {"id": "rajarsi-janakananda", "name": "Rajarsi Janakananda (James J. Lynn)", "born": 1892, "died": 1955, "part": 5, "tier": "node", "kind": "person", "note": "Kansas City businessman; gave Yogananda the Encinitas hermitage; SRF president 1952-1955"},
+    {"id": "daya-mata", "name": "Daya Mata", "born": 1914, "died": 2010, "part": 5, "tier": "node", "kind": "person", "note": "Disciple of Yogananda; president of SRF/YSS 1955-2010"},
+    {"id": "kriyananda", "name": "Swami Kriyananda (J. Donald Walters)", "born": 1926, "died": 2013, "part": 5, "tier": "node", "kind": "person", "note": "Disciple from 1948; asked to resign from SRF in 1962; founded Ananda near Nevada City, California, in 1968"}
+  ],
+  "nodes_update": [
+    {"id": "yogananda", "name": "Paramahansa Yogananda", "born": 1893, "died": 1952, "note": "Born Mukunda Lal Ghosh, Gorakhpur, 5 January 1893; died Los Angeles, 7 March 1952. Founded Yogoda Satsanga Society (1917) and Self-Realization Fellowship (counted from 1920, incorporated 1935); Autobiography of a Yogi (1946)."}
+  ],
+  "edges_remove": [],
+  "edges_upsert": [
+    {"from": "yukteswar", "to": "yogananda", "type": "initiated", "evidence": "documented", "verified": true, "year": 1915, "note": "Met 1910 (SRF; some accounts 1909); trained at the Serampore hermitage about ten years; sannyasa in the Giri order July 1915; title Paramahansa 25 December 1935"},
+    {"from": "lahiri-mahasaya", "to": "yogananda", "type": "influenced", "evidence": "testimony", "verified": true, "note": "Both parents were Lahiri's disciples by the Autobiography's account; the infant blessing and prophecy are devotional story. No direct teaching relationship (Lahiri died 1895)."},
+    {"from": "babaji", "to": "yogananda", "type": "claimed", "evidence": "hagiographic", "verified": true, "year": 1920, "note": "Autobiography says Babaji appeared to him in Calcutta before he sailed for America and chose him to spread Kriya in the West"},
+    {"from": "christianity", "to": "yogananda", "type": "influenced", "evidence": "documented", "verified": true, "note": "Gospel commentary serialized in his magazine, published as The Second Coming of Christ (2004); taught harmony of original Christianity and yoga"},
+    {"from": "yogananda", "to": "gandhi", "type": "initiated", "evidence": "testimony", "verified": true, "year": 1935, "note": "By Yogananda's and SRF's account, gave Kriya Yoga instruction to Gandhi and several followers at Wardha, 27 August 1935, at Gandhi's request"},
+    {"from": "yogananda", "to": "rajarsi-janakananda", "type": "initiated", "evidence": "documented", "verified": true, "note": "Disciple; succeeded him as SRF president 1952"},
+    {"from": "yogananda", "to": "daya-mata", "type": "initiated", "evidence": "documented", "verified": true, "note": "Disciple; SRF/YSS president 1955-2010"},
+    {"from": "yogananda", "to": "kriyananda", "type": "initiated", "evidence": "documented", "verified": true, "year": 1948, "note": "Met and became disciple in Los Angeles 1948; asked to resign by SRF board 1962; founded Ananda 1968"}
+  ],
+  "places": [
+    {"name": "Gorakhpur", "lat": 26.760, "lon": 83.373, "figure": "yogananda", "what": "Birthplace, 5 January 1893", "verified": true},
+    {"name": "Serampore (Sri Yukteswar's hermitage)", "lat": 22.752, "lon": 88.342, "figure": "yogananda", "what": "Trained with Yukteswar from 1910; sannyasa 1915; Paramahansa title 1935 (town-level coordinates)", "verified": true},
+    {"name": "Ranchi", "lat": 23.344, "lon": 85.310, "figure": "yogananda", "what": "Yogoda Satsanga school and ashram from 1918 (city-level coordinates)", "verified": true},
+    {"name": "Boston", "lat": 42.360, "lon": -71.058, "figure": "yogananda", "what": "International Congress of Religious Liberals; first American lecture, 6 October 1920", "verified": true},
+    {"name": "Mount Washington, Los Angeles", "lat": 34.103, "lon": -118.211, "figure": "yogananda", "what": "SRF international headquarters, dedicated 25 October 1925", "verified": true},
+    {"name": "Wardha", "lat": 20.745, "lon": 78.602, "figure": "yogananda", "what": "Stay with Gandhi, 26-27 August 1935", "verified": true},
+    {"name": "Tiruvannamalai (Sri Ramanasramam)", "lat": 12.223, "lon": 79.060, "figure": "yogananda", "what": "Visit to Ramana Maharshi, 29 November 1935", "verified": true},
+    {"name": "Puri", "lat": 19.813, "lon": 85.831, "figure": "yogananda", "what": "Where Sri Yukteswar died, 9 March 1936", "verified": true},
+    {"name": "Encinitas hermitage", "lat": 33.037, "lon": -117.293, "figure": "yogananda", "what": "Hermitage given by James J. Lynn, 1936; Autobiography written here", "verified": true},
+    {"name": "Lake Shrine, Pacific Palisades", "lat": 34.044, "lon": -118.547, "figure": "yogananda", "what": "SRF Lake Shrine dedicated 1950", "verified": true},
+    {"name": "Biltmore Hotel, Los Angeles", "lat": 34.050, "lon": -118.255, "figure": "yogananda", "what": "Died here at a banquet for Ambassador B. R. Sen, 7 March 1952", "verified": true},
+    {"name": "Forest Lawn Memorial Park, Glendale", "lat": 34.125, "lon": -118.241, "figure": "yogananda", "what": "Burial, Great Mausoleum", "verified": true}
+  ],
+  "glossary": [
+    {"term": "Paramahansa", "script": "परमहंस", "lang": "sa", "def": "Literally supreme swan; a title for a monk of the highest spiritual attainment. Sri Yukteswar gave it to Yogananda in 1935."},
+    {"term": "Mahasamadhi", "script": "महासमाधि", "lang": "sa", "def": "Great samadhi; devotees' term for an accomplished yogi's death, understood as a conscious final exit from the body."},
+    {"term": "Hong-Sau", "lang": "sa", "def": "Yogananda's breath-watching concentration technique: the breath is silently paired with hong on the inhalation and sau on the exhalation until mind and breath grow calm."},
+    {"term": "Yogoda", "lang": "en", "def": "Yogananda's early name for his system of tense-and-relax energization exercises and meditation, kept in the name Yogoda Satsanga Society of India."}
+  ],
+  "art": [],
+  "issues": [
+    "yogananda.mdx: 'Kriya Yoga' glossary term left to the Lahiri Mahasaya writer to avoid duplication; check one exists after merge.",
+    "yogananda.mdx: first meeting with Yukteswar given as 1910 (SRF) with 1909 (wrldrels timeline) noted; Dihika school date 22 March 1917 (SRF) vs 1916 (wrldrels); lessons announced 1934 (SRF blog) vs 1935 (SRF press chronology). All hedged in text.",
+    "yogananda.mdx: Dhirananda (Basu Kumar Bagchi) suit dated 1929 (Wikipedia) or 1935 (wrldrels); hedged. Settlement per Wikipedia only.",
+    "yogananda.mdx: the skeptics' point that the body was embalmed rests on Wikipedia's summary of the Rowe letter; could not fetch the letter text. Fact-checker should confirm or soften.",
+    "yogananda.mdx: could not fetch Autobiography chapter text for Babaji's 1920 charge, the Gandhi chapter or the infant blessing by Lahiri (Gutenberg pages truncated, other mirrors off allowlist); these are paraphrased with attribution, not quoted. Also unverified from the Autobiography itself: mother's death when he was eleven, the Himalaya flight.",
+    "yogananda.mdx: omitted two items with weak sourcing: the 1928 Miami episode (wrldrels mentions 'legal trouble' without detail) and the 1990s-2002 paternity claim reportedly disproved by DNA (only Wikipedia found). Author may want them added if a reliable source is found.",
+    "yogananda.mdx: Hong-Sau syllable mapping (hong on inhalation, sau on exhalation) is from general knowledge of the published technique; not checked against an SRF page.",
+    "yogananda.mdx: whether 'The Ramana visit' appears in the 1946 edition's text could not be checked; the chapter relies on Talks with Sri Ramana Maharshi instead.",
+    "yogananda.mdx: Lahiri overlap kept to the parents' discipleship and one sentence of contrast; the Babaji story is only referenced, leaving it to lahiri-mahasaya.mdx."
+  ],
+  "sources": {
+    "yogananda": [
+      "Born Mukunda Lal Ghosh, 5 Jan 1893, Gorakhpur; parents Bhagabati and Gyana Prabha Ghosh -> https://www-develop.yogananda.org/press/press-the-life-of-paramahansa-yogananda",
+      "Fourth of eight children; father vice-president Bengal-Nagpur Railway; Scottish Church College; BA Serampore College 1915 -> https://en.wikipedia.org/wiki/Paramahansa_Yogananda",
+      "Met Yukteswar 1910; sannyasa July 1915; Dihika 22 Mar 1917; Ranchi 1918 Maharaja of Kasimbazar; sailed 3 Aug 1920 City of Sparta; Boston lecture 6 Oct 1920 'The Science of Religion'; Mt Washington dedicated 25 Oct 1925; East-West Dec 1925; Gandhi at Ranchi 17 Sep 1925; India trip from 9 Jun 1935; Bombay 22 Aug 1935; Wardha 26-27 Aug 1935 Kriya to Gandhi; Serampore reunion 30 Sep 1935; Paramahansa 25 Dec 1935; SRF incorporated 29 Mar 1935; Autobiography Dec 1946; Rowe letter 16 May 1952 'No physical disintegration was visible...' -> https://www-develop.yogananda.org/press/press-the-life-of-paramahansa-yogananda",
+      "Met Yukteswar 1909; school 1916; Dhirananda left 1929, sued 1935; Nerode sued 1939; Encinitas 1936; Golden Lotus temple 1938, collapsed 1942; Hollywood temple 1942; Lake Shrine 1950; third edition 1951; Kriyananda joined 1948, resignation requested 1962; Ananda 1968 -> https://wrldrels.org/?p=12901",
+      "Lessons announced 1934 -> https://yogananda.org/blog/srf-lessons-enhanced-and-expanded-edition-planned-for-release-in-early-2019",
+      "Yogoda Lessons passage dated 1924; energization tense/relax, medulla, double breathing -> https://www.ananda.org/Meditation/energization.html",
+      "Lessons structure: 18 basic lessons mailed every two weeks; Hong-Sau, Energization, Aum; ~8 months before Kriya application; Kriya lessons in print -> https://yogananda.org/kriya-yoga-lessons",
+      "Kriya quotations ('psychophysiological method...decarbonized'; 'revolve, upward and downward, around the six spinal centers'; 'half-minute of Kriya equals one year'; 'airplane route'; 'nothing in common with the unscientific breathing exercises'; 'most scientific avenue'; 'Elijah, Jesus, Kabir...'; Gita IV:29) -> https://hinduwebsite.com/sacredscripts/spiritualism/yogananda/yogananda_26.asp",
+      "Ramana visit 29 Nov 1935, with four others incl. secretary C. R. Wright; Wright asks how to realise God; Yogananda asks about spiritual uplift; answer 'differ according to the temperaments...' -> https://archive.arunachala.org/docs/talks-wsrm/106-108",
+      "Yukteswar died 9 Mar 1936; returned to America late 1936; photo with Ramana at Tiruvannamalai and Anandamayi Ma -> https://yssofindia.org/paramahansa-yogananda/return-to-india",
+      "Death 7 Mar 1952 Biltmore, banquet for B. R. Sen, read 'My India', official cause heart attack, Forest Lawn Great Mausoleum; Time 4 Aug 1952; embalming caveat; citizenship 1949; 1999 HarperCollins list; successors -> https://en.wikipedia.org/wiki/Paramahansa_Yogananda",
+      "Last lines of 'My India' -> https://www.crossandlotus.com/last-speech-given-by-yoganandaji/",
+      "Sen: 'gone back three thousand years'; 'a feeling above all of exaltation' -> https://yssofindia.org/paramahansa-yogananda/binay-ranjan-sen",
+      "1946 first edition, Philosophical Library, New York; Evans-Wentz preface -> https://raptisrarebooks.com/?p=98527",
+      "God Talks with Arjuna 1995 SRF; serialized from 1932; revision 1948; Bhishma=ego (Miller) -> https://en.wikipedia.org/wiki/God_Talks_with_Arjuna:_The_Bhagavad_Gita",
+      "Second Coming of Christ 2004; 'to reveal the complete harmony and basic oneness of original Christianity' -> https://en.wikipedia.org/wiki/The_Second_Coming_of_Christ_(book)",
+      "Line of gurus; 'When I am gone the teachings will be the guru'; no later leader takes title of guru -> https://yogananda.org/lineage-and-leadership",
+      "SRF on later editions: 'none others, incorporate all of the author's wishes'; Tara Mata; rights bought 1953 -> https://yogananda.org/yoganandas-wishes-for-later-editions",
+      "Crystal Clarity 1993 reprint; 'substantially change the meaning of the original text' -> https://www.ananda.org/free-inspiration/books/autobiography-of-a-yogi/about-this-edition/",
+      "9th Cir. 1995: 'Self-realization' generic as trade name; 'Paramahansa Yogananda' federal mark invalid; composite marks remanded -> https://openjurist.org/59/f3d/902",
+      "Jury found infringement of articles and recordings, about $29,000; responses of both lawyers; Bertolucci case separate -> https://www.theunion.com/news/local-news/jury-copyrights-violated-by-church/article_ff8834e4-4078-500b-9d83-62b50d4c18be.html",
+      "Ananda account of litigation 1990-2002, public-domain early works -> https://www.ananda.org/about-ananda-sangha/self-realization-fellowship-vs-ananda-religious-freedom-lawsuit-1990-2002/",
+      "Kriyananda: b. 1926, met Yogananda 1948, Ananda 1968, Bertolucci verdict 1998, d. 2013 -> https://en.wikipedia.org/wiki/Kriyananda",
+      "Foxen 2017 OUP: proto-modern yoga; Unitarianism, New Thought, Theosophy; physical culture -> https://www.india.oup.com/product/biography-of-a-yogi-9780190875749",
+      "Audio talks list -> https://yssofindia.org/paramahansa-yogananda/listen-to-paramahansa-yogananda",
+      "Awake (2014), di Florio and Leeman, archival footage -> https://www.bostonglobe.com/arts/movies/2014/11/07/awake-offers-little-enlightenment/Pt8ybTlnl0j0Q0VKIDl9bI/story.html",
+      "Goldberg, The Life of Yogananda, Hay House 2018 -> https://www.relbib.de/Record/1633871282?lng=de"
+    ]
+  }
+}
