@@ -32,7 +32,7 @@
    "tier": "node",
    "kind": "institution",
    "era": "Zurich; formerly Rajneesh International Foundation / Neo-Sannyas International Foundation",
-   "note": "Swiss foundation that claims copyright in Osho's words and holds the OSHO trademark; runs the Osho International Meditation Resort, Pune. US OSHO marks cancelled January 2009; EU mark upheld by the General Court 11 October 2017."
+   "note": "Swiss foundation that claims copyright in Osho's words and holds the OSHO trademark; runs the Osho International Meditation Resort, Pune. US OSHO marks cancelled January 2009; EU mark upheld by the General Court 11 October 2017. Bombay HC upheld refusal of Pune plot sale 8 April 2024; Supreme Court appeal outcome unreported as of Oct 2026."
   }
  ],
  "nodes_update": [
@@ -41,7 +41,7 @@
    "born": 1931,
    "died": 1990,
    "name": "Osho (Rajneesh)",
-   "note": "Chandra Mohan Jain, born Kuchwada 11 Dec 1931; awakening by his account 21 Mar 1953, Jabalpur; philosophy lecturer Jabalpur 1958-66; Dynamic Meditation 1970; first neo-sannyas 26 Sept 1970 (Manali); Poona 1974-81; Rajneeshpuram 1981-85; Alford/guilty plea to two immigration counts Nov 1985; returned to Pune Jan 1987; died Pune 19 Jan 1990."
+   "note": "Chandra Mohan Jain, born Kuchwada 11 Dec 1931; awakening by his account 21 Mar 1953, Jabalpur; philosophy lecturer Jabalpur 1958-66; Dynamic Meditation 1970; first neo-sannyas 26 Sept 1970 (Manali); Poona 1974-81; Rajneeshpuram 1981-85; guilty plea to two immigration counts mid-Nov 1985 (later accounts call it an Alford plea; unconfirmed); returned to Pune Jan 1987; died Pune 19 Jan 1990."
   }
  ],
  "edges_remove": [],
@@ -158,23 +158,110 @@
   }
  ],
  "places": [
-  {"name": "Gadarwara", "lat": 22.923, "lon": 78.785, "figure": "osho", "what": "Parents' town, where he grew up from about age eight.", "verified": true},
-  {"name": "Jabalpur", "lat": 23.181, "lon": 79.986, "figure": "osho", "what": "Bhanvartal garden awakening (21 March 1953, by his account); studied and taught philosophy, lecturer 1958, professor 1960, resigned 1966.", "verified": true},
-  {"name": "Mumbai (Bombay)", "lat": 18.968, "lon": 72.809, "figure": "osho", "what": "1968 talks at Bharatiya Vidya Bhavan and Gowalia Tank; Woodlands apartment from December 1970. Coordinates are approximate for the Peddar Road area.", "verified": false},
-  {"name": "Manali", "lat": 32.240, "lon": 77.189, "figure": "osho", "what": "Meditation camp where the first neo-sannyasins were initiated, 26 September 1970.", "verified": true},
-  {"name": "Osho International Meditation Resort, Koregaon Park, Pune", "lat": 18.536, "lon": 73.893, "figure": "osho", "what": "Ashram from 1974; his death, cremation and samadhi, 1990.", "verified": true},
-  {"name": "Rajneeshpuram (Big Muddy Ranch), Oregon", "lat": 44.842, "lon": -120.482, "figure": "osho", "what": "Commune city 1981-85, incorporated May 1982; now Young Life's Washington Family Ranch.", "verified": true},
-  {"name": "The Dalles, Oregon", "lat": 45.594, "lon": -121.179, "figure": "osho", "what": "Town whose restaurant salad bars were contaminated with salmonella by Rajneeshpuram leaders, 1984.", "verified": true},
-  {"name": "Kuchwada, Raisen district", "figure": "osho", "what": "Birthplace, 11 December 1931. Coordinates not verified; omitted.", "verified": false}
+  {
+   "name": "Gadarwara",
+   "lat": 22.923,
+   "lon": 78.785,
+   "figure": "osho",
+   "what": "Parents' town, where he grew up from about age eight.",
+   "verified": true
+  },
+  {
+   "name": "Jabalpur",
+   "lat": 23.181,
+   "lon": 79.986,
+   "figure": "osho",
+   "what": "Bhanvartal garden awakening (21 March 1953, by his account); studied and taught philosophy, lecturer 1958, professor 1960, resigned 1966.",
+   "verified": true
+  },
+  {
+   "name": "Mumbai (Bombay)",
+   "lat": 18.968,
+   "lon": 72.809,
+   "figure": "osho",
+   "what": "1968 talks at Bharatiya Vidya Bhavan and Gowalia Tank; Woodlands apartment from December 1970. Coordinates are approximate for the Peddar Road area.",
+   "verified": false
+  },
+  {
+   "name": "Manali",
+   "lat": 32.24,
+   "lon": 77.189,
+   "figure": "osho",
+   "what": "Meditation camp where the first neo-sannyasins were initiated, 26 September 1970.",
+   "verified": true
+  },
+  {
+   "name": "Osho International Meditation Resort, Koregaon Park, Pune",
+   "lat": 18.536,
+   "lon": 73.893,
+   "figure": "osho",
+   "what": "Ashram from 1974; his death, cremation and samadhi, 1990.",
+   "verified": true
+  },
+  {
+   "name": "Rajneeshpuram (Big Muddy Ranch), Oregon",
+   "lat": 44.842,
+   "lon": -120.482,
+   "figure": "osho",
+   "what": "Commune city 1981-85, incorporated May 1982; now Young Life's Washington Family Ranch.",
+   "verified": true
+  },
+  {
+   "name": "The Dalles, Oregon",
+   "lat": 45.594,
+   "lon": -121.179,
+   "figure": "osho",
+   "what": "Town whose restaurant salad bars were contaminated with salmonella by Rajneeshpuram leaders, 1984.",
+   "verified": true
+  },
+  {
+   "name": "Kuchwada, Raisen district",
+   "figure": "osho",
+   "what": "Birthplace, 11 December 1931. Coordinates not verified; omitted.",
+   "verified": false
+  }
  ],
  "glossary": [
-  {"term": "Dhyana", "script": "ध्यान", "lang": "sa", "def": "Meditation. In Hindi, dhyan; Osho's early camps taught what he called Rajneesh Dhyan Yoga."},
-  {"term": "Mala", "script": "माला", "lang": "sa", "def": "A string of beads, usually 108, for counting prayers or mantras. Osho's neo-sannyasins wore one with his picture in a locket as the sign of initiation."},
-  {"term": "Bhagwan", "script": "भगवान", "lang": "hi", "def": "Lord, blessed one; a word for God also used by devotees of some saints. Rajneesh's title from 1971 to 1989."},
-  {"term": "Sakshi", "script": "साक्षी", "lang": "sa", "def": "The witness: awareness that watches thoughts, feelings and actions without identifying with them. Central to Osho's meditations."},
-  {"term": "Sambhog", "script": "संभोग", "lang": "hi", "def": "Sexual union. Used in the Hindi title of the talks published in English as From Sex to Superconsciousness."},
-  {"term": "Satori", "script": "悟り", "lang": "ja", "def": "Zen term for a sudden glimpse of awakening. Common in Osho's Zen discourses."},
-  {"term": "Neo-sannyas", "def": "Osho's form of initiation (from 1970): a new name, orange or red clothes and a mala, worn by people who stay in the world instead of renouncing it."}
+  {
+   "term": "Dhyana",
+   "script": "ध्यान",
+   "lang": "sa",
+   "def": "Meditation. In Hindi, dhyan; Osho's early camps taught what he called Rajneesh Dhyan Yoga."
+  },
+  {
+   "term": "Mala",
+   "script": "माला",
+   "lang": "sa",
+   "def": "A string of beads, usually 108, for counting prayers or mantras. Osho's neo-sannyasins wore one with his picture in a locket as the sign of initiation."
+  },
+  {
+   "term": "Bhagwan",
+   "script": "भगवान",
+   "lang": "hi",
+   "def": "Lord, blessed one; a word for God also used by devotees of some saints. Rajneesh's title from 1971 to 1989."
+  },
+  {
+   "term": "Sakshi",
+   "script": "साक्षी",
+   "lang": "sa",
+   "def": "The witness: awareness that watches thoughts, feelings and actions without identifying with them. Central to Osho's meditations."
+  },
+  {
+   "term": "Sambhog",
+   "script": "संभोग",
+   "lang": "hi",
+   "def": "Sexual union. Used in the Hindi title of the talks published in English as From Sex to Superconsciousness."
+  },
+  {
+   "term": "Satori",
+   "script": "悟り",
+   "lang": "ja",
+   "def": "Zen term for a sudden glimpse of awakening. Common in Osho's Zen discourses."
+  },
+  {
+   "term": "Neo-sannyas",
+   "def": "Osho's form of initiation (from 1970): a new name, orange or red clothes and a mala, worn by people who stay in the world instead of renouncing it."
+  }
  ],
  "art": [],
  "issues": [
@@ -193,7 +280,9 @@
   "osho.mdx: Epitaph quoted from Wikipedia's text (which uses an en dash); confirm against a photo or the resort's site.",
   "osho.mdx: Glimpses of a Golden Childhood is described both as dictated in Oregon (Wikipedia) and as his account of childhood mentors; publication year not given.",
   "osho.mdx: Kundalini Meditation's usual evening timing, and other active meditations (Nataraj, Mystic Rose, No-Mind) were left out because not verified on a fetched page.",
-  "w32.json: Sheela's birth year (1949 vs 1950, Oregon History Project) and Gurdjieff's dates omitted."
+  "w32.json: Sheela's birth year (1949 vs 1950, Oregon History Project) and Gurdjieff's dates omitted.",
+  "osho.mdx (factcheck): Supreme Court outcome of OIF appeal against the 8 April 2024 Bombay HC order not found in any source through Oct 2026 (ThePrint July 2024: listed 22 July; Indian Express Jan 2026 silent). Recheck before publication.",
+  "osho.mdx (factcheck): Rajneesh's plea form (guilty vs Alford) and exact date (14 Nov 1985?) still unconfirmed; UPI 15 Nov 1985 'Guru pleads guilty and goes' would not load. Text now says contemporary reports say guilty."
  ],
  "sources": {
   "osho": [
@@ -237,6 +326,35 @@
    "Land sale: Rs 107 crore to Rajivnayan Rahulkumar Bajaj and Rishab Family Trust, MOU 8 Dec 2020; JCC refused Dec 2023, special audit 2005-2023, funds diverted finding; HC (Kulkarni, Pooniwalla) dismissed 8 Apr 2024, no 'genuine and compelling case'; OIF cited COVID, Ukraine war -> https://www.oshonews.com/2024/04/09/bombay-hc-dismisses-osho-intl-foundations-challenge-to-jcc-denying-it-permission-to-sell-koregaon-plot/",
    "OIF appealed to Supreme Court, listed 22 July 2024 -> https://theprint.in/ground-reports/osho-land-feud-is-a-battle-for-legacy-rebel-swamis-court-cases-bollywood-factor/2183039/",
    "KGW 1984 Peabody documentary -> https://kgw.com/article/news/archive-kgw-documentary-of-rajneeshpuram-commune-in-oregon/283-151859"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 62,
+  "changes": [
+   "osho.mdx: 1985 plea now 'pleaded guilty' (mid-November); Alford label attributed to later accounts and flagged as unconfirmed against the court record (Seattle Times 1990, Britannica, Oregon Encyclopedia say guilty plea/plea bargain; no court record found).",
+   "osho.mdx: Zorba quote corrected to verbatim 'It will not believe in this world only or in that world only, it will believe in the totality of man.' (Osho News, Book of Wisdom ch.26).",
+   "osho.mdx: Tao Group account corrected: the leader told men to beat another participant; the narrator was injured when she intervened (New Republic, McCormack 2018).",
+   "osho.mdx: January 1979 end of group violence re-hedged as 'later accounts report' (only Wikipedia citing Gordon; book not seen).",
+   "osho.mdx: 'first confirmed case of biological terrorism' changed to 'often described as the largest bioterrorist attack in United States history' (Wikipedia lead and Grand Rapids Press 2007 cite 'first and largest'; JAMA wording not seen).",
+   "osho.mdx: Knapp 'testified' changed to 'told the FBI' (Carus 2002 via Wikipedia).",
+   "osho.mdx: 1994 study identified (Latkin et al., Sociology of Religion 55:1, confirmed on OUP issue page) and hedged as 'reported to have found'; FitzGerald direct quote replaced by attributed paraphrase (book not seen). Latkin added as ref 22.",
+   "osho.mdx: Gokani timing corrected: urged to come in the afternoon, taken to Osho's room about 5 p.m. (Quint 2016, Gokani affidavit).",
+   "osho.mdx: Sadhana will reply given in full, 'It's completely wrong. I cannot comment on it as the matter is in court.' (Quint 2016).",
+   "osho.mdx: JCC funds-diversion described as prima facie findings; HC phrase corrected to 'genuine and compelling necessity' (Bombay HC judgment 8 Apr 2024, Indian Kanoon; added as ref 23).",
+   "osho.mdx: Supreme Court appeal: now says listed July 2024, no ruling reported by October 2026 (ThePrint 23 Jul 2024; Indian Express 19 Jan 2026).",
+   "osho.mdx: Boadella reference retitled 'Violence in Therapy', Energy & Character 11:1 (Jan 1980) per the PDF itself.",
+   "w32.json: osho node note plea wording; OIF node note adds 2024 HC and SC status."
+  ],
+  "unresolved": [
+   "Plea form (Alford vs guilty) and exact date of Rajneesh's 1985 plea; no court record or contemporary report loaded.",
+   "Indictment count 34 vs 35 (Wikipedia vs New Republic); both kept.",
+   "First sannyas place: Manali (Osho News, Ma Dharm Jyoti) vs Bombay (Wikipedia, WRSP); both kept.",
+   "Jabalpur start 1957 (Britannica) vs 1958 (Wikipedia); both kept.",
+   "Time of death: 5:30 p.m. spokesman Swami Kirti (Seattle Times) vs 5 p.m. (Gokani/NewsMinute); both accounts kept.",
+   "January 1979 end of group violence: secondary only (Wikipedia citing Gordon).",
+   "Latkin 1994 finding and FitzGerald observation not read in originals; hedged.",
+   "Supreme Court outcome on Pune plot sale; Delhi HC trademark petition outcome after March 2025 not found.",
+   "Sheela/Puja Alford pleas 22 July 1986, sentences, 29-month parole: confirmed only via Wikipedia citing Carter 1990 and Wheelis 2006; Seattle Times 1990 says Sheela 'pleaded guilty'."
   ]
  }
 }

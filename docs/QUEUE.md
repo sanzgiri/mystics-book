@@ -40,12 +40,12 @@ Status: todo / running / written / checked / merged.
 | w24 | meher-baba (c) | | merged |
 | w26 | inayat-khan (c) | | merged |
 | w31 | ambedkar (c) | buddha-returns | merged |
-| w32 | osho (c) | | checking |
+| w32 | osho (c) | | merged |
 | w33 | sathya-sai-baba (c) | | merged |
 | w34 | dada-lekhraj, sri-chinmoy | new-revelations (incl. godman essay) | checking |
 | w35 | kalki-bhagavan, nithyananda, dhirendra-shastri | | running |
 | o16 | satyananda, swami-rama, pattabhi-jois | | running |
-| o17 | sri-m | technique | todo |
+| o17 | sri-m | technique | running |
 | o19 | shri-mataji, pr-sarkar | shakti | todo |
 | o22 | premanand-maharaj | grace | todo |
 | o25 | periyar (s) | across-the-line, against-authority | todo |
