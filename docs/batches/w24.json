@@ -161,7 +161,7 @@
       "lat": 19.16,
       "lon": 74.73,
       "figure": "meher-baba",
-      "what": "His residence from 1949 (approx.; north of Ahmednagar near Pimpalgaon); where he died 31 Jan 1969",
+      "what": "His residence in his later years (north of Ahmednagar, near Pimpalgaon; coordinates approx.); where he died 31 Jan 1969",
       "verified": false
     },
     {
@@ -253,7 +253,7 @@
     "meher-baba.mdx: frontmatter has no titleScript. The title 'The Word of Words' is taken from the 13 Nov 1954 notes in The Awakener.",
     "Graph: existing edges upasni-maharaj to meher-baba and shirdi-sai-baba to meher-baba are upserted and re-graded; Babajan, Tajuddin and Narayan edges changed from influenced/documented to claimed/testimony. The author may prefer to keep 'influenced' for the type.",
     "meher-baba.mdx (factcheck): Hollywood silence-breaking date conflict. The Los Angeles Times (30 May 1932, via Calisphere) reported he would break silence in Hollywood on 13 July 1932; Wikipedia and meherabode.org/1930s place the Hollywood Bowl announcement and abrupt sailing to Hong Kong in 1934. Chapter gives both; author may wish to check Lord Meher.",
-    "meher-baba.mdx (factcheck): Meherazad coordinates moved from 19.06,74.75 (which is south of Ahmednagar, near Meherabad) to approx. 19.16,74.73 (north of the city, near Pimpalgaon Malwa); still unverified. Also 'residence from 1952' in the place note was changed to 'approx. 1949'; confirm."
+    "meher-baba.mdx (factcheck): Meherazad coordinates moved from 19.06,74.75 (south of Ahmednagar, near Meherabad) to approx. 19.16,74.73 (north of the city, near Pimpalgaon); still unverified. The writer's 'residence from 1952' was not verified and was dropped from the place note."
   ],
   "sources": {
     "meher-baba": [
@@ -317,7 +317,7 @@
       "meher-baba.mdx: 'forty-four years' of silence corrected to 'more than forty-three' (10 Jul 1925 to 31 Jan 1969). Van Gasteren age given as 'mid-forties' (Trust says 45; b. Nov 1922 would make him 44).",
       "meher-baba.mdx: McFerrin USA Weekend remark marked as second-hand (IPKat 'is reported to have said').",
       "meher-baba.mdx: Sai Baba 'Parvardigar' item reworded to state why it is graded hagiographic without dismissing it; 'only Upasni named him publicly' scoped to sources reviewed.",
-      "w24.json: meher-baba node note, Upasni and Sai Baba edge notes, Sakori and Meherazad place entries updated as above."
+      "w24.json: meher-baba node note, Upasni and Sai Baba edge notes, Sakori and Meherazad place entries (coordinates, unverified 'from 1952') updated."
     ],
     "unresolved": [
       "Hollywood silence-breaking: 1932 (LA Times) vs 1934 (Wikipedia, meherabode).",
