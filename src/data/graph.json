@@ -615,7 +615,8 @@
    "died": 1963,
    "part": 5,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Kuppuswami, born Pattamadai 8 September 1887; doctor in Malaya c. 1913-1923; reached Rishikesh 1924 (DLS) or 1922 (Krishnananda); sannyasa from Vishvananda Saraswati, Rishikesh, 1 June 1924; Divine Life Society 1936; Yoga-Vedanta Forest Academy 1948; Yoga of Synthesis; died Rishikesh 14 July 1963."
   },
   {
    "id": "maharishi",
@@ -624,7 +625,8 @@
    "died": 2008,
    "part": 5,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Mahesh Prasad Varma (also Srivastava), 12 January 1917 or 1918 (1911 in some accounts), near Jabalpur; died Vlodrop, Netherlands, 5 February 2008; cremated at the Sangam, Allahabad, 11 February 2008. Founder of Transcendental Meditation."
   },
   {
    "id": "sri-sri-ravi-shankar",
@@ -641,7 +643,8 @@
    "born": 1957,
    "part": 5,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Jagadish Vasudev, Mysore, 3 September 1957. Chamundi Hill experience 23 September 1982 (his account); Isha Foundation 1992 (1993 in some accounts); Isha Yoga Center 1994; Dhyanalinga 1999; Inner Engineering and Shambhavi Mahamudra Kriya; Adiyogi bust 2017"
   },
   {
    "id": "yukteswar",
@@ -745,7 +748,8 @@
    "died": 1993,
    "part": 5,
    "tier": "node",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Kerala 31 December 1927; came to Sivananda 1947 after reading a leaflet; first hatha yoga teacher at the Forest Academy; left for the West 1957; first Sivananda Yoga Vedanta Centre, Montreal, 1959; died 9 November 1993."
   },
   {
    "id": "brahmananda-saraswati",
@@ -754,7 +758,8 @@
    "died": 1953,
    "part": 5,
    "tier": "node",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Rajaram Mishra near Ayodhya; birth year given as 1868, 1870 or 1871; sannyasa 1904; Shankaracharya of Jyotirmath from April 1941 until his death in 1953; called Guru Dev in the TM movement"
   },
   {
    "id": "lakshmanjoo",
@@ -896,7 +901,7 @@
    "part": 7,
    "tier": "profile",
    "kind": "person",
-   "note": "Birth year approximate"
+   "note": "Birth year approximate (c. 1900); birthplace district disputed (Firozabad or Ambedkar Nagar). Died 11 Sep 1973, Vrindavan."
   },
   {
    "id": "mother-meera",
@@ -1988,6 +1993,163 @@
    "tier": "node",
    "kind": "person",
    "note": "Disciple from 1948; asked to resign from SRF in 1962; founded Ananda near Nevada City, California, in 1968"
+  },
+  {
+   "id": "nigamananda",
+   "name": "Nigamananda Paramahansa",
+   "born": 1880,
+   "died": 1935,
+   "part": 6,
+   "tier": "node",
+   "kind": "person",
+   "note": "Bengali Tantric and Advaita teacher; his tradition says Bamakhepa initiated him. Born Nalinikanta Chattopadhyay, 18 Aug 1880; died Calcutta 29 Nov 1935 (Wikipedia)."
+  },
+  {
+   "id": "kailashpati-baba",
+   "name": "Kailashpati Baba",
+   "part": 6,
+   "tier": "node",
+   "kind": "person",
+   "note": "Tantric teacher at Tarapith, first guru of Bamakhepa in devotional biographies. No dates; known only from those accounts."
+  },
+  {
+   "id": "mokshadananda",
+   "name": "Mokshadananda",
+   "part": 6,
+   "tier": "node",
+   "kind": "person",
+   "note": "Second teacher of Bamakhepa in devotional biographies (also Mokshananda, Mokshadanandanath). No dates; known only from those accounts."
+  },
+  {
+   "id": "ram-dass",
+   "name": "Ram Dass",
+   "born": 1931,
+   "died": 2019,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born Richard Alpert, Boston, 6 Apr 1931; met Neem Karoli Baba 1967; Be Here Now (1971); died Maui 22 Dec 2019."
+  },
+  {
+   "id": "mataji-krishnabai",
+   "name": "Mataji Krishnabai",
+   "born": 1903,
+   "died": 1989,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Papa Ramdas; co-founder and later head of Anandashram until 1989."
+  },
+  {
+   "id": "swami-satchidananda-anandashram",
+   "name": "Swami Satchidananda (Anandashram)",
+   "born": 1919,
+   "died": 2008,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Joined Anandashram 1949; led it after Krishnabai until 2008. Not the Integral Yoga founder of the same name."
+  },
+  {
+   "id": "siddharudha-swami",
+   "name": "Siddharudha Swami of Hubli",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Hubli saint who advised Ramdas in 1923. Dates not verified, omitted."
+  },
+  {
+   "id": "vishvananda-saraswati",
+   "name": "Swami Vishvananda Saraswati",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Dashanami (Saraswati) monk who gave Kuppuswami sannyasa and the name Sivananda at Rishikesh on 1 June 1924; by Krishnananda's account they met only briefly. Dates unknown."
+  },
+  {
+   "id": "chidananda",
+   "name": "Swami Chidananda",
+   "born": 1916,
+   "died": 2008,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Sridhar Rao, born 24 September 1916; joined Sivananda 1943; sannyasa 10 July 1949; general secretary of the Divine Life Society from late 1948; president from August 1963; died 28 August 2008."
+  },
+  {
+   "id": "krishnananda",
+   "name": "Swami Krishnananda",
+   "born": 1922,
+   "died": 2001,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Subbaraya, born 25 April 1922; came to Sivananda 1944; sannyasa 14 January 1946; secretary for finance from 1957; general secretary of the Divine Life Society from 1961 until his death on 23 November 2001."
+  },
+  {
+   "id": "satchidananda",
+   "name": "Swami Satchidananda",
+   "born": 1914,
+   "died": 2002,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "C. K. Ramaswamy, born 22 December 1914 near Coimbatore; sannyasa from Sivananda 1949; Integral Yoga in the US; opening address at Woodstock, August 1969; died Chennai 19 August 2002."
+  },
+  {
+   "id": "sivananda-radha",
+   "name": "Swami Sivananda Radha",
+   "born": 1911,
+   "died": 1995,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Ursula Sylvia Hellman, born Berlin 20 March 1911; sannyasa from Sivananda 1956; Yasodhara Ashram, Kootenay Bay, British Columbia (from 1963); died 30 November 1995."
+  },
+  {
+   "id": "venkatesananda",
+   "name": "Swami Venkatesananda",
+   "born": 1921,
+   "died": 1982,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple and biographer of Sivananda (Sivananda: Biography of a Modern Sage); later taught in South Africa and Australia (Fremantle)."
+  },
+  {
+   "id": "deepak-chopra",
+   "name": "Deepak Chopra",
+   "born": 1946,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Endocrinologist; met Maharishi 1985, directed the movement's Ayurvedic centre at Lancaster, Massachusetts, promoted Maharishi Ayur-Veda; parted from the movement in the early 1990s"
+  },
+  {
+   "id": "tony-nader",
+   "name": "Tony Nader (Maharaja Adhiraj Rajaraam)",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Physician and neuroscientist; named head of the Global Country of World Peace (2000); leads the TM organisations after Maharishi's death in 2008"
+  },
+  {
+   "id": "malladihalli-raghavendra",
+   "name": "Malladihalli Raghavendra Swami (Tiruka)",
+   "born": 1890,
+   "died": 1996,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Yoga teacher; Anatha Sevashrama Trust, Malladihalli, Chitradurga district, Karnataka; wrote on Suryanamaskara; taught hatha yoga to the boy Jaggi Vasudev"
+  },
+  {
+   "id": "palani-swami",
+   "name": "Palani Swami (guru of a previous life, by Sadhguru's account)",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Named in Arundhathi Subramaniam's authorised biography as the guru of Sadhguru's earlier life as Shivayogi; no independent historical record"
   }
  ],
  "edges": [
@@ -2366,26 +2528,36 @@
    "from": "sivananda",
    "to": "satyananda",
    "type": "initiated",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1947,
+   "note": "Came to the ashram 1943; sannyasa 12 September 1947; left 1956; Bihar School of Yoga, Munger, 1964"
   },
   {
    "from": "sivananda",
    "to": "vishnudevananda",
    "type": "initiated",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Joined 1947 after reading Sivananda's leaflet on spiritual instructions; sannyasa at the ashram (year given as 1947 by SYVC, not independently confirmed); first hatha yoga professor at the Forest Academy; sent West 1957; Montreal centre 1959"
   },
   {
    "from": "advaita-vedanta",
    "to": "brahmananda-saraswati",
    "type": "lineage",
    "evidence": "documented",
-   "note": "Shankaracharya of Jyotirmath"
+   "verified": true,
+   "year": 1941,
+   "note": "Installed as Shankaracharya of Jyotirmath, April 1941"
   },
   {
    "from": "brahmananda-saraswati",
    "to": "maharishi",
    "type": "lived-with",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1941,
+   "note": "Disciple and secretary about thirteen years, by most accounts 1941-1953, as Bal Brahmachari Mahesh; not eligible to succeed (not a Brahmin, not a sannyasi). TM initiation ceremony honours Brahmananda as Guru Dev."
   },
   {
    "from": "maharishi",
@@ -2419,7 +2591,9 @@
    "from": "tantra-shakta",
    "to": "bamakhepa",
    "type": "lineage",
-   "evidence": "testimony"
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Shakta Tara worship of Birbhum; Tarapith cremation-ground practice."
   },
   {
    "from": "tantra-shakta",
@@ -4027,6 +4201,211 @@
    "verified": true,
    "year": 1948,
    "note": "Met and became disciple in Los Angeles 1948; asked to resign by SRF board 1962; founded Ananda 1968"
+  },
+  {
+   "from": "kailashpati-baba",
+   "to": "bamakhepa",
+   "type": "initiated",
+   "evidence": "hagiographic",
+   "verified": true,
+   "note": "First teacher at Tarapith per Harding (via kalimandir.org) and Wikipedia. No independent source."
+  },
+  {
+   "from": "mokshadananda",
+   "to": "bamakhepa",
+   "type": "initiated",
+   "evidence": "hagiographic",
+   "verified": true,
+   "note": "Second teacher per the same devotional biographies."
+  },
+  {
+   "from": "bamakhepa",
+   "to": "nigamananda",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Nigamananda's tradition says Bamakhepa gave him diksha and told him to learn Advaita from a Vedantic guru (Wikipedia on Nigamananda). Date not fixed, shortly before 1902."
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "papa-ramdas",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1922,
+   "note": "Brief visit to Tiruvannamalai; Ramana blessed him in silence by Ramdas's own account in In Quest of God. Year 1922/23."
+  },
+  {
+   "from": "rama-tirtha",
+   "to": "papa-ramdas",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Read his writings before renunciation (hinduismwayoflife biography)."
+  },
+  {
+   "from": "vivekananda",
+   "to": "papa-ramdas",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Read his works (same source)."
+  },
+  {
+   "from": "ramakrishna",
+   "to": "papa-ramdas",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Read his teachings (same source)."
+  },
+  {
+   "from": "siddharudha-swami",
+   "to": "papa-ramdas",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1923,
+   "note": "Advised him in Hubli to return to his family (Wikipedia, anandashram.org)."
+  },
+  {
+   "from": "papa-ramdas",
+   "to": "mataji-krishnabai",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1928,
+   "note": "Chief disciple; Kasargod ashram 1928; ashram head after his death."
+  },
+  {
+   "from": "papa-ramdas",
+   "to": "swami-satchidananda-anandashram",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1949,
+   "note": "Joined Anandashram 1949; travelled with Ramdas 1954-55."
+  },
+  {
+   "from": "neem-karoli-baba",
+   "to": "ram-dass",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1967,
+   "note": "Met at Kainchi 1967 and given the name Ram Dass; documented in Ram Dass's own books."
+  },
+  {
+   "from": "vishvananda-saraswati",
+   "to": "sivananda",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1924,
+   "note": "Sannyasa at Rishikesh, 1 June 1924; viraja homa performed by Swami Vishnudevananda, mahant of Kailas Ashram (not the later disciple)"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "sivananda",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Saraswati branch of the Dashanami order through Vishvananda Saraswati; Advaita as his philosophy"
+  },
+  {
+   "from": "yoga-nath",
+   "to": "sivananda",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Taught hatha yoga (asana, pranayama, kundalini) in books such as The Science of Pranayama (1935); hatha as one strand of the Yoga of Synthesis"
+  },
+  {
+   "from": "sivananda",
+   "to": "chidananda",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1949,
+   "note": "Joined 1943; sannyasa on Guru Purnima, 10 July 1949; successor as president of the Divine Life Society, 1963"
+  },
+  {
+   "from": "sivananda",
+   "to": "krishnananda",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1946,
+   "note": "Came 1944; sannyasa 14 January 1946; long-serving general secretary of the Divine Life Society"
+  },
+  {
+   "from": "sivananda",
+   "to": "satchidananda",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1949,
+   "note": "Sannyasa 1949 at Rishikesh; founded Integral Yoga in the US"
+  },
+  {
+   "from": "sivananda",
+   "to": "sivananda-radha",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1956,
+   "note": "Sylvia Hellman; sannyasa 1956; described by her ashram as the first Western woman sannyasin (organisation's claim)"
+  },
+  {
+   "from": "sivananda",
+   "to": "venkatesananda",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Disciple at the Rishikesh ashram and author of the society's biography of Sivananda; sannyasa date not checked"
+  },
+  {
+   "from": "maharishi",
+   "to": "deepak-chopra",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1985,
+   "note": "Met Maharishi 1985; directed the movement's Ayurvedic centre at Lancaster, Massachusetts; parted in the early 1990s after the 1991 JAMA controversy (Warrier)"
+  },
+  {
+   "from": "maharishi",
+   "to": "tony-nader",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 2000,
+   "note": "Named head of the Global Country of World Peace (2000) as Maharaja Adhiraj Rajaraam; took over leadership on Maharishi's death, 2008"
+  },
+  {
+   "from": "malladihalli-raghavendra",
+   "to": "sadhguru",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1970,
+   "note": "Taught him hatha yoga when he was 12 or 13 (c. 1969-70) and the Swami about 81; source is Sadhguru's own account via Subramaniam's authorised biography"
+  },
+  {
+   "from": "palani-swami",
+   "to": "sadhguru",
+   "type": "claimed",
+   "evidence": "hagiographic",
+   "verified": true,
+   "note": "Past-life guru who, by Sadhguru's account, touched Shivayogi with his stick and transmitted the knowledge to consecrate the Dhyanalinga"
+  },
+  {
+   "from": "yoga-nath",
+   "to": "sadhguru",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Isha teaches hatha yoga postures, pranayama and kriyas; Shiva presented as Adiyogi, the first yogi"
   }
  ]
 }

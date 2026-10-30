@@ -31,7 +31,7 @@ Status: todo / running / written / checked / merged.
 | w10 | rabindranath-tagore, iqbal, kc-bhattacharya, gopi-krishna | integral | merged |
 | w11 | lahiri-mahasaya (c) | | merged |
 | w12 | yogananda (c) | | merged |
-| w13 | sivananda (c) | | checking |
+| w13 | sivananda (c) | | merged |
 | w14 | maharishi (c) | | checking |
 | w15 | sadhguru (c) | | checking |
 | w18 | muktananda (c) | | running |

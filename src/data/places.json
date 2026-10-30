@@ -83,13 +83,6 @@
    "what": "Yoga school at the Jaganmohan Palace"
   },
   {
-   "name": "Rishikesh",
-   "lat": 30.087,
-   "lon": 78.268,
-   "figure": "sivananda",
-   "what": "Divine Life Society"
-  },
-  {
    "name": "Mumbai (Khetwadi)",
    "lat": 18.958,
    "lon": 72.822,
@@ -209,7 +202,8 @@
    "lat": 10.976,
    "lon": 76.738,
    "figure": "sadhguru",
-   "what": "Isha Yoga Center"
+   "what": "Isha Yoga Center, Velliangiri foothills, from 1994; Dhyanalinga consecrated 24 June 1999",
+   "verified": true
   },
   {
    "name": "Basavana Bagewadi",
@@ -1310,6 +1304,246 @@
    "figure": "yogananda",
    "what": "Burial, Great Mausoleum",
    "verified": true
+  },
+  {
+   "name": "Tarapith",
+   "lat": 24.12,
+   "lon": 87.79,
+   "figure": "bamakhepa",
+   "what": "Tara temple and cremation ground; his home from the 1850s to 1911; shrine in front of the temple.",
+   "verified": false
+  },
+  {
+   "name": "Atla",
+   "lat": 24.12,
+   "lon": 87.78,
+   "figure": "bamakhepa",
+   "what": "Birth village in Rampurhat subdivision, Birbhum. Coordinates approximate.",
+   "verified": false
+  },
+  {
+   "name": "Hosdurg (Kanhangad)",
+   "lat": 12.31,
+   "lon": 75.09,
+   "figure": "papa-ramdas",
+   "what": "Birth 10 April 1884.",
+   "verified": true
+  },
+  {
+   "name": "Anandashram, Kanhangad",
+   "lat": 12.31,
+   "lon": 75.1,
+   "figure": "papa-ramdas",
+   "what": "Founded 15 May 1931 near Manjapathi hill; his home until death in 1963.",
+   "verified": false
+  },
+  {
+   "name": "Kasaragod",
+   "lat": 12.5,
+   "lon": 74.99,
+   "figure": "papa-ramdas",
+   "what": "First ashram, 3 June 1928.",
+   "verified": true
+  },
+  {
+   "name": "Srirangam",
+   "lat": 10.86,
+   "lon": 78.69,
+   "figure": "papa-ramdas",
+   "what": "Sannyas and the name Ramdas, December 1922.",
+   "verified": true
+  },
+  {
+   "name": "Mangalore",
+   "lat": 12.91,
+   "lon": 74.86,
+   "figure": "papa-ramdas",
+   "what": "Dyeing business 1919; Kadri hill cave where In Quest of God was written.",
+   "verified": true
+  },
+  {
+   "name": "Tiruvannamalai",
+   "lat": 12.23,
+   "lon": 79.07,
+   "figure": "papa-ramdas",
+   "what": "Met Ramana Maharshi and spent about 21 days in a cave on Arunachala, 1922-23.",
+   "verified": true
+  },
+  {
+   "name": "Kainchi Dham",
+   "lat": 29.4,
+   "lon": 79.5,
+   "figure": "neem-karoli-baba",
+   "what": "Ashram near Nainital; site chosen 1962, Hanuman consecrated 15 June 1964; where Ram Dass met him in 1967.",
+   "verified": true
+  },
+  {
+   "name": "Vrindavan",
+   "lat": 27.58,
+   "lon": 77.7,
+   "figure": "neem-karoli-baba",
+   "what": "His ashram and the hospital where he died on 11 September 1973.",
+   "verified": true
+  },
+  {
+   "name": "Pattamadai",
+   "lat": 8.664,
+   "lon": 77.582,
+   "figure": "sivananda",
+   "what": "Birthplace, on the Tamraparani river, 8 September 1887",
+   "verified": true
+  },
+  {
+   "name": "Seremban, Malaya",
+   "lat": 2.72,
+   "lon": 101.94,
+   "figure": "sivananda",
+   "what": "Rubber-estate hospital where he worked as a doctor from 1913",
+   "verified": true
+  },
+  {
+   "name": "Swarg Ashram, Rishikesh",
+   "lat": 30.12,
+   "lon": 78.32,
+   "figure": "sivananda",
+   "what": "Years of austerity and nursing sick sadhus after sannyasa in 1924",
+   "verified": true
+  },
+  {
+   "name": "Lakshman Jhula, Rishikesh",
+   "lat": 30.126,
+   "lon": 78.33,
+   "figure": "sivananda",
+   "what": "Satya Sevashram charitable dispensary, 1927",
+   "verified": true
+  },
+  {
+   "name": "Sivanandanagar (Muni ki Reti), Rishikesh",
+   "lat": 30.12,
+   "lon": 78.31,
+   "figure": "sivananda",
+   "what": "Ashram from 1932; Divine Life Society 1936; died here 14 July 1963",
+   "verified": true
+  },
+  {
+   "name": "Jabalpur",
+   "lat": 23.181,
+   "lon": 79.986,
+   "figure": "maharishi",
+   "what": "Birthplace in most accounts (city-level coordinates; year and exact place disputed)",
+   "verified": true
+  },
+  {
+   "name": "Jyotirmath",
+   "lat": 30.556,
+   "lon": 79.566,
+   "figure": "maharishi",
+   "what": "Seat of his teacher Brahmananda Saraswati, Shankaracharya from 1941",
+   "verified": true
+  },
+  {
+   "name": "Allahabad University",
+   "lat": 25.462,
+   "lon": 81.858,
+   "figure": "maharishi",
+   "what": "Physics degree, 1942",
+   "verified": true
+  },
+  {
+   "name": "Uttarkashi",
+   "lat": 30.727,
+   "lon": 78.435,
+   "figure": "maharishi",
+   "what": "About two years of retreat after Brahmananda's death, 1953-55",
+   "verified": true
+  },
+  {
+   "name": "Madras (Chennai)",
+   "lat": 13.083,
+   "lon": 80.27,
+   "figure": "maharishi",
+   "what": "Seminar founding the Spiritual Regeneration Movement, late 1957 or 1 January 1958 (city-level)",
+   "verified": true
+  },
+  {
+   "name": "Chaurasi Kutia (Beatles Ashram), Rishikesh",
+   "lat": 30.112,
+   "lon": 78.313,
+   "figure": "maharishi",
+   "what": "Maharishi's ashram; teacher training from 1961; the Beatles' stay, February-April 1968; now in Rajaji National Park (approximate coordinates)",
+   "verified": true
+  },
+  {
+   "name": "London Hilton, Park Lane",
+   "lat": 51.505,
+   "lon": -0.15,
+   "figure": "maharishi",
+   "what": "Lecture attended by the Beatles, 24 August 1967",
+   "verified": true
+  },
+  {
+   "name": "Bangor, Wales",
+   "lat": 53.228,
+   "lon": -4.129,
+   "figure": "maharishi",
+   "what": "Course attended by the Beatles, August 1967",
+   "verified": true
+  },
+  {
+   "name": "Seelisberg, Switzerland",
+   "lat": 46.972,
+   "lon": 8.585,
+   "figure": "maharishi",
+   "what": "Movement headquarters from about 1968 until 1990 (village-level)",
+   "verified": true
+  },
+  {
+   "name": "Fairfield, Iowa",
+   "lat": 41.009,
+   "lon": -91.963,
+   "figure": "maharishi",
+   "what": "Maharishi International University from 1974",
+   "verified": true
+  },
+  {
+   "name": "Vlodrop, Netherlands",
+   "lat": 51.133,
+   "lon": 6.083,
+   "figure": "maharishi",
+   "what": "Headquarters and residence from 1990; died here 5 February 2008 (village-level)",
+   "verified": true
+  },
+  {
+   "name": "Sangam, Allahabad",
+   "lat": 25.424,
+   "lon": 81.885,
+   "figure": "maharishi",
+   "what": "Cremation, 11 February 2008",
+   "verified": true
+  },
+  {
+   "name": "Mysore",
+   "lat": 12.296,
+   "lon": 76.639,
+   "figure": "sadhguru",
+   "what": "Born 3 September 1957; first yoga class, seven participants, 1983 (city-level coordinates)",
+   "verified": true
+  },
+  {
+   "name": "Chamundi Hill, Mysore",
+   "lat": 12.272,
+   "lon": 76.671,
+   "figure": "sadhguru",
+   "what": "Experience of 23 September 1982, by his own account (hilltop temple area)",
+   "verified": true
+  },
+  {
+   "name": "Adiyogi, Isha Yoga Center",
+   "lat": 10.972,
+   "lon": 76.74,
+   "figure": "sadhguru",
+   "what": "112-foot Adiyogi bust unveiled by Narendra Modi, 24 February 2017 (approximate)",
+   "verified": false
   }
  ]
 }

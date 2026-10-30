@@ -1,44 +1,251 @@
 {
   "batch": "w13",
   "nodes_add": [
-    {"id": "vishvananda-saraswati", "name": "Swami Vishvananda Saraswati", "part": 5, "tier": "node", "kind": "person", "note": "Dashanami (Saraswati) monk who gave Kuppuswami sannyasa and the name Sivananda at Rishikesh on 1 June 1924; by Krishnananda's account they met only briefly. Dates unknown."},
-    {"id": "chidananda", "name": "Swami Chidananda", "born": 1916, "died": 2008, "part": 5, "tier": "node", "kind": "person", "note": "Sridhar Rao, born 24 September 1916; joined Sivananda 1943; sannyasa 10 July 1949; general secretary of the Divine Life Society from late 1948; president from August 1963; died 28 August 2008."},
-    {"id": "krishnananda", "name": "Swami Krishnananda", "born": 1922, "died": 2001, "part": 5, "tier": "node", "kind": "person", "note": "Subbaraya, born 25 April 1922; came to Sivananda 1944; sannyasa 14 January 1946; general secretary of the Divine Life Society (from 1958 or 1961 in different sources) until his death on 23 November 2001."},
-    {"id": "satchidananda", "name": "Swami Satchidananda", "born": 1914, "died": 2002, "part": 5, "tier": "node", "kind": "person", "note": "C. K. Ramaswamy, born 22 December 1914 near Coimbatore; sannyasa from Sivananda 1949; Integral Yoga in the US; opening address at Woodstock, August 1969; died Chennai 19 August 2002."},
-    {"id": "sivananda-radha", "name": "Swami Sivananda Radha", "born": 1911, "died": 1995, "part": 5, "tier": "node", "kind": "person", "note": "Ursula Sylvia Hellman, born Berlin 20 March 1911; sannyasa from Sivananda 1956; Yasodhara Ashram, Kootenay Bay, British Columbia (from 1963); died 30 November 1995."},
-    {"id": "venkatesananda", "name": "Swami Venkatesananda", "born": 1921, "died": 1982, "part": 5, "tier": "node", "kind": "person", "note": "Disciple and biographer of Sivananda (Sivananda: Biography of a Modern Sage); later taught in South Africa and Australia (Fremantle)."}
+    {
+      "id": "vishvananda-saraswati",
+      "name": "Swami Vishvananda Saraswati",
+      "part": 5,
+      "tier": "node",
+      "kind": "person",
+      "note": "Dashanami (Saraswati) monk who gave Kuppuswami sannyasa and the name Sivananda at Rishikesh on 1 June 1924; by Krishnananda's account they met only briefly. Dates unknown."
+    },
+    {
+      "id": "chidananda",
+      "name": "Swami Chidananda",
+      "born": 1916,
+      "died": 2008,
+      "part": 5,
+      "tier": "node",
+      "kind": "person",
+      "note": "Sridhar Rao, born 24 September 1916; joined Sivananda 1943; sannyasa 10 July 1949; general secretary of the Divine Life Society from late 1948; president from August 1963; died 28 August 2008."
+    },
+    {
+      "id": "krishnananda",
+      "name": "Swami Krishnananda",
+      "born": 1922,
+      "died": 2001,
+      "part": 5,
+      "tier": "node",
+      "kind": "person",
+      "note": "Subbaraya, born 25 April 1922; came to Sivananda 1944; sannyasa 14 January 1946; secretary for finance from 1957; general secretary of the Divine Life Society from 1961 until his death on 23 November 2001."
+    },
+    {
+      "id": "satchidananda",
+      "name": "Swami Satchidananda",
+      "born": 1914,
+      "died": 2002,
+      "part": 5,
+      "tier": "node",
+      "kind": "person",
+      "note": "C. K. Ramaswamy, born 22 December 1914 near Coimbatore; sannyasa from Sivananda 1949; Integral Yoga in the US; opening address at Woodstock, August 1969; died Chennai 19 August 2002."
+    },
+    {
+      "id": "sivananda-radha",
+      "name": "Swami Sivananda Radha",
+      "born": 1911,
+      "died": 1995,
+      "part": 5,
+      "tier": "node",
+      "kind": "person",
+      "note": "Ursula Sylvia Hellman, born Berlin 20 March 1911; sannyasa from Sivananda 1956; Yasodhara Ashram, Kootenay Bay, British Columbia (from 1963); died 30 November 1995."
+    },
+    {
+      "id": "venkatesananda",
+      "name": "Swami Venkatesananda",
+      "born": 1921,
+      "died": 1982,
+      "part": 5,
+      "tier": "node",
+      "kind": "person",
+      "note": "Disciple and biographer of Sivananda (Sivananda: Biography of a Modern Sage); later taught in South Africa and Australia (Fremantle)."
+    }
   ],
   "nodes_update": [
-    {"id": "sivananda", "name": "Swami Sivananda", "born": 1887, "died": 1963, "note": "Kuppuswami, born Pattamadai 8 September 1887; doctor in Malaya c. 1913-1923; sannyasa from Vishvananda Saraswati, Rishikesh, 1 June 1924; Divine Life Society 1936; Yoga-Vedanta Forest Academy 1948; Yoga of Synthesis; died Rishikesh 14 July 1963."},
-    {"id": "vishnudevananda", "name": "Swami Vishnudevananda", "born": 1927, "died": 1993, "note": "Born Kerala 31 December 1927; came to Sivananda 1947 after reading a leaflet; first hatha yoga teacher at the Forest Academy; left for the West 1957; Sivananda Yoga Vedanta Centres (Montreal, 1957 by the organisation's account, 1959 in other sources); died 9 November 1993."}
+    {
+      "id": "sivananda",
+      "name": "Swami Sivananda",
+      "born": 1887,
+      "died": 1963,
+      "note": "Kuppuswami, born Pattamadai 8 September 1887; doctor in Malaya c. 1913-1923; reached Rishikesh 1924 (DLS) or 1922 (Krishnananda); sannyasa from Vishvananda Saraswati, Rishikesh, 1 June 1924; Divine Life Society 1936; Yoga-Vedanta Forest Academy 1948; Yoga of Synthesis; died Rishikesh 14 July 1963."
+    },
+    {
+      "id": "vishnudevananda",
+      "name": "Swami Vishnudevananda",
+      "born": 1927,
+      "died": 1993,
+      "note": "Born Kerala 31 December 1927; came to Sivananda 1947 after reading a leaflet; first hatha yoga teacher at the Forest Academy; left for the West 1957; first Sivananda Yoga Vedanta Centre, Montreal, 1959; died 9 November 1993."
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "vishvananda-saraswati", "to": "sivananda", "type": "initiated", "evidence": "documented", "verified": true, "year": 1924, "note": "Sannyasa at Rishikesh, 1 June 1924; viraja homa performed by Swami Vishnudevananda, mahant of Kailas Ashram (not the later disciple)"},
-    {"from": "advaita-vedanta", "to": "sivananda", "type": "lineage", "evidence": "documented", "verified": true, "note": "Saraswati branch of the Dashanami order through Vishvananda Saraswati; Advaita as his philosophy"},
-    {"from": "yoga-nath", "to": "sivananda", "type": "influenced", "evidence": "documented", "verified": true, "note": "Taught hatha yoga (asana, pranayama, kundalini) in books such as The Science of Pranayama (1935); hatha as one strand of the Yoga of Synthesis"},
-    {"from": "sivananda", "to": "chinmayananda", "type": "initiated", "evidence": "documented", "verified": true, "year": 1949, "note": "Sannyasa on Mahashivaratri, 25 February 1949, Rishikesh"},
-    {"from": "sivananda", "to": "satyananda", "type": "initiated", "evidence": "documented", "verified": true, "year": 1947, "note": "Came to the ashram 1943; sannyasa 12 September 1947; left 1956; Bihar School of Yoga, Munger, 1964"},
-    {"from": "sivananda", "to": "vishnudevananda", "type": "initiated", "evidence": "documented", "verified": true, "note": "Joined 1947 after reading Sivananda's leaflet on spiritual instructions; sannyasa at the ashram (year given as 1947 by SYVC, not independently confirmed); first hatha yoga professor at the Forest Academy; sent West 1957"},
-    {"from": "sivananda", "to": "chidananda", "type": "initiated", "evidence": "documented", "verified": true, "year": 1949, "note": "Joined 1943; sannyasa on Guru Purnima, 10 July 1949; successor as president of the Divine Life Society, 1963"},
-    {"from": "sivananda", "to": "krishnananda", "type": "initiated", "evidence": "documented", "verified": true, "year": 1946, "note": "Came 1944; sannyasa 14 January 1946; long-serving general secretary of the Divine Life Society"},
-    {"from": "sivananda", "to": "satchidananda", "type": "initiated", "evidence": "documented", "verified": true, "year": 1949, "note": "Sannyasa 1949 at Rishikesh; founded Integral Yoga in the US"},
-    {"from": "sivananda", "to": "sivananda-radha", "type": "initiated", "evidence": "documented", "verified": true, "year": 1956, "note": "Sylvia Hellman; sannyasa 1956; described by her ashram as the first Western woman sannyasin (organisation's claim)"},
-    {"from": "sivananda", "to": "venkatesananda", "type": "lived-with", "evidence": "documented", "verified": true, "note": "Disciple at the Rishikesh ashram and author of the society's biography of Sivananda; sannyasa date not checked"}
+    {
+      "from": "vishvananda-saraswati",
+      "to": "sivananda",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1924,
+      "note": "Sannyasa at Rishikesh, 1 June 1924; viraja homa performed by Swami Vishnudevananda, mahant of Kailas Ashram (not the later disciple)"
+    },
+    {
+      "from": "advaita-vedanta",
+      "to": "sivananda",
+      "type": "lineage",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Saraswati branch of the Dashanami order through Vishvananda Saraswati; Advaita as his philosophy"
+    },
+    {
+      "from": "yoga-nath",
+      "to": "sivananda",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Taught hatha yoga (asana, pranayama, kundalini) in books such as The Science of Pranayama (1935); hatha as one strand of the Yoga of Synthesis"
+    },
+    {
+      "from": "sivananda",
+      "to": "chinmayananda",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1949,
+      "note": "Sannyasa on Mahashivaratri, 25 February 1949, Rishikesh"
+    },
+    {
+      "from": "sivananda",
+      "to": "satyananda",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1947,
+      "note": "Came to the ashram 1943; sannyasa 12 September 1947; left 1956; Bihar School of Yoga, Munger, 1964"
+    },
+    {
+      "from": "sivananda",
+      "to": "vishnudevananda",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Joined 1947 after reading Sivananda's leaflet on spiritual instructions; sannyasa at the ashram (year given as 1947 by SYVC, not independently confirmed); first hatha yoga professor at the Forest Academy; sent West 1957; Montreal centre 1959"
+    },
+    {
+      "from": "sivananda",
+      "to": "chidananda",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1949,
+      "note": "Joined 1943; sannyasa on Guru Purnima, 10 July 1949; successor as president of the Divine Life Society, 1963"
+    },
+    {
+      "from": "sivananda",
+      "to": "krishnananda",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1946,
+      "note": "Came 1944; sannyasa 14 January 1946; long-serving general secretary of the Divine Life Society"
+    },
+    {
+      "from": "sivananda",
+      "to": "satchidananda",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1949,
+      "note": "Sannyasa 1949 at Rishikesh; founded Integral Yoga in the US"
+    },
+    {
+      "from": "sivananda",
+      "to": "sivananda-radha",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1956,
+      "note": "Sylvia Hellman; sannyasa 1956; described by her ashram as the first Western woman sannyasin (organisation's claim)"
+    },
+    {
+      "from": "sivananda",
+      "to": "venkatesananda",
+      "type": "lived-with",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Disciple at the Rishikesh ashram and author of the society's biography of Sivananda; sannyasa date not checked"
+    }
   ],
   "places": [
-    {"name": "Pattamadai", "lat": 8.664, "lon": 77.582, "figure": "sivananda", "what": "Birthplace, on the Tamraparani river, 8 September 1887", "verified": true},
-    {"name": "Seremban, Malaya", "lat": 2.72, "lon": 101.94, "figure": "sivananda", "what": "Rubber-estate hospital where he worked as a doctor from 1913", "verified": true},
-    {"name": "Swarg Ashram, Rishikesh", "lat": 30.12, "lon": 78.32, "figure": "sivananda", "what": "Years of austerity and nursing sick sadhus after sannyasa in 1924", "verified": true},
-    {"name": "Lakshman Jhula, Rishikesh", "lat": 30.126, "lon": 78.33, "figure": "sivananda", "what": "Satya Sevashram charitable dispensary, 1927", "verified": true},
-    {"name": "Sivanandanagar (Muni ki Reti), Rishikesh", "lat": 30.12, "lon": 78.31, "figure": "sivananda", "what": "Ashram from 1932; Divine Life Society 1936; died here 14 July 1963", "verified": true}
+    {
+      "name": "Pattamadai",
+      "lat": 8.664,
+      "lon": 77.582,
+      "figure": "sivananda",
+      "what": "Birthplace, on the Tamraparani river, 8 September 1887",
+      "verified": true
+    },
+    {
+      "name": "Seremban, Malaya",
+      "lat": 2.72,
+      "lon": 101.94,
+      "figure": "sivananda",
+      "what": "Rubber-estate hospital where he worked as a doctor from 1913",
+      "verified": true
+    },
+    {
+      "name": "Swarg Ashram, Rishikesh",
+      "lat": 30.12,
+      "lon": 78.32,
+      "figure": "sivananda",
+      "what": "Years of austerity and nursing sick sadhus after sannyasa in 1924",
+      "verified": true
+    },
+    {
+      "name": "Lakshman Jhula, Rishikesh",
+      "lat": 30.126,
+      "lon": 78.33,
+      "figure": "sivananda",
+      "what": "Satya Sevashram charitable dispensary, 1927",
+      "verified": true
+    },
+    {
+      "name": "Sivanandanagar (Muni ki Reti), Rishikesh",
+      "lat": 30.12,
+      "lon": 78.31,
+      "figure": "sivananda",
+      "what": "Ashram from 1932; Divine Life Society 1936; died here 14 July 1963",
+      "verified": true
+    }
   ],
   "glossary": [
-    {"term": "Viraja homa", "script": "विरजा होम", "lang": "sa", "def": "The fire offering at the heart of the sannyasa rite, in which the candidate symbolically gives his past life and desires to the fire before taking the ochre robe."},
-    {"term": "Kirtan", "script": "कीर्तन", "lang": "sa", "def": "Group singing of divine names and short hymns, usually in call and response."},
-    {"term": "Brahmamuhurta", "script": "ब्राह्ममुहूर्त", "lang": "sa", "def": "The period before dawn, traditionally about an hour and a half before sunrise, held to be the best time for prayer and meditation."},
-    {"term": "Yoga of Synthesis", "lang": "en", "def": "Sivananda's name for his method: one main path (service, devotion, knowledge or meditation) practised daily with smaller amounts of the others and some hatha yoga, so that head, heart and hand develop together."},
-    {"term": "Ojas", "script": "ओजस्", "lang": "sa", "def": "In yogic and Ayurvedic physiology, a subtle vital essence said to be built up by conserving sexual energy; not a concept of modern medicine."}
+    {
+      "term": "Viraja homa",
+      "script": "विरजा होम",
+      "lang": "sa",
+      "def": "The fire offering at the heart of the sannyasa rite, in which the candidate symbolically gives his past life and desires to the fire before taking the ochre robe."
+    },
+    {
+      "term": "Kirtan",
+      "script": "कीर्तन",
+      "lang": "sa",
+      "def": "Group singing of divine names and short hymns, usually in call and response."
+    },
+    {
+      "term": "Brahmamuhurta",
+      "script": "ब्राह्ममुहूर्त",
+      "lang": "sa",
+      "def": "The period before dawn, traditionally about an hour and a half before sunrise, held to be the best time for prayer and meditation."
+    },
+    {
+      "term": "Yoga of Synthesis",
+      "lang": "en",
+      "def": "Sivananda's name for his method: one main path (service, devotion, knowledge or meditation) practised daily with smaller amounts of the others and some hatha yoga, so that head, heart and hand develop together."
+    },
+    {
+      "term": "Ojas",
+      "script": "ओजस्",
+      "lang": "sa",
+      "def": "In yogic and Ayurvedic physiology, a subtle vital essence said to be built up by conserving sexual energy; not a concept of modern medicine."
+    }
   ],
   "art": [],
   "issues": [
@@ -53,7 +260,8 @@
     "src/content/figures/sivananda.mdx: 'Practice of Brahmacharya' quotation taken from an OCOY reprint (ocoy.org); the DLS edition (dlshq.org/?p=2627) was not fetched to confirm wording.",
     "src/content/figures/sivananda.mdx: the YouTube film (RcA3wptRWrc) and the podcast kirtan recordings are linked via Integral Yoga Magazine and Apple Podcasts listings; dates and provenance of the original recordings are not stated anywhere seen. The podcast's copyright line names Yoga Vidya.",
     "src/data/places.json already has a coarse 'Rishikesh' point for sivananda (30.087, 78.268, 'Divine Life Society'); the batch adds a more precise Sivanandanagar point. The old entry could be removed.",
-    "Graph: Venkatesananda's sannyasa date and Jyotirmayananda and Sahajananda (also Sivananda disciples per Wikipedia) not added as nodes; possible additions. Vivekananda -> Sivananda influence (Strauss's reading) mentioned in prose but no edge added."
+    "Graph: Venkatesananda's sannyasa date and Jyotirmayananda and Sahajananda (also Sivananda disciples per Wikipedia) not added as nodes; possible additions. Vivekananda -> Sivananda influence (Strauss's reading) mentioned in prose but no edge added.",
+    "Checker (w13): Van Lysebeth/Goldberg originals not seen; quotes paraphrased and nickname hedged. Author may wish to verify Goldberg pp. 326-335 to restore attribution."
   ],
   "sources": {
     "sivananda": [
@@ -92,6 +300,28 @@
       "Radha sannyasa 1956; Burnaby ashram moved to Kootenay Bay 1963 -> https://www.yogajournal.com/yoga-101/philosophy/swami-radha/",
       "Chinmayananda's gurubhais Chidananda, Venkatesananda, Krishnananda at DLS -> https://archives.chinmayamission.com/gurudev/gurubhais",
       "Venkatesananda 1921-1982 -> https://www.librarything.com/a/75837"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 64,
+    "changes": [
+      "sivananda.mdx: medical qualification hedged further; DLS ?p=1883 says 'earned the title of M.B.,C.M.' without naming the institution, while DLS 'A Modern Sage' (?p=2691) speaks of two years of study (dlshq.org/?p=1883, ?p=2691)",
+      "sivananda.mdx: Rishikesh arrival kept as 1922 or 1924, stated as a range; DLS ?p=1883 and ?p=2691 both give 8 May 1924; Krishnananda talk (?p=1900) says 1922; Places list notes both",
+      "sivananda.mdx: Van Lysebeth quotations paraphrased (original 1981 Yoga article not found; only seen via Wikipedia); removed unverified claim that he 'wrote this in Sivananda's defence', replaced with 'wrote as a follower'; reference marked 'original not seen'",
+      "sivananda.mdx: 'Propagandananda' nickname hedged to 'reportedly'; removed attribution to Goldberg in prose (Goldberg pp. 326-335 not seen; Google Books not reachable)",
+      "sivananda.mdx: McKean summary corrected; publisher's text says participation 'further legitimates their own authority' (the groups'), not authority of 'gurus and patrons alike' (chicagoreference.com); chapters 7-9 titles confirmed from TOC",
+      "sivananda.mdx + batch: Krishnananda general secretary from 1961 (both swami-krishnananda.org/about.html and dlshq.org Krishnananda page); 1958 is uncited on Wikipedia; DLS says he was secretary for finance from the 1957 Working Committee",
+      "sivananda.mdx + batch: Montreal centre 1959, not 1957; sivananda.org/about says he travelled West in 1957 and founded the Montreal centre in 1959; Google Arts & Culture gives no founding year (the writer's '1957 by the organisation' was a misreading)",
+      "sivananda.mdx: abuse paragraph rewritten in precise language: Satchidananda accused 1991, denied, no criminal charges filed (Wikipedia citing Yoga Journal 1992); Vishnudevananda accused publicly by former assistant Julie Salter Dec 2019, never charged (allegations posthumous); ISYVC response added (dismay, apology for disbelieving 2007 complaint, promised independent investigation then suspended 2020); Project SATYA described as commissioned by former members, not 'independent', interim report #3 Nov 2020 found allegations credible (en.wikipedia.org/wiki/Vishnudevananda_Saraswati, /Sivananda_yoga); final sentence clarified that all concern conduct alleged after his 1963 death by disciples leading their own organisations",
+      "src/data/places.json: removed duplicate coarse 'Rishikesh' entry for sivananda (30.087, 78.268), superseded by the three precise Rishikesh points in this batch",
+      "batch: Krishnananda and Vishnudevananda node notes, Vishnudevananda edge note and Sivananda node note updated to match"
+    ],
+    "unresolved": [
+      "Van Lysebeth 1981 'The Yogic Dynamo' and Goldberg 2016 pp. 326-335 not seen; quotes paraphrased and nickname hedged. If the author can check Goldberg, the nickname can be re-attributed.",
+      "M.B., C.M. from Tanjore not independently confirmed; a university M.B., C.M. from a Tanjore medical school is doubtful and some accounts imply a shorter course. Hedged.",
+      "Rishikesh arrival 1922 vs 1924 remains a source conflict; all DLS biographies seen give 1924.",
+      "McKean chapters not read; only publisher summary and TOC confirmed. No page-level citation.",
+      "Satyananda Royal Commission sentence not rechecked here; defers to his chapter."
     ]
   }
 }
