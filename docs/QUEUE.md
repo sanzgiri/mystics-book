@@ -36,7 +36,7 @@ Status: todo / running / written / checked / merged.
 | w15 | sadhguru (c) | | merged |
 | w18 | muktananda (c) | | running |
 | w20 | prabhupada (c) | | running |
-| w21 | amma (c) | | todo |
+| w21 | amma (c) | | running |
 | w24 | meher-baba (c) | | todo |
 | w26 | inayat-khan (c) | | todo |
 | w31 | ambedkar (c) | buddha-returns | todo |
