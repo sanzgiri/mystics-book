@@ -37,7 +37,7 @@ Status: todo / running / written / checked / merged.
 | w18 | muktananda (c) | | merged |
 | w20 | prabhupada (c) | | merged |
 | w21 | amma (c) | | merged |
-| w24 | meher-baba (c) [Sonnet writer] | | checking |
+| w24 | meher-baba (c) | | merged |
 | w26 | inayat-khan (c) | | merged |
 | w31 | ambedkar (c) | buddha-returns | running |
 | w32 | osho (c) | | todo |
@@ -64,7 +64,7 @@ Historical figures with no live legal or sensitive controversy. Writer agents us
 | s04 | upasni-maharaj, ug-krishnamurti, vallalar | merged |
 | s05 | kirpal-singh, ayya-vaikundar, lalaji-babuji | running |
 | s06 | rajchandra, vinoba, kanji-swami | running |
-| s07 | tulsi-mahapragya, dada-bhagwan, dipa-ma | todo |
+| s07 | tulsi-mahapragya, dada-bhagwan, dipa-ma | running |
 
 ## After all units
 
