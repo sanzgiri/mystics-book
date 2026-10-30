@@ -1955,10 +1955,10 @@
   },
   {
    "name": "Sayyad Kasran",
-   "lat": 33.65,
-   "lon": 73.05,
+   "lat": 33.4,
+   "lon": 73.25,
    "figure": "kirpal-singh",
-   "what": "Birthplace, 1894 (village in Punjab, now Pakistan; exact location not found)",
+   "what": "Birthplace, 1894 (village in Gujar Khan tehsil, Rawalpindi district, now Pakistan; coordinates approximate)",
    "verified": false
   },
   {
@@ -1974,7 +1974,7 @@
    "lat": 28.68,
    "lon": 77.2,
    "figure": "kirpal-singh",
-   "what": "Headquarters of Ruhani Satsang, built 1951",
+   "what": "Headquarters of Ruhani Satsang, dated 1950 or 1951",
    "verified": false
   },
   {
@@ -2167,6 +2167,92 @@
    "lon": 72.834,
    "figure": "ambedkar",
    "what": "Cremation ground, 7 December 1956; now a memorial",
+   "verified": false
+  },
+  {
+   "name": "Gadarwara",
+   "lat": 22.923,
+   "lon": 78.785,
+   "figure": "osho",
+   "what": "Parents' town, where he grew up from about age eight.",
+   "verified": true
+  },
+  {
+   "name": "Jabalpur",
+   "lat": 23.181,
+   "lon": 79.986,
+   "figure": "osho",
+   "what": "Bhanvartal garden awakening (21 March 1953, by his account); studied and taught philosophy, lecturer 1958, professor 1960, resigned 1966.",
+   "verified": true
+  },
+  {
+   "name": "Mumbai (Bombay)",
+   "lat": 18.968,
+   "lon": 72.809,
+   "figure": "osho",
+   "what": "1968 talks at Bharatiya Vidya Bhavan and Gowalia Tank; Woodlands apartment from December 1970. Coordinates are approximate for the Peddar Road area.",
+   "verified": false
+  },
+  {
+   "name": "Manali",
+   "lat": 32.24,
+   "lon": 77.189,
+   "figure": "osho",
+   "what": "Meditation camp where the first neo-sannyasins were initiated, 26 September 1970.",
+   "verified": true
+  },
+  {
+   "name": "Osho International Meditation Resort, Koregaon Park, Pune",
+   "lat": 18.536,
+   "lon": 73.893,
+   "figure": "osho",
+   "what": "Ashram from 1974; his death, cremation and samadhi, 1990.",
+   "verified": true
+  },
+  {
+   "name": "Rajneeshpuram (Big Muddy Ranch), Oregon",
+   "lat": 44.842,
+   "lon": -120.482,
+   "figure": "osho",
+   "what": "Commune city 1981-85, incorporated May 1982; now Young Life's Washington Family Ranch.",
+   "verified": true
+  },
+  {
+   "name": "The Dalles, Oregon",
+   "lat": 45.594,
+   "lon": -121.179,
+   "figure": "osho",
+   "what": "Town whose restaurant salad bars were contaminated with salmonella by Rajneeshpuram leaders, 1984.",
+   "verified": true
+  },
+  {
+   "name": "Kuchwada, Raisen district",
+   "figure": "osho",
+   "what": "Birthplace, 11 December 1931. Coordinates not verified; omitted.",
+   "verified": false
+  },
+  {
+   "name": "Uravakonda",
+   "lat": 14.94,
+   "lon": 77.26,
+   "figure": "sathya-sai-baba",
+   "what": "Scorpion sting, 8 March 1940 (movement's account); left school and family, 20 October 1940",
+   "verified": true
+  },
+  {
+   "name": "Prasanthi Nilayam, Puttaparthi",
+   "lat": 14.165,
+   "lon": 77.811,
+   "figure": "sathya-sai-baba",
+   "what": "Birthplace village and ashram, inaugurated 23 November 1950; buried in Sai Kulwant Hall, 27 April 2011",
+   "verified": true
+  },
+  {
+   "name": "Whitefield ashram, Bangalore",
+   "lat": 12.99,
+   "lon": 77.76,
+   "figure": "sathya-sai-baba",
+   "what": "His second ashram near Bangalore",
    "verified": false
   }
  ]

@@ -1350,5 +1350,87 @@
   "script": "विहार",
   "lang": "pi",
   "def": "A Buddhist monastery or meeting hall; in Ambedkarite neighbourhoods, the local Buddhist centre."
+ },
+ {
+  "term": "Dhyana",
+  "script": "ध्यान",
+  "lang": "sa",
+  "def": "Meditation. In Hindi, dhyan; Osho's early camps taught what he called Rajneesh Dhyan Yoga."
+ },
+ {
+  "term": "Mala",
+  "script": "माला",
+  "lang": "sa",
+  "def": "A string of beads, usually 108, for counting prayers or mantras. Osho's neo-sannyasins wore one with his picture in a locket as the sign of initiation."
+ },
+ {
+  "term": "Bhagwan",
+  "script": "भगवान",
+  "lang": "hi",
+  "def": "Lord, blessed one; a word for God also used by devotees of some saints. Rajneesh's title from 1971 to 1989."
+ },
+ {
+  "term": "Sakshi",
+  "script": "साक्षी",
+  "lang": "sa",
+  "def": "The witness: awareness that watches thoughts, feelings and actions without identifying with them. Central to Osho's meditations."
+ },
+ {
+  "term": "Sambhog",
+  "script": "संभोग",
+  "lang": "hi",
+  "def": "Sexual union. Used in the Hindi title of the talks published in English as From Sex to Superconsciousness."
+ },
+ {
+  "term": "Satori",
+  "script": "悟り",
+  "lang": "ja",
+  "def": "Zen term for a sudden glimpse of awakening. Common in Osho's Zen discourses."
+ },
+ {
+  "term": "Neo-sannyas",
+  "def": "Osho's form of initiation (from 1970): a new name, orange or red clothes and a mala, worn by people who stay in the world instead of renouncing it."
+ },
+ {
+  "term": "Vibhuti",
+  "script": "విభూతి",
+  "lang": "te",
+  "def": "Sacred ash. Devotees of Sathya Sai Baba say he produced it from his hand and keep it as a blessing."
+ },
+ {
+  "term": "Five human values",
+  "script": "సత్యం, ధర్మం, శాంతి, ప్రేమ, అహింస",
+  "lang": "te",
+  "def": "Sathya Sai Baba's moral core: truth (sathya), right conduct (dharma), peace (shanti), love (prema) and non-violence (ahimsa)."
+ },
+ {
+  "term": "Sarva Dharma",
+  "script": "सर्व धर्म",
+  "lang": "sa",
+  "def": "All religions. The Sathya Sai movement's emblem shows a lotus pillar circled by the symbols of five faiths."
+ },
+ {
+  "term": "Prasanthi Nilayam",
+  "script": "ప్రశాంతి నిలయం",
+  "lang": "te",
+  "def": "Abode of supreme peace: Sathya Sai Baba's ashram at Puttaparthi, opened in 1950."
+ },
+ {
+  "term": "Bal Vikas",
+  "script": "बाल विकास",
+  "lang": "hi",
+  "def": "Child development: the Sathya Sai movement's weekly classes teaching children the five human values."
+ },
+ {
+  "term": "Bhajan",
+  "script": "भजन",
+  "lang": "hi",
+  "def": "A devotional song, usually sung in a group, often in call and response."
+ },
+ {
+  "term": "Gotra",
+  "script": "गोत्र",
+  "lang": "sa",
+  "def": "A Hindu patrilineal clan traced to an ancient sage. Sathya Sai Baba said the three Sais are born in the Bharadwaja gotra."
  }
 ]

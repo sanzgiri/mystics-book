@@ -1,57 +1,343 @@
 {
  "batch": "s05",
  "nodes_add": [
-  {"id": "jagat-singh", "name": "Jagat Singh", "born": 1884, "died": 1951, "part": 9, "tier": "node", "kind": "person", "note": "Retired chemistry professor; named by Sawan Singh in a will of 20 Mar 1948 per Beas records (installed 13 Apr 1948); Beas master 1948-1951; named Charan Singh by will of 22 Oct 1951."},
-  {"id": "fazl-ahmad-khan", "name": "Maulana Fazl Ahmad Khan", "part": 9, "tier": "node", "kind": "person", "note": "Naqshbandi-Mujaddidi shaykh of Raipur, Farrukhabad district; teacher of Lalaji. Birth 1838 or 1857 in different sources; per Dahnhardt (via EverybodyWiki) chose Lalaji as successor in 1896."},
-  {"id": "chaturbhuj-sahay", "name": "Chaturbhuj Sahay", "born": 1883, "died": 1957, "part": 9, "tier": "node", "kind": "person", "note": "Disciple of Lalaji; founded Ramashram Satsang at Etah in 1930, later based at Mathura."},
-  {"id": "chariji", "name": "Parthasarathi Rajagopalachari (Chariji)", "born": 1927, "died": 2014, "part": 9, "tier": "node", "kind": "person", "note": "Met Babuji 1964; president of Shri Ram Chandra Mission 1983-2014; his claim contested by Umeshchandra Saxena's side in litigation reaching the Supreme Court (2008). Named Kamlesh Patel successor Oct 2011."},
-  {"id": "umeshchandra-saxena", "name": "Umeshchandra Saxena", "part": 9, "tier": "node", "kind": "person", "note": "Claimant to Babuji's succession and Mission presidency on the basis of a 1982 nomination (per the court record). Dates unknown."},
-  {"id": "darshan-singh", "name": "Darshan Singh", "born": 1921, "died": 1989, "part": 9, "tier": "node", "kind": "person", "note": "Kirpal Singh's most widely recognised successor; led the Sawan Kirpal Ruhani Mission; b. 14 Sep 1921, d. 30 May 1989; succeeded by his son Rajinder Singh."},
-  {"id": "ajaib-singh", "name": "Ajaib Singh", "part": 9, "tier": "node", "kind": "person", "note": "Disciple of Kirpal Singh; founded Sant Bani Ashram in Rajasthan; recognised as successor by Sant Bani supporters in the US. Dates not verified."}
+  {
+   "id": "jagat-singh",
+   "name": "Jagat Singh",
+   "born": 1884,
+   "died": 1951,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Retired chemistry professor; named by Sawan Singh in a will of 20 Mar 1948 per Beas records (installed 13 Apr 1948); Beas master 1948-1951; named Charan Singh by will of 22 Oct 1951."
+  },
+  {
+   "id": "fazl-ahmad-khan",
+   "name": "Maulana Fazl Ahmad Khan",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Naqshbandi-Mujaddidi shaykh of Raipur, Farrukhabad district; teacher of Lalaji. Dates 1838-1907 per Dahnhardt 2002 (table of contents, p. 71); 1857 birth in some sources. 1896 successor appointment per a secondary summary of Dahnhardt (EverybodyWiki), not read in Dahnhardt directly.",
+   "born": 1838,
+   "died": 1907
+  },
+  {
+   "id": "chaturbhuj-sahay",
+   "name": "Chaturbhuj Sahay",
+   "born": 1883,
+   "died": 1957,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Lalaji; founded Ramashram Satsang at Etah in 1930, later based at Mathura."
+  },
+  {
+   "id": "chariji",
+   "name": "Parthasarathi Rajagopalachari (Chariji)",
+   "born": 1927,
+   "died": 2014,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Met Babuji 1964; relied on a nomination dated 23 Mar 1974 (court record); president of Shri Ram Chandra Mission 1983-2014. Contested by Umeshchandra Saxena's side (1982 nomination). SC 29 Apr 2008 made no finding on either nomination. Named Kamlesh Patel successor Oct 2011."
+  },
+  {
+   "id": "umeshchandra-saxena",
+   "name": "Umeshchandra Saxena",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Claimant to Babuji's succession on the basis of a nomination dated 16 Apr 1982. His suit OS 697/1995 dismissed 31 May 1999; second appeal dismissed as time-barred 26 Nov 2001; d. 3 Nov 2003 (Allahabad HC, 10 Jul 2015). Birth year unknown.",
+   "died": 2003
+  },
+  {
+   "id": "darshan-singh",
+   "name": "Darshan Singh",
+   "born": 1921,
+   "died": 1989,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Kirpal Singh's most widely recognised successor; led the Sawan Kirpal Ruhani Mission; b. 14 Sep 1921, d. 30 May 1989; succeeded by his son Rajinder Singh."
+  },
+  {
+   "id": "ajaib-singh",
+   "name": "Ajaib Singh",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Kirpal Singh; founded Sant Bani Ashram in Rajasthan; recognised as successor by Sant Bani supporters in the US. Dates not verified."
+  }
  ],
  "nodes_update": [
-  {"id": "kirpal-singh", "born": 1894, "died": 1974, "note": "b. 6 Feb 1894 Sayyad Kasran; initiated 1924; d. 21 Aug 1974 per his movement and the Wikipedia infobox (body text says 24 Aug)."},
-  {"id": "ayya-vaikundar", "born": 1809, "died": 1851, "note": "Muthukutty, per devotional and Kerala accounts b. 1809; 1833 Tiruchendur event; d. 1851 (2 or 3 June). Dates rest on movement sources."},
-  {"id": "lalaji-babuji", "born": 1873, "died": 1983, "note": "Lalaji b. 2 Feb 1873, d. 14 Aug 1931; Babuji b. 30 Apr 1899, d. 19 Apr 1983 (Wikipedia; SRCM says 'April 1983')."}
+  {
+   "id": "kirpal-singh",
+   "born": 1894,
+   "died": 1974,
+   "note": "b. 6 Feb 1894 Sayyad Kasran; initiated 1924; d. 21 Aug 1974 per his movement and the Wikipedia infobox (body text says 24 Aug)."
+  },
+  {
+   "id": "ayya-vaikundar",
+   "born": 1809,
+   "died": 1851,
+   "note": "Muthukutty, per devotional and Kerala accounts b. 1809; 1833 Tiruchendur event; d. 1851 (2 or 3 June). Dates rest on movement sources."
+  },
+  {
+   "id": "lalaji-babuji",
+   "born": 1873,
+   "died": 1983,
+   "note": "Lalaji b. 2 Feb 1873, d. 14 Aug 1931; Babuji b. 30 Apr 1899, d. 19 Apr 1983 (Wikipedia; SRCM says 'April 1983')."
+  }
  ],
  "edges_remove": [],
  "edges_upsert": [
-  {"from": "sawan-singh", "to": "kirpal-singh", "type": "initiated", "evidence": "documented", "verified": true, "year": 1924, "note": "Initiated at Beas, 1924. His claim to have been entrusted with the mission (12 Oct or Dec 1947) is Ruhani Satsang's account; Beas records name Jagat Singh by will of 20 Mar 1948."},
-  {"from": "sawan-singh", "to": "jagat-singh", "type": "initiated", "evidence": "documented", "verified": true, "year": 1910, "note": "Initiated 28 Dec 1910 at Abbottabad; named successor 1948 per Beas."},
-  {"from": "jagat-singh", "to": "charan-singh", "type": "lineage", "evidence": "documented", "verified": true, "year": 1951, "note": "Named by will dated 22 Oct 1951."},
-  {"from": "kirpal-singh", "to": "darshan-singh", "type": "lineage", "evidence": "testimony", "verified": true, "year": 1974, "note": "Most widely recognised successor; led the mission from 1974. Succession contested by other claimants."},
-  {"from": "kirpal-singh", "to": "ajaib-singh", "type": "initiated", "evidence": "testimony", "verified": false, "note": "Described as a disciple of Kirpal Singh on the Gurus of Shabdism page; date and nature of initiation not checked."},
-  {"from": "sufi-orders", "to": "fazl-ahmad-khan", "type": "lineage", "evidence": "documented", "verified": true, "note": "Naqshbandi-Mujaddidi, via Dahnhardt (2002) as summarised on EverybodyWiki."},
-  {"from": "fazl-ahmad-khan", "to": "lalaji-babuji", "type": "initiated", "evidence": "documented", "verified": true, "year": 1896, "note": "Lalaji's teacher; 1896 successor appointment per Dahnhardt via EverybodyWiki. Ramashram names the teacher Maulana Shah Fazal Ahmed Khan. SRCM pages consulted do not name him."},
-  {"from": "sufi-orders", "to": "lalaji-babuji", "type": "initiated", "evidence": "documented", "verified": true, "note": "Naqshbandi transmission, now routed through Fazl Ahmad Khan. Remove if the combined node is split."},
-  {"from": "lalaji-babuji", "to": "chaturbhuj-sahay", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1910, "note": "Met Lalaji around 1910-11 (Wikipedia); founded Ramashram Satsang in 1930, naming it for Lalaji. Whether he was Lalaji's chosen successor is the Ramashram view; SRCM names Babuji."},
-  {"from": "lalaji-babuji", "to": "chariji", "type": "lineage", "evidence": "documented", "verified": true, "year": 1983, "note": "Named by Babuji according to SRCM; president from 1983. Contested in litigation by Umeshchandra Saxena's side, which relied on a 1982 nomination."},
-  {"from": "lalaji-babuji", "to": "umeshchandra-saxena", "type": "claimed", "evidence": "testimony", "verified": true, "year": 1982, "note": "Per the Supreme Court record (2008), a 1982 nomination named him spiritual successor; Chariji's side disputed it."},
-  {"from": "chariji", "to": "daaji", "type": "lineage", "evidence": "documented", "verified": true, "year": 2011, "note": "Named successor Oct 2011 per SRCM; vice president Aug 2012; guide from 20 Dec 2014."}
+  {
+   "from": "sawan-singh",
+   "to": "kirpal-singh",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1924,
+   "note": "Initiated at Beas, 1924. His claim to have been entrusted with the mission (12 Oct 1947 per Ruhani Satsang side; Dec 1947 per Lane/Kaushal via Wikipedia) is his movement's account; Beas will of 20 Mar 1948 (Kaushal 1984) names Jagat Singh."
+  },
+  {
+   "from": "sawan-singh",
+   "to": "jagat-singh",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1910,
+   "note": "Initiated 28 Dec 1910 at Abbottabad; named successor 1948 per Beas."
+  },
+  {
+   "from": "jagat-singh",
+   "to": "charan-singh",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1951,
+   "note": "Named by will dated 22 Oct 1951."
+  },
+  {
+   "from": "kirpal-singh",
+   "to": "darshan-singh",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1974,
+   "note": "Most widely recognised successor; led the mission from 1974. Kirpal Singh made no public written nomination (Wikipedia); Darshan Singh's followers say the mantle passed to him two days before Kirpal's death (SikhiWiki). Contested by other claimants."
+  },
+  {
+   "from": "kirpal-singh",
+   "to": "ajaib-singh",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": false,
+   "note": "Described as a disciple of Kirpal Singh on the Gurus of Shabdism page; date and nature of initiation not checked."
+  },
+  {
+   "from": "sufi-orders",
+   "to": "fazl-ahmad-khan",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Naqshbandi-Mujaddidi, via Dahnhardt (2002) as summarised on EverybodyWiki."
+  },
+  {
+   "from": "fazl-ahmad-khan",
+   "to": "lalaji-babuji",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1896,
+   "note": "Lalaji's teacher; 1896 successor appointment per Dahnhardt via EverybodyWiki. Ramashram names the teacher Maulana Shah Fazal Ahmed Khan. SRCM pages consulted do not name him."
+  },
+  {
+   "from": "sufi-orders",
+   "to": "lalaji-babuji",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Naqshbandi transmission, now routed through Fazl Ahmad Khan. Remove if the combined node is split."
+  },
+  {
+   "from": "lalaji-babuji",
+   "to": "chaturbhuj-sahay",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1910,
+   "note": "Met Lalaji around 1910-11 (Wikipedia); founded Ramashram Satsang in 1930, naming it for Lalaji. Whether he was Lalaji's chosen successor is the Ramashram view; SRCM names Babuji."
+  },
+  {
+   "from": "lalaji-babuji",
+   "to": "chariji",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1983,
+   "note": "Named by Babuji according to SRCM, by a nomination dated 23 Mar 1974 per the court record; president from 1983. Contested in litigation by Umeshchandra Saxena's side (1982 nomination); SC 2008 made no finding on either; 2015/2022 Allahabad HC rulings on the society's registration went against the rival group."
+  },
+  {
+   "from": "lalaji-babuji",
+   "to": "umeshchandra-saxena",
+   "type": "claimed",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1982,
+   "note": "Nomination of 16 Apr 1982 named him 'spiritual representative in the direct line of succession' (court record). His declaratory suit was dismissed (1999; second appeal time-barred 2001). Chariji's side disputed it."
+  },
+  {
+   "from": "chariji",
+   "to": "daaji",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 2011,
+   "note": "Named successor Oct 2011 per SRCM; vice president Aug 2012; guide from 20 Dec 2014."
+  }
  ],
  "places": [
-  {"name": "Sayyad Kasran", "lat": 33.65, "lon": 73.05, "figure": "kirpal-singh", "what": "Birthplace, 1894 (village in Punjab, now Pakistan; exact location not found)", "verified": false},
-  {"name": "Dera Baba Jaimal Singh, Beas", "lat": 31.52, "lon": 75.27, "figure": "kirpal-singh", "what": "Initiated by Sawan Singh, 1924; seat of the Beas line", "verified": true},
-  {"name": "Sawan Ashram, Shakti Nagar, Delhi", "lat": 28.68, "lon": 77.20, "figure": "kirpal-singh", "what": "Headquarters of Ruhani Satsang, built 1951", "verified": false},
-  {"name": "Fatehgarh", "lat": 27.37, "lon": 79.63, "figure": "lalaji-babuji", "what": "Lalaji's birthplace and home", "verified": true},
-  {"name": "Shahjahanpur", "lat": 27.88, "lon": 79.91, "figure": "lalaji-babuji", "what": "Babuji's home; Shri Ram Chandra Mission registered 1945", "verified": true},
-  {"name": "Kanha Shanti Vanam", "lat": 17.18, "lon": 78.20, "figure": "lalaji-babuji", "what": "Headquarters of the Mission near Hyderabad (Wikipedia); coordinates approximate", "verified": false},
-  {"name": "Tiruchendur", "lat": 8.50, "lon": 78.12, "figure": "ayya-vaikundar", "what": "1833 sea episode", "verified": true},
-  {"name": "Swamithoppu", "lat": 8.19, "lon": 77.41, "figure": "ayya-vaikundar", "what": "Headquarters Pathi of Ayyavazhi, penance from 1834; coordinates approximate", "verified": false},
-  {"name": "Poovandanthoppu", "lat": 8.17, "lon": 77.44, "figure": "ayya-vaikundar", "what": "Traditional birthplace near Tamaraikkulam; coordinates approximate", "verified": false}
+  {
+   "name": "Sayyad Kasran",
+   "lat": 33.4,
+   "lon": 73.25,
+   "figure": "kirpal-singh",
+   "what": "Birthplace, 1894 (village in Gujar Khan tehsil, Rawalpindi district, now Pakistan; coordinates approximate)",
+   "verified": false
+  },
+  {
+   "name": "Dera Baba Jaimal Singh, Beas",
+   "lat": 31.52,
+   "lon": 75.27,
+   "figure": "kirpal-singh",
+   "what": "Initiated by Sawan Singh, 1924; seat of the Beas line",
+   "verified": true
+  },
+  {
+   "name": "Sawan Ashram, Shakti Nagar, Delhi",
+   "lat": 28.68,
+   "lon": 77.2,
+   "figure": "kirpal-singh",
+   "what": "Headquarters of Ruhani Satsang, dated 1950 or 1951",
+   "verified": false
+  },
+  {
+   "name": "Fatehgarh",
+   "lat": 27.37,
+   "lon": 79.63,
+   "figure": "lalaji-babuji",
+   "what": "Lalaji's birthplace and home",
+   "verified": true
+  },
+  {
+   "name": "Shahjahanpur",
+   "lat": 27.88,
+   "lon": 79.91,
+   "figure": "lalaji-babuji",
+   "what": "Babuji's home; Shri Ram Chandra Mission registered 1945",
+   "verified": true
+  },
+  {
+   "name": "Kanha Shanti Vanam",
+   "lat": 17.18,
+   "lon": 78.2,
+   "figure": "lalaji-babuji",
+   "what": "Headquarters of the Mission near Hyderabad (Wikipedia); coordinates approximate",
+   "verified": false
+  },
+  {
+   "name": "Tiruchendur",
+   "lat": 8.5,
+   "lon": 78.12,
+   "figure": "ayya-vaikundar",
+   "what": "1833 sea episode",
+   "verified": true
+  },
+  {
+   "name": "Swamithoppu",
+   "lat": 8.19,
+   "lon": 77.41,
+   "figure": "ayya-vaikundar",
+   "what": "Headquarters Pathi of Ayyavazhi, penance from 1834; coordinates approximate",
+   "verified": false
+  },
+  {
+   "name": "Poovandanthoppu",
+   "lat": 8.17,
+   "lon": 77.44,
+   "figure": "ayya-vaikundar",
+   "what": "Traditional birthplace near Tamaraikkulam; coordinates approximate",
+   "verified": false
+  }
  ],
  "glossary": [
-  {"term": "Pranahuti", "script": "प्राणाहुति", "lang": "sa", "def": "Literally 'offering of the life-force'. In Sahaj Marg, the master's transmission of spiritual energy into the practitioner's heart."},
-  {"term": "Sahaj Marg", "script": "सहज मार्ग", "lang": "hi", "def": "'The natural path'. The heart-centred Raja Yoga method taught by Babuji and the Shri Ram Chandra Mission, now also called Heartfulness."},
-  {"term": "Tawajjuh", "script": "توجّہ", "lang": "ur", "def": "In Sufi practice, the shaykh's concentrated attention directed at a disciple's heart to transmit spiritual states."},
-  {"term": "Naqshbandi", "script": "نقشبندی", "lang": "ur", "def": "One of the main Sufi orders, strong in India through its Mujaddidi branch, known for silent remembrance of God in the heart."},
-  {"term": "Naam", "script": "नाम", "lang": "hi", "def": "'Name'. In Sant Mat and Radhasoami teaching, the inner divine Word or sound current, also called Shabd."},
-  {"term": "Simran", "script": "सिमरन", "lang": "pa", "def": "Silent repetition of charged names, the first step of Sant Mat practice, followed by inner light (dhyan) and inner sound (bhajan)."},
-  {"term": "Ayyavazhi", "script": "அய்யாவழி", "lang": "ta", "def": "'The path of the Father'. The movement around Ayya Vaikundar, centred on Kanyakumari and southern Tamil Nadu."},
-  {"term": "Akilathirattu Ammanai", "script": "அகிலத்திரட்டு அம்மானை", "lang": "ta", "def": "The principal scripture of Ayyavazhi, a long Tamil verse narrative that followers date to 1841."},
-  {"term": "Nizhal Thangal", "script": "நிழல் தாங்கல்", "lang": "ta", "def": "A small Ayyavazhi place of worship and teaching, without idols and open to all castes."},
-  {"term": "Pathi", "script": "பதி", "lang": "ta", "def": "An Ayyavazhi holy place; five major pathis centre on Swamithoppu."},
-  {"term": "Thuvayal Thavasu", "script": "துவையல் தவசு", "lang": "ta", "def": "The 'washing penance', a collective penance by Vaikundar's followers that tradition dates from 1840."}
+  {
+   "term": "Pranahuti",
+   "script": "प्राणाहुति",
+   "lang": "sa",
+   "def": "Literally 'offering of the life-force'. In Sahaj Marg, the master's transmission of spiritual energy into the practitioner's heart."
+  },
+  {
+   "term": "Sahaj Marg",
+   "script": "सहज मार्ग",
+   "lang": "hi",
+   "def": "'The natural path'. The heart-centred Raja Yoga method taught by Babuji and the Shri Ram Chandra Mission, now also called Heartfulness."
+  },
+  {
+   "term": "Tawajjuh",
+   "script": "توجّہ",
+   "lang": "ur",
+   "def": "In Sufi practice, the shaykh's concentrated attention directed at a disciple's heart to transmit spiritual states."
+  },
+  {
+   "term": "Naqshbandi",
+   "script": "نقشبندی",
+   "lang": "ur",
+   "def": "One of the main Sufi orders, strong in India through its Mujaddidi branch, known for silent remembrance of God in the heart."
+  },
+  {
+   "term": "Naam",
+   "script": "नाम",
+   "lang": "hi",
+   "def": "'Name'. In Sant Mat and Radhasoami teaching, the inner divine Word or sound current, also called Shabd."
+  },
+  {
+   "term": "Simran",
+   "script": "सिमरन",
+   "lang": "pa",
+   "def": "Silent repetition of charged names, the first step of Sant Mat practice, followed by inner light (dhyan) and inner sound (bhajan)."
+  },
+  {
+   "term": "Ayyavazhi",
+   "script": "அய்யாவழி",
+   "lang": "ta",
+   "def": "'The path of the Father'. The movement around Ayya Vaikundar, centred on Kanyakumari and southern Tamil Nadu."
+  },
+  {
+   "term": "Akilathirattu Ammanai",
+   "script": "அகிலத்திரட்டு அம்மானை",
+   "lang": "ta",
+   "def": "The principal scripture of Ayyavazhi, a long Tamil verse narrative that followers date to 1841."
+  },
+  {
+   "term": "Nizhal Thangal",
+   "script": "நிழல் தாங்கல்",
+   "lang": "ta",
+   "def": "A small Ayyavazhi place of worship and teaching, without idols and open to all castes."
+  },
+  {
+   "term": "Pathi",
+   "script": "பதி",
+   "lang": "ta",
+   "def": "An Ayyavazhi holy place; five major pathis centre on Swamithoppu."
+  },
+  {
+   "term": "Thuvayal Thavasu",
+   "script": "துவையல் தவசு",
+   "lang": "ta",
+   "def": "The 'washing penance', a collective penance by Vaikundar's followers that tradition dates from 1840."
+  }
  ],
  "art": [],
  "issues": [
@@ -73,7 +359,8 @@
   "ayya-vaikundar.mdx: the claim that London Missionary Society reports mention the imprisonment is from the English Wikipedia article and was not checked against the LMS record. 'Uplift of the lowly is dharmam' is from Wikipedia's summary of the movement's teaching, not from the Akilam text. Caldwell's 'largely negative view' is Wikipedia's wording; no Caldwell text was read. No scholarly book (e.g. Dick Kooiman, G. Patrick, Ponnu, Krishnanathan, Vivekanandan) was consulted directly.",
   "ayya-vaikundar.mdx: no graph edges added. Ayyavazhi tradition mentions 'Thycaud Ayya' advising on Vaikundar's release (Wikipedia timeline) and popular accounts link Vaikundar with Chattampi Swamikal and Narayana Guru; none verified. Author to decide whether to add edges (existing node thycaud-ayyavu is a Tamil-born yogi, 1814-1909) once a source is found.",
   "ayya-vaikundar.mdx: the 'mirror in place of an image' practice and the '7,000 Nizhal Thangals' count are from English Wikipedia's Ayyavazhi article. Adherent estimates (8 to 10 million) and census classification (counted as Hindu; about 243 self-identified in 2001 per Grokipedia) not used in text; Hindu/separate-religion debate is a candidate for a Critiques section if the entry is upgraded. Coordinates for Swamithoppu and Poovandanthoppu are approximate.",
-  "All three: no media cards, photos or art; profiles do not carry media sections. Ruhani Satsang, Sawan Kirpal Ruhani Mission, Ramashram Satsang, Ayyavazhi have no institution nodes."
+  "All three: no media cards, photos or art; profiles do not carry media sections. Ruhani Satsang, Sawan Kirpal Ruhani Mission, Ramashram Satsang, Ayyavazhi have no institution nodes.",
+  "lalaji-babuji.mdx (factcheck): outcome of the suit named in the SC 29 Apr 2008 order not found; final operative orders of the 2015 and 2022 Allahabad HC judgments were not read (2022 text says the Division Bench was 'in full agreement' with the 2015 Single Judge, who dismissed the rival group's writ petitions). Author may consider splitting the combined lalaji-babuji node (recommended: the Fazl Ahmad Khan edge belongs to Lalaji only, and the litigation to Babuji's succession)."
  ],
  "sources": {
   "kirpal-singh": [
@@ -112,6 +399,26 @@
    "b. 1809; parents Ponnu Nadar and Veyilal Ammaiyar; first name Mudi Soodum Perumal then Muthukutty; Poovandan Thoppu near Tamaraikkulam; Tiruchendur sea episode; equality teachings -> https://www.jetir.org/papers/JETIR1905W09.pdf",
    "Arrest Nov 1838, release 6 or 26 Mar 1839; follower-compiled sources; death date disputed -> https://grokipedia.com/page/Ayya_Vaikundar",
    "Refrain 'Uplift of the lowly is dharmam' -> https://en.wikipedia.org/wiki/Ayya_Vaikundar"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 58,
+  "changes": [
+   "lalaji-babuji.mdx: rewrote the succession-litigation paragraph from the SC judgment text (Civil Appeal 6619/2000, 29 Apr 2008: 'not necessary' to decide Sections 3(A) and 4; suit to be decided in six months; appeal 'disposed of'; no finding on nominations or fraud), added nomination dates (23 Mar 1974; 16 Apr 1982), each side's argument, the 1985 SC refusal to disturb the HC order finding Chariji prima facie duly appointed, Saxena's dismissed suit (1999), time-barred second appeal (2001) and death (2003), and the 2015/2022 Allahabad HC registration rulings (indiankanoon 1057352, 69655265, 82001348)",
+   "lalaji-babuji.mdx: added Dahnhardt's dates for Fazl Ahmad Khan, 1838-1907 (Dahnhardt 2002 contents, iris.unive.it); updated reference 5 to indiankanoon.org URLs",
+   "kirpal-singh.mdx: Beas sentence now says the commission is 'not recorded in the will' (Wikipedia citing Lane 1992 and Kaushal 1984) instead of 'Beas records do not contain it'",
+   "kirpal-singh.mdx: Ruhani Satsang founding widened to 1948-1951 and Sawan Ashram to 1950 or 1951 (SikhiWiki gives 1949/1950)",
+   "kirpal-singh.mdx: 'four hours' now attributed to Kirpal Singh's own text (WaySaints.pdf); quotation verified verbatim (Man! Know Thyself, Self-Analysis, pp. 47-48)",
+   "kirpal-singh.mdx: succession paragraph attributes each claim; Darshan Singh's followers' 'mantle' account added; Thakar Singh claim corrected (Wikipedia does not say he founded Kirpal Light Satsang; it is the publisher of his talks; initiated 1965, initiating from 1976). No legal matters mentioned",
+   "kirpal-singh.mdx: birthplace district added (Rawalpindi; SikhiWiki, Wikipedia Syed Kasran)",
+   "ayya-vaikundar.mdx: penance described as followers' three two-year stages; arrest attributed to followers' account; unverified LMS 'documents his imprisonment' claim replaced with what G. Patrick (2003) reports from LMS annual reports (1838 report on government interference; Lewis 1858 'imposter'), via Wikipedia 'Ayyavazhi in reports by Christian missionaries'; reference added",
+   "s05.json: Fazl Ahmad Khan dated 1838-1907; Saxena d. 2003 and court details; Chariji and Saxena edge notes; Kirpal/Darshan edge notes; Sayyad Kasran coordinates moved to Gujar Khan tehsil (still approximate)"
+  ],
+  "unresolved": [
+   "Outcome of the suit the SC ordered decided in 2008 not found; final operative orders of 2015 and 2022 HC judgments not read.",
+   "1896 appointment of Lalaji by Fazl Ahmad Khan rests on a secondary summary; Dahnhardt chapter text not accessible.",
+   "Ayya Vaikundar: release date 6 vs 26 Mar 1839 and arrest month unresolved; all life events rest on devotional sources.",
+   "Kirpal Singh death 21 Aug 1974 (movement, SikhiWiki) vs 24 Aug (Wikipedia body) left as stated; Sayyad Kasran exact coordinates not found."
   ]
  }
 }

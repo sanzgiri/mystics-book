@@ -1283,7 +1283,8 @@
    "died": 1990,
    "part": 13,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Chandra Mohan Jain, born Kuchwada 11 Dec 1931; awakening by his account 21 Mar 1953, Jabalpur; philosophy lecturer Jabalpur 1958-66; Dynamic Meditation 1970; first neo-sannyas 26 Sept 1970 (Manali); Poona 1974-81; Rajneeshpuram 1981-85; Alford/guilty plea to two immigration counts Nov 1985; returned to Pune Jan 1987; died Pune 19 Jan 1990."
   },
   {
    "id": "sathya-sai-baba",
@@ -1292,7 +1293,8 @@
    "died": 2011,
    "part": 13,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Sathyanarayana Raju, Puttaparthi, 23 November 1926 (movement's date); declared himself Sai Baba in May 1940 and left home 20 October 1940; Prasanthi Nilayam inaugurated 23 November 1950; died Puttaparthi, 24 April 2011."
   },
   {
    "id": "dada-lekhraj",
@@ -2413,7 +2415,9 @@
    "part": 9,
    "tier": "node",
    "kind": "person",
-   "note": "Naqshbandi-Mujaddidi shaykh of Raipur, Farrukhabad district; teacher of Lalaji. Birth 1838 or 1857 in different sources; per Dahnhardt (via EverybodyWiki) chose Lalaji as successor in 1896."
+   "note": "Naqshbandi-Mujaddidi shaykh of Raipur, Farrukhabad district; teacher of Lalaji. Dates 1838-1907 per Dahnhardt 2002 (table of contents, p. 71); 1857 birth in some sources. 1896 successor appointment per a secondary summary of Dahnhardt (EverybodyWiki), not read in Dahnhardt directly.",
+   "born": 1838,
+   "died": 1907
   },
   {
    "id": "chaturbhuj-sahay",
@@ -2433,7 +2437,7 @@
    "part": 9,
    "tier": "node",
    "kind": "person",
-   "note": "Met Babuji 1964; president of Shri Ram Chandra Mission 1983-2014; his claim contested by Umeshchandra Saxena's side in litigation reaching the Supreme Court (2008). Named Kamlesh Patel successor Oct 2011."
+   "note": "Met Babuji 1964; relied on a nomination dated 23 Mar 1974 (court record); president of Shri Ram Chandra Mission 1983-2014. Contested by Umeshchandra Saxena's side (1982 nomination). SC 29 Apr 2008 made no finding on either nomination. Named Kamlesh Patel successor Oct 2011."
   },
   {
    "id": "umeshchandra-saxena",
@@ -2441,7 +2445,8 @@
    "part": 9,
    "tier": "node",
    "kind": "person",
-   "note": "Claimant to Babuji's succession and Mission presidency on the basis of a 1982 nomination (per the court record). Dates unknown."
+   "note": "Claimant to Babuji's succession on the basis of a nomination dated 16 Apr 1982. His suit OS 697/1995 dismissed 31 May 1999; second appeal dismissed as time-barred 26 Nov 2001; d. 3 Nov 2003 (Allahabad HC, 10 Jul 2015). Birth year unknown.",
+   "died": 2003
   },
   {
    "id": "darshan-singh",
@@ -2586,6 +2591,65 @@
    "tier": "node",
    "kind": "person",
    "note": "English Buddhist monk (born Dennis Lingwood, 26 Aug 1925 - 30 Oct 2018); novice ordination from U Chandramani 1949, bhikkhu 1950; corresponded with Ambedkar from 1950 and met him (1952 and later); lectured to new Buddhists in Nagpur after Ambedkar's death; founded the FWBO (now Triratna Buddhist Community) in London, April 1967, whose Indian wing is the Triratna Bauddha Mahasangha (formerly TBMSG); author of Ambedkar and Buddhism (1986)."
+  },
+  {
+   "id": "gurdjieff",
+   "name": "G. I. Gurdjieff",
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Armenian-Greek teacher of the Fourth Way. Osho's Poona work departments were modelled on Gurdjieff's 1930s community in France, and his picture of 'man as a machine' resembles Gurdjieff's. Birth/death years not verified in this batch."
+  },
+  {
+   "id": "human-potential-movement",
+   "name": "Human potential movement (Esalen and encounter therapy)",
+   "part": 13,
+   "tier": "node",
+   "kind": "movement",
+   "note": "Western group therapies (encounter, primal, bodywork) brought to the Poona ashram from 1975 by therapists who became sannyasins; Wilhelm Reich's body therapy is cited as an influence on the active meditations. Time magazine called the ashram the 'Esalen East'."
+  },
+  {
+   "id": "ma-anand-sheela",
+   "name": "Ma Anand Sheela",
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Rajneesh's secretary 1981-85 and head of Rajneeshpuram. Entered Alford pleas on 22 July 1986 to charges including the 1984 Dalles salmonella poisoning and attempted murder of Rajneesh's physician; concurrent sentences up to 20 years; paroled after 29 months; later lived in Switzerland. Birth year given as 1949 or 1950 in different sources; omitted."
+  },
+  {
+   "id": "osho-international-foundation",
+   "name": "Osho International Foundation",
+   "part": 13,
+   "tier": "node",
+   "kind": "institution",
+   "era": "Zurich; formerly Rajneesh International Foundation / Neo-Sannyas International Foundation",
+   "note": "Swiss foundation that claims copyright in Osho's words and holds the OSHO trademark; runs the Osho International Meditation Resort, Pune. US OSHO marks cancelled January 2009; EU mark upheld by the General Court 11 October 2017."
+  },
+  {
+   "id": "narayana-kasturi",
+   "name": "N. Kasturi",
+   "born": 1897,
+   "died": 1987,
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Writer; met Sathya Sai Baba in Bangalore in 1948; biographer (Sathyam Sivam Sundaram, Part I, 1960), translator, and editor of Sanathana Sarathi from 1958."
+  },
+  {
+   "id": "sathya-sai-organisation",
+   "name": "Sathya Sai Organisation",
+   "part": 13,
+   "tier": "node",
+   "kind": "institution",
+   "note": "First Seva Samithi formally constituted in Bombay, 5 July 1965; first World Conference, Bombay, May 1968; now the Sri Sathya Sai International Organisation, chaired by Narendranath Reddy since 2011."
+  },
+  {
+   "id": "prema-sai",
+   "name": "Prema Sai (prophesied)",
+   "part": 13,
+   "tier": "node",
+   "kind": "symbolic",
+   "note": "The third Sai, Shakti alone, whom Sathya Sai Baba said in his Guru Purnima discourse of 6 July 1963 would follow him."
   }
  ],
  "edges": [
@@ -3159,7 +3223,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1924,
-   "note": "Initiated at Beas, 1924. His claim to have been entrusted with the mission (12 Oct or Dec 1947) is Ruhani Satsang's account; Beas records name Jagat Singh by will of 20 Mar 1948."
+   "note": "Initiated at Beas, 1924. His claim to have been entrusted with the mission (12 Oct 1947 per Ruhani Satsang side; Dec 1947 per Lane/Kaushal via Wikipedia) is his movement's account; Beas will of 20 Mar 1948 (Kaushal 1984) names Jagat Singh."
   },
   {
    "from": "sawan-singh",
@@ -3317,8 +3381,10 @@
    "from": "jain-tradition",
    "to": "osho",
    "type": "influenced",
-   "evidence": "testimony",
-   "note": "Born into a Jain family"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1931,
+   "note": "Born into a Digambar Jain family whose parents followed Taran Svami; his 1968 sex lectures began at a Jain youth group's Paryushan series and provoked Jain anger."
   },
   {
    "from": "aurobindo",
@@ -5223,7 +5289,7 @@
    "evidence": "testimony",
    "verified": true,
    "year": 1974,
-   "note": "Most widely recognised successor; led the mission from 1974. Succession contested by other claimants."
+   "note": "Most widely recognised successor; led the mission from 1974. Kirpal Singh made no public written nomination (Wikipedia); Darshan Singh's followers say the mantle passed to him two days before Kirpal's death (SikhiWiki). Contested by other claimants."
   },
   {
    "from": "kirpal-singh",
@@ -5266,7 +5332,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1983,
-   "note": "Named by Babuji according to SRCM; president from 1983. Contested in litigation by Umeshchandra Saxena's side, which relied on a 1982 nomination."
+   "note": "Named by Babuji according to SRCM, by a nomination dated 23 Mar 1974 per the court record; president from 1983. Contested in litigation by Umeshchandra Saxena's side (1982 nomination); SC 2008 made no finding on either; 2015/2022 Allahabad HC rulings on the society's registration went against the rival group."
   },
   {
    "from": "lalaji-babuji",
@@ -5275,7 +5341,7 @@
    "evidence": "testimony",
    "verified": true,
    "year": 1982,
-   "note": "Per the Supreme Court record (2008), a 1982 nomination named him spiritual successor; Chariji's side disputed it."
+   "note": "Nomination of 16 Apr 1982 named him 'spiritual representative in the direct line of succession' (court record). His declaratory suit was dismissed (1999; second appeal time-barred 2001). Chariji's side disputed it."
   },
   {
    "from": "chariji",
@@ -5447,6 +5513,142 @@
    "verified": true,
    "year": 1949,
    "note": "Novice (sramanera) ordination, May 1949, in a ceremony led by U Chandramani (Wikipedia, Sangharakshita)."
+  },
+  {
+   "from": "kashmir-shaivism",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Discourses on the Vijnana Bhairava Tantra's 112 methods, published as The Book of Secrets."
+  },
+  {
+   "from": "tantra-shakta",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1968,
+   "note": "Tantric acceptance of desire as a path, from the 1968 talks (From Sex to Superconsciousness) through discourses on Tilopa's Song of Mahamudra (Tantra: The Supreme Understanding)."
+  },
+  {
+   "from": "buddhist-tradition",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1988,
+   "note": "Many Zen discourse series; from early 1988 his talks dealt almost entirely with Zen. Also Tilopa (Tibetan Mahamudra)."
+  },
+  {
+   "from": "sufi-orders",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Discourse series on Sufi teaching stories; Sufi dance compared with his active meditations."
+  },
+  {
+   "from": "bhagavad-gita",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Discourses on the Gita (title confirmed only via a Romanian bibliography; English/Hindi titles not checked)."
+  },
+  {
+   "from": "christianity",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Discourse series on the sayings of Jesus and on the Gospel of Thomas."
+  },
+  {
+   "from": "upanishads",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Discourses on several Upanishads (Kena, Mandukya, Sarvasar, Kaivalya, Adhyatma, Akshya). Lewis Carter saw his ideas as rooted in Advaita."
+  },
+  {
+   "from": "sant-tradition",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Discourses on the poems of Kabir."
+  },
+  {
+   "from": "gurdjieff",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Poona work communities modelled on Gurdjieff's 1930s community in France; 'man as a machine'."
+  },
+  {
+   "from": "human-potential-movement",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1975,
+   "note": "Therapy groups run at the Poona ashram from 1975 by Western therapists; central to ashram life and income."
+  },
+  {
+   "from": "osho",
+   "to": "ma-anand-sheela",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1981,
+   "note": "Secretary and head of Rajneeshpuram 1981-85; denounced by Rajneesh as a 'gang of fascists' 16 Sept 1985."
+  },
+  {
+   "from": "osho",
+   "to": "osho-international-foundation",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1990,
+   "note": "Holds copyright and trademark claims to his name and words after his death; runs the Pune resort."
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "sathya-sai-baba",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Discourses teach one God dwelling in all beings and Sanathana Dharma behind all religions, in a devotional idiom."
+  },
+  {
+   "from": "sathya-sai-baba",
+   "to": "narayana-kasturi",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1948,
+   "note": "Met in Bangalore 1948; became his biographer, translator and editor."
+  },
+  {
+   "from": "sathya-sai-baba",
+   "to": "sathya-sai-organisation",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1965,
+   "note": "Founder; seed announced 1961, first Seva Samithi constituted 1965."
+  },
+  {
+   "from": "sathya-sai-baba",
+   "to": "prema-sai",
+   "type": "claimed",
+   "evidence": "devotional",
+   "verified": true,
+   "year": 1963,
+   "note": "Prophecy in the Guru Purnima discourse of 6 July 1963: 'Shakthi alone as Prema Sai, later.'"
   }
  ]
 }

@@ -43,7 +43,7 @@ Status: todo / running / written / checked / merged.
 | w32 | osho (c) | | checking |
 | w33 | sathya-sai-baba (c) | | checking |
 | w34 | dada-lekhraj, sri-chinmoy | new-revelations (incl. godman essay) | running |
-| w35 | kalki-bhagavan, nithyananda, dhirendra-shastri | | todo |
+| w35 | kalki-bhagavan, nithyananda, dhirendra-shastri | | running |
 | o16 | satyananda, swami-rama, pattabhi-jois | | todo |
 | o17 | sri-m | technique | todo |
 | o19 | shri-mataji, pr-sarkar | shakti | todo |
@@ -62,7 +62,7 @@ Historical figures with no live legal or sensitive controversy. Writer agents us
 | s02 | bamakhepa, papa-ramdas, neem-karoli-baba | merged |
 | s03 | bhaktivinoda, bhaktisiddhanta, shastriji-pramukh | merged |
 | s04 | upasni-maharaj, ug-krishnamurti, vallalar | merged |
-| s05 | kirpal-singh, ayya-vaikundar, lalaji-babuji | checking |
+| s05 | kirpal-singh, ayya-vaikundar, lalaji-babuji | merged |
 | s06 | rajchandra, vinoba, kanji-swami | merged |
 | s07 | tulsi-mahapragya, dada-bhagwan, dipa-ma | merged |
 
