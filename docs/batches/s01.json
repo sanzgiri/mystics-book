@@ -56,7 +56,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1910,
-   "note": "Met in Benares c. 1910; trained about ten years; swami initiation July 1914; sent West 1920."
+   "note": "Met in Benares c. 1910; trained about ten years; swami vows July 1914 (Autobiography ch. 24) or July 1915 (Wikipedia); sent West 1920."
   },
   {
    "from": "madhavdas",
@@ -65,7 +65,7 @@
    "evidence": "testimony",
    "verified": true,
    "year": 1919,
-   "note": "Guru-disciple relation stated by Kaivalyadhama; met 1919 (Wikipedia, kdham) or end of 1918 (Bodhe)."
+   "note": "Guru-disciple relation stated by Kaivalyadhama; met 1919 (Wikipedia; kdham 'Legacy' says between 1919 and 1921) or end of 1918 (Bodhe)."
   },
   {
    "from": "rajaratna-manikrao",
@@ -148,7 +148,7 @@
    "lat": 18.75,
    "lon": 73.41,
    "figure": "kuvalayananda",
-   "what": "Kaivalyadhama, founded 1924; he died here 1966.",
+   "what": "Kaivalyadhama at Lonavla, 1924 (Vijayadashami, 7 October, per Bodhe); he died here 1966.",
    "verified": true
   },
   {
@@ -164,16 +164,16 @@
    "lat": 22.13,
    "lon": 73.43,
    "figure": "kuvalayananda",
-   "what": "Birthplace per Wikipedia and Kaivalyadhama.",
-   "verified": false
+   "what": "Birthplace per Wikipedia, Kaivalyadhama and the India Post stamp listing (Bodhe: 'a village in Gujarat').",
+   "verified": true
   },
   {
    "name": "Amalner",
    "lat": 21.04,
    "lon": 75.07,
    "figure": "kuvalayananda",
-   "what": "National College of the Khandesh Education Society; principal 1916.",
-   "verified": false
+   "what": "Khandesh Education Society's National College; principal 1916; kdham 'Legacy' page dates a 1917 founding of Kaivalyadhama here.",
+   "verified": true
   },
   {
    "name": "Pune",
@@ -273,7 +273,8 @@
   "iyengar.mdx: Krishnamacharya move at 14 (RIMYI) vs 1934 (Wikipedia, age ~15); typhoid (Wikipedia) vs typhus (RIMYI); death-report date 20/21 Aug; Light on Yoga translations 17 vs 23 languages (omitted). Iyengar's 'first used props' history is not independently confirmed; text attributes to Wikipedia citing Mehta et al. 1990.",
   "iyengar.mdx: Bellur coordinates not verified (rate limit), so no Bellur place entry. Manouso Manos 2019 decertification (IYNAUS) deliberately left out as not about Iyengar; author may want it under Descendants. No online recording of Iyengar's voice found with a direct URL; film Samadhi (1977) is sold by RIMYI with no link. Profile has no media section.",
   "vethathiri.mdx: sources are thin and mostly movement or proponent-supplied (stamp catalogue, Wikipedia with weak citations). Guru Paranjyothi, A. Balakrishna, age-12 meeting, kundalini initiation are unverified beyond Wikipedia. Book count 70 vs 75; age at death 95 (stamp page) vs 94 (arithmetic); 1,500 centres and UN ECOSOC status are organisation claims. UN invitation 9 Jan 1975 only from the proponent-supplied stamp page. 14 Vethathiriam points not found, so not listed. Tamil title script (manavalakalai) spelling unverified. Aliyar and Thiruvanmiyur coordinates unverified.",
-  "All four: the weekly usage limit interrupted research once; Aliyar village, Belluru/Bellur and several Wikipedia pages could not be fetched after that point."
+  "All four: the weekly usage limit interrupted research once; Aliyar village, Belluru/Bellur and several Wikipedia pages could not be fetched after that point.",
+  "factcheck s01: author may want Swami Prajnanananda's 1906 initiation account cited from his own book rather than the secondary site; UN 1975 claim kept only as attributed to India Post's folder."
  ],
  "sources": {
   "yukteswar": [
@@ -328,6 +329,34 @@
    "Guduvancheri coordinates 12.845N 80.057E -> https://en.wikipedia.org/wiki/Guduvancheri",
    "Serampore coordinates 22.75N 88.34E -> https://en.wikipedia.org/wiki/Serampore",
    "Name forms and works 1911-2006 -> https://viaf.org/viaf/4026274"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 112,
+  "changes": [
+   "yukteswar.mdx: ordination resolved as July 1906 (Guru Purnima), by Swami Krishna Dayal Giri of Bodh Gaya, per Swami Prajnanananda quoted at yoganandaharmony.com; Ananda 1906 and Wikipedia's undated Bodh Gaya mahant kept as corroboration; reference added (https://yoganandaharmony.com/yogananda-history-chapter-7)",
+   "yukteswar.mdx: Yogananda's swami vows given as July 1914 (Autobiography, anandaindia.org ch. 24) or 1915 (Wikipedia, Paramahansa_Yogananda) instead of 1914 alone",
+   "yukteswar.mdx: Bombay appearance placed at the Regent Hotel (ananda.org radioananda Mahasamadhi page quoting ch. 43)",
+   "yukteswar.mdx: cut unsourced 'about twelve miles from Calcutta'; wife's death now attributes Wikipedia's 'a few years after the marriage' alongside Ananda's 1895",
+   "kuvalayananda.mdx: birthplace Dabhoi confirmed by Wikipedia, kdham.com/the-legacy and the India Post listing at istampgallery.com (?p=33393); glance hedge removed; Bodhe's 'a village in Gujarat' kept in Life as compatible",
+   "kuvalayananda.mdx: founding: Bodhe's Vijayadashami date given as 7 October 1924 (attributed); 1917 Amalner attributed specifically to kdham 'Legacy' page, which calls 1924 Lonavla the research centre",
+   "kuvalayananda.mdx: stamp date 30 August 2019 (istampgallery.com, India Post)",
+   "iyengar.mdx: 'only ten enrolled' corrected to 'only ten students in all' (Scroll.in excerpt of Palkhivala)",
+   "iyengar.mdx: four-part method hedged; Wikipedia Iyengar Yoga lists three (precision, sequence, props), timing attributed to teachers",
+   "iyengar.mdx: NPR quotes reattributed to Light on Life as quoted by NPR (Allison Aubrey, 9 Nov 2005) instead of 'told NPR'; quote corrected to 'the external practice of yoga'",
+   "iyengar.mdx: 'Historians' changed to journalist Michelle Goldberg; nickname given and Goldberg's report of his justification added; unsourced 'such as toning organs' cut (Wikipedia Iyengar Yoga, B._K._S._Iyengar)",
+   "iyengar.mdx: Pattabhi Jois sentence reworded to Wikipedia's wording",
+   "iyengar.mdx: media links checked: videolibrarian review (Kino Lorber, 2018) and Hawai'i Public Radio NPR page are real; added RIMYI's listing of the FTII film Samadhi (1977) to Further reading",
+   "vethathiri.mdx: source relabelled as India Post information folder (the page credits India Post, not the proponent); UN invitation of 9 Jan 1975 attributed to the folder with its stated topic, and noted that no UN record was located (searched UN DAM and Sri Chinmoy UN Meditation Group archives)",
+   "vethathiri.mdx: Balakrishna introduced him to 'spirituality' (Wikipedia), not Advaita; books 'more than 75' per Wikipedia; 2,000 poems attributed to the folder; glance now '70 to 75 books'",
+   "vethathiri.mdx: first-person 'I found' removed from Questions raised (style); 'sculptor' line given as the paper's summary, not a quotation of Vethathiri; Perumal and Jagadambal described by their affiliations (Vision SKY Research Centre, Aliyar; Dept of Human Excellence, NGM College)",
+   "s01.json: Dabhoi and Amalner places set verified; Lonavla, Madhavdas and Yogananda edge notes updated"
+  ],
+  "unresolved": [
+   "yukteswar.mdx: Autobiography full text could not be fetched (Gutenberg and hinduwebsite blocked or truncated), so the quotes 'hypercritical of his disciples', 'Someday you will go to the West' and 'about fifty-five' rest on search-result snippets and the writer's summaries; Ananda's 1895 date for the wife's death not re-fetched (ananda.org blocked).",
+   "kuvalayananda.mdx: Vijayadashami 1924 = 7 October not checked against a panchang; Gandhi correspondence rests on Bodhe only.",
+   "vethathiri.mdx: UN talk of 9 Jan 1975 has no independent confirmation; Coimbatore as place of death only in the Wikipedia infobox; Paranjyothi and Balakrishna known only from Wikipedia's weakly sourced text.",
+   "iyengar.mdx: a public, official recording of Iyengar's voice not found; Samadhi is on YouTube via a homegrown.co.in embed but the upload's provenance is unclear, so not linked."
   ]
  }
 }

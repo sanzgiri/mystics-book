@@ -1156,7 +1156,7 @@
    "lat": 18.75,
    "lon": 73.41,
    "figure": "kuvalayananda",
-   "what": "Kaivalyadhama, founded 1924; he died here 1966.",
+   "what": "Kaivalyadhama at Lonavla, 1924 (Vijayadashami, 7 October, per Bodhe); he died here 1966.",
    "verified": true
   },
   {
@@ -1172,16 +1172,16 @@
    "lat": 22.13,
    "lon": 73.43,
    "figure": "kuvalayananda",
-   "what": "Birthplace per Wikipedia and Kaivalyadhama.",
-   "verified": false
+   "what": "Birthplace per Wikipedia, Kaivalyadhama and the India Post stamp listing (Bodhe: 'a village in Gujarat').",
+   "verified": true
   },
   {
    "name": "Amalner",
    "lat": 21.04,
    "lon": 75.07,
    "figure": "kuvalayananda",
-   "what": "National College of the Khandesh Education Society; principal 1916.",
-   "verified": false
+   "what": "Khandesh Education Society's National College; principal 1916; kdham 'Legacy' page dates a 1917 founding of Kaivalyadhama here.",
+   "verified": true
   },
   {
    "name": "Pune",
