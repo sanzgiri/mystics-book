@@ -34,10 +34,10 @@ Status: todo / running / written / checked / merged.
 | w13 | sivananda (c) | | merged |
 | w14 | maharishi (c) | | merged |
 | w15 | sadhguru (c) | | merged |
-| w18 | muktananda (c) | | checking |
+| w18 | muktananda (c) | | merged |
 | w20 | prabhupada (c) | | checking |
 | w21 | amma (c) | | running |
-| w24 | meher-baba (c) | | todo |
+| w24 | meher-baba (c) [Sonnet writer] | | running |
 | w26 | inayat-khan (c) | | todo |
 | w31 | ambedkar (c) | buddha-returns | todo |
 | w32 | osho (c) | | todo |

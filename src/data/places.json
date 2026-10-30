@@ -1544,6 +1544,230 @@
    "figure": "sadhguru",
    "what": "112-foot Adiyogi bust unveiled by Narendra Modi, 24 February 2017 (approximate)",
    "verified": false
+  },
+  {
+   "name": "Birnagar (Ula)",
+   "lat": 23.25,
+   "lon": 88.57,
+   "figure": "bhaktivinoda",
+   "what": "Birthplace, 1838",
+   "verified": false
+  },
+  {
+   "name": "Mayapur",
+   "lat": 23.423,
+   "lon": 88.388,
+   "figure": "bhaktivinoda",
+   "what": "Site he identified in 1887 as Chaitanya's birthplace; Bhaktisiddhanta founded Sri Chaitanya Math here, 1918",
+   "verified": true
+  },
+  {
+   "name": "Puri",
+   "lat": 19.813,
+   "lon": 85.831,
+   "figure": "bhaktisiddhanta",
+   "what": "Birthplace, 1874; Bhaktivinoda's postings and later home",
+   "verified": true
+  },
+  {
+   "name": "Baghbazar, Kolkata",
+   "lat": 22.603,
+   "lon": 88.366,
+   "figure": "bhaktisiddhanta",
+   "what": "Gaudiya Math headquarters and place of death area (death in Calcutta 1937)",
+   "verified": false
+  },
+  {
+   "name": "Mahelav",
+   "lat": 22.65,
+   "lon": 72.85,
+   "figure": "shastriji-pramukh",
+   "what": "Birthplace of Shastriji Maharaj, 1865",
+   "verified": false
+  },
+  {
+   "name": "Vadtal",
+   "lat": 22.58,
+   "lon": 72.87,
+   "figure": "shastriji-pramukh",
+   "what": "Swaminarayan diocese seat; he was initiated here (1882 per Wikipedia) and left in 1905",
+   "verified": false
+  },
+  {
+   "name": "Bochasan",
+   "lat": 22.5,
+   "lon": 72.95,
+   "figure": "shastriji-pramukh",
+   "what": "Temple consecrated 5 June 1907; BAPS founding",
+   "verified": false
+  },
+  {
+   "name": "Gondal",
+   "lat": 21.96,
+   "lon": 70.8,
+   "figure": "shastriji-pramukh",
+   "what": "BAPS temple; Pramukh Swami initiated here, Jan 1940",
+   "verified": true
+  },
+  {
+   "name": "Mangalore",
+   "lat": 12.914,
+   "lon": 74.856,
+   "figure": "muktananda",
+   "what": "Born near here, 1908 (city-level coordinates)",
+   "verified": true
+  },
+  {
+   "name": "Hubli (Siddharudha Math)",
+   "lat": 15.364,
+   "lon": 75.124,
+   "figure": "muktananda",
+   "what": "Studied at Siddharudha Swami's ashram and took sannyasa (city-level)",
+   "verified": true
+  },
+  {
+   "name": "Yeola",
+   "lat": 20.042,
+   "lon": 74.489,
+   "figure": "muktananda",
+   "what": "Meditated in a small hut in the years after his 1947 initiation (town-level)",
+   "verified": true
+  },
+  {
+   "name": "Ganeshpuri (Gurudev Siddha Peeth)",
+   "lat": 19.49,
+   "lon": 73.02,
+   "figure": "muktananda",
+   "what": "Initiation by Nityananda 1947; land at Gavdevi 1956; ashram; died here 2 October 1982; samadhi shrine (village-level)",
+   "verified": true
+  },
+  {
+   "name": "Oakland, California",
+   "lat": 37.804,
+   "lon": -122.271,
+   "figure": "muktananda",
+   "what": "Ashram opened April 1975 during the second world tour (city-level)",
+   "verified": true
+  },
+  {
+   "name": "South Fallsburg, New York (Shree Muktananda Ashram)",
+   "lat": 41.72,
+   "lon": -74.64,
+   "figure": "muktananda",
+   "what": "American headquarters from 1978-79; successor named here July 1981 (village-level)",
+   "verified": true
+  },
+  {
+   "name": "Santa Monica, California",
+   "lat": 34.019,
+   "lon": -118.491,
+   "figure": "muktananda",
+   "what": "Six-month stay, 14 October 1980 to April 1981 (city-level)",
+   "verified": true
+  },
+  {
+   "name": "Calcutta (Kolkata)",
+   "lat": 22.573,
+   "lon": 88.364,
+   "figure": "prabhupada",
+   "what": "Born 1 September 1896; Scottish Church College; met Bhaktisiddhanta 1922; Jaladuta sailed 13 August 1965 (city-level coordinates)",
+   "verified": true
+  },
+  {
+   "name": "Allahabad (Prayagraj)",
+   "lat": 25.435,
+   "lon": 81.846,
+   "figure": "prabhupada",
+   "what": "Initiated by Bhaktisiddhanta, 1933 (city-level)",
+   "verified": true
+  },
+  {
+   "name": "Jhansi",
+   "lat": 25.448,
+   "lon": 78.568,
+   "figure": "prabhupada",
+   "what": "League of Devotees, 1952 (city-level)",
+   "verified": true
+  },
+  {
+   "name": "Keshavji Gaudiya Math, Mathura",
+   "lat": 27.492,
+   "lon": 77.673,
+   "figure": "prabhupada",
+   "what": "Sannyasa from Bhakti Prajnana Keshava, 17 September 1959 (city-level coordinates for Mathura)",
+   "verified": true
+  },
+  {
+   "name": "Radha-Damodara temple, Vrindavan",
+   "lat": 27.581,
+   "lon": 77.698,
+   "figure": "prabhupada",
+   "what": "Lived and translated the Bhagavatam, 1959-1965",
+   "verified": false
+  },
+  {
+   "name": "Boston Harbor",
+   "lat": 42.35,
+   "lon": -71.04,
+   "figure": "prabhupada",
+   "what": "Jaladuta arrived 17 September 1965",
+   "verified": true
+  },
+  {
+   "name": "Butler, Pennsylvania",
+   "lat": 40.861,
+   "lon": -79.895,
+   "figure": "prabhupada",
+   "what": "Stayed with sponsoring Agarwal family, autumn 1965",
+   "verified": true
+  },
+  {
+   "name": "26 Second Avenue, New York",
+   "lat": 40.7245,
+   "lon": -73.9898,
+   "figure": "prabhupada",
+   "what": "First storefront temple; ISKCON incorporated July 1966",
+   "verified": true
+  },
+  {
+   "name": "Tompkins Square Park, New York",
+   "lat": 40.7265,
+   "lon": -73.9817,
+   "figure": "prabhupada",
+   "what": "Public chanting under an elm, 9 October 1966",
+   "verified": true
+  },
+  {
+   "name": "Avalon Ballroom, San Francisco",
+   "lat": 37.787,
+   "lon": -122.421,
+   "figure": "prabhupada",
+   "what": "Mantra-Rock Dance, January 1967",
+   "verified": true
+  },
+  {
+   "name": "Mayapur",
+   "lat": 23.423,
+   "lon": 88.389,
+   "figure": "prabhupada",
+   "what": "ISKCON world headquarters at Chaitanya's birthplace (land from 1971)",
+   "verified": true
+  },
+  {
+   "name": "Bhaktivedanta Manor, Hertfordshire",
+   "lat": 51.664,
+   "lon": -0.338,
+   "figure": "prabhupada",
+   "what": "Given by George Harrison, 1973 (approximate coordinates, Letchmore Heath)",
+   "verified": false
+  },
+  {
+   "name": "Krishna Balaram Mandir, Vrindavan",
+   "lat": 27.572,
+   "lon": 77.684,
+   "figure": "prabhupada",
+   "what": "Died 14 November 1977; samadhi shrine beside the temple (approximate)",
+   "verified": false
   }
  ]
 }

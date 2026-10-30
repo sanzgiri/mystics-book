@@ -778,7 +778,8 @@
    "died": 1982,
    "part": 6,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Krishna, 16 May 1908 (year sometimes questioned), near Mangalore; shaktipat from Bhagavan Nityananda 15 August 1947; founded Gurudev Siddha Peeth (Ganeshpuri) and the SYDA Foundation (1974); died Ganeshpuri 2 October 1982."
   },
   {
    "id": "bamakhepa",
@@ -813,7 +814,8 @@
    "died": 1961,
    "part": 6,
    "tier": "node",
-   "kind": "person"
+   "kind": "person",
+   "note": "Avadhuta of Ganeshpuri, Maharashtra; died 8 August 1961. Birth year uncertain."
   },
   {
    "id": "gurumayi",
@@ -821,7 +823,8 @@
    "born": 1955,
    "part": 6,
    "tier": "node",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Malti Shetty, 24 June 1955; Muktananda's English translator from 1975; sannyasa 26 April 1982; co-successor 3 May 1982; sole head of Siddha Yoga from 10 November 1985."
   },
   {
    "id": "lokenath",
@@ -832,12 +835,13 @@
   },
   {
    "id": "prabhupada",
-   "name": "A.C. Bhaktivedanta Prabhupada",
+   "name": "A. C. Bhaktivedanta Swami Prabhupada",
    "born": 1896,
    "died": 1977,
    "part": 7,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Abhay Charan De, Calcutta, 1 September 1896; initiated by Bhaktisiddhanta 1933; sannyasa 1959; Jaladuta to Boston 1965; founded ISKCON, New York, July 1966; Bhagavad-gita As It Is (1968/1972); died Vrindavan 14 November 1977"
   },
   {
    "id": "anandamayi-ma",
@@ -864,7 +868,8 @@
    "died": 1914,
    "part": 7,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Kedarnath Datta, b. 2 Sep 1838 Ula (Birnagar); deputy magistrate; d. 23 Jun 1914."
   },
   {
    "id": "bhaktisiddhanta",
@@ -873,7 +878,8 @@
    "died": 1937,
    "part": 7,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Bimala Prasad Datta, b. 6 Feb 1874 Puri; d. 1 Jan 1937 Calcutta."
   },
   {
    "id": "shastriji-pramukh",
@@ -882,7 +888,8 @@
    "died": 2016,
    "part": 7,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Profile centres on Shastriji Maharaj (1865-1951, founded BAPS 1907) and covers the line to Pramukh Swami. Combined node; see issues."
   },
   {
    "id": "papa-ramdas",
@@ -933,7 +940,8 @@
    "part": 7,
    "tier": "node",
    "kind": "person",
-   "note": "Current guru of BAPS"
+   "note": "Keshavjivandas Swami, named successor 20 Jul 2012; guru of BAPS from 13 Aug 2016. Birth year per Wikipedia lineage list; verify.",
+   "born": 1933
   },
   {
    "id": "shirdi-sai-baba",
@@ -2150,6 +2158,116 @@
    "tier": "node",
    "kind": "person",
    "note": "Named, in accounts drawing on Arundhathi Subramaniam's authorised biography (name not seen in the book itself by the checker), as the guru of Sadhguru's earlier life as Shivayogi; no independent historical record"
+  },
+  {
+   "id": "gunatitanand-swami",
+   "name": "Gunatitanand Swami",
+   "born": 1784,
+   "died": 1867,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Senior disciple of Swaminarayan; BAPS holds he was the earthly form of Akshar. Birth year 1784 or 1785 in different sources."
+  },
+  {
+   "id": "bhagatji-maharaj",
+   "name": "Bhagatji Maharaj",
+   "born": 1829,
+   "died": 1897,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Pragji Bhakta, tailor of Mahuva, b. 20 Mar 1829; taught Akshar-Purushottam; Shastriji's guru. Death 7 Nov 1897 or 1898 (Wikipedia is inconsistent)."
+  },
+  {
+   "id": "yogiji-maharaj",
+   "name": "Yogiji Maharaj",
+   "born": 1892,
+   "died": 1971,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Jina Vasani, b. 23 May 1892 Dhari; BAPS guru 1951-1971; d. 23 Jan 1971 Mumbai."
+  },
+  {
+   "id": "pramukh-swami",
+   "name": "Pramukh Swami Maharaj",
+   "born": 1921,
+   "died": 2016,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Shantilal Patel, b. 7 Dec 1921 Chansad; BAPS president from 21 May 1950, guru 1971-2016; d. 13 Aug 2016 Sarangpur."
+  },
+  {
+   "id": "bipin-bihari-goswami",
+   "name": "Bipin Bihari Goswami",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Hereditary guru of the Baghnapara family who initiated Bhaktivinoda (1880 per Wikipedia). Dates unknown."
+  },
+  {
+   "id": "jagannath-das-babaji",
+   "name": "Jagannath Das Babaji",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Vrindavan Vaishnava ascetic; instructing guru of Bhaktivinoda in Gaudiya Math tradition, disputed by other descendants. Dates not verified."
+  },
+  {
+   "id": "gaura-kishora-das-babaji",
+   "name": "Gaura Kishora Dasa Babaji",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Renunciant who initiated Bhaktisiddhanta (1900 or 1901). Dates not verified."
+  },
+  {
+   "id": "zipruanna",
+   "name": "Zipruanna",
+   "part": 6,
+   "tier": "node",
+   "kind": "person",
+   "note": "Avadhuta of Maharashtra; by accounts drawing on Muktananda's own telling, sent him back to Nityananda. Dates not verified."
+  },
+  {
+   "id": "swami-nityananda-shanti-mandir",
+   "name": "Swami Nityananda (Shanti Mandir)",
+   "part": 6,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born Subhash Shetty; named Muktananda's successor July 1981 at South Fallsburg; co-head of Siddha Yoga with his sister from 3 May 1982; announced his withdrawal 3 November 1985; founded Shanti Mandir (1987 in most sources). Not to be confused with Bhagavan Nityananda of Ganeshpuri."
+  },
+  {
+   "id": "bhakti-prajnana-keshava",
+   "name": "Bhakti Prajnana Keshava",
+   "born": 1898,
+   "died": 1968,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Bhaktisiddhanta; founder of the Gaudiya Vedanta Samiti; gave sannyasa to A. C. Bhaktivedanta Swami at the Keshavji Gaudiya Math, Mathura, 17 September 1959"
+  },
+  {
+   "id": "narayana-maharaja",
+   "name": "Bhaktivedanta Narayana Maharaja",
+   "born": 1921,
+   "died": 2010,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Bhakti Prajnana Keshava; by his followers' account performed Prabhupada's burial rites in 1977; many Western ISKCON members joined him in the 1990s; the GBC has disputed the closeness he claimed to Prabhupada"
+  },
+  {
+   "id": "george-harrison",
+   "name": "George Harrison",
+   "born": 1943,
+   "died": 2001,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Beatle; produced the 1969 Hare Krishna mantra single by the London Radha Krishna Temple; bought Bhaktivedanta Manor for the movement in 1973"
   }
  ],
  "edges": [
@@ -2579,13 +2697,19 @@
    "from": "bhagavan-nityananda",
    "to": "muktananda",
    "type": "initiated",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1947,
+   "note": "Divya diksha (shaktipat) on 15 August 1947 per Siddha Yoga; first saw Nityananda c. 1923; given land at Gavdevi near Ganeshpuri 1956. Details of the initiation come from Muktananda's own account."
   },
   {
    "from": "muktananda",
    "to": "gurumayi",
    "type": "initiated",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1982,
+   "note": "Translator from 1975; sannyasa 26 April 1982 as Swami Chidvilasananda; installed co-successor 3 May 1982; sole guru from 10 November 1985."
   },
   {
    "from": "tantra-shakta",
@@ -2605,26 +2729,25 @@
    "from": "gaudiya",
    "to": "bhaktivinoda",
    "type": "lineage",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true
   },
   {
    "from": "bhaktivinoda",
    "to": "bhaktisiddhanta",
    "type": "family",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Father and son."
   },
   {
    "from": "bhaktisiddhanta",
    "to": "prabhupada",
    "type": "initiated",
    "evidence": "documented",
-   "year": 1933
-  },
-  {
-   "from": "swaminarayan",
-   "to": "shastriji-pramukh",
-   "type": "lineage",
-   "evidence": "documented"
+   "verified": true,
+   "year": 1933,
+   "note": "First met 1922 in Calcutta (introduced by Narendranath Mullik); initiated at Allahabad 1933 as Abhay Charanaravinda; letter of 3 December 1936 urging him to preach in English"
   },
   {
    "from": "sufi-orders",
@@ -2881,13 +3004,8 @@
    "to": "gaur-gopal-das",
    "type": "institutional",
    "evidence": "documented",
-   "note": "ISKCON"
-  },
-  {
-   "from": "shastriji-pramukh",
-   "to": "mahant-swami",
-   "type": "lineage",
-   "evidence": "documented"
+   "verified": true,
+   "note": "ISKCON monk and speaker"
   },
   {
    "from": "charan-singh",
@@ -4406,6 +4524,181 @@
    "evidence": "documented",
    "verified": true,
    "note": "Isha teaches hatha yoga postures, pranayama and kriyas; Shiva presented as Adiyogi, the first yogi"
+  },
+  {
+   "from": "bipin-bihari-goswami",
+   "to": "bhaktivinoda",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1880,
+   "note": "Wikipedia gives 1880; the ISKCON-affiliated biography gives no date."
+  },
+  {
+   "from": "jagannath-das-babaji",
+   "to": "bhaktivinoda",
+   "type": "influenced",
+   "evidence": "devotional",
+   "verified": true,
+   "note": "Instructing (siksa) guru in the Gaudiya Math tradition; other descendants name Bipin Bihari Goswami instead."
+  },
+  {
+   "from": "gaura-kishora-das-babaji",
+   "to": "bhaktisiddhanta",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1901,
+   "note": "1900 or January 1901 in different sources."
+  },
+  {
+   "from": "swaminarayan",
+   "to": "gunatitanand-swami",
+   "type": "lived-with",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Disciple of Swaminarayan; BAPS claims he was named successor (devotional claim)."
+  },
+  {
+   "from": "gunatitanand-swami",
+   "to": "bhagatji-maharaj",
+   "type": "lived-with",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Bhagatji served him at Junagadh per BAPS biographies."
+  },
+  {
+   "from": "bhagatji-maharaj",
+   "to": "shastriji-pramukh",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1883,
+   "note": "Shastriji accepted Bhagatji as guru in Surat; Akshar-guru succession is the BAPS claim."
+  },
+  {
+   "from": "shastriji-pramukh",
+   "to": "yogiji-maharaj",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Yogiji met Shastriji in 1910, joined 1911; succeeded him 1951."
+  },
+  {
+   "from": "yogiji-maharaj",
+   "to": "pramukh-swami",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1971
+  },
+  {
+   "from": "pramukh-swami",
+   "to": "mahant-swami",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 2012,
+   "note": "Successor named 20 Jul 2012."
+  },
+  {
+   "from": "shastriji-pramukh",
+   "to": "pramukh-swami",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1950,
+   "note": "Appointed president (Pramukh) of BAPS on 21 May 1950."
+  },
+  {
+   "from": "siddharudha-swami",
+   "to": "muktananda",
+   "type": "lived-with",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Studied Sanskrit, Vedanta and yoga at Siddharudha's ashram in Hubli and took sannyasa there (Saraswati order) until Siddharudha's death on 21 August 1929; then studied with Siddharudha's disciple Muppinarya Swami at Ranebennur. Movement biography (via Mahavidya) and Wikipedia's Siddharudha Swami article."
+  },
+  {
+   "from": "zipruanna",
+   "to": "muktananda",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Met during his wanderings; by Muktananda's account sent him back to Nityananda."
+  },
+  {
+   "from": "kashmir-shaivism",
+   "to": "muktananda",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Adopted Kashmir Shaivism (Pratyabhijna) as the philosophy of Siddha Yoga; daily classes at South Fallsburg (1979), lectures in Santa Monica (1980-81)."
+  },
+  {
+   "from": "muktananda",
+   "to": "swami-nityananda-shanti-mandir",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1981,
+   "note": "Named successor July 1981 at South Fallsburg; co-successor with his sister 3 May 1982; stepped down November 1985 saying Muktananda had told them privately he would serve three years (Hinduism Today, Jan 1986)."
+  },
+  {
+   "from": "gaudiya",
+   "to": "prabhupada",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Gaudiya Vaishnava teacher in the Chaitanya line; the parampara printed in Bhagavad-gita As It Is runs from Krishna through Madhva and Chaitanya; the Madhva link and the shiksha links (Bhaktivinoda, Bhaktisiddhanta) are disputed by some historians and hereditary Gaudiya lines"
+  },
+  {
+   "from": "bhaktivinoda",
+   "to": "prabhupada",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Bhaktivinoda's writings and programme of English-language Gaudiya preaching, transmitted through Bhaktisiddhanta; listed in Prabhupada's parampara"
+  },
+  {
+   "from": "bhakti-prajnana-keshava",
+   "to": "prabhupada",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1959,
+   "note": "Sannyasa initiation, Keshavji Gaudiya Math, Mathura, 17 September 1959"
+  },
+  {
+   "from": "bhaktisiddhanta",
+   "to": "bhakti-prajnana-keshava",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Disciple of Bhaktisiddhanta; year of initiation not checked"
+  },
+  {
+   "from": "bhakti-prajnana-keshava",
+   "to": "narayana-maharaja",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "prabhupada",
+   "to": "narayana-maharaja",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Narayana Maharaja and his followers describe a close shiksha relationship; the GBC published a paper disputing its extent"
+  },
+  {
+   "from": "prabhupada",
+   "to": "george-harrison",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1969,
+   "note": "Produced the 1969 Hare Krishna mantra single; donated Bhaktivedanta Manor 1973"
   }
  ]
 }
