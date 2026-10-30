@@ -1,45 +1,237 @@
 {
   "batch": "w24",
   "nodes_add": [
-    {"id": "zoroastrianism", "name": "Zoroastrian tradition", "part": 0, "tier": "root", "kind": "tradition", "note": "Family background of Meher Baba; Zoroaster is the first of the six earlier Avatars in his scheme."},
-    {"id": "sufism-reoriented", "name": "Sufism Reoriented", "born": 1952, "part": 8, "tier": "node", "kind": "institution", "note": "California Sufi group accepted Meher Baba as its leader and renamed by him in 1952; publishes God Speaks and God in a Pill?"},
-    {"id": "pete-townshend", "name": "Pete Townshend", "born": 1945, "part": 8, "tier": "node", "kind": "person", "note": "Guitarist of The Who; heard of Meher Baba from Mike McInnerney in autumn 1967 (his account, Rolling Stone 1970); dedicated Tommy (1969) to him."}
+    {
+      "id": "zoroastrianism",
+      "name": "Zoroastrian tradition",
+      "part": 0,
+      "tier": "root",
+      "kind": "tradition",
+      "note": "Family background of Meher Baba; Zoroaster is the first of the six earlier Avatars in his scheme."
+    },
+    {
+      "id": "sufism-reoriented",
+      "name": "Sufism Reoriented",
+      "born": 1952,
+      "part": 8,
+      "tier": "node",
+      "kind": "institution",
+      "note": "California Sufi group accepted Meher Baba as its leader and renamed by him in 1952; publishes God Speaks and God in a Pill?"
+    },
+    {
+      "id": "pete-townshend",
+      "name": "Pete Townshend",
+      "born": 1945,
+      "part": 8,
+      "tier": "node",
+      "kind": "person",
+      "note": "Guitarist of The Who; heard of Meher Baba from Mike McInnerney in autumn 1967 (his account, Rolling Stone 1970); dedicated Tommy (1969) to him."
+    }
   ],
   "nodes_update": [
-    {"id": "meher-baba", "born": 1894, "died": 1969, "name": "Meher Baba", "note": "Merwan Sheriar Irani, b. 25 Feb 1894 Pune; silent from 10 July 1925; declared himself the Avatar (Feb 1954 per Trust, Call 12 Sept and Final Declaration 30 Sept 1954 per other Trust-related chronologies); d. 31 Jan 1969 Meherazad."},
-    {"id": "hazrat-babajan", "died": 1931, "name": "Hazrat Babajan", "note": "Pashtun faqir of Pune; birth estimates c. 1790-1820; d. 21 Sept 1931 Pune; kiss on Merwan's forehead dated May 1913 (embrace) / Jan 1914 (kiss) in Trust chronology."},
-    {"id": "tajuddin-baba", "born": 1861, "died": 1925, "name": "Tajuddin Baba", "note": "Nagpur saint; b. 17 or 27 Jan 1861 depending on source; d. 17 Aug 1925."},
-    {"id": "narayan-maharaj", "born": 1885, "died": 1945, "name": "Narayan Maharaj", "note": "Of Kedgaon; b. 20 May 1885, d. 3 Sept 1945 per Wikipedia; birthplace given as Nargund or Bagalkot."}
+    {
+      "id": "meher-baba",
+      "born": 1894,
+      "died": 1969,
+      "name": "Meher Baba",
+      "note": "Merwan Sheriar Irani, b. 25 Feb 1894 Pune; silent from 10 July 1925; first publicly declared himself the Avatar Feb 1954 (Trust brief biography); Meher Baba's Call issued 12 Sept 1954 at a mass darshan in Ahmednagar; Final Declaration 30 Sept 1954 at Meherabad; d. 31 Jan 1969 Meherazad, entombed at Meherabad."
+    },
+    {
+      "id": "hazrat-babajan",
+      "died": 1931,
+      "name": "Hazrat Babajan",
+      "note": "Pashtun faqir of Pune; birth estimates c. 1790-1820; d. 21 Sept 1931 Pune; kiss on Merwan's forehead dated May 1913 (embrace) / Jan 1914 (kiss) in Trust chronology."
+    },
+    {
+      "id": "tajuddin-baba",
+      "born": 1861,
+      "died": 1925,
+      "name": "Tajuddin Baba",
+      "note": "Nagpur saint; b. 17 or 27 Jan 1861 depending on source; d. 17 Aug 1925."
+    },
+    {
+      "id": "narayan-maharaj",
+      "born": 1885,
+      "died": 1945,
+      "name": "Narayan Maharaj",
+      "note": "Of Kedgaon; b. 20 May 1885, d. 3 Sept 1945 per Wikipedia; birthplace given as Nargund or Bagalkot."
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "hazrat-babajan", "to": "meher-baba", "type": "claimed", "evidence": "testimony", "verified": true, "year": 1914, "note": "Embrace May 1913 and kiss January 1914 per Trust chronology; event rests on Baba's own account and devotee biographies. Babajan herself is independently attested as a Pune faqir with a dargah."},
-    {"from": "upasni-maharaj", "to": "meher-baba", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1915, "note": "Contact from Dec 1915; monthly visits to Sakori 1916-17; Upasni praised him publicly in late 1921 (Purdom, via Wikipedia); last meeting 17 Oct 1941 at Dahigaon."},
-    {"from": "shirdi-sai-baba", "to": "meher-baba", "type": "claimed", "evidence": "testimony", "verified": true, "year": 1915, "note": "Single meeting, December 1915 (Trust chronology). Shri Sai Satcharita does not mention Meher Baba (Wikipedia). 'Parvardigar' greeting is hagiographic."},
-    {"from": "tajuddin-baba", "to": "meher-baba", "type": "claimed", "evidence": "testimony", "verified": true, "year": 1915, "note": "One visit at Nagpur/Waki, April 1915 (Trust chronology); Baba's account."},
-    {"from": "narayan-maharaj", "to": "meher-baba", "type": "claimed", "evidence": "testimony", "verified": true, "year": 1915, "note": "One visit at Kedgaon, April 1915, returned within 24 hours (Trust chronology); Baba's account."},
-    {"from": "sufi-orders", "to": "meher-baba", "type": "influenced", "evidence": "testimony", "verified": true, "note": "Qutub, mast, fana vocabulary; Babajan a Muslim faqir. Scholars (Sedgwick, per Wikipedia) see few similarities with the Sufi Movement beyond universalism."},
-    {"from": "zoroastrianism", "to": "meher-baba", "type": "influenced", "evidence": "documented", "verified": true, "note": "Born to Zoroastrian parents; lists Zoroaster as the first earlier Avatar. Not a teacher of Zoroastrian doctrine (Shepherd)."},
-    {"from": "meher-baba", "to": "sufism-reoriented", "type": "institutional", "evidence": "documented", "verified": true, "year": 1952, "note": "Accepted as leader of a California Sufi group; renamed Sufism Reoriented in 1952."},
-    {"from": "meher-baba", "to": "pete-townshend", "type": "influenced", "evidence": "documented", "verified": true, "year": 1967, "note": "Heard of Baba autumn 1967 (Townshend, Rolling Stone 1970); dedicated Tommy (1969) to him."}
+    {
+      "from": "hazrat-babajan",
+      "to": "meher-baba",
+      "type": "claimed",
+      "evidence": "testimony",
+      "verified": true,
+      "year": 1914,
+      "note": "Embrace May 1913 and kiss January 1914 per Trust chronology; event rests on Baba's own account and devotee biographies. Babajan herself is independently attested as a Pune faqir with a dargah."
+    },
+    {
+      "from": "upasni-maharaj",
+      "to": "meher-baba",
+      "type": "lived-with",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1915,
+      "note": "First contact Dec 1915 at Khandoba's temple, Shirdi (Trust chronology); repeated visits from 1916, at Shirdi then Sakori (from 1917); Upasni praised him publicly in late 1921 (Purdom, via Wikipedia); last meeting 17 Oct 1941 at Dahigaon."
+    },
+    {
+      "from": "shirdi-sai-baba",
+      "to": "meher-baba",
+      "type": "claimed",
+      "evidence": "testimony",
+      "verified": true,
+      "year": 1915,
+      "note": "Single meeting, December 1915 (Trust chronology). Shri Sai Satcharita does not mention Meher Baba (Wikipedia). The 'Parvardigar' greeting is told in devotee biographies with no independent witness (hagiographic)."
+    },
+    {
+      "from": "tajuddin-baba",
+      "to": "meher-baba",
+      "type": "claimed",
+      "evidence": "testimony",
+      "verified": true,
+      "year": 1915,
+      "note": "One visit at Nagpur/Waki, April 1915 (Trust chronology); Baba's account."
+    },
+    {
+      "from": "narayan-maharaj",
+      "to": "meher-baba",
+      "type": "claimed",
+      "evidence": "testimony",
+      "verified": true,
+      "year": 1915,
+      "note": "One visit at Kedgaon, April 1915, returned within 24 hours (Trust chronology); Baba's account."
+    },
+    {
+      "from": "sufi-orders",
+      "to": "meher-baba",
+      "type": "influenced",
+      "evidence": "testimony",
+      "verified": true,
+      "note": "Qutub, mast, fana vocabulary; Babajan a Muslim faqir. Scholars (Sedgwick, per Wikipedia) see few similarities with the Sufi Movement beyond universalism."
+    },
+    {
+      "from": "zoroastrianism",
+      "to": "meher-baba",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Born to Zoroastrian parents; lists Zoroaster as the first earlier Avatar. Not a teacher of Zoroastrian doctrine (Shepherd)."
+    },
+    {
+      "from": "meher-baba",
+      "to": "sufism-reoriented",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1952,
+      "note": "Accepted as leader of a California Sufi group; renamed Sufism Reoriented in 1952."
+    },
+    {
+      "from": "meher-baba",
+      "to": "pete-townshend",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1967,
+      "note": "Heard of Baba autumn 1967 (Townshend, Rolling Stone 1970); dedicated Tommy (1969) to him."
+    }
   ],
   "places": [
-    {"name": "Babajan's dargah, Char Bawdi, Pune Camp", "lat": 18.51, "lon": 73.88, "figure": "meher-baba", "what": "Neem tree and tomb of Hazrat Babajan; site of the 1913-14 encounter", "verified": false},
-    {"name": "Sakori", "lat": 19.74, "lon": 74.50, "figure": "meher-baba", "what": "Upasni Maharaj's ashram from 1917; Merwan's regular visits 1916-1921", "verified": false},
-    {"name": "Meherazad, Ahmednagar", "lat": 19.06, "lon": 74.75, "figure": "meher-baba", "what": "His residence from 1952; where he died 31 Jan 1969", "verified": false},
-    {"name": "Dehradun", "lat": 30.32, "lon": 78.03, "figure": "meher-baba", "what": "Where he began dictating God Speaks, August 1953", "verified": true},
-    {"name": "Meher Spiritual Center, Myrtle Beach", "lat": 33.77, "lon": -78.82, "figure": "meher-baba", "what": "Opened April 1952", "verified": false},
-    {"name": "Meher Mount, Ojai", "lat": 34.45, "lon": -119.25, "figure": "meher-baba", "what": "Californian centre of devotion; destination on the 1952 journey interrupted by the Oklahoma accident", "verified": false}
+    {
+      "name": "Babajan's dargah, Char Bawdi, Pune Camp",
+      "lat": 18.51,
+      "lon": 73.88,
+      "figure": "meher-baba",
+      "what": "Neem tree and tomb of Hazrat Babajan; site of the 1913-14 encounter",
+      "verified": false
+    },
+    {
+      "name": "Sakori",
+      "lat": 19.74,
+      "lon": 74.5,
+      "figure": "meher-baba",
+      "what": "Upasni Maharaj's ashram from 1917; Merwan's repeated visits to Upasni from 1916 (Shirdi, then Sakori)",
+      "verified": false
+    },
+    {
+      "name": "Meherazad, Ahmednagar",
+      "lat": 19.16,
+      "lon": 74.73,
+      "figure": "meher-baba",
+      "what": "His residence from 1949 (approx.; north of Ahmednagar near Pimpalgaon); where he died 31 Jan 1969",
+      "verified": false
+    },
+    {
+      "name": "Dehradun",
+      "lat": 30.32,
+      "lon": 78.03,
+      "figure": "meher-baba",
+      "what": "Where he began dictating God Speaks, August 1953",
+      "verified": true
+    },
+    {
+      "name": "Meher Spiritual Center, Myrtle Beach",
+      "lat": 33.77,
+      "lon": -78.82,
+      "figure": "meher-baba",
+      "what": "Opened April 1952",
+      "verified": false
+    },
+    {
+      "name": "Meher Mount, Ojai",
+      "lat": 34.45,
+      "lon": -119.25,
+      "figure": "meher-baba",
+      "what": "Californian centre of devotion; destination on the 1952 journey interrupted by the Oklahoma accident",
+      "verified": false
+    }
   ],
   "glossary": [
-    {"term": "Avatar", "script": "अवतार", "lang": "sa", "def": "\"Descent.\" In Hindu usage, God taking human form. Meher Baba used it for the one soul he said returns every 700 to 1,400 years, and said he was the Avatar of his age."},
-    {"term": "Perfect Master", "def": "In Meher Baba's teaching, one of the five God-realised souls who at any time hold the office of guiding the world; the same role as a sadguru or qutub."},
-    {"term": "Sadguru", "script": "सद्गुरु", "lang": "sa", "def": "A true teacher who has himself realised God."},
-    {"term": "Qutub", "script": "قطب", "lang": "ur", "def": "In Sufism, the spiritual 'pole' of an age, the saint on whom the order of the world is said to rest."},
-    {"term": "Mast", "def": "A word Meher Baba took from the Sufi phrase for one intoxicated with God. A mast may look mad to others because of absorption in inner experience."},
-    {"term": "Mandali", "def": "The circle of close disciples who lived and worked with Meher Baba, and who voiced his gestures after 1954."},
-    {"term": "Sahavas", "script": "सहवास", "lang": "hi", "def": "\"Close company.\" The time devotees spend living near Meher Baba, used for the retreats he held with followers."},
-    {"term": "Sanskara", "script": "संस्कार", "lang": "sa", "def": "An impression left in the mind by experience. In God Speaks, the impressions that build up as a soul passes through forms and bind it to the sense of being separate."}
+    {
+      "term": "Avatar",
+      "script": "अवतार",
+      "lang": "sa",
+      "def": "\"Descent.\" In Hindu usage, God taking human form. Meher Baba used it for the one soul he said returns every 700 to 1,400 years, and said he was the Avatar of his age."
+    },
+    {
+      "term": "Perfect Master",
+      "def": "In Meher Baba's teaching, one of the five God-realised souls who at any time hold the office of guiding the world; the same role as a sadguru or qutub."
+    },
+    {
+      "term": "Sadguru",
+      "script": "सद्गुरु",
+      "lang": "sa",
+      "def": "A true teacher who has himself realised God."
+    },
+    {
+      "term": "Qutub",
+      "script": "قطب",
+      "lang": "ur",
+      "def": "In Sufism, the spiritual 'pole' of an age, the saint on whom the order of the world is said to rest."
+    },
+    {
+      "term": "Mast",
+      "def": "A word Meher Baba took from the Sufi phrase for one intoxicated with God. A mast may look mad to others because of absorption in inner experience."
+    },
+    {
+      "term": "Mandali",
+      "def": "The circle of close disciples who lived and worked with Meher Baba, and who voiced his gestures after 1954."
+    },
+    {
+      "term": "Sahavas",
+      "script": "सहवास",
+      "lang": "hi",
+      "def": "\"Close company.\" The time devotees spend living near Meher Baba, used for the retreats he held with followers."
+    },
+    {
+      "term": "Sanskara",
+      "script": "संस्कार",
+      "lang": "sa",
+      "def": "An impression left in the mind by experience. In God Speaks, the impressions that build up as a soul passes through forms and bind it to the sense of being separate."
+    }
   ],
   "art": [],
   "issues": [
@@ -59,7 +251,9 @@
     "meher-baba.mdx: places coordinates marked verified:false are approximate; the existing places.json already has Meherabad (19.05, 74.78) and Pune. Confirm Sakori, Meherazad and the two US centres.",
     "meher-baba.mdx: glossary 'Qutub' uses lang ur with Arabic script; change to ar if the site prefers. Sahavas definition is the writer's gloss from Trust usage; no glossary source page fetched.",
     "meher-baba.mdx: frontmatter has no titleScript. The title 'The Word of Words' is taken from the 13 Nov 1954 notes in The Awakener.",
-    "Graph: existing edges upasni-maharaj to meher-baba and shirdi-sai-baba to meher-baba are upserted and re-graded; Babajan, Tajuddin and Narayan edges changed from influenced/documented to claimed/testimony. The author may prefer to keep 'influenced' for the type."
+    "Graph: existing edges upasni-maharaj to meher-baba and shirdi-sai-baba to meher-baba are upserted and re-graded; Babajan, Tajuddin and Narayan edges changed from influenced/documented to claimed/testimony. The author may prefer to keep 'influenced' for the type.",
+    "meher-baba.mdx (factcheck): Hollywood silence-breaking date conflict. The Los Angeles Times (30 May 1932, via Calisphere) reported he would break silence in Hollywood on 13 July 1932; Wikipedia and meherabode.org/1930s place the Hollywood Bowl announcement and abrupt sailing to Hong Kong in 1934. Chapter gives both; author may wish to check Lord Meher.",
+    "meher-baba.mdx (factcheck): Meherazad coordinates moved from 19.06,74.75 (which is south of Ahmednagar, near Meherabad) to approx. 19.16,74.73 (north of the city, near Pimpalgaon Malwa); still unverified. Also 'residence from 1952' in the place note was changed to 'approx. 1949'; confirm."
   ],
   "sources": {
     "meher-baba": [
@@ -105,6 +299,33 @@
       "Townshend heard of Baba autumn 1967 from Mike McInnerney (Rolling Stone 1970) -> https://faroutmagazine.co.uk/meher-baba-pop-culture-pete-townshend/ ; Tommy dedication, Baba O'Riley -> https://en.wikipedia.org/wiki/Meher_Baba",
       "Shepherd on separate movements and Lord Meher critique -> https://kevinrdshepherdcommentaries.info/category/meher-baba",
       "Brunton 1934 disillusioned account; Discourses seventh edition changes; obedience and New Life -> https://en.wikipedia.org/wiki/Meher_Baba ; https://www.newworldencyclopedia.org/entry/Meher_Baba"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 68,
+    "changes": [
+      "meher-baba.mdx: 'irrespective of the doubts and convictions' converted to paraphrase; the only primary copy found (Trust booklet PDF 703773) reads 'Irrespective of doubts and convictions', and Wikipedia's wording differs. Call placed at the 12 Sept 1954 mass darshan in Ahmednagar (avatarmeherbaba.org/erics/tiwwmb2.html; Trust booklet reading list).",
+      "meher-baba.mdx: 'One Word, the Word of Words' was attributed to the Final Declaration; it is from the 13 Nov 1954 Satara notes that clarify the Declaration (Awakener av02n03p83). Fixed in 'The silence'.",
+      "meher-baba.mdx: Critiques 'stabbed in the back' paragraph rewritten with the notes' own context (list opens with the declared destruction of three-fourths of the world; the notes say followers were 'unnecessarily confused'). Removed claim that the Trust chronology calls the predictions 'enigmatic' (the chronology ends in 1936). Quotations verified verbatim (Awakener p83).",
+      "meher-baba.mdx: 'During the Avataric period...' is Wikipedia's sentence citing Lord Meher p. 4930, not verified as Baba's words; converted to attributed paraphrase.",
+      "meher-baba.mdx: 'In God Speaks he calls...' sadguru/qutub/apostle equation hedged to 'In his teaching' (source is Wikipedia's Perfect Master article).",
+      "meher-baba.mdx: God Speaks: Eruch Jessawala did not take down the whole book; Baba dictated Parts 1-8, Eruch wrote Parts 9-10 from Baba's notes, edited by Ivy O. Duce and Don E. Stevens (Trust eBook front matter). Unverified 'table inside the back cover' replaced by supplement/glossary and the ten-part contents (Trust eBook TOC).",
+      "meher-baba.mdx: Upasni in Dec 1915 was at Khandoba's temple, Shirdi, not Sakori (Trust chronology); Life, Lineage and Places adjusted.",
+      "meher-baba.mdx: Hollywood Bowl 1934 claim now gives the 1932 LA Times report and the 1934 dating (Calisphere; Wikipedia; meherabode.org/1930s).",
+      "meher-baba.mdx: 'I, me, my and mine' corrected to source wording 'I', 'my', 'me' and 'mine' (avatarsabode.com.au); 'only through his grace' hedged to devotees say.",
+      "meher-baba.mdx: God in a Pill: madness 'and eventually death' added; medical-LSD sentence aligned with source (no damage risk under supervision, not 'help mental disorders'); campaign 'limited success' corrected to 'largely unsuccessful' (meherabode.org/1960s; Wikipedia God in a Pill?).",
+      "meher-baba.mdx: 'forty-four years' of silence corrected to 'more than forty-three' (10 Jul 1925 to 31 Jan 1969). Van Gasteren age given as 'mid-forties' (Trust says 45; b. Nov 1922 would make him 44).",
+      "meher-baba.mdx: McFerrin USA Weekend remark marked as second-hand (IPKat 'is reported to have said').",
+      "meher-baba.mdx: Sai Baba 'Parvardigar' item reworded to state why it is graded hagiographic without dismissing it; 'only Upasni named him publicly' scoped to sources reviewed.",
+      "w24.json: meher-baba node note, Upasni and Sai Baba edge notes, Sakori and Meherazad place entries updated as above."
+    ],
+    "unresolved": [
+      "Hollywood silence-breaking: 1932 (LA Times) vs 1934 (Wikipedia, meherabode).",
+      "'Don't worry, be happy': no dated primary wording found; closest is 'Do your best. Don't worry! Be happy! I will help you.' (avatarmeherbaba.org/erics/worry.html, undated, unsourced). Kept as widely credited.",
+      "Feb 1954 declaration day (10 Feb, NWE only) and place not confirmed from a primary source.",
+      "USC newsreel catalogue page could not be fetched (allowlist); link is the one cited by Wikipedia's Meher Baba Newsreel Footage article, kept.",
+      "Tajuddin birth 17 vs 27 Jan 1861 left as range; Wikipedia gives 27 Jan, Kamthi.",
+      "Meherazad coordinates still approximate."
     ]
   }
 }
