@@ -1,0 +1,85 @@
+{
+  "batch": "w18",
+  "nodes_add": [
+    {"id": "zipruanna", "name": "Zipruanna", "part": 6, "tier": "node", "kind": "person", "note": "Avadhuta of Maharashtra; by accounts drawing on Muktananda's own telling, sent him back to Nityananda. Dates not verified."},
+    {"id": "swami-nityananda-shanti-mandir", "name": "Swami Nityananda (Shanti Mandir)", "part": 6, "tier": "node", "kind": "person", "note": "Born Subhash Shetty; named Muktananda's successor July 1981 at South Fallsburg; co-head of Siddha Yoga with his sister from 3 May 1982; announced his withdrawal 3 November 1985; founded Shanti Mandir (1987 in most sources). Not to be confused with Bhagavan Nityananda of Ganeshpuri."}
+  ],
+  "nodes_update": [
+    {"id": "muktananda", "name": "Swami Muktananda", "born": 1908, "died": 1982, "note": "Born Krishna, 16 May 1908 (year sometimes questioned), near Mangalore; shaktipat from Bhagavan Nityananda 15 August 1947; founded Gurudev Siddha Peeth (Ganeshpuri) and the SYDA Foundation (1974); died Ganeshpuri 2 October 1982."},
+    {"id": "bhagavan-nityananda", "name": "Bhagavan Nityananda", "died": 1961, "note": "Avadhuta of Ganeshpuri, Maharashtra; died 8 August 1961. Birth year uncertain."},
+    {"id": "gurumayi", "name": "Gurumayi Chidvilasananda", "born": 1955, "note": "Born Malti Shetty, 24 June 1955; Muktananda's English translator from 1975; sannyasa 26 April 1982; co-successor 3 May 1982; sole head of Siddha Yoga from 10 November 1985."}
+  ],
+  "edges_remove": [],
+  "edges_upsert": [
+    {"from": "bhagavan-nityananda", "to": "muktananda", "type": "initiated", "evidence": "documented", "verified": true, "year": 1947, "note": "Divya diksha (shaktipat) on 15 August 1947 per Siddha Yoga; first saw Nityananda c. 1923; given land at Gavdevi near Ganeshpuri 1956. Details of the initiation come from Muktananda's own account."},
+    {"from": "siddharudha-swami", "to": "muktananda", "type": "lived-with", "evidence": "testimony", "verified": true, "note": "Studied Sanskrit, Vedanta and yoga at Siddharudha's ashram in Hubli and took sannyasa there (Saraswati order); dates not verified. Movement biography, repeated by independent summaries."},
+    {"from": "zipruanna", "to": "muktananda", "type": "influenced", "evidence": "testimony", "verified": true, "note": "Met during his wanderings; by Muktananda's account sent him back to Nityananda."},
+    {"from": "kashmir-shaivism", "to": "muktananda", "type": "influenced", "evidence": "documented", "verified": true, "note": "Adopted Kashmir Shaivism (Pratyabhijna) as the philosophy of Siddha Yoga; daily classes at South Fallsburg (1979), lectures in Santa Monica (1980-81)."},
+    {"from": "lakshmanjoo", "to": "muktananda", "type": "influenced", "evidence": "testimony", "verified": true, "note": "Muktananda visited Lakshmanjoo; not initiated into his line. Lighter branch; visit dates not verified in this batch."},
+    {"from": "muktananda", "to": "gurumayi", "type": "initiated", "evidence": "documented", "verified": true, "year": 1982, "note": "Translator from 1975; sannyasa 26 April 1982 as Swami Chidvilasananda; installed co-successor 3 May 1982; sole guru from 10 November 1985."},
+    {"from": "muktananda", "to": "swami-nityananda-shanti-mandir", "type": "initiated", "evidence": "documented", "verified": true, "year": 1981, "note": "Named successor July 1981 at South Fallsburg; co-successor with his sister 3 May 1982; stepped down November 1985 saying Muktananda had told them privately he would serve three years (Hinduism Today, Jan 1986)."}
+  ],
+  "places": [
+    {"name": "Mangalore", "lat": 12.914, "lon": 74.856, "figure": "muktananda", "what": "Born near here, 1908 (city-level coordinates)", "verified": true},
+    {"name": "Hubli (Siddharudha Math)", "lat": 15.364, "lon": 75.124, "figure": "muktananda", "what": "Studied at Siddharudha Swami's ashram and took sannyasa (city-level)", "verified": true},
+    {"name": "Yeola", "lat": 20.042, "lon": 74.489, "figure": "muktananda", "what": "Meditated in a small hut in the years after his 1947 initiation (town-level)", "verified": true},
+    {"name": "Ganeshpuri (Gurudev Siddha Peeth)", "lat": 19.490, "lon": 73.020, "figure": "muktananda", "what": "Initiation by Nityananda 1947; land at Gavdevi 1956; ashram; died here 2 October 1982; samadhi shrine (village-level)", "verified": true},
+    {"name": "Oakland, California", "lat": 37.804, "lon": -122.271, "figure": "muktananda", "what": "Ashram opened April 1975 during the second world tour (city-level)", "verified": true},
+    {"name": "South Fallsburg, New York (Shree Muktananda Ashram)", "lat": 41.720, "lon": -74.640, "figure": "muktananda", "what": "American headquarters from 1978-79; successor named here July 1981 (village-level)", "verified": true},
+    {"name": "Santa Monica, California", "lat": 34.019, "lon": -118.491, "figure": "muktananda", "what": "Six-month stay, 14 October 1980 to April 1981 (city-level)", "verified": true}
+  ],
+  "glossary": [
+    {"term": "Kriya (spontaneous movement)", "script": "क्रिया", "lang": "sa", "def": "In Siddha Yoga and related kundalini teachings, an involuntary movement, sound, breath change or emotion said to arise when awakened kundalini purifies the body and mind."},
+    {"term": "Chiti", "script": "चिति", "lang": "sa", "def": "Consciousness understood as an active, creative power, often addressed as a goddess; in Kashmir Shaivism the force through which Shiva manifests the world."},
+    {"term": "So'ham", "script": "सोऽहम्", "lang": "sa", "def": "\"I am That\": a mantra linked with the natural breath, so on the in-breath and ham on the out-breath, affirming identity with the divine."},
+    {"term": "Seva", "script": "सेवा", "lang": "sa", "def": "Selfless service, especially unpaid work for a guru, temple or community, offered as spiritual practice."},
+    {"term": "Guru Gita", "script": "गुरुगीता", "lang": "sa", "def": "A Sanskrit hymn, attributed to the Skanda Purana, in which Shiva praises the guru as God; chanted daily in Siddha Yoga ashrams."}
+  ],
+  "art": [],
+  "issues": [
+    "muktananda.mdx: The commissioning brief referred to '1983 New Age Journal allegations'. No New Age Journal article was found. The 1983 public allegations appeared in William Rodarmor, 'The Secret Life of Swami Muktananda', CoEvolution Quarterly (Winter 1983), which UNIT_NOTES also names. The chapter uses CoEvolution Quarterly; author should confirm.",
+    "muktananda.mdx: The 2023 civil suit (Doe, Bridges and Stern v. SYDA Foundation, Sup. Ct. N.Y., Sullivan County, Index E2023-1840, filed 22 Nov 2023, Adult Survivors Act / CPLR 214-j) names only SYDA Foundation as defendant per the complaint itself; The Guru Magazine reported Gurumayi and Muktananda as defendants too. Chapter follows the complaint.",
+    "muktananda.mdx: Settlement of the 2023 suit (March 2025) is reported only in Blair Glaser's CrimeReads essay (23 March 2026), a memoirist and former resident. Not confirmed from NYSCEF docket or a news report; terms unknown. Fact-checker should check the docket (E2023-1840).",
+    "muktananda.mdx: 'No criminal charge against him appears in the published record' is a negative claim from the sources consulted; no positive source states that he was never charged.",
+    "muktananda.mdx: Lis Harris, 'O Guru, Guru, Guru', The New Yorker: date given as 14 November 1994 (Wikipedia mirror) and 6 November 1994 (Bharatpedia); wrldrels text says 1993. Article itself not seen; its contents are summarised only at a general level.",
+    "muktananda.mdx: SYDA's direct response to the 1983 and 1994 articles not located beyond Chidvilasananda's 1983 denials quoted by Rodarmor and the 2010 board statement to Salon. No SYDA statement on the 2023 suit was found.",
+    "muktananda.mdx: Rodarmor quotations (Chidvilasananda's 'We are a break-even proposition'; Ed Oliver's Swiss account of about $1.5 million, citing a 1983 Los Angeles Times interview) come from a PDF copy of the article on selfdefinition.org, a critics' site; original issue not seen.",
+    "muktananda.mdx: Birth year 1908 is 'generally accepted' but 'disputed' per Mahavidya; the source of the dispute was not traced. Birth place given only as near Mangalore.",
+    "muktananda.mdx: Siddharudha's death year, the date of Muktananda's sannyasa and the Muppinarya Swami detail rest on Mahavidya (Simmelink 2015, drawing on Meditation Revolution); not cross-checked.",
+    "muktananda.mdx: Lakshmanjoo visit(s): number and dates not verified in this batch (existing graph note says twice, per Wikipedia).",
+    "muktananda.mdx: Meditation Revolution publication: cited as Agama Press, Muktabodha edition 2000; the 1997 first-edition date (given by Bharatpedia's citation) not independently confirmed.",
+    "muktananda.mdx: Shanti Mandir founding: 1987 (wrldrels, ARDA listing title) vs 'three years after' Muktananda's death (shantimandir.com, i.e. c.1985). Chapter gives both.",
+    "muktananda.mdx: Swami Shankarananda named as a later teacher from Muktananda's circle on the basis of search-result titles only (Wikipedia 'Shankarananda (Shiva Yoga)'); fact-checker should confirm he was a Muktananda disciple.",
+    "muktananda.mdx: Marta Szabo and Daniel Shaw named as former members who published critical accounts, from a blogspot excerpt of Szabo's memoir and The Guru Magazine's citation of Shaw; neither book was examined.",
+    "muktananda.mdx: Werner Erhard's 1973 meeting and invitation is from Shanti Mandir's biography only.",
+    "muktananda.mdx: no photo; no public audio/video archive of his talks located; marked [to locate].",
+    "Graph: swami-nityananda-shanti-mandir birth year not added (Hinduism Today 1986 gives age 21 in 1982, so c.1961-62)."
+  ],
+  "sources": {
+    "muktananda": [
+      "Born 16 May 1908 (year disputed), near Mangalore, as Krsna; wealthy family; mantra at Manjunath temple; Siddharudha ashram first; Muppinarya after Siddharudha's death; Saraswati order sannyasa; Zipruanna sent him to Nityananda; 1947 shaktipat; tours 1970/1974/1978; Charles White 1974 History of Religions 13(4) 306-322 -> https://mahavidya.ca/2015/06/26/swami-muktananda/",
+      "1908 Karnataka as Krishna; 1923 first saw Nityananda at 15 and left home; sannyasa at Hubli ashram; 1947 shaktipat; Yeola hut; 1956 land and rose garden; Nityananda died 8 Aug 1961; tours 1970, 1974-76, 1978-81; South Fallsburg HQ; 1981 named Nityananda successor; May 1982 joint successors; died 2 Oct 1982; Stan Trout (Swami Abhayananda) open letter 1981; Rodarmor 1983; Shanti Mandir 1987 -> https://wrldrels.org/?p=18150",
+      "Oakland ashram 28 Apr 1975; Malti translator 1975; sannyasa 26 Apr 1982 as Chidvilasananda; 3 May 1982 co-successors; 10 Nov 1985 sole guru -> https://wrldrels.org/?p=10400",
+      "Born 16 May 1908 near Mangalore; studied at Hubli with Siddharudha (Sanskrit, Vedanta, yoga) and took sannyasa there; 1947 Ganeshpuri; Yeola; 1956 Gavdevi land; May 1982 successors; died Oct 1982, buried at Ganeshpuri; Rodarmor CoEvolution Quarterly winter 1983; Harris New Yorker 14 Nov 1994; Caldwell Nova Religio 2001 -> https://wikipedia2007.classicistranieri.com/m/u/k/Muktananda.html",
+      "Shaktipat from Nityananda; God-realisation about nine years later; Gurudev Siddha Peeth trust, SYDA Foundation; 600+ centres; mahasamadhi 1982; successors May 1982; Nityananda resigned Nov 1985 -> https://siddhayoga.org/baba-muktananda",
+      "Divya diksha 'the morning of August 15, 1947'; quote 'What an auspicious day. How full of nectar it was.' -> https://www.siddhayoga.org/2020/august/letter",
+      "Fiftieth anniversary (12 May 2019) of beginning to write the autobiography; 'Chitshakti Vilas is the Hindi title'; 18 languages -> https://www.siddhayoga.org/2019/baba-muktananda-birthday/a-golden-anniversary",
+      "Guru: Chitshaktivilas; the play of consciousness, Harper & Row, New York, 1971 -> https://libcat.library.tamu.edu/Record/in00000295879",
+      "Play of Consciousness begins with initiation 15 Aug 1947 and runs to enlightenment nine years later; 'extraordinary experiences' -> https://www.ipgbook.com/play-of-consciousness-products-9780911307818.php",
+      "Blue Pearl vision in Play of Consciousness -> https://www.spiritualityandpractice.com/book-reviews/view/2171/play-of-consciousness",
+      "First world tour 21 Aug-29 Nov 1970, 101 days, five devotees, 90 public talks; Italy, Switzerland, England, France, US, Australia, Singapore; Boston ~1,000; quote 'Honor your Self. Worship your Self. Meditate on your Self. God dwells within you as you.' -> https://www.siddhayoga.org/baba-muktananda/commemorating-first-world-tour",
+      "Santa Monica 14 Oct 1980-Apr 1981; mayor; white tent; Kashmir Shaivism lectures; three conferences; swami initiations; farewell 24 Apr 1981, 3,500+ -> https://siddhayoga.org/baba-muktananda/third-world-tour-santa-monica",
+      "Did not speak English on 1970 trip; Erhard met him Ganeshpuri 1973 and invited him; Shree Gurudev Ashram later Gurudev Siddha Peeth; Prison Project; July 1981 named Nityananda at South Fallsburg; Shanti Mandir three years after death; quote 'Meditation is universal. It is not the property of any particular religion or nationality.' -> https://www.shantimandir.com/about/baba-muktananda/",
+      "SYDA founded 1974; by 1976 80 centres, five ashrams, claimed ~20,000 US followers -> https://pluralism.org/muktananda-swami",
+      "Nityananda announced withdrawal 3 Nov 1985 at Ganeshpuri; said Muktananda told them privately he would serve three years; de-ordained, renamed Venkateshwar; Patabhishek 10 Nov 1985; co-gurus ordained May 1982, ages 27 and 21 -> https://hinduismtoday.com/magazine/january-1986/1986-01-what-was-two-is-now-one-siddha-yoga-co-guru-steps-down/",
+      "Gurumayi born Malti Shetty 24 June 1955; brother Subhash Shetty (Swami Nityananda); translator at 20; Harris New Yorker dated 6 Nov 1994 there -> https://en.bharatpedia.org/wiki/Gurumayi_Chidvilasananda",
+      "Chambers summer 1979 South Fallsburg: peacock-feather tap, heat like an oven door, Kashmir Shaivism classes, seva 3-4 hours, Om Namah Shivaya, Guru Gita; four weeks without smoking; learned of allegations from New Yorker 1994; judged indiscretions forgivable -> https://www.theosophical.org/publications/quest-magazine/3601",
+      "Rodarmor, 'The Secret Life of Swami Muktananda', CoEvolution Quarterly: allegations from Michael and Chandra Dinga, Grimes, pseudonymous women; sexual contact incl. minors, enforcers, guns, Swiss accounts; Chidvilasananda denials ('Those girls never came to us', 'We are a break-even proposition'); Ed Oliver ~$1.5m Swiss account per 1983 LA Times; Trout letter; 1981 'Memo from Baba': 'devotees should know the truth by their own experience' -> https://selfdefinition.org/frauds/The-Secret-Life-of-Swami-Muktananda.pdf",
+      "Caldwell, 'The Heart of the Secret', Nova Religio 5(1) 2001, 9-51; 'My thesis is that Baba was an initiated Kaula practitioner'; 'the bodily shell of a Tantric practice'; 'not ethical, legal or liberatory' -> https://www.gwern.net/wiki/Talk:Muktananda",
+      "SYDA Board of Trustees response, 16 Aug 2010: 'emphatically rejects the grossly false picture'; 'is an authentic path of self-knowledge'; relies on rumours and accusations -> https://salon.com/2010/08/16/sya_response_to_eat_pray_love_story",
+      "Complaint: Sup. Ct. N.Y., County of Sullivan, Index E2023-1840, filed 22 Nov 2023; plaintiffs Jane Doe, Joan Bridges, Katherine Stern; defendant SYDA Foundation only; Adult Survivors Act CPLR 214-j; negligence and negligent retention/supervision; Doe from age 14 into 1981, Bridges 1980 South Fallsburg, Stern 1980 at 19 -> https://leavingsiddhayoga.net/wp-content/uploads/2023/11/Doe-et-al-v.-SYDA-Foundation-Complaint-FILED-INDEXED.pdf",
+      "Lawsuit report 1 Dec 2023; attorney Carol Merchasin (McAllister Olivarius); no SYDA response; names Daniel Shaw's accounts -> https://gurumag.com/siddha-yoga-lawsuit-alleges-rape-by-muktananda",
+      "Settled March 2025; ashram 'still denies any wrongdoing' (Glaser essay, 23 Mar 2026) -> https://crimereads.com/abuse-in-the-ashram-blair-glaser-on-the-predatory-cult-of-baba-muktananda/"
+    ]
+  }
+}

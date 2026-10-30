@@ -34,7 +34,7 @@ Status: todo / running / written / checked / merged.
 | w13 | sivananda (c) | | merged |
 | w14 | maharishi (c) | | merged |
 | w15 | sadhguru (c) | | merged |
-| w18 | muktananda (c) | | running |
+| w18 | muktananda (c) | | checking |
 | w20 | prabhupada (c) | | running |
 | w21 | amma (c) | | running |
 | w24 | meher-baba (c) | | todo |
