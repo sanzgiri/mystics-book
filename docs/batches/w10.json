@@ -1,50 +1,285 @@
 {
   "batch": "w10",
   "nodes_add": [
-    {"id": "baul-tradition", "name": "Baul tradition", "part": 0, "tier": "root", "kind": "tradition", "note": "Wandering singers of rural Bengal from Hindu and Muslim backgrounds; songs of the moner manush (Man of the Heart); Lalon Fakir (d. 1890)"},
-    {"id": "thomas-arnold", "name": "Thomas Arnold", "born": 1864, "died": 1930, "part": 4, "tier": "node", "kind": "person", "note": "British orientalist; Iqbal's teacher at Government College, Lahore, in the 1890s"},
-    {"id": "kalidas-bhattacharyya", "name": "Kalidas Bhattacharyya", "born": 1911, "died": 1984, "part": 4, "tier": "node", "kind": "person", "note": "Philosopher; son of K. C. Bhattacharyya"}
+    {
+      "id": "baul-tradition",
+      "name": "Baul tradition",
+      "part": 0,
+      "tier": "root",
+      "kind": "tradition",
+      "note": "Wandering singers of rural Bengal from Hindu and Muslim backgrounds; songs of the moner manush (Man of the Heart); Lalon Fakir (d. 1890)"
+    },
+    {
+      "id": "thomas-arnold",
+      "name": "Thomas Arnold",
+      "born": 1864,
+      "died": 1930,
+      "part": 4,
+      "tier": "node",
+      "kind": "person",
+      "note": "British orientalist; Iqbal's teacher at Government College, Lahore, in the 1890s"
+    },
+    {
+      "id": "kalidas-bhattacharyya",
+      "name": "Kalidas Bhattacharyya",
+      "born": 1911,
+      "died": 1984,
+      "part": 4,
+      "tier": "node",
+      "kind": "person",
+      "note": "Philosopher; son of K. C. Bhattacharyya"
+    }
   ],
   "nodes_update": [
-    {"id": "rabindranath-tagore", "name": "Rabindranath Tagore", "born": 1861, "died": 1941, "note": "Poet; son of Debendranath Tagore; Shilaidaha estates from 1890; Santiniketan school 1901; Visva-Bharati 1921; Gitanjali (1910, English 1912); Nobel 1913; The Religion of Man (Hibbert Lectures 1930, pub. 1931); jivan devata; Baul Man of the Heart"},
-    {"id": "iqbal", "name": "Muhammad Iqbal", "born": 1877, "died": 1938, "note": "Poet-philosopher of Sialkot and Lahore; Cambridge, Munich doctorate (1907/1908), Lincoln's Inn 1908; Asrar-i-Khudi 1915; knighted 1922; Reconstruction of Religious Thought in Islam (1930, 1934); khudi; Allahabad address Dec 1930"},
-    {"id": "kc-bhattacharya", "name": "K. C. Bhattacharyya", "born": 1875, "died": 1949, "note": "Krishnachandra Bhattacharyya of Serampore; The Subject as Freedom (1930); 'Svaraj in Ideas' (Chandernagore, Oct 1931; pub. 1954); 'The Concept of Philosophy' (1936); death year 1947 in some sources"},
-    {"id": "gopi-krishna", "name": "Gopi Krishna", "born": 1903, "died": 1984, "note": "Kashmiri Pandit; Public Works Department clerk; kundalini awakening Christmas season 1937 near Jammu; Kundalini: The Evolutionary Energy in Man (1967); kundalini as the biological mechanism of human evolution"}
+    {
+      "id": "rabindranath-tagore",
+      "name": "Rabindranath Tagore",
+      "born": 1861,
+      "died": 1941,
+      "note": "Poet; son of Debendranath Tagore; Shilaidaha estates from 1890; Santiniketan school 1901; Visva-Bharati 1921; Gitanjali (1910, English 1912); Nobel 1913; The Religion of Man (Hibbert Lectures 1930, pub. 1931); jivan devata; Baul Man of the Heart"
+    },
+    {
+      "id": "iqbal",
+      "name": "Muhammad Iqbal",
+      "born": 1877,
+      "died": 1938,
+      "note": "Poet-philosopher of Sialkot and Lahore; Cambridge, Munich doctorate (1907/1908), Lincoln's Inn 1908; Asrar-i-Khudi 1915; knighted 1923 (New Year honours; 1922 in some sources); Reconstruction of Religious Thought in Islam (1930, 1934); khudi; Allahabad address Dec 1930"
+    },
+    {
+      "id": "kc-bhattacharya",
+      "name": "K. C. Bhattacharyya",
+      "born": 1875,
+      "died": 1949,
+      "note": "Krishnachandra Bhattacharyya of Serampore; The Subject as Freedom (1930); 'Svaraj in Ideas' (Chandernagore, Oct 1931; pub. 1954); 'The Concept of Philosophy' (1936); death year 1947 in some sources; Amalner 1933-35; King George V professor, Calcutta, 1935-37"
+    },
+    {
+      "id": "gopi-krishna",
+      "name": "Gopi Krishna",
+      "born": 1903,
+      "died": 1984,
+      "note": "Kashmiri Pandit; Public Works Department clerk; kundalini awakening Christmas season 1937 near Jammu; Kundalini: The Evolutionary Energy in Man (1967); kundalini as the biological mechanism of human evolution"
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "debendranath-tagore", "to": "rabindranath-tagore", "type": "family", "evidence": "documented", "verified": true, "note": "Father; Rabindranath grew up in Brahmo services and wrote Brahmo hymns; founded his school at Debendranath's Santiniketan ashram (1901)"},
-    {"from": "upanishads", "to": "rabindranath-tagore", "type": "influenced", "evidence": "documented", "verified": true, "note": "Upanishadic verses at family Brahmo services; Sadhana (1913) and The Religion of Man draw on them"},
-    {"from": "baul-tradition", "to": "rabindranath-tagore", "type": "influenced", "evidence": "documented", "verified": true, "year": 1890, "note": "Met Baul singers at Shilaidaha; collected and published Lalon's songs; 'An Indian Folk Religion' (1922) and The Religion of Man on the Man of my Heart"},
-    {"from": "sant-tradition", "to": "rabindranath-tagore", "type": "influenced", "evidence": "documented", "verified": true, "year": 1915, "note": "One Hundred Poems of Kabir (1915), translated with Evelyn Underhill from Kshitimohan Sen's collection"},
-    {"from": "sufi-orders", "to": "iqbal", "type": "influenced", "evidence": "documented", "verified": true, "note": "Rumi as his guide (Javid Nama, 1932); but he attacked the Sufi ideal of fana and the poet Hafiz in the first edition of Asrar-i-Khudi (1915)"},
-    {"from": "islamic-theology", "to": "iqbal", "type": "influenced", "evidence": "documented", "verified": true, "year": 1930, "note": "The Reconstruction of Religious Thought in Islam (1930, 1934); ijtihad as the principle of movement"},
-    {"from": "thomas-arnold", "to": "iqbal", "type": "influenced", "evidence": "documented", "verified": true, "note": "Teacher at Government College, Lahore"},
-    {"from": "advaita-vedanta", "to": "kc-bhattacharya", "type": "influenced", "evidence": "documented", "verified": true, "note": "Studies in Vedantism (1907/1909); the self as subject distinct from all objects"},
-    {"from": "jain-tradition", "to": "kc-bhattacharya", "type": "influenced", "evidence": "documented", "verified": true, "note": "Essay on the Jaina theory of anekanta (many-sidedness), collected in Studies in Philosophy"},
-    {"from": "kc-bhattacharya", "to": "kalidas-bhattacharyya", "type": "family", "evidence": "documented", "verified": true, "note": "Son; continued his philosophical work"},
-    {"from": "kashmir-shaivism", "to": "gopi-krishna", "type": "influenced", "evidence": "documented", "verified": true, "note": "Kashmiri Pandit background; translated and commented on the Panchastavi, Kashmiri hymns to the goddess (1976 or 1978)"},
-    {"from": "tantra-shakta", "to": "gopi-krishna", "type": "influenced", "evidence": "testimony", "verified": true, "year": 1937, "note": "The tantric kundalini map (channels, crown lotus) frames his account of the 1937 awakening; no guru"}
+    {
+      "from": "debendranath-tagore",
+      "to": "rabindranath-tagore",
+      "type": "family",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Father; Rabindranath grew up in Brahmo services and wrote Brahmo hymns; founded his school at Debendranath's Santiniketan ashram (1901)"
+    },
+    {
+      "from": "upanishads",
+      "to": "rabindranath-tagore",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Upanishadic verses at family Brahmo services; Sadhana (1913) and The Religion of Man draw on them"
+    },
+    {
+      "from": "baul-tradition",
+      "to": "rabindranath-tagore",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1890,
+      "note": "Met Baul singers at Shilaidaha; collected and published Lalon's songs; 'An Indian Folk Religion' (1922) and The Religion of Man on the Man of my Heart"
+    },
+    {
+      "from": "sant-tradition",
+      "to": "rabindranath-tagore",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1914,
+      "note": "One Hundred Poems of Kabir (India Society, London, 1914; Macmillan as Songs of Kabir, 1915), translated with Evelyn Underhill from Kshitimohan Sen's collection"
+    },
+    {
+      "from": "sufi-orders",
+      "to": "iqbal",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Rumi as his guide (Javid Nama, 1932); but he attacked the Sufi ideal of fana and the poet Hafiz in the first edition of Asrar-i-Khudi (1915)"
+    },
+    {
+      "from": "islamic-theology",
+      "to": "iqbal",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1930,
+      "note": "The Reconstruction of Religious Thought in Islam (1930, 1934); ijtihad as the principle of movement"
+    },
+    {
+      "from": "thomas-arnold",
+      "to": "iqbal",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Teacher at Government College, Lahore"
+    },
+    {
+      "from": "advaita-vedanta",
+      "to": "kc-bhattacharya",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Studies in Vedantism (1907/1909); the self as subject distinct from all objects"
+    },
+    {
+      "from": "jain-tradition",
+      "to": "kc-bhattacharya",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Essay on the Jaina theory of anekanta (many-sidedness), collected in Studies in Philosophy"
+    },
+    {
+      "from": "kc-bhattacharya",
+      "to": "kalidas-bhattacharyya",
+      "type": "family",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Son; continued his philosophical work"
+    },
+    {
+      "from": "kashmir-shaivism",
+      "to": "gopi-krishna",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Kashmiri Pandit background; translated and commented on the Panchastavi, Kashmiri hymns to the goddess (1976 or 1978)"
+    },
+    {
+      "from": "tantra-shakta",
+      "to": "gopi-krishna",
+      "type": "influenced",
+      "evidence": "testimony",
+      "verified": true,
+      "year": 1937,
+      "note": "The tantric kundalini map (channels, crown lotus) frames his account of the 1937 awakening; no guru"
+    }
   ],
   "places": [
-    {"name": "Jorasanko Thakur Bari, Kolkata", "lat": 22.585, "lon": 88.359, "figure": "rabindranath-tagore", "what": "Born 7 May 1861 and died 7 August 1941 in the family mansion", "verified": true},
-    {"name": "Shilaidaha Kuthibari, Kushtia", "lat": 23.92, "lon": 89.22, "figure": "rabindranath-tagore", "what": "Managed the family estates from 1890; met Baul singers", "verified": true},
-    {"name": "Santiniketan", "lat": 23.68, "lon": 87.68, "figure": "rabindranath-tagore", "what": "School founded 1901; Visva-Bharati opened 1921", "verified": true},
-    {"name": "Sialkot", "lat": 32.49, "lon": 74.53, "figure": "iqbal", "what": "Born 9 November 1877", "verified": true},
-    {"name": "Lahore", "lat": 31.588, "lon": 74.31, "figure": "iqbal", "what": "Studied at Government College; practised law; Asrar-i-Khudi published 1915; died 21 April 1938", "verified": true},
-    {"name": "Serampore", "lat": 22.75, "lon": 88.34, "figure": "kc-bhattacharya", "what": "Born 12 May 1875", "verified": true},
-    {"name": "Chandernagore (Chandannagar)", "lat": 22.87, "lon": 88.37, "figure": "kc-bhattacharya", "what": "Delivered 'Svaraj in Ideas' as the Sir Asutosh Memorial Lecture, October 1931", "verified": true},
-    {"name": "Jammu", "lat": 32.73, "lon": 74.86, "figure": "gopi-krishna", "what": "Kundalini awakening, Christmas season 1937, in a house on the outskirts", "verified": true},
-    {"name": "Srinagar", "lat": 34.08, "lon": 74.8, "figure": "gopi-krishna", "what": "Born in a village about twenty miles away (1903); worked in the state Public Works Department", "verified": true}
+    {
+      "name": "Jorasanko Thakur Bari, Kolkata",
+      "lat": 22.585,
+      "lon": 88.359,
+      "figure": "rabindranath-tagore",
+      "what": "Born 7 May 1861 and died 7 August 1941 in the family mansion",
+      "verified": true
+    },
+    {
+      "name": "Shilaidaha Kuthibari, Kushtia",
+      "lat": 23.92,
+      "lon": 89.22,
+      "figure": "rabindranath-tagore",
+      "what": "Managed the family estates from 1890; met Baul singers",
+      "verified": true
+    },
+    {
+      "name": "Santiniketan",
+      "lat": 23.68,
+      "lon": 87.68,
+      "figure": "rabindranath-tagore",
+      "what": "School founded 1901; Visva-Bharati opened 1921",
+      "verified": true
+    },
+    {
+      "name": "Sialkot",
+      "lat": 32.49,
+      "lon": 74.53,
+      "figure": "iqbal",
+      "what": "Born 9 November 1877",
+      "verified": true
+    },
+    {
+      "name": "Lahore",
+      "lat": 31.588,
+      "lon": 74.31,
+      "figure": "iqbal",
+      "what": "Studied at Government College; practised law; Asrar-i-Khudi published 1915; died 21 April 1938",
+      "verified": true
+    },
+    {
+      "name": "Serampore",
+      "lat": 22.75,
+      "lon": 88.34,
+      "figure": "kc-bhattacharya",
+      "what": "Born 12 May 1875",
+      "verified": true
+    },
+    {
+      "name": "Chandernagore (Chandannagar)",
+      "lat": 22.87,
+      "lon": 88.37,
+      "figure": "kc-bhattacharya",
+      "what": "Delivered 'Svaraj in Ideas' as the Sir Asutosh Memorial Lecture, October 1931",
+      "verified": true
+    },
+    {
+      "name": "Jammu",
+      "lat": 32.73,
+      "lon": 74.86,
+      "figure": "gopi-krishna",
+      "what": "Kundalini awakening, Christmas season 1937, in a house on the outskirts",
+      "verified": true
+    },
+    {
+      "name": "Srinagar",
+      "lat": 34.08,
+      "lon": 74.8,
+      "figure": "gopi-krishna",
+      "what": "Born in a village about twenty miles away (1903); worked in the state Public Works Department",
+      "verified": true
+    }
   ],
   "glossary": [
-    {"term": "Khudi", "script": "خودی", "lang": "ur", "def": "Selfhood or individuality; for Iqbal, the self each person must build and strengthen through love and action."},
-    {"term": "Fana", "script": "فنا", "lang": "ar", "def": "In Sufism, the passing away of the self into God."},
-    {"term": "Ijtihad", "script": "اجتہاد", "lang": "ar", "def": "Independent reasoning on questions of Islamic law."},
-    {"term": "Jivan devata", "script": "জীবনদেবতা", "lang": "bn", "def": "Tagore's god of his own life, a presence that shapes the poet's life from within."},
-    {"term": "Baul", "script": "বাউল", "lang": "bn", "def": "A wandering singer of rural Bengal who seeks the divine Man of the Heart within the body."},
-    {"term": "Svaraj", "script": "स्वराज", "lang": "sa", "def": "Self-rule; K. C. Bhattacharyya applied it to freedom of thought."},
-    {"term": "Nadi", "script": "नाडी", "lang": "sa", "def": "A channel of the subtle body; ida (left), pingala (right) and sushumna (central) in kundalini yoga."}
+    {
+      "term": "Khudi",
+      "script": "خودی",
+      "lang": "ur",
+      "def": "Selfhood or individuality; for Iqbal, the self each person must build and strengthen through love and action."
+    },
+    {
+      "term": "Fana",
+      "script": "فنا",
+      "lang": "ar",
+      "def": "In Sufism, the passing away of the self into God."
+    },
+    {
+      "term": "Ijtihad",
+      "script": "اجتہاد",
+      "lang": "ar",
+      "def": "Independent reasoning on questions of Islamic law."
+    },
+    {
+      "term": "Jivan devata",
+      "script": "জীবনদেবতা",
+      "lang": "bn",
+      "def": "Tagore's god of his own life, a presence that shapes the poet's life from within."
+    },
+    {
+      "term": "Baul",
+      "script": "বাউল",
+      "lang": "bn",
+      "def": "A wandering singer of rural Bengal who seeks the divine Man of the Heart within the body."
+    },
+    {
+      "term": "Svaraj",
+      "script": "स्वराज",
+      "lang": "sa",
+      "def": "Self-rule; K. C. Bhattacharyya applied it to freedom of thought."
+    },
+    {
+      "term": "Nadi",
+      "script": "नाडी",
+      "lang": "sa",
+      "def": "A channel of the subtle body; ida (left), pingala (right) and sushumna (central) in kundalini yoga."
+    }
   ],
   "art": [],
   "issues": [
@@ -57,7 +292,8 @@
     "kc-bhattacharya.mdx: 'self-evident elaboration of the self-evident' quoted via a secondary volume on PhilArchive (AROMLV), not seen in the primary text.",
     "gopi-krishna.mdx: the ida correction (concentrating on the left channel) is from memory of the autobiography; the fetched sources confirm only the pingala diagnosis. Biological Basis of Religion and Genius 1971 (Wikipedia, Harper & Row) or 1972 (Harvard CSWR); Panchastavi 1976 (Wikipedia) or 1978. Death place not confirmed. Lee Sannella reference (Kundalini: Psychosis or Transcendence?, 1976) from memory.",
     "kalidas-bhattacharyya node: dates 1911-1984 from memory; verify.",
-    "No art created for Part 4 profiles; aurobindo uses 'ascent'. No photos added."
+    "No art created for Part 4 profiles; aurobindo uses 'ascent'. No photos added.",
+    "[w10 fact-check] Confirm the 'self-evident elaboration of the self-evident' quotation and the Gopi Krishna ida episode against primary texts before publication."
   ],
   "sources": {
     "rabindranath-tagore": [
@@ -86,6 +322,31 @@
       "Christmas 1937 near Jammu; 'a roar like that of a waterfall'; 1967 book with Hillman and Spiegelberg; 'therapeutization and psychologization of twentieth-century religion'; Biological Basis 1972; empirical research projects -> https://cswr.hds.harvard.edu/news/2026/08/04/gopi-krishnas-kundalini-rising",
       "Village ~20 miles from Srinagar; Lahore 1914; Public Works Department; premature retirement; 1946 social organisation against dowry, for widow remarriage; died July 1984; Living with Kundalini; 16 other books -> https://ikashmir.net/kundalini/gk.html",
       "Imaginary lotus at crown; full quote 'Suddenly, with a roar like that of a waterfall, I felt a stream of liquid light entering my brain through the spinal cord'; exam failure at 17 'created a revolution in my young mind'; Ramadhar & Hopman 1967; Vincent Stuart & Watkins 1970 -> https://vedpuran.net/wp-content/uploads/2021/04/kundalini-the-evolutionary-energy-in-man-by-gopi-krishna.pdf"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 112,
+    "changes": [
+      "rabindranath-tagore.mdx: One Hundred Poems of Kabir dated 1914 (India Society, London; HathiTrust record), not 1915 (Macmillan's Songs of Kabir); batch edge updated to match.",
+      "rabindranath-tagore.mdx: unsourced claim that Bengali critics argued 'at the time' about the jivan devata softened to a general statement that readers have argued about it.",
+      "iqbal.mdx: knighthood moved to the 1923 New Year honours, with 1922 noted as an alternative (Pritchett chronology; marghdeen.com on the London Gazette; Britannica says 1922).",
+      "iqbal.mdx: Rumuz-i-Bekhudi given as 1917 or 1918 (Pritchett chronology gives 1918).",
+      "iqbal.mdx: Reconstruction lectures dated 1929 (Madras and Hyderabad early 1929, Aligarh late 1929; marghdeen.com), not 1928-29; Cambridge BA year 1907 added (Pritchett).",
+      "kc-bhattacharya.mdx: career added from publisher's biography (Motilal Banarsidass page: Bengal Education Department 1898-1930, Amalner director 1933-35, King George V professor 1935-37), replacing the 'posts vary' disclaimer.",
+      "kc-bhattacharya.mdx: Kant book title corrected to Implications of the Philosophy of Kant (OUP India); Bengali original per Wikipedia (Kantdarshaner Tatparya).",
+      "kc-bhattacharya.mdx: Gopinath Bhattacharyya no longer called a son (not confirmed by any fetched source); Kalidas dates 1911-1984 added (Indian Philosophy Blog review).",
+      "kc-bhattacharya.mdx: 'Our thought is hybrid through and through and inevitably sterile' could not be found in any accessible text and was paraphrased; 'implies slavery from the very start' confirmed (exam passage quoting Svaraj in Ideas, p. 13).",
+      "gopi-krishna.mdx: 'later reissued as Living with Kundalini' corrected to an expanded autobiography published later (1993).",
+      "gopi-krishna.mdx: 'partly through Theosophy' removed from Inherited list (no source).",
+      "gopi-krishna.mdx: Lahore move in 1914 attributed to the Kashmiri Pandit sketch (Wikipedia tags the Lahore claim citation needed; ikashmir.net could not be fetched).",
+      "All five files: status set to checked."
+    ],
+    "unresolved": [
+      "kc-bhattacharya.mdx: 'self-evident elaboration of the self-evident' still seen only via a secondary source; primary text of 'The Concept of Philosophy' not checked.",
+      "kc-bhattacharya.mdx: Garfield's paper dates The Subject as Freedom to 1923; Wikipedia and other sources give 1930. Text keeps 1930.",
+      "gopi-krishna.mdx: the ida correction rests on the autobiography (by his own account); no fetched source confirms it. Death place still unconfirmed. The exam quote 'created a revolution in my young mind' was not independently verified (vedpuran.net PDF not fetchable).",
+      "rabindranath-tagore.mdx: Tagore describing the jivan devata as 'the root of his religion' not checked against a primary text.",
+      "Writer's sources tagoreweb (quote confirmed), Harvard CSWR (author Thaler and quote fragment confirmed), Wikipedia KCB (dates and Oct 1931 Candranagar lecture confirmed) were spot-checked; ipf.org.in, ikashmir.net, vedpuran.net, philarchive and OUP pages could not be fetched (allowlist)."
     ]
   }
 }
