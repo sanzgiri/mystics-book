@@ -49,7 +49,7 @@
    "type": "lineage",
    "evidence": "documented",
    "verified": true,
-   "note": "Gaudiya Vaishnava teacher in the Chaitanya line; the parampara printed in Bhagavad-gita As It Is runs from Krishna through Madhva and Chaitanya; the Madhva link and the shiksha links (Bhaktivinoda, Bhaktisiddhanta) are disputed by some historians and hereditary Gaudiya lines"
+   "note": "Gaudiya Vaishnava teacher in the Chaitanya line; the parampara printed in Bhagavad-gita As It Is runs from Krishna through Madhva and Chaitanya; the Madhva link and the shiksha links (Bhaktivinoda, Bhaktisiddhanta) are debated (Rosen 1994 notes debate among Madhva-tradition scholars) and hereditary Gaudiya lines"
   },
   {
    "from": "bhaktisiddhanta",
@@ -287,7 +287,9 @@
   "prabhupada.mdx: Narayana Maharaja performing the burial rites is given as his followers' account; dates 1921-2010 and Bhakti Prajnana Keshava's 1898-1968 from memory, verify.",
   "prabhupada.mdx: Claim that the Madhva-Gaudiya link is questioned by some historians is stated generally without a named scholar; add a citation (e.g. S. K. De, Early History of the Vaisnava Faith and Movement in Bengal) or soften.",
   "prabhupada.mdx: Burt, Leading the Hare Krishna Movement: publication year not verified; left undated in References.",
-  "prabhupada.mdx: Some place coordinates are approximate (marked verified false)."
+  "prabhupada.mdx: Some place coordinates are approximate (marked verified false).",
+  "factcheck: Bangalore review petition was pending as of October 2026 (listed after 5 Oct; Justice Manoj Misra recused); update if decided before publication.",
+  "factcheck: Madhva-link claim now rests on Rosen (1994) via Wikipedia; author may prefer a primary historical source (e.g. S. K. De 1942) after checking it."
  ],
  "sources": {
   "prabhupada": [
@@ -312,6 +314,37 @@
    "Tomsk: filed June 2011; rejected 28 Dec 2011; appeal upheld 21 March 2012 -> https://en.wikipedia.org/wiki/Bhagavad_Gita_As_It_Is_trial",
    "1966 Happening LP 'Krishna Consciousness' -> https://prabhupada-books.de/hare-krsna-mantra/happening-album.html",
    "Swami in a Strange Land, Joshua Greene 2016 -> https://www.simonandschuster.ca/books/Swami-in-a-Strange-Land/Joshua-Greene/9781608878680"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 62,
+  "changes": [
+   "prabhupada.mdx: Bangalore review status updated: split decision was late 2025 (ISKCON News puts the chamber hearing on 28 Oct 2025, Verdictum says Nov), referred to the CJI; SC agreed on 28 Sep 2026 to list it, and Justice Manoj Misra recused in Oct 2026; text now says still pending as of October 2026 (Verdictum 17 Aug 2026; Deccan Chronicle 28 Sep 2026; Bar and Bench 9 Oct 2026). Added Deccan Chronicle to refs.",
+   "prabhupada.mdx: gurukula plaintiffs 'later about ninety' -> 'later more than ninety' (Hinduism Today 92; LA Times 95; court notices 91).",
+   "prabhupada.mdx: claimant count now gives the conflict: about 450 (Hinduism Today) vs 535 (LA Times, 26 June 2005); award range '$2,500-$50,000' -> 'up to $50,000' (HT gives $2,500, LAT $6,000 as the low end). Added LA Times ref.",
+   "prabhupada.mdx: child protection office 'the same year' -> 'around the same time' (founding year not confirmed; Rochford study does not mention it).",
+   "prabhupada.mdx: poisoning: 'No criminal charge has ever been brought' -> 'No one has been charged with any crime in connection with his death'; 'swelling is going down' was attributed to forensic audio work, but the ISKCON statement presents that reading as its own and says only that forensic audio examination did not support the allegation; reworded (iskconnews.org statement, 25 Apr 2025).",
+   "prabhupada.mdx: Lorenz chapter misdescribed as contextualising; Lorenz found ~80% of 510 statements about women in the purports had no parallel in earlier commentaries; corrected (chapter text via henrydoktorski.com; full title confirmed).",
+   "prabhupada.mdx: Madhva link: 'some historians have questioned' -> attributed to Steven J. Rosen, Vaishnavism (1994) p. 220, who says the affiliation was debated, particularly by Madhva-tradition scholars (via Wikipedia, Brahma Sampradaya). Added ref.",
+   "prabhupada.mdx: Ginsberg: 'came to the storefront and joined the chanting' -> 'who lived nearby, joined the chanting in the park' (6sqft; Lilamrta ch. 18 does not show the storefront visit). 1966 LP sentence reworded: recorded 1966 in New York for Happening Records (release date not given by source).",
+   "w20.json: gaudiya->prabhupada edge note now attributes the Madhva-link debate to Rosen."
+  ],
+  "verified_without_change": [
+   "Kirtanananda: indicted 1990 (5 racketeering, 6 mail fraud, conspiracy to murder Bryant and St. Denis); convicted 29 Mar 1991 on 9 of 11, hung on murder; convictions thrown out on appeal; 1996 guilty plea to one racketeering count, 20 years (Wikipedia, Kirtanananda Swami).",
+   "SC judgment 16 May 2025 for ISKCON Bangalore; HC 2011; quote 'we will be exploring all available legal remedies', Yudhistir Govinda Das, 17 May 2025 (iskconnews).",
+   "Turley suit 12 June 2000, Dallas federal court, 44 plaintiffs, ISKCON + 17 GBC + Prabhupada estate (Beliefnet); $400M; federal RICO claim dismissed by Judge Sam A. Lindsay, 28 Sep 2001; refiled Texas state court Oct 2001; eleven entities Chapter 11, CA and WV, Feb/Mar 2002; plans confirmed 16 and 23 May 2005 (surrealist.org court-document timeline; pluralism.org Feb 2002).",
+   "$9.5M and Anuttama Dasa apology quote verbatim (Hinduism Today 2005).",
+   "GBC 2000 poisoning resolution quote; investigations 1997 and 2001; McIrvine diagnosis (iskconnews 2025).",
+   "Rochford/Heinlein, ICJ 6:1 June 1998; quote verbatim; Dallas gurukula 1971.",
+   "GBC March 2000 women resolution quote (iskconnews 2008).",
+   "Matchless Gifts sign; 1969 single charted (No. 11 per Wikipedia); 'fourteen times in ten years'; BBT founded 1972 (bbt.info); Mayapur land 1971 (mayapur.com); 1967 stroke in New York, recuperated in India (Lilamrta vol 2 ch 56); mridanga teacher and childhood Ratha-yatra, birth day after Janmashtami, Suvarna-vanik, mother Rajani (Lilamrta vol 1 ch 1); marriage 1918, Mullik 1922, vanaprastha 1950, League of Devotees 1952, title 1939, ISKCON July 1966 (Wikipedia)."
+  ],
+  "unresolved": [
+   "Year of the Kirtanananda appellate reversal (commonly 1993, Fourth Circuit) not confirmed; text gives none.",
+   "Federal dismissal date: court-document compilation gives 28 Sep 2001; ICSA Cultic Studies Review (2003) says 2000. Text keeps 2001.",
+   "Race/women statements kept as unquoted paraphrase; no exact quotations added.",
+   "Juhu temple, Bhakti Prajnana Keshava (1898-1968) and Narayana Maharaja (1921-2010) dates, Narayana Maharaja's role at the burial, and Burt's publication year not checked in this pass.",
+   "Child protection office founding year (1997 vs 1998) not confirmed."
   ]
  }
 }
