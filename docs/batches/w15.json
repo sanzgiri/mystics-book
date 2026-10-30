@@ -1,0 +1,78 @@
+{
+  "batch": "w15",
+  "nodes_add": [
+    {"id": "malladihalli-raghavendra", "name": "Malladihalli Raghavendra Swami (Tiruka)", "born": 1890, "died": 1996, "part": 5, "tier": "node", "kind": "person", "note": "Yoga teacher; Anatha Sevashrama Trust, Malladihalli, Chitradurga district, Karnataka; wrote on Suryanamaskara; taught hatha yoga to the boy Jaggi Vasudev"},
+    {"id": "palani-swami", "name": "Palani Swami (guru of a previous life, by Sadhguru's account)", "part": 5, "tier": "node", "kind": "person", "note": "Named in Arundhathi Subramaniam's authorised biography as the guru of Sadhguru's earlier life as Shivayogi; no independent historical record"}
+  ],
+  "nodes_update": [
+    {"id": "sadhguru", "name": "Sadhguru (Jaggi Vasudev)", "born": 1957, "note": "Born Jagadish Vasudev, Mysore, 3 September 1957. Chamundi Hill experience 23 September 1982 (his account); Isha Foundation 1992 (1993 in some accounts); Isha Yoga Center 1994; Dhyanalinga 1999; Inner Engineering and Shambhavi Mahamudra Kriya; Adiyogi bust 2017"}
+  ],
+  "edges_remove": [],
+  "edges_upsert": [
+    {"from": "malladihalli-raghavendra", "to": "sadhguru", "type": "influenced", "evidence": "testimony", "verified": true, "year": 1970, "note": "Taught him hatha yoga when he was 12 or 13 (c. 1969-70) and the Swami about 81; source is Sadhguru's own account via Subramaniam's authorised biography"},
+    {"from": "palani-swami", "to": "sadhguru", "type": "claimed", "evidence": "hagiographic", "verified": true, "note": "Past-life guru who, by Sadhguru's account, touched Shivayogi with his stick and transmitted the knowledge to consecrate the Dhyanalinga"},
+    {"from": "yoga-nath", "to": "sadhguru", "type": "influenced", "evidence": "documented", "verified": true, "note": "Isha teaches hatha yoga postures, pranayama and kriyas; Shiva presented as Adiyogi, the first yogi"}
+  ],
+  "places": [
+    {"name": "Mysore", "lat": 12.296, "lon": 76.639, "figure": "sadhguru", "what": "Born 3 September 1957; first yoga class, seven participants, 1983 (city-level coordinates)", "verified": true},
+    {"name": "Chamundi Hill, Mysore", "lat": 12.272, "lon": 76.671, "figure": "sadhguru", "what": "Experience of 23 September 1982, by his own account (hilltop temple area)", "verified": true},
+    {"name": "Coimbatore (Isha)", "lat": 10.976, "lon": 76.738, "figure": "sadhguru", "what": "Isha Yoga Center, Velliangiri foothills, from 1994; Dhyanalinga consecrated 24 June 1999", "verified": true},
+    {"name": "Adiyogi, Isha Yoga Center", "lat": 10.972, "lon": 76.740, "figure": "sadhguru", "what": "112-foot Adiyogi bust unveiled by Narendra Modi, 24 February 2017 (approximate)", "verified": false}
+  ],
+  "glossary": [
+    {"term": "Prana pratishtha", "script": "प्राणप्रतिष्ठा", "lang": "sa", "def": "Literally installing the life breath; the temple rite that makes an image a living presence. Sadhguru uses it for his consecrations, such as the Dhyanalinga."},
+    {"term": "Mudra", "script": "मुद्रा", "lang": "sa", "def": "A seal or gesture; in yoga, a position of the body, hands or eyes held to direct attention or energy."},
+    {"term": "Adiyogi", "script": "आदियोगी", "lang": "sa", "def": "The first yogi; Sadhguru's name for Shiva as the source of yoga, presented as a teacher more than as a god to be worshipped."},
+    {"term": "Linga", "script": "लिङ्ग", "lang": "sa", "def": "Mark or sign; the rounded upright form in which Shiva is worshipped in temples."}
+  ],
+  "art": [],
+  "issues": [
+    "sadhguru.mdx: Isha Foundation founding year is 1992 (Isha/Wikipedia) and 1993 (The Week, 2017); both given in glance.",
+    "sadhguru.mdx: Vijji's death date 23 January 1997 rests on Wikipedia only; text hedges 'in most accounts'. The outcome of her father's complaint rests on The Week (2019): 'dismissed by the Coimbatore Police'; the Isha spokesperson said 'dismissed by courts'. The text says police and quotes Isha; I could not find the 1997 New Indian Express report or any court record. Fact-checker should look for a primary report (e.g. NIE archive, 10 Oct 1997).",
+    "sadhguru.mdx: 2016 habeas corpus: LiveLaw says the district judge's report noted the centre's influence could not be ruled out; BOOM says the report found no truth in the allegations and the bench dismissed the plea. Text says accounts differ and that no illegal detention was found.",
+    "sadhguru.mdx: Malladihalli Raghavendra's teaching rests on Sadhguru's account in Subramaniam's biography (cited via Wikipedia, 2013 Penguin edition, p. 52). Biography year given as 2010 (first edition); check. Malladihalli place not added to places (coordinates uncertain).",
+    "sadhguru.mdx: Palani Swami's name comes from Subramaniam's biography via Wikipedia; Isha's 'Shivayogi' page does not name the guru. Hagiographic node added.",
+    "sadhguru.mdx: 'In his telling, yoga began with Adiyogi more than ten thousand years ago' is taken from the Sounds True episode description, not a verbatim Sadhguru source.",
+    "sadhguru.mdx: the Vijnana Bhairava link to the 112 methods is the author's gloss (the text does list 112 dharanas); Isha's unveiling article does not name the text.",
+    "sadhguru.mdx: Linga Bhairavi shrine mentioned without date (not verified in this session).",
+    "sadhguru.mdx: Isha's official YouTube channel URL not seen in search results; marked [to locate].",
+    "sadhguru.mdx: deliberately omitted: specific 2025 allegations of sexual misconduct circulated online and in a YouTube video against the ashram/Sadhguru, which Isha calls fabricated and defamatory; only the Delhi High Court's interim takedown order (March 2025) is reported. Also omitted the reported June 2025 police closure report on school-abuse allegations (seen only in a National Herald summary of media reports) and political statements (e.g. CAA). Author's decision whether to add with stronger sources.",
+    "sadhguru.mdx: Rally for Rivers launch date 3 September 2017 and Save Soil details (London start, ~100 days, UNCCD May 2022) rest on Wikipedia summaries; Deccan Herald page could not be fetched.",
+    "sadhguru.mdx: Adiyogi coordinates approximate; place marked verified false."
+  ],
+  "sources": {
+    "sadhguru": [
+      "Born Jagadish Vasudev 3 Sep 1957 Mysore; parents B.V. Vasudev (ophthalmologist, railway hospital) and Susheela; youngest of five; English literature, University of Mysore; poultry farm; Buildaids construction; 23 Sep 1982; first class 1983; Sahaja Sthiti Yoga; married Vijayakumari 1984; Radhe 1990; Vijji died 23 Jan 1997; Isha 1992; land 1994; Padma Vibhushan 2017; Project GreenHands 2004, award 2010 -> https://en.wikipedia.org/wiki/Sadhguru and https://en.wikipedia.org/wiki/Isha_Foundation",
+      "Malladihalli Raghavendra 27 Jul 1890-21 Aug 1996; Anatha Sevashrama Trust, Malladihalli, Chitradurga; Jaggi 12 or 13, Swami about 81; Subramaniam 2013 p.52 -> https://en.wikipedia.org/wiki/Malladihalli_Raghavendra",
+      "Chamundi Hill account: rock, eyes open, 'What was me was spread all over the place', 5-10 minutes vs 4.5 hours (3:00-7:30 pm), shirt wet with tears, recurred once 13 days, voice and eyes changed within ~6 weeks -> https://isha.sadhguru.org/en/wisdom/article/sadhguru-enlightenment-experience",
+      "First class 1983 Mysuru, seven participants; 200-acre centre; 21-week hatha yoga teacher training; Isha 'born in 1993' -> https://www.theweek.in/theweek/cover/sadhgurus-isha-yoga-centre.html",
+      "Seventh Hill seen from bend in road; land registered on eleventh day -> https://isha.sadhguru.org/en/sadhguru/mission/the-birth-of-isha-yoga-center",
+      "Dhyanalinga consecration completed 24 June 1999 -> https://isha.sadhguru.org/en/blog/article/dhyanalinga-his-only-obsession",
+      "Dhyanalinga: prana pratishtha took three years; no rituals or prayers; total silence -> https://isha.sadhguru.org/en/wisdom/article/what-is-dhyanalinga",
+      "Bilva ~400 years ago, snake charmer, present-day Madhya Pradesh, tied to tree, snakebite, watched breath -> https://isha.sadhguru.org/en/sadhguru/mystic/bilva",
+      "Shivayogi: 'He touched me with his stick'; guru communicated technology to consecrate Dhyanalinga -> https://isha.sadhguru.org/global/en/sadhguru/mystic/shivayogi",
+      "Sadhguru Sri Brahma: 70 institutions in Tamil Nadu; left body on Seventh Hill; 'This one will come back again' -> https://isha.sadhguru.org/us/en/sadhguru/mystic/sadhguru-sri-brahma",
+      "Quotes 'The nature and basis of your experience is within you', 'Technology means doing something the way it works', 'stress is your creation' -> https://isha.sadhguru.org/en/wisdom/article/doing-the-right-things-with-yourself",
+      "Shambhavi: mudra = seal, 'you lock it'; 21-minute practice; preparation 'to get you to the right level of receptivity'; at least ninety days; '6.4 years younger' claim -> https://isha.sadhguru.org/en/wisdom/article/what-is-shambhavi-mahamudra",
+      "Adiyogi 'represents the 112 ways'; 'seekers, not believers' -> https://isha.sadhguru.org/en/blog/article/prime-minister-unveil-112-ft-tall-face-adiyogi-mahashivratri",
+      "Adiyogi unveiled by Modi on Mahashivaratri 24 Feb 2017, 112 ft -> https://www.deccanchronicle.com/nation/in-other-news/240217/coimbatore-narendra-modi-unveils-112-feet-shiva-statue-on-mahashivaratri.html",
+      "Inner Engineering, Harmony, 20 Sep 2016, NYT bestseller -> https://www.penguinrandomhouse.com/books/247948/inner-engineering-by-sadhguru/",
+      "Sounds True interview, Tami Simon, 23 Jan 2018, 69 min; Adiyogi tradition 'more than 10,000 years ago' -> https://www.soundstrue.com/a/resources/podcast/sadhguru-jaggi-vasudev-the-immensity-of-i-dont-know",
+      "Brain surgery 17 Mar 2024, Indraprastha Apollo, subdural haematoma, chronic bleed 3-4 weeks -> https://www.onmanorama.com/news/india/2024/03/20/sadhguru-jaggi-vasudev-brain-surgery.html",
+      "1997 complaint by then father-in-law; NIE report 10 Oct 1997; dismissed by Coimbatore Police; Isha: 'a baseless charge that was brought up by a few motivated groups'; Divya Spandana post 4 Mar 2019 -> https://www.theweek.in/news/india/2019/03/05/congress-it-cell-murder-charge-sadhguru.html",
+      "Kamaraj HCP 2487/2024; Geetha (Maa Mathi) 42, Latha (Maa Maayu) 39; bench S.M. Subramaniam and V. Sivagnanam; 2016 petition with district judge visit; oral remark on daughter's marriage -> https://www.livelaw.in/amp/high-court/madras-high-court/madras-high-court-probe-fathers-plea-daughters-captive-isha-foundation-271183",
+      "HC order 30 Sep 2024; SC 3 Oct stay (Chandrachud CJ, Pardiwala, Misra JJ) and transfer; 18 Oct closure, both women major -> https://www.scconline.com/blog/post/2024/10/18/habeas-corpus-petition-against-isha-yoga-centre-closed-supreme-court-legal-news/",
+      "SC 18 Oct: 'unnecessary for this court to expand the ambit'; 'will not come in the way of any investigations'; 'malign an organisation'; ICC needed; Isha: adults 'have the freedom and the wisdom to choose their path' -> https://thesouthfirst.com/tamilnadu/supreme-court-closes-habeas-corpus-petition-against-jaggi-vasudevs-isha-foundation",
+      "150 police on 1 Oct 2024, left next day; six missing since 2016, five traced, Ganesan missing since Mar 2023; 2016 district judge report; 'residing at the Ashram voluntarily and without any coercion' -> https://boomlive.in/law/isha-foudation-supreme-court-sadhguru-jaggi-vasudev-habeas-corpus-missing-persons-26664",
+      "Doctor S. Saravanamoorthy arrested 6 Sep 2024 under POCSO, Isha mobile medical unit, Thondamuthur school camp; Isha 'Zero Tolerance Policy' -> https://thenewsminute.com/tamil-nadu/coimbatore-doctor-held-for-alleged-sexually-assault-of-12-girl-students-at-isha-medical-camp",
+      "Delhi HC interim takedown, Justice Subramonium Prasad, Shyam Meera Singh video uploaded 24 Feb 2025 -> https://www.newslaundry.com/2025/03/12/hc-directs-takedown-of-youtubers-video-on-jaggi-vasudevs-ashram",
+      "Isha defamation suit against Nakkheeran, Rs 3 crore -> https://www.newslaundry.com/2024/12/03/isha-foundation-files-defamation-suit-against-tamil-media-outlet-nakkheeran-seeks-rs-3-crore-as-damages",
+      "TNPCB notice 19 Nov 2021; buildings 2006-2014; HC Dec 2022 educational-institution exemption; Nov 2012 inspection 60 buildings without approval, 34 under construction; SC 28 Feb 2025 Surya Kant and N.K. Singh; 'we become suspicious'; future expansion needs permission; Isha would comply -> https://scroll.in/latest/1079742/sc-upholds-high-court-order-exempting-jaggi-vasudevs-foundation-from-environmental-clearance",
+      "CAG 2017 'buildings were in the protected area of Booluvapatti reserve forest range', HACA approval pending July 2017; Isha: private patta land, no encroachment per Forest Dept affidavit, not near elephant corridor, HACA approval March 2017 -> https://isha.sadhguru.org/en/blog/article/isha-response-cag-report",
+      "Cauvery Calling July 2019, 242 crore trees; Karnataka HC dismissal 7 Sep 2021 (Sharma ACJ, Magadum J), 'Planting trees on a barren land is not a crime'; Amarnathan removed, suo motu; Jan 2020 Oka CJ bench; Holla: accounts declared annually; CEJI Sept 2019 -> https://scroll.in/latest/1004788/karnataka-hc-dismisses-plea-challenging-cauvery-calling-project-by-jaggi-vasudevs-isha-foundation",
+      "Eclipse: 'What was nourishing food turns into poison'; critique by Prayas Sutar 3 Feb 2018 -> https://www.newslaundry.com/2018/02/03/lunar-eclipse-super-blue-blood-moon-superstition-sadhguru-jaggi-vasudev",
+      "Mercury tweet 8 Feb 2018 'Responsible usage of mercury for medicinal and yogic purposes must be allowed'; solidify mercury claim; Sumaiya Shaikh, Alt News 26 Feb 2018 -> https://www.altnews.in/scientific-research-ascertains-mercury-toxicity-sadhguru-continues-endorse-indian-traditional-medicines/",
+      "Upadhyay et al. 2022 Frontiers in Psychology, prospective cohort, no control group, SMK 21 minutes, online IE Completion -> https://www.frontiersin.org/articles/10.3389/fpsyg.2022.814224/text"
+    ]
+  }
+}

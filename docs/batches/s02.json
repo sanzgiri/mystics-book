@@ -1,0 +1,100 @@
+{
+ "batch": "s02",
+ "nodes_add": [
+  {"id": "nigamananda", "name": "Nigamananda Paramahansa", "born": 1880, "died": 1935, "part": 6, "tier": "node", "kind": "person", "note": "Bengali Tantric and Advaita teacher; his tradition says Bamakhepa initiated him. Born Nalinikanta Chattopadhyay, 18 Aug 1880; died Calcutta 29 Nov 1935 (Wikipedia)."},
+  {"id": "kailashpati-baba", "name": "Kailashpati Baba", "part": 6, "tier": "node", "kind": "person", "note": "Tantric teacher at Tarapith, first guru of Bamakhepa in devotional biographies. No dates; known only from those accounts."},
+  {"id": "mokshadananda", "name": "Mokshadananda", "part": 6, "tier": "node", "kind": "person", "note": "Second teacher of Bamakhepa in devotional biographies (also Mokshananda, Mokshadanandanath). No dates; known only from those accounts."},
+  {"id": "ram-dass", "name": "Ram Dass", "born": 1931, "died": 2019, "part": 7, "tier": "node", "kind": "person", "note": "Born Richard Alpert, Boston, 6 Apr 1931; met Neem Karoli Baba 1967; Be Here Now (1971); died Maui 22 Dec 2019."},
+  {"id": "mataji-krishnabai", "name": "Mataji Krishnabai", "born": 1903, "died": 1989, "part": 7, "tier": "node", "kind": "person", "note": "Disciple of Papa Ramdas; co-founder and later head of Anandashram until 1989."},
+  {"id": "swami-satchidananda-anandashram", "name": "Swami Satchidananda (Anandashram)", "born": 1919, "died": 2008, "part": 7, "tier": "node", "kind": "person", "note": "Joined Anandashram 1949; led it after Krishnabai until 2008. Not the Integral Yoga founder of the same name."},
+  {"id": "siddharudha-swami", "name": "Siddharudha Swami of Hubli", "part": 7, "tier": "node", "kind": "person", "note": "Hubli saint who advised Ramdas in 1923. Dates not verified, omitted."}
+ ],
+ "nodes_update": [
+  {"id": "neem-karoli-baba", "note": "Birth year approximate (c. 1900); birthplace district disputed (Firozabad or Ambedkar Nagar). Died 11 Sep 1973, Vrindavan."}
+ ],
+ "edges_remove": [],
+ "edges_upsert": [
+  {"from": "tantra-shakta", "to": "bamakhepa", "type": "lineage", "evidence": "testimony", "verified": true, "note": "Shakta Tara worship of Birbhum; Tarapith cremation-ground practice."},
+  {"from": "kailashpati-baba", "to": "bamakhepa", "type": "initiated", "evidence": "hagiographic", "verified": true, "note": "First teacher at Tarapith per Harding (via kalimandir.org) and Wikipedia. No independent source."},
+  {"from": "mokshadananda", "to": "bamakhepa", "type": "initiated", "evidence": "hagiographic", "verified": true, "note": "Second teacher per the same devotional biographies."},
+  {"from": "bamakhepa", "to": "nigamananda", "type": "initiated", "evidence": "testimony", "verified": true, "note": "Nigamananda's tradition says Bamakhepa gave him diksha and told him to learn Advaita from a Vedantic guru (Wikipedia on Nigamananda). Date not fixed, shortly before 1902."},
+  {"from": "ramana-maharshi", "to": "papa-ramdas", "type": "influenced", "evidence": "testimony", "verified": true, "year": 1922, "note": "Brief visit to Tiruvannamalai; Ramana blessed him in silence by Ramdas's own account in In Quest of God. Year 1922/23."},
+  {"from": "rama-tirtha", "to": "papa-ramdas", "type": "influenced", "evidence": "testimony", "verified": true, "note": "Read his writings before renunciation (hinduismwayoflife biography)."},
+  {"from": "vivekananda", "to": "papa-ramdas", "type": "influenced", "evidence": "testimony", "verified": true, "note": "Read his works (same source)."},
+  {"from": "ramakrishna", "to": "papa-ramdas", "type": "influenced", "evidence": "testimony", "verified": true, "note": "Read his teachings (same source)."},
+  {"from": "siddharudha-swami", "to": "papa-ramdas", "type": "influenced", "evidence": "testimony", "verified": true, "year": 1923, "note": "Advised him in Hubli to return to his family (Wikipedia, anandashram.org)."},
+  {"from": "papa-ramdas", "to": "mataji-krishnabai", "type": "initiated", "evidence": "documented", "verified": true, "year": 1928, "note": "Chief disciple; Kasargod ashram 1928; ashram head after his death."},
+  {"from": "papa-ramdas", "to": "swami-satchidananda-anandashram", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1949, "note": "Joined Anandashram 1949; travelled with Ramdas 1954-55."},
+  {"from": "neem-karoli-baba", "to": "ram-dass", "type": "initiated", "evidence": "documented", "verified": true, "year": 1967, "note": "Met at Kainchi 1967 and given the name Ram Dass; documented in Ram Dass's own books."}
+ ],
+ "places": [
+  {"name": "Tarapith", "lat": 24.12, "lon": 87.79, "figure": "bamakhepa", "what": "Tara temple and cremation ground; his home from the 1850s to 1911; shrine in front of the temple.", "verified": false},
+  {"name": "Atla", "lat": 24.12, "lon": 87.78, "figure": "bamakhepa", "what": "Birth village in Rampurhat subdivision, Birbhum. Coordinates approximate.", "verified": false},
+  {"name": "Hosdurg (Kanhangad)", "lat": 12.31, "lon": 75.09, "figure": "papa-ramdas", "what": "Birth 10 April 1884.", "verified": true},
+  {"name": "Anandashram, Kanhangad", "lat": 12.31, "lon": 75.1, "figure": "papa-ramdas", "what": "Founded 15 May 1931 near Manjapathi hill; his home until death in 1963.", "verified": false},
+  {"name": "Kasaragod", "lat": 12.5, "lon": 74.99, "figure": "papa-ramdas", "what": "First ashram, 3 June 1928.", "verified": true},
+  {"name": "Srirangam", "lat": 10.86, "lon": 78.69, "figure": "papa-ramdas", "what": "Sannyas and the name Ramdas, December 1922.", "verified": true},
+  {"name": "Mangalore", "lat": 12.91, "lon": 74.86, "figure": "papa-ramdas", "what": "Dyeing business 1919; Kadri hill cave where In Quest of God was written.", "verified": true},
+  {"name": "Tiruvannamalai", "lat": 12.23, "lon": 79.07, "figure": "papa-ramdas", "what": "Met Ramana Maharshi and spent about 21 days in a cave on Arunachala, 1922-23.", "verified": true},
+  {"name": "Kainchi Dham", "lat": 29.4, "lon": 79.5, "figure": "neem-karoli-baba", "what": "Ashram near Nainital; site chosen 1962, Hanuman consecrated 15 June 1964; where Ram Dass met him in 1967.", "verified": true},
+  {"name": "Vrindavan", "lat": 27.58, "lon": 77.7, "figure": "neem-karoli-baba", "what": "His ashram and the hospital where he died on 11 September 1973.", "verified": true}
+ ],
+ "glossary": [
+  {"term": "Khepa", "script": "ক্ষ্যাপা", "lang": "bn", "def": "Bengali for mad. Used by Tantrics and Bauls as a term of respect for a holy person who ignores convention, as in Bamakhepa."},
+  {"term": "Shakti Pitha", "script": "शक्ति पीठ", "lang": "sa", "def": "A pilgrimage site where, in tradition, a part of the goddess Sati's body fell. Tarapith is counted among them."},
+  {"term": "Smashan", "script": "श्मशान", "lang": "sa", "def": "A cremation ground. In Tantric practice it is a place for worship of the goddess because it holds what ordinary religion avoids."},
+  {"term": "Ram Nam", "script": "राम नाम", "lang": "hi", "def": "The name of Ram, repeated aloud or silently as the central practice of Ram devotion."},
+  {"term": "Seva", "script": "सेवा", "lang": "sa", "def": "Selfless service to others or to God, treated as worship."},
+  {"term": "Likhit japa", "script": "लिखित जप", "lang": "sa", "def": "Writing a mantra repeatedly in a notebook instead of speaking it."},
+  {"term": "Prasad", "script": "प्रसाद", "lang": "sa", "def": "Food offered to a deity or a teacher and then shared out as a blessing."}
+ ],
+ "art": [],
+ "issues": [
+  "bamakhepa.mdx: Birth (22 Feb 1837) and death (18 July 1911) full dates appear only on Wikipedia, which cites no primary source; hedged in the entry. Parents' names, siblings, teachers, mother's funeral and Natore dream come only from Harding (via kalimandir.org excerpt, pp. 274-281) and web retellings; Harding's book itself was not seen. Need a Bengali source (e.g. a Bamakhepa jivani) or Kinsley/Ramos checked.",
+  "bamakhepa.mdx: Teacher names vary (Kailashpati/Kailaspati Baba; Mokshadananda/Mokshananda/Mokshadanandanath). Spelling not settled; two new nodes have no dates.",
+  "bamakhepa.mdx: Wikipedia lists 'Tarakhepa' as a disciple; no other source found, so omitted. Nigamananda initiation rests on Wikipedia's Nigamananda article only (no Nigamananda primary text seen).",
+  "bamakhepa.mdx: Dalrymple's Nine Lives chapter 'The Lady Twilight' is about Manisha Ma Bhairavi; whether it mentions Bamakhepa was not confirmed (Wikipedia cites pp. 203-233). Listed in Further reading only as background; fact-checker should verify or drop. Ramos 2014 paper (closed access) not read; only title and metadata used.",
+  "bamakhepa.mdx: Kalimandir says he was born a year after Ramakrishna; no source seen reports a meeting. Not claimed. Tarapith and Atla coordinates approximate (Atla verified false).",
+  "papa-ramdas.mdx: Death date conflict: 25 July 1963 (Wikipedia, hinduismwayoflife) vs 2 August 1963 (wahiduddin.net) vs 'July 1963' (ruhaniat.org, anandashram.org gives only 1963). Entry says July, with both dates in glance.",
+  "papa-ramdas.mdx: Anandashram date: official timeline says 1928 'Anandashram opens at Kanjahngad'; Wikipedia and a biography give Kasargod ashram 3 June 1928 and Anandashram at Kanhangad 15 May 1931. Entry follows 1931 and notes the discrepancy. Schools/hospital dates also differ (timeline 1934/1942/1945; biography 1933-1952); omitted.",
+  "papa-ramdas.mdx: Marriage year (1908 or 1909) and wife's name (Rukmabai or Umabai) conflict between Wikipedia and hinduismwayoflife. Daughter's birth 1913 is Wikipedia only. Ramana meeting and 21-day Arunachala cave rest on Wikipedia's summary of In Quest of God; the book was not read. anandashram.org says only that Ramana gave silent grace. 'Failed matriculation more than once' Wikipedia only. 1920 'glimpse of Gandhi' on anandashram.org not used.",
+  "papa-ramdas.mdx: The 'Spirituality that cannot be applied...' quotation is from anandashram.org (page lists it as his saying) with no book citation. The Krishnabai-criticism passage rests on Wikipedia's summary of Krishnabai's recollections; primary text (God's Grace, 1964) not seen. The attempted-assault detail was deliberately left out. 75 crore figure from Wikipedia's Anandashram article, unattributed to a date. Satchidananda here is not the Yogaville founder.",
+  "papa-ramdas.mdx: No audio/film media cards (profile format). wahiduddin.net page reportedly has a sound clip; not checked.",
+  "neem-karoli-baba.mdx: Birth name (Lakshman vs Lakshmi Narayan Sharma), year (c. 1900) and district of Akbarpur (Firozabad vs Ambedkar Nagar) all conflict; no birth place coordinate given. Marriage at 11 and family come from Wikipedia and a Brut article without primary sources. No guru identified in any source seen.",
+  "neem-karoli-baba.mdx: Miracle of Love publication year conflicts: 1978 (Wikipedia Ram Dass article), 1979 (Goodreads), 1995 (edition cited by Wikipedia). Entry says 1978 or 1979. The 'Facts are few, stories many' line is taken from Goodreads' description of the book, not from the book; verify against the text. Be Here Now: Lama Foundation 1971 is from Wikipedia.",
+  "neem-karoli-baba.mdx: 'Spleen!' and LSD stories are Ram Dass's later telling (layoga.com and Wikipedia summaries); Ram Dass's books not read. The 'Love everyone, serve everyone...' maxim is attributed on culture-and-heritage and Taos ashram pages with no primary source. 'Sab ek' from the Taos ashram. Neeb Karori train story from the Taos ashram site, labelled traditional. Death details and last words are Wikipedia only.",
+  "neem-karoli-baba.mdx: Not used because unsourced: claims about Steve Jobs, Mark Zuckerberg and Julia Roberts; Brut's figures about a 2026 film Hanuman Ansh; the Kainchi 2.4 million visitor figure is attributed to the Uttarakhand government via Wikipedia and should be checked. Kainchi founding: Wikipedia says site chosen 1962 and Hanuman consecrated 15 June 1964; other pages say simply 1964. Dada Mukerjee 'By His Grace' (2001) and Krishna Das 'Chants of a Lifetime' (2010) listed from Wikipedia's bibliography, not seen.",
+  "All three: the wikipedia.org API and en.wikipedia.org/wiki/Papa_Ramdas were not reachable; Wikipedia content was read through WebFetch summaries and may be imprecise. Several fetched pages (hinduismwayoflife, thenirvanist, hinduismtoday) were summaries by a small model. Fact-checker should re-fetch key dates.",
+  "papa-ramdas.mdx / neem-karoli-baba.mdx / bamakhepa.mdx: Language row in glance: Papa Ramdas written 'Books written in English' (his mother tongue not verified); language rows for the other two were dropped or Bengali assumed."
+ ],
+ "sources": {
+  "bamakhepa": [
+   "Bamacharan Chattopadhyay, born 22 Feb 1837 Atla, Birbhum; died 18 July 1911 Tarapith; teachers Kailashpati and Mokshadananda; disciples Tarakhepa and Nigamananda -> https://en.wikipedia.org/wiki/Bamakhepa",
+   "Father Sarvananda Chatterjee, mother Rajkumari, sister, brother Ramcharan, uncle Durga Charan Sarkar; Dwaraka river; teachers Kailaspati Baba and Mokshananda; Natore Maharani dream; mother's funeral; sayings (Mother revealed everything; Father and Mother naked) -> https://www.kalimandir.org/post/sri-bamakhepa-of-tarapith (excerpt of Harding 1993 pp. 274-281)",
+   "Natore queen dream, small shrine in front of Tara temple next to Kal Bhairav -> https://vanamalaarts.org/?p=871",
+   "Birth village Atla/Rampurhat, sadhana under Kailashpati Baba and Mokshadananda -> https://greenmesg.org/saints/bamakhepa.php",
+   "Nigamananda initiated by Bamakhepa, 1902 Pushkar -> https://en.wikipedia.org/wiki/Nigamananda_Paramahansa",
+   "Imma Ramos, 'The Sweetening of Death: Bamakhepa's Visualization of Tara at Bengal's Tarapith Temple', Journal of the LUCAS Graduate Conference 2 (2014) 127-146 -> https://scholarlypublications.universiteitleiden.nl/handle/1887/23304",
+   "Wikipedia bibliography: Dalrymple, Nine Lives pp. 203-233; Kinsley 1997; Harding 1993/1998 -> https://en.wikipedia.org/wiki/Bamakhepa"
+  ],
+  "papa-ramdas": [
+   "Born Vittal Rao 10 Apr 1884 Hosdurg; parents Balakrishna Rao and Lalita Bai; failed matriculation; textile training Bombay; Gulbarga; married 1908; daughter 1913; Mangalore dyeing 1919; left 27 Dec 1922; Srirangam; Ramana; 21 days in Arunachala cave; Hubli 1923; Kadri cave; In Quest of God 1925; Kasargod ashram 3 June 1928; Anandashram 15 May 1931; world tour 1954; died 25 July 1963; book list -> https://en.wikipedia.org/wiki/Swami_Ramdas (via WebFetch summary)",
+   "Parents, siblings, mill jobs, marriage at 25, Ram mantra from father's sannyasi, left Dec 1922 with two dhotis and 25 rupees, Ramana, cave, Krishnabai (1903-1989), Aug 1954-Jan 1955 tour, Suzuki, died 25 July 1963 -> https://hinduismwayoflife.com/?p=4192",
+   "27 Dec 1922 set out; 'Spirituality that cannot be applied in actual life is no spirituality.'; Ram mantra; Ramana's silent grace; 1931 Kanhangad -> https://anandashram.org/subtle-and-mysterious-power-god/",
+   "Timeline 1922, 1925, 1928, 1954, 1955, 1963, 1964 (God's Grace), 1989 -> https://anandashram.org/timeline/",
+   "Kasaragod 3 June 1928, Kanhangad 15 May 1931, Satchidananda joined 1949 (d. 2008), likhit japa 75 crore -> https://en.wikipedia.org/wiki/Anandashram,_Kanhangad",
+   "Death given as 2 August 1963 -> https://wahiduddin.net/ramdas/vision_of_god.htm",
+   "Death 'July 1963' -> https://ruhaniat.org/index.php/lineage/godparents/93-papa-swami-ramdas-mother-krishnabai"
+  ],
+  "neem-karoli-baba": [
+   "Lakshman Narayan Sharma c. 1900 Akbarpur; married at 11; two sons and a daughter; names Lakshman Das, Handi Wallah Baba, Tikonia Wallah Baba; Kainchi 1964; over 100 temples; death 11 Sep 1973 Vrindavan, diabetic coma, last words 'Jaya Jagadish Hare'; Western disciples -> https://en.wikipedia.org/wiki/Neem_Karoli_Baba (via WebFetch summary)",
+   "Kainchi site chosen 1962 with Poornanand; Hanuman consecrated 15 June 1964; 2.4 million visitors 2024 -> https://en.wikipedia.org/wiki/Kainchi_Dham",
+   "1967 meeting via Bhagavan Das at Kainchi; LSD story; name Ram Dass; Be Here Now 1971 Lama Foundation; Miracle of Love 1978; Hanuman Foundation 1974; Seva Foundation 1978; Ram Dass 6 Apr 1931-22 Dec 2019 -> https://en.wikipedia.org/wiki/Ram_Dass",
+   "Mother's death, 'Spleen!' story, five months with Maharajji -> https://layoga.com/practice/spirituality/ram-dass-hail-the-goer/",
+   "Quoted maxim 'Love everyone, serve everyone, remember God, and tell the truth'; Neem Karoli station story as unsourced tradition -> https://cultureandheritage.org/2024/03/the-mystical-life-of-neem-karoli-baba-saint-of-modern-india.html",
+   "'Sub Ek'; Neeb Karori train story as traditional account; siddhis -> https://nkbashram.org/si-neem-karoli-baba-ji",
+   "Miracle of Love 1979 and the 'Facts are few, stories many' description -> https://www.goodreads.com/book/show/603907",
+   "Death 11 Sep 1973 Vrindavan; birth c. 1900 Akbarpur -> https://organiser.org/2026/09/11/379932/bharat/neem-karoli-baba-death-anniversary-remembering-maharaj-ji-and-his-teachings-on-seva-and-faith/amp/"
+  ]
+ }
+}
