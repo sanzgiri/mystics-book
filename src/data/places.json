@@ -1579,27 +1579,27 @@
   },
   {
    "name": "Mahelav",
-   "lat": 22.65,
-   "lon": 72.85,
+   "lat": 22.477,
+   "lon": 72.799,
    "figure": "shastriji-pramukh",
    "what": "Birthplace of Shastriji Maharaj, 1865",
-   "verified": false
+   "verified": true
   },
   {
    "name": "Vadtal",
-   "lat": 22.58,
+   "lat": 22.59,
    "lon": 72.87,
    "figure": "shastriji-pramukh",
-   "what": "Swaminarayan diocese seat; he was initiated here (1882 per Wikipedia) and left in 1905",
-   "verified": false
+   "what": "Swaminarayan diocese seat; he was initiated here (29 Nov 1882 per a BAPS biography and Williams; BAPS site says Surat) and left in 1905",
+   "verified": true
   },
   {
    "name": "Bochasan",
-   "lat": 22.5,
-   "lon": 72.95,
+   "lat": 22.41,
+   "lon": 72.843,
    "figure": "shastriji-pramukh",
-   "what": "Temple consecrated 5 June 1907; BAPS founding",
-   "verified": false
+   "what": "Temple consecrated 1907 (5 June per a BAPS biography); BAPS founding",
+   "verified": true
   },
   {
    "name": "Gondal",

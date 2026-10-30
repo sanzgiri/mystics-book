@@ -9,7 +9,7 @@
    "part": 7,
    "tier": "node",
    "kind": "person",
-   "note": "Senior disciple of Swaminarayan; BAPS holds he was the earthly form of Akshar. Birth year 1784 or 1785 in different sources."
+   "note": "Mulji Jani, b. Bhadra; initiated by Swaminarayan 1810 at Dabhan; mahant of Junagadh for 40 years; d. 11 Oct 1867 Gondal. BAPS holds he was the earthly form of Akshar; Vadtal and Ahmedabad leadership reject this. Birth 28 Sep 1784 (Wikipedia) or 1785 in other sources."
   },
   {
    "id": "bhagatji-maharaj",
@@ -29,7 +29,7 @@
    "part": 7,
    "tier": "node",
    "kind": "person",
-   "note": "Jina Vasani, b. 23 May 1892 Dhari; BAPS guru 1951-1971; d. 23 Jan 1971 Mumbai."
+   "note": "Jina Vasani, b. 23 May 1892 Dhari; swami initiation 11 Apr 1911 (Gnanjivandas); met Shastriji at Rajkot 12 Aug 1910; BAPS guru 1951-1971; d. 23 Jan 1971 Mumbai."
   },
   {
    "id": "pramukh-swami",
@@ -39,7 +39,7 @@
    "part": 7,
    "tier": "node",
    "kind": "person",
-   "note": "Shantilal Patel, b. 7 Dec 1921 Chansad; BAPS president from 21 May 1950, guru 1971-2016; d. 13 Aug 2016 Sarangpur."
+   "note": "Shantilal Patel, b. 7 Dec 1921 Chansad; parshad 22 Nov 1939 Ahmedabad, swami 10 Jan 1940 Gondal; BAPS president from 21 May 1950, guru 1971-2016; d. 13 Aug 2016 Sarangpur."
   },
   {
    "id": "bipin-bihari-goswami",
@@ -82,9 +82,9 @@
   {
    "id": "shastriji-pramukh",
    "born": 1865,
-   "died": 2016,
-   "name": "Shastriji Maharaj & Pramukh Swami (BAPS)",
-   "note": "Profile centres on Shastriji Maharaj (1865-1951, founded BAPS 1907) and covers the line to Pramukh Swami. Combined node; see issues."
+   "died": 1951,
+   "name": "Shastriji Maharaj (BAPS)",
+   "note": "Profile centres on Shastriji Maharaj (1865-1951, founded BAPS 1907) and summarises the line to Pramukh Swami, who now has his own node. Id kept as shastriji-pramukh; name and death year corrected so the node does not span two lives."
   },
   {
    "id": "mahant-swami",
@@ -156,10 +156,11 @@
   {
    "from": "swaminarayan",
    "to": "gunatitanand-swami",
-   "type": "lived-with",
-   "evidence": "testimony",
+   "type": "initiated",
+   "evidence": "documented",
    "verified": true,
-   "note": "Disciple of Swaminarayan; BAPS claims he was named successor (devotional claim)."
+   "note": "Initiated as a swami by Swaminarayan at Dabhan in 1810. BAPS holds that Swaminarayan named him spiritual successor; the Vadtal and Ahmedabad dioceses reject this.",
+   "year": 1810
   },
   {
    "from": "gunatitanand-swami",
@@ -176,7 +177,7 @@
    "evidence": "testimony",
    "verified": true,
    "year": 1883,
-   "note": "Shastriji accepted Bhagatji as guru in Surat; Akshar-guru succession is the BAPS claim."
+   "note": "Shastriji accepted Bhagatji as guru in Surat, 1883; succession as Akshar guru is the BAPS claim, rejected by the Vadtal and Ahmedabad dioceses."
   },
   {
    "from": "shastriji-pramukh",
@@ -184,7 +185,7 @@
    "type": "lineage",
    "evidence": "testimony",
    "verified": true,
-   "note": "Yogiji met Shastriji in 1910, joined 1911; succeeded him 1951."
+   "note": "Met at Rajkot 12 Aug 1910 (BAPS biography via Wikipedia); Yogiji took swami vows 1911 and joined him; succeeded him as guru 1951 (BAPS account)."
   },
   {
    "from": "yogiji-maharaj",
@@ -248,27 +249,27 @@
   },
   {
    "name": "Mahelav",
-   "lat": 22.65,
-   "lon": 72.85,
+   "lat": 22.477,
+   "lon": 72.799,
    "figure": "shastriji-pramukh",
    "what": "Birthplace of Shastriji Maharaj, 1865",
-   "verified": false
+   "verified": true
   },
   {
    "name": "Vadtal",
-   "lat": 22.58,
+   "lat": 22.59,
    "lon": 72.87,
    "figure": "shastriji-pramukh",
-   "what": "Swaminarayan diocese seat; he was initiated here (1882 per Wikipedia) and left in 1905",
-   "verified": false
+   "what": "Swaminarayan diocese seat; he was initiated here (29 Nov 1882 per a BAPS biography and Williams; BAPS site says Surat) and left in 1905",
+   "verified": true
   },
   {
    "name": "Bochasan",
-   "lat": 22.5,
-   "lon": 72.95,
+   "lat": 22.41,
+   "lon": 72.843,
    "figure": "shastriji-pramukh",
-   "what": "Temple consecrated 5 June 1907; BAPS founding",
-   "verified": false
+   "what": "Temple consecrated 1907 (5 June per a BAPS biography); BAPS founding",
+   "verified": true
   },
   {
    "name": "Gondal",
@@ -333,7 +334,10 @@
   "shastriji-pramukh.mdx: profile omits the 2021 Robbinsville NJ labour lawsuit (filed May 2021, amended Nov 2021, twelve plaintiffs withdrew July 2023, action reported on hold) and the political-association debate (Nussbaum). Profiles have no critiques section; author to decide where these go (Pramukh Swami chapter or Part 7 intro).",
   "places: Birnagar, Baghbazar, Mahelav, Vadtal and Bochasan coordinates are approximate from memory and unverified (verified: false). The Mayapur, Puri and Gondal coordinates are well known.",
   "Vadtal, Ahmedabad dioceses and the Swaminarayan Sampradaya have no graph nodes; edge for Shastriji's break with Vadtal (reacted-against) was not added.",
-  "No media cards or photos included; profiles do not carry media sections."
+  "No media cards or photos included; profiles do not carry media sections.",
+  "factcheck: Nama-hatta 1886 date is not supported by the current Wikipedia article (no year given); text now gives the 1890 devotional date only. The 'five hundred centres' figure is credited to Bhaktisiddhanta's era in Back to Godhead, not to Bhaktivinoda.",
+  "factcheck: shastriji-pramukh node renamed 'Shastriji Maharaj (BAPS)' with died 1951, since pramukh-swami now has its own node; author may still want to rename the id/profile file. graph.json already contains the merged s03 data and needs re-merge.",
+  "factcheck: other Akshar-Purushottam groups that later separated from BAPS (e.g. Yogi Divine Society, Anoopam Mission) follow different successions after Yogiji; not verified, not added to text. Consider for the Part 7 intro."
  ],
  "sources": {
   "bhaktivinoda": [
@@ -354,6 +358,39 @@
    "Pramukh Swami b. 7 Dec 1921; president 21 May 1950; d. 13 Aug 2016 Sarangpur; Mahant Swami named 20 Jul 2012 -> https://en.wikipedia.org/wiki/Pramukh_Swami_Maharaj",
    "five entities, four forms of Akshar, Bhashyam 2007, Kashi 31 Jul 2017, Vadtal/Ahmedabad dissent -> https://en.wikipedia.org/wiki/Akshar_Purushottam_Darshan",
    "BAPS timeline, 1947 trust, Islington 1970, lawsuit -> https://en.wikipedia.org/wiki/Bochasanwasi_Akshar_Purushottam_Swaminarayan_Sanstha"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 78,
+  "changes": [
+   "bhaktivinoda.mdx: deputy magistrate start now '1861 or 1866' (gaudiyahistory 1861; Wikipedia 16 Feb 1866)",
+   "bhaktivinoda.mdx: Rost: 1880 is when copies were sent, not the reply date (Wikipedia)",
+   "bhaktivinoda.mdx: death place glance names Bhakti Bhavan, Calcutta (Wikipedia; thegaudiyatreasuresofbengal.com) vs Puri (gaudiyahistory)",
+   "bhaktivinoda.mdx: Nama-hatta start now 1890 (gaudiyahistory); Wikipedia gives no year; 500 centres reattributed to Bhaktisiddhanta per backtogodhead.in",
+   "bhaktivinoda.mdx: Mayapur 1887 attributed; 1896 English work titled (Wikipedia); Shukavak Dasa 1999, SRI confirmed (booksinbelgium listing)",
+   "bhaktisiddhanta.mdx: age at death 62 (6 Feb 1874 to 1 Jan 1937; 63 is arithmetically wrong)",
+   "bhaktisiddhanta.mdx: London monks arrived 1933, Gaudiya Mission Society inaugurated April 1934 with Zetland as president (Wikipedia)",
+   "bhaktisiddhanta.mdx: Gandhi reply: removed unsupported paraphrase of content; now dated Harmonist Jan 1933 essay answering Gandhi's Dec 1932 questions (Wikipedia)",
+   "bhaktisiddhanta.mdx: Navadvipa Dhama Pracarini Sabha founding attributed both ways (Wikipedia credits him; gaudiyahistory ties it to his father's 1891 lecture)",
+   "bhaktisiddhanta.mdx: Jan 1901 noted as his own testimony; Prabhupada initiation place Allahabad and 1922 meeting in Calcutta added (Prabhupada book biography)",
+   "shastriji-pramukh.mdx: initiation attributed to BAPS biography and Williams rather than 'Wikipedia'; acharya named",
+   "shastriji-pramukh.mdx: '150 devotees' cut (BAPS site: 'a handful of devotees'); poisoning dated 8-9 Nov 1905 and attributed to BAPS biographies and Kim (2009)",
+   "shastriji-pramukh.mdx: 1935 ruling corrected per Williams via Wikipedia: district judge found 1906 expulsion proceedings breached natural justice but barred BAPS monks from staying/preaching at the Ishnav temple; earlier 'headed an independent body' wording unsupported",
+   "shastriji-pramukh.mdx: 5 June 1907 attributed to BAPS biography (BAPS site gives year only)",
+   "shastriji-pramukh.mdx: Yogiji was a parshad (novice) when they met at Rajkot 1910, swami 1911; died in Mumbai; Islington detail removed (Wikipedia says only 'first mandir in London, 1970')",
+   "shastriji-pramukh.mdx: Vadtal/Ahmedabad position stated more precisely, noting some groups within them still honour Gunatitanand as Akshar (Wikipedia Gunatitanand)",
+   "shastriji-pramukh.mdx: Williams edition corrected: 2001; 3rd ed. 2018 (WorldCat, Reading Religion), not '2nd ed. 2018'",
+   "s03.json: swaminarayan->gunatitanand edge changed to initiated 1810 documented (Wikipedia); node notes enriched; shastriji-pramukh node renamed and died 1951",
+   "s03.json: Mahelav, Vadtal, Bochasan coordinates corrected/verified (indiamapia; Wikipedia)"
+  ],
+  "unresolved": [
+   "Bhaktisiddhanta sannyasa 7 vs 27 March 1918 (Gaudiya Math vs Bhaktisiddhanta Wikipedia pages); hedged",
+   "Bhagatji death 1897 vs 1898; Gunatitanand birth 1784 vs 1785; hedged",
+   "Bhaktivinoda death place Calcutta vs Puri; hedged",
+   "Shastriji initiation place Vadtal vs Surat; hedged",
+   "Kashi Vidvat Parishad 2017 recognition has only BAPS sources",
+   "Birnagar and Baghbazar coordinates remain unverified",
+   "Jagannath Das Babaji siksa claim not checked against Dasa 1999"
   ]
  }
 }

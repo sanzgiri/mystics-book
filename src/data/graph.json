@@ -883,13 +883,13 @@
   },
   {
    "id": "shastriji-pramukh",
-   "name": "Shastriji Maharaj & Pramukh Swami (BAPS)",
+   "name": "Shastriji Maharaj (BAPS)",
    "born": 1865,
-   "died": 2016,
+   "died": 1951,
    "part": 7,
    "tier": "profile",
    "kind": "person",
-   "note": "Profile centres on Shastriji Maharaj (1865-1951, founded BAPS 1907) and covers the line to Pramukh Swami. Combined node; see issues."
+   "note": "Profile centres on Shastriji Maharaj (1865-1951, founded BAPS 1907) and summarises the line to Pramukh Swami, who now has his own node. Id kept as shastriji-pramukh; name and death year corrected so the node does not span two lives."
   },
   {
    "id": "papa-ramdas",
@@ -2167,7 +2167,7 @@
    "part": 7,
    "tier": "node",
    "kind": "person",
-   "note": "Senior disciple of Swaminarayan; BAPS holds he was the earthly form of Akshar. Birth year 1784 or 1785 in different sources."
+   "note": "Mulji Jani, b. Bhadra; initiated by Swaminarayan 1810 at Dabhan; mahant of Junagadh for 40 years; d. 11 Oct 1867 Gondal. BAPS holds he was the earthly form of Akshar; Vadtal and Ahmedabad leadership reject this. Birth 28 Sep 1784 (Wikipedia) or 1785 in other sources."
   },
   {
    "id": "bhagatji-maharaj",
@@ -2187,7 +2187,7 @@
    "part": 7,
    "tier": "node",
    "kind": "person",
-   "note": "Jina Vasani, b. 23 May 1892 Dhari; BAPS guru 1951-1971; d. 23 Jan 1971 Mumbai."
+   "note": "Jina Vasani, b. 23 May 1892 Dhari; swami initiation 11 Apr 1911 (Gnanjivandas); met Shastriji at Rajkot 12 Aug 1910; BAPS guru 1951-1971; d. 23 Jan 1971 Mumbai."
   },
   {
    "id": "pramukh-swami",
@@ -2197,7 +2197,7 @@
    "part": 7,
    "tier": "node",
    "kind": "person",
-   "note": "Shantilal Patel, b. 7 Dec 1921 Chansad; BAPS president from 21 May 1950, guru 1971-2016; d. 13 Aug 2016 Sarangpur."
+   "note": "Shantilal Patel, b. 7 Dec 1921 Chansad; parshad 22 Nov 1939 Ahmedabad, swami 10 Jan 1940 Gondal; BAPS president from 21 May 1950, guru 1971-2016; d. 13 Aug 2016 Sarangpur."
   },
   {
    "id": "bipin-bihari-goswami",
@@ -4554,10 +4554,11 @@
   {
    "from": "swaminarayan",
    "to": "gunatitanand-swami",
-   "type": "lived-with",
-   "evidence": "testimony",
+   "type": "initiated",
+   "evidence": "documented",
    "verified": true,
-   "note": "Disciple of Swaminarayan; BAPS claims he was named successor (devotional claim)."
+   "note": "Initiated as a swami by Swaminarayan at Dabhan in 1810. BAPS holds that Swaminarayan named him spiritual successor; the Vadtal and Ahmedabad dioceses reject this.",
+   "year": 1810
   },
   {
    "from": "gunatitanand-swami",
@@ -4574,7 +4575,7 @@
    "evidence": "testimony",
    "verified": true,
    "year": 1883,
-   "note": "Shastriji accepted Bhagatji as guru in Surat; Akshar-guru succession is the BAPS claim."
+   "note": "Shastriji accepted Bhagatji as guru in Surat, 1883; succession as Akshar guru is the BAPS claim, rejected by the Vadtal and Ahmedabad dioceses."
   },
   {
    "from": "shastriji-pramukh",
@@ -4582,7 +4583,7 @@
    "type": "lineage",
    "evidence": "testimony",
    "verified": true,
-   "note": "Yogiji met Shastriji in 1910, joined 1911; succeeded him 1951."
+   "note": "Met at Rajkot 12 Aug 1910 (BAPS biography via Wikipedia); Yogiji took swami vows 1911 and joined him; succeeded him as guru 1951 (BAPS account)."
   },
   {
    "from": "yogiji-maharaj",
