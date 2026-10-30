@@ -1,45 +1,247 @@
 {
   "batch": "w34",
   "nodes_add": [
-    {"id": "shiv-baba", "name": "Shiv Baba (the Supreme Soul, as received by the Brahma Kumaris)", "part": 13, "tier": "node", "kind": "symbolic", "note": "God as an incorporeal point of light who, members believe, spoke through Lekhraj from the 1930s and through Dadi Gulzar after 1969."},
-    {"id": "om-radhe", "name": "Om Radhe (Mamma)", "died": 1965, "part": 13, "tier": "node", "kind": "person", "note": "Headed the trust committee of young women formed in October 1937; first administrative head of the Brahma Kumaris; died 24 June 1965. Cross-examined before a Hyderabad magistrate, January 1939."},
-    {"id": "dadi-prakashmani", "name": "Dadi Prakashmani", "born": 1922, "died": 2007, "part": 13, "tier": "node", "kind": "person", "note": "Born Rama, Hyderabad, Sindh, about 1922; joined Om Mandali at about fourteen in 1936; shared administration with Didi Manmohini after January 1969 and was chief administrative head until her death at Mount Abu on 25 August 2007."},
-    {"id": "dadi-janki", "name": "Dadi Janki", "born": 1916, "died": 2020, "part": 13, "tier": "node", "kind": "person", "note": "Chief administrative head 2007 to her death on 27 March 2020 aged 104."},
-    {"id": "nolini-kanta-gupta", "name": "Nolini Kanta Gupta", "born": 1889, "died": 1983, "part": 4, "tier": "node", "kind": "person", "note": "Revolutionary companion of Sri Aurobindo and long-time general secretary of the Sri Aurobindo Ashram. Birth and death years from general knowledge; not re-checked in this batch."}
+    {
+      "id": "shiv-baba",
+      "name": "Shiv Baba (the Supreme Soul, as received by the Brahma Kumaris)",
+      "part": 13,
+      "tier": "node",
+      "kind": "symbolic",
+      "note": "God as an incorporeal point of light who, members believe, spoke through Lekhraj from the 1930s and through Dadi Gulzar after 1969."
+    },
+    {
+      "id": "om-radhe",
+      "name": "Om Radhe (Mamma)",
+      "died": 1965,
+      "part": 13,
+      "tier": "node",
+      "kind": "person",
+      "note": "Headed the trust committee of young women formed in October 1937; first administrative head of the Brahma Kumaris; died 24 June 1965. Cross-examined before a Hyderabad magistrate, January 1939."
+    },
+    {
+      "id": "dadi-prakashmani",
+      "name": "Dadi Prakashmani",
+      "born": 1922,
+      "died": 2007,
+      "part": 13,
+      "tier": "node",
+      "kind": "person",
+      "note": "Born Rama, Hyderabad, Sindh, about 1922; joined Om Mandali at about fourteen in 1936; shared administration with Didi Manmohini after January 1969 and was chief administrative head until her death at Mount Abu on 25 August 2007."
+    },
+    {
+      "id": "dadi-janki",
+      "name": "Dadi Janki",
+      "born": 1916,
+      "died": 2020,
+      "part": 13,
+      "tier": "node",
+      "kind": "person",
+      "note": "Chief administrative head 2007 to her death on 27 March 2020 aged 104."
+    },
+    {
+      "id": "nolini-kanta-gupta",
+      "name": "Nolini Kanta Gupta",
+      "born": 1889,
+      "died": 1983,
+      "part": 4,
+      "tier": "node",
+      "kind": "person",
+      "note": "Revolutionary companion of Sri Aurobindo and long-time secretary of the Sri Aurobindo Ashram. Born 13 January 1889, died 7 February 1983 (Sri Aurobindo Ashram life-sketch; dates matched from search listings, page not fetched in fact-check)."
+    }
   ],
   "nodes_update": [
-    {"id": "dada-lekhraj", "born": 1876, "died": 1969, "name": "Dada Lekhraj (Brahma Kumaris)", "note": "Lekhraj Khubchand Kripalani; born Hyderabad, Sindh, 1876 per the movement (1884 in the WRSP timeline); Om Mandali from the mid-1930s; trust of young women October 1937; Karachi c. 1938-1950; Mount Abu from 1950; died 18 January 1969."},
-    {"id": "sri-chinmoy", "born": 1931, "died": 2007, "name": "Sri Chinmoy", "note": "Chinmoy Kumar Ghose, born Shakpura, Chittagong, 27 August 1931; Sri Aurobindo Ashram from 1944; New York 13 April 1964; UN peace meditations from 1970; died Jamaica, Queens, 11 October 2007."}
+    {
+      "id": "dada-lekhraj",
+      "born": 1876,
+      "died": 1969,
+      "name": "Dada Lekhraj (Brahma Kumaris)",
+      "note": "Lekhraj Khubchand Kripalani; born Hyderabad, Sindh, 1876 per the movement (1884 in the WRSP timeline); Om Mandali from the mid-1930s; trust of young women October 1937; Karachi c. 1938-1950; Mount Abu from 1950; died 18 January 1969."
+    },
+    {
+      "id": "sri-chinmoy",
+      "born": 1931,
+      "died": 2007,
+      "name": "Sri Chinmoy",
+      "note": "Chinmoy Kumar Ghose, born Shakpura, Chittagong, 27 August 1931; Sri Aurobindo Ashram from 1944; New York 13 April 1964; UN peace meditations from 1970; died Jamaica, Queens, 11 October 2007."
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "shiv-baba", "to": "dada-lekhraj", "type": "claimed", "evidence": "devotional", "verified": true, "year": 1936, "note": "The movement's central claim: the Supreme Soul spoke through Lekhraj's body; the murlis are the record. Visions dated 1936 by the movement, 1931 by the WRSP timeline."},
-    {"from": "bhagavad-gita", "to": "dada-lekhraj", "type": "influenced", "evidence": "documented", "verified": true, "year": 1934, "note": "His satsang in Hyderabad from about 1934 read the Gita and chanted Om; raised a Vaishnava Hindu (INFORM)."},
-    {"from": "dada-lekhraj", "to": "om-radhe", "type": "institutional", "evidence": "documented", "verified": true, "year": 1937, "note": "Made head of the trust committee of eight young women, October 1937 (Brahma Kumaris, Our Journey)."},
-    {"from": "dada-lekhraj", "to": "dadi-prakashmani", "type": "institutional", "evidence": "documented", "verified": true, "year": 1969, "note": "Joined 1936; with Didi Manmohini took over administration after his death in January 1969; chief administrative head to 2007."},
-    {"from": "dadi-prakashmani", "to": "dadi-janki", "type": "institutional", "evidence": "documented", "verified": true, "year": 2007, "note": "Succeeded her as chief administrative head in 2007."},
-    {"from": "aurobindo", "to": "sri-chinmoy", "type": "institutional", "evidence": "documented", "verified": true, "year": 1944, "note": "Entered the Sri Aurobindo Ashram in 1944 aged twelve; stayed about twenty years; New York from April 1964. No formal initiation by Aurobindo recorded."},
-    {"from": "mirra-alfassa", "to": "sri-chinmoy", "type": "institutional", "evidence": "documented", "verified": true, "year": 1944, "note": "Grew up in the ashram under the Mother's direction, 1944-1964."},
-    {"from": "nolini-kanta-gupta", "to": "sri-chinmoy", "type": "lived-with", "evidence": "testimony", "verified": true, "note": "By Sri Chinmoy's own account he was Nolini Kanta Gupta's personal secretary for about eight years."}
+    {
+      "from": "shiv-baba",
+      "to": "dada-lekhraj",
+      "type": "claimed",
+      "evidence": "devotional",
+      "verified": true,
+      "year": 1936,
+      "note": "The movement's central claim: the Supreme Soul spoke through Lekhraj's body; the murlis are the record. Visions dated 1936 by the movement, 1931 by the WRSP timeline."
+    },
+    {
+      "from": "bhagavad-gita",
+      "to": "dada-lekhraj",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1934,
+      "note": "His satsang in Hyderabad from about 1934 read the Gita and chanted Om (WRSP); INFORM calls him a devout Vaishnavite."
+    },
+    {
+      "from": "dada-lekhraj",
+      "to": "om-radhe",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1937,
+      "note": "Made head of the trust committee of eight young women, October 1937 (Brahma Kumaris, Our Journey)."
+    },
+    {
+      "from": "dada-lekhraj",
+      "to": "dadi-prakashmani",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1969,
+      "note": "Joined 1936; with Didi Manmohini took over administration after his death in January 1969; chief administrative head to 2007."
+    },
+    {
+      "from": "dadi-prakashmani",
+      "to": "dadi-janki",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 2007,
+      "note": "Succeeded her as chief administrative head in 2007."
+    },
+    {
+      "from": "aurobindo",
+      "to": "sri-chinmoy",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1944,
+      "note": "Entered the Sri Aurobindo Ashram in 1944 aged twelve; stayed about twenty years; New York from April 1964. No formal initiation by Aurobindo recorded."
+    },
+    {
+      "from": "mirra-alfassa",
+      "to": "sri-chinmoy",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1944,
+      "note": "Grew up in the ashram under the Mother's direction, 1944-1964."
+    },
+    {
+      "from": "nolini-kanta-gupta",
+      "to": "sri-chinmoy",
+      "type": "lived-with",
+      "evidence": "testimony",
+      "verified": true,
+      "note": "By Sri Chinmoy's own account he was Nolini Kanta Gupta's personal secretary for about eight years."
+    }
   ],
   "places": [
-    {"name": "Hyderabad, Sindh", "lat": 25.396, "lon": 68.358, "figure": "dada-lekhraj", "what": "Birthplace; Om Mandali satsang from the mid-1930s; trust of young women formed October 1937", "verified": true},
-    {"name": "Clifton, Karachi", "lat": 24.82, "lon": 67.03, "figure": "dada-lekhraj", "what": "Community lived in rented houses on Victoria Road, Clifton, from about 1938-39 to 1950", "verified": false},
-    {"name": "Pandav Bhawan, Mount Abu", "lat": 24.593, "lon": 72.708, "figure": "dada-lekhraj", "what": "Headquarters from 1950; Lekhraj died here 18 January 1969 (coordinates reused from existing Mount Abu entry)", "verified": false},
-    {"name": "Shakpura, Boalkhali, Chittagong", "lat": 22.38, "lon": 91.93, "figure": "sri-chinmoy", "what": "Birthplace, 27 August 1931", "verified": false},
-    {"name": "Sri Aurobindo Ashram, Puducherry", "lat": 11.937, "lon": 79.835, "figure": "sri-chinmoy", "what": "Lived here 1944-1964", "verified": true},
-    {"name": "United Nations Headquarters, New York", "lat": 40.749, "lon": -73.968, "figure": "sri-chinmoy", "what": "Twice-weekly peace meditations from 1970", "verified": true},
-    {"name": "Jamaica, Queens, New York", "lat": 40.70, "lon": -73.80, "figure": "sri-chinmoy", "what": "Home and centre of his community; died here 11 October 2007", "verified": false}
+    {
+      "name": "Hyderabad, Sindh",
+      "lat": 25.396,
+      "lon": 68.358,
+      "figure": "dada-lekhraj",
+      "what": "Birthplace; Om Mandali satsang from the mid-1930s; trust of young women formed October 1937",
+      "verified": true
+    },
+    {
+      "name": "Clifton, Karachi",
+      "lat": 24.82,
+      "lon": 67.03,
+      "figure": "dada-lekhraj",
+      "what": "Community lived in rented houses on Victoria Road, Clifton, from about 1938-39 to 1950",
+      "verified": false
+    },
+    {
+      "name": "Pandav Bhawan, Mount Abu",
+      "lat": 24.593,
+      "lon": 72.708,
+      "figure": "dada-lekhraj",
+      "what": "Headquarters from 1950; Lekhraj died here 18 January 1969 (coordinates reused from existing Mount Abu entry)",
+      "verified": false
+    },
+    {
+      "name": "Shakpura, Boalkhali, Chittagong",
+      "lat": 22.38,
+      "lon": 91.93,
+      "figure": "sri-chinmoy",
+      "what": "Birthplace, 27 August 1931",
+      "verified": false
+    },
+    {
+      "name": "Sri Aurobindo Ashram, Puducherry",
+      "lat": 11.937,
+      "lon": 79.835,
+      "figure": "sri-chinmoy",
+      "what": "Lived here 1944-1964",
+      "verified": true
+    },
+    {
+      "name": "United Nations Headquarters, New York",
+      "lat": 40.749,
+      "lon": -73.968,
+      "figure": "sri-chinmoy",
+      "what": "Twice-weekly peace meditations from 1970",
+      "verified": true
+    },
+    {
+      "name": "Jamaica, Queens, New York",
+      "lat": 40.7,
+      "lon": -73.8,
+      "figure": "sri-chinmoy",
+      "what": "Home and centre of his community; died here 11 October 2007",
+      "verified": false
+    }
   ],
   "glossary": [
-    {"term": "Murli", "script": "मुरली", "lang": "hi", "def": "Krishna's flute. Among the Brahma Kumaris, the daily talks believed to be God speaking through Brahma Baba, read aloud each morning in every centre."},
-    {"term": "Confluence Age", "script": "संगमयुग", "lang": "hi", "def": "In Brahma Kumaris teaching, the short period between the end of the Iron Age and a new Golden Age, when God comes to teach. They say we are living in it now."},
-    {"term": "Avyakt", "script": "अव्यक्त", "lang": "sa", "def": "Unmanifest. The Brahma Kumaris use it for Brahma Baba after his death in 1969 and for the messages they believe he gave through Dadi Gulzar."},
-    {"term": "Soul-consciousness", "script": "आत्म-अभिमानी", "lang": "hi", "def": "The Brahma Kumaris' term for being aware of oneself as a soul, a point of light, as opposed to body-consciousness, identifying with the body."},
-    {"term": "Jharna-Kala", "script": "ঝর্ণা-কলা", "lang": "bn", "def": "\"Fountain-art.\" Sri Chinmoy's name for his paintings, begun in 1974."},
-    {"term": "Self-transcendence", "def": "Sri Chinmoy's ideal of going beyond one's own previous limits, in sport, art or meditation, competing only with oneself."},
-    {"term": "Godman", "def": "Indian English for a guru with a mass following, often used in the press with \"self-styled\", and frequently for figures facing criminal cases."},
-    {"term": "Dera", "script": "डेरा", "lang": "hi", "def": "A camp or seat; in north India, the headquarters of a sect and its leader, as in the Dera Sacha Sauda of Sirsa."}
+    {
+      "term": "Murli",
+      "script": "मुरली",
+      "lang": "hi",
+      "def": "Krishna's flute. Among the Brahma Kumaris, the daily talks believed to be God speaking through Brahma Baba, read aloud each morning in every centre."
+    },
+    {
+      "term": "Confluence Age",
+      "script": "संगमयुग",
+      "lang": "hi",
+      "def": "In Brahma Kumaris teaching, the short period between the end of the Iron Age and a new Golden Age, when God comes to teach. They say we are living in it now."
+    },
+    {
+      "term": "Avyakt",
+      "script": "अव्यक्त",
+      "lang": "sa",
+      "def": "Unmanifest. The Brahma Kumaris use it for Brahma Baba after his death in 1969 and for the messages they believe he gave through Dadi Gulzar."
+    },
+    {
+      "term": "Soul-consciousness",
+      "script": "आत्म-अभिमानी",
+      "lang": "hi",
+      "def": "The Brahma Kumaris' term for being aware of oneself as a soul, a point of light, as opposed to body-consciousness, identifying with the body."
+    },
+    {
+      "term": "Jharna-Kala",
+      "script": "ঝর্ণা-কলা",
+      "lang": "bn",
+      "def": "\"Fountain-art.\" Sri Chinmoy's name for his paintings, begun in 1974."
+    },
+    {
+      "term": "Self-transcendence",
+      "def": "Sri Chinmoy's ideal of going beyond one's own previous limits, in sport, art or meditation, competing only with oneself."
+    },
+    {
+      "term": "Godman",
+      "def": "Indian English for a guru with a mass following, often used in the press with \"self-styled\", and frequently for figures facing criminal cases."
+    },
+    {
+      "term": "Dera",
+      "script": "डेरा",
+      "lang": "hi",
+      "def": "A camp or seat; in north India, the headquarters of a sect and its leader, as in the Dera Sacha Sauda of Sirsa."
+    }
   ],
   "art": [],
   "issues": [
@@ -59,7 +261,10 @@
     "new-revelations.mdx (godmen): Rampal's second 2018 murder case (FIR 430, one death): whether its sentence is also suspended, and whether he has actually left jail after the April 2026 bail, could not be confirmed. Wikipedia lists him as out on bail since 9 April 2026; The Tribune dates the suspension 4 September 2025 (Wikipedia says August 2025), so the text says 2025.",
     "new-revelations.mdx (godmen): Chandraswami: 'no charge followed' the Jain Commission naming and 'without a criminal conviction' rest on obituaries (Deccan Herald, The News Minute) that report no conviction; the final outcome of the ED penalty appeals after 2011 is unknown.",
     "No godman figures were added to the graph, by design; author may want tree-free mentions only.",
-    "Places: Clifton (Karachi), Shakpura and Jamaica (Queens) coordinates are approximate; Mount Abu coordinates reuse the existing places.json entry, which may be a duplicate."
+    "Places: Clifton (Karachi), Shakpura and Jamaica (Queens) coordinates are approximate; Mount Abu coordinates reuse the existing places.json entry, which may be a duplicate.",
+    "factcheck: sri-chinmoy.mdx: Salon (2014) and San Diego CityBeat (2005) could not be fetched (fetch quota exhausted, Wikipedia blocked) and were removed as named sources; NY Post retained via Village Voice. The 2004 lawyer's denial and 'never sued or charged' (Wikipedia only) were cut or softened to 'the sources consulted record no criminal charge or lawsuit'. Author may restore if originals are checked.",
+    "factcheck: sri-chinmoy.mdx: Terry Todd conclusion and Tamm's 'others may have experienced it differently' still rest on Wikipedia; NYT 'Mount Everest of ultramarathons' unchecked.",
+    "factcheck: new-revelations.mdx: Rampal's April 2026 bail case (FIR 428) is described in LawTrend as attempt to murder, waging war against the state and UAPA; 'sedition' replaced. Whether Rampal has left custody is still unconfirmed."
   ],
   "sources": {
     "dada-lekhraj": [
@@ -105,6 +310,31 @@
       "Chandraswami: acquitted Oct 2004 in St Kitts forgery case -> https://www.arabnews.com/node/257123",
       "Chandraswami: ED penalty ~Rs 9 crore in 13 FERA cases; SC June 2011 ordered Rs 25 lakh deposit -> https://morungexpress.com/sc-asks-chandraswami-deposit-rs-25-lakh-penalty",
       "Chandraswami: died Apollo Hospital New Delhi, reported 23 May 2017, aged 66; Jain Commission named him; no conviction reported -> https://www.deccanherald.com/amp/story/india%2Fcontroversial-godman-chandraswami-no-more-2006039"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 68,
+    "changes": [
+      "new-revelations.mdx: Asaram SC status made precise: notice issued June 2026, suspension declined 'at the present juncture' (LiveLaw, 30 June 2026). HC May 2026 outcome confirmed (The Week, 27 May 2026); Gandhinagar 2023 conviction and pending Gujarat HC appeal confirmed (Telangana Today Sept 2026; Scroll Nov 2025).",
+      "new-revelations.mdx: Ram Rahim: 'appeals against both acquittals' corrected; the Ranjit Singh acquittal is under a CBI appeal (SC notice 3 Jan 2025, The Week) and the Chhatrapati acquittal under a plea by the journalist's son, admitted for hearing August 2026; the State has not appealed (Tribune; LiveLaw; SupremeToday 11 Aug 2026).",
+      "new-revelations.mdx: Rampal: 'sedition case' changed to 'charges including waging war against the state' (LawTrend, 10 April 2026). 2025 suspension confirmed (The Week, order dated 2 Sept 2025).",
+      "new-revelations.mdx: Premananda: death place hedged to 'while serving his sentence at Cuddalore Central Prison'; Deccan Herald does not say he died inside the prison. SC 5 April 2005 dismissal confirmed (Indian Kanoon); Pudukkottai conviction August 1997 (Indian Express 21 Aug 1997 via Wikipedia).",
+      "new-revelations.mdx: Chandraswami acquittals (22 Dec 2003; 25 Oct 2004, Judge Dinesh Dayal, Arab News), ED ~Rs 9 crore in 13 FERA cases and 2011 SC deposit order (Morung Express), death 23 May 2017 aged 66 (Deccan Herald) confirmed; no change.",
+      "dada-lekhraj.mdx: 'In his fifties he left the business' conflicted with both chronologies; replaced with early 1930s, at forty-eight per WRSP. Added INFORM's 'approaching the age of 60' for the visions.",
+      "dada-lekhraj.mdx: 'raised a Vaishnava Hindu' corrected to INFORM's 'devout Vaishnavite'.",
+      "dada-lekhraj.mdx: 1937 committee: added WRSP's nine, later seventeen, alongside the movement's eight.",
+      "dada-lekhraj.mdx: Karachi 'court ordered two girls returned' was unsupported; replaced with the Friday Times account (warrants on grounds of minority, girls taken from Om Nivas) and hedged reference to a court order.",
+      "dada-lekhraj.mdx: Sind ban: Coupland misattributed (Wikipedia cites Hardy 1984 for 'unlawful association', Coupland 1944 for the closure order); paragraph reordered and Om Radhe's 1939 pamphlet (title refers to suppression under the 1908 Act) added as evidence the Act was applied.",
+      "dada-lekhraj.mdx: INFORM quotation corrected 'systematic' -> 'systemic'. Glance: 15 December 1876 attributed to 'some accounts', organisation name dated as later.",
+      "sri-chinmoy.mdx: allegations paragraph softened (see issues); Todd conclusion hedged and no Centre response noted.",
+      "w34.json: nolini-kanta-gupta dates 13 Jan 1889 - 7 Feb 1983 noted; Gita edge note corrected."
+    ],
+    "unresolved": [
+      "Sri Chinmoy second-hand press sources (Salon, CityBeat, 2004 lawyer denial, Todd article) not seen.",
+      "Rampal custody status after April 2026 bail; status of FIR 430 sentence.",
+      "Ram Rahim's High Court appeal against the 2017 rape conviction not checked.",
+      "Brahma Kumaris quotation 'Soul consciousness is the awareness that we are souls' appears only in the page's meta description, not the article body.",
+      "Nolini Kanta Gupta dates matched from search listings only."
     ]
   }
 }
