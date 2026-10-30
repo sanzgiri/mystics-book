@@ -42,7 +42,7 @@ Status: todo / running / written / checked / merged.
 | w31 | ambedkar (c) | buddha-returns | merged |
 | w32 | osho (c) | | checking |
 | w33 | sathya-sai-baba (c) | | checking |
-| w34 | dada-lekhraj, sri-chinmoy | new-revelations (incl. godman essay) | running |
+| w34 | dada-lekhraj, sri-chinmoy | new-revelations (incl. godman essay) | checking |
 | w35 | kalki-bhagavan, nithyananda, dhirendra-shastri | | running |
 | o16 | satyananda, swami-rama, pattabhi-jois | | todo |
 | o17 | sri-m | technique | todo |
