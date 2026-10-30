@@ -1303,7 +1303,8 @@
    "died": 1969,
    "part": 13,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Lekhraj Khubchand Kripalani; born Hyderabad, Sindh, 1876 per the movement (1884 in the WRSP timeline); Om Mandali from the mid-1930s; trust of young women October 1937; Karachi c. 1938-1950; Mount Abu from 1950; died 18 January 1969."
   },
   {
    "id": "sri-chinmoy",
@@ -1312,7 +1313,8 @@
    "died": 2007,
    "part": 13,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Chinmoy Kumar Ghose, born Shakpura, Chittagong, 27 August 1931; Sri Aurobindo Ashram from 1944; New York 13 April 1964; UN peace meditations from 1970; died Jamaica, Queens, 11 October 2007."
   },
   {
    "id": "ramdev",
@@ -2650,6 +2652,53 @@
    "tier": "node",
    "kind": "symbolic",
    "note": "The third Sai, Shakti alone, whom Sathya Sai Baba said in his Guru Purnima discourse of 6 July 1963 would follow him."
+  },
+  {
+   "id": "shiv-baba",
+   "name": "Shiv Baba (the Supreme Soul, as received by the Brahma Kumaris)",
+   "part": 13,
+   "tier": "node",
+   "kind": "symbolic",
+   "note": "God as an incorporeal point of light who, members believe, spoke through Lekhraj from the 1930s and through Dadi Gulzar after 1969."
+  },
+  {
+   "id": "om-radhe",
+   "name": "Om Radhe (Mamma)",
+   "died": 1965,
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Headed the trust committee of young women formed in October 1937; first administrative head of the Brahma Kumaris; died 24 June 1965. Cross-examined before a Hyderabad magistrate, January 1939."
+  },
+  {
+   "id": "dadi-prakashmani",
+   "name": "Dadi Prakashmani",
+   "born": 1922,
+   "died": 2007,
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born Rama, Hyderabad, Sindh, about 1922; joined Om Mandali at about fourteen in 1936; shared administration with Didi Manmohini after January 1969 and was chief administrative head until her death at Mount Abu on 25 August 2007."
+  },
+  {
+   "id": "dadi-janki",
+   "name": "Dadi Janki",
+   "born": 1916,
+   "died": 2020,
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Chief administrative head 2007 to her death on 27 March 2020 aged 104."
+  },
+  {
+   "id": "nolini-kanta-gupta",
+   "name": "Nolini Kanta Gupta",
+   "born": 1889,
+   "died": 1983,
+   "part": 4,
+   "tier": "node",
+   "kind": "person",
+   "note": "Revolutionary companion of Sri Aurobindo and long-time general secretary of the Sri Aurobindo Ashram. Birth and death years from general knowledge; not re-checked in this batch."
   }
  ],
  "edges": [
@@ -3393,7 +3442,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1944,
-   "note": "Entered the Sri Aurobindo Ashram in 1944 aged twelve; stayed about twenty years; New York from 1964"
+   "note": "Entered the Sri Aurobindo Ashram in 1944 aged twelve; stayed about twenty years; New York from April 1964. No formal initiation by Aurobindo recorded."
   },
   {
    "from": "vivekananda",
@@ -5649,6 +5698,68 @@
    "verified": true,
    "year": 1963,
    "note": "Prophecy in the Guru Purnima discourse of 6 July 1963: 'Shakthi alone as Prema Sai, later.'"
+  },
+  {
+   "from": "shiv-baba",
+   "to": "dada-lekhraj",
+   "type": "claimed",
+   "evidence": "devotional",
+   "verified": true,
+   "year": 1936,
+   "note": "The movement's central claim: the Supreme Soul spoke through Lekhraj's body; the murlis are the record. Visions dated 1936 by the movement, 1931 by the WRSP timeline."
+  },
+  {
+   "from": "bhagavad-gita",
+   "to": "dada-lekhraj",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1934,
+   "note": "His satsang in Hyderabad from about 1934 read the Gita and chanted Om; raised a Vaishnava Hindu (INFORM)."
+  },
+  {
+   "from": "dada-lekhraj",
+   "to": "om-radhe",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1937,
+   "note": "Made head of the trust committee of eight young women, October 1937 (Brahma Kumaris, Our Journey)."
+  },
+  {
+   "from": "dada-lekhraj",
+   "to": "dadi-prakashmani",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1969,
+   "note": "Joined 1936; with Didi Manmohini took over administration after his death in January 1969; chief administrative head to 2007."
+  },
+  {
+   "from": "dadi-prakashmani",
+   "to": "dadi-janki",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 2007,
+   "note": "Succeeded her as chief administrative head in 2007."
+  },
+  {
+   "from": "mirra-alfassa",
+   "to": "sri-chinmoy",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1944,
+   "note": "Grew up in the ashram under the Mother's direction, 1944-1964."
+  },
+  {
+   "from": "nolini-kanta-gupta",
+   "to": "sri-chinmoy",
+   "type": "lived-with",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "By Sri Chinmoy's own account he was Nolini Kanta Gupta's personal secretary for about eight years."
   }
  ]
 }

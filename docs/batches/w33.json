@@ -1,34 +1,158 @@
 {
   "batch": "w33",
   "nodes_add": [
-    {"id": "narayana-kasturi", "name": "N. Kasturi", "born": 1897, "died": 1987, "part": 13, "tier": "node", "kind": "person", "note": "Writer; met Sathya Sai Baba in Bangalore in 1948; biographer (Sathyam Sivam Sundaram, Part I, 1960), translator, and editor of Sanathana Sarathi from 1958."},
-    {"id": "sathya-sai-organisation", "name": "Sathya Sai Organisation", "part": 13, "tier": "node", "kind": "institution", "note": "First Seva Samithi formally constituted in Bombay, 5 July 1965; first World Conference, Bombay, May 1968; now the Sri Sathya Sai International Organisation, chaired by Narendranath Reddy since 2011."},
-    {"id": "prema-sai", "name": "Prema Sai (prophesied)", "part": 13, "tier": "node", "kind": "symbolic", "note": "The third Sai, Shakti alone, whom Sathya Sai Baba said in his Guru Purnima discourse of 6 July 1963 would follow him."}
+    {
+      "id": "narayana-kasturi",
+      "name": "N. Kasturi",
+      "born": 1897,
+      "died": 1987,
+      "part": 13,
+      "tier": "node",
+      "kind": "person",
+      "note": "Writer; met Sathya Sai Baba in Bangalore in 1948; biographer (Sathyam Sivam Sundaram, Part I, 1960), translator, and editor of Sanathana Sarathi from 1958."
+    },
+    {
+      "id": "sathya-sai-organisation",
+      "name": "Sathya Sai Organisation",
+      "part": 13,
+      "tier": "node",
+      "kind": "institution",
+      "note": "First Seva Samithi formally constituted in Bombay, 5 July 1965; first World Conference, Bombay, May 1968; now the Sri Sathya Sai International Organisation, chaired by Narendranath Reddy since 2011."
+    },
+    {
+      "id": "prema-sai",
+      "name": "Prema Sai (prophesied)",
+      "part": 13,
+      "tier": "node",
+      "kind": "symbolic",
+      "note": "The third Sai, Shakti alone, whom Sathya Sai Baba said in his Guru Purnima discourse of 6 July 1963 would follow him."
+    }
   ],
   "nodes_update": [
-    {"id": "sathya-sai-baba", "born": 1926, "died": 2011, "name": "Sathya Sai Baba", "note": "Born Sathyanarayana Raju, Puttaparthi, 23 November 1926 (movement's date); declared himself Sai Baba in May 1940 and left home 20 October 1940; Prasanthi Nilayam inaugurated 23 November 1950; died Puttaparthi, 24 April 2011."}
+    {
+      "id": "sathya-sai-baba",
+      "born": 1926,
+      "died": 2011,
+      "name": "Sathya Sai Baba",
+      "note": "Born Sathyanarayana Raju, Puttaparthi, 23 November 1926 (movement's date); declared himself Sai Baba in May 1940 and left home 20 October 1940; Prasanthi Nilayam inaugurated 23 November 1950; died Puttaparthi, 24 April 2011."
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "shirdi-sai-baba", "to": "sathya-sai-baba", "type": "claimed", "evidence": "hagiographic", "verified": true, "year": 1940, "note": "His own claim to be Shirdi Sai Baba reborn, made 23 May 1940 by the movement's account and publicly on 20 October 1940; elaborated in the three-Sai discourse of 6 July 1963. Not accepted by the Shirdi Sansthan, which told Rigopoulos (1985) that Sai Baba has neither successors nor heirs."},
-    {"from": "advaita-vedanta", "to": "sathya-sai-baba", "type": "influenced", "evidence": "documented", "verified": true, "note": "Discourses teach one God dwelling in all beings and Sanathana Dharma behind all religions, in a devotional idiom."},
-    {"from": "sathya-sai-baba", "to": "narayana-kasturi", "type": "influenced", "evidence": "documented", "verified": true, "year": 1948, "note": "Met in Bangalore 1948; became his biographer, translator and editor."},
-    {"from": "sathya-sai-baba", "to": "sathya-sai-organisation", "type": "institutional", "evidence": "documented", "verified": true, "year": 1965, "note": "Founder; seed announced 1961, first Seva Samithi constituted 1965."},
-    {"from": "sathya-sai-baba", "to": "prema-sai", "type": "claimed", "evidence": "devotional", "verified": true, "year": 1963, "note": "Prophecy in the Guru Purnima discourse of 6 July 1963: 'Shakthi alone as Prema Sai, later.'"}
+    {
+      "from": "shirdi-sai-baba",
+      "to": "sathya-sai-baba",
+      "type": "claimed",
+      "evidence": "hagiographic",
+      "verified": true,
+      "year": 1940,
+      "note": "His own claim to be Shirdi Sai Baba reborn, made 23 May 1940 by the movement's account and publicly on 20 October 1940; elaborated in the three-Sai discourse of 6 July 1963. The Shirdi Sansthan told Rigopoulos (October 1985), while rejecting another claimant, that Sai Baba has neither successors nor heirs; Rigopoulos wrote that the Puttaparthi claim requires a thorough investigation (Oral Testimonies on Sai Baba, 2020)."
+    },
+    {
+      "from": "advaita-vedanta",
+      "to": "sathya-sai-baba",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Discourses teach one God dwelling in all beings and Sanathana Dharma behind all religions, in a devotional idiom."
+    },
+    {
+      "from": "sathya-sai-baba",
+      "to": "narayana-kasturi",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1948,
+      "note": "Met in Bangalore 1948; became his biographer, translator and editor."
+    },
+    {
+      "from": "sathya-sai-baba",
+      "to": "sathya-sai-organisation",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1965,
+      "note": "Founder; seed announced 1961, first Seva Samithi constituted 1965."
+    },
+    {
+      "from": "sathya-sai-baba",
+      "to": "prema-sai",
+      "type": "claimed",
+      "evidence": "devotional",
+      "verified": true,
+      "year": 1963,
+      "note": "Prophecy in the Guru Purnima discourse of 6 July 1963: 'Shakthi alone as Prema Sai, later.'"
+    }
   ],
   "places": [
-    {"name": "Uravakonda", "lat": 14.94, "lon": 77.26, "figure": "sathya-sai-baba", "what": "Scorpion sting, 8 March 1940 (movement's account); left school and family, 20 October 1940", "verified": true},
-    {"name": "Prasanthi Nilayam, Puttaparthi", "lat": 14.165, "lon": 77.811, "figure": "sathya-sai-baba", "what": "Birthplace village and ashram, inaugurated 23 November 1950; buried in Sai Kulwant Hall, 27 April 2011", "verified": true},
-    {"name": "Whitefield ashram, Bangalore", "lat": 12.99, "lon": 77.76, "figure": "sathya-sai-baba", "what": "His second ashram near Bangalore", "verified": false}
+    {
+      "name": "Uravakonda",
+      "lat": 14.94,
+      "lon": 77.26,
+      "figure": "sathya-sai-baba",
+      "what": "Scorpion sting, 8 March 1940 (movement's account); left school and family, 20 October 1940",
+      "verified": true
+    },
+    {
+      "name": "Prasanthi Nilayam, Puttaparthi",
+      "lat": 14.165,
+      "lon": 77.811,
+      "figure": "sathya-sai-baba",
+      "what": "Birthplace village and ashram, inaugurated 23 November 1950; buried in Sai Kulwant Hall, 27 April 2011",
+      "verified": true
+    },
+    {
+      "name": "Whitefield ashram, Bangalore",
+      "lat": 12.99,
+      "lon": 77.76,
+      "figure": "sathya-sai-baba",
+      "what": "His second ashram near Bangalore",
+      "verified": false
+    }
   ],
   "glossary": [
-    {"term": "Vibhuti", "script": "విభూతి", "lang": "te", "def": "Sacred ash. Devotees of Sathya Sai Baba say he produced it from his hand and keep it as a blessing."},
-    {"term": "Five human values", "script": "సత్యం, ధర్మం, శాంతి, ప్రేమ, అహింస", "lang": "te", "def": "Sathya Sai Baba's moral core: truth (sathya), right conduct (dharma), peace (shanti), love (prema) and non-violence (ahimsa)."},
-    {"term": "Sarva Dharma", "script": "सर्व धर्म", "lang": "sa", "def": "All religions. The Sathya Sai movement's emblem shows a lotus pillar circled by the symbols of five faiths."},
-    {"term": "Prasanthi Nilayam", "script": "ప్రశాంతి నిలయం", "lang": "te", "def": "Abode of supreme peace: Sathya Sai Baba's ashram at Puttaparthi, opened in 1950."},
-    {"term": "Bal Vikas", "script": "बाल विकास", "lang": "hi", "def": "Child development: the Sathya Sai movement's weekly classes teaching children the five human values."},
-    {"term": "Bhajan", "script": "भजन", "lang": "hi", "def": "A devotional song, usually sung in a group, often in call and response."},
-    {"term": "Gotra", "script": "गोत्र", "lang": "sa", "def": "A Hindu patrilineal clan traced to an ancient sage. Sathya Sai Baba said the three Sais are born in the Bharadwaja gotra."}
+    {
+      "term": "Vibhuti",
+      "script": "విభూతి",
+      "lang": "te",
+      "def": "Sacred ash. Devotees of Sathya Sai Baba say he produced it from his hand and keep it as a blessing."
+    },
+    {
+      "term": "Five human values",
+      "script": "సత్యం, ధర్మం, శాంతి, ప్రేమ, అహింస",
+      "lang": "te",
+      "def": "Sathya Sai Baba's moral core: truth (sathya), right conduct (dharma), peace (shanti), love (prema) and non-violence (ahimsa)."
+    },
+    {
+      "term": "Sarva Dharma",
+      "script": "सर्व धर्म",
+      "lang": "sa",
+      "def": "All religions. The Sathya Sai movement's emblem shows a lotus pillar circled by the symbols of five faiths."
+    },
+    {
+      "term": "Prasanthi Nilayam",
+      "script": "ప్రశాంతి నిలయం",
+      "lang": "te",
+      "def": "Abode of supreme peace: Sathya Sai Baba's ashram at Puttaparthi, opened in 1950."
+    },
+    {
+      "term": "Bal Vikas",
+      "script": "बाल विकास",
+      "lang": "hi",
+      "def": "Child development: the Sathya Sai movement's weekly classes teaching children the five human values."
+    },
+    {
+      "term": "Bhajan",
+      "script": "भजन",
+      "lang": "hi",
+      "def": "A devotional song, usually sung in a group, often in call and response."
+    },
+    {
+      "term": "Gotra",
+      "script": "गोत्र",
+      "lang": "sa",
+      "def": "A Hindu patrilineal clan traced to an ancient sage. Sathya Sai Baba said the three Sais are born in the Bharadwaja gotra."
+    }
   ],
   "art": [],
   "issues": [
@@ -47,7 +171,10 @@
     "sathya-sai-baba.mdx: no film or audio recording with a stable public URL was located for 'In his own voice'; marked [to locate]. Radio Sai / Sri Sathya Sai Media Centre archive is the place to look.",
     "sathya-sai-baba.mdx: the Muddenahalli breakaway group (post-2011) and the 2000 UNESCO withdrawal were not researched and are not mentioned; author may want them under Descendants/Critiques.",
     "places: Prasanthi Nilayam coordinates duplicate the existing places.json 'Puttaparthi' entry; merge rather than add. Whitefield ashram coordinates approximate, marked verified false.",
-    "Shirdi chapter (shirdi-sai-baba.mdx) cites Wikipedia for the Sathya Sai claim; it could now link to /figures/sathya-sai-baba/ (not edited, per brief)."
+    "Shirdi chapter (shirdi-sai-baba.mdx) cites Wikipedia for the Sathya Sai claim; it could now link to /figures/sathya-sai-baba/ (not edited, per brief).",
+    "sathya-sai-baba.mdx: Ganapathi Raju memorandum year still unconfirmed; Deccan Herald piece is undated but refers to 'last year' reports of a government takeover (2011), so text says 'probably in 2012'.",
+    "sathya-sai-baba.mdx: original text of the 1976 Blitz interview, Babb 1983 and the December 2001 letter not seen; quotes converted to attributed paraphrase. Restore verbatim quotes only after checking the originals.",
+    "sathya-sai-baba.mdx: V. P. B. Nair's post is given as retired DGP (Humanists International) and former secretary to the AP home minister (Wikipedia); text gives both."
   ],
   "sources": {
     "sathya-sai-baba": [
@@ -93,6 +220,31 @@
       "Handwritten will favouring Satyajit; family accusations about his care; estimated wealth at least Rs 40,000 crore -> https://openthemagazine.com/features/india/the-will-of-the-trust",
       "Trustees April 2011: Ratnakar (nephew, only family member), Bhagwati, Indulal Shah, V. Srinivasan, S.V. Giri -> https://openthemagazine.com/features/india/the-sai-succession-act-ii",
       "Ganapathi Raju sought Ratnakar's removal; ashram sources dismissed allegations -> https://www.deccanherald.com/india/sathya-sais-kin-decries-appointment-2328343"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 62,
+    "changes": [
+      "sathya-sai-baba.mdx: Shirdi Sansthan 'neither successors nor heirs' was said while rejecting Narayan Baba, not about Sathya Sai; reworded, and 'requires a thorough investigation' correctly attributed to Rigopoulos's diary (Rigopoulos 2020, ch. 4). Lineage line no longer says the shrine 'does not accept' the claim.",
+      "sathya-sai-baba.mdx: Rigopoulos reference corrected: Oral Testimonies on Sai Baba is the whole volume (Masters, Texts and Sources of the East 2), published 2020 (Edizioni Ca' Foscari site).",
+      "sathya-sai-baba.mdx: 'not to disturb or destroy any Faith' quote not found in primary sources; replaced with the shorter form verified in Radio Sai's Heart2Heart (19 Aug 2011).",
+      "sathya-sai-baba.mdx: 1976 'Sanathana Dharma' quote and Babb's two phrases (also in the verdict paragraph) converted to attributed paraphrase; originals not seen.",
+      "sathya-sai-baba.mdx: 1993: Indulal Shah quote converted to paraphrase dated to The Hindu of 10 June 1993 (Wikipedia citation); CID case recast as a case over the shooting with a 30 Dec 1993 statement on tampering (The Caravan); suspensions (Outlook); BBC/Wikipedia 'arrested but never charged, case dropped' and Caravan 'central intervention' versions both given; police action 'tried to break down the door' (Wikipedia); V.P.B. Nair's post given as reported by both sources; 'no one was convicted' hedged to 'reports consulted record no conviction'.",
+      "sathya-sai-baba.mdx: 2001 letter: signatories named (Bhagwati, Misra) and wording converted to attributed paraphrase (Wikipedia, SourceWatch, ThePrint; letter not seen).",
+      "sathya-sai-baba.mdx: Rahm suit: court given as Orange County Superior Court; voluntary dismissal in 2006 now supported by both a pro-Sai account and the Rahm family's own statement (robertpriddy.com), with the family's stated reason; noted that no finding was made.",
+      "sathya-sai-baba.mdx: age at death: dropped unverified 'eighty-six'; 85 attributed to AFP (Mail & Guardian).",
+      "sathya-sai-baba.mdx: Yajur Mandir: 'income tax assessor' corrected to 'government-approved valuer' (Trust press release 28 June 2011); Indulal Shah described as chartered accountant, not industrialist.",
+      "sathya-sai-baba.mdx: Rs 35 lakh seizure: place (Kodikonda checkpost, Tribune 20 June 2011), three arrests and bail, trustees' denial (Gulf News) added; will passage reattributed to Open (legal adviser confirmed, some trustees denied) with the trust's verbatim 'oral will' line.",
+      "sathya-sai-baba.mdx: Ganapathi Raju: 'petitioned' changed to 'sent a memorandum' (Deccan Herald), year hedged as probably 2012.",
+      "sathya-sai-baba.mdx: references 26-29 added (Heart2Heart, Haraldsson & Wiseman JSPR 1995, Gulf News, Rahm family statement).",
+      "w33.json: Shirdi edge note corrected to match the Rigopoulos source."
+    ],
+    "unresolved": [
+      "Ganapathi Raju memorandum year (probably 2012).",
+      "Original wording of the 2001 letter, Indulal Shah's 1993 remark, the 1976 Blitz interview and Babb 1983 not seen.",
+      "Tal Brooke's Lord of the Air not seen; description kept general.",
+      "'Died at 96' prophecy (Deccan Herald) and Rahm's January 2005 filing date not independently checked.",
+      "Prasanthi Nilayam place already present in places.json (line ~2243) alongside 'Puttaparthi'; merge needed."
     ]
   }
 }

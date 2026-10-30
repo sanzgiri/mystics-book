@@ -2254,6 +2254,62 @@
    "figure": "sathya-sai-baba",
    "what": "His second ashram near Bangalore",
    "verified": false
+  },
+  {
+   "name": "Hyderabad, Sindh",
+   "lat": 25.396,
+   "lon": 68.358,
+   "figure": "dada-lekhraj",
+   "what": "Birthplace; Om Mandali satsang from the mid-1930s; trust of young women formed October 1937",
+   "verified": true
+  },
+  {
+   "name": "Clifton, Karachi",
+   "lat": 24.82,
+   "lon": 67.03,
+   "figure": "dada-lekhraj",
+   "what": "Community lived in rented houses on Victoria Road, Clifton, from about 1938-39 to 1950",
+   "verified": false
+  },
+  {
+   "name": "Pandav Bhawan, Mount Abu",
+   "lat": 24.593,
+   "lon": 72.708,
+   "figure": "dada-lekhraj",
+   "what": "Headquarters from 1950; Lekhraj died here 18 January 1969 (coordinates reused from existing Mount Abu entry)",
+   "verified": false
+  },
+  {
+   "name": "Shakpura, Boalkhali, Chittagong",
+   "lat": 22.38,
+   "lon": 91.93,
+   "figure": "sri-chinmoy",
+   "what": "Birthplace, 27 August 1931",
+   "verified": false
+  },
+  {
+   "name": "Sri Aurobindo Ashram, Puducherry",
+   "lat": 11.937,
+   "lon": 79.835,
+   "figure": "sri-chinmoy",
+   "what": "Lived here 1944-1964",
+   "verified": true
+  },
+  {
+   "name": "United Nations Headquarters, New York",
+   "lat": 40.749,
+   "lon": -73.968,
+   "figure": "sri-chinmoy",
+   "what": "Twice-weekly peace meditations from 1970",
+   "verified": true
+  },
+  {
+   "name": "Jamaica, Queens, New York",
+   "lat": 40.7,
+   "lon": -73.8,
+   "figure": "sri-chinmoy",
+   "what": "Home and centre of his community; died here 11 October 2007",
+   "verified": false
   }
  ]
 }
