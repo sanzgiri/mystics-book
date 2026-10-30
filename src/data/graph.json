@@ -2565,7 +2565,7 @@
    "part": 11,
    "tier": "node",
    "kind": "person",
-   "note": "Burmese-born Theravada monk settled at Kushinagar; gave Ambedkar and Savita Ambedkar the three refuges and five precepts at Nagpur, 14 October 1956, with six other monks. Birth/death years not verified."
+   "note": "Burmese-born Theravada monk settled at Kushinagar; gave Ambedkar and Savita Ambedkar the three refuges and five precepts at Nagpur, 14 October 1956, with six other monks; earlier gave Sangharakshita novice ordination (1949). Birth/death years not verified (often given as 1876-1972)."
   },
   {
    "id": "john-dewey",
@@ -2585,7 +2585,7 @@
    "part": 11,
    "tier": "node",
    "kind": "person",
-   "note": "English Buddhist monk who met Ambedkar and worked among the new Buddhists after 1956; author of Ambedkar and Buddhism (1986); founded the order whose Indian wing is the Triratna Bauddha Mahasangha. Dates and founding details to verify."
+   "note": "English Buddhist monk (born Dennis Lingwood, 26 Aug 1925 - 30 Oct 2018); novice ordination from U Chandramani 1949, bhikkhu 1950; corresponded with Ambedkar from 1950 and met him (1952 and later); lectured to new Buddhists in Nagpur after Ambedkar's death; founded the FWBO (now Triratna Buddhist Community) in London, April 1967, whose Indian wing is the Triratna Bauddha Mahasangha (formerly TBMSG); author of Ambedkar and Buddhism (1986)."
   }
  ],
  "edges": [
@@ -3285,7 +3285,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1954,
-   "note": "Kabir named his second guru in the speech of 28 October 1954; father Ramji Sakpal reported to be a Kabir Panthi (not yet seen on a fetched page)."
+   "note": "Kabir named his second guru in the speech of 28 October 1954; father Ramji Sakpal a Kabirpanthi by Ambedkar's own account (unpublished preface, quoted in Pritchett's 1890s timeline) and in the 1954 speech."
   },
   {
    "from": "munindra",
@@ -5435,9 +5435,18 @@
    "to": "sangharakshita",
    "type": "influenced",
    "evidence": "documented",
-   "verified": false,
+   "verified": true,
    "year": 1956,
-   "note": "Met Ambedkar in the 1950s; worked among Ambedkarite Buddhists after his death; wrote Ambedkar and Buddhism (1986). Details not verified on a fetched page."
+   "note": "Corresponded with Ambedkar from 1950, met him in 1952 and later; lectured to new Buddhists in Nagpur after his death; wrote Ambedkar and Buddhism (1986); Triratna's Indian wing works among Ambedkarite Buddhists. Source: Wikipedia, Sangharakshita."
+  },
+  {
+   "from": "chandramani",
+   "to": "sangharakshita",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1949,
+   "note": "Novice (sramanera) ordination, May 1949, in a ceremony led by U Chandramani (Wikipedia, Sangharakshita)."
   }
  ]
 }

@@ -7,7 +7,7 @@
    "part": 11,
    "tier": "node",
    "kind": "person",
-   "note": "Burmese-born Theravada monk settled at Kushinagar; gave Ambedkar and Savita Ambedkar the three refuges and five precepts at Nagpur, 14 October 1956, with six other monks. Birth/death years not verified."
+   "note": "Burmese-born Theravada monk settled at Kushinagar; gave Ambedkar and Savita Ambedkar the three refuges and five precepts at Nagpur, 14 October 1956, with six other monks; earlier gave Sangharakshita novice ordination (1949). Birth/death years not verified (often given as 1876-1972)."
   },
   {
    "id": "john-dewey",
@@ -27,7 +27,7 @@
    "part": 11,
    "tier": "node",
    "kind": "person",
-   "note": "English Buddhist monk who met Ambedkar and worked among the new Buddhists after 1956; author of Ambedkar and Buddhism (1986); founded the order whose Indian wing is the Triratna Bauddha Mahasangha. Dates and founding details to verify."
+   "note": "English Buddhist monk (born Dennis Lingwood, 26 Aug 1925 - 30 Oct 2018); novice ordination from U Chandramani 1949, bhikkhu 1950; corresponded with Ambedkar from 1950 and met him (1952 and later); lectured to new Buddhists in Nagpur after Ambedkar's death; founded the FWBO (now Triratna Buddhist Community) in London, April 1967, whose Indian wing is the Triratna Bauddha Mahasangha (formerly TBMSG); author of Ambedkar and Buddhism (1986)."
   }
  ],
  "nodes_update": [
@@ -57,7 +57,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1954,
-   "note": "Kabir named his second guru in the speech of 28 October 1954; father Ramji Sakpal reported to be a Kabir Panthi (not yet seen on a fetched page)."
+   "note": "Kabir named his second guru in the speech of 28 October 1954; father Ramji Sakpal a Kabirpanthi by Ambedkar's own account (unpublished preface, quoted in Pritchett's 1890s timeline) and in the 1954 speech."
   },
   {
    "from": "jyotirao-phule",
@@ -100,9 +100,18 @@
    "to": "sangharakshita",
    "type": "influenced",
    "evidence": "documented",
-   "verified": false,
+   "verified": true,
    "year": 1956,
-   "note": "Met Ambedkar in the 1950s; worked among Ambedkarite Buddhists after his death; wrote Ambedkar and Buddhism (1986). Details not verified on a fetched page."
+   "note": "Corresponded with Ambedkar from 1950, met him in 1952 and later; lectured to new Buddhists in Nagpur after his death; wrote Ambedkar and Buddhism (1986); Triratna's Indian wing works among Ambedkarite Buddhists. Source: Wikipedia, Sangharakshita."
+  },
+  {
+   "from": "chandramani",
+   "to": "sangharakshita",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1949,
+   "note": "Novice (sramanera) ordination, May 1949, in a ceremony led by U Chandramani (Wikipedia, Sangharakshita)."
   }
  ],
  "places": [
@@ -265,7 +274,8 @@
   "ambedkar.mdx: no audio or film archive located; 'In his own voice' marked [to locate]. No photo added.",
   "ambedkar.mdx: art set to existing 'lamp'; no new art created.",
   "buddha-returns.mdx: brief says 350-550 words for part intros; the task asked for 250-350, and the draft is about 330. Dharmapala facts (Bodh Gaya visit 22 January 1891, Maha Bodhi Society founded Colombo 31 May 1891) from a Sunday Times (Sri Lanka) article; the intro says only 1891 and does not claim a written profile.",
-  "graph: consider an edge dharmapala -> ambedkar (institutional/testimony): Ambedkar's 1950 essay appeared in the Maha Bodhi Society's journal; not added because no direct influence was verified."
+  "graph: consider an edge dharmapala -> ambedkar (institutional/testimony): Ambedkar's 1950 essay appeared in the Maha Bodhi Society's journal; not added because no direct influence was verified.",
+  "factcheck: three-gurus speech primary text (BAWS 17(3) p. 504) and a named Dalit scholar's critique still needed; see factcheck.unresolved."
  ],
  "sources": {
   "ambedkar": [
@@ -293,10 +303,52 @@
    "1990 SC status amendment for Buddhists (Act 15 of 1990) -> https://www.casemine.com/act/in/5a979dab4a93263ca60b722f",
    "Rajendra Pal Gautam: event 5 Oct 2022 at Ambedkar Bhavan, resigned 9 Oct 2022 -> https://www.boomlive.in/news/conversion-event-row-why-did-aaps-rajendra-pal-gautam-resign-19531",
    "2011 census: 6.53 million Marathi Buddhists = 77.36% of India's Buddhists (implies about 8.4 million); most from former Mahar community -> https://en.wikipedia.org/wiki/Marathi_Buddhists",
-   "Writings and Speeches vol. 11 (BHD full text) -> https://www.marxists.org/archive/ambedkar/writings-and-speeches/Volume_11.pdf (URL from search, not opened)"
+   "Writings and Speeches vol. 11 (BHD full text) -> https://www.marxists.org/archive/ambedkar/writings-and-speeches/Volume_11.pdf (URL from search, not opened)",
+   "Father a Kabirpanthi ('He was a Kabirpanthi, though his father was Ramanandi'); made sons read Mahabharata and Ramayana nightly -> https://franpritchett.com/00ambedkar/timeline/1890s.html",
+   "Mahad tank satyagraha 20 March 1927 -> https://en.wikipedia.org/wiki/Mahad_Satyagraha",
+   "Three gurus; 'My father was a Kabirpanthi'; BAWS vol. 17(3) p. 504, Hindi BAWS vol. 40 p. 349 -> https://roundtableindia.co.in/?p=29932",
+   "Navayana: press interview 13 Oct 1956, Nagpur; wording varies ('Our Bouddha Dharma is a new Bouddha Dharma Navayan') -> https://ebooks.inflibnet.ac.in/socp12/chapter/navoyana-buddhism/",
+   "Keown & Prebish, Encyclopedia of Buddhism p. 25; Gombrich, Buddhist Precept & Practice pp. 343-370 (paraphrase, not a direct quote) -> https://encyclopediaofbuddhism.org/wiki/Navayana",
+   "Queen, 'A Fourth Turning of the Wheel? Ambedkar Buddhism', Insight Journal 1998: 'the most articulate and perhaps radical spokesman for a new turning of the wheel' -> https://www.buddhistinquiry.org/article/a-fourth-turning-of-the-wheel-ambedkar-buddhism/",
+   "Rohini quarrel settled by the Buddha: Kunala Jataka, DA ii.672, DhA iii.254 -> https://www.palikanon.com/namen/ku/koliyaa.htm",
+   "Kausalyayan 1905-1988, Hindi translation of BHD -> https://en.wikipedia.org/wiki/Bhadant_Anand_Kausalyayan",
+   "Sangharakshita: dates, Chandramani novice ordination 1949, met Ambedkar 1952, Nagpur lectures -> https://en.wikipedia.org/wiki/Sangharakshita",
+   "FWBO founded London April 1967; Indian wing Triratna Bauddha Mahasangha (formerly TBMSG) -> https://en.wikipedia.org/wiki/Triratna_Buddhist_Community",
+   "Savarkar 'declared that the Buddhist Ambedkar was a Hindu Ambedkar' (citing Keer) -> https://counterview.in/2021/10/fresh-efforts-to-subsume-buddhism.html",
+   "Hockings, Neo-Buddhist: self-esteem raised, status among higher-ranking Hindus little changed -> https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/neo-buddhist",
+   "Vajpeyi, Open, 24 Apr 2012: quote and 'critically received even within Buddhist circles' confirmed -> https://openthemagazine.com/essays/arts-letters/the-guru-ambedkar"
   ],
   "buddha-returns": [
    "Dharmapala visited Bodh Gaya 22 Jan 1891; temple under a Shaivite mahant; Maha Bodhi Society founded Colombo 31 May 1891 -> https://www.sundaytimes.lk/210912/sunday-times-2/anagarika-dharmapala-the-buddha-gaya-temple-and-the-campaign-he-launched-455011.html"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 64,
+  "changes": [
+   "ambedkar.mdx: father's Kabir Panth membership confirmed from Ambedkar's own unpublished preface (Pritchett 1890s timeline); added that Ramji's father was Ramanandi and the nightly Mahabharata/Ramayana reading; cut unsourced 'hymns of the Marathi saints'.",
+   "ambedkar.mdx: Mahad month made exact, 20 March 1927 (Wikipedia, Mahad Satyagraha).",
+   "ambedkar.mdx: 'returned to India with doctorates' corrected; London doctorate 1923, Columbia 1927 (general record; Columbia PhD conferred 1927).",
+   "ambedkar.mdx: removed duplicated 'in 1951' in the resignation sentence.",
+   "ambedkar.mdx: three-gurus speech wording now flagged as a recent English translation of the Marathi; added his statement in that speech about his father; reference 6 now gives the BAWS citations (Round Table India).",
+   "ambedkar.mdx: Navayana quotation turned into attributed paraphrase of the 13 October 1956 Nagpur press conference, noting the wording varies (inflibnet e-PG Pathshala; encyclopediaofbuddhism.org).",
+   "ambedkar.mdx: Keown & Prebish fragment quote turned into paraphrase; Gombrich 'quote' was a paraphrase in the source, now an attributed paraphrase; both added to References.",
+   "ambedkar.mdx: Queen's view now rests on a fetched source with a verbatim quote (Insight Journal 1998); added to References.",
+   "ambedkar.mdx: Rohini chronology kept but sourced: Pali commentaries and Kunala Jataka place the quarrel after the enlightenment (palikanon.com, DPPN); removed 'much later'.",
+   "ambedkar.mdx: removed unsupported 'Ambedkar treated it [the initiation] as a formality'.",
+   "ambedkar.mdx: Critiques strengthened with Paul Hockings (Encyclopedia of World Cultures) on outcomes, and a named source for the Hindu nationalist argument (Savarkar's Essentials of Hindutva; Savarkar's response via Keer) plus the Ambedkarite reply.",
+   "ambedkar.mdx: Descendants: Kausalyayan dates added and unsupported 'who knew him' cut; Sangharakshita details corrected (Chandramani ordination 1949, correspondence from 1950, London 1967, Triratna Bauddha Mahasangha formerly TBMSG); census sentence tightened (77% in Maharashtra).",
+   "buddha-returns.mdx: 'B. R. Ambedkar' normalised to 'B.R. Ambedkar'; factual claims (Bodh Gaya 1891, Hindu abbot, Maha Bodhi Society 1891, decline by about the 13th century) consistent with ledger source; no other changes.",
+   "w31.json: sangharakshita node and edge updated and edge marked verified; chandramani note updated; sant-tradition edge note updated; added edge chandramani -> sangharakshita (initiated, 1949); sources extended."
+  ],
+  "unresolved": [
+   "Three-gurus speech: original Marathi text and BAWS vol. 17(3) p. 504 not seen directly (mea.gov.in PDF unreachable); the 28 October 1954 / Purandare Stadium dating rests on The Mooknayak. Round Table India links the BAWS passage to his 'Diamond Jubilee celebrations', which may be the same occasion.",
+   "Navayana: no primary 1956 press report traced; text now paraphrases and notes the wording varies.",
+   "Gombrich and Keown/Prebish not checked in the original books; paraphrases follow encyclopediaofbuddhism.org's citations.",
+   "No well-known Dalit scholar's critique (Teltumbde, Guru, Omvedt) could be verified on a fetched page within budget; Wankhede remains the Dalit voice, supplemented by Hockings. Author may want to add one from Beltz (2005) or Zelliot (1992), both already in References.",
+   "Savarkar's response is reported second-hand (counterview.in citing Keer); page number in Keer not found.",
+   "U Chandramani's Burmese birth and dates rest on Wikipedia (Deekshabhoomi).",
+   "Part intro is about 330 words, below the 350-550 brief range (author decision).",
+   "Places 'Delhi, 26 Alipur Road' and 'Chaityabhoomi' coordinates look right but remain unverified on a fetched page."
   ]
  }
 }
