@@ -1,41 +1,216 @@
 {
   "batch": "w14",
   "nodes_add": [
-    {"id": "deepak-chopra", "name": "Deepak Chopra", "born": 1946, "part": 5, "tier": "node", "kind": "person", "note": "Endocrinologist; met Maharishi 1985, directed the movement's Ayurvedic centre at Lancaster, Massachusetts, promoted Maharishi Ayur-Veda; parted from the movement in the early 1990s"},
-    {"id": "tony-nader", "name": "Tony Nader (Maharaja Adhiraj Rajaraam)", "part": 5, "tier": "node", "kind": "person", "note": "Physician and neuroscientist; named head of the Global Country of World Peace (2000); leads the TM organisations after Maharishi's death in 2008"}
+    {
+      "id": "deepak-chopra",
+      "name": "Deepak Chopra",
+      "born": 1946,
+      "part": 5,
+      "tier": "node",
+      "kind": "person",
+      "note": "Endocrinologist; met Maharishi 1985, directed the movement's Ayurvedic centre at Lancaster, Massachusetts, promoted Maharishi Ayur-Veda; parted from the movement in the early 1990s"
+    },
+    {
+      "id": "tony-nader",
+      "name": "Tony Nader (Maharaja Adhiraj Rajaraam)",
+      "part": 5,
+      "tier": "node",
+      "kind": "person",
+      "note": "Physician and neuroscientist; named head of the Global Country of World Peace (2000); leads the TM organisations after Maharishi's death in 2008"
+    }
   ],
   "nodes_update": [
-    {"id": "maharishi", "name": "Maharishi Mahesh Yogi", "born": 1918, "died": 2008, "note": "Born Mahesh Prasad Varma (also Srivastava), 12 January 1917 or 1918 (1911 in some accounts), near Jabalpur; died Vlodrop, Netherlands, 5 February 2008; cremated at the Sangam, Allahabad, 11 February 2008. Founder of Transcendental Meditation."},
-    {"id": "brahmananda-saraswati", "name": "Brahmananda Saraswati (Jyotirmath)", "born": 1868, "died": 1953, "note": "Born Rajaram Mishra near Ayodhya; birth year given as 1868, 1870 or 1871; sannyasa 1904; Shankaracharya of Jyotirmath from April 1941 until his death in 1953; called Guru Dev in the TM movement"}
+    {
+      "id": "maharishi",
+      "name": "Maharishi Mahesh Yogi",
+      "born": 1918,
+      "died": 2008,
+      "note": "Born Mahesh Prasad Varma (also Srivastava), 12 January 1917 or 1918 (c. 1911 in some accounts), Jabalpur in most accounts; died Vlodrop, Netherlands, 5 February 2008; cremated at the Sangam, Allahabad, 11 February 2008. Founder of Transcendental Meditation."
+    },
+    {
+      "id": "brahmananda-saraswati",
+      "name": "Brahmananda Saraswati (Jyotirmath)",
+      "born": 1868,
+      "died": 1953,
+      "note": "Born Rajaram Mishra near Ayodhya; birth year given as 1868, 1870 or 1871; sannyasa 1904; Shankaracharya of Jyotirmath from April 1941 until his death in 1953; called Guru Dev in the TM movement"
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "advaita-vedanta", "to": "brahmananda-saraswati", "type": "lineage", "evidence": "documented", "verified": true, "year": 1941, "note": "Installed as Shankaracharya of Jyotirmath, April 1941"},
-    {"from": "brahmananda-saraswati", "to": "maharishi", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1941, "note": "Disciple and secretary about thirteen years, by most accounts 1941-1953, as Bal Brahmachari Mahesh; not eligible to succeed (not a Brahmin, not a sannyasi). TM initiation ceremony honours Brahmananda as Guru Dev."},
-    {"from": "maharishi", "to": "sri-sri-ravi-shankar", "type": "lived-with", "evidence": "documented", "verified": true, "note": "Worked and travelled with Maharishi from the mid-1970s until about 1980-81"},
-    {"from": "maharishi", "to": "deepak-chopra", "type": "influenced", "evidence": "documented", "verified": true, "year": 1985, "note": "Met Maharishi 1985; directed the movement's Ayurvedic centre at Lancaster, Massachusetts; parted in the early 1990s after the 1991 JAMA controversy (Warrier)"},
-    {"from": "maharishi", "to": "tony-nader", "type": "institutional", "evidence": "documented", "verified": true, "year": 2000, "note": "Named head of the Global Country of World Peace (2000) as Maharaja Adhiraj Rajaraam; took over leadership on Maharishi's death, 2008"}
+    {
+      "from": "advaita-vedanta",
+      "to": "brahmananda-saraswati",
+      "type": "lineage",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1941,
+      "note": "Installed as Shankaracharya of Jyotirmath, April 1941"
+    },
+    {
+      "from": "brahmananda-saraswati",
+      "to": "maharishi",
+      "type": "lived-with",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1941,
+      "note": "Disciple and secretary about thirteen years, by most accounts 1941-1953, as Bal Brahmachari Mahesh; not eligible to succeed (not a Brahmin, not a sannyasi). TM initiation ceremony honours Brahmananda as Guru Dev."
+    },
+    {
+      "from": "maharishi",
+      "to": "sri-sri-ravi-shankar",
+      "type": "lived-with",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Worked and travelled with Maharishi from the mid-1970s until about 1980-81"
+    },
+    {
+      "from": "maharishi",
+      "to": "deepak-chopra",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1985,
+      "note": "Met Maharishi 1985; directed the movement's Ayurvedic centre at Lancaster, Massachusetts; parted in the early 1990s after the 1991 JAMA controversy (Warrier)"
+    },
+    {
+      "from": "maharishi",
+      "to": "tony-nader",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 2000,
+      "note": "Named head of the Global Country of World Peace (2000) as Maharaja Adhiraj Rajaraam; took over leadership on Maharishi's death, 2008"
+    }
   ],
   "places": [
-    {"name": "Jabalpur", "lat": 23.181, "lon": 79.986, "figure": "maharishi", "what": "Birthplace in most accounts (city-level coordinates; year and exact place disputed)", "verified": true},
-    {"name": "Jyotirmath", "lat": 30.556, "lon": 79.566, "figure": "maharishi", "what": "Seat of his teacher Brahmananda Saraswati, Shankaracharya from 1941", "verified": true},
-    {"name": "Allahabad University", "lat": 25.462, "lon": 81.858, "figure": "maharishi", "what": "Physics degree, 1942", "verified": true},
-    {"name": "Uttarkashi", "lat": 30.727, "lon": 78.435, "figure": "maharishi", "what": "About two years of retreat after Brahmananda's death, 1953-55", "verified": true},
-    {"name": "Madras (Chennai)", "lat": 13.083, "lon": 80.270, "figure": "maharishi", "what": "Seminar founding the Spiritual Regeneration Movement, late 1957 or 1 January 1958 (city-level)", "verified": true},
-    {"name": "Chaurasi Kutia (Beatles Ashram), Rishikesh", "lat": 30.112, "lon": 78.313, "figure": "maharishi", "what": "Maharishi's ashram; teacher training from 1961; the Beatles' stay, February-April 1968; now in Rajaji National Park (approximate coordinates)", "verified": true},
-    {"name": "London Hilton, Park Lane", "lat": 51.505, "lon": -0.150, "figure": "maharishi", "what": "Lecture attended by the Beatles, 24 August 1967", "verified": true},
-    {"name": "Bangor, Wales", "lat": 53.228, "lon": -4.129, "figure": "maharishi", "what": "Course attended by the Beatles, August 1967", "verified": true},
-    {"name": "Seelisberg, Switzerland", "lat": 46.972, "lon": 8.585, "figure": "maharishi", "what": "Movement headquarters from about 1968 until 1990 (village-level)", "verified": true},
-    {"name": "Fairfield, Iowa", "lat": 41.009, "lon": -91.963, "figure": "maharishi", "what": "Maharishi International University from 1974", "verified": true},
-    {"name": "Vlodrop, Netherlands", "lat": 51.133, "lon": 6.083, "figure": "maharishi", "what": "Headquarters and residence from 1990; died here 5 February 2008 (village-level)", "verified": true},
-    {"name": "Sangam, Allahabad", "lat": 25.424, "lon": 81.885, "figure": "maharishi", "what": "Cremation, 11 February 2008", "verified": true}
+    {
+      "name": "Jabalpur",
+      "lat": 23.181,
+      "lon": 79.986,
+      "figure": "maharishi",
+      "what": "Birthplace in most accounts, including Britannica (city-level coordinates; year disputed, other places in the Central Provinces also named)",
+      "verified": true
+    },
+    {
+      "name": "Jyotirmath",
+      "lat": 30.556,
+      "lon": 79.566,
+      "figure": "maharishi",
+      "what": "Seat of his teacher Brahmananda Saraswati, Shankaracharya from 1941",
+      "verified": true
+    },
+    {
+      "name": "Allahabad University",
+      "lat": 25.462,
+      "lon": 81.858,
+      "figure": "maharishi",
+      "what": "Physics degree, 1942",
+      "verified": true
+    },
+    {
+      "name": "Uttarkashi",
+      "lat": 30.727,
+      "lon": 78.435,
+      "figure": "maharishi",
+      "what": "About two years of retreat after Brahmananda's death, 1953-55",
+      "verified": true
+    },
+    {
+      "name": "Madras (Chennai)",
+      "lat": 13.083,
+      "lon": 80.27,
+      "figure": "maharishi",
+      "what": "Seminar at which he inaugurated the Spiritual Regeneration Movement, 31 December 1957 by the movement's account (1958 in some sources) (city-level)",
+      "verified": true
+    },
+    {
+      "name": "Chaurasi Kutia (Beatles Ashram), Rishikesh",
+      "lat": 30.112,
+      "lon": 78.313,
+      "figure": "maharishi",
+      "what": "Maharishi's ashram; teacher training from 1961; the Beatles' stay, February-April 1968; now in Rajaji National Park (approximate coordinates)",
+      "verified": true
+    },
+    {
+      "name": "London Hilton, Park Lane",
+      "lat": 51.505,
+      "lon": -0.15,
+      "figure": "maharishi",
+      "what": "Lecture attended by the Beatles, 24 August 1967",
+      "verified": true
+    },
+    {
+      "name": "Bangor, Wales",
+      "lat": 53.228,
+      "lon": -4.129,
+      "figure": "maharishi",
+      "what": "Course attended by the Beatles, August 1967",
+      "verified": true
+    },
+    {
+      "name": "Seelisberg, Switzerland",
+      "lat": 46.972,
+      "lon": 8.585,
+      "figure": "maharishi",
+      "what": "Movement headquarters from about 1968 until 1990 (village-level)",
+      "verified": true
+    },
+    {
+      "name": "Fairfield, Iowa",
+      "lat": 41.009,
+      "lon": -91.963,
+      "figure": "maharishi",
+      "what": "Maharishi International University from 1974",
+      "verified": true
+    },
+    {
+      "name": "Vlodrop, Netherlands",
+      "lat": 51.133,
+      "lon": 6.083,
+      "figure": "maharishi",
+      "what": "Headquarters and residence from 1990; died here 5 February 2008 (village-level)",
+      "verified": true
+    },
+    {
+      "name": "Sangam, Allahabad",
+      "lat": 25.424,
+      "lon": 81.885,
+      "figure": "maharishi",
+      "what": "Cremation, 11 February 2008",
+      "verified": true
+    }
   ],
   "glossary": [
-    {"term": "Mantra", "script": "मन्त्र", "lang": "sa", "def": "A sacred sound, syllable or phrase repeated aloud or silently. In Transcendental Meditation a short Sanskrit sound is given by the teacher and thought silently, with its meaning playing no part in the practice."},
-    {"term": "Puja", "script": "पूजा", "lang": "sa", "def": "A ritual of worship or honour with offerings such as flowers, fruit, light and water. In TM a short puja to the line of masters ending with Brahmananda Saraswati precedes the giving of the mantra."},
-    {"term": "Siddhi", "script": "सिद्धि", "lang": "sa", "def": "An extraordinary power said to come from advanced yoga practice; Patanjali's Yoga Sutras list many. The TM-Sidhi programme, spelled that way by the movement, is Maharishi's course built on them."},
-    {"term": "Bija mantra", "script": "बीज मन्त्र", "lang": "sa", "def": "A seed mantra: a one-syllable sound such as aim or shrim used in Tantric and devotional practice, traditionally associated with a particular deity."},
-    {"term": "Brahmachari", "script": "ब्रह्मचारी", "lang": "sa", "def": "A celibate student devoted to a teacher or to sacred study; a stage before, or apart from, full monastic renunciation."}
+    {
+      "term": "Mantra",
+      "script": "मन्त्र",
+      "lang": "sa",
+      "def": "A sacred sound, syllable or phrase repeated aloud or silently. In Transcendental Meditation a short Sanskrit sound is given by the teacher and thought silently, with its meaning playing no part in the practice."
+    },
+    {
+      "term": "Puja",
+      "script": "पूजा",
+      "lang": "sa",
+      "def": "A ritual of worship or honour with offerings such as flowers, fruit, light and water. In TM a short puja to the line of masters ending with Brahmananda Saraswati precedes the giving of the mantra."
+    },
+    {
+      "term": "Siddhi",
+      "script": "सिद्धि",
+      "lang": "sa",
+      "def": "An extraordinary power said to come from advanced yoga practice; Patanjali's Yoga Sutras list many. The TM-Sidhi programme, spelled that way by the movement, is Maharishi's course built on them."
+    },
+    {
+      "term": "Bija mantra",
+      "script": "बीज मन्त्र",
+      "lang": "sa",
+      "def": "A seed mantra: a one-syllable sound such as aim or shrim used in Tantric and devotional practice, traditionally associated with a particular deity."
+    },
+    {
+      "term": "Brahmachari",
+      "script": "ब्रह्मचारी",
+      "lang": "sa",
+      "def": "A celibate student devoted to a teacher or to sacred study; a stage before, or apart from, full monastic renunciation."
+    }
   ],
   "art": [],
   "issues": [
@@ -50,7 +225,8 @@
     "maharishi.mdx: Robert Park's phrase 'clinic in data distortion' was attributed in the Wikipedia mirror to one Maharishi Effect study without saying which; text says 'one Maharishi Effect study'.",
     "maharishi.mdx: Chicago Quiet Time settlement (Hudgins class action, N.D. Ill., approved 7 May 2025) case name not confirmed; the David Lynch Foundation's response not found.",
     "maharishi.mdx: no photo added; media cards are CNN transcript, MSU 1968 silent film and the movement's research page. A link to an official audio/video archive of his lectures is marked [to locate].",
-    "maharishi.mdx: the 1991 JAMA controversy over Maharishi Ayur-Veda and the Chopra et al. lawsuit against JAMA were left out of the chapter beyond a mention of Chopra's departure, because the lawsuit outcome could not be verified."
+    "maharishi.mdx: the 1991 JAMA controversy over Maharishi Ayur-Veda and the Chopra et al. lawsuit against JAMA were left out of the chapter beyond a mention of Chopra's departure, because the lawsuit outcome could not be verified.",
+    "maharishi.mdx (factcheck): author may want to verify the Kropinski settlement and the Times quotation from primary sources; the passport birth data (Pounalulla, 1918) reported by Wikipedia could be added if a citable source is found."
   ],
   "sources": {
     "maharishi": [
@@ -84,7 +260,40 @@
       "Shear: initiation 'not a religious ceremony at all'; Merv Griffin April 1975; 700,000 US meditators since 1965; ~30,000/month -> https://christianitytoday.com/ct/1976/march26/transcendental-meditation-challenges-church.html",
       "Chopra met Maharishi 1985 in Washington; directed Lancaster, Massachusetts centre; 1991 JAMA controversy key factor in parting -> https://cris.winchester.ac.uk/ws/portalfiles/portal/337272/13181318_Warrier_AyurvedaDeepakChopra_withstatement.pdf",
       "MSU film 17 June 1968 -> https://onthebanks.msu.edu/Object/162-565-6720/maharishi-mahesh-yogi-1968/",
-      "Movement: 'hundreds of peer-reviewed published studies' from 'a wide range of independent research institutions' -> https://research.miu.edu/tm-research/"
+      "Movement: 'hundreds of peer-reviewed published studies' from 'a wide range of independent research institutions' -> https://research.miu.edu/tm-research/",
+      "SRM inaugurated in Madras on 31 December 1957 (movement's own account) -> https://mvsthesaurus.miu.edu/thesaurus/tr432.htm",
+      "'The theory of Mantras is the theory of sound' in Beacon Light of the Himalayas, Kerala, October 1955 -> https://paulmason.info/gurudev/Beacon.htm",
+      "Born 1917?, Jabalpur -> https://www.britannica.com/print/article/358171",
+      "Chicago settlement approved by Judge Kennelly, N.D. Ill., 7 May 2025, paid by Chicago Board of Education and DLF, no admission of liability -> https://www.abajournal.com/web/article/suit-claiming-meditation-instruction-in-public-schools-violated-students-religious-rights-settles-for-26m",
+      "DLF did not respond to requests for comment at class certification (2024); CPS statement -> https://religionnews.com/2024/05/13/4147609/",
+      "Roth: 'TM is not a religion'; CPS no longer allows Quiet Time -> https://religiondispatches.org/?p=130604",
+      "Hagelin NLP nominee 1992, 1996, 2000 -> https://en.wikipedia.org/wiki/John_Hagelin",
+      "DLF founded 2005 -> https://en.wikipedia.org/wiki/David_Lynch_Foundation",
+      "Nader MD (American University of Beirut), PhD MIT brain and cognitive sciences; Maharaja Adhiraj Rajaraam October 2000 -> https://en.wikipedia.org/wiki/Tony_Nader"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 64,
+    "changes": [
+      "maharishi.mdx: birthplace given as Jabalpur in most accounts (Britannica, EBSCO) with other places noted; year range kept, adding AP's note that he refused to confirm it, Britannica's '1917?' and EBSCO's 18 October c.1911 (Britannica; EBSCO; Hinduism Today/AP).",
+      "maharishi.mdx + glance + batch place: Spiritual Regeneration Movement dated 31 December 1957 by the movement, 1958 in some accounts; the unsourced '1 January 1958' removed (mvsthesaurus.miu.edu tr432; Wikipedia).",
+      "maharishi.mdx: mantra quotation verified verbatim in Beacon Light of the Himalayas (Kerala, October 1955); attribution changed from 'writing' to a 1955 Kerala talk, capitalisation matched, reference added (paulmason.info Beacon).",
+      "maharishi.mdx: The Times quotation could not be seen in The Times itself; paraphrased and attributed to his Times obituary.",
+      "maharishi.mdx: Wallace identified as a physiology researcher; Science reference given pages 1751-1754 (UVA Mandala record; MIU tribute).",
+      "maharishi.mdx: Kropinski remand clarified (fraud retrial because of statute-of-limitations instructions; physical-injury claim retried); first-person 'I have not found' removed (house style); later out-of-court settlement reported as a claim by former-member critics (853 F.2d 948; TM-Free Blog).",
+      "maharishi.mdx: Chicago settlement made precise (N.D. Ill., 7 May 2025, paid by Board of Education and DLF, Establishment Clause, no admission of liability); added CPS dropping the programme, DLF's non-response in 2024 and Roth's standing position that TM is not a religion (ABA Journal; RNS 2024; Religion Dispatches).",
+      "maharishi.mdx: David Lynch Foundation founding 'mid-2000s' changed to 2005 (Wikipedia; Mail & Guardian July 2005).",
+      "maharishi.mdx: Goyal 2014 and AHA 2013 references given full titles, volumes and pages; text wording confirmed (Relias abstract: mantra programmes 'low or no effect' or insufficient evidence; ACP: TM 'may be considered', other meditation Class III).",
+      "maharishi.mdx: references renumbered; added MIU thesaurus SRM entry, Beacon Light, Britannica, RNS 2024.",
+      "w14.json: maharishi node note and Jabalpur/Madras place notes updated to match; sources ledger extended."
+    ],
+    "unresolved": [
+      "The Times obituary text (Feb 2008) not seen directly; quotation replaced with paraphrase. Restore the quotation only if the obituary is checked.",
+      "Kropinski after 1988 remand: only a former-member blog (TM-Free) says the case settled for an undisclosed six-figure sum; no court record or newspaper found.",
+      "Birthplace: current Wikipedia says Mason and Jefferson give Rajim and his passport gives 'Pounalulla' and 12 January 1918; not checked in the biographies themselves. The graph 'born: 1918' is kept.",
+      "Exact date Chicago Public Schools dropped Quiet Time (c. 2019) not pinned down; text says only 'had since stopped'.",
+      "Father's occupation (tax official vs forestry) and the 1988 Indian tax dispute were not independently checked.",
+      "Wallace's UCLA affiliation in 1970 is well known but no fetched source stated it; text does not name UCLA."
     ]
   }
 }

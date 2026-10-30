@@ -32,7 +32,7 @@ Status: todo / running / written / checked / merged.
 | w11 | lahiri-mahasaya (c) | | merged |
 | w12 | yogananda (c) | | merged |
 | w13 | sivananda (c) | | merged |
-| w14 | maharishi (c) | | checking |
+| w14 | maharishi (c) | | merged |
 | w15 | sadhguru (c) | | checking |
 | w18 | muktananda (c) | | running |
 | w20 | prabhupada (c) | | todo |
