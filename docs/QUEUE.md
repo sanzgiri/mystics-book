@@ -31,10 +31,10 @@ Status: todo / running / written / checked / merged.
 | w10 | rabindranath-tagore, iqbal, kc-bhattacharya, gopi-krishna | integral | merged |
 | w11 | lahiri-mahasaya (c) | | merged |
 | w12 | yogananda (c) | | merged |
-| w13 | sivananda (c) | | running |
+| w13 | sivananda (c) | | checking |
 | w14 | maharishi (c) | | checking |
 | w15 | sadhguru (c) | | running |
-| w18 | muktananda (c) | | todo |
+| w18 | muktananda (c) | | running |
 | w20 | prabhupada (c) | | todo |
 | w21 | amma (c) | | todo |
 | w24 | meher-baba (c) | | todo |
