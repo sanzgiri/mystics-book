@@ -1768,6 +1768,38 @@
    "figure": "prabhupada",
    "what": "Died 14 November 1977; samadhi shrine beside the temple (approximate)",
    "verified": false
+  },
+  {
+   "name": "Parayakadavu / Amritapuri",
+   "lat": 9.093,
+   "lon": 76.492,
+   "figure": "amma",
+   "what": "Born 27 September 1953; bhava darshan from 1975; Math founded beside her family home, 1981 (same point as the existing Amritapuri entry; update its 'what' rather than duplicating)",
+   "verified": true
+  },
+  {
+   "name": "Palais des Nations, Geneva",
+   "lat": 46.227,
+   "lon": 6.14,
+   "figure": "amma",
+   "what": "Gandhi-King Award for Non-Violence and her address on universal motherhood, 7 October 2002",
+   "verified": true
+  },
+  {
+   "name": "United Nations Headquarters, New York",
+   "lat": 40.749,
+   "lon": -73.968,
+   "figure": "amma",
+   "what": "Address to the Millennium World Peace Summit of Religious and Spiritual Leaders, 29 August 2000, in Malayalam",
+   "verified": true
+  },
+  {
+   "name": "Amrita Institute of Medical Sciences, Kochi",
+   "lat": 10.033,
+   "lon": 76.293,
+   "figure": "amma",
+   "what": "The Math's hospital, opened 1998 (approximate coordinates)",
+   "verified": false
   }
  ]
 }

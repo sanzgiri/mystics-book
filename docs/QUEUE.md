@@ -36,7 +36,7 @@ Status: todo / running / written / checked / merged.
 | w15 | sadhguru (c) | | merged |
 | w18 | muktananda (c) | | merged |
 | w20 | prabhupada (c) | | merged |
-| w21 | amma (c) | | checking |
+| w21 | amma (c) | | merged |
 | w24 | meher-baba (c) [Sonnet writer] | | running |
 | w26 | inayat-khan (c) [Sonnet writer] | | running |
 | w31 | ambedkar (c) | buddha-returns | todo |
@@ -62,7 +62,7 @@ Historical figures with no live legal or sensitive controversy. Writer agents us
 | s02 | bamakhepa, papa-ramdas, neem-karoli-baba | merged |
 | s03 | bhaktivinoda, bhaktisiddhanta, shastriji-pramukh | merged |
 | s04 | upasni-maharaj, ug-krishnamurti, vallalar | running |
-| s05 | kirpal-singh, ayya-vaikundar, lalaji-babuji | todo |
+| s05 | kirpal-singh, ayya-vaikundar, lalaji-babuji | running |
 | s06 | rajchandra, vinoba, kanji-swami | todo |
 | s07 | tulsi-mahapragya, dada-bhagwan, dipa-ma | todo |
 

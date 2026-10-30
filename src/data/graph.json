@@ -859,7 +859,8 @@
    "born": 1953,
    "part": 7,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Sudhamani Idamannel, 27 September 1953, Parayakadavu, Alappad, Kollam district, Kerala; bhava darshan from 1975; Mata Amritanandamayi Math registered 6 May 1981; first world tour 1987; darshan by embrace; no human guru"
   },
   {
    "id": "bhaktivinoda",
@@ -2268,6 +2269,14 @@
    "tier": "node",
    "kind": "person",
    "note": "Beatle; produced the 1969 Hare Krishna mantra single by the London Radha Krishna Temple; bought Bhaktivedanta Manor for the movement in 1973"
+  },
+  {
+   "id": "amritaswarupananda",
+   "name": "Swami Amritaswarupananda Puri",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Amma's senior-most disciple; met her in 1979 aged 22; sannyasa 1989; vice-chairman of the Mata Amritanandamayi Math and president of Amrita Vishwa Vidyapeetham; author of the movement's biography of Amma"
   }
  ],
  "edges": [
@@ -4700,6 +4709,31 @@
    "verified": true,
    "year": 1969,
    "note": "Produced the 1969 Hare Krishna mantra single; donated Bhaktivedanta Manor 1973"
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "amma",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Her teaching on the self and liberation in life is Advaita in framework; her disciple Swami Ramakrishnananda presents her path as that of the Vedas and the Gita"
+  },
+  {
+   "from": "tantra-shakta",
+   "to": "amma",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Goddess devotion: Devi Bhava darshan, daily Lalita Sahasranama archana at Amritapuri, Brahmasthanam temples"
+  },
+  {
+   "from": "amma",
+   "to": "amritaswarupananda",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1989,
+   "note": "Met her in 1979; she gave him sannyasa in 1989 (Amrita university leadership page)"
   }
  ]
 }

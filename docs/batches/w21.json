@@ -1,27 +1,104 @@
 {
   "batch": "w21",
   "nodes_add": [
-    {"id": "amritaswarupananda", "name": "Swami Amritaswarupananda Puri", "part": 7, "tier": "node", "kind": "person", "note": "Amma's senior-most disciple; met her in 1979 aged 22; sannyasa 1989; vice-chairman of the Mata Amritanandamayi Math and president of Amrita Vishwa Vidyapeetham; author of the movement's biography of Amma"}
+    {
+      "id": "amritaswarupananda",
+      "name": "Swami Amritaswarupananda Puri",
+      "part": 7,
+      "tier": "node",
+      "kind": "person",
+      "note": "Amma's senior-most disciple; met her in 1979 aged 22; sannyasa 1989; vice-chairman of the Mata Amritanandamayi Math and president of Amrita Vishwa Vidyapeetham; author of the movement's biography of Amma"
+    }
   ],
   "nodes_update": [
-    {"id": "amma", "name": "Mata Amritanandamayi (Amma)", "born": 1953, "note": "Born Sudhamani Idamannel, 27 September 1953, Parayakadavu, Alappad, Kollam district, Kerala; bhava darshan from 1975; Mata Amritanandamayi Math registered 6 May 1981; first world tour 1987; darshan by embrace; no human guru"}
+    {
+      "id": "amma",
+      "name": "Mata Amritanandamayi (Amma)",
+      "born": 1953,
+      "note": "Born Sudhamani Idamannel, 27 September 1953, Parayakadavu, Alappad, Kollam district, Kerala; bhava darshan from 1975; Mata Amritanandamayi Math registered 6 May 1981; first world tour 1987; darshan by embrace; no human guru"
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "advaita-vedanta", "to": "amma", "type": "influenced", "evidence": "documented", "verified": true, "note": "Her teaching on the self and liberation in life is Advaita in framework; her disciple Swami Ramakrishnananda presents her path as that of the Vedas and the Gita"},
-    {"from": "tantra-shakta", "to": "amma", "type": "influenced", "evidence": "documented", "verified": true, "note": "Goddess devotion: Devi Bhava darshan, daily Lalita Sahasranama archana at Amritapuri, Brahmasthanam temples"},
-    {"from": "amma", "to": "amritaswarupananda", "type": "initiated", "evidence": "documented", "verified": true, "year": 1989, "note": "Met her in 1979; she gave him sannyasa in 1989 (Amrita university leadership page)"}
+    {
+      "from": "advaita-vedanta",
+      "to": "amma",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Her teaching on the self and liberation in life is Advaita in framework; her disciple Swami Ramakrishnananda presents her path as that of the Vedas and the Gita"
+    },
+    {
+      "from": "tantra-shakta",
+      "to": "amma",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Goddess devotion: Devi Bhava darshan, daily Lalita Sahasranama archana at Amritapuri, Brahmasthanam temples"
+    },
+    {
+      "from": "amma",
+      "to": "amritaswarupananda",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1989,
+      "note": "Met her in 1979; she gave him sannyasa in 1989 (Amrita university leadership page)"
+    }
   ],
   "places": [
-    {"name": "Parayakadavu / Amritapuri", "lat": 9.093, "lon": 76.492, "figure": "amma", "what": "Born 27 September 1953; bhava darshan from 1975; Math founded beside her family home, 1981 (same point as the existing Amritapuri entry; update its 'what' rather than duplicating)", "verified": true},
-    {"name": "Palais des Nations, Geneva", "lat": 46.227, "lon": 6.140, "figure": "amma", "what": "Gandhi-King Award for Non-Violence and her address on universal motherhood, 7 October 2002", "verified": true},
-    {"name": "United Nations Headquarters, New York", "lat": 40.749, "lon": -73.968, "figure": "amma", "what": "Address to the Millennium World Peace Summit of Religious and Spiritual Leaders, 29 August 2000, in Malayalam", "verified": true},
-    {"name": "Amrita Institute of Medical Sciences, Kochi", "lat": 10.033, "lon": 76.293, "figure": "amma", "what": "The Math's hospital, opened 1998 (approximate coordinates)", "verified": false}
+    {
+      "name": "Parayakadavu / Amritapuri",
+      "lat": 9.093,
+      "lon": 76.492,
+      "figure": "amma",
+      "what": "Born 27 September 1953; bhava darshan from 1975; Math founded beside her family home, 1981 (same point as the existing Amritapuri entry; update its 'what' rather than duplicating)",
+      "verified": true
+    },
+    {
+      "name": "Palais des Nations, Geneva",
+      "lat": 46.227,
+      "lon": 6.14,
+      "figure": "amma",
+      "what": "Gandhi-King Award for Non-Violence and her address on universal motherhood, 7 October 2002",
+      "verified": true
+    },
+    {
+      "name": "United Nations Headquarters, New York",
+      "lat": 40.749,
+      "lon": -73.968,
+      "figure": "amma",
+      "what": "Address to the Millennium World Peace Summit of Religious and Spiritual Leaders, 29 August 2000, in Malayalam",
+      "verified": true
+    },
+    {
+      "name": "Amrita Institute of Medical Sciences, Kochi",
+      "lat": 10.033,
+      "lon": 76.293,
+      "figure": "amma",
+      "what": "The Math's hospital, opened 1998 (approximate coordinates)",
+      "verified": false
+    }
   ],
   "glossary": [
-    {"term": "Archana", "script": "अर्चना", "lang": "sa", "def": "Worship by offering; in practice often the chanting of a deity's names, such as the thousand names of the Goddess."},
-    {"term": "Lalita Sahasranama", "script": "ललितासहस्रनाम", "lang": "sa", "def": "The thousand names of the Goddess Lalita, a Sanskrit hymn chanted in Shakta worship and daily at Amma's ashram."},
-    {"term": "Brahmasthanam", "script": "ब्रह्मस्थानम्", "lang": "sa", "def": "Place of the absolute; Amma's name for the temples she consecrated, each with one image bearing four faces of different deities."}
+    {
+      "term": "Archana",
+      "script": "अर्चना",
+      "lang": "sa",
+      "def": "Worship by offering; in practice often the chanting of a deity's names, such as the thousand names of the Goddess."
+    },
+    {
+      "term": "Lalita Sahasranama",
+      "script": "ललितासहस्रनाम",
+      "lang": "sa",
+      "def": "The thousand names of the Goddess Lalita, a Sanskrit hymn chanted in Shakta worship and daily at Amma's ashram."
+    },
+    {
+      "term": "Brahmasthanam",
+      "script": "ब्रह्मस्थानम्",
+      "lang": "sa",
+      "def": "Place of the absolute; Amma's name for the temples she consecrated, each with one image bearing four faces of different deities."
+    }
   ],
   "art": [],
   "issues": [
@@ -39,14 +116,15 @@
     "amma.mdx: 'Travancore-Cochin societies registration law of 1955' paraphrases HandWiki's 'Travancore-Cochin Literary and Charitable Act of 1955'; the formal Act name should be checked.",
     "amma.mdx: The Integrated Amrita Meditation Technique's introduction year is not established; omitted.",
     "amma.mdx: the organisation's official YouTube channel not seen in search results; marked [to locate]. No recording of her own voice is linked directly.",
-    "amma.mdx: Amritapuri already exists in places.json (9.093, 76.492). The batch repeats it with a fuller 'what'; merge rather than duplicate. AIMS Kochi coordinates are approximate (verified false)."
+    "amma.mdx: Amritapuri already exists in places.json (9.093, 76.492). The batch repeats it with a fuller 'what'; merge rather than duplicate. AIMS Kochi coordinates are approximate (verified false).",
+    "amma.mdx (factcheck): Satnam Singh Mann item cut. Ashram link is documented (Open, Aug 2012: ashram guards handed him to police on an ashram complaint of attempted murder) but the outcome of the murder case against a warder and attendant and of the CBI petition could not be traced; author may restore if a verdict is found.",
+    "amma.mdx (factcheck): Deshabhimani 2002 report and retraction cut; found only in Wikipedia and its mirrors (citing the paper itself)."
   ],
   "sources": {
     "amma": [
       "Born Sudhamani 27 Sep 1953 in a poor fishing village in Kerala; born smiling; songs to Krishna by five; schooling ended at nine when mother fell ill; Krishna Bhava September 1975 with inner-voice quote 'Thousands and thousands of people...'; named Mata Amritanandamayi by first monastic disciples in 1979; huts 1981; 'A continuous stream of love flows from me to all of creation'; doctor quote; darshan for over 22 hours; 36 million -> https://www.amma.org.sg/?p=2876",
       "Darshan described as 'a process of purification and inner healing' and transmitting 'a part of Her pure, vital energy'; offered regardless of age, gender, race, caste, class or religion -> https://www.amma.org.sg/?p=4465",
       "Timeline 1953, 1975 Krishna and Devi bhava, 1981 Amritapuri, 1987 US, 1989 San Ramon, 1993 Parliament speech, 2002 Gandhi-King; Devi bhava sequence (pada puja, lamp waving, bhajans, embraces, chocolate, rose petals, sacred ash); mantra choice incl. Christian or Buddhist; menstruating women at darshan; women priests; critics on cult, couples, celibacy, sleep, finances, miracles; darshan and mantras free; donations and souvenir sales -> https://wrldrels.org/?p=3137",
-      "Third of seven children of Sugunanandan and Damayanti (Rolling Stone 2012); collected food scraps; punished by family; refused marriages; Math and Mission Trust registered 6 May 1981 at Kollam; 1987 tours; Ramakrishnananda on Vedas and Gita; jivanmukti; more than 1,000 bhajans in 35 languages; AIMS 1998; Institute of Eminence 2019; Pattathanam 1985; Deshabhimani 9 Aug and 24 Sep 2002; 2004 sanction; Tredwell self-published 2013; Satnam Singh 1 Aug 2012 -> https://handwiki.org/wiki/Biography:Mata_Amritanandamayi",
       "UN 50th anniversary 1995; Millennium World Peace Summit, UN General Assembly Hall, 29 Aug 2000, in Malayalam; Geneva 2002; Vatican 2014; honorary doctorates 2010 SUNY, 2019 Mysore; over 40 million embraced -> https://www.amrita.edu/chancellor-amma",
       "Gandhi-King Award 7 Oct 2002, Palais des Nations, presented by Jane Goodall; quotes 'No authentic religion belittles or denigrates women', 'Men and women have to support one another' -> https://www.amrita.edu/news/chancellor-amma-received-the-gandhi-king-award-for-non-violence/",
       "Amritaswarupananda met Amma 1979 aged 22; sannyasa 1989; vice-chairman of MAM; president of Amrita university -> https://www.amrita.edu/leader/swami-amritaswarupananda-puri/",
@@ -70,10 +148,32 @@
       "TNM 5 Jan 2015: John Brittas interview; magistrate court case against Tredwell; media booked; Facebook arrests -> https://www.thenewsminute.com/kerala/top-five-headlines-kerala-2014-16989",
       "Kerala HC, Justice P.V. Kunhikrishnan, Prakash v. Vandana, Crl.M.C. 415/2015, 2024: Reporter TV defamation complaint (filed 2014) quashed; 'a defamation case cannot be against 'pick and choose persons' alone' -> https://www.livelaw.in/amp/high-court/kerala-high-court/media-entitled-to-discuss-book-available-on-public-domain-kerala-high-court-quashes-criminal-defamation-case-over-book-talk-265568",
       "Pattathanam book 1985, Mass Publications, Kollam; complaint by T.K. Ajan 23 May 2002 under IPC 295-A and 292; sanction to prosecute author, publisher, printer; PUCL protest -> https://countercurrents.org/hr-pattathanam040404.htm",
-      "2004 sanction after HC direction on application of T.K. Ajan, a resident of the Math (The Hindu, 28 Jan 2004, as cited) -> https://en.bharatpedia.org/wiki/Sreeni_Pattathanam",
-      "Satnam Singh: custody after disturbance at Kollam mutt 1 Aug 2012; died three days later at a mental health centre; HC (Justice K. Ramakrishnan) 3 Apr 2014 asked police for statement; prosecutor admitted omissions; CBI unwilling -> https://business-standard.com/article/pti-stories/hc-directs-police-to-file-statement-on-satnam-singh-s-death-114040300980_1.html",
-      "Satnam Singh: ran toward dais; security handed him to police; admitted to institute on court directive; beaten by four persons engaged by the institute; charge sheet filed; father sought CBI probe -> https://www.deccanherald.com/india/bihari-youths-father-seeks-cbi-2243008",
-      "Satnam Singh's cousin alleged he was beaten by her men; ashram's 40 million devotees as its claim -> https://outlookindia.com/national/sacred-hugs-scandalous-secrets-inside-the-world-of-mata-amritanandamayi"
+      "2004 sanction after HC direction on application of T.K. Ajan, a resident of the Math (The Hindu, 28 Jan 2004, as cited) -> https://en.bharatpedia.org/wiki/Sreeni_Pattathanam"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 46,
+    "changes": [
+      "amma.mdx: Tredwell arrival widened to 1979-1981 (Religioscope 14 Mar 2014: 1979; HandWiki/Wikipedia: 1980; DNA: 15 Jan 1981; Pioneer: 1981)",
+      "amma.mdx: Kairali TV/John Brittas interview re-dated to early March 2014, after the book became public in February (Religioscope; TNM)",
+      "amma.mdx: Tredwell's reason for not filing a complaint paraphrased to her India Today words (higher forms of justice; not years in legal proceedings); 'no criminal case has been filed' softened to 'has been reported'",
+      "amma.mdx: unsourced 'people whose wishes had not been met' replaced by The Pioneer's 'certain forces' stirring religious sentiment (Pioneer 23 Feb 2014); 22 Feb 2014 Palakkad/Puthur statement and 'open book' confirmed",
+      "amma.mdx: Kochi magistrate wording corrected to an order for investigation in March 2014 on a private complaint; outcome untraced (Religioscope; TNM)",
+      "amma.mdx: Reporter TV case: complaint filed 2014 against two senior editors; ruling August 2024 (LiveLaw 3 Aug 2024, Prakash v. Vandana)",
+      "amma.mdx: finance response re-attributed: no membership fees and annual accounts to Amma (Outlook; Pioneer); funding model to Bromley and Edelman (WRSP)",
+      "amma.mdx: Pattathanam: cut single-source claim about deaths near the ashram and the Deshabhimani retraction; Ajan described as a devotee; complaint May 2002; HC petition then 2004 sanction; IPC wording made precise (Countercurrents 4 Apr 2004; Bharatpedia citing The Hindu 28 Jan 2004)",
+      "amma.mdx: Satnam Singh Mann paragraph and refs 27-29 cut (outcome untraceable)",
+      "amma.mdx: Act named as Travancore-Cochin Literary, Scientific and Charitable Societies Registration Act, 1955 (Wikipedia citing the movement's biography: 'Travancore-Cochin State Literary and Charitable Act of 1955')",
+      "amma.mdx: Vatican declaration dated 2 December 2014 with its title (amrita.edu; CSM 3 Dec 2014)",
+      "amma.mdx: Neal Rosner's 1979 arrival hedged to end of the 1970s (Religioscope gives 1979 for the first Western disciples without naming him)",
+      "amma.mdx: primary works: biography title corrected to 'Mata Amritanandamayi: Life and Experiences of Devotees' (1988, library catalogue); Awaken, Children! from 1989 or 1990 (Goodreads; Amrita library catalogue; encyclopedia.com)"
+    ],
+    "unresolved": [
+      "'Balu' identity: no reliable source seen identifies him; chapter continues not to name him",
+      "Krishna Bhava month (March or September 1975) still conflicting; text gives both",
+      "Outcome of the Pattathanam prosecution and of the 2014 Kochi magistrate order not traced",
+      "Author of the 1988 biography not shown in the catalogue record; Religioscope cites a 1987 biography under the name Balagopal. Edition history needs checking",
+      "Holy Hell publisher not confirmed (DNA reprint says 'Walter Tree Press'; others say self-published)"
     ]
   }
 }
