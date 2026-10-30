@@ -2149,7 +2149,7 @@
    "part": 5,
    "tier": "node",
    "kind": "person",
-   "note": "Named in Arundhathi Subramaniam's authorised biography as the guru of Sadhguru's earlier life as Shivayogi; no independent historical record"
+   "note": "Named, in accounts drawing on Arundhathi Subramaniam's authorised biography (name not seen in the book itself by the checker), as the guru of Sadhguru's earlier life as Shivayogi; no independent historical record"
   }
  ],
  "edges": [
@@ -4389,14 +4389,14 @@
    "evidence": "testimony",
    "verified": true,
    "year": 1970,
-   "note": "Taught him hatha yoga when he was 12 or 13 (c. 1969-70) and the Swami about 81; source is Sadhguru's own account via Subramaniam's authorised biography"
+   "note": "Taught him hatha yoga when he was 12 or 13 (c. 1969-70) and the Swami about 80 (81 in the biography as summarised; his 1890 birth gives 79-80); source is Sadhguru's own account via Subramaniam's authorised biography"
   },
   {
    "from": "palani-swami",
    "to": "sadhguru",
    "type": "claimed",
    "evidence": "hagiographic",
-   "verified": true,
+   "verified": false,
    "note": "Past-life guru who, by Sadhguru's account, touched Shivayogi with his stick and transmitted the knowledge to consecrate the Dhyanalinga"
   },
   {
