@@ -30,7 +30,7 @@ Status: todo / running / written / checked / merged.
 | w09 | aurobindo (c) | | merged |
 | w10 | rabindranath-tagore, iqbal, kc-bhattacharya, gopi-krishna | integral | checking |
 | w11 | lahiri-mahasaya (c) | | checking |
-| w12 | yogananda (c) | | running |
+| w12 | yogananda (c) | | checking |
 | w13 | sivananda (c) | | todo |
 | w14 | maharishi (c) | | todo |
 | w15 | sadhguru (c) | | todo |
@@ -58,7 +58,7 @@ Historical figures with no live legal or sensitive controversy. Writer agents us
 
 | Unit | Entries | Status |
 |---|---|---|
-| s01 | yukteswar, kuvalayananda, iyengar, vethathiri | running |
+| s01 | yukteswar, kuvalayananda, iyengar, vethathiri | checking |
 | s02 | bamakhepa, papa-ramdas, neem-karoli-baba | todo |
 | s03 | bhaktivinoda, bhaktisiddhanta, shastriji-pramukh | todo |
 | s04 | upasni-maharaj, ug-krishnamurti, vallalar | todo |

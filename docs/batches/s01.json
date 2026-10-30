@@ -1,0 +1,333 @@
+{
+ "batch": "s01",
+ "nodes_add": [
+  {
+   "id": "rajaratna-manikrao",
+   "name": "Rajaratna Manikrao",
+   "born": 1878,
+   "died": 1954,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Founder of the Jummadada Vyayam Mandir, Baroda; trained Kuvalayananda in physical culture 1907-1910."
+  },
+  {
+   "id": "madhavdas",
+   "name": "Paramahamsa Madhavdas",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Yogi settled at Malsar near Baroda; Kuvalayananda's teacher from 1918/1919. Dates 1798-1921 given by Kaivalyadhama are unsourced, so omitted."
+  },
+  {
+   "id": "paranjyothi",
+   "name": "Seer Paranjyothi",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Said to have initiated Vethathiri into kundalini yoga; known only from the movement's account."
+  }
+ ],
+ "nodes_update": [],
+ "edges_remove": [],
+ "edges_upsert": [
+  {
+   "from": "lahiri-mahasaya",
+   "to": "yukteswar",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1884,
+   "note": "Met and initiated in Benares in 1884 per Wikipedia and Ananda; the lineage's own accounts."
+  },
+  {
+   "from": "babaji",
+   "to": "yukteswar",
+   "type": "claimed",
+   "evidence": "hagiographic",
+   "verified": true,
+   "year": 1894,
+   "note": "Kumbha Mela, Allahabad, January 1894, in Yukteswar's account as reported by Yogananda (Autobiography ch. 36); no evidence outside the lineage."
+  },
+  {
+   "from": "yukteswar",
+   "to": "yogananda",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1910,
+   "note": "Met in Benares c. 1910; trained about ten years; swami initiation July 1914; sent West 1920."
+  },
+  {
+   "from": "madhavdas",
+   "to": "kuvalayananda",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1919,
+   "note": "Guru-disciple relation stated by Kaivalyadhama; met 1919 (Wikipedia, kdham) or end of 1918 (Bodhe)."
+  },
+  {
+   "from": "rajaratna-manikrao",
+   "to": "kuvalayananda",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1907,
+   "note": "Physical-culture training 1907-1910."
+  },
+  {
+   "from": "aurobindo",
+   "to": "kuvalayananda",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Kaivalyadhama says the young Aurobindo at Baroda and Tilak's Home Rule movement shaped his patriotism."
+  },
+  {
+   "from": "krishnamacharya",
+   "to": "iyengar",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1934,
+   "note": "Brother-in-law; RIMYI says Iyengar went to live with them at 14, Wikipedia says 1934."
+  },
+  {
+   "from": "vallalar",
+   "to": "vethathiri",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Wikipedia: inspired by Ramalinga Swamigal; no personal contact possible (d. 1874)."
+  },
+  {
+   "from": "paranjyothi",
+   "to": "vethathiri",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Kundalini initiation, undated, cited by Wikipedia to a video on a movement channel."
+  }
+ ],
+ "places": [
+  {
+   "name": "Serampore",
+   "lat": 22.75,
+   "lon": 88.34,
+   "figure": "yukteswar",
+   "what": "Birth 1855; his hermitage in the family house.",
+   "verified": true
+  },
+  {
+   "name": "Puri",
+   "lat": 19.81,
+   "lon": 85.83,
+   "figure": "yukteswar",
+   "what": "Karar Ashram, founded 1903; he died there 9 March 1936.",
+   "verified": true
+  },
+  {
+   "name": "Benares",
+   "lat": 25.32,
+   "lon": 83.0,
+   "figure": "yukteswar",
+   "what": "Met Lahiri Mahasaya (1884) and, c. 1910, Yogananda.",
+   "verified": true
+  },
+  {
+   "name": "Allahabad (Prayagraj)",
+   "lat": 25.43,
+   "lon": 81.85,
+   "figure": "yukteswar",
+   "what": "Kumbha Mela of January 1894, site of the Babaji meeting in his account.",
+   "verified": true
+  },
+  {
+   "name": "Lonavla",
+   "lat": 18.75,
+   "lon": 73.41,
+   "figure": "kuvalayananda",
+   "what": "Kaivalyadhama, founded 1924; he died here 1966.",
+   "verified": true
+  },
+  {
+   "name": "Baroda (Vadodara)",
+   "lat": 22.31,
+   "lon": 73.18,
+   "figure": "kuvalayananda",
+   "what": "Studies, Manikrao's training, 1920-21 hospital experiments.",
+   "verified": true
+  },
+  {
+   "name": "Dabhoi",
+   "lat": 22.13,
+   "lon": 73.43,
+   "figure": "kuvalayananda",
+   "what": "Birthplace per Wikipedia and Kaivalyadhama.",
+   "verified": false
+  },
+  {
+   "name": "Amalner",
+   "lat": 21.04,
+   "lon": 75.07,
+   "figure": "kuvalayananda",
+   "what": "National College of the Khandesh Education Society; principal 1916.",
+   "verified": false
+  },
+  {
+   "name": "Pune",
+   "lat": 18.52,
+   "lon": 73.86,
+   "figure": "iyengar",
+   "what": "Arrived 1937; Ramamani Iyengar Memorial Yoga Institute opened 1975; died here 2014.",
+   "verified": true
+  },
+  {
+   "name": "Mysore",
+   "lat": 12.3,
+   "lon": 76.64,
+   "figure": "iyengar",
+   "what": "Lived with Krishnamacharya from about 1934.",
+   "verified": true
+  },
+  {
+   "name": "Guduvancheri",
+   "lat": 12.845,
+   "lon": 80.057,
+   "figure": "vethathiri",
+   "what": "Birthplace, 1911.",
+   "verified": true
+  },
+  {
+   "name": "Aliyar, near Pollachi",
+   "lat": 10.47,
+   "lon": 76.97,
+   "figure": "vethathiri",
+   "what": "Arivu Thirukkoil (Temple of Consciousness), 1984.",
+   "verified": false
+  },
+  {
+   "name": "Thiruvanmiyur, Chennai",
+   "lat": 12.98,
+   "lon": 80.26,
+   "figure": "vethathiri",
+   "what": "Headquarters of the World Community Service Centre, founded 1958.",
+   "verified": false
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Kriya Yoga",
+   "script": "क्रिया योग",
+   "lang": "sa",
+   "def": "A set of breathing and meditation techniques taught in the line of Lahiri Mahasaya, which the lineage says he received from Babaji in 1861."
+  },
+  {
+   "term": "Yuga",
+   "script": "युग",
+   "lang": "sa",
+   "def": "One of the four ages of the Hindu cycle of time: Satya, Treta, Dvapara and Kali. Tradition gives Kali Yuga 432,000 years; Sri Yukteswar proposed a 24,000-year cycle."
+  },
+  {
+   "term": "Asana",
+   "script": "आसन",
+   "lang": "sa",
+   "def": "A yoga posture. In modern classes, one of the many named poses, such as the triangle or the headstand."
+  },
+  {
+   "term": "Hatha yoga",
+   "script": "हठ योग",
+   "lang": "sa",
+   "def": "The branch of yoga that works through postures, breath control and cleansing practices, described in medieval texts such as the Hatha Yoga Pradipika."
+  },
+  {
+   "term": "Nauli",
+   "script": "नौलि",
+   "lang": "sa",
+   "def": "A hatha yoga cleansing practice in which the abdominal muscles are isolated and rolled. Kuvalayananda's first published experiment was an X-ray study of it."
+  },
+  {
+   "term": "Kayakalpa",
+   "script": "कायकल्प",
+   "lang": "sa",
+   "def": "A traditional south Indian rejuvenation practice of breathing, diet and exercise, said to slow the body's decline. Vethathiri taught his own version."
+  },
+  {
+   "term": "Siddha",
+   "script": "सिद्ध",
+   "lang": "sa",
+   "def": "In Tamil tradition, an adept credited with yoga techniques and with a system of medicine that also bears the name Siddha."
+  }
+ ],
+ "art": [],
+ "issues": [
+  "yukteswar.mdx: year of formal ordination conflicts (Ananda says 1906; Wikipedia says a Bodh Gaya mahant, undated; Babaji conferred the title in 1894 per Autobiography). Presented as a conflict.",
+  "yukteswar.mdx: I could not open Autobiography ch. 43 (hinduwebsite fetch failed), so the Bombay appearance is attributed only through the Kriya Yoga Institute page; the June 1936 date is not given. The 1914 swami initiation date and 'about fifty-five' come from fetched summaries of chs. 24 and 10, not the full text.",
+  "yukteswar.mdx: Wikipedia says Holy Science was written in 1894; I found no source for the first printing date. The Sanskrit-title gloss 'vision of liberation' is the writer's own translation. Satyananda's biography was listed, not read.",
+  "yukteswar.mdx: the claim that the standard account of precession does not use a companion star rests on one explanatory page (explainingscience.org) plus Wikipedia's note on the Binary Research Institute; a stronger astronomical source would help. The Holy Science dates Kali's low point c. 500 (Autobiography) vs c. 550 (Wikipedia); text says 'around the year 500'.",
+  "yukteswar.mdx: Yukteswar's wife's death 1895 and 1884 meeting date come from Ananda/Wikipedia only (movement sources).",
+  "kuvalayananda.mdx: birthplace unresolved (Dabhoi per Wikipedia and Kaivalyadhama legacy page; 'a village in Gujarat' per Bodhe; 'Dumad' in the assignment notes could not be verified). Place marked verified:false.",
+  "kuvalayananda.mdx: founding of Kaivalyadhama given as 1924 Lonavla (all sources) but 1917 Amalner on two kdham pages; Bodhe's Vijayadashami 1924 (he says 7 October) not checked against a calendar so day omitted. Madhavdas meeting 1919 vs end of 1918. Madhavdas dates 1798-1921 are unsourced (Wikipedia: citation needed).",
+  "kuvalayananda.mdx: Gandhi correspondence rests only on Bodhe, a Kaivalyadhama insider. Stamp date: ETV Bharat preview says release scheduled 30 Aug 2019; Wikipedia says released in 2019. Text says 2019 only. Padma awards for him not found.",
+  "iyengar.mdx: Krishnamacharya move at 14 (RIMYI) vs 1934 (Wikipedia, age ~15); typhoid (Wikipedia) vs typhus (RIMYI); death-report date 20/21 Aug; Light on Yoga translations 17 vs 23 languages (omitted). Iyengar's 'first used props' history is not independently confirmed; text attributes to Wikipedia citing Mehta et al. 1990.",
+  "iyengar.mdx: Bellur coordinates not verified (rate limit), so no Bellur place entry. Manouso Manos 2019 decertification (IYNAUS) deliberately left out as not about Iyengar; author may want it under Descendants. No online recording of Iyengar's voice found with a direct URL; film Samadhi (1977) is sold by RIMYI with no link. Profile has no media section.",
+  "vethathiri.mdx: sources are thin and mostly movement or proponent-supplied (stamp catalogue, Wikipedia with weak citations). Guru Paranjyothi, A. Balakrishna, age-12 meeting, kundalini initiation are unverified beyond Wikipedia. Book count 70 vs 75; age at death 95 (stamp page) vs 94 (arithmetic); 1,500 centres and UN ECOSOC status are organisation claims. UN invitation 9 Jan 1975 only from the proponent-supplied stamp page. 14 Vethathiriam points not found, so not listed. Tamil title script (manavalakalai) spelling unverified. Aliyar and Thiruvanmiyur coordinates unverified.",
+  "All four: the weekly usage limit interrupted research once; Aliyar village, Belluru/Bellur and several Wikipedia pages could not be fetched after that point."
+ ],
+ "sources": {
+  "yukteswar": [
+   "Born 10 May 1855 Serampore; parents Kshetranath and Kadambini; daughter; Lahiri 1884; Holy Science 1894; Puri ashram 1903; died 9 March 1936 Puri -> https://en.wikipedia.org/wiki/Swami_Sri_Yukteswar_Giri (via fetch summary); https://en.bharatpedia.org/wiki/Swami_Sri_Yukteswar_Giri",
+   "Birth 10 May 1855; Puri Karar Ashram 22 March 1903; death 9 March 1936; Lahiri called him Priya; Hariharananda as disciple; Babaji accounts -> https://kriya.org/guru/swami-shriyukteshwar-giri/en",
+   "Wife died 1895; formal ordination 1906 as Sri Yukteswar Giri; 1894 Kumbha Mela; sent Yogananda West 1920; trained ~10 years; 'gyanavatar'; house inherited -> https://www.ananda.org/about-ananda-sangha/lineage/swami-sri-yukteswar/",
+   "Mahasamadhi March 9 1936 during Yogananda's visit after fifteen years in America -> https://yssofindia.org/about/swami-sri-yukteswar",
+   "Quote 'After my wife died, I joined the Swami Order'; 'hypercritical of his disciples'; 'Someday you will go to the West'; birth footnote 10 May 1855; second hermitage near Bay of Bengal -> https://hinduwebsite.com/sacredscripts/spiritualism/yogananda/yogananda_12.asp",
+   "Meeting in Benares, Yukteswar 'about fifty-five' -> https://hinduwebsite.com/sacredscripts/spiritualism/yogananda/yogananda_10.asp",
+   "Kumbha Mela January 1894 Allahabad; quote 'a short book on the underlying basic unity between the Christian and Hindu scriptures'; title swami -> https://hinduwebsite.com/sacredscripts/spiritualism/yogananda/yogananda_36.asp",
+   "Yuga arcs 12,000 years; Kali ~500-1700; Dwapara 2,400 years from ~1700; Treta 4100; armlet; stars have no conscious benevolence or animosity -> https://hinduwebsite.com/sacredscripts/spiritualism/yogananda/yogananda_16.asp",
+   "Giri branch; Yogananda initiated July 1914 and took name Yogananda -> https://anandaindia.org/autobiography-of-a-yogi/i-become-a-monk-of-the-swami-order/",
+   "Holy Science four sections (Gospel, Goal, Procedure, Revelation); quote 'takes some star for its dual and revolves round it in about 24,000 years'; Dwapara from 1699; Treta c. 4099; Binary Research Institute; most pundits hold present age is Kali; 'one Goal admitted by all scriptures' -> https://en.wikipedia.org/wiki/The_Holy_Science",
+   "Traditional Kali Yuga 432,000 years from 3102 BCE -> https://en.wikipedia.org/wiki/Kali_Yuga",
+   "Precession caused by Sun and Moon on equatorial bulge, ~25,771 years -> https://explainingscience.org/changing-pole-star-additional-detail/",
+   "Lahiri Mahasaya 1828-1895; Yukteswar listed as disciple -> https://en.wikipedia.org/wiki/Lahiri_Mahasaya"
+  ],
+  "kuvalayananda": [
+   "Born 30 Aug 1883 Dabhoi; birth name; died 18 April 1966 Lonavala; matric 1903; Baroda graduate 1910; Manikrao 1907-10; Madhavdas 1919; 1920-21 Baroda State Hospital; 1924 Kaivalyadhama and Yoga Mimamsa; Asanas, Pranayama 1931; Bombay 1932 -> https://en.wikipedia.org/wiki/Swami_Kuvalayananda",
+   "Birth/death dates; Manikrao; Madhavdas 1919 (dates 1798-1921); Tilak and Aurobindo; principal 1916; Kaivalyadhama 1924; strict rationalist; Yoga Mimamsa 1924; 'born at Dabhoi'; Amalner 1917; 'oldest and first scientific Yoga journal' -> https://kdham.com/?p=34 and https://kdham.com/the-legacy/",
+   "Parents Ganesh Laxman Gune and Saraswati; orphaned ~14; Nutan Marathi Vidyalaya; BA 1910; Madhavdas end of 1918; 1920-23 research; National College derecognised 1920; Gandhi correspondence; Vijayadashami 1924; Bombay 1932 -> https://esamskriti.com/e/Yoga/Asanas-ad-Pranayama/Swami-Kuvalayananda-~-A-Brief-Biography-1.aspx",
+   "Founded 1924 Lonavla; Yoga Mimamsa 1924; SRD; Seksaria College 1951; 'first/oldest' claims; 16 centres -> https://kdham.com/about-kaivalyadhama/ and https://en.wikipedia.org/wiki/Kaivalyadhama",
+   "Bhugarbha pit study 12-14 vs up to 18 hours; no true bhugarbha samadhi; CO2 limit; Madhavdas vacuum; quote 'I have brought up this institution out of nothing' -> https://kdham.com/wp-content/uploads/2021/07/Scientific-Research-Brochure.pdf",
+   "Madhavdas dates 1798-1921 flagged citation needed; Madhavdas Vacuum named by Kuvalayananda -> https://en.wikipedia.org/wiki/Paramahamsa_Madhavdas",
+   "Yoga Mimamsa vol. 1 Oct 1924 on uddiyana; X-rays cloudy; pressure fell; vacuum named for Madhavdas -> https://www.ghoshyoga.org/blogs/the-science-of-uddiyana-1924",
+   "First published study was X-ray of nauli; 1930s research on BP, asana, intragastric pressure, alveolar air; limitations discussed -> https://qigonginstitute.org/abstract-print/19786",
+   "Alter calls him one of the chief architects of the Yoga Renaissance -> https://press.princeton.edu/node/23330",
+   "Review quote 'scientific nationalism transmuted into a universalist philosophy of science'; Nehru admired -> https://www.academia.edu/3839467 (Sarbacker, History of Religions, 2007)",
+   "2019 stamp among 12 AYUSH figures (preview dated 30 Aug 2019) -> https://etvbharat.com/english/state/delhi/pm-to-release-special-stamps-on-12-unsung-rockstars-of-ayush/na20190830095450404"
+  ],
+  "iyengar": [
+   "Birth 14 Dec 1918 Bellur; illnesses; father's death before age nine; Mysore 1934; Pune 1937; married Ramamani 1943 (d. 1973 aged 46); Menuhin 1952 and Switzerland 1954; Light on Yoga 1966; institute 1975; Padma Shri 1991, Bhushan 2002, Vibhushan 2014; Time 100 2004; died 20 Aug 2014; NYT date 20/21; props; Pattabhi Jois claim -> https://en.wikipedia.org/wiki/B._K._S._Iyengar",
+   "11th of 13 children; mother's influenza; typhus; went to Krishnamacharya at 14; 'major turning point in my life'; 'Perfection in asana'; married 1943; Prasad 1950; Menuhin 1952; Switzerland 1954; US 1956; foundation stone Jan 1973 and Ramamani's death days later; institute 1975; Light on Pranayama 1981; Light on Life 2005; five daughters and a son; Geeta and Prashant teachers -> https://artsandculture.google.com/story/iyengar-a-yogi-s-life/bQXBKGRRbVhaJg",
+   "Born 14 Dec 1918, died 20 Aug 2014 Pune -> https://www.Britannica.Com/biography/B-K-S-Iyengar",
+   "14 books; Time 100 2004; died Pune 20 Aug 2014 aged 95 -> https://www.funeralwise.com/digital-dying/yoga-guru-b-k-s-iyengar-dies-95",
+   "Pune 1937-40; hotel at Raasta Peth; Dr Gokhale; ten students; forty-minute demonstration 1937 -> https://scroll.in/article/841080/decades-before-there-was-a-world-yoga-day-this-is-how-bks-iyengar-won-india-over-with-his-yoga",
+   "Light on Yoga: George Allen and Unwin 1966, Menuhin foreword, ~200 postures, ~600 photographs, Patanjali prayer, hatha as one limb -> https://en.wikipedia.org/wiki/Light_on_Yoga",
+   "Four elements (alignment, sequencing, timing, props); props pioneered in Iyengar Yoga (Mehta 1990); Newcombe: no particular beliefs; Jain on unsupported medical claims; Patanjali invocation; Goldberg New Yorker 23 Aug 2014; Manos 2019 -> https://en.wikipedia.org/wiki/Iyengar_Yoga and https://en.wikipedia.org/wiki/Yoga_using_props",
+   "NPR 2005: 'While this is a legitimate place to begin, it is not the end'; external, internal, innermost quests -> https://www.hawaiipublicradio.org/2005-11-09/light-on-life-b-k-s-iyengars-yoga-insights",
+   "2018 documentary, dir. Jake Clennell, Kino Lorber -> https://videolibrarian.com/reviews/documentary/iyengar-the-man-yoga-and-the-students-journey/",
+   "Samadhi (1977, FTII) and other RIMYI videos -> https://bksiyengar.com/modules/Referen/Video/video.htm"
+  ],
+  "vethathiri": [
+   "Born 14 Aug 1911 Guduvancheri; parents; weavers; school 1916; Balakrishna at 12; Paranjyothi; Ramalinga Swamigal; WCSC 1958; Aliyar 1984; ECOSOC claim; 75 books; Arivoli; died 28 March 2006 (Coimbatore per infobox); stamp 2010 -> https://en.wikipedia.org/wiki/Vethathiri_Maharishi (weak citations noted)",
+   "Stamp 14 Aug 2010; apprentice weaver, ~1,000 looms; Siddha/Ayurveda/homeopathy; 1,500 centres; UN invitation 9 Jan 1975; 70 books; died 28 March 2006 Coimbatore 'aged 95' -> https://www.istampgallery.com/?p=2690 and https://indianphilatelics.com/stamps/commemorative-stamps/2010/item/14786-vethathiri-commemoration-click-for-stamp-information.html (proponent-supplied text)",
+   "SKY components, ten stages, six faults, five duties, Siddha origin claim, WCSC 1958 -> https://ngmc.org/cdn/uploads/iqac/C3/3_4_3/5_-SKY-YOGA.pdf (Perumal and Jagadambal, Kanpur Philosophers 2022)",
+   "Karma as magnetic pressure; quote 'Each person is the sculptor of their life; their thoughts are the chisel' -> https://www.shanlaxjournals.in/journals/index.php/tamil/article/view/5676",
+   "Philosophy shaped by hardship; 14 principles -> https://shanlaxjournals.in/journals/index.php/tamil/article/view/5633",
+   "WCSC 1958; 'world peace through individual peace'; yoga college 2017 affiliated to TN Physical Education and Sports University -> https://www.dinamalar.com/news/kalvimalar-katturaikal-en/yoga-courses-at-vethathiri-maharishi-yoga-college/2040",
+   "Kayakalpa claims on a course provider's page without cited studies -> https://eversafe.edu.sg/?p=22223",
+   "Kayakalpa in general -> https://en.wikipedia.org/wiki/Kayakalpa",
+   "Guduvancheri coordinates 12.845N 80.057E -> https://en.wikipedia.org/wiki/Guduvancheri",
+   "Serampore coordinates 22.75N 88.34E -> https://en.wikipedia.org/wiki/Serampore",
+   "Name forms and works 1911-2006 -> https://viaf.org/viaf/4026274"
+  ]
+ }
+}
