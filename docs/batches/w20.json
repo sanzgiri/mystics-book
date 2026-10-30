@@ -1,0 +1,317 @@
+{
+ "batch": "w20",
+ "nodes_add": [
+  {
+   "id": "bhakti-prajnana-keshava",
+   "name": "Bhakti Prajnana Keshava",
+   "born": 1898,
+   "died": 1968,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Bhaktisiddhanta; founder of the Gaudiya Vedanta Samiti; gave sannyasa to A. C. Bhaktivedanta Swami at the Keshavji Gaudiya Math, Mathura, 17 September 1959"
+  },
+  {
+   "id": "narayana-maharaja",
+   "name": "Bhaktivedanta Narayana Maharaja",
+   "born": 1921,
+   "died": 2010,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Bhakti Prajnana Keshava; by his followers' account performed Prabhupada's burial rites in 1977; many Western ISKCON members joined him in the 1990s; the GBC has disputed the closeness he claimed to Prabhupada"
+  },
+  {
+   "id": "george-harrison",
+   "name": "George Harrison",
+   "born": 1943,
+   "died": 2001,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Beatle; produced the 1969 Hare Krishna mantra single by the London Radha Krishna Temple; bought Bhaktivedanta Manor for the movement in 1973"
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "prabhupada",
+   "name": "A. C. Bhaktivedanta Swami Prabhupada",
+   "born": 1896,
+   "died": 1977,
+   "note": "Born Abhay Charan De, Calcutta, 1 September 1896; initiated by Bhaktisiddhanta 1933; sannyasa 1959; Jaladuta to Boston 1965; founded ISKCON, New York, July 1966; Bhagavad-gita As It Is (1968/1972); died Vrindavan 14 November 1977"
+  }
+ ],
+ "edges_remove": [],
+ "edges_upsert": [
+  {
+   "from": "gaudiya",
+   "to": "prabhupada",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Gaudiya Vaishnava teacher in the Chaitanya line; the parampara printed in Bhagavad-gita As It Is runs from Krishna through Madhva and Chaitanya; the Madhva link and the shiksha links (Bhaktivinoda, Bhaktisiddhanta) are disputed by some historians and hereditary Gaudiya lines"
+  },
+  {
+   "from": "bhaktisiddhanta",
+   "to": "prabhupada",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1933,
+   "note": "First met 1922 in Calcutta (introduced by Narendranath Mullik); initiated at Allahabad 1933 as Abhay Charanaravinda; letter of 3 December 1936 urging him to preach in English"
+  },
+  {
+   "from": "bhaktivinoda",
+   "to": "prabhupada",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Bhaktivinoda's writings and programme of English-language Gaudiya preaching, transmitted through Bhaktisiddhanta; listed in Prabhupada's parampara"
+  },
+  {
+   "from": "bhakti-prajnana-keshava",
+   "to": "prabhupada",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1959,
+   "note": "Sannyasa initiation, Keshavji Gaudiya Math, Mathura, 17 September 1959"
+  },
+  {
+   "from": "bhaktisiddhanta",
+   "to": "bhakti-prajnana-keshava",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Disciple of Bhaktisiddhanta; year of initiation not checked"
+  },
+  {
+   "from": "bhakti-prajnana-keshava",
+   "to": "narayana-maharaja",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "prabhupada",
+   "to": "narayana-maharaja",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Narayana Maharaja and his followers describe a close shiksha relationship; the GBC published a paper disputing its extent"
+  },
+  {
+   "from": "prabhupada",
+   "to": "george-harrison",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1969,
+   "note": "Produced the 1969 Hare Krishna mantra single; donated Bhaktivedanta Manor 1973"
+  },
+  {
+   "from": "prabhupada",
+   "to": "gaur-gopal-das",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "note": "ISKCON monk and speaker"
+  }
+ ],
+ "places": [
+  {
+   "name": "Calcutta (Kolkata)",
+   "lat": 22.573,
+   "lon": 88.364,
+   "figure": "prabhupada",
+   "what": "Born 1 September 1896; Scottish Church College; met Bhaktisiddhanta 1922; Jaladuta sailed 13 August 1965 (city-level coordinates)",
+   "verified": true
+  },
+  {
+   "name": "Allahabad (Prayagraj)",
+   "lat": 25.435,
+   "lon": 81.846,
+   "figure": "prabhupada",
+   "what": "Initiated by Bhaktisiddhanta, 1933 (city-level)",
+   "verified": true
+  },
+  {
+   "name": "Jhansi",
+   "lat": 25.448,
+   "lon": 78.568,
+   "figure": "prabhupada",
+   "what": "League of Devotees, 1952 (city-level)",
+   "verified": true
+  },
+  {
+   "name": "Keshavji Gaudiya Math, Mathura",
+   "lat": 27.492,
+   "lon": 77.673,
+   "figure": "prabhupada",
+   "what": "Sannyasa from Bhakti Prajnana Keshava, 17 September 1959 (city-level coordinates for Mathura)",
+   "verified": true
+  },
+  {
+   "name": "Radha-Damodara temple, Vrindavan",
+   "lat": 27.581,
+   "lon": 77.698,
+   "figure": "prabhupada",
+   "what": "Lived and translated the Bhagavatam, 1959-1965",
+   "verified": false
+  },
+  {
+   "name": "Boston Harbor",
+   "lat": 42.35,
+   "lon": -71.04,
+   "figure": "prabhupada",
+   "what": "Jaladuta arrived 17 September 1965",
+   "verified": true
+  },
+  {
+   "name": "Butler, Pennsylvania",
+   "lat": 40.861,
+   "lon": -79.895,
+   "figure": "prabhupada",
+   "what": "Stayed with sponsoring Agarwal family, autumn 1965",
+   "verified": true
+  },
+  {
+   "name": "26 Second Avenue, New York",
+   "lat": 40.7245,
+   "lon": -73.9898,
+   "figure": "prabhupada",
+   "what": "First storefront temple; ISKCON incorporated July 1966",
+   "verified": true
+  },
+  {
+   "name": "Tompkins Square Park, New York",
+   "lat": 40.7265,
+   "lon": -73.9817,
+   "figure": "prabhupada",
+   "what": "Public chanting under an elm, 9 October 1966",
+   "verified": true
+  },
+  {
+   "name": "Avalon Ballroom, San Francisco",
+   "lat": 37.787,
+   "lon": -122.421,
+   "figure": "prabhupada",
+   "what": "Mantra-Rock Dance, January 1967",
+   "verified": true
+  },
+  {
+   "name": "Mayapur",
+   "lat": 23.423,
+   "lon": 88.389,
+   "figure": "prabhupada",
+   "what": "ISKCON world headquarters at Chaitanya's birthplace (land from 1971)",
+   "verified": true
+  },
+  {
+   "name": "Bhaktivedanta Manor, Hertfordshire",
+   "lat": 51.664,
+   "lon": -0.338,
+   "figure": "prabhupada",
+   "what": "Given by George Harrison, 1973 (approximate coordinates, Letchmore Heath)",
+   "verified": false
+  },
+  {
+   "name": "Krishna Balaram Mandir, Vrindavan",
+   "lat": 27.572,
+   "lon": 77.684,
+   "figure": "prabhupada",
+   "what": "Died 14 November 1977; samadhi shrine beside the temple (approximate)",
+   "verified": false
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Achintya-bhedabheda",
+   "script": "अचिन्त्यभेदाभेद",
+   "lang": "sa",
+   "def": "Inconceivable simultaneous oneness and difference: the Gaudiya Vaishnava teaching, systematised by Jiva Goswami, that souls and the world are one with God in quality and different from him in power, in a way beyond full understanding."
+  },
+  {
+   "term": "Maha-mantra",
+   "script": "महामन्त्र",
+   "lang": "sa",
+   "def": "The great mantra: the sixteen-word Hare Krishna chant (Hare Krishna Hare Krishna, Krishna Krishna Hare Hare, Hare Rama Hare Rama, Rama Rama Hare Hare), the central practice of Chaitanya's followers and ISKCON."
+  },
+  {
+   "term": "Sankirtana",
+   "script": "सङ्कीर्तन",
+   "lang": "sa",
+   "def": "Congregational chanting of God's names, often in public with drums and cymbals; in ISKCON the word also covers book distribution as a form of preaching."
+  },
+  {
+   "term": "Vanaprastha",
+   "script": "वानप्रस्थ",
+   "lang": "sa",
+   "def": "The third traditional stage of life, after student and householder, in which a person withdraws from family affairs before full renunciation."
+  },
+  {
+   "term": "Ritvik",
+   "script": "ऋत्विक्",
+   "lang": "sa",
+   "def": "Originally a Vedic officiating priest; in ISKCON, a representative who performs initiation on the guru's behalf. The ritvik movement holds that Prabhupada remains the initiating guru of all later members."
+  },
+  {
+   "term": "Gurukula",
+   "script": "गुरुकुल",
+   "lang": "sa",
+   "def": "The guru's household: a traditional residential school where pupils live with their teacher. ISKCON's boarding schools used the name."
+  },
+  {
+   "term": "Mayavada",
+   "script": "मायावाद",
+   "lang": "sa",
+   "def": "Doctrine of illusion: the name Vaishnava critics give to Advaita Vedanta, which they read as making the personal God and the individual soul finally unreal."
+  },
+  {
+   "term": "Shiksha",
+   "script": "शिक्षा",
+   "lang": "sa",
+   "def": "Instruction. A shiksha guru teaches and guides without necessarily giving formal initiation (diksha)."
+  }
+ ],
+ "art": [],
+ "issues": [
+  "prabhupada.mdx: WebFetch was unavailable (usage limit) for the first half of research; core biography was then checked against Wikipedia and ISKCON sources, but the following rest on my prior knowledge plus search-result titles only and need checking: 26 Second Avenue 'Matchless Gifts' storefront; Allen Ginsberg's visits; London centre 1968 and the 1969 single 'reached the British charts'; Bhaktivedanta Manor 1973; BBT founded 1972; Mayapur land 1971; Juhu temple; stroke in 1967; 'went around the world more than a dozen times'; mridanga/Ratha-yatra childhood details (Lilamrta); first employer described as 'a Calcutta chemical firm' (Bose's Laboratory, unverified, so left unnamed).",
+  "prabhupada.mdx: ISKCON incorporation given as 'July 1966' (Wikipedia); the movement commonly gives 13 July 1966, not verified in a fetched source.",
+  "prabhupada.mdx: Gurukula lawsuit. Plaintiff count: 44 at filing (Beliefnet 2000), 'about 90/91/92' later (surrealist.org, a partisan compilation; Hinduism Today says 92). Claimants in bankruptcy: about 450 (Hinduism Today) vs 'over 500' plus ~450 additional (surrealist.org). Bankruptcy month (Feb vs March 2002) conflicts in the surrealist.org timeline. Text uses 2002, about 450, and 'later about ninety'. Checker should consult PACER/court records (C.D. Cal. SV 02-13532-AG; N.D. W.Va.).",
+  "prabhupada.mdx: The federal RICO dismissal (Judge Sam A. Lindsay, 28 September 2001) rests on surrealist.org only; text says only that federal racketeering claims were dismissed in 2001.",
+  "prabhupada.mdx: Child protection office founding year given as 1998 (same year as the Rochford study); ISKCON sources variously imply 1997 or 1998.",
+  "prabhupada.mdx: Kirtanananda appeal: Wikipedia does not date the reversal (commonly 1993); text gives no year. The Steven Bryant murder conviction (Thomas Drescher) is omitted.",
+  "prabhupada.mdx: Bangalore case review status is as of a Verdictum report dated 17 August 2026; update if the Supreme Court has since ruled.",
+  "prabhupada.mdx: Statements on race/women are described generally with no quotations; no ISKCON institutional statement specifically on race was found. Ekkehard Lorenz chapter title and 2004 Columbia UP volume cited from memory; verify. The author may want one or two exact, short quoted examples from vedabase transcripts with context; I did not add any unverified quotes.",
+  "prabhupada.mdx: Narayana Maharaja performing the burial rites is given as his followers' account; dates 1921-2010 and Bhakti Prajnana Keshava's 1898-1968 from memory, verify.",
+  "prabhupada.mdx: Claim that the Madhva-Gaudiya link is questioned by some historians is stated generally without a named scholar; add a citation (e.g. S. K. De, Early History of the Vaisnava Faith and Movement in Bengal) or soften.",
+  "prabhupada.mdx: Burt, Leading the Hare Krishna Movement: publication year not verified; left undated in References.",
+  "prabhupada.mdx: Some place coordinates are approximate (marked verified false)."
+ ],
+ "sources": {
+  "prabhupada": [
+   "Born Abhay Charan De 1 Sep 1896 Calcutta, day after Janmashtami; parents Gour Mohan De and Rajani De; Suvarna Banik -> https://en.wikipedia.org/wiki/A._C._Bhaktivedanta_Swami_Prabhupada",
+   "Scottish Church College 1916-1920; refused diploma; married Radharani Datta 1918, five children; pharmaceutical business in Allahabad -> same",
+   "Met Bhaktisiddhanta 1922 via Narendranath Mullik; initiated Allahabad 1933 as Abhay Charanaravinda; title Bhaktivedanta 1939; Back to Godhead 1944; vanaprastha 1950; League of Devotees Jhansi 1952; sannyasa 17 Sep 1959 Keshavji Gaudiya Math Mathura from Bhakti Prajnan Keshava -> same",
+   "Jaladuta departed Calcutta 13 Aug 1965, arrived Boston 17 Sep 1965; two heart attacks; ~40 rupees and 200 sets of first canto; Agarwal family Butler PA -> same; https://vanipedia.org/wiki/Timeline_of_Srila_Prabhupada's_Life_-_1965",
+   "ISKCON incorporated July 1966; Mantra-Rock Dance Avalon Ballroom 1967 with Grateful Dead, ~3,000; GBC 1970; >100 temples; >80 books; died 14 Nov 1977 Krishna Balaram Mandir after long illness; 11 disciples appointed to initiate on his behalf -> Wikipedia",
+   "Tompkins Square Park chanting 9 Oct 1966 -> https://evgrieve.com/2015/10/49-years-ago-today-hare-krishna.html (title)",
+   "Quote 'I have every hope that you can turn yourself [into] a very good English preacher', letter of 3 Dec 1936; Bhaktisiddhanta died 1 Jan 1937, no successor, split; self-sannyasa 1918 before picture of Gaurakishora; initiation from Gaurakishora 1900 or Jan 1901 -> https://en.wikipedia.org/wiki/Bhaktisiddhanta_Sarasvati",
+   "Letter of 9 July 1977 sent by Tamal Krishna Goswami naming eleven; zonal acharyas 1978-82 with vyasasanas and daily worship; Jayatirtha left 1982 and expelled; reform led by Ravindra Svarupa from 1984 -> https://en.wikipedia.org/wiki/ISKCON_guru_system; https://vedabase.io/en/library/letters/letter-to-all-gbc-all-temple-presidents/",
+   "Kirtanananda expelled 16 March 1987; indicted 1990 (racketeering, mail fraud, conspiracy to murder Bryant and St. Denis); convicted 29 March 1991 on 9 of 11, hung on murder; convictions overturned on appeal; 1996 guilty plea to one racketeering count, 20 years; released 2004; died 2011 -> https://en.wikipedia.org/wiki/Kirtanananda_Swami",
+   "Supreme Court 16 May 2025 (Oka, Masih JJ) set aside Karnataka HC order, temple belongs to ISKCON Bangalore; review split Nov 2025; fresh bench sought Aug 2026 -> https://www.verdictum.in/amp/supreme-court/plea-on-bengaluru-iskcon-temples-verdict-review-1620014",
+   "ISKCON response: property not ritvik; HC 2011; quote 'we will be exploring all available legal remedies' (Yudhistir Govinda Das) -> https://iskconnews.org/iskcon-responds-to-indias-supreme-court-decision/",
+   "Rochford with Heinlein, ISKCON Communications Journal 6:1 June 1998; schools Dallas (1971-76), LA, New Vrindaban, Seattle, Vrindavan; quote 'no one knows how many of ISKCON's children were abused' -> https://www.iskconcommunications.org/iskcon-journal/vol-6/child-abuse-in-the-hare-krishna-movement-1971-1986",
+   "Suit filed Dallas federal court by Windle Turley, 44 plaintiffs, defendants ISKCON, 17 GBC members, Prabhupada's estate -> https://www.beliefnet.com/news/2000/06/hare-krishna-group-sued-for-alleged-child-abuse.aspx",
+   "$400 million; filed 12 June 2000; federal claims dismissed 2001, refiled Texas state court Oct 2001; 11 entities Chapter 11 in CA and WV 2002; plans confirmed May 2005 -> https://surrealist.org/gurukula/timeline/lawsuitdocs.html",
+   "$9.5 million, about 450 victims, $2,500-$50,000; Anuttama Dasa quote 'On behalf of our entire society, I apologize to these young people.' -> https://www.hinduismtoday.com/hpi/2005/05/26/2005-05-26-iskcon-child-abuse-lawsuit-settled-for-us95-million/",
+   "Poison: allegations from c.1997 tapes and later hair tests; GBC investigations 1997 and 2001; GBC Resolution 2000 quote 'there is no evidence at this time to support the allegations of poisoning'; 'swelling is going down'; surgeon McIrvine: renal failure and advanced diabetes; statement April 25 2025 -> https://iskconnews.org/statement-regarding-unfounded-poison-allegations/",
+   "GBC March 2000 Women in ISKCON resolution quote 'offer their humble apologies to the women of Srila Prabhupada's society' -> https://iskconnews.org/gbc-statement-reaffirms-vaishnava-respect-for-women/",
+   "Gita As It Is: 1968 Macmillan abridged, 1972 complete; 1983 revised BBT edition with many changes, BBT says closer to original manuscript; 1972 edition reprinted from 2001 -> https://en.wikipedia.org/wiki/Bhagavad-G%C4%ABt%C4%81_As_It_Is",
+   "Tomsk: filed June 2011; rejected 28 Dec 2011; appeal upheld 21 March 2012 -> https://en.wikipedia.org/wiki/Bhagavad_Gita_As_It_Is_trial",
+   "1966 Happening LP 'Krishna Consciousness' -> https://prabhupada-books.de/hare-krsna-mantra/happening-album.html",
+   "Swami in a Strange Land, Joshua Greene 2016 -> https://www.simonandschuster.ca/books/Swami-in-a-Strange-Land/Joshua-Greene/9781608878680"
+  ]
+ }
+}
