@@ -556,7 +556,7 @@
    "part": 4,
    "tier": "profile",
    "kind": "person",
-   "note": "Poet-philosopher of Sialkot and Lahore; Cambridge, Munich doctorate (1907/1908), Lincoln's Inn 1908; Asrar-i-Khudi 1915; knighted 1922; Reconstruction of Religious Thought in Islam (1930, 1934); khudi; Allahabad address Dec 1930"
+   "note": "Poet-philosopher of Sialkot and Lahore; Cambridge, Munich doctorate (1907/1908), Lincoln's Inn 1908; Asrar-i-Khudi 1915; knighted 1923 (New Year honours; 1922 in some sources); Reconstruction of Religious Thought in Islam (1930, 1934); khudi; Allahabad address Dec 1930"
   },
   {
    "id": "kc-bhattacharya",
@@ -566,7 +566,7 @@
    "part": 4,
    "tier": "profile",
    "kind": "person",
-   "note": "Krishnachandra Bhattacharyya of Serampore; The Subject as Freedom (1930); 'Svaraj in Ideas' (Chandernagore, Oct 1931; pub. 1954); 'The Concept of Philosophy' (1936); death year 1947 in some sources"
+   "note": "Krishnachandra Bhattacharyya of Serampore; The Subject as Freedom (1930); 'Svaraj in Ideas' (Chandernagore, Oct 1931; pub. 1954); 'The Concept of Philosophy' (1936); death year 1947 in some sources; Amalner 1933-35; King George V professor, Calcutta, 1935-37"
   },
   {
    "id": "gopi-krishna",
@@ -3841,8 +3841,8 @@
    "type": "influenced",
    "evidence": "documented",
    "verified": true,
-   "year": 1915,
-   "note": "One Hundred Poems of Kabir (1915), translated with Evelyn Underhill from Kshitimohan Sen's collection"
+   "year": 1914,
+   "note": "One Hundred Poems of Kabir (India Society, London, 1914; Macmillan as Songs of Kabir, 1915), translated with Evelyn Underhill from Kshitimohan Sen's collection"
   },
   {
    "from": "islamic-theology",
