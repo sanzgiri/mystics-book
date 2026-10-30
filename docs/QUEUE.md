@@ -30,7 +30,7 @@ Status: todo / running / written / checked / merged.
 | w09 | aurobindo (c) | | merged |
 | w10 | rabindranath-tagore, iqbal, kc-bhattacharya, gopi-krishna | integral | checking |
 | w11 | lahiri-mahasaya (c) | | checking |
-| w12 | yogananda (c) | | checking |
+| w12 | yogananda (c) | | merged |
 | w13 | sivananda (c) | | todo |
 | w14 | maharishi (c) | | todo |
 | w15 | sadhguru (c) | | todo |

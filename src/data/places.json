@@ -72,7 +72,8 @@
    "lat": 23.344,
    "lon": 85.31,
    "figure": "yogananda",
-   "what": "Yogoda Satsanga school and ashram"
+   "what": "Yogoda Satsanga school and ashram from 1918 (city-level coordinates)",
+   "verified": true
   },
   {
    "name": "Mysore",
@@ -1116,6 +1117,198 @@
    "lon": 83.01,
    "figure": "lahiri-mahasaya",
    "what": "Home from childhood; taught Kriya here, retired here 1886, died here 26 September 1895",
+   "verified": true
+  },
+  {
+   "name": "Serampore",
+   "lat": 22.75,
+   "lon": 88.34,
+   "figure": "yukteswar",
+   "what": "Birth 1855; his hermitage in the family house.",
+   "verified": true
+  },
+  {
+   "name": "Puri",
+   "lat": 19.81,
+   "lon": 85.83,
+   "figure": "yukteswar",
+   "what": "Karar Ashram, founded 1903; he died there 9 March 1936.",
+   "verified": true
+  },
+  {
+   "name": "Benares",
+   "lat": 25.32,
+   "lon": 83.0,
+   "figure": "yukteswar",
+   "what": "Met Lahiri Mahasaya (1884) and, c. 1910, Yogananda.",
+   "verified": true
+  },
+  {
+   "name": "Allahabad (Prayagraj)",
+   "lat": 25.43,
+   "lon": 81.85,
+   "figure": "yukteswar",
+   "what": "Kumbha Mela of January 1894, site of the Babaji meeting in his account.",
+   "verified": true
+  },
+  {
+   "name": "Lonavla",
+   "lat": 18.75,
+   "lon": 73.41,
+   "figure": "kuvalayananda",
+   "what": "Kaivalyadhama, founded 1924; he died here 1966.",
+   "verified": true
+  },
+  {
+   "name": "Baroda (Vadodara)",
+   "lat": 22.31,
+   "lon": 73.18,
+   "figure": "kuvalayananda",
+   "what": "Studies, Manikrao's training, 1920-21 hospital experiments.",
+   "verified": true
+  },
+  {
+   "name": "Dabhoi",
+   "lat": 22.13,
+   "lon": 73.43,
+   "figure": "kuvalayananda",
+   "what": "Birthplace per Wikipedia and Kaivalyadhama.",
+   "verified": false
+  },
+  {
+   "name": "Amalner",
+   "lat": 21.04,
+   "lon": 75.07,
+   "figure": "kuvalayananda",
+   "what": "National College of the Khandesh Education Society; principal 1916.",
+   "verified": false
+  },
+  {
+   "name": "Pune",
+   "lat": 18.52,
+   "lon": 73.86,
+   "figure": "iyengar",
+   "what": "Arrived 1937; Ramamani Iyengar Memorial Yoga Institute opened 1975; died here 2014.",
+   "verified": true
+  },
+  {
+   "name": "Mysore",
+   "lat": 12.3,
+   "lon": 76.64,
+   "figure": "iyengar",
+   "what": "Lived with Krishnamacharya from about 1934.",
+   "verified": true
+  },
+  {
+   "name": "Guduvancheri",
+   "lat": 12.845,
+   "lon": 80.057,
+   "figure": "vethathiri",
+   "what": "Birthplace, 1911.",
+   "verified": true
+  },
+  {
+   "name": "Aliyar, near Pollachi",
+   "lat": 10.47,
+   "lon": 76.97,
+   "figure": "vethathiri",
+   "what": "Arivu Thirukkoil (Temple of Consciousness), 1984.",
+   "verified": false
+  },
+  {
+   "name": "Thiruvanmiyur, Chennai",
+   "lat": 12.98,
+   "lon": 80.26,
+   "figure": "vethathiri",
+   "what": "Headquarters of the World Community Service Centre, founded 1958.",
+   "verified": false
+  },
+  {
+   "name": "Gorakhpur",
+   "lat": 26.76,
+   "lon": 83.373,
+   "figure": "yogananda",
+   "what": "Birthplace, 5 January 1893",
+   "verified": true
+  },
+  {
+   "name": "Serampore (Sri Yukteswar's hermitage)",
+   "lat": 22.752,
+   "lon": 88.342,
+   "figure": "yogananda",
+   "what": "Trained with Yukteswar from 1910; sannyasa 1915; Paramahansa title 1935 (town-level coordinates)",
+   "verified": true
+  },
+  {
+   "name": "Boston",
+   "lat": 42.36,
+   "lon": -71.058,
+   "figure": "yogananda",
+   "what": "International Congress of Religious Liberals; first American lecture, 6 October 1920",
+   "verified": true
+  },
+  {
+   "name": "Mount Washington, Los Angeles",
+   "lat": 34.103,
+   "lon": -118.211,
+   "figure": "yogananda",
+   "what": "SRF international headquarters, dedicated 25 October 1925",
+   "verified": true
+  },
+  {
+   "name": "Wardha",
+   "lat": 20.745,
+   "lon": 78.602,
+   "figure": "yogananda",
+   "what": "Stay with Gandhi, 26-27 August 1935",
+   "verified": true
+  },
+  {
+   "name": "Tiruvannamalai (Sri Ramanasramam)",
+   "lat": 12.223,
+   "lon": 79.06,
+   "figure": "yogananda",
+   "what": "Visit to Ramana Maharshi, 29 November 1935",
+   "verified": true
+  },
+  {
+   "name": "Puri",
+   "lat": 19.813,
+   "lon": 85.831,
+   "figure": "yogananda",
+   "what": "Where Sri Yukteswar died, 9 March 1936",
+   "verified": true
+  },
+  {
+   "name": "Encinitas hermitage",
+   "lat": 33.037,
+   "lon": -117.293,
+   "figure": "yogananda",
+   "what": "Hermitage given by James J. Lynn, 1936; Autobiography written here",
+   "verified": true
+  },
+  {
+   "name": "Lake Shrine, Pacific Palisades",
+   "lat": 34.044,
+   "lon": -118.547,
+   "figure": "yogananda",
+   "what": "SRF Lake Shrine dedicated 1950",
+   "verified": true
+  },
+  {
+   "name": "Biltmore Hotel, Los Angeles",
+   "lat": 34.05,
+   "lon": -118.255,
+   "figure": "yogananda",
+   "what": "Died here at a banquet for Ambassador B. R. Sen, 7 March 1952",
+   "verified": true
+  },
+  {
+   "name": "Forest Lawn Memorial Park, Glendale",
+   "lat": 34.125,
+   "lon": -118.241,
+   "figure": "yogananda",
+   "what": "Burial, Great Mausoleum",
    "verified": true
   }
  ]

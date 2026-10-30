@@ -595,7 +595,8 @@
    "died": 1952,
    "part": 5,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Mukunda Lal Ghosh, Gorakhpur, 5 January 1893; died Los Angeles, 7 March 1952. Founded Yogoda Satsanga Society (1917) and Self-Realization Fellowship (counted from 1920, incorporated 1935); Autobiography of a Yogi (1946)."
   },
   {
    "id": "krishnamacharya",
@@ -1931,6 +1932,62 @@
    "tier": "node",
    "kind": "person",
    "note": "Kriya disciple of Lahiri Mahasaya; ashram (Katyayani Peeth) at Vrindavan. Wikipedia gives 1830-1942; dates rest on devotional sources, so omitted"
+  },
+  {
+   "id": "rajaratna-manikrao",
+   "name": "Rajaratna Manikrao",
+   "born": 1878,
+   "died": 1954,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Founder of the Jummadada Vyayam Mandir, Baroda; trained Kuvalayananda in physical culture 1907-1910."
+  },
+  {
+   "id": "madhavdas",
+   "name": "Paramahamsa Madhavdas",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Yogi settled at Malsar near Baroda; Kuvalayananda's teacher from 1918/1919. Dates 1798-1921 given by Kaivalyadhama are unsourced, so omitted."
+  },
+  {
+   "id": "paranjyothi",
+   "name": "Seer Paranjyothi",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Said to have initiated Vethathiri into kundalini yoga; known only from the movement's account."
+  },
+  {
+   "id": "rajarsi-janakananda",
+   "name": "Rajarsi Janakananda (James J. Lynn)",
+   "born": 1892,
+   "died": 1955,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Kansas City businessman; gave Yogananda the Encinitas hermitage; SRF president 1952-1955"
+  },
+  {
+   "id": "daya-mata",
+   "name": "Daya Mata",
+   "born": 1914,
+   "died": 2010,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple of Yogananda; president of SRF/YSS 1955-2010"
+  },
+  {
+   "id": "kriyananda",
+   "name": "Swami Kriyananda (J. Donald Walters)",
+   "born": 1926,
+   "died": 2013,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple from 1948; asked to resign from SRF in 1962; founded Ananda near Nevada City, California, in 1968"
   }
  ],
  "edges": [
@@ -2259,8 +2316,11 @@
   {
    "from": "yukteswar",
    "to": "yogananda",
-   "type": "lived-with",
-   "evidence": "documented"
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1915,
+   "note": "Met 1910 (SRF; some accounts 1909); trained at the Serampore hermitage about ten years; sannyasa in the Giri order July 1915; title Paramahansa 25 December 1935"
   },
   {
    "from": "babaji",
@@ -3856,7 +3916,7 @@
    "type": "influenced",
    "evidence": "testimony",
    "verified": true,
-   "note": "Initiated Yogananda's parents; blessed the infant ('Little mother, thy son will be a yogi', per YSS). Died 1895 when Yogananda was under three; training came through Yukteswar"
+   "note": "Both parents were Lahiri's disciples by the Autobiography's account; the infant blessing and prophecy are devotional story. No direct teaching relationship (Lahiri died 1895)."
   },
   {
    "from": "yoga-nath",
@@ -3865,6 +3925,108 @@
    "evidence": "documented",
    "verified": true,
    "note": "Kriya's components (khechari mudra, mahamudra, yoni mudra, pranayama, spinal chakras) are named in earlier hatha texts"
+  },
+  {
+   "from": "babaji",
+   "to": "yukteswar",
+   "type": "claimed",
+   "evidence": "hagiographic",
+   "verified": true,
+   "year": 1894,
+   "note": "Kumbha Mela, Allahabad, January 1894, in Yukteswar's account as reported by Yogananda (Autobiography ch. 36); no evidence outside the lineage."
+  },
+  {
+   "from": "madhavdas",
+   "to": "kuvalayananda",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1919,
+   "note": "Guru-disciple relation stated by Kaivalyadhama; met 1919 (Wikipedia, kdham) or end of 1918 (Bodhe)."
+  },
+  {
+   "from": "rajaratna-manikrao",
+   "to": "kuvalayananda",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1907,
+   "note": "Physical-culture training 1907-1910."
+  },
+  {
+   "from": "aurobindo",
+   "to": "kuvalayananda",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Kaivalyadhama says the young Aurobindo at Baroda and Tilak's Home Rule movement shaped his patriotism."
+  },
+  {
+   "from": "vallalar",
+   "to": "vethathiri",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Wikipedia: inspired by Ramalinga Swamigal; no personal contact possible (d. 1874)."
+  },
+  {
+   "from": "paranjyothi",
+   "to": "vethathiri",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Kundalini initiation, undated, cited by Wikipedia to a video on a movement channel."
+  },
+  {
+   "from": "babaji",
+   "to": "yogananda",
+   "type": "claimed",
+   "evidence": "hagiographic",
+   "verified": true,
+   "year": 1920,
+   "note": "Autobiography says Babaji appeared to him in Calcutta before he sailed for America and chose him to spread Kriya in the West"
+  },
+  {
+   "from": "christianity",
+   "to": "yogananda",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Gospel commentary serialized in his magazine, published as The Second Coming of Christ (2004); taught harmony of original Christianity and yoga"
+  },
+  {
+   "from": "yogananda",
+   "to": "gandhi",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1935,
+   "note": "By Yogananda's and SRF's account, gave Kriya Yoga instruction to Gandhi and several followers at Wardha, 27 August 1935, at Gandhi's request"
+  },
+  {
+   "from": "yogananda",
+   "to": "rajarsi-janakananda",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Disciple; succeeded him as SRF president 1952"
+  },
+  {
+   "from": "yogananda",
+   "to": "daya-mata",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Disciple; SRF/YSS president 1955-2010"
+  },
+  {
+   "from": "yogananda",
+   "to": "kriyananda",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1948,
+   "note": "Met and became disciple in Los Angeles 1948; asked to resign by SRF board 1962; founded Ananda 1968"
   }
  ]
 }
