@@ -29,3 +29,6 @@ Curated list for the author's review before launch. Raw issues from each batch a
 
 ## Sadhguru: decision needed
 Fact-checker advises against adding the 2025 online allegations (Delhi High Court called the material unverified). Consider one hedged sentence on the police case under the child-protection law filed 31 Jan 2025 (named former student and four Isha Home School staff, alleged abuse of a pupil 2017-19; Isha denies it; reported by Deccan Herald and South First, 22 Apr 2025). Leave out the June 2025 closure report unless a primary source turns up.
+
+## BAPS profile: decision needed
+Profiles have no critiques section, so the 2021 Robbinsville NJ labour lawsuit against BAPS and scholarly comment (Nussbaum) on BAPS and politics are not in the shastriji-pramukh profile. Decide whether to add a short "Questions" paragraph, or split the combined Shastriji/Pramukh Swami node and give BAPS a chapter-level treatment.

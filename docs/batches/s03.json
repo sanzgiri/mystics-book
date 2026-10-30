@@ -1,0 +1,359 @@
+{
+ "batch": "s03",
+ "nodes_add": [
+  {
+   "id": "gunatitanand-swami",
+   "name": "Gunatitanand Swami",
+   "born": 1784,
+   "died": 1867,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Senior disciple of Swaminarayan; BAPS holds he was the earthly form of Akshar. Birth year 1784 or 1785 in different sources."
+  },
+  {
+   "id": "bhagatji-maharaj",
+   "name": "Bhagatji Maharaj",
+   "born": 1829,
+   "died": 1897,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Pragji Bhakta, tailor of Mahuva, b. 20 Mar 1829; taught Akshar-Purushottam; Shastriji's guru. Death 7 Nov 1897 or 1898 (Wikipedia is inconsistent)."
+  },
+  {
+   "id": "yogiji-maharaj",
+   "name": "Yogiji Maharaj",
+   "born": 1892,
+   "died": 1971,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Jina Vasani, b. 23 May 1892 Dhari; BAPS guru 1951-1971; d. 23 Jan 1971 Mumbai."
+  },
+  {
+   "id": "pramukh-swami",
+   "name": "Pramukh Swami Maharaj",
+   "born": 1921,
+   "died": 2016,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Shantilal Patel, b. 7 Dec 1921 Chansad; BAPS president from 21 May 1950, guru 1971-2016; d. 13 Aug 2016 Sarangpur."
+  },
+  {
+   "id": "bipin-bihari-goswami",
+   "name": "Bipin Bihari Goswami",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Hereditary guru of the Baghnapara family who initiated Bhaktivinoda (1880 per Wikipedia). Dates unknown."
+  },
+  {
+   "id": "jagannath-das-babaji",
+   "name": "Jagannath Das Babaji",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Vrindavan Vaishnava ascetic; instructing guru of Bhaktivinoda in Gaudiya Math tradition, disputed by other descendants. Dates not verified."
+  },
+  {
+   "id": "gaura-kishora-das-babaji",
+   "name": "Gaura Kishora Dasa Babaji",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Renunciant who initiated Bhaktisiddhanta (1900 or 1901). Dates not verified."
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "bhaktivinoda",
+   "born": 1838,
+   "died": 1914,
+   "note": "Kedarnath Datta, b. 2 Sep 1838 Ula (Birnagar); deputy magistrate; d. 23 Jun 1914."
+  },
+  {
+   "id": "bhaktisiddhanta",
+   "born": 1874,
+   "died": 1937,
+   "note": "Bimala Prasad Datta, b. 6 Feb 1874 Puri; d. 1 Jan 1937 Calcutta."
+  },
+  {
+   "id": "shastriji-pramukh",
+   "born": 1865,
+   "died": 2016,
+   "name": "Shastriji Maharaj & Pramukh Swami (BAPS)",
+   "note": "Profile centres on Shastriji Maharaj (1865-1951, founded BAPS 1907) and covers the line to Pramukh Swami. Combined node; see issues."
+  },
+  {
+   "id": "mahant-swami",
+   "born": 1933,
+   "note": "Keshavjivandas Swami, named successor 20 Jul 2012; guru of BAPS from 13 Aug 2016. Birth year per Wikipedia lineage list; verify."
+  }
+ ],
+ "edges_remove": [
+  {
+   "from": "swaminarayan",
+   "to": "shastriji-pramukh"
+  },
+  {
+   "from": "shastriji-pramukh",
+   "to": "mahant-swami"
+  }
+ ],
+ "edges_upsert": [
+  {
+   "from": "gaudiya",
+   "to": "bhaktivinoda",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "bipin-bihari-goswami",
+   "to": "bhaktivinoda",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1880,
+   "note": "Wikipedia gives 1880; the ISKCON-affiliated biography gives no date."
+  },
+  {
+   "from": "jagannath-das-babaji",
+   "to": "bhaktivinoda",
+   "type": "influenced",
+   "evidence": "devotional",
+   "verified": true,
+   "note": "Instructing (siksa) guru in the Gaudiya Math tradition; other descendants name Bipin Bihari Goswami instead."
+  },
+  {
+   "from": "bhaktivinoda",
+   "to": "bhaktisiddhanta",
+   "type": "family",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Father and son."
+  },
+  {
+   "from": "gaura-kishora-das-babaji",
+   "to": "bhaktisiddhanta",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1901,
+   "note": "1900 or January 1901 in different sources."
+  },
+  {
+   "from": "bhaktisiddhanta",
+   "to": "prabhupada",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1933,
+   "note": "First meeting dated 1922 in ISKCON accounts."
+  },
+  {
+   "from": "swaminarayan",
+   "to": "gunatitanand-swami",
+   "type": "lived-with",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Disciple of Swaminarayan; BAPS claims he was named successor (devotional claim)."
+  },
+  {
+   "from": "gunatitanand-swami",
+   "to": "bhagatji-maharaj",
+   "type": "lived-with",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Bhagatji served him at Junagadh per BAPS biographies."
+  },
+  {
+   "from": "bhagatji-maharaj",
+   "to": "shastriji-pramukh",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1883,
+   "note": "Shastriji accepted Bhagatji as guru in Surat; Akshar-guru succession is the BAPS claim."
+  },
+  {
+   "from": "shastriji-pramukh",
+   "to": "yogiji-maharaj",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Yogiji met Shastriji in 1910, joined 1911; succeeded him 1951."
+  },
+  {
+   "from": "yogiji-maharaj",
+   "to": "pramukh-swami",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1971
+  },
+  {
+   "from": "pramukh-swami",
+   "to": "mahant-swami",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 2012,
+   "note": "Successor named 20 Jul 2012."
+  },
+  {
+   "from": "shastriji-pramukh",
+   "to": "pramukh-swami",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1950,
+   "note": "Appointed president (Pramukh) of BAPS on 21 May 1950."
+  }
+ ],
+ "places": [
+  {
+   "name": "Birnagar (Ula)",
+   "lat": 23.25,
+   "lon": 88.57,
+   "figure": "bhaktivinoda",
+   "what": "Birthplace, 1838",
+   "verified": false
+  },
+  {
+   "name": "Mayapur",
+   "lat": 23.423,
+   "lon": 88.388,
+   "figure": "bhaktivinoda",
+   "what": "Site he identified in 1887 as Chaitanya's birthplace; Bhaktisiddhanta founded Sri Chaitanya Math here, 1918",
+   "verified": true
+  },
+  {
+   "name": "Puri",
+   "lat": 19.813,
+   "lon": 85.831,
+   "figure": "bhaktisiddhanta",
+   "what": "Birthplace, 1874; Bhaktivinoda's postings and later home",
+   "verified": true
+  },
+  {
+   "name": "Baghbazar, Kolkata",
+   "lat": 22.603,
+   "lon": 88.366,
+   "figure": "bhaktisiddhanta",
+   "what": "Gaudiya Math headquarters and place of death area (death in Calcutta 1937)",
+   "verified": false
+  },
+  {
+   "name": "Mahelav",
+   "lat": 22.65,
+   "lon": 72.85,
+   "figure": "shastriji-pramukh",
+   "what": "Birthplace of Shastriji Maharaj, 1865",
+   "verified": false
+  },
+  {
+   "name": "Vadtal",
+   "lat": 22.58,
+   "lon": 72.87,
+   "figure": "shastriji-pramukh",
+   "what": "Swaminarayan diocese seat; he was initiated here (1882 per Wikipedia) and left in 1905",
+   "verified": false
+  },
+  {
+   "name": "Bochasan",
+   "lat": 22.5,
+   "lon": 72.95,
+   "figure": "shastriji-pramukh",
+   "what": "Temple consecrated 5 June 1907; BAPS founding",
+   "verified": false
+  },
+  {
+   "name": "Gondal",
+   "lat": 21.96,
+   "lon": 70.8,
+   "figure": "shastriji-pramukh",
+   "what": "BAPS temple; Pramukh Swami initiated here, Jan 1940",
+   "verified": true
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Gaudiya Vaishnavism",
+   "script": "गौड़ीय वैष्णव",
+   "lang": "sa",
+   "def": "The Bengal-centred devotional tradition founded on the teaching of Chaitanya (1486-1534), who is worshipped as Krishna in a combined form with Radha."
+  },
+  {
+   "term": "Achintya bhedabheda",
+   "script": "अचिन्त्य भेदाभेद",
+   "lang": "sa",
+   "def": "\"Inconceivable oneness and difference.\" The Gaudiya view that souls are both one with and distinct from God, in a way reason cannot fully grasp."
+  },
+  {
+   "term": "Nama-hatta",
+   "script": "নাম-হট্ট",
+   "lang": "bn",
+   "def": "\"Marketplace of the name.\" Bhaktivinoda's network of local preaching centres built around kirtan and lectures."
+  },
+  {
+   "term": "Babaji",
+   "script": "बाबाजी",
+   "lang": "hi",
+   "def": "A Vaishnava ascetic who has taken renunciant vows in a simple form, without joining an order of sannyasis."
+  },
+  {
+   "term": "Akshar-Purushottam Upasana",
+   "script": "अक्षर-पुरुषोत्तम उपासना",
+   "lang": "sa",
+   "def": "The BAPS teaching that Swaminarayan is God (Purushottam) and that his eternal servant Akshar is present on earth as the guru, and that both are to be worshipped."
+  },
+  {
+   "term": "Vachanamrut",
+   "script": "वचनामृत",
+   "lang": "sa",
+   "def": "The collected discourses of Swaminarayan, recorded by his monks in 1819-1829, the central text of the Swaminarayan sect."
+  }
+ ],
+ "art": [],
+ "issues": [
+  "bhaktivinoda.mdx: death place conflict (Calcutta per Wikipedia, Puri per ISKCON-affiliated biography); hedged in glance. Nama-hatta start dated 1886 (Wikipedia) or 1890 (gaudiyahistory); hedged. Mayapur identification year 1887 from gaudiyahistory/Wikipedia range 1887-1889.",
+  "bhaktivinoda.mdx: Shukavak Dasa book year (1999) is from memory, not verified. The 1880 Rost letter and Emerson claim come from Wikipedia and a devotional site only; Emerson not mentioned in text.",
+  "bhaktivinoda.mdx: 'Jagannath Das Babaji as instructing guru' is the Gaudiya Math claim; Wikipedia says Lalita Prasad and Bhaktitirtha lineages dispute it. Not independently checked against Dasa 1999.",
+  "bhaktivinoda.mdx: the English 1896 work: sources differ on whether it is a standalone English biography or an introduction to a stotra booklet; text says 'English introduction'.",
+  "bhaktisiddhanta.mdx: sannyasa date 27 March (Wikipedia Bhaktisiddhanta page) vs 7 March 1918 (Gaudiya Math page); Gaura Kishora initiation 1900 vs Jan 1901; death age 62 vs 63; Sanskrit College graduation vs withdrawal. Hedged in text. A devotional biography gives death as 1936; text mentions in refs.",
+  "bhaktisiddhanta.mdx: the 1922 first meeting, 1933 initiation place are from ISKCON accounts, not checked against primary sources. The Gandhi reply (1933) from Wikipedia only.",
+  "bhaktisiddhanta.mdx: Mission split: Wikipedia says court divided mission into two bodies in 1948; fuller detail on the post-1937 succession dispute omitted for length.",
+  "shastriji-pramukh.mdx: node is a combined Shastriji & Pramukh Swami node with born 1865 and died 2016. Writer centred the profile on Shastriji with the line to Pramukh Swami summarised. Author may want to split the node; new nodes added for Yogiji and Pramukh Swami, with edges_remove of the swaminarayan and mahant-swami edges to the combined node.",
+  "shastriji-pramukh.mdx: initiation date conflict (29 Nov 1882 at Vadtal per Wikipedia; BAPS site says at Surat soon after sixteen). Bhagatji death 1897 vs 1898. Gunatitanand birth 1784 vs 1785. Death place Sarangpur (BAPS site, Wikipedia on Pramukh); Wikipedia Shastriji page gives 10 May 1951 but BAPS site gives no day.",
+  "shastriji-pramukh.mdx: 1905 poisoning claims and the 1935 judicial ruling come from the Wikipedia article on Shastriji and are partisan on both sides; not checked against the court record or Williams (2001). 1907 date (5 June) from Wikipedia only; BAPS page gives the year only.",
+  "shastriji-pramukh.mdx: the Kashi Vidvat Parishad 2017 recognition is sourced mainly to BAPS-affiliated material; text says so. No independent scholarly dissent found. Williams' 2nd edition year (2018) and Williams/Paramtattvadas citations are from memory/search, not verified.",
+  "shastriji-pramukh.mdx: profile omits the 2021 Robbinsville NJ labour lawsuit (filed May 2021, amended Nov 2021, twelve plaintiffs withdrew July 2023, action reported on hold) and the political-association debate (Nussbaum). Profiles have no critiques section; author to decide where these go (Pramukh Swami chapter or Part 7 intro).",
+  "places: Birnagar, Baghbazar, Mahelav, Vadtal and Bochasan coordinates are approximate from memory and unverified (verified: false). The Mayapur, Puri and Gondal coordinates are well known.",
+  "Vadtal, Ahmedabad dioceses and the Swaminarayan Sampradaya have no graph nodes; edge for Shastriji's break with Vadtal (reacted-against) was not added.",
+  "No media cards or photos included; profiles do not carry media sections."
+ ],
+ "sources": {
+  "bhaktivinoda": [
+   "born 2 Sep 1838 Ula/Birnagar; d. 23 Jun 1914; diksha 1880 from Bipin Bihari Goswami; title Bhaktivinoda Jan 1886; Krishna-samhita 1879; Sajjana-toshani 1881; Chaitanya-siksamrita 1886; Jaiva-dharma 1896; retired 4 Oct 1894; Mayapur c.1887-89 -> https://en.wikipedia.org/wiki/Bhaktivinoda_Thakur",
+   "deputy magistrate 1861; postings; Puri Jagannath temple; Mayapur 1887; Sabha after Feb 1891 lecture; Nama-hatta 1890; Gita translations 1886/1891; vesa 1908; died Puri 23 Jun 1914 -> https://gaudiyahistory.iskcondesiretree.com/bhaktivinoda-thakura/",
+   "Mayapur/Nabadwip controversy survey, Dec 2023 -> https://ivsjournal.com/index.php/files/article/view/69"
+  ],
+  "bhaktisiddhanta": [
+   "b. 6 Feb 1874 Puri; Bimala Prasad; Siddhanta Sarasvati title; sannyasa 27 Mar 1918; 1911 Balighai paper; 29 Jan 1925 Nabadwip attack; London 1933-34, Berlin 1934; d. 1 Jan 1937 Calcutta; no successor -> https://en.wikipedia.org/wiki/Bhaktisiddhanta_Sarasvati",
+   "Sri Chaitanya Math 1918 (7 Mar); registered 5 Feb 1919; 64 branches; Harmonist; 1948 court split; ISKCON 1966 -> https://en.wikipedia.org/wiki/Gaudiya_Math",
+   "devotional biography, initiation 1901, four presses, exhibitions -> https://iskcondesiretree.com/profiles/blogs/life-of-bhaktisiddhanta"
+  ],
+  "shastriji-pramukh": [
+   "b. 31 Jan 1865 Mahelav; initiated 29 Nov 1882; Vadtal 1905; poisoning 8-9 Nov 1905; Bochasan 5 Jun 1907; 1935 ruling; Yogiji 12 Aug 1910; trust 1947; Pramukh 1950 -> https://en.wikipedia.org/wiki/Shastriji_Maharaj",
+   "BAPS account: left with five sadhus; 1907 Bochasan; d. 1951 Sarangpur -> https://www.baps.org/About-BAPS/TheFounder%E2%80%93BhagwanSwaminarayan/TheSpiritualLineage-TheGuruParampara/ShastrijiMaharaj.aspx",
+   "Bhagatji b. 20 Mar 1829 Mahuva; met Shastriji at Surat 1883; excommunication -> https://en.wikipedia.org/wiki/Bhagatji_Maharaj",
+   "Yogiji b. 23 May 1892; d. 23 Jan 1971; East Africa 1955 -> https://en.wikipedia.org/wiki/Yogiji_Maharaj",
+   "Pramukh Swami b. 7 Dec 1921; president 21 May 1950; d. 13 Aug 2016 Sarangpur; Mahant Swami named 20 Jul 2012 -> https://en.wikipedia.org/wiki/Pramukh_Swami_Maharaj",
+   "five entities, four forms of Akshar, Bhashyam 2007, Kashi 31 Jul 2017, Vadtal/Ahmedabad dissent -> https://en.wikipedia.org/wiki/Akshar_Purushottam_Darshan",
+   "BAPS timeline, 1947 trust, Islington 1970, lawsuit -> https://en.wikipedia.org/wiki/Bochasanwasi_Akshar_Purushottam_Swaminarayan_Sanstha"
+  ]
+ }
+}
