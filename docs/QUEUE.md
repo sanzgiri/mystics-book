@@ -64,7 +64,7 @@ Historical figures with no live legal or sensitive controversy. Writer agents us
 | s04 | upasni-maharaj, ug-krishnamurti, vallalar | merged |
 | s05 | kirpal-singh, ayya-vaikundar, lalaji-babuji | checking |
 | s06 | rajchandra, vinoba, kanji-swami | running |
-| s07 | tulsi-mahapragya, dada-bhagwan, dipa-ma | running |
+| s07 | tulsi-mahapragya, dada-bhagwan, dipa-ma | todo (writer hit limit, no files written) |
 
 ## After all units
 
