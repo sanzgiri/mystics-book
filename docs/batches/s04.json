@@ -17,7 +17,7 @@
    "id": "upasni-maharaj",
    "born": 1870,
    "died": 1941,
-   "note": "Kashinath Govind Upasni; b. 15 May 1870 Satana; d. 24 Dec 1941 Sakori. Settled at Sakori 1917, 1918 or 1922 depending on source."
+   "note": "Kashinath Govind Upasni; b. 15 May 1870 Satana; d. 24 Dec 1941 Sakori. Settled at Sakori 1917, 1918 or 1922 depending on source; Meher Baba Trust chronology has Merwan visiting him at Sakori in 1916-17."
   },
   {
    "id": "vallalar",
@@ -29,7 +29,7 @@
    "id": "ug-krishnamurti",
    "born": 1918,
    "died": 2007,
-   "note": "b. 9 Jul 1918 Machilipatnam; d. 22 Mar 2007 Vallecrosia (one source: 25 Mar)."
+   "note": "b. 9 Jul 1918 Machilipatnam; d. 22 Mar 2007 Vallecrosia (memorial compilation gives 22 Mar 2.30 pm; Wikipedia cites The Hindu of 25 Mar 2007, the likely origin of the '25 March' date)."
   }
  ],
  "edges_remove": [],
@@ -50,7 +50,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1915,
-   "note": "Met at Shirdi 1915; about seven years of association per Meher Baba literature; Avatar declaration Dec 1921 reported via Purdom."
+   "note": "Met at Khandoba temple, Shirdi, Dec 1915 (Meher Baba Trust chronology); about seven years of association; addressed as Avatar end of Dec 1921 per Purdom, The God-Man p. 26; last meeting Dahigaon 17 Oct 1941 per Kalchuri, Lord Meher p. 2724."
   },
   {
    "from": "upasni-maharaj",
@@ -59,7 +59,7 @@
    "evidence": "testimony",
    "verified": true,
    "year": 1932,
-   "note": "Per Hinduism Today she received a rudraksha mala and mantra at 18 and was named successor; year computed from 1914 birth, so approximate."
+   "note": "Per Hinduism Today (Aug 1992) she arrived 1924 aged 10 and at 18 received mantra initiation and a rudraksha mala and was named spiritual successor; year 1932 is computed from those ages, so approximate."
   },
   {
    "from": "tamil-shaiva",
@@ -75,7 +75,7 @@
    "type": "influenced",
    "evidence": "testimony",
    "verified": true,
-   "note": "Wikipedia: inspired by Ramalinga Swamigal; no personal contact possible."
+   "note": "Vethathiri (1911-2006) said to be inspired by Ramalinga Swamigal (Wikipedia, citing Aiyasamy 2019 and New Indian Express 2012); no personal contact possible."
   },
   {
    "from": "j-krishnamurti",
@@ -111,7 +111,7 @@
    "lon": 74.2,
    "figure": "upasni-maharaj",
    "what": "Birthplace, 1870 (Nashik district).",
-   "verified": false
+   "verified": true
   },
   {
    "name": "Mettukuppam",
@@ -196,7 +196,8 @@
   "vallalar.mdx: Door-opening date conflicts (May 1874 per Wikipedia; 'a year later' per tamil.wiki). Free kitchen date 23 May 1867 (tamil.wiki) vs 1867 only (Wikipedia). Birth place Marudur coordinates not added (not confident). Mettukuppam coordinates approximate.",
   "vallalar.mdx: Arutpa-Marutpa lawsuit outcome and dates not found (Saravanan and Thiagarajan 2026 only listed by contents). Weiss, Recipes for Immortality (2009) is listed for further reading but I did not open it. Vethathiri link rests on Wikipedia only. Mid-text claim that Sathya Gnana Sabha seven curtains open only on Thai Poosam is from Wikipedia; vallalar.org says they must be lifted one by one.",
   "vallalar.mdx: Lamp/mirror childhood vision is reported by Wikipedia as 'reportedly'; not independently sourced.",
-  "All three: no first-person text outside verdict lines; no photos or media cards added."
+  "All three: no first-person text outside verdict lines; no photos or media cards added.",
+  "factcheck s04: Upasni court-case section now reports only the existence of 1934-35 cases and the ashram's claim of innocence; the author should decide whether to add detail if Shepherd Part Five or Narasimhaswami's Sage of Sakuri can be read."
  ],
  "sources": {
   "upasni-maharaj": [
@@ -223,6 +224,30 @@
    "Quotes 'watchword'; 'Conquest of death by imbibing Supreme Grace'; mantra translation 'Supreme Grace-Light: Supreme Universal Compassion'; six paths; three bodies -> https://www.tamildigitallibrary.in/admin/assets/book/TVA_BOK_0001763_An_Introduction_to_the_Philosophy_of_Ramalinga_Swami.pdf",
    "Navalar rejected hymns as Marutpa; nearly fifty-year feud; libel suit appendix -> https://www.perlego.com/book/5298876/vaalr-and-nvalar-a-history-of-the-literary-feud-of-arup-poems-of-divine-grace-vs-marup-poems-of-delusion-pdf",
    "Vethathiri inspired by Ramalinga -> https://en.wikipedia.org/wiki/Ramalinga_Swamigal"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 64,
+  "changes": [
+   "upasni-maharaj.mdx: Devadasi case rewritten. The 'convicted at first instance, acquitted on appeal' sentence is uncited on Wikipedia, and the source Wikipedia does cite (Godamasuta, Sakori ashram life sketch) says the courts found him innocent in all cases. Text now says Shepherd's contents list three court cases 1934-35, one relating to the Devadasi Act, and the ashram source says he was found innocent. The conviction is cut. 'Spiritual marriage' is attributed to Wikipedia as uncited (Wikipedia Upasani_Maharaj; Shepherd Radical Rishi Part Four contents; Hinduism Today Aug 1992 for 'horrendous opposition').",
+   "upasni-maharaj.mdx: Avatar statement attributed to Purdom, The God-Man, end of Dec 1921; the Dahigaon 17 Oct 1941 meeting attributed to Kalchuri, Lord Meher; both added to Further reading (Wikipedia footnotes 54, 55; Meher Baba Trust CHRONOLOGY_1.pdf shows Merwan at Sakori for 6 months from late July 1921).",
+   "upasni-maharaj.mdx: Removed the implied sequence 'after Sai Baba died in 1918, base was Sakori', which contradicts the 1917 date; added the chronology's 1916-17 Sakori visits (avatarmeherbabatrust.org CHRONOLOGY_1.pdf).",
+   "ug-krishnamurti.mdx: Death date fixed at 22 March 2007; the 25 March variant removed (memorial compilation gives 22 Mar 2.30 pm; Wikipedia's source is The Hindu dated 25 Mar 2007).",
+   "ug-krishnamurti.mdx: All direct quotations ('You have no way of knowing it for yourself', 'How do I know that I am in that state?', 'sellers of shoddy goods', 'bogus chartered journey', 'I have no teaching...') converted to attributed paraphrase; none could be checked against The Mystique of Enlightenment, and Wikipedia sources the first two to an inner-quest web page and the third to a lifepositive interview.",
+   "ug-krishnamurti.mdx: Calamity duration made specific: Bhatt's biography has one change a day for seven days and 49 minutes of dying on the seventh day; Wikipedia has about a week with the most intense phase on the eighth day (people.well.com ugbio8; Wikipedia). The online biography identified as Mahesh Bhatt's (narrator's birthday 20 Sept). References renumbered; the memorial page no longer mislabelled as The Mystique of Enlightenment.",
+   "vallalar.mdx: Door-opening sentence attributes May 1874 to Wikipedia and sriramv.com and 'after a year' to Velayutha Mudaliar's account on Tamil Wiki.",
+   "vallalar.mdx: Arutpa-Marutpa lawsuit specified as a defamation suit (Tamil Wiki: maana nashta vazhakku); date and outcome still unconfirmed.",
+   "vallalar.mdx: Vethathiri link rephrased as 'accounts of Vethathiri's life say', with his dates 1911-2006 (Wikipedia Vethathiri_Maharishi, citing Aiyasamy 2019 and New Indian Express 2012).",
+   "vallalar.mdx: Thai Poosam curtain claim softened to 'all drawn back on Thai Poosam' (vallalar.org says lifted one by one).",
+   "vallalar.mdx: Srinivasan quotations ('watchword', 'conquest of death', mantra translation) checked verbatim in the 1968 PDF; no change.",
+   "s04.json: Tamil script for Suddha Sanmarga and Jeevakarunyam confirmed on Tamil Wiki (சுத்த சன்மார்க்கம், ஜீவகாருண்யம்); edge notes for Upasni-Meher Baba, Upasni-Godavari and Vallalar-Vethathiri sharpened with sources; Satana coordinates marked verified; UG and Upasni node notes updated."
+  ],
+  "unresolved": [
+   "Upasni court cases 1934-35: court, charges and verdicts not confirmed from a primary or scholarly source (Shepherd Radical Rishi Part Five chapters 98-99 not fetchable; Narasimhaswami, Sage of Sakuri II, pp. 104-5 not seen).",
+   "Upasni 'spiritual marriage' of kanyas is uncited on Wikipedia; kept as attributed.",
+   "Godavari Mataji dates 1914-1990 rest on uncited Wikipedia text; edge year 1932 computed.",
+   "UG: four children (Wikipedia infobox, uncited) and the 'met again in London' detail not independently checked; no primary-book check of any UG wording was possible.",
+   "Vallalar: Arutpa-Marutpa defamation suit date and outcome; door-opening date conflict (May 1874 vs a year later) remains and is stated in the text; Mettukuppam coordinates approximate."
   ]
  }
 }

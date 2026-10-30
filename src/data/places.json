@@ -1800,6 +1800,158 @@
    "figure": "amma",
    "what": "The Math's hospital, opened 1998 (approximate coordinates)",
    "verified": false
+  },
+  {
+   "name": "Sakori",
+   "lat": 19.726,
+   "lon": 74.478,
+   "figure": "upasni-maharaj",
+   "what": "Ashram and Kanya Kumari Sthan; about 5 km south of Shirdi; he died here 1941.",
+   "verified": true
+  },
+  {
+   "name": "Satana",
+   "lat": 20.59,
+   "lon": 74.2,
+   "figure": "upasni-maharaj",
+   "what": "Birthplace, 1870 (Nashik district).",
+   "verified": true
+  },
+  {
+   "name": "Mettukuppam",
+   "lat": 11.52,
+   "lon": 79.53,
+   "figure": "vallalar",
+   "what": "Siddhi Valagam, where he entered a locked room on 30 Jan 1874.",
+   "verified": false
+  },
+  {
+   "name": "Saanen",
+   "lat": 46.49,
+   "lon": 7.26,
+   "figure": "ug-krishnamurti",
+   "what": "July 1967: heard J. Krishnamurti, then the 'calamity'.",
+   "verified": true
+  },
+  {
+   "name": "Vallecrosia",
+   "lat": 43.79,
+   "lon": 7.63,
+   "figure": "ug-krishnamurti",
+   "what": "Died here 22 March 2007.",
+   "verified": true
+  },
+  {
+   "name": "Machilipatnam",
+   "lat": 16.18,
+   "lon": 81.14,
+   "figure": "ug-krishnamurti",
+   "what": "Birthplace, 9 July 1918.",
+   "verified": true
+  },
+  {
+   "name": "Babajan's dargah, Char Bawdi, Pune Camp",
+   "lat": 18.51,
+   "lon": 73.88,
+   "figure": "meher-baba",
+   "what": "Neem tree and tomb of Hazrat Babajan; site of the 1913-14 encounter",
+   "verified": false
+  },
+  {
+   "name": "Sakori",
+   "lat": 19.74,
+   "lon": 74.5,
+   "figure": "meher-baba",
+   "what": "Upasni Maharaj's ashram from 1917; Merwan's regular visits 1916-1921",
+   "verified": false
+  },
+  {
+   "name": "Meherazad, Ahmednagar",
+   "lat": 19.06,
+   "lon": 74.75,
+   "figure": "meher-baba",
+   "what": "His residence from 1952; where he died 31 Jan 1969",
+   "verified": false
+  },
+  {
+   "name": "Dehradun",
+   "lat": 30.32,
+   "lon": 78.03,
+   "figure": "meher-baba",
+   "what": "Where he began dictating God Speaks, August 1953",
+   "verified": true
+  },
+  {
+   "name": "Meher Spiritual Center, Myrtle Beach",
+   "lat": 33.77,
+   "lon": -78.82,
+   "figure": "meher-baba",
+   "what": "Opened April 1952",
+   "verified": false
+  },
+  {
+   "name": "Meher Mount, Ojai",
+   "lat": 34.45,
+   "lon": -119.25,
+   "figure": "meher-baba",
+   "what": "Californian centre of devotion; destination on the 1952 journey interrupted by the Oklahoma accident",
+   "verified": false
+  },
+  {
+   "name": "Baroda (Vadodara)",
+   "lat": 22.307,
+   "lon": 73.181,
+   "figure": "inayat-khan",
+   "what": "Birthplace (1882); Gayanshala and the court of Maharaja Sayajirao Gaekwad",
+   "verified": true
+  },
+  {
+   "name": "Hyderabad",
+   "lat": 17.385,
+   "lon": 78.487,
+   "figure": "inayat-khan",
+   "what": "Nizam's court; meeting with Abu Hashim Madani and Chishti initiation, c. 1903-1904",
+   "verified": true
+  },
+  {
+   "name": "San Francisco",
+   "lat": 37.775,
+   "lon": -122.419,
+   "figure": "inayat-khan",
+   "what": "First American disciple Rabia Martin, 1910-1911",
+   "verified": true
+  },
+  {
+   "name": "London (86 Ladbroke Road)",
+   "lat": 51.512,
+   "lon": -0.205,
+   "figure": "inayat-khan",
+   "what": "Sufi Order khankah and the magazine The Sufi, 1914-1920",
+   "verified": true
+  },
+  {
+   "name": "Geneva",
+   "lat": 46.204,
+   "lon": 6.143,
+   "figure": "inayat-khan",
+   "what": "International headquarters of the Sufi Movement, 1923",
+   "verified": true
+  },
+  {
+   "name": "Suresnes (Fazal Manzil)",
+   "lat": 48.871,
+   "lon": 2.229,
+   "figure": "inayat-khan",
+   "what": "Family home and summer school, 1920s",
+   "verified": true
+  },
+  {
+   "name": "Nizamuddin, Delhi",
+   "lat": 28.591,
+   "lon": 77.242,
+   "figure": "inayat-khan",
+   "what": "Died at Tilak Lodge, Delhi, 5 February 1927; buried beside the shrine of Nizamuddin Auliya",
+   "verified": true
   }
  ]
 }

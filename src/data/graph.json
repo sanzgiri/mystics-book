@@ -960,7 +960,8 @@
    "died": 1969,
    "part": 8,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Merwan Sheriar Irani, b. 25 Feb 1894 Pune; silent from 10 July 1925; declared himself the Avatar (Feb 1954 per Trust, Call 12 Sept and Final Declaration 30 Sept 1954 per other Trust-related chronologies); d. 31 Jan 1969 Meherazad."
   },
   {
    "id": "upasni-maharaj",
@@ -969,7 +970,8 @@
    "died": 1941,
    "part": 8,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Kashinath Govind Upasni; b. 15 May 1870 Satana; d. 24 Dec 1941 Sakori. Settled at Sakori 1917, 1918 or 1922 depending on source; Meher Baba Trust chronology has Merwan visiting him at Sakori in 1916-17."
   },
   {
    "id": "hazrat-babajan",
@@ -977,7 +979,8 @@
    "died": 1931,
    "part": 8,
    "tier": "node",
-   "kind": "person"
+   "kind": "person",
+   "note": "Pashtun faqir of Pune; birth estimates c. 1790-1820; d. 21 Sept 1931 Pune; kiss on Merwan's forehead dated May 1913 (embrace) / Jan 1914 (kiss) in Trust chronology."
   },
   {
    "id": "tajuddin-baba",
@@ -986,7 +989,8 @@
    "died": 1925,
    "part": 8,
    "tier": "node",
-   "kind": "person"
+   "kind": "person",
+   "note": "Nagpur saint; b. 17 or 27 Jan 1861 depending on source; d. 17 Aug 1925."
   },
   {
    "id": "narayan-maharaj",
@@ -995,7 +999,8 @@
    "died": 1945,
    "part": 8,
    "tier": "node",
-   "kind": "person"
+   "kind": "person",
+   "note": "Of Kedgaon; b. 20 May 1885, d. 3 Sept 1945 per Wikipedia; birthplace given as Nargund or Bagalkot."
   },
   {
    "id": "shiv-dayal-singh",
@@ -1014,7 +1019,8 @@
    "died": 1927,
    "part": 9,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Baroda 5 July 1882; Chishti initiation under Abu Hashim Madani, Hyderabad, c. 1903-1904; sailed for the US 13 September 1910; Sufi Order in London (1914, 1915 or 1918 in different sources); Sufi Movement, Geneva, 1923; died Delhi 5 February 1927"
   },
   {
    "id": "kirpal-singh",
@@ -1041,7 +1047,8 @@
    "died": 1874,
    "part": 9,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Ramalingam; b. 5 Oct 1823 Marudur; vanished 30 Jan 1874 Mettukuppam by followers' account. Death is a faith claim."
   },
   {
    "id": "ayya-vaikundar",
@@ -1238,7 +1245,8 @@
    "died": 2007,
    "part": 12,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "b. 9 Jul 1918 Machilipatnam; d. 22 Mar 2007 Vallecrosia (memorial compilation gives 22 Mar 2.30 pm; Wikipedia cites The Hindu of 25 Mar 2007, the likely origin of the '25 March' date)."
   },
   {
    "id": "periyar",
@@ -2277,6 +2285,106 @@
    "tier": "node",
    "kind": "person",
    "note": "Amma's senior-most disciple; met her in 1979 aged 22; sannyasa 1989; vice-chairman of the Mata Amritanandamayi Math and president of Amrita Vishwa Vidyapeetham; author of the movement's biography of Amma"
+  },
+  {
+   "id": "godavari-mata",
+   "name": "Godavari Mataji",
+   "born": 1914,
+   "died": 1990,
+   "part": 8,
+   "tier": "node",
+   "kind": "person",
+   "note": "Sati Godavari Mataji of Sakori; arrived 1924 aged 10; named Upasni's successor (Hinduism Today); led the Kanya Kumari Sthan after 1941. Dates 1914-1990 from Wikipedia and a Cafoscari interview title; Hinduism Today gives none."
+  },
+  {
+   "id": "zoroastrianism",
+   "name": "Zoroastrian tradition",
+   "part": 0,
+   "tier": "root",
+   "kind": "tradition",
+   "note": "Family background of Meher Baba; Zoroaster is the first of the six earlier Avatars in his scheme."
+  },
+  {
+   "id": "sufism-reoriented",
+   "name": "Sufism Reoriented",
+   "born": 1952,
+   "part": 8,
+   "tier": "node",
+   "kind": "institution",
+   "note": "California Sufi group accepted Meher Baba as its leader and renamed by him in 1952; publishes God Speaks and God in a Pill?"
+  },
+  {
+   "id": "pete-townshend",
+   "name": "Pete Townshend",
+   "born": 1945,
+   "part": 8,
+   "tier": "node",
+   "kind": "person",
+   "note": "Guitarist of The Who; heard of Meher Baba from Mike McInnerney in autumn 1967 (his account, Rolling Stone 1970); dedicated Tommy (1969) to him."
+  },
+  {
+   "id": "abu-hashim-madani",
+   "name": "Sayyid Muhammad Abu Hashim Madani",
+   "died": 1908,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Hyderabad Sufi teacher, head of the Chishti-Nizami-Kalimi line; Inayat Khan's murshid. Death given as 1907 (Wikipedia) or 1908 (Inayati Order)"
+  },
+  {
+   "id": "maulabakhsh",
+   "name": "Maulabakhsh (Sholay Khan)",
+   "born": 1833,
+   "died": 1896,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Baroda musician and notation pioneer; founded the Gayanshala in 1886; Inayat Khan's maternal grandfather"
+  },
+  {
+   "id": "rabia-martin",
+   "name": "Rabia Martin (Ada Martin)",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "First American disciple of Inayat Khan (San Francisco, 1910 or 1911); broke away after 1927; her line led to Sufism Reoriented"
+  },
+  {
+   "id": "maheboob-khan",
+   "name": "Maheboob Khan",
+   "died": 1948,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Inayat Khan's brother; led the Sufi Movement from 1927 until his death in 1948"
+  },
+  {
+   "id": "vilayat-inayat-khan",
+   "name": "Vilayat Inayat Khan",
+   "born": 1916,
+   "died": 2004,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Inayat Khan's eldest son; took his father's mantle in 1956 or 1957; founded the Sufi Order (name adopted 1968), now the Inayati Order"
+  },
+  {
+   "id": "zia-inayat-khan",
+   "name": "Zia Inayat Khan",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Vilayat's son; invested 2000; leads the Inayati Order (Inayatiyya)"
+  },
+  {
+   "id": "noor-inayat-khan",
+   "name": "Noor Inayat Khan",
+   "born": 1914,
+   "died": 1944,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Inayat Khan's eldest daughter; SOE wireless operator; shot at Dachau 13 September 1944"
   }
  ],
  "edges": [
@@ -2779,25 +2887,37 @@
    "from": "upasni-maharaj",
    "to": "meher-baba",
    "type": "lived-with",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "year": 1915,
+   "note": "Contact from Dec 1915; monthly visits to Sakori 1916-17; Upasni praised him publicly in late 1921 (Purdom, via Wikipedia); last meeting 17 Oct 1941 at Dahigaon."
   },
   {
    "from": "hazrat-babajan",
    "to": "meher-baba",
-   "type": "influenced",
-   "evidence": "documented"
+   "type": "claimed",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1914,
+   "note": "Embrace May 1913 and kiss January 1914 per Trust chronology; event rests on Baba's own account and devotee biographies. Babajan herself is independently attested as a Pune faqir with a dargah."
   },
   {
    "from": "tajuddin-baba",
    "to": "meher-baba",
-   "type": "influenced",
-   "evidence": "documented"
+   "type": "claimed",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1915,
+   "note": "One visit at Nagpur/Waki, April 1915 (Trust chronology); Baba's account."
   },
   {
    "from": "narayan-maharaj",
    "to": "meher-baba",
-   "type": "influenced",
-   "evidence": "documented"
+   "type": "claimed",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1915,
+   "note": "One visit at Kedgaon, April 1915, returned within 24 hours (Trust chronology); Baba's account."
   },
   {
    "from": "shirdi-sai-baba",
@@ -2861,7 +2981,9 @@
    "to": "inayat-khan",
    "type": "initiated",
    "evidence": "documented",
-   "note": "Chishti order"
+   "verified": true,
+   "year": 1904,
+   "note": "Chishti line (Chishti-Nizami-Kalimi). Claim of training in Suhrawardi, Qadiri and Naqshbandi too rests on his own account"
   },
   {
    "from": "sufi-orders",
@@ -2874,7 +2996,9 @@
    "from": "tamil-shaiva",
    "to": "vallalar",
    "type": "influenced",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Hymns on Shiva and Muruga in the Nayanar tradition; he also criticised orthodox ritual and was attacked by Arumuga Navalar."
   },
   {
    "from": "jain-tradition",
@@ -4268,7 +4392,7 @@
    "type": "influenced",
    "evidence": "testimony",
    "verified": true,
-   "note": "Wikipedia: inspired by Ramalinga Swamigal; no personal contact possible (d. 1874)."
+   "note": "Vethathiri (1911-2006) said to be inspired by Ramalinga Swamigal (Wikipedia, citing Aiyasamy 2019 and New Indian Express 2012); no personal contact possible."
   },
   {
    "from": "paranjyothi",
@@ -4734,6 +4858,126 @@
    "verified": true,
    "year": 1989,
    "note": "Met her in 1979; she gave him sannyasa in 1989 (Amrita university leadership page)"
+  },
+  {
+   "from": "upasni-maharaj",
+   "to": "godavari-mata",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1932,
+   "note": "Per Hinduism Today (Aug 1992) she arrived 1924 aged 10 and at 18 received mantra initiation and a rudraksha mala and was named spiritual successor; year 1932 is computed from those ages, so approximate."
+  },
+  {
+   "from": "theosophical-society",
+   "to": "ug-krishnamurti",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1941,
+   "note": "Raised in a Theosophist household; worked in Leadbeater's library from 1941; joint general secretary of the Indian section; left early-to-mid 1950s."
+  },
+  {
+   "from": "sufi-orders",
+   "to": "meher-baba",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Qutub, mast, fana vocabulary; Babajan a Muslim faqir. Scholars (Sedgwick, per Wikipedia) see few similarities with the Sufi Movement beyond universalism."
+  },
+  {
+   "from": "zoroastrianism",
+   "to": "meher-baba",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Born to Zoroastrian parents; lists Zoroaster as the first earlier Avatar. Not a teacher of Zoroastrian doctrine (Shepherd)."
+  },
+  {
+   "from": "meher-baba",
+   "to": "sufism-reoriented",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1952,
+   "note": "Accepted as leader of a California Sufi group; renamed Sufism Reoriented in 1952."
+  },
+  {
+   "from": "meher-baba",
+   "to": "pete-townshend",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1967,
+   "note": "Heard of Baba autumn 1967 (Townshend, Rolling Stone 1970); dedicated Tommy (1969) to him."
+  },
+  {
+   "from": "abu-hashim-madani",
+   "to": "inayat-khan",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1904,
+   "note": "Initiation and four years of discipleship in Hyderabad, known from Inayat Khan's own essay and the movement's biographies; no independent record found"
+  },
+  {
+   "from": "sufi-orders",
+   "to": "abu-hashim-madani",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Chishti-Nizami-Kalimi, via Shah Kalim Allah Jahanabadi (Wikipedia)"
+  },
+  {
+   "from": "maulabakhsh",
+   "to": "inayat-khan",
+   "type": "family",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Maternal grandfather; musical training at the Gayanshala, Baroda"
+  },
+  {
+   "from": "inayat-khan",
+   "to": "rabia-martin",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1911,
+   "note": "First American disciple, San Francisco"
+  },
+  {
+   "from": "inayat-khan",
+   "to": "maheboob-khan",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1927,
+   "note": "Leader of the Sufi Movement after 1927; a council is recorded appointing him esoteric leader in June (year not given on the page)"
+  },
+  {
+   "from": "inayat-khan",
+   "to": "vilayat-inayat-khan",
+   "type": "family",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1926,
+   "note": "Eldest son; told 'You must follow in my footsteps' per the Inayati Order"
+  },
+  {
+   "from": "inayat-khan",
+   "to": "noor-inayat-khan",
+   "type": "family",
+   "evidence": "documented",
+   "verified": true
+  },
+  {
+   "from": "vilayat-inayat-khan",
+   "to": "zia-inayat-khan",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 2000,
+   "note": "Invested 2000; succeeded on Vilayat's death 2004"
   }
  ]
 }

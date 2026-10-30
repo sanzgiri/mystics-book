@@ -61,9 +61,9 @@ Historical figures with no live legal or sensitive controversy. Writer agents us
 | s01 | yukteswar, kuvalayananda, iyengar, vethathiri | merged |
 | s02 | bamakhepa, papa-ramdas, neem-karoli-baba | merged |
 | s03 | bhaktivinoda, bhaktisiddhanta, shastriji-pramukh | merged |
-| s04 | upasni-maharaj, ug-krishnamurti, vallalar | checking |
+| s04 | upasni-maharaj, ug-krishnamurti, vallalar | merged |
 | s05 | kirpal-singh, ayya-vaikundar, lalaji-babuji | running |
-| s06 | rajchandra, vinoba, kanji-swami | todo |
+| s06 | rajchandra, vinoba, kanji-swami | running |
 | s07 | tulsi-mahapragya, dada-bhagwan, dipa-ma | todo |
 
 ## After all units
