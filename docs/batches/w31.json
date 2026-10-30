@@ -1,0 +1,302 @@
+{
+ "batch": "w31",
+ "nodes_add": [
+  {
+   "id": "chandramani",
+   "name": "U Chandramani Mahathera",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "Burmese-born Theravada monk settled at Kushinagar; gave Ambedkar and Savita Ambedkar the three refuges and five precepts at Nagpur, 14 October 1956, with six other monks. Birth/death years not verified."
+  },
+  {
+   "id": "john-dewey",
+   "name": "John Dewey",
+   "born": 1859,
+   "died": 1952,
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "American pragmatist philosopher; taught Ambedkar at Columbia (1913-16), courses on psychological ethics and moral and political philosophy."
+  },
+  {
+   "id": "sangharakshita",
+   "name": "Sangharakshita",
+   "born": 1925,
+   "died": 2018,
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "English Buddhist monk who met Ambedkar and worked among the new Buddhists after 1956; author of Ambedkar and Buddhism (1986); founded the order whose Indian wing is the Triratna Bauddha Mahasangha. Dates and founding details to verify."
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "ambedkar",
+   "born": 1891,
+   "died": 1956,
+   "name": "B.R. Ambedkar",
+   "note": "Born Mhow 14 April 1891; Yeola vow 13 October 1935; converted to Buddhism at Nagpur (Deekshabhoomi) 14 October 1956 and gave the 22 vows; died Delhi 6 December 1956; The Buddha and His Dhamma published 1957. Named three gurus: Buddha, Kabir, Phule (speech, 28 October 1954)."
+  }
+ ],
+ "edges_remove": [],
+ "edges_upsert": [
+  {
+   "from": "buddhist-tradition",
+   "to": "ambedkar",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1956,
+   "note": "Keluskar's life of the Buddha (1907); Maha Bodhi essay (May 1950); conversion at Nagpur 14 Oct 1956; The Buddha and His Dhamma (1957). Named the Buddha his first guru (1954)."
+  },
+  {
+   "from": "sant-tradition",
+   "to": "ambedkar",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1954,
+   "note": "Kabir named his second guru in the speech of 28 October 1954; father Ramji Sakpal reported to be a Kabir Panthi (not yet seen on a fetched page)."
+  },
+  {
+   "from": "jyotirao-phule",
+   "to": "ambedkar",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1946,
+   "note": "Named third guru (28 October 1954); Who Were the Shudras? (1946) dedicated 'to the Memory of Mahatma Jotiba Fule'."
+  },
+  {
+   "from": "gandhi",
+   "to": "ambedkar",
+   "type": "reacted-against",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1932,
+   "note": "Poona Pact 1932; Annihilation of Caste exchange 1936-37; What Congress and Gandhi Have Done to the Untouchables (1945)"
+  },
+  {
+   "from": "chandramani",
+   "to": "ambedkar",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1956,
+   "note": "Three refuges and five precepts, Nagpur, 14 October 1956; Ambedkar then administered refuges, precepts and the 22 vows to the crowd himself."
+  },
+  {
+   "from": "john-dewey",
+   "to": "ambedkar",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1913,
+   "note": "Teacher at Columbia 1913-16; Annihilation of Caste uses Dewey's distinction between rules and principles."
+  },
+  {
+   "from": "ambedkar",
+   "to": "sangharakshita",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": false,
+   "year": 1956,
+   "note": "Met Ambedkar in the 1950s; worked among Ambedkarite Buddhists after his death; wrote Ambedkar and Buddhism (1986). Details not verified on a fetched page."
+  }
+ ],
+ "places": [
+  {
+   "name": "Mhow (Dr. Ambedkar Nagar)",
+   "lat": 22.554,
+   "lon": 75.759,
+   "figure": "ambedkar",
+   "what": "Birthplace, 14 April 1891",
+   "verified": true
+  },
+  {
+   "name": "Mahad (Chavdar tank)",
+   "lat": 18.083,
+   "lon": 73.417,
+   "figure": "ambedkar",
+   "what": "Chavdar tank satyagraha (March 1927) and the burning of the Manusmriti (25 December 1927)",
+   "verified": true
+  },
+  {
+   "name": "Nashik (Kalaram temple)",
+   "lat": 20.007,
+   "lon": 73.795,
+   "figure": "ambedkar",
+   "what": "Temple entry campaign, 1930-1935",
+   "verified": true
+  },
+  {
+   "name": "Yeola",
+   "lat": 20.042,
+   "lon": 74.489,
+   "figure": "ambedkar",
+   "what": "Conference of 13 October 1935: vow not to die a Hindu",
+   "verified": true
+  },
+  {
+   "name": "Chandrapur",
+   "lat": 19.961,
+   "lon": 79.296,
+   "figure": "ambedkar",
+   "what": "Second mass conversion, 16 October 1956",
+   "verified": true
+  },
+  {
+   "name": "Delhi, 26 Alipur Road",
+   "lat": 28.68,
+   "lon": 77.224,
+   "figure": "ambedkar",
+   "what": "House where he died, 6 December 1956; now a national memorial",
+   "verified": false
+  },
+  {
+   "name": "Chaityabhoomi, Dadar, Mumbai",
+   "lat": 19.025,
+   "lon": 72.834,
+   "figure": "ambedkar",
+   "what": "Cremation ground, 7 December 1956; now a memorial",
+   "verified": false
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Dhamma",
+   "script": "धम्म",
+   "lang": "pi",
+   "def": "Pali for the Buddha's teaching (Sanskrit dharma). Ambedkar used it for a social morality governing the relations between people, as distinct from religion as private worship."
+  },
+  {
+   "term": "Navayana",
+   "script": "नवयान",
+   "lang": "sa",
+   "def": "\"New vehicle\": the name given to Ambedkar's rationalist and socially directed reading of Buddhism."
+  },
+  {
+   "term": "Dhamma diksha",
+   "script": "धम्मदीक्षा",
+   "lang": "mr",
+   "def": "Initiation into the Dhamma; the Marathi name for the 1956 conversion and for later mass conversion ceremonies."
+  },
+  {
+   "term": "Deekshabhoomi",
+   "script": "दीक्षाभूमी",
+   "lang": "mr",
+   "def": "\"Ground of initiation\": the site in Nagpur where Ambedkar converted on 14 October 1956; now marked by a large stupa."
+  },
+  {
+   "term": "Mahar",
+   "script": "महार",
+   "lang": "mr",
+   "def": "A caste of Maharashtra treated as untouchable; Ambedkar's community and the source of most of the 1956 converts."
+  },
+  {
+   "term": "Tisarana",
+   "script": "तिसरण",
+   "lang": "pi",
+   "def": "The three refuges: going for refuge to the Buddha, the Dhamma and the Sangha, the formula by which a person becomes a Buddhist."
+  },
+  {
+   "term": "Pancasila",
+   "script": "पञ्चसील",
+   "lang": "pi",
+   "def": "The five precepts of a lay Buddhist: to refrain from killing, stealing, sexual misconduct, false speech and intoxicants."
+  },
+  {
+   "term": "Bhikkhu",
+   "script": "भिक्खु",
+   "lang": "pi",
+   "def": "A Buddhist monk, literally one who lives on alms."
+  },
+  {
+   "term": "Dukkha",
+   "script": "दुक्ख",
+   "lang": "pi",
+   "def": "Suffering or unsatisfactoriness, the subject of the first of the Four Noble Truths. Ambedkar read it chiefly as suffering caused by injustice."
+  },
+  {
+   "term": "Margadata",
+   "script": "मार्गदाता",
+   "lang": "sa",
+   "def": "\"Giver of the path\": Ambedkar's term for the Buddha as a guide who shows the way, as opposed to a mokshadata, a giver of salvation."
+  },
+  {
+   "term": "Parivraja",
+   "script": "परिव्रज्या",
+   "lang": "sa",
+   "def": "Going forth from home into the wandering religious life. Ambedkar retold the Buddha's going forth as exile after a dispute over war."
+  },
+  {
+   "term": "Kabir Panth",
+   "script": "कबीरपंथ",
+   "lang": "hi",
+   "def": "The sect formed around the songs and teaching of Kabir; Ambedkar's father belonged to it."
+  },
+  {
+   "term": "Manusmriti",
+   "script": "मनुस्मृति",
+   "lang": "sa",
+   "def": "The Laws of Manu, an ancient Sanskrit law book setting out the duties and disabilities of each caste; publicly burned by Ambedkar's followers at Mahad in 1927."
+  },
+  {
+   "term": "Vihara",
+   "script": "विहार",
+   "lang": "pi",
+   "def": "A Buddhist monastery or meeting hall; in Ambedkarite neighbourhoods, the local Buddhist centre."
+  }
+ ],
+ "art": [],
+ "issues": [
+  "ambedkar.mdx: father Ramji Sakpal's Kabir Panth membership is stated from general knowledge (Keer); not seen on a fetched page (Wikipedia and the Columbia timeline page did not mention it). Also the family's recitation of Ramayana/Mahabharata and Marathi saints' hymns.",
+  "ambedkar.mdx: Mahad tank satyagraha month (March 1927) and the Kalaram campaign span 1930-1935 are from general knowledge; Wikipedia confirmed 25 Dec 1927 Manusmriti burning and 1930 Kalaram launch only.",
+  "ambedkar.mdx: crowd size at Nagpur given as about 400,000 to half a million (Wikipedia Deekshabhoomi: 400,000 and 500,000; Buddhistdoor: nearly 500,000). Chandramani's dates and the 'Burmese by birth' description rest on Wikipedia only.",
+  "ambedkar.mdx: the three-gurus speech is quoted from an English rendering in The Mooknayak (2025); the original Marathi text and the date/place (28 October 1954, Purandare Stadium, Bombay) should be checked against Writings and Speeches or Keer.",
+  "ambedkar.mdx: Navayana quotation ('Our Buddhism is a Neo-Buddhism, Navayana') seen only on encyclopediaofbuddhism.org (a Wikipedia mirror); the original 1956 press report is not traced. The text hedges this; checker may prefer to drop the quote.",
+  "ambedkar.mdx: Keown and Prebish quote ('Most jarring, perhaps...') and Gombrich quote ('there is no evidence that the Buddha began or pursued social reforms') seen only via encyclopediaofbuddhism.org; verify in the originals (Keown and Prebish, Encyclopedia of Buddhism; Gombrich).",
+  "ambedkar.mdx: Christopher Queen's characterisation (legitimate interpretation; Ambedkar a founder of engaged Buddhism) is from general knowledge of his 1996 and 2004 essays; no fetched page. The claim that traditional sources place the Rohini quarrel after the enlightenment (the Buddha as peacemaker) is also from general knowledge.",
+  "ambedkar.mdx: Dalit critique is attributed to Vaibhav Wankhede (ThePrint, 27 April 2025), who writes of a 'neo-Buddhist background' but whose identity the page does not confirm. A more prominent named Dalit critic (scholar or activist) would strengthen the section; none was verified.",
+  "ambedkar.mdx: 'Buddhists of Scheduled Caste origin were brought into the national scheme of reserved places only by an amendment of 1990' rests on the title of the Constitution (Scheduled Castes) Orders (Amendment) Act, 1990; Maharashtra gave state-level concessions earlier. Checker should confirm wording.",
+  "ambedkar.mdx: Descendants paragraph (Buddhist Society of India under Yashwant Ambedkar; Anand Kausalyayan's Hindi translation; Sangharakshita and the Triratna Bauddha Mahasangha; 8.4 million Buddhists in 2011, inferred from 6.53 million Marathi Buddhists = 77.36%) is partly unverified.",
+  "ambedkar.mdx: the Hindu nationalist argument that Buddhism is a branch of Indic religion is stated generally, without a named source; a named, citable example is needed. The 1987 Riddles in Hinduism protests were dropped from the text because they could not be verified.",
+  "ambedkar.mdx: no audio or film archive located; 'In his own voice' marked [to locate]. No photo added.",
+  "ambedkar.mdx: art set to existing 'lamp'; no new art created.",
+  "buddha-returns.mdx: brief says 350-550 words for part intros; the task asked for 250-350, and the draft is about 330. Dharmapala facts (Bodh Gaya visit 22 January 1891, Maha Bodhi Society founded Colombo 31 May 1891) from a Sunday Times (Sri Lanka) article; the intro says only 1891 and does not claim a written profile.",
+  "graph: consider an edge dharmapala -> ambedkar (institutional/testimony): Ambedkar's 1950 essay appeared in the Maha Bodhi Society's journal; not added because no direct influence was verified."
+ ],
+ "sources": {
+  "ambedkar": [
+   "Yeola, 13 Oct 1935: 'I solemnly assure you that I will not die as a Hindu' (Keer p. 253) -> https://franpritchett.com/00ambedkar/timeline/1930s.html",
+   "Ramabai's death May 1935 and Pandharpur wish; Amritsar Sikh Mission Conference Apr 1936; Annihilation of Caste 15 May 1936; Mahar conference 31 May 1936 'What Path to Salvation?'; 2nd ed. 1937 with Gandhi debate -> https://franpritchett.com/00ambedkar/timeline/1930s.html",
+   "BHD introduction: 'Indications of a growth in the volume of interest in Buddhism...'; four problems; 'absurd on the face of it'; 'a great stumbling block...'; 'Do they form part of the original gospel, or are they a later accretion by the monks?'; 'The four Aryan Truths make the gospel of the Buddha a gospel of pessimism.' -> https://franpritchett.com/00ambedkar/ambedkar_buddha/00_intro.html",
+   "BHD Book One Part I §14-16: Rohini water dispute, Sangh vote for war, Parivraja as exile -> https://franpritchett.com/00ambedkar/ambedkar_buddha/01_1.html",
+   "BHD Book Three: Buddha as marga data, no divinity -> https://franpritchett.com/00ambedkar/ambedkar_buddha/03_01.html",
+   "BHD Book Four: 'Contrary to this, Dhamma is social.'; 'The purpose of Dhamma is to reconstruct the world.' -> https://franpritchett.com/00ambedkar/ambedkar_buddha/04_01.html",
+   "'The Buddha and the Future of His Religion', Maha Bodhi, Vaishakh number, vol. 58, May 1950; Margadata/Mokshadata; 'The Buddha was satisfied with playing the role of a Margadata'; criteria incl. 'the fundamental tenets of liberty, equality and fraternity' and 'sanctify or ennoble poverty' -> https://drambedkarbooks.com/2015/05/31/buddha-and-future-of-his-religion-dr-b-r-ambedkar",
+   "AIR broadcast 3 Oct 1954: 'enshrined in three words: Liberty, Equality and Fraternity'; 'Let no one, however, say that I have borrowed my philosophy from the French-Revolution.' -> https://m.thewire.in/article/books/ambedkar-democracy-buddhism",
+   "Three gurus speech 28 Oct 1954, Purandare Stadium: 'I have three gurus'; Buddha first, Kabir second, Phule third -> https://en.themooknayak.com/bahujan-nayak/mahatma-phule-jayanti-2025-the-third-guru-who-shaped-dr-ambedkars-fight-against-caste-oppression",
+   "Who Were the Shudras? dedication to Phule (1946) -> https://sabrangindia.in/reading-dr-ambedkars-who-were-shudras/",
+   "1907 matriculation; Dada Keluskar's gift of his life of the Buddha; 'read the book with great interest, and was greatly impressed and moved by it'; marriage to Ramabai 1906 -> https://ccnmtl.columbia.edu/projects/mmt/ambedkar/web/timeline_files/timeline_content03.html",
+   "Born 14 Apr 1891 Mhow; father subedar Ramji Maloji Sakpal; surname from Ambadawe and teacher's change; Manusmriti burning 25 Dec 1927; Kalaram 1930; marriage to Sharada Kabir (Savita) 15 Apr 1948; resignation 27 Sep 1951 over Hindu Code Bill; Buddhist Society of India 1955; Ceylon 1950, Rangoon 1954; death 6 Dec 1956 at 26 Alipur Road; cremation Dadar Chowpatty 7 Dec -> https://en.wikipedia.org/wiki/B._R._Ambedkar",
+   "1950 Colombo trip; 1954 announcement of book and conversion; BHD preface 15 Mar 1956; Kathmandu Nov 1956; Buddha or Karl Marx completed 2 Dec 1956; death night of 5-6 Dec; BHD published 1957 by Siddharth College Publications -> https://franpritchett.com/00ambedkar/timeline/1950s.html",
+   "Conversion 14 Oct 1956, Ashoka Vijaya Dashami; Mahasthavir Chandramani, Burmese monk from Kushinagar; about 400,000 (also 500,000); stupa begun 1978, inaugurated 18 Dec 2001; coords 21.128, 79.067 -> https://en.wikipedia.org/wiki/Deekshabhoomi",
+   "Seven monks incl. Chandramani; nearly 500,000 -> https://www2.buddhistdoor.net/news/last-of-seven-buddhist-monks-who-conducted-babasaheb-ambedkars-refuge-ceremony-dies-aged-88",
+   "22 vows verbatim incl. vow 1 'Brahma, Vishnu and Maheshwara', vow 5 'sheer madness and false propaganda', vow 6 Shraddha, vow 19 'harmful to humanity'; Chandrapur 16 Oct 1956 -> https://en.wikipedia.org/wiki/Twenty-two_vows_of_Ambedkar",
+   "Dewey: Columbia 1913-16; courses Psychological Ethics, Moral and Political Philosophy; rules vs principles in Annihilation of Caste -> https://newlinesmag.com/essays/how-americas-philosopher-of-democracy-influenced-indias-leading-caste-reformer/",
+   "Navayana quote 'Our Buddhism is a Neo-Buddhism, Navayana'; Keown & Prebish 'Most jarring, perhaps, especially among more traditional Buddhists'; Gombrich 'there is no evidence that the Buddha began or pursued social reforms' -> https://encyclopediaofbuddhism.org/wiki/Navayana",
+   "Vajpeyi (Open, 2012): 'If you do not accept these premises, can you really be called a Buddhist?'; Rathore & Verma report critical reception in Buddhist circles; Nagarjuna defence -> https://openthemagazine.com/essays/arts-letters/the-guru-ambedkar",
+   "Critical edition, Rathore & Verma, OUP 2011 -> https://india.oup.com/?p=67159",
+   "Wankhede (ThePrint, 27 Apr 2025): 'Without his moral and intellectual leadership, the conversion wave lost direction.'; lack of temples, clergy, rites; Ambedkar portraits beside Hindu gods -> https://theprint.in/opinion/why-dalit-conversion-to-buddhism-hasnt-taken-off-and-how-it-still-can/2604784/",
+   "1990 SC status amendment for Buddhists (Act 15 of 1990) -> https://www.casemine.com/act/in/5a979dab4a93263ca60b722f",
+   "Rajendra Pal Gautam: event 5 Oct 2022 at Ambedkar Bhavan, resigned 9 Oct 2022 -> https://www.boomlive.in/news/conversion-event-row-why-did-aaps-rajendra-pal-gautam-resign-19531",
+   "2011 census: 6.53 million Marathi Buddhists = 77.36% of India's Buddhists (implies about 8.4 million); most from former Mahar community -> https://en.wikipedia.org/wiki/Marathi_Buddhists",
+   "Writings and Speeches vol. 11 (BHD full text) -> https://www.marxists.org/archive/ambedkar/writings-and-speeches/Volume_11.pdf (URL from search, not opened)"
+  ],
+  "buddha-returns": [
+   "Dharmapala visited Bodh Gaya 22 Jan 1891; temple under a Shaivite mahant; Maha Bodhi Society founded Colombo 31 May 1891 -> https://www.sundaytimes.lk/210912/sunday-times-2/anagarika-dharmapala-the-buddha-gaya-temple-and-the-campaign-he-launched-455011.html"
+  ]
+ }
+}

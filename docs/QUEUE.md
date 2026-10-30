@@ -39,7 +39,7 @@ Status: todo / running / written / checked / merged.
 | w21 | amma (c) | | merged |
 | w24 | meher-baba (c) | | merged |
 | w26 | inayat-khan (c) | | merged |
-| w31 | ambedkar (c) | buddha-returns | running |
+| w31 | ambedkar (c) | buddha-returns | checking |
 | w32 | osho (c) | | todo |
 | w33 | sathya-sai-baba (c) | | todo |
 | w34 | dada-lekhraj, sri-chinmoy | new-revelations (incl. godman essay) | todo |
