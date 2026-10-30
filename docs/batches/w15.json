@@ -2,15 +2,15 @@
   "batch": "w15",
   "nodes_add": [
     {"id": "malladihalli-raghavendra", "name": "Malladihalli Raghavendra Swami (Tiruka)", "born": 1890, "died": 1996, "part": 5, "tier": "node", "kind": "person", "note": "Yoga teacher; Anatha Sevashrama Trust, Malladihalli, Chitradurga district, Karnataka; wrote on Suryanamaskara; taught hatha yoga to the boy Jaggi Vasudev"},
-    {"id": "palani-swami", "name": "Palani Swami (guru of a previous life, by Sadhguru's account)", "part": 5, "tier": "node", "kind": "person", "note": "Named in Arundhathi Subramaniam's authorised biography as the guru of Sadhguru's earlier life as Shivayogi; no independent historical record"}
+    {"id": "palani-swami", "name": "Palani Swami (guru of a previous life, by Sadhguru's account)", "part": 5, "tier": "node", "kind": "person", "note": "Named, in accounts drawing on Arundhathi Subramaniam's authorised biography (name not seen in the book itself by the checker), as the guru of Sadhguru's earlier life as Shivayogi; no independent historical record"}
   ],
   "nodes_update": [
     {"id": "sadhguru", "name": "Sadhguru (Jaggi Vasudev)", "born": 1957, "note": "Born Jagadish Vasudev, Mysore, 3 September 1957. Chamundi Hill experience 23 September 1982 (his account); Isha Foundation 1992 (1993 in some accounts); Isha Yoga Center 1994; Dhyanalinga 1999; Inner Engineering and Shambhavi Mahamudra Kriya; Adiyogi bust 2017"}
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "malladihalli-raghavendra", "to": "sadhguru", "type": "influenced", "evidence": "testimony", "verified": true, "year": 1970, "note": "Taught him hatha yoga when he was 12 or 13 (c. 1969-70) and the Swami about 81; source is Sadhguru's own account via Subramaniam's authorised biography"},
-    {"from": "palani-swami", "to": "sadhguru", "type": "claimed", "evidence": "hagiographic", "verified": true, "note": "Past-life guru who, by Sadhguru's account, touched Shivayogi with his stick and transmitted the knowledge to consecrate the Dhyanalinga"},
+    {"from": "malladihalli-raghavendra", "to": "sadhguru", "type": "influenced", "evidence": "testimony", "verified": true, "year": 1970, "note": "Taught him hatha yoga when he was 12 or 13 (c. 1969-70) and the Swami about 80 (81 in the biography as summarised; his 1890 birth gives 79-80); source is Sadhguru's own account via Subramaniam's authorised biography"},
+    {"from": "palani-swami", "to": "sadhguru", "type": "claimed", "evidence": "hagiographic", "verified": false, "note": "Past-life guru who, by Sadhguru's account, touched Shivayogi with his stick and transmitted the knowledge to consecrate the Dhyanalinga"},
     {"from": "yoga-nath", "to": "sadhguru", "type": "influenced", "evidence": "documented", "verified": true, "note": "Isha teaches hatha yoga postures, pranayama and kriyas; Shiva presented as Adiyogi, the first yogi"}
   ],
   "places": [
@@ -38,7 +38,8 @@
     "sadhguru.mdx: Isha's official YouTube channel URL not seen in search results; marked [to locate].",
     "sadhguru.mdx: deliberately omitted: specific 2025 allegations of sexual misconduct circulated online and in a YouTube video against the ashram/Sadhguru, which Isha calls fabricated and defamatory; only the Delhi High Court's interim takedown order (March 2025) is reported. Also omitted the reported June 2025 police closure report on school-abuse allegations (seen only in a National Herald summary of media reports) and political statements (e.g. CAA). Author's decision whether to add with stronger sources.",
     "sadhguru.mdx: Rally for Rivers launch date 3 September 2017 and Save Soil details (London start, ~100 days, UNCCD May 2022) rest on Wikipedia summaries; Deccan Herald page could not be fetched.",
-    "sadhguru.mdx: Adiyogi coordinates approximate; place marked verified false."
+    "sadhguru.mdx: Adiyogi coordinates approximate; place marked verified false.",
+    "Checker recommendation on omitted 2025 material: (1) do NOT add the unverified online/YouTube sexual-misconduct allegations; the Delhi HC called the material unverified and they are subject to a defamation suit. (2) Consider adding, in one sentence, the POCSO FIR registered 31 Jan 2025 by Perur All Women Police against a former student and four Isha Home School staff over alleged abuse of a pupil in 2017-19, with Isha's denial ('false, malicious, and defamatory'; a 2019 bullying case dealt with) - reported by Deccan Herald and South First, 22 Apr 2025; state it as an FIR, no charge sheet. (3) Add the reported June 2025 police closure report only if a primary report (court record or a major paper) is found; National Herald's summary of 'media reports' is not enough for a living person."
   ],
   "sources": {
     "sadhguru": [
@@ -73,6 +74,41 @@
       "Eclipse: 'What was nourishing food turns into poison'; critique by Prayas Sutar 3 Feb 2018 -> https://www.newslaundry.com/2018/02/03/lunar-eclipse-super-blue-blood-moon-superstition-sadhguru-jaggi-vasudev",
       "Mercury tweet 8 Feb 2018 'Responsible usage of mercury for medicinal and yogic purposes must be allowed'; solidify mercury claim; Sumaiya Shaikh, Alt News 26 Feb 2018 -> https://www.altnews.in/scientific-research-ascertains-mercury-toxicity-sadhguru-continues-endorse-indian-traditional-medicines/",
       "Upadhyay et al. 2022 Frontiers in Psychology, prospective cohort, no control group, SMK 21 minutes, online IE Completion -> https://www.frontiersin.org/articles/10.3389/fpsyg.2022.814224/text"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 64,
+    "changes": [
+      "sadhguru.mdx: 1997 complaint: removed 'No charge against him has been reported' (a case was registered; NIE headline of 10 Oct 1997, cited by Wikipedia, called it a murder charge); now gives both endings: dismissed by Coimbatore police (The Week 2019) vs investigation found nothing and case 'thrown out of court in 1999' (Isha, 10 Aug 2023); Isha 2019 quote kept verbatim, its 'dismissed by courts' wording restored (The Week).",
+      "sadhguru.mdx: 2016 habeas corpus: filed by the mother per the SC order (3 Oct 2024, 'about eight years ago'), by the father per LiveLaw; HC dismissed for no material showing illegal detention (BOOM); both press readings of the district judge's report now attributed (BOOM, LiveLaw).",
+      "sadhguru.mdx: HC 30 Sep 2024: it asked for details of criminal cases and directed Coimbatore rural police to inquire and report (LiveLaw, SCC Online, Bar and Bench), not simply 'directed the police to gather details'.",
+      "sadhguru.mdx: SC 18 Oct 2024: 'will not come in the way of' is not in the written order (order says it 'will not affect any other regulatory compliances'); now attributed to Bar and Bench via South First and paraphrased; 'malign' and ICC remarks marked as oral (South First).",
+      "sadhguru.mdx: status report: corrected to fifteen-year scope, six missing-person cases, five closed, ICC not functioning (LiveLaw 18 Oct 2024); BOOM figures dated to early 2024 and June 2024 HC closure.",
+      "sadhguru.mdx: doctor POCSO case: status updated to 'investigation continuing' per Oct 2024 status report; no later outcome found (TNM 7 Sep 2024; LiveLaw).",
+      "sadhguru.mdx: Delhi HC: 'pending trial' changed to interim order while the suit is heard; added video date 24 Feb 2025, no-republication restraint, and that allegations are untested (Newslaundry 12 Mar 2025).",
+      "sadhguru.mdx: CAG: report was tabled in the TN Assembly in July 2018 (TNM 11 Jul 2018), not issued in 2017; approval 'pending (July 2017)' kept; noted conflict with Isha's March 2017 HACA approval claim.",
+      "sadhguru.mdx: Malladihalli: teaching now explicitly attributed to his own account; age 'about eighty-one' -> 'about eighty'; 'one documented yoga teacher' -> 'names one yoga teacher'.",
+      "sadhguru.mdx: Palani Swami name hedged ('accounts drawing on Subramaniam's biography'); Isha's Shivayogi page gives no name.",
+      "sadhguru.mdx: removed unverified archive.org book URL (replaced by Penguin Random House page); filled YouTube channel [to locate] with youtube.com/@sadhguru (Social Blade/vidIQ listings).",
+      "sadhguru.mdx: 'many are small' cut from studies sentence (unsourced gloss).",
+      "sadhguru.mdx: added references 28-31 (Isha on Vijji, LiveLaw status report, Bar and Bench, TNM on CAG).",
+      "w15.json: palani-swami edge verified -> false; Malladihalli age note corrected."
+    ],
+    "verified_ok": [
+      "Pollution board: notice 19 Nov 2021, HC quashed Dec 2022 (educational-institution exemption, 2014 rules), SC 28 Feb 2025 Surya Kant and N. Kotiswar Singh JJ, 'we become suspicious', no coercive steps, not a precedent, future expansion needs permission, Isha undertook to comply; Nov 2012 inspection 60 + 34 buildings (Scroll).",
+      "Karnataka HC 7 Sep 2021: Sharma ACJ and Magadum J; 'Planting trees on a barren land is not a crime'; Amarnathan removed, suo motu; Jan 2020 Oka CJ bench; Holla on annual accounts; CEJI Sept 2019 (Scroll).",
+      "SC 3 Oct 2024 stay/transfer and 18 Oct closure, bench Chandrachud CJI, Pardiwala, Misra JJ; women 'residing at the Ashram voluntarily and without any coercion' (SC order; SCC Online).",
+      "Women's names and ages 42/39, bench Subramaniam and Sivagnanam JJ, oral remark on daughter's marriage (LiveLaw).",
+      "Vijji death January 1997: Isha gives a full-moon day near Thaipusam 1997, consistent with 23 January 1997 (full moon); marriage 1984, Radhe 1990 (Isha).",
+      "Eclipse quote (Newslaundry, Isha blog), mercury tweet 8 Feb 2018 and 'solidify and liquefy it at room temperature' (Alt News), Shambhavi quotes incl. '6.4 years younger', 'you lock it', receptivity, ninety days (Isha).",
+      "Eclipse video URL exists (search index). Rally for Rivers began 3 Sep 2017 (Isha live coverage, Day 1)."
+    ],
+    "unresolved": [
+      "No primary record (NIE archive, police final report or court order) found for the 1997 case outcome; police vs court dismissal remains a source conflict.",
+      "Palani Swami name not confirmed in Subramaniam's text; Malladihalli dates (1890-1996) and the age at the meeting rest on Wikipedia citing the biography.",
+      "SC order 18 Oct 2024 PDF could be read only through a summariser; the 'will not come in the way' phrase may be oral dictation not in the signed order.",
+      "Nakkheeran suit (Rs 3 crore, Newslaundry Dec 2024) not re-fetched by the checker (fetch quota); several Isha URLs and Onmanorama/Sounds True cards not re-fetched.",
+      "Doctor POCSO case: no report of charge sheet, trial or closure after Oct 2024 found."
     ]
   }
 }
