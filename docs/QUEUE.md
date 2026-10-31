@@ -48,7 +48,7 @@ Status: todo / running / written / checked / merged.
 | o17 | sri-m | technique | merged |
 | o19 | shri-mataji, pr-sarkar | shakti | merged |
 | o22 | premanand-maharaj | grace | merged |
-| o25 | periyar (s) | across-the-line, against-authority | running |
+| o25 | periyar (s) | across-the-line, against-authority | merged |
 | o27 | ram-singh-namdhari | sound-and-light | running |
 | o29 | dharmapala | conduct | running |
 
