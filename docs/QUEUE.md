@@ -46,7 +46,7 @@ Status: todo / running / written / checked / merged.
 | w35 | kalki-bhagavan, nithyananda, dhirendra-shastri | | checking |
 | o16 | satyananda, swami-rama, pattabhi-jois | | checking |
 | o17 | sri-m | technique | merged |
-| o19 | shri-mataji, pr-sarkar | shakti | running |
+| o19 | shri-mataji, pr-sarkar | shakti | checking |
 | o22 | premanand-maharaj | grace | running |
 | o25 | periyar (s) | across-the-line, against-authority | todo |
 | o27 | ram-singh-namdhari | sound-and-light | todo |

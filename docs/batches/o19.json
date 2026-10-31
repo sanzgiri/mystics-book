@@ -1,0 +1,260 @@
+{
+ "batch": "o19",
+ "nodes_add": [
+  {
+   "id": "kalikananda",
+   "name": "Kalikananda (Kalicharan Bandyopadhyay)",
+   "part": 6,
+   "tier": "node",
+   "kind": "person",
+   "note": "By Sarkar's own account a Calcutta bandit he won over near Kashi Mitra Ghat in 1939; counted as Ananda Marga's first disciple."
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "shri-mataji",
+   "name": "Shri Mataji Nirmala Devi",
+   "born": 1923,
+   "died": 2011,
+   "note": "Nirmala Srivastava (nee Salve), founder of Sahaja Yoga (1970); free mass kundalini awakening; worshipped by followers as the Adi Shakti."
+  },
+  {
+   "id": "pr-sarkar",
+   "name": "P.R. Sarkar (Anandamurti)",
+   "born": 1921,
+   "died": 1990,
+   "note": "Founder of Ananda Marga (January 1955, Jamalpur); tantra as universal science; PROUT (1959) and neohumanism (1982). Convicted 29 Nov 1976 by Additional Sessions Judge, Patna; acquitted by Patna High Court 4 July 1978."
+  }
+ ],
+ "edges_remove": [],
+ "edges_upsert": [
+  {
+   "from": "tantra-shakta",
+   "to": "pr-sarkar",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Sarkar taught tantric meditation and called tantra a universal spiritual science."
+  },
+  {
+   "from": "pr-sarkar",
+   "to": "kalikananda",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1939,
+   "note": "Sarkar's own essay 'Shravani Purnima' (A Few Problems Solved, Part 5, 1980)."
+  },
+  {
+   "from": "tantra-shakta",
+   "to": "shri-mataji",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Kundalini, nadis and chakras of the tantric subtle body; identification with the Adi Shakti of Shakta theology."
+  },
+  {
+   "from": "christianity",
+   "to": "shri-mataji",
+   "type": "family",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Born to Marathi Christian parents (per N.K.P. Salve entry; Wikipedia on her gives father Hindu, mother Christian). Followers identify her with the Holy Spirit."
+  },
+  {
+   "from": "gandhi",
+   "to": "shri-mataji",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Movement biographies say she spent school holidays at Gandhi's ashram; she joined Quit India in 1942."
+  }
+ ],
+ "places": [
+  {
+   "name": "Chhindwara",
+   "lat": 22.057,
+   "lon": 78.939,
+   "figure": "shri-mataji",
+   "what": "Birthplace (1923)",
+   "verified": true
+  },
+  {
+   "name": "Nargol",
+   "lat": 20.233,
+   "lon": 72.75,
+   "figure": "shri-mataji",
+   "what": "Shore where, by the movement's account, she opened the sahasrara on 5 May 1970",
+   "verified": false
+  },
+  {
+   "name": "Genoa",
+   "lat": 44.405,
+   "lon": 8.946,
+   "figure": "shri-mataji",
+   "what": "Place of death (2011)",
+   "verified": true
+  },
+  {
+   "name": "Jamalpur",
+   "lat": 25.311,
+   "lon": 86.489,
+   "figure": "pr-sarkar",
+   "what": "Birthplace (1921); railway job; founding of Ananda Marga (January 1955)",
+   "verified": true
+  },
+  {
+   "name": "Kashi Mitra Ghat, Calcutta",
+   "lat": 22.598,
+   "lon": 88.36,
+   "figure": "pr-sarkar",
+   "what": "Kalikananda encounter (1939), by Sarkar's account",
+   "verified": false
+  },
+  {
+   "name": "Patna",
+   "lat": 25.594,
+   "lon": 85.137,
+   "figure": "pr-sarkar",
+   "what": "Bankipur Central Jail (1971-1978); sessions conviction 1976; High Court acquittal 1978",
+   "verified": true
+  },
+  {
+   "name": "Ananda Nagar, Purulia district",
+   "lat": 23.18,
+   "lon": 86.07,
+   "figure": "pr-sarkar",
+   "what": "Movement centre from about 1962",
+   "verified": false
+  },
+  {
+   "name": "Bijon Setu, Kolkata",
+   "lat": 22.517,
+   "lon": 88.375,
+   "figure": "pr-sarkar",
+   "what": "Mob killing of 17 Ananda Marga monks and a nun, 30 April 1982",
+   "verified": false
+  },
+  {
+   "name": "Kolkata",
+   "lat": 22.572,
+   "lon": 88.364,
+   "figure": "pr-sarkar",
+   "what": "Place of death (1990)",
+   "verified": true
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Sahaja",
+   "script": "सहज",
+   "lang": "hi",
+   "def": "Born with, spontaneous; in Sahaja Yoga, the claim that awakening is innate and happens of itself."
+  },
+  {
+   "term": "Sahasrara",
+   "script": "सहस्रार",
+   "lang": "sa",
+   "def": "The thousand-petalled chakra at the crown of the head, the last station of kundalini in tantric yoga."
+  },
+  {
+   "term": "Chaitanya",
+   "script": "चैतन्य",
+   "lang": "sa",
+   "def": "Consciousness; in Sahaja Yoga, the divine vibrations felt as a cool breeze on the hands or head."
+  },
+  {
+   "term": "Adi Shakti",
+   "script": "आदिशक्ति",
+   "lang": "sa",
+   "def": "The primordial power, the Goddess as the source of all creation in Shakta theology."
+  },
+  {
+   "term": "Nirvichara",
+   "script": "निर्विचार",
+   "lang": "sa",
+   "def": "Without thought; in Sahaja Yoga, the thoughtless awareness aimed at in meditation."
+  },
+  {
+   "term": "Ananda Marga",
+   "script": "आनन्द मार्ग",
+   "lang": "sa",
+   "def": "The path of bliss; the movement founded by P.R. Sarkar in 1955."
+  },
+  {
+   "term": "Dharmacakra",
+   "script": "धर्मचक्र",
+   "lang": "sa",
+   "def": "In Ananda Marga, the weekly collective meditation of members."
+  },
+  {
+   "term": "Baba Nam Kevalam",
+   "script": "বাবা নাম কেবলম্",
+   "lang": "bn",
+   "def": "Only His name; the mantra chanted in Ananda Marga kirtan."
+  },
+  {
+   "term": "Prabhat Samgiita",
+   "script": "প্রভাত সঙ্গীত",
+   "lang": "bn",
+   "def": "Songs of the new dawn; the 5,018 songs Sarkar composed between 1982 and 1990."
+  },
+  {
+   "term": "PROUT",
+   "script": "",
+   "lang": "en",
+   "def": "Progressive Utilization Theory; Sarkar's 1959 economic and social theory of cooperatives, decentralisation and limits on private wealth."
+  }
+ ],
+ "art": [],
+ "issues": [
+  "Unit notes say Sarkar's conviction was 1976; the brief said 1975. The Lok Sabha written answer of 13 July 1977 gives 29 November 1976 (Additional Sessions Judge, Patna). Profile uses 1976. Outlook (Dola Mitra, 2017) says he 'was not convicted', which contradicts the Lok Sabha record and Ananda Marga's own account of a sessions conviction; not followed.",
+  "pr-sarkar.mdx: arrest date given as December 1971 (wrldrels; Sarkarverse draft timeline gives 29 December 1971); skeptics.nz says charged 1 June 1971. Hedged in text.",
+  "pr-sarkar.mdx: number of victims alleged varies (six per Outlook; five per Oregon Daily Emerald 1978; eighteen alleged per skeptics.nz). Profile says 'former members' without a number.",
+  "pr-sarkar.mdx: the 1975 ban date is July 1975 (Gochal, NYRB 1976; skeptics.nz 4 July); Sarkarverse draft says 26 June. Text says July 1975.",
+  "pr-sarkar.mdx: railway job start 1941 (wrldrels) vs 1944 (Sarkarverse); founding day 1 January (wrldrels) vs 5/9 January 1955 (Sarkarverse draft). Text says January 1955.",
+  "pr-sarkar.mdx: brief mentioned '1982 Calcutta Ananda Nagar violence'. Profile covers the 30 April 1982 Bijon Setu killings; earlier clashes at Ananda Nagar (1967, per wrldrels timeline) not verified and omitted. Sydney Hilton bombing (1978) and Purulia arms drop (1995) omitted as not about Sarkar; author may want one line.",
+  "pr-sarkar.mdx: PROUT details from Wikipedia only; ceiling quotation not used. Microvita date 1986 from Sarkarverse.",
+  "shri-mataji.mdx: family religion conflicts (N.K.P. Salve entry: Marathi Christian parents; her own Wikipedia entry: Hindu father, Christian mother). Both given.",
+  "shri-mataji.mdx: Nargol location of 5 May 1970 rests on a devotional site (adishakti.org) and a yolasite page mentioning Bordi; official sahajayoga.org could not be fetched (not on allowlist). The quotation 'I saw the Primordial Kundalini rising like a big furnace' was seen verbatim on adishakti.org, a devotee site independent of the official organisation; author may prefer a primary transcript.",
+  "shri-mataji.mdx: no Sahaja Yoga court case in Australia found. Belgian IACSSO litigation (2005 advisory, 2011 appeal reversal) rests on Wikipedia's summary; the IACSSO page and Belgian rulings could not be fetched. Needs checking against a Belgian source.",
+  "shri-mataji.mdx: The Independent (2001) and Guardian (1995) reports cited via Wikipedia; the Independent page was not fetchable. Coney (1999) publisher given as Curzon from memory; verify. 'Meta Modern Era' year not verified, left undated.",
+  "shri-mataji.mdx: The Adi Shakti 'Declaration' date (often given as 2 December 1979) appears only on devotee sites and was left out.",
+  "Country counts conflict: 120 (trust, 2011, Hinduism Today), over 140 (foundation; Indian Express 2011 per Wikipedia), 100+ (Khaleej Times), 69 in the 2021 directory per Wikipedia. Age at death 87 (Wikipedia, Khaleej Times) vs 88 (Hinduism Today). Both noted in text.",
+  "Places marked verified:false (Nargol, Kashi Mitra Ghat, Ananda Nagar, Bijon Setu) need coordinate checks.",
+  "No media cards or photos added (profiles do not require them).",
+  "pr-sarkar.mdx: the life sentences in the L.N. Mishra case (18 December 2014) rest on a search-result headline (madhyamam); the article page redirected and was not read. The 7 December 2014 conviction is from a fetched Peninsula report."
+ ],
+ "sources": {
+  "shri-mataji": [
+   "Born 21 March 1923, Chhindwara; Quit India jail 1942; CMC Ludhiana and Balakram Medical College Lahore; married C.P. Srivastava 1947; his IMO post 1974-1989 and honorary KCMG; father translated Quran into Marathi; mother honours in mathematics (reportedly); died 23 Feb 2011 Genoa aged 87; 1986 Italian personality of the year; honorary Italian citizenship 2006; UN events 1990-94; 2004 site said work complete; claimed incarnation of Adi Shakti/Holy Spirit -> https://en.wikipedia.org/wiki/Nirmala_Srivastava",
+   "Parents Prasadrao Keshavrao Salve and Cornelia Karuna Jadhav, 'Marathi Christians'; brother N.K.P. Salve Congress MP, minister, BCCI president -> https://en.wikipedia.org/wiki/N._K._P._Salve",
+   "Founded 5 May 1970; spread to London, Europe, North America by mid-1980s; nadis and chakras; thoughtless awareness; free of charge; fees for international pujas; Abgrall 2000; Coney 1999 ex-member complaints, women's roles; 1999 Austrian publication; Independent 2001 and UK co-ordinator's reply; Guardian on donations; IACSSO 2005 advisory and 2011 appeal; Dharamsala school 1990; 140 countries -> https://en.wikipedia.org/wiki/Sahaja_Yoga",
+   "Nargol and quotation 'I saw the Primordial Kundalini rising like a big furnace' -> https://adishakti.org/AI/Shri-Mataji/Shri-Mataji_You-have-to-enter-the-Kingdom-of-God-here.htm",
+   "Christian family; school holidays at Gandhi's ashram; 5 May 1970 sahasrara at daybreak after Bordi -> https://sahajayoga.yolasite.com/shri-mataji.php",
+   "Father freedom fighter and Congress; married 1947; two daughters; began teaching 5 May 1970; never took money; died 23 Feb 2011 Genoa aged 87 -> https://khaleejtimes.com/uae/remembering-an-extraordinary-mother?amp=1",
+   "Death reported by the trust; age 88; 120 countries; en-masse self-realisation; Vishwa Nirmala Dharma -> https://www.hinduismtoday.com/hpi/?p=9927",
+   "Cool breeze above the head as sign of self-realisation -> https://statenews.com/article/2017/01/graduate-student-teaches-sahaja-yoga"
+  ],
+  "pr-sarkar": [
+   "Born 21 May 1921, Jamalpur; parents Lakshmi Narayan Sarkar (homoeopath) and Abharani Devi; Vidyasagar College 1939; railway accountant 1944 to early 1950s; PROUT 1959; neohumanism 1982; microvita 1986; died 21 October 1990 Kolkata; poisoned Feb 1973, fast from 1 April 1973; released 2 August 1978 -> https://sarkarverse.org/wiki/Baba",
+   "Kalikananda encounter, Shravani Purnima 1939, near Kashi Mitra Ghat, source Sarkar's essay in A Few Problems Solved Part 5 (1980) -> https://www.sarkarverse.org/wiki/Kalikananda",
+   "Founded January 1955 Jamalpur; railway job 1941; arrested December 1971 on murder charge; 'found guilty and sentenced to life in prison'; died 21 Oct 1990 -> https://wrldrels.org/?p=3140",
+   "Timeline: 5/9 Jan 1955 founding; 29 Dec 1971 arrest; 12 Feb 1973 poisoning in Bankipur Central Jail; fast from 1 April 1973; 4 July 1978 acquittal on appeal; 2 Aug 1978 release; 1990 election of Shraddhananda Avadhuta as Purodha Pramukha; first acaryas abroad 1967 -> https://www.sarkarverse.org/wiki/Sarkarverse:Draft:Ananda_Marga_Pracaraka_Samgha_major_events_timeline",
+   "Conviction 29-11-1976 by Additional Sessions Judge, Patna, life imprisonment under IPC 120B/302, 109, 201/109; appeal filed 25 Jan 1977 -> https://eparlib.sansad.in/bitstream/123456789/919338/1/06_II_13-07-1977_p25_p28_s453.pdf",
+   "Acquittal 4 July 1978 by Patna High Court with four followers; approver 'a totally unreliable witness'; release 2 August 1978; charges called concocted; 'Victory of Dharma'; poisoning 12 Feb 1973 -> https://india.anandamarga.org/articles/victory-of-dharma-honouring-48-years-since-babas-release-2nd-august-1978/",
+   "Banned 'in July of 1975'; trial under way in 1976 -> https://www.nybooks.com/articles/1976/10/14/ananda-marga-replies/",
+   "Charged 1 June 1971 (alternative date); Emergency ban 4 July 1975 -> https://articles.skeptics.nz/2023/01/16/nanda-mrga-the-sect-new-zealand-forgot",
+   "Acquitted 4 July by Bihar court, July 1978 -> https://oregonnews.uoregon.edu/lccn/2004260239/1978-07-20/ed-1/seq-8/",
+   "Motto Atmamoksartham Jagaddhitaya ca; tantra as spiritual science; non-dualism; yama and niyama; Ananda Sutram 1961; Baba Nam Kevalam; dharmacakra; Sixteen Points; Anandamurti sole guru, no successor -> https://sarkarverse.org/wiki/Margi",
+   "5,018 Prabhat Samgiita songs Sept 1982 to Oct 1990; founded 1955 as railway official; released 1978 -> https://www.anandamarga.org/?p=139",
+   "PROUT 1959, three-tier economy, samaja, no accumulation without society's permission -> https://en.wikipedia.org/wiki/Progressive_utilization_theory",
+   "Bijon Setu 30 April 1982, 16 sadhus and 1 sadhvi, three locations, Deb Commission 4 May 1982, Lala Commission 2012, no convictions, AM blamed CPI(M), CM suggested staging -> https://en.wikipedia.org/wiki/Bijon_Setu_massacre",
+   "L.N. Mishra murder: four Ananda Marg followers convicted by New Delhi District Judge Vinod Goel, 7 Dec 2014; claimed innocence -> https://thepeninsulaqatar.com/article/08/12/2014/four-convicted-for-75-l-n-mishra-murder",
+   "Life sentences 18 Dec 2014 (headline) -> https://english.madhyamam.com/national/2014/dec/18/four-get-life-term-1975-ln-mishra-murder-case"
+  ],
+  "shakti-part": [
+   "Muktananda initiation 15 August 1947 by Bhagavan Nityananda; Lakshmanjoo nine grades of shaktipata; Gopi Krishna Part 4; Bamakhepa Tarapith -> existing entries src/content/figures/muktananda.mdx, lakshmanjoo.mdx, gopi-krishna.mdx, bamakhepa.mdx"
+  ]
+ }
+}
