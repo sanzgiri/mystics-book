@@ -47,7 +47,7 @@ Status: todo / running / written / checked / merged.
 | o16 | satyananda, swami-rama, pattabhi-jois | | merged |
 | o17 | sri-m | technique | merged |
 | o19 | shri-mataji, pr-sarkar | shakti | merged |
-| o22 | premanand-maharaj | grace | checking |
+| o22 | premanand-maharaj | grace | merged |
 | o25 | periyar (s) | across-the-line, against-authority | running |
 | o27 | ram-singh-namdhari | sound-and-light | running |
 | o29 | dharmapala | conduct | running |

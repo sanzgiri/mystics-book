@@ -15,7 +15,7 @@
       "part": 7,
       "tier": "node",
       "kind": "person",
-      "note": "18th Tilakayat Adhikari (head) of the Radhavallabh Sampradaya, Radhavallabh temple, Vrindavan, per the temple site; eldest son of the 17th, Hit Radhesh Lal Goswami. By Premanand's ashram's account he gave Premanand the sect's sharanagat mantra and sent him to Gaurangi Sharan. Birth year not given."
+      "note": "Present (18th) Tilakayat Adhikari, hereditary head of the Radhavallabh Sampradaya at the Radhavallabh temple, Vrindavan, per the temple site; son of the 17th, Hit Radhesh Lal Goswami. By Premanand's ashram's account he gave Premanand the sect's sharanagat mantra; Premanand later met Gaurangi Sharan. Birth year not given."
     }
   ],
   "nodes_update": [
@@ -23,7 +23,7 @@
       "id": "premanand-maharaj",
       "name": "Premanand Maharaj",
       "born": 1971,
-      "note": "Shri Hit Premanand Govind Sharan Ji Maharaj; born Aniruddh Kumar Pandey, Akhri village, Sarsaul block, Kanpur district, UP. Birth year 1969 (NavbharatLive), 30 Mar 1971 (Wikipedia) or 1972 (Pioneer); 1971 used for the node, flag as uncertain. Left home at 13; naishthik brahmachari (Anandswaroop Brahmachari), sannyasa as Swami Anandashram; Varanasi ghats; Vrindavan (about two decades before 2025 per ThePrint); Shri Hit Radha Keli Kunj, Varaha Ghat. Living."
+      "note": "Shri Hit Premanand Govind Sharan Ji Maharaj; born Aniruddh Kumar Pandey, Akhri village, Sarsaul block, Kanpur district, UP. Birth year 1969 (NavbharatLive), 30 Mar 1971 (Wikipedia, citing ABP Live 2023) or 1972 (Pioneer column, citing a book by Anand Mishra and Resham Mukherjee); 1971 used for the node, flag as uncertain. Left home at 13; naishthik brahmachari (Anandswaroop Brahmachari), sannyasa as Swami Anandashram; Varanasi ghats; Vrindavan (about two decades before 2025 per ThePrint); Shri Hit Radha Keli Kunj, Varaha Ghat. Living."
     }
   ],
   "edges_remove": [],
@@ -50,7 +50,7 @@
       "type": "initiated",
       "evidence": "testimony",
       "verified": true,
-      "note": "Ashram biography: gave him the sharanagat mantra at the Radhavallabh temple before sending him to Gaurangi Sharan. Date unknown."
+      "note": "Ashram biography: Premanand asked him for diksha at the Radhavallabh temple and received the sharanagat mantra; he later met Gaurangi Sharan. Date unknown."
     },
     {
       "from": "radhavallabh",
@@ -81,7 +81,7 @@
     {
       "name": "Radhavallabh temple, Vrindavan",
       "lat": 27.58,
-      "lon": 77.70,
+      "lon": 77.7,
       "figure": "premanand-maharaj",
       "what": "Where, by the ashram's account, he was drawn into the Radhavallabh Sampradaya and received its initiation mantra. Town-level coordinates.",
       "verified": false
@@ -157,7 +157,9 @@
     "premanand-maharaj.mdx: no photo added. Media cards not used (profile template); the Bhajan Marg YouTube channel URL is from the ashram site.",
     "Hit Harivansh dates: Wikipedia 1502-1552 with founding 1535; Jagadananda Das (BSOAS 1992) 1502-1553. Profile gives founding as 'usually dated 1535'.",
     "grace.mdx: names only Part 7 figures with pages (Anandamayi Ma, Prabhupada, Bhaktivinoda, Bhaktisiddhanta, Amma, Shastriji Maharaj, Papa Ramdas, Neem Karoli Baba, Premanand Maharaj). Ramakrishna, Sarada Devi, Vallalar, Ayya Vaikundar and Shirdi Sai Baba sit in other parts in graph.json and are not named. Mother Meera and Gaur Gopal Das are Part 7 tree nodes without pages and are not named.",
-    "Places: Vrindavan coordinates are town-level only (verified: false); exact coordinates for Radha Keli Kunj and the Radhavallabh temple need checking. Akhri village not mapped."
+    "Places: Vrindavan coordinates are town-level only (verified: false); exact coordinates for Radha Keli Kunj and the Radhavallabh temple need checking. Akhri village not mapped.",
+    "factcheck o22: no Hindustan Times, Indian Express, The Hindu or TOI report of the July 2025 remarks or of Rambhadracharya's August 2025 remark could be found by search; Wikipedia cites NDTV (28 and 30 July 2025) for the remarks, not fetched. Text now attributes each detail to the outlet that reported it (Dynamite News, Madhyamam/FPJ, Amar Ujala, IANS, Navbharat Live). Author may wish to add a national-paper citation before publication.",
+    "factcheck o22: kidney illness kept in two sentences: documented by The Week (14 Oct 2025; polycystic kidney disease, daily dialysis, declines donors so as not to cause them pain), New Indian Express (Aug 2025, donor offer) and Wikipedia citing India Today; relevant to the suspended walk. Author may still cut under the living-person rule."
   ],
   "sources": {
     "premanand-maharaj": [
@@ -184,6 +186,32 @@
     ],
     "grace": [
       "All figure facts in the Part 7 introduction are taken from the existing pages: anandamayi-ma.mdx (self-initiation 1922, sixty years, remember God), prabhupada.mdx (1965 voyage at 69, sixteen rounds, four rules), bhaktivinoda.mdx, bhaktisiddhanta.mdx, amma.mdx (fisherman's daughter, embrace as darshan, service), shastriji-pramukh.mdx (BAPS 1907, Akshar present on earth), papa-ramdas.mdx (left home 1922, father's mantra, no human guru), neem-karoli-baba.mdx (wrote nothing, no recorded discourses, feeding, Ram Dass), premanand-maharaj.mdx."
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 58,
+    "changes": [
+      "premanand-maharaj.mdx: Mohit Maral Goswami no longer said to have 'introduced' him to Gaurangi Sharan; ashram says he asked the Goswami for diksha, received the sharanagat mantra, and 'later met' Gaurangi Sharan (radhakelikunj.com/?p=269).",
+      "premanand-maharaj.mdx: Ekantik Vartalap 'answers each in a few minutes' replaced by ThePrint's 12-15 minute session length (ThePrint 18 Aug 2025).",
+      "premanand-maharaj.mdx: 'visited him on camera' cut; ThePrint only names them as visitors.",
+      "premanand-maharaj.mdx: night walk rewritten with sources: halted July 2024 after Hathras (Amar Ujala), resumed at changed hour (Zee), postponed until further notice per ashram Oct 2025 (The Week 14 Oct 2025).",
+      "premanand-maharaj.mdx: kidney sentence now says both kidneys failed, dialysis, declined donors because he did not want to cause donors pain (The Week, 14 Oct 2025); 'saying he lives by Radha's will' reason replaced, as that line comes from an opinion column.",
+      "premanand-maharaj.mdx: 'lives by Radha's will' attributed to a Pioneer column (13 Sep 2026).",
+      "premanand-maharaj.mdx: 'prescribes no paid rituals' (unsourced) replaced by ThePrint's 'doesn't sell miracles'.",
+      "premanand-maharaj.mdx: Krishna as Radha's 'most intimate servant' and Braj Bhasha 'mainly' (Hit Chaurasi is Braj; Radha Rasa Sudha Nidhi is Sanskrit) (Wikipedia, Radha Vallabha Sampradaya).",
+      "premanand-maharaj.mdx: July 2025 remarks rewritten with exact attribution: 14-second clip, 'two to four in a hundred', question about marriage by own or parents' choice and out-of-context claim attributed to Dynamite News; criticism/support to Madhyamam citing FPJ; Sangharsh Nyas (Dinesh Sharma) apology demand and agitation threat to Amar Ujala 30 Jul 2025. 'some religious figures called the remarks regressive' cut (not in fetched sources).",
+      "premanand-maharaj.mdx: Ankita Lokhande item cut (sourced only from an Aaj Tak visual-story headline).",
+      "premanand-maharaj.mdx: Rambhadracharya paragraph: IANS quote verified verbatim; objections narrowed to Ayodhya saints and Ujjain Akhara Parishad president (IANS 24 Aug 2025); clarification attributed to Navbharat Live 25 Aug 2025 ('वे मेरे लिए पुत्र समान हैं').",
+      "premanand-maharaj.mdx: BSOAS article author corrected to J. K. Brzezinski (Jagadananda Das), title and pages 472-497 added (Cambridge Core DOI 10.1017/S0041977X00003669).",
+      "grace.mdx: Prabhupada 'sailed to America in 1965 at sixty-nine' -> 'reached America'; he was 68 when he sailed on 13 Aug and 69 on landing 17 Sep (prabhupada.mdx). All other Part 7 claims match the figure pages.",
+      "o22.json: Mohit Maral Goswami note and edge note corrected ('eldest son' and 'sent him to Gaurangi Sharan' not supported by temple or ashram pages); Premanand birth-year sources specified."
+    ],
+    "unresolved": [
+      "No national paper of record (HT, IE, The Hindu, TOI) found for the July 2025 remarks or the Rambhadracharya row; regional/wire sources used with attribution.",
+      "Birth year 1969/1971/1972 remains unresolved; no primary record.",
+      "Dates of the Vrindavan arrival and both initiations remain undocumented; whether Mohit Maral Goswami (head since recently) was already head when he gave the mantra is unclear.",
+      "Follower counts are ThePrint's August 2025 figures and should be refreshed at publication.",
+      "Place coordinates for Radha Keli Kunj and the Radhavallabh temple are town-level and unverified."
     ]
   }
 }

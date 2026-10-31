@@ -931,7 +931,7 @@
    "part": 7,
    "tier": "profile",
    "kind": "person",
-   "note": "Shri Hit Premanand Govind Sharan Ji Maharaj; born Aniruddh Kumar Pandey, Akhri village, Sarsaul block, Kanpur district, UP. Birth year 1969 (NavbharatLive), 30 Mar 1971 (Wikipedia) or 1972 (Pioneer); 1971 used for the node, flag as uncertain. Left home at 13; naishthik brahmachari (Anandswaroop Brahmachari), sannyasa as Swami Anandashram; Varanasi ghats; Vrindavan (about two decades before 2025 per ThePrint); Shri Hit Radha Keli Kunj, Varaha Ghat. Living.",
+   "note": "Shri Hit Premanand Govind Sharan Ji Maharaj; born Aniruddh Kumar Pandey, Akhri village, Sarsaul block, Kanpur district, UP. Birth year 1969 (NavbharatLive), 30 Mar 1971 (Wikipedia, citing ABP Live 2023) or 1972 (Pioneer column, citing a book by Anand Mishra and Resham Mukherjee); 1971 used for the node, flag as uncertain. Left home at 13; naishthik brahmachari (Anandswaroop Brahmachari), sannyasa as Swami Anandashram; Varanasi ghats; Vrindavan (about two decades before 2025 per ThePrint); Shri Hit Radha Keli Kunj, Varaha Ghat. Living.",
    "born": 1971
   },
   {
@@ -2816,7 +2816,7 @@
    "part": 7,
    "tier": "node",
    "kind": "person",
-   "note": "18th Tilakayat Adhikari (head) of the Radhavallabh Sampradaya, Radhavallabh temple, Vrindavan, per the temple site; eldest son of the 17th, Hit Radhesh Lal Goswami. By Premanand's ashram's account he gave Premanand the sect's sharanagat mantra and sent him to Gaurangi Sharan. Birth year not given."
+   "note": "Present (18th) Tilakayat Adhikari, hereditary head of the Radhavallabh Sampradaya at the Radhavallabh temple, Vrindavan, per the temple site; son of the 17th, Hit Radhesh Lal Goswami. By Premanand's ashram's account he gave Premanand the sect's sharanagat mantra; Premanand later met Gaurangi Sharan. Birth year not given."
   }
  ],
  "edges": [
@@ -6075,7 +6075,7 @@
    "type": "initiated",
    "evidence": "testimony",
    "verified": true,
-   "note": "Ashram biography: gave him the sharanagat mantra at the Radhavallabh temple before sending him to Gaurangi Sharan. Date unknown."
+   "note": "Ashram biography: Premanand asked him for diksha at the Radhavallabh temple and received the sharanagat mantra; he later met Gaurangi Sharan. Date unknown."
   },
   {
    "from": "radhavallabh",
