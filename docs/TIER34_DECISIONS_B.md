@@ -49,7 +49,9 @@ Sweep of 23 files (dhirendra-shastri to narayana-guru, 31 October 2026). Outcome
 
 ## j-krishnamurti
 - Art value; no claims ledger; "The practice" section: left for author.
-- Lutyens's words on Sloss, KFA 1995 statement, Star Publishing Trust and KWINC years, Arya Vihara wartime details: see note at the end (not touched in this pass beyond reading; flagged below).
+- Star Publishing Trust and KWINC years: closed. Text says "from the early 1930s" and "later".
+- Arya Vihara wartime details (farm surplus, "no challenge and no demand"): attributed. Now "is reported to have gone" and "is reported to have described".
+- Lutyens's criticism of the Sloss book (paraphrase from a secondary page) and the KFA 1995 statement known via Wikipedia: left for author to check against Lutyens 1996 and the KFA text; the text paraphrases and does not quote.
 
 ## jyotirao-phule
 - Birthplace Poona vs Katgun: closed. Both given in the infobox.
@@ -174,4 +176,4 @@ Sweep of 23 files (dhirendra-shastri to narayana-guru, 31 October 2026). Outcome
 
 ## Counts and left for author
 
-About 150 issues read. Closed (already resolved or covered): about 120. Verified: 2 (Vimeo item, Wallace reference). Attributed or hedged this pass: 6 (Iqbal lecture years, Kalki deeksha, Kirpal Singh quotation, KC Bhattacharya career, Muktananda New Yorker date, Lakshmanjoo Sanderson title). Cut: 1 (KC Bhattacharya 1921 passed-over claim). Minor: about 12. Left for author: media, art values, node splits, Digambar-side source for Kanji Swami, stronger sources for Inayat Khan's critics, J. Krishnamurti items below.
+About 150 issues read. Closed (already resolved or covered): about 120. Verified: 2 (Vimeo item, Wallace reference). Attributed or hedged this pass: 7 (Krishnamurti Arya Vihara, Iqbal lecture years, Kalki deeksha, Kirpal Singh quotation, KC Bhattacharya career, Muktananda New Yorker date, Lakshmanjoo Sanderson title). Cut: 1 (KC Bhattacharya 1921 passed-over claim). Minor: about 12. Left for author: media, art values, node splits, Digambar-side source for Kanji Swami, stronger sources for Inayat Khan's critics, J. Krishnamurti items below.
