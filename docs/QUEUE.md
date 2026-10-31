@@ -44,7 +44,7 @@ Status: todo / running / written / checked / merged.
 | w33 | sathya-sai-baba (c) | | merged |
 | w34 | dada-lekhraj, sri-chinmoy | new-revelations (incl. godman essay) | merged |
 | w35 | kalki-bhagavan, nithyananda, dhirendra-shastri | | checking |
-| o16 | satyananda, swami-rama, pattabhi-jois | | running |
+| o16 | satyananda, swami-rama, pattabhi-jois | | checking |
 | o17 | sri-m | technique | merged |
 | o19 | shri-mataji, pr-sarkar | shakti | running |
 | o22 | premanand-maharaj | grace | running |
