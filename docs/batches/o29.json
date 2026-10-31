@@ -1,36 +1,180 @@
 {
   "batch": "o29",
   "nodes_add": [
-    {"id": "henry-olcott", "name": "Henry Steel Olcott", "born": 1832, "died": 1907, "part": 11, "tier": "node", "kind": "person", "note": "American co-founder and president of the Theosophical Society; arrived in Ceylon with Blavatsky May 1880; Dharmapala heard his first lecture there and later served as his translator; director of the Maha Bodhi Society from 1891; left it in 1905. Not subcontinent-born; tree node only. Birth/death years from general knowledge, not re-checked this session."},
-    {"id": "hikkaduwe-sumangala", "name": "Hikkaduwe Sri Sumangala", "part": 11, "tier": "node", "kind": "person", "note": "Sri Lankan scholar-monk (Nayaka Maha Thera); first president of the Maha Bodhi Society, founded in Colombo May 1891 (Sangharakshita). Dates omitted, not verified this session."},
-    {"id": "maha-bodhi-society", "name": "Maha Bodhi Society", "part": 11, "tier": "node", "kind": "institution", "era": "founded 1891", "note": "Founded in Colombo by Dharmapala in May 1891 (31 May per Sangharakshita, 3 May per Banglapedia); office moved to Calcutta 1892; journal The Maha Bodhi from 1892; London branch c. 1926; Mulagandhakuti Vihara, Sarnath, opened 11 Nov 1931."}
+    {
+      "id": "henry-olcott",
+      "name": "Henry Steel Olcott",
+      "born": 1832,
+      "died": 1907,
+      "part": 11,
+      "tier": "node",
+      "kind": "person",
+      "note": "American co-founder and president of the Theosophical Society; arrived in Ceylon with Blavatsky May 1880; Dharmapala heard his first lecture there and later served as his translator; director of the Maha Bodhi Society from 1891; left it in 1905. Not subcontinent-born; tree node only. Dates 1832-1907 (born 2 Aug 1832, died 17 Feb 1907) confirmed by checker from standard references."
+    },
+    {
+      "id": "hikkaduwe-sumangala",
+      "name": "Hikkaduwe Sri Sumangala",
+      "part": 11,
+      "tier": "node",
+      "kind": "person",
+      "note": "Sri Lankan scholar-monk (Nayaka Maha Thera); first president of the Maha Bodhi Society, founded in Colombo May 1891 (Sangharakshita). Dates omitted, not verified this session."
+    },
+    {
+      "id": "maha-bodhi-society",
+      "name": "Maha Bodhi Society",
+      "part": 11,
+      "tier": "node",
+      "kind": "institution",
+      "era": "founded 1891",
+      "note": "Founded in Colombo by Dharmapala in May 1891 (31 May per Sangharakshita and Sunday Times 2021, 3 May per Banglapedia); office moved to Calcutta 1892; journal The Maha Bodhi from 1892; London branch c. 1926; Mulagandhakuti Vihara, Sarnath, opened 11 Nov 1931."
+    }
   ],
   "nodes_update": [
-    {"id": "dharmapala", "name": "Anagarika Dharmapala", "born": 1864, "died": 1933, "note": "Born Don David Hewavitarne, 17 Sep 1864, Pettah, Colombo; joined the Theosophical Society early 1884 (January per Sangharakshita, 3 Feb per Theosophy Wiki); Bodh Gaya 22 Jan 1891; founded Maha Bodhi Society May 1891; Chicago Parliament 1893; restricted in Calcutta 1915-1920; novice ordination 1931 at Sarnath as Sri Devamitta Dhammapala; upasampada January 1933; died Sarnath 29 Apr 1933."}
+    {
+      "id": "dharmapala",
+      "name": "Anagarika Dharmapala",
+      "born": 1864,
+      "died": 1933,
+      "note": "Born Don David Hewavitarne, 17 Sep 1864, Pettah, Colombo; joined the Theosophical Society early 1884 (January per Sangharakshita, 3 Feb per Theosophy Wiki); Bodh Gaya 22 Jan 1891; founded Maha Bodhi Society May 1891; Chicago Parliament 1893; restricted in Calcutta 1915-1920; novice ordination 1931 at Sarnath as Sri Devamitta Dhammapala; upasampada January 1933; died Sarnath 29 Apr 1933."
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "buddhist-tradition", "to": "dharmapala", "type": "lineage", "evidence": "documented", "verified": true, "note": "Born into a Buddhist family in Colombo; Theravada; novice 1931 and full ordination January 1933 at Sarnath."},
-    {"from": "theosophical-society", "to": "dharmapala", "type": "institutional", "evidence": "documented", "verified": true, "year": 1884, "note": "Member from early 1884; went to Adyar December 1884; left the Society 1905 after parting with Olcott."},
-    {"from": "henry-olcott", "to": "dharmapala", "type": "influenced", "evidence": "documented", "verified": true, "year": 1880, "note": "Heard Olcott in Colombo 1880; his translator on lecture tours from 1886; toured Japan with him 1889; Olcott director of the Maha Bodhi Society 1891; parted 1905 over priorities (Bodh Gaya vs general mission)."},
-    {"from": "hikkaduwe-sumangala", "to": "dharmapala", "type": "institutional", "evidence": "documented", "verified": true, "year": 1891, "note": "First president of the Maha Bodhi Society founded by Dharmapala in Colombo, May 1891."},
-    {"from": "dharmapala", "to": "maha-bodhi-society", "type": "institutional", "evidence": "documented", "verified": true, "year": 1891, "note": "Founder and secretary; moved its office to Calcutta 1892."},
-    {"from": "maha-bodhi-society", "to": "ambedkar", "type": "institutional", "evidence": "documented", "verified": true, "year": 1950, "note": "The society's journal The Maha Bodhi printed Ambedkar's essay 'The Buddha and the Future of His Religion' in 1950 (per the Ambedkar chapter). No personal contact with Dharmapala, who died in 1933, is claimed."}
+    {
+      "from": "buddhist-tradition",
+      "to": "dharmapala",
+      "type": "lineage",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Born into a Buddhist family in Colombo; Theravada; novice 1931 and full ordination January 1933 at Sarnath."
+    },
+    {
+      "from": "theosophical-society",
+      "to": "dharmapala",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1884,
+      "note": "Member from early 1884; went to Adyar December 1884; left the Society 1905 after parting with Olcott."
+    },
+    {
+      "from": "henry-olcott",
+      "to": "dharmapala",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1880,
+      "note": "Heard Olcott in Colombo 1880; his translator on lecture tours from 1886; toured Japan with him 1889; Olcott director of the Maha Bodhi Society 1891; 1905 Olcott resigned from the MBS and Dharmapala left the TS; Theosophy Wiki gives differing priorities (Bodh Gaya vs general teaching), McMahan cites rejection of Theosophical universalism."
+    },
+    {
+      "from": "hikkaduwe-sumangala",
+      "to": "dharmapala",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1891,
+      "note": "First president of the Maha Bodhi Society founded by Dharmapala in Colombo, May 1891."
+    },
+    {
+      "from": "dharmapala",
+      "to": "maha-bodhi-society",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1891,
+      "note": "Founder and secretary; moved its office to Calcutta 1892."
+    },
+    {
+      "from": "maha-bodhi-society",
+      "to": "ambedkar",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1950,
+      "note": "The society's journal The Maha Bodhi printed Ambedkar's essay 'The Buddha and the Future of His Religion' in 1950 (per the Ambedkar chapter). No personal contact with Dharmapala, who died in 1933, is claimed."
+    }
   ],
   "places": [
-    {"name": "Pettah, Colombo", "lat": 6.936, "lon": 79.851, "figure": "dharmapala", "what": "Birthplace, 17 September 1864", "verified": true},
-    {"name": "Mahabodhi Temple, Bodh Gaya", "lat": 24.696, "lon": 84.991, "figure": "dharmapala", "what": "Arrived 22 January 1891 and vowed to stay; the 1895 image incident and the long campaign for Buddhist control", "verified": true},
-    {"name": "Mulagandhakuti Vihara, Sarnath", "lat": 25.381, "lon": 83.024, "figure": "dharmapala", "what": "Temple he built; opened 11 November 1931; novice ordination 1931, full ordination January 1933, death 29 April 1933", "verified": true},
-    {"name": "Art Institute of Chicago", "lat": 41.88, "lon": -87.624, "figure": "dharmapala", "what": "World's Parliament of Religions, September 1893; his paper 'The World's Debt to Buddha' read 18 September", "verified": true},
-    {"name": "Theosophical Society, Adyar, Chennai", "lat": 13.01, "lon": 80.27, "figure": "dharmapala", "what": "Went to the Society's headquarters in December 1884", "verified": true},
-    {"name": "Calcutta", "lat": 22.57, "lon": 88.36, "figure": "dharmapala", "what": "Maha Bodhi Society office from 1892; held under restriction here 1915-1920 (city-level coordinates)", "verified": true}
+    {
+      "name": "Pettah, Colombo",
+      "lat": 6.936,
+      "lon": 79.851,
+      "figure": "dharmapala",
+      "what": "Birthplace, 17 September 1864",
+      "verified": true
+    },
+    {
+      "name": "Mahabodhi Temple, Bodh Gaya",
+      "lat": 24.696,
+      "lon": 84.991,
+      "figure": "dharmapala",
+      "what": "Arrived 22 January 1891 and vowed to stay; the 1895 image incident and the long campaign for Buddhist control",
+      "verified": true
+    },
+    {
+      "name": "Mulagandhakuti Vihara, Sarnath",
+      "lat": 25.381,
+      "lon": 83.024,
+      "figure": "dharmapala",
+      "what": "Temple he built; opened 11 November 1931; novice ordination 1931, full ordination January 1933, death 29 April 1933",
+      "verified": true
+    },
+    {
+      "name": "Art Institute of Chicago",
+      "lat": 41.88,
+      "lon": -87.624,
+      "figure": "dharmapala",
+      "what": "World's Parliament of Religions, September 1893; his paper 'The World's Debt to Buddha' read 18 September",
+      "verified": true
+    },
+    {
+      "name": "Theosophical Society, Adyar, Chennai",
+      "lat": 13.01,
+      "lon": 80.27,
+      "figure": "dharmapala",
+      "what": "Went to the Society's headquarters in December 1884",
+      "verified": true
+    },
+    {
+      "name": "Calcutta",
+      "lat": 22.57,
+      "lon": 88.36,
+      "figure": "dharmapala",
+      "what": "Maha Bodhi Society office from 1892; held under restriction here 1915-1920 (city-level coordinates)",
+      "verified": true
+    }
   ],
   "glossary": [
-    {"term": "Anagarika", "script": "anāgārika / අනගාරික", "lang": "pi", "def": "Pali for 'homeless one.' The title Dharmapala took for a celibate lay worker who lives like a renunciant without full monastic ordination."},
-    {"term": "Mahant", "script": "महंत", "lang": "hi", "def": "The abbot or head of a Hindu monastery (math). At Bodh Gaya, the head of the Shaiva Giri monastery that controlled the Mahabodhi Temple until 1953."},
-    {"term": "Samanera", "script": "sāmaṇera", "lang": "pi", "def": "A novice monk in Theravada Buddhism, who keeps ten precepts before full ordination."},
-    {"term": "Upasampada", "script": "upasampadā", "lang": "pi", "def": "Full ordination as a bhikkhu, a fully ordained Buddhist monk."},
-    {"term": "Protestant Buddhism", "script": "", "lang": "en", "def": "Gananath Obeyesekere's name for the reformed, lay-centred, urban Buddhism of colonial Ceylon, which borrowed forms from the Christian missions while protesting against them. The label is disputed."}
+    {
+      "term": "Anagarika",
+      "script": "anagārika / අනගාරික",
+      "lang": "pi",
+      "def": "Pali for 'homeless one.' The title Dharmapala took for a celibate lay worker who lives like a renunciant without full monastic ordination."
+    },
+    {
+      "term": "Mahant",
+      "script": "महंत",
+      "lang": "hi",
+      "def": "The abbot or head of a Hindu monastery (math). At Bodh Gaya, the head of the Shaiva Giri monastery that controlled the Mahabodhi Temple until 1953."
+    },
+    {
+      "term": "Samanera",
+      "script": "sāmaṇera",
+      "lang": "pi",
+      "def": "A novice monk in Theravada Buddhism, who keeps ten precepts before full ordination."
+    },
+    {
+      "term": "Upasampada",
+      "script": "upasampadā",
+      "lang": "pi",
+      "def": "Full ordination as a bhikkhu, a fully ordained Buddhist monk."
+    },
+    {
+      "term": "Protestant Buddhism",
+      "script": "",
+      "lang": "en",
+      "def": "Gananath Obeyesekere's name for the reformed, lay-centred, urban Buddhism of colonial Ceylon, which borrowed forms from the Christian missions while protesting against them. The label is disputed."
+    }
   ],
   "art": [],
   "issues": [
@@ -42,7 +186,12 @@
     "dharmapala.mdx: 1915 letter quotes come via Groundviews (2014) citing Guruge, Return to Righteousness (1991), pp. 540-541; the 1912 Sinhala Bauddhaya quote comes via Verite Research citing Tambiah, Leveling Crowds. Neither primary text was seen directly. Fact-checker may want to confirm in Guruge.",
     "dharmapala.mdx: titleScript අනගාරික ධර්මපාල (lang si) written from knowledge, not checked against a fetched source.",
     "o29 nodes: henry-olcott birth/death years (1832-1907) from general knowledge; hikkaduwe-sumangala dates omitted.",
-    "conduct.mdx: characterises Dada Bhagwan's movement as 'Jain-influenced' (matching its profile) and does not call Dada Bhagwan Jain. The order 'read Gandhi first' is a suggestion; check against the actual part order on the site."
+    "conduct.mdx: characterises Dada Bhagwan's movement as 'Jain-influenced' (matching its profile) and does not call Dada Bhagwan Jain. The order 'read Gandhi first' is a suggestion; check against the actual part order on the site.",
+    "dharmapala.mdx (checker): 1915 letter: 'The Muhammedans, an alien people ... by Shylockian methods became prosperous like the Jews' and recipient (Secretary of State for the Colonies) confirmed in a Cambridge Core book introduction (core-prod.cambridgecore.org/core/product/DD1A6013C6B262BB9D3C82B5F3F4F15F/core-reader); 'What the German is to the Britisher...' not found in any accessible source, so turned into a hedged paraphrase. Guruge pp. 540-541 not seen directly.",
+    "dharmapala.mdx (checker): 1912 Sinhala Bauddhaya quote confirmed only via Verite Research's citation of Tambiah, Leveling Crowds (page not given); it is a quote from his paper, not necessarily his own words. Author may wish to check Tambiah directly.",
+    "dharmapala.mdx (checker): Edmund Hewavitarne's cause and place of death (often reported as illness in Jaffna prison) still unverified; text hedged.",
+    "dharmapala.mdx (checker): Sangharakshita refers to a 1906 Buddha Gaya case loss; not covered in text. Author may wish to add after verification.",
+    "dharmapala.mdx (checker): glance lists Hikkaduwe Sumangala under Teachers; sources checked show him as MBS president, not explicitly as teacher. Consider moving."
   ],
   "sources": {
     "dharmapala": [
@@ -68,10 +217,31 @@
       "Critique of the term: neither Olcott nor Dharmapala Protestant; 'whiff of an accusation' (Amod Lele, Love of All Wisdom) -> https://loveofallwisdom.com/2010/05/anti-protestant-presuppositions-in-the-study-of-buddhism/",
       "Mulagandhakuti opened 11 Nov 1931; novice ordination 1931 at Sarnath as Sri Devamitta Dhammapala; ten monks from Ceylon for 1933 higher ordination; died 29 Apr 1933 -> https://anagarikadharmapala.org/life_3_our-teachers.php",
       "Translator for Olcott and Leadbeater 1886; Mary Foster in Honolulu -> https://anagarikadharmapala.org/life_2_our-teachers.php",
-      "Ambedkar's 1950 Maha Bodhi essay -> src/content/figures/ambedkar.mdx (internal; not re-verified)"
+      "Ambedkar's 1950 Maha Bodhi essay -> src/content/figures/ambedkar.mdx (internal; not re-verified)",
+      "Checker: 1915 letter full sentence and recipient -> https://core-prod.cambridgecore.org/core/product/DD1A6013C6B262BB9D3C82B5F3F4F15F/core-reader",
+      "Checker: 1905 resignations and McMahan reading -> https://theosophy.wiki/en/Anagarika_Dharmapala"
     ],
     "conduct": [
       "All claims about Part 10 figures drawn from the existing profiles and chapter: src/content/figures/gandhi.mdx, rajchandra.mdx, vinoba.mdx, kanji-swami.mdx, tulsi-mahapragya.mdx, dada-bhagwan.mdx, and graph.json edges (rajchandra->gandhi 1891 Bombay; gandhi->vinoba 1916)."
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 52,
+    "changes": [
+      "dharmapala.mdx: 1905 Olcott split now states what happened (Olcott resigned from MBS, Dharmapala left TS) and gives both explanations (theosophy.wiki, citing McMahan; Wikipedia).",
+      "dharmapala.mdx: Chicago farewell quote trimmed to the verified opening 'Learn to think without prejudice' and 'ended' corrected to 'began'; rest paraphrased (Sangharakshita, BPS Wheel 70).",
+      "dharmapala.mdx: 1915 letter quote replaced with the verbatim full sentence and recipient added; unverified German/Britisher line paraphrased with hedge (Cambridge Core introduction; Groundviews).",
+      "dharmapala.mdx: Kemper 2001 quote now names Yakkaduve Pragnarama and the book reviewed (Journal of Global Buddhism 2001); 'world-renouncer first' attributed to the publisher's description (UCP).",
+      "dharmapala.mdx: Edmund's death hedged to note the National Archives give no cause or place (archives.gov.lk).",
+      "dharmapala.mdx + glossary: Pali transliteration anāgārika corrected to anagārika (matches Sinhala අනගාරික and PTS spelling).",
+      "o29.json: Olcott dates confirmed; MBS 31 May corroborated by Sunday Times 2021; Olcott edge note updated."
+    ],
+    "unresolved": [
+      "'What the German is to the Britisher' wording of the 1915 letter",
+      "Tambiah page for the 1912 Sinhala Bauddhaya quote",
+      "Edmund Hewavitarne's cause/place of death",
+      "Exact 1931 novice ordination and 1933 upasampada dates; Dhammapala vs Dharmapala spelling of ordained name",
+      "Hikkaduwe Sumangala dates (commonly 1827-1911) not added pending a source"
     ]
   }
 }
