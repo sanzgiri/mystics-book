@@ -1,0 +1,75 @@
+{
+ "batch": "o30",
+ "nodes_add": [],
+ "nodes_update": [],
+ "edges_remove": [],
+ "edges_upsert": [],
+ "places": [],
+ "glossary": [],
+ "art": [],
+ "issues": [
+  "epilogue.mdx: the prologue contains no figure links, so the link format used is the markdown form [Name](/figures/<id>/), matching the href='/figures/shirdi-sai-baba/' already used in content. Confirm this resolves correctly with the site's base path.",
+  "epilogue.mdx section 2: 'about two in three of the 84 verdicts' place newness outside doctrine is the writer's own rough classification of the verdict lines; a keyword pass gave a similar but not identical figure. Author may prefer to drop the number or do a formal tally.",
+  "epilogue.mdx section 2: the ranking of five innovations (Aurobindo, J. Krishnamurti, Ambedkar, Dayananda Saraswati, Iqbal) replaces the outline's early candidates; Ramana and Krishnamacharya moved to 'innovations of practice' because their own verdicts locate originality in method/form. K.C. Bhattacharyya, Dada Lekhraj and Gopi Krishna named as near misses. Author's call.",
+  "graph.json: ayya-vaikundar has an entry but zero edges (deliberate per s05). Five tree-only nodes also have no edges: trailanga-swami, lokenath, mother-meera, rahul-sankrityayan, goenka. Not named in the epilogue.",
+  "graph.json: 7 edges have verified=false and 7 have no verified field; palani-swami->sadhguru (used indirectly in section 5 via the Sadhguru chapter wording) is verified=false.",
+  "graph.json: Dipa Ma's teachers (Munindra, Mahasi Sayadaw) are typed 'influenced', and Sarada Devi's tie to Ramakrishna 'family', so the '41 of 86 without a teacher edge' count overstates guru-less figures; the text says so. Consider retyping.",
+  "graph.json: lahiri-mahasaya transitive descendants include gandhi, ambedkar and periyar via yogananda->gandhi (Kriya instruction 1935, testimony). Not used, but it distorts descendant counts for the Kriya line.",
+  "All numbers are as of graph.json on 2026-10-31 and will drift as batches merge; section 1 says so. Recompute before final.",
+  "Word count about 2,790 (body, excluding headings and link URLs)."
+ ],
+ "sources": {
+  "epilogue-section-1-data": [
+   "322 nodes: 24 root, 31 chapter, 53 profile, 2 sidebar, 212 node -> src/data/graph.json (computed 2026-10-31)",
+   "410 edges by type: influenced 164, initiated 79, lineage 51, lived-with 36, institutional 35, claimed 20, family 15, reacted-against 8, protected 2 -> src/data/graph.json (computed 2026-10-31)",
+   "Evidence: documented 308, testimony 85, hagiographic 11, devotional 6; verified true 396 -> src/data/graph.json (computed 2026-10-31)",
+   "advaita-vedanta: 22 outgoing edges (23 total); tantra-shakta 10 outgoing; 35 of 86 entry figures reachable downstream from advaita-vedanta -> src/data/graph.json (computed 2026-10-31)",
+   "Degrees: ramana-maharshi 14 (4 in, 10 out); ramakrishna 13 (7 in, 6 out); osho 13 (11 in, 2 out to ma-anand-sheela and osho-international-foundation); sivananda 8 out, all initiated monks -> src/data/graph.json (computed 2026-10-31)",
+   "Osho 'borrowed almost every ingredient, and he said so' -> src/content/figures/osho.mdx verdict",
+   "Largest undirected component 291 of 322; six other multi-node components (BAPS 7, Dipa Ma/vipassana 6, Radhavallabh/Premanand 4, Swami Rama 3, Bageshwar 3, Neem Karoli Baba/Ram Dass 2); six isolated nodes incl. ayya-vaikundar -> src/data/graph.json (computed 2026-10-31)",
+   "Ayya Vaikundar links unverified and no edges added -> docs/batches/s05.json issues",
+   "Without root nodes: 36 components; largest 132 nodes with 42 of 86 entries; next Radhasoami/Namdhari 20, Sivananda family 18, Shirdi/Meher/Sathya Sai 17 -> src/data/graph.json (computed 2026-10-31)",
+   "33 edges between people in different numbered parts; keshab->vivekananda, dayananda-saraswati->aurobindo, jyotirao-phule->ambedkar; rama-tirtha->papaji family (sister's son, Papaji's account); papa-ramdas has 4 cross-part testimony edges -> src/data/graph.json (computed 2026-10-31); src/content/figures/rama-tirtha.mdx Lineage"
+  ],
+  "epilogue-section-2-verdicts": [
+   "84 verdict lines (86 entries minus 2 sidebars); 'about two in three locate the new thing in delivery/form/practice/institution/life' is the author's own rough manual classification of the verdict lines, not a computed figure -> src/content/figures/*.mdx class=final",
+   "Aurobindo: 'among the most original systems'; involution/evolution, Supermind; Hegel and Bergson cousins; Puligandla on Illusionism; testability -> src/content/figures/aurobindo.mdx (verdict, author paragraph, Critiques)",
+   "Krishnamurti: 'no real precedent'; Ommen 3 Aug 1929; self-as-construction unacknowledged source; guru of a new kind, platform for half a century; last statement nobody had lived the teaching -> src/content/figures/j-krishnamurti.mdx; src/content/parts/against-authority.mdx",
+   "Ambedkar: verdict wording; social suffering, karma limited to this life, 22 vows; Four Noble Truths/rebirth objection; Gombrich -> src/content/figures/ambedkar.mdx",
+   "Dayananda Saraswati: four Samhitas, strict monotheism, finite liberation; 'one of the most original of the century'; specialists outside Arya Samaj disagree -> src/content/figures/dayananda-saraswati.mdx",
+   "Iqbal: khudi, against fana, Khwaja Hasan Nizami protest, Bergson/Nietzsche/Rumi/Quran -> src/content/figures/iqbal.mdx",
+   "K.C. Bhattacharyya, Dada Lekhraj, Gopi Krishna verdicts -> respective figure files",
+   "Ramana: inquiry his own, 'Who am I?' in Vivekachudamani which he translated; initiation, Sanskrit, renunciation optional -> src/content/figures/ramana-maharshi.mdx Inherited and new",
+   "Krishnamacharya: posture set to breath, form most people practise -> src/content/figures/krishnamacharya.mdx verdict",
+   "Ramakrishna experiment across religions; Gandhi vows into public life -> ramakrishna.mdx, gandhi.mdx verdicts"
+  ],
+  "epilogue-section-3": [
+   "Bhaktivinoda print/English; Prabhupada transplant intact (diet, temple schedule, Sanskrit names); Chinmayananda course for English-educated; Sivananda daily routine; Maharishi format copied by every later brand; Yogananda postal curriculum; Iyengar method changed practice more than any idea; Papaji open satsang shaped how most Westerners meet Advaita; Lakshmanjoo 'only in libraries'; Dayananda Arsha recovered Shankara's view of scripture; Paramacharya 'would have taken that as praise' -> respective verdicts and author paragraphs (prabhupada.mdx line ~100, chandrasekharendra-saraswati.mdx line ~98)",
+   "Outgoing edges: aurobindo 3, kc-bhattacharya 1, iqbal 0, sivananda 8, krishnamacharya 6 -> src/data/graph.json (computed 2026-10-31)"
+  ],
+  "epilogue-section-4": [
+   "Vivekananda New list and verdict -> src/content/figures/vivekananda.mdx",
+   "Vivekananda 6 direct out-edges (aurobindo, rama-tirtha, sarvapriyananda, nivedita, radhakrishnan, papa-ramdas); 17 downstream nodes -> src/data/graph.json (computed 2026-10-31)",
+   "Radhakrishnan central ideas Vivekananda's -> radhakrishnan.mdx verdict; Yogananda inherited precedent -> yogananda.mdx Inherited list; Strauss on Sivananda's verbs and four yogas -> sivananda.mdx line ~65; order built around meditation and relief work -> vivekananda.mdx New list",
+   "Neevel/Sil -> ramakrishna.mdx Critiques; Rambachan, Hacker/Killingley, Sharma/Medhananda, 'enough of both emphases' -> vivekananda.mdx Critiques",
+   "51 of 86 entries not downstream of advaita-vedanta -> src/data/graph.json (computed 2026-10-31)",
+   "Prabhupada refused the translation -> prabhupada.mdx author paragraph; Paramacharya opposite conclusion -> chandrasekharendra-saraswati.mdx"
+  ],
+  "epilogue-section-5": [
+   "Claimed edges 20: documented 1 (cw-leadbeater->j-krishnamurti), testimony 8, hagiographic 7, devotional 4 -> src/data/graph.json (computed 2026-10-31)",
+   "Babaji 5 out-edges all hagiographic (lahiri-mahasaya initiated; yukteswar, yogananda, sri-m, maheshwarnath-babaji claimed); Lahiri note 'no evidence outside the lineage' -> src/data/graph.json (computed 2026-10-31)",
+   "Krishnamacharya seven and a half years, no independent record; 'historians treat it as a story that gave a new practice an old pedigree' -> graph edge note; krishnamacharya.mdx Critiques",
+   "Swami Rama raised by Bengali Baba, own account -> swami-rama.mdx",
+   "Sathya Sai 1940 at 13 -> sathya-sai-baba.mdx, graph edge; Sadhguru past-life lineage he alone reports -> sadhguru.mdx Lineage line ~104; Namdhari Balak Singh 1812 rejected by mainstream Sikh bodies -> graph edge note",
+   "Shiv Baba->Dada Lekhraj devotional; Arunachala named as guru; Venkusa reported by Das Ganu 1925, no contemporary evidence -> src/data/graph.json (computed 2026-10-31)",
+   "Anandamayi Ma initiated herself Aug 1922 -> anandamayi-ma.mdx; Radhakrishnan no guru -> radhakrishnan.mdx Lineage",
+   "41 of 86 entries without incoming initiated/lineage/lived-with edge from a person node; sarada-devi edge typed family -> src/data/graph.json (computed 2026-10-31)",
+   "Contested successions Radhasoami, Namdhari, Sahaj Marg, Dada Bhagwan -> sound-and-light.mdx part intro; graph claimed edges lalaji-babuji->umeshchandra-saxena, dada-bhagwan->niruben-amin, jagjit-singh-namdhari->thakur-dalip-singh",
+   "Initiated edges into entry figures 39: documented 25, testimony 11, hagiographic 3 -> src/data/graph.json (computed 2026-10-31)"
+  ],
+  "epilogue-section-6": [
+   "Rammohan printed Upanishads, method -> rammohan-roy.mdx; Nagpur 14 Oct 1956 -> ambedkar.mdx; Dharmapala aim -> buddha-returns.mdx; Shirdi mosque named Dwarka, mostly Hindu sources -> across-the-line.mdx",
+   "Kuvalayananda measured mostly the body -> technique.mdx part intro; Gandhi vows on a nation -> gandhi.mdx verdict; Krishnamurti last statement -> j-krishnamurti.mdx Critiques"
+  ]
+ }
+}
