@@ -1,0 +1,185 @@
+{
+  "batch": "o25",
+  "nodes_add": [
+    {
+      "id": "dravidar-kazhagam",
+      "name": "Dravidar Kazhagam",
+      "born": 1944,
+      "part": 12,
+      "tier": "node",
+      "kind": "institution",
+      "note": "Justice Party renamed Dravidar Kazhagam in 1944 under Periyar (his term as leader from 27 August 1944); demanded Dravida Nadu; led by Maniammai from 25 December 1973 and K. Veeramani from 16 March 1978."
+    },
+    {
+      "id": "cn-annadurai",
+      "name": "C. N. Annadurai",
+      "born": 1909,
+      "died": 1969,
+      "part": 12,
+      "tier": "node",
+      "kind": "person",
+      "note": "Periyar's lieutenant in the Dravidar Kazhagam; broke with him after the Maniammai marriage and founded the DMK on 17 September 1949; his government legalised self-respect marriages in 1967. Birth and death years from general knowledge, not rechecked in this batch."
+    }
+  ],
+  "nodes_update": [
+    {
+      "id": "periyar",
+      "name": "Periyar (E. V. Ramasamy)",
+      "born": 1879,
+      "died": 1973,
+      "note": "b. 17 Sept 1879 Erode; Congress 1919-1925; Vaikom satyagraha 1924 (jailed twice); Self-Respect Movement and Kudi Arasu 1925; title Periyar 13 Nov 1938; Justice Party 1939; Dravidar Kazhagam 27 Aug 1944; married Maniammai 9 July 1949 (Wikipedia also gives 1948); d. 24 Dec 1973 Vellore."
+    }
+  ],
+  "edges_remove": [],
+  "edges_upsert": [
+    {
+      "from": "gandhi",
+      "to": "periyar",
+      "type": "reacted-against",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1925,
+      "note": "Congress member 1919-1925; left over communal representation at Kanchipuram, 1925; met Gandhi in 1927 and was dissatisfied (Periyar's account, via P. A. Krishnan, Outlook 2019); attacked Gandhi for the rest of his life, though he proposed renaming India Gandhi Desh after the assassination."
+    },
+    {
+      "from": "ambedkar",
+      "to": "periyar",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1937,
+      "note": "Annihilation of Caste translated into Tamil with Periyar's help and published 1937, segments in Kudi Arasu (Wikipedia); met at Ambedkar's residence, Bombay, 6 January 1940. Alliance of anti-caste thinkers more than teacher and pupil; Periyar did not follow Ambedkar into Buddhism."
+    },
+    {
+      "from": "periyar",
+      "to": "dravidar-kazhagam",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1944,
+      "note": "Founder-leader from 27 August 1944 until his death in 1973."
+    },
+    {
+      "from": "periyar",
+      "to": "cn-annadurai",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1949,
+      "note": "Annadurai worked under Periyar in the Justice Party and DK; split after the 9 July 1949 marriage and founded the DMK, 17 September 1949 (The News Minute)."
+    }
+  ],
+  "places": [
+    {
+      "name": "Erode",
+      "lat": 11.341,
+      "lon": 77.717,
+      "figure": "periyar",
+      "what": "Birthplace, 17 September 1879; family business; early Self-Respect base.",
+      "verified": true
+    },
+    {
+      "name": "Vaikom",
+      "lat": 9.749,
+      "lon": 76.395,
+      "figure": "periyar",
+      "what": "Vaikom satyagraha, 1924: arrested and jailed twice; hailed as the Hero of Vaikom.",
+      "verified": true
+    },
+    {
+      "name": "Kanchipuram",
+      "lat": 12.834,
+      "lon": 79.703,
+      "figure": "periyar",
+      "what": "1925 provincial Congress conference where his communal-representation resolution was refused and he left the Congress.",
+      "verified": true
+    },
+    {
+      "name": "Vellore",
+      "lat": 12.916,
+      "lon": 79.132,
+      "figure": "periyar",
+      "what": "Died 24 December 1973.",
+      "verified": true
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Suyamariyathai",
+      "script": "சுயமரியாதை",
+      "lang": "ta",
+      "def": "Self-respect. The name of Periyar's movement, founded in 1925, against caste, priesthood and religious authority."
+    },
+    {
+      "term": "Kazhagam",
+      "script": "கழகம்",
+      "lang": "ta",
+      "def": "Association or federation, as in Dravidar Kazhagam (Dravidian Federation) and the parties that grew from it."
+    },
+    {
+      "term": "Pillaiyar",
+      "script": "பிள்ளையார்",
+      "lang": "ta",
+      "def": "The usual Tamil name for Ganesha, the elephant-headed god."
+    },
+    {
+      "term": "Periyar",
+      "script": "பெரியார்",
+      "lang": "ta",
+      "def": "\"The great one.\" An honorific given to E. V. Ramasamy by a women's conference in Madras on 13 November 1938."
+    },
+    {
+      "term": "Self-respect marriage",
+      "script": "சுயமரியாதைத் திருமணம்",
+      "lang": "ta",
+      "def": "A wedding without a Brahmin priest, sacred fire or rituals that subordinate the wife, conducted by an exchange of vows and garlands; legalised in the state in 1967."
+    }
+  ],
+  "art": [],
+  "issues": [
+    "periyar.mdx: the sidebar adds a short 'Critiques and questions' section beyond the sidebar template (Life / Why / Further reading), because the brief asked for the controversies with attribution. Author to decide whether to keep it or fold it into 'Why this figure appears here'. Body is about 900 words, at the top of the requested 600-900 range.",
+    "periyar.mdx: marriage to Maniammai dated 9 July 1949 (Feminism in India; The News Minute places his announcement on 28 June 1949 and the DMK split on 17 September 1949). Wikipedia gives 9 July 1948 in one section and 1949 in another; the unit brief said 1948. The entry uses 1949 and notes the 1948 variant.",
+    "periyar.mdx: the brief mentions '1956 image-breaking'. Sources checked separate two events: the Pillaiyar (Ganesha) image-breaking call of 1953 (dated 27 May, Buddha Purnima, in Bala Jeyaraman's biography, seen only through Goodreads highlights) and the burning of pictures of Rama on the Marina in 1956 (Wikipedia, which also mentions an arrest for this in 1955). A primary or newspaper source for both dates would help.",
+    "periyar.mdx: the 'snake and Brahmin' saying is widely attributed to Periyar (Wikipedia records the accusation with a Tamil phrase); I could not trace it to a dated speech or text and say so in the entry. Fact-checker may wish to confirm whether any scholarly source locates it.",
+    "periyar.mdx: the 'barbarian language' remark is quoted from Wikipedia's translation ('I say Tamil as barbarian language'); Wikipedia's sub-article tags the claim 'better source needed'. Year and original publication not established.",
+    "periyar.mdx: the slogan quotation is Pandian's translation (Scroll.in excerpt). LiveLaw gives the inscription in a rougher English rendering. Madras High Court bench (S. Manikumar and Subramonium Prasad JJ) judgment date not found; LiveLaw report dated 6 September 2019. A later Supreme Court notice on a similar plea (LiveLaw) was seen in search results only and is not mentioned.",
+    "periyar.mdx: the 1959 Brahmin quotation and the 1973 'annihilation' list come from P. A. Krishnan, a critic, in his own translation (pakrishnan.com 2018; Outlook 2019). Original Tamil sources not seen.",
+    "periyar.mdx: Ambedkar link. Tamil translation 1937 per Wikipedia (some accounts say 1936 serialisation in Kudi Arasu). The 6 January 1940 Bombay meeting rests on a single Ambedkarite blog (drambedkarbooks.com). A 1954 trip to Burma for a Buddhist celebration (indianetzone) was not confirmed and is left out.",
+    "periyar.mdx: no documented direct edge to Jyotirao Phule or Narayana Guru was found; the entry mentions Phule only as a resemblance and Narayana Guru only as a shared event (Vaikom). No edges added for them.",
+    "periyar.mdx: Justice Party leadership dated 1939 (Wikipedia); some accounts say he was elected president while in jail at the end of 1938.",
+    "cn-annadurai node: birth and death years (1909, 1969) not rechecked in this batch.",
+    "Part intros (across-the-line.mdx, against-authority.mdx) contain no new facts beyond those in the existing figure entries and the Periyar sidebar; they name only figures in graph.json. They contain no direct quotations."
+  ],
+  "sources": {
+    "periyar": [
+      "Born 17 September 1879, Erode; died 24 December 1973 (Vellore per infobox); Congress 1919-1925; Kashi 1904 choultry story; Vaikom arrival April 1924 and 'Vaikom Veerar' 1925; Kudi Arasu 1925; anti-Hindi jail 1938, Justice Party leadership 1939; 1956 Rama picture burning (also 1955); 1957 call to burn the Constitution, six months; Nehru letter 5 Nov 1957; 'barbarian language' -> https://en.wikipedia.org/wiki/Periyar",
+      "Left Congress at Kanchipuram conference 1925 after president Thiru V.Ka refused his communal-representation resolution; Cheranmadevi Gurukulam separate seating -> https://en.wikipedia.org/wiki/Periyar_and_the_Indian_National_Congress",
+      "Vaikom satyagraha 30 March 1924 to 23 November 1925; Periyar imprisoned twice; Gandhi's March 1925 visit and compromise -> https://en.wikipedia.org/wiki/Vaikom_Satyagraha",
+      "Left school after five years, joined family business at 12; married Nagammai at 19, she died 1933 -> https://ffrf.org/publications/day/periyar/",
+      "Self-Respect Movement 1925; Justice Party merged 1938; renamed Dravidar Kazhagam 1944, Periyar's term from 27 August 1944; Dravida Nadu demand; Maniammai leader 25 Dec 1973 -> https://en.wikipedia.org/wiki/Dravidar_Kazhagam",
+      "Self-respect marriages: no priests, holy fires or rituals subordinating the woman; legalised by Hindu Marriage (Tamil Nadu Amendment) Act 1967 -> https://www.sabrangindia.in/article/self-respect-marriage-promise-equality-and-companionship",
+      "Title Periyar: women's conference, 13 November 1938, Chennai; resolution text -> https://thesouthfirst.com/tamilnadu/tamil-nadus-first-womens-conference-and-how-ev-ramasamy-naicker-became-thanthai-periyar/",
+      "Marriage 9 July 1949; Periyar 70, Maniammai 32; arrangement to secure property and trust -> https://feminisminindia.com/2021/01/06/periyar-maniammai-marriage/",
+      "28 June 1949 announcement; DMK founded 17 September 1949 -> https://www.thenewsminute.com/tamil-nadu/september-which-split-dravidians-periyar-weds-maniyammai-dmk-born-49850",
+      "Quotes 'He who created god is a fool, he who propagates god is a scoundrel, and he who worships god is a barbarian.', 'If there is no varnashrama dharma, there is no ground to talk about Hindu religion.', 'God and fate are the direct enemies of reason' (M. S. S. Pandian) -> https://scroll.in/article/871440/he-who-created-god-is-a-fool-periyar-believed-religion-and-rationality-are-complete-opposites",
+      "Madras High Court (Manikumar and Prasad JJ) dismissed PIL to remove inscriptions; found he declared from 1928 there is no God -> https://www.livelaw.in/amp/news-updates/right-to-disagree-with-existence-of-god-147845",
+      "Annihilation of Caste translated into Tamil with Periyar's help, published 1937 -> https://en.wikipedia.org/wiki/Annihilation_of_Caste",
+      "Met Ambedkar at his residence in Bombay, 6 January 1940 -> https://drambedkarbooks.com/2016/01/05/6th-january-1940-in-dalit-history-periyar-met-dr-ambedkar-at-mumbai",
+      "Never converted to Buddhism -> https://www.indianetzone.com/periyar_buddhism",
+      "1927 meeting with Gandhi; 'Gandhi Desh' after assassination; last speech Dec 1973 quote 'annihilation of God, annihilation of religion, annihilation of Gandhi, annihilation of Congress and annihilation of Brahmins' -> https://www.outlookindia.com/national/india-news-periyar-ev-ramasamy-the-man-who-opposed-mahatma-gandhis-idea-of-india-news-302169",
+      "1959 speech quote 'Brahminism came from Brahmins and hence it is the Brahmins who should be annihilated.' (P. A. Krishnan) -> https://pakrishnan.com/2018/02/19/test-1-2-3/",
+      "Supporter view: opposed brahminical authority, not individuals (Olivannan Gopalakrishnan, Inmathi, 18 Jan 2022) -> https://inmathi.com/2022/01/18/why-atheist-periyar-is-a-much-loved-icon-in-religious-tamil-nadu/38089/",
+      "Pillaiyar idol-breaking announced 27 May 1953 (Buddha Purnima), Bala Jeyaraman's biography via reader highlights -> https://www.goodreads.com/notes/26851211-periyar/21577671-aditya-bharadwaj?page=2",
+      "1971 Salem rally: competing versions; Periyar's audio account of slipper and Rama picture -> https://www.thenewsminute.com/amp/story/tamil-nadu/what-happened-periyars-salem-rally-1971-many-versions-116594",
+      "Seeman said Periyar 'insulted' Tamil (Dec 2024 event; Feb 2025 'will always oppose') -> https://www.thenewsminute.com/tamil-nadu/tn-will-always-oppose-periyar-and-his-ideology-says-seeman",
+      "Seeman quote 'We will never accept that we are Dravidians. We are Tamils.' (Deccan Herald, 21 Oct 2024) -> https://www.deccanherald.com/amp/story/india%2Ftamil-nadu%2Flanguage-and-dravidian-vs-aryan-debate-back-in-focus-in-tamil-nadu-3242053",
+      "Puthiya Parithi (The News Minute, 25 Sept 2018): split would have happened anyway (black shirts, drama and cinema, 15 August, succession) -> https://www.thenewsminute.com/tamil-nadu/anna-would-have-split-periyar-even-if-he-hadn-t-married-maniyammai-here-s-why-88924"
+    ],
+    "across-the-line": [
+      "All claims taken from existing entries shirdi-sai-baba.mdx, upasni-maharaj.mdx and meher-baba.mdx; Tajuddin Baba described as a Sufi master -> https://en.wikipedia.org/wiki/Tajuddin_Muhammad_Badruddin"
+    ],
+    "against-authority": [
+      "All claims taken from existing entries j-krishnamurti.mdx and ug-krishnamurti.mdx and the Periyar sidebar above."
+    ]
+  }
+}
