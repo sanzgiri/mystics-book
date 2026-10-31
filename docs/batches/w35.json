@@ -1,0 +1,113 @@
+{
+  "batch": "w35",
+  "nodes_add": [
+    {"id": "krishnaji-preethaji", "name": "N.K.V. Krishna & Preetha Krishna (Ekam)", "part": 13, "tier": "node", "kind": "person", "note": "Son and daughter-in-law of Kalki Bhagavan and Amma; took over the Oneness organisation and its businesses c. 2017; opened Ekam at Varadaiahpalem, January 2018."},
+    {"id": "kailasa", "name": "Kailasa (self-declared)", "part": 13, "tier": "node", "kind": "institution", "note": "Declared by Nithyananda in December 2019 as a sovereign Hindu nation 'without borders'; recognised by no government or international body."},
+    {"id": "rambhadracharya", "name": "Jagadguru Rambhadracharya", "born": 1950, "part": 13, "tier": "node", "kind": "person", "note": "Ramanandi scholar-monk of Chitrakoot; guru of Dhirendra Krishna Shastri."},
+    {"id": "sannyasi-baba-bageshwar", "name": "Sannyasi Baba (Bageshwar Dham)", "part": 13, "tier": "node", "kind": "person", "note": "Ancestor of Dhirendra Krishna Shastri whom the family names as founder of the Bageshwar Dham shrine at Gada."}
+  ],
+  "nodes_update": [
+    {"id": "kalki-bhagavan", "born": 1949, "died": 2026, "name": "Kalki Bhagavan & Amma Bhagavan (Oneness)", "note": "Vijay Kumar Naidu, born Natham, Tamil Nadu, 7 March 1949; died Chennai 29 September 2026. With his wife Padmavathi (b. 1954) founded Jeevashram (1984), Satyaloka (1994) and Oneness University, Varadaiahpalem (2000); the deeksha or Oneness Blessing."},
+    {"id": "nithyananda", "born": 1978, "name": "Nithyananda (Kailasa)", "note": "Born Arunachalam Rajasekaran, Tiruvannamalai, 1 January 1978 (1977 in some accounts); founded Nithyananda Dhyanapeetam, Bidadi (2003); accused in a 2010 rape case pending at Ramanagara; left India 2019; declared Kailasa December 2019."},
+    {"id": "dhirendra-shastri", "born": 1996, "name": "Dhirendra Krishna Shastri (Bageshwar Dham)", "note": "Born Dhirendra Krishna Garg, Gada, Chhatarpur district, 4 July 1996; head of the Bageshwar Dham Hanuman shrine; known for the divya darbar and Hindu Rashtra campaigning."}
+  ],
+  "edges_remove": [],
+  "edges_upsert": [
+    {"from": "kalki-bhagavan", "to": "krishnaji-preethaji", "type": "family", "evidence": "documented", "verified": true, "year": 2017, "note": "Son and daughter-in-law; organisation and business interests handed over c. 2017, renamed Ekam."},
+    {"from": "j-krishnamurti", "to": "kalki-bhagavan", "type": "influenced", "evidence": "testimony", "verified": false, "note": "A former disciple (Open, 2019) judged the movement against Krishnamurti's teachings; the nature of the influence on the Jeevashram school is not documented in sources seen."},
+    {"from": "advaita-vedanta", "to": "kalki-bhagavan", "type": "influenced", "evidence": "documented", "verified": true, "note": "Teaching that suffering comes from the separate self and that awakening ends it."},
+    {"from": "ramakrishna", "to": "nithyananda", "type": "institutional", "evidence": "testimony", "verified": true, "year": 1995, "note": "Reportedly joined the Ramakrishna Math, Chennai, in 1995 (Quartz, citing his own account)."},
+    {"from": "tamil-shaiva", "to": "nithyananda", "type": "institutional", "evidence": "documented", "verified": true, "year": 2012, "note": "Named 293rd head of the Madurai Aadheenam in 2012; appointment withdrawn the same year. Agamic Shaiva worship in his temples."},
+    {"from": "nithyananda", "to": "kailasa", "type": "institutional", "evidence": "documented", "verified": true, "year": 2019, "note": "Declared December 2019."},
+    {"from": "rambhadracharya", "to": "dhirendra-shastri", "type": "initiated", "evidence": "documented", "verified": true, "note": "Shastri describes himself as Rambhadracharya's disciple (Wikipedia; widely reported)."},
+    {"from": "sannyasi-baba-bageshwar", "to": "dhirendra-shastri", "type": "family", "evidence": "devotional", "verified": true, "note": "Ancestor and founder of the shrine; Shastri credits his powers partly to Sannyasi Baba's blessing."}
+  ],
+  "places": [
+    {"name": "Oneness University / Ekam, Varadaiahpalem", "lat": 13.58, "lon": 79.95, "figure": "kalki-bhagavan", "what": "Oneness University (2000), Oneness Temple (2008), Ekam (2018); body taken to Ekam Kshetra, Battalavallam, September 2026", "verified": false},
+    {"name": "Natham, Vellore district", "lat": 12.9, "lon": 79.1, "figure": "kalki-bhagavan", "what": "Birthplace, 7 March 1949", "verified": false},
+    {"name": "Tiruvannamalai", "lat": 12.23, "lon": 79.07, "figure": "nithyananda", "what": "Birthplace", "verified": true},
+    {"name": "Nithyananda Dhyanapeetam, Bidadi", "lat": 12.80, "lon": 77.39, "figure": "nithyananda", "what": "Ashram founded 2003; focus of the 2010 Ramanagara case", "verified": false},
+    {"name": "Bageshwar Dham, Gada, Chhatarpur district", "lat": 24.86, "lon": 79.72, "figure": "dhirendra-shastri", "what": "Birthplace and Hanuman shrine; cancer hospital foundation stone laid 23 February 2025", "verified": false}
+  ],
+  "glossary": [
+    {"term": "Deeksha (Oneness Blessing)", "script": "దీక్ష", "lang": "te", "def": "In the Oneness movement, a blessing given by placing the hands on the head, which the movement says transmits energy and starts a process of awakening."},
+    {"term": "Ekam", "script": "ఏకం", "lang": "te", "def": "One, oneness. The name of the meditation hall opened at the Oneness campus in 2018 and of the organisation after 2017."},
+    {"term": "Aadheenam", "script": "ஆதீனம்", "lang": "ta", "def": "A Tamil Shaiva monastery headed by a pontiff, such as the Madurai Aadheenam."},
+    {"term": "Kailasa", "script": "கைலாசம்", "lang": "ta", "def": "Mount Kailash, Shiva's abode; also the name Nithyananda gave to his self-declared Hindu nation in 2019."},
+    {"term": "Divya darbar", "script": "दिव्य दरबार", "lang": "hi", "def": "Divine court: Dhirendra Shastri's public sessions where he says he names visitors' troubles and offers remedies."},
+    {"term": "Parcha", "script": "पर्चा", "lang": "hi", "def": "A slip of paper on which Dhirendra Shastri writes what he says is a visitor's problem."},
+    {"term": "Katha", "script": "कथा", "lang": "hi", "def": "A sermon in which a preacher sings and explains a sacred story, such as the Ramcharitmanas, over several days."},
+    {"term": "Hindu Rashtra", "script": "हिंदू राष्ट्र", "lang": "hi", "def": "Hindu nation: the demand that India be declared a Hindu state."},
+    {"term": "Ghar wapsi", "script": "घर वापसी", "lang": "hi", "def": "Homecoming: ceremonies that bring converts to other religions back to Hinduism."},
+    {"term": "Peethadhishwar", "script": "पीठाधीश्वर", "lang": "hi", "def": "The head of a religious seat or shrine."}
+  ],
+  "art": [],
+  "issues": [
+    "kalki-bhagavan.mdx: Kalki Bhagavan died 29 September 2026 (Deccan Chronicle, Hans India, Wikipedia). He is no longer a living person; the brief assumed otherwise. Exact date rests on 'Tuesday' in reports dated 30 September plus Wikipedia.",
+    "kalki-bhagavan.mdx: Padmavathi's birth date and place (15 Aug 1954, Sangam) and the 1977 marriage date come from the WRSP timeline (wrldrels.org) only. Her current status was not checked.",
+    "kalki-bhagavan.mdx: Seizure figures (Rs 43.9 crore cash, Rs 18 crore USD, 88 kg gold, 1,271 carats diamonds) are from Deccan Herald and The Week citing unnamed officials; the PTI/department statement gives only the Rs 409 crore estimate. The Week's report of an ED FEMA case and its 2013 ITAT claim (not used) are unverified elsewhere. No later assessment or prosecution outcome found.",
+    "kalki-bhagavan.mdx: Raid start date 16 Oct 2019 is inferred from PTI ('searches on Wednesday', findings Friday 18 Oct). Hyderabad is listed by The Week but not PTI.",
+    "kalki-bhagavan.mdx: J. Krishnamurti link is thin (Open, 2019 ex-disciple remark); edge marked verified false. The Oneness Movement's own site (ekam.org) could not be fetched.",
+    "kalki-bhagavan.mdx: The deeksha brain explanation (parietal/frontal lobes) is attributed in the Taipei Times to Christian Opitz; text says 'some supporters' without naming him.",
+    "nithyananda.mdx: Birth year 1978 vs 1977. Ramakrishna Math 1995 rests on Quartz citing his account. Wikipedia's Nithyananda page could not be fetched; facts were built from news sources and the WRSP timeline.",
+    "nithyananda.mdx: Arrest date (21 April 2010) is not stated in the text; Deccan Herald gives Arki, Solan, without a date. The 2017 forensic report is from Udayavani ('Delhi-based FSL'). The rape complainant is not named (TNM does not name her).",
+    "nithyananda.mdx: Status of the Gujarat FIR (2019) after November 2019 not found: no chargesheet or trial seen. Interpol notice is disputed (Interpol denied a blue corner notice per TNM) and is left out.",
+    "nithyananda.mdx: The latest status of the Ramanagara trial after 2022 was not found; text says pending. Check for any 2024-2026 orders (e.g. proclamation, split of trial).",
+    "nithyananda.mdx: MEA wording on his passport is from The Wire's headline only.",
+    "dhirendra-shastri.mdx: The 2021 ghar wapsi of about 300 Christians, the Hindu Rashtra slogan of 23 Jan 2023 and Owaisi/Adityanath reactions rest on Wikipedia only; the slogan is Wikipedia's English rendering of a Hindi remark.",
+    "dhirendra-shastri.mdx: The Tukaram withdrawal is supported only by search-result headlines (ETV Bharat Feb 2023; IANS Nov 2023, possibly a second remark); not fetched.",
+    "dhirendra-shastri.mdx: Udaipur FIR (March 2023) outcome unknown. April 2026 Nagpur challenge outcome unknown. Rambhadracharya's Chitrakoot and Ramanandi details are from general knowledge, not a fetched page.",
+    "Word counts run about 1,250 words each (frontmatter excluded), slightly over the 1,200 profile ceiling, because of the controversy sections; the author may trim.",
+    "places: Varadaiahpalem, Natham, Bidadi and Bageshwar Dham coordinates are approximate and marked verified false."
+  ],
+  "sources": {
+    "kalki-bhagavan": [
+      "Born 7 Mar 1949 Natham; father Varadarajulu, railways; Madras 1955; Don Bosco; DG Vaishnav maths; LIC clerk; married 9 June 1977; Jeevashram 1984; Satyaloka 1994; deeksha as energy transmission, no initiation needed, collective DNA; 'Kalki is not one person but a collective awakening'; 2002 PIL dismissed; 2017 handover to NKV Krishna and Preetha, renamed Ekam; ~Rs 93 crore seized; died 29 Sep 2026 Chennai aged 77 -> https://en.wikipedia.org/wiki/Kalki_Bhagawan",
+      "Timeline: Padmavati b. 15 Aug 1954 Sangam; 1989 courses; Order of Dasas; 1999 land Varadaiahpalem; 2000 Oneness University; 2004 21-day process and trainers; Oneness Temple 22 Apr 2008; 21 Dec 2012 golden age; 2013 mission complete; Jan 2018 Ekam -> https://wrldrels.org/?p=14748",
+      "Died Tuesday in Chennai hospital, age-related complications; body to Ekam Kshetra, Battalavallam; Kalki as tenth incarnation of Vishnu -> https://www.deccanchronicle.com/nation/spiritual-guru-kalki-bhagavan-passes-away-in-chennai-1991772",
+      "Age 77; born 7 March 1949; DG Vaishnav; LIC clerk -> https://www.thehansindia.com/news/cities/chennai/kalki-bhagavan-dies-at-77-spiritual-leader-and-founder-of-oneness-movement-passes-away-in-chennai-1127245",
+      "Deeksha hands on crown; 'a powerful transmission of energy, which rapidly accelerates the evolution of consciousness' (Ardagh, 6 Feb 2008) -> https://www.yogajournal.com/meditation/deeksha-the-oneness-blessing/?scope=anon",
+      "'We do not transfer enlightenment. We transfer an initiation into an enlightenment process.'; Opitz parietal/frontal lobes explanation -> https://www.taipeitimes.com/News/feat/archives/2005/04/10/2003249963",
+      "Darshan fees, donation targets, unreceipted gifts; 'the organisation was growing so big that the original purpose of spirituality was lost'; Krishnamurti remark; family as minor gods; couple live modestly -> https://openthemagazine.com/features/the-cult-of-kalki-bhagavan/",
+      "PTI: searches Wednesday at Varadaiahpalem, Chennai, Bengaluru; 'has been regularly suppressing its receipts at its various centres or ashrams'; Rs 409 crore from FY 2014-15; guru not named -> https://www.business-standard.com/amp/article/pti-stories/raids-lead-to-rs-409-crore-unaccounted-cash-receipts-tax-dept-119101801096_1.html",
+      "Rs 43.9 crore cash, Rs 18 crore USD, 88 kg gold Rs 26 crore; 40+ premises; Rs 500 crore evasion per sources -> https://deccanherald.com/india/godman-kalki-evaded-tax-of-rs-500-crore-i-t-769361.html",
+      "40 properties incl. Hyderabad; 1,271 carats diamonds; ED FEMA case; Krishna questioned; manager 'nothing to tell the media'; name Kalki c. 1989 -> https://www.theweek.in/theweek/current/2019/11/09/mystic-and-the-moolah.html",
+      "'Firstly, we have not fled the country nor have we gone anywhere.'; at Nemam, Thiruvallur; activities at Nemam, Satyaloka, Ekam continuing -> https://thenewsminute.com/article/have-not-fled-country-self-styled-godman-kalki-after-i-t-raids-him-110963"
+    ],
+    "nithyananda": [
+      "Born Rajasekaran 1 Jan 1978 Tiruvannamalai; mechanical engineer per website; Ramakrishna Math Chennai 1995; Dhyanapeetam Bidadi 2003; claims of healing, animals talking; video claimed morphed -> https://qz.com/india/1754015/nithyananda-sermons-sex-scandals-social-media-and-child-abuse",
+      "1977 or 1978; Life Bliss Foundation 2006; Sun TV 2 Mar 2010; Madurai Aadheenam 293rd pontiff 2012 and removal; Mahamandaleshwar Feb 2013; left India Nov 2019 -> https://wrldrels.org/?p=21716",
+      "Arrested Shivshankargarh, Arki, Solan district, HP; IPC 295A, 376, 377, 420, 506(1), 120 -> https://www.deccanherald.com/india/nithyananda-arrested-2485002",
+      "Bail 11 June 2010, Karnataka HC; Rs 1 lakh bond, no discourses, passport surrendered -> https://www.oneindia.com/2010/06/11/karnatakahigh-court-grants-bail-to-swaminityananda.html",
+      "Delhi FSL confirmed man in video, 23 Nov 2017; he had claimed it morphed -> https://www.udayavani.com/english-news/fsl-report-confirms-nithyananda-in-sleaze-video",
+      "Charges framed June 2018, III Addl District and Sessions Court Ramanagara; 376, 377, 420, 114, 201, 120B; five co-accused plead not guilty; impotence then consensual claims -> https://www.thenewsminute.com/karnataka/karnataka-trial-court-frames-charges-against-nithyananda-rape-case-82595",
+      "Bail cancelled by Justice John Michael Cunha; 'misled the trial court into believing that he was working towards propagating Hinduism'; complainant Kuruppan Lenin -> https://livelaw.in/amp/news-updates/karnataka-hc-cancels-nithyanandas-bail-in-2010-rape-case-pti-152393",
+      "NBW from III Addl DSJ Ramanagara; trial stalled three years in his absence; three witnesses examined -> https://www.deccanherald.com/national/non-bailable-warrant-against-controversial-godman-nithyananda-1137546.html",
+      "Gujarat FIR Nov 2019: IPC 365, 344, 323, 504 and Child Labour Act s.14; Yogini Sarvagyapeetham; Pranpriyananda and Priyatatva arrested; DSP Kamariya quotes -> https://www.theweek.in/news/india/2019/11/20/swami-nithyananda-booked-two-women-disciples-held-for-kidnapping.amp.html",
+      "Daughters 21 and 18; videos; 'weapon against Swamiji'; HC 18 Nov 2019 habeas order -> https://thequint.com/news/india/lopamudra-nandhitha-daughters-of-janardhana-sharma-former-disciple-nithyananda",
+      "Kailasa declared Dec 2019; 'nation without borders'; Reserve Bank Aug 2020; no recognition; Paraguay, Ecuador episodes -> https://en.wikipedia.org/wiki/Kailaasa",
+      "Ecuador 'categorically denies ... asylum', 6 Dec 2019; MEA headline on passport -> https://thewire.in/diplomacy/ecuador-nithyananda-asylum-denied-mea-passport",
+      "UN CEDAW 22 Feb and CESCR 24 Feb 2023; OHCHR 'irrelevant to the topic of discussion', 'tangential to the topic at hand' -> https://thenewsminute.com/article/un-says-kailasa-s-inputs-geneva-meeting-irrelevant-won-t-be-considered-173982",
+      "Clarification: 'respects India as its Gurupeedam' -> https://www.freepressjournal.in/india/fictional-country-kailasas-head-fugitive-rape-accused-nithyananda-issues-clarification-on-persecuted-by-india-remark-at-un",
+      "Newark rescinded 18 Jan 2023; 'Based on deception, the (sister-city) ceremony was groundless and void' -> https://www.thenewsminute.com/article/newark-city-us-says-nithyananda-duped-them-cancels-agreement-kailasa-174037",
+      "Bolivia deported 20, March 2025; 'these types of hidden contracts' -> https://scroll.in/latest/1080664/scroll_in",
+      "Kailasa 1 April 2025: 'alive, safe, and active'; 'malicious smear campaign' -> https://www.thenewsminute.com/amp/story/news/kailasa-issues-statement-denying-nithyanandas-death-says-he-is-safe-and-active",
+      "'I teach only meditation, yogic kriyas'; third eye, cows talking claims; flag with Paramashiva and Nandi; 'revive the enlightened Hindu civilisation' -> https://thefederal.com/news/self-styled-godman-nithyananda-once-claimed-that-he-was-able-to-delay-sunrise",
+      "Avatar of superconsciousness; Agamic tradition (organisation's self-description); Shivoham broadcasts -> https://laritualsites.omeka.net/exhibits/show/nithyananda-sangha"
+    ],
+    "dhirendra-shastri": [
+      "Born 4 July 1996 Gada, Chhatarpur; parents Saroj and Ram Kripal Garg; school in Ganj; disciple of Rambhadracharya; Sannyasi Baba; darbar Tue/Sat; kitchen, weddings, gurukul; 2021 ghar wapsi 300; 'I am just a servant at the feet of Bageshwar Balaji'; Nagpur clean chit 25 Jan 2023; Hindu Rashtra slogan 23 Jan 2023; Owaisi/Adityanath; 7.5m followers -> https://en.wikipedia.org/wiki/Dhirendra_Krishna_Shastri",
+      "Manav's Rs 30 lakh test of 10 people; left Nagpur early; complaint under 2013 Act and 1954 DMR Act; 'against fraud or exploitation in the name of god' -> https://scroll.in/article/1043960/meet-the-rationalist-who-challenged-the-controversial-priest-of-bageshwar-dham",
+      "Commissioner Amitesh Kumar: 'the programme held by Maharaj in Nagpur does not attract action under any these laws' -> https://www.tribuneindia.com/news/nation/nagpur-police-give-clean-chit-to-bageshwar-dham-chief-dhirendra-shastri-in-complaint-lodged-by-anti-superstition-crusader-473693",
+      "Raipur, 24 Jan 2023: 'Such people will keep coming. We do not operate within closed doors.'; 'I have faith in my God.' -> https://news.webindia123.com/news/Articles/India/20230124/4030382.html",
+      "Nagpur 5-13 Jan, left two days early for Raipur per schedule; token registration with names and mobile -> https://dailyo.in/news/why-is-godman-dhirendra-shastri-of-bageshwar-dham-trending-38693",
+      "Raipur darbar 20 Jan 2023; details of ABP reporter on public Facebook; writes problem on paper after looking at person -> https://www.boomlive.in/news/dhirendra-krishna-shastri-bageshwar-dham-sarkar-self-styled-godman-raipur-divya-darbar-abp-news-reporter-superstition-20809",
+      "April 2026 Nagpur katha 25-30 Apr; Manav raised offer to Rs 80 lakh -> https://www.aajtak.in/india/maharashtra/story/dhirendra-shastri-vs-shyam-manav-nagpur-divya-darbar-challenge-superstition-row-lcln-strc-2536892-2026-04-29",
+      "Sai Baba remark and clarification (5 Apr 2023) -> https://www.patrika.com/mumbai-news/dhirendra-shastri-bageshwar-baba-issues-clarification-on-shirdi-sai-baba-controversial-statement-8149335/",
+      "Padyatra 21-29 Nov 2024, 160 km to Orchha; 'The purpose of this yatra is to unite Hindus by removing the caste system...' -> https://www.etvbharat.com/en/!bharat/bageshwar-dham-chief-launches-hindu-ekta-yatra-to-unite-hindus-eradicate-caste-system-enn24112105822",
+      "Delhi-Vrindavan padyatra from 7 Nov 2025 -> https://www.theweek.in/wire-updates/national/2025/11/07/des43-dl-cm-padyatra.html",
+      "Cancer hospital foundation 23 Feb 2025; 100 beds, 10 acres; 'my younger brother Dhirendra Shastri' -> https://ianslive.in/pm-modi-lays-foundation-stone-of-cancer-hospital-in-mps-bageshwar-dham--20250223153302",
+      "Udaipur FIR March 2023; Sai Baba April 2023; Bengal Durga Puja row Sept 2026; no electoral politics -> https://www.outlookindia.com/national/who-is-dhirendra-shastri-from-bengals-durga-puja-row-to-earlier-controversies"
+    ]
+  }
+}
