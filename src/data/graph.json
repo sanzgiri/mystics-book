@@ -680,7 +680,8 @@
    "died": 2009,
    "part": 5,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Kowshika near Hassan 26 July 1915; Krishnamacharya's student from 1927; Ashtanga Yoga Research Institute, Mysore, 1948; died Mysore 18 May 2009."
   },
   {
    "id": "satyananda",
@@ -699,7 +700,8 @@
    "died": 1996,
    "part": 5,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born 1925 in Garhwal; US 1969; Menninger Foundation tests c. 1970-71; Himalayan Institute 1971 (Illinois), Honesdale PA 1977; HIHT Dehradun from 1989; died 13 Nov 1996. Civil jury verdict against the Institute, M.D. Pa., 4 Sept 1997."
   },
   {
    "id": "vethathiri",
@@ -799,7 +801,8 @@
    "died": 2011,
    "part": 6,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Nirmala Srivastava (nee Salve), founder of Sahaja Yoga (1970); free mass kundalini awakening; worshipped by followers as the Adi Shakti."
   },
   {
    "id": "pr-sarkar",
@@ -808,7 +811,8 @@
    "died": 1990,
    "part": 6,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Founder of Ananda Marga (January 1955, Jamalpur); tantra as universal science; PROUT (1959) and neohumanism (1982). Convicted 29 Nov 1976 by Additional Sessions Judge, Patna; acquitted by Patna High Court 4 July 1978."
   },
   {
    "id": "bhagavan-nityananda",
@@ -1334,7 +1338,7 @@
    "tier": "profile",
    "kind": "person",
    "died": 2026,
-   "note": "Vijay Kumar Naidu, born Natham, Tamil Nadu, 7 March 1949; died Chennai 29 September 2026. With his wife Padmavathi (b. 1954) founded Jeevashram (1984), Satyaloka (1994) and Oneness University, Varadaiahpalem (2000); the deeksha or Oneness Blessing."
+   "note": "Vijay Kumar Naidu, born Natham, Tamil Nadu, 7 March 1949; died Chennai 29 September 2026; cremated at Ekam Kshetra, Battalavallam, with police honours, early October 2026. With his wife Padmavathi (b. 1954) founded Jeevashram (1984), Satyaloka (1994) and Oneness University, Varadaiahpalem (2000); the deeksha or Oneness Blessing."
   },
   {
    "id": "nithyananda",
@@ -1343,7 +1347,7 @@
    "tier": "profile",
    "kind": "person",
    "born": 1978,
-   "note": "Born Arunachalam Rajasekaran, Tiruvannamalai, 1 January 1978 (1977 in some accounts); founded Nithyananda Dhyanapeetam, Bidadi (2003); accused in a 2010 rape case pending at Ramanagara; left India 2019; declared Kailasa December 2019."
+   "note": "Born Arunachalam Rajasekaran, Tiruvannamalai, 1 January 1978 (1977 in some accounts); founded Nithyananda Dhyanapeetam, Bidadi (2003); charged (2018) in a 2010 rape case pending at Ramanagara; bail cancelled 2020; left India 2019; declared Kailasa December 2019."
   },
   {
    "id": "dhirendra-shastri",
@@ -2762,6 +2766,40 @@
    "tier": "node",
    "kind": "person",
    "note": "Ancestor of Dhirendra Krishna Shastri whom the family names as founder of the Bageshwar Dham shrine at Gada."
+  },
+  {
+   "id": "bengali-baba",
+   "name": "Bengali Baba (Swami Rama's guru)",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Yogi from Bengal living in the Himalayan foothills who, by Swami Rama's own account, raised him; named in some accounts as Madhavananda Bharati. Known only from Swami Rama's testimony."
+  },
+  {
+   "id": "rajmani-tigunait",
+   "name": "Pandit Rajmani Tigunait",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Came to the US at Swami Rama's request; carried on the Himalayan Institute's work after 1996; author of At the Eleventh Hour (2001)."
+  },
+  {
+   "id": "sharath-jois",
+   "name": "R. Sharath Jois",
+   "born": 1971,
+   "died": 2024,
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Grandson of Pattabhi Jois; director of KPJAYI; opened Sharath Yoga Centre 2019; Instagram statement 10 July 2019 acknowledging he witnessed improper adjustments; died 11 Nov 2024 in Virginia. Birth year derived from age 53 at death; confirm."
+  },
+  {
+   "id": "kalikananda",
+   "name": "Kalikananda (Kalicharan Bandyopadhyay)",
+   "part": 6,
+   "tier": "node",
+   "kind": "person",
+   "note": "By Sarkar's own account a Calcutta bandit he won over near Kashi Mitra Ghat in 1939; counted as Ananda Marga's first disciple."
   }
  ],
  "edges": [
@@ -3219,7 +3257,9 @@
    "from": "tantra-shakta",
    "to": "pr-sarkar",
    "type": "influenced",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Sarkar taught tantric meditation and called tantra a universal spiritual science."
   },
   {
    "from": "gaudiya",
@@ -5891,7 +5931,7 @@
    "type": "influenced",
    "evidence": "testimony",
    "verified": false,
-   "note": "A former disciple (Open, 2019) judged the movement against Krishnamurti's teachings; the nature of the influence on the Jeevashram school is not documented in sources seen."
+   "note": "Wikipedia says a childhood friend, R. Sankar, introduced him to Krishnamurti's philosophy; a former disciple (Open, 2019) judged the movement against Krishnamurti's teachings. Not in the movement's own timeline (WRSP)."
   },
   {
    "from": "advaita-vedanta",
@@ -5943,6 +5983,64 @@
    "evidence": "devotional",
    "verified": true,
    "note": "Ancestor and founder of the shrine; Shastri credits his powers partly to Sannyasi Baba's blessing."
+  },
+  {
+   "from": "pattabhi-jois",
+   "to": "sharath-jois",
+   "type": "family",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Grandson (son of Saraswathi Rangaswamy) and principal successor as teacher at the Mysore institute."
+  },
+  {
+   "from": "bengali-baba",
+   "to": "swami-rama",
+   "type": "claimed",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Swami Rama's own account in Living with the Himalayan Masters and the Institute's biography; teacher not otherwise documented."
+  },
+  {
+   "from": "swami-rama",
+   "to": "rajmani-tigunait",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1996,
+   "note": "Disciple; leads the Himalayan Institute after Swami Rama's death in 1996."
+  },
+  {
+   "from": "pr-sarkar",
+   "to": "kalikananda",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1939,
+   "note": "Sarkar's own essay 'Shravani Purnima' (A Few Problems Solved, Part 5, 1980)."
+  },
+  {
+   "from": "tantra-shakta",
+   "to": "shri-mataji",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Kundalini, nadis and chakras of the tantric subtle body; identification with the Adi Shakti of Shakta theology."
+  },
+  {
+   "from": "christianity",
+   "to": "shri-mataji",
+   "type": "family",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Born to Marathi Christian parents (per N.K.P. Salve entry; Wikipedia on her gives father Hindu, mother Christian). Followers identify her with the Holy Spirit."
+  },
+  {
+   "from": "gandhi",
+   "to": "shri-mataji",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Movement biographies say she spent school holidays at Gandhi's ashram; she joined Quit India in 1942."
   }
  ]
 }

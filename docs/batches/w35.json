@@ -1,45 +1,235 @@
 {
   "batch": "w35",
   "nodes_add": [
-    {"id": "krishnaji-preethaji", "name": "N.K.V. Krishna & Preetha Krishna (Ekam)", "part": 13, "tier": "node", "kind": "person", "note": "Son and daughter-in-law of Kalki Bhagavan and Amma; took over the Oneness organisation and its businesses c. 2017; opened Ekam at Varadaiahpalem, January 2018."},
-    {"id": "kailasa", "name": "Kailasa (self-declared)", "part": 13, "tier": "node", "kind": "institution", "note": "Declared by Nithyananda in December 2019 as a sovereign Hindu nation 'without borders'; recognised by no government or international body."},
-    {"id": "rambhadracharya", "name": "Jagadguru Rambhadracharya", "born": 1950, "part": 13, "tier": "node", "kind": "person", "note": "Ramanandi scholar-monk of Chitrakoot; guru of Dhirendra Krishna Shastri."},
-    {"id": "sannyasi-baba-bageshwar", "name": "Sannyasi Baba (Bageshwar Dham)", "part": 13, "tier": "node", "kind": "person", "note": "Ancestor of Dhirendra Krishna Shastri whom the family names as founder of the Bageshwar Dham shrine at Gada."}
+    {
+      "id": "krishnaji-preethaji",
+      "name": "N.K.V. Krishna & Preetha Krishna (Ekam)",
+      "part": 13,
+      "tier": "node",
+      "kind": "person",
+      "note": "Son and daughter-in-law of Kalki Bhagavan and Amma; took over the Oneness organisation and its businesses c. 2017; opened Ekam at Varadaiahpalem, January 2018."
+    },
+    {
+      "id": "kailasa",
+      "name": "Kailasa (self-declared)",
+      "part": 13,
+      "tier": "node",
+      "kind": "institution",
+      "note": "Declared by Nithyananda in December 2019 as a sovereign Hindu nation 'without borders'; recognised by no government or international body."
+    },
+    {
+      "id": "rambhadracharya",
+      "name": "Jagadguru Rambhadracharya",
+      "born": 1950,
+      "part": 13,
+      "tier": "node",
+      "kind": "person",
+      "note": "Ramanandi scholar-monk of Chitrakoot; guru of Dhirendra Krishna Shastri."
+    },
+    {
+      "id": "sannyasi-baba-bageshwar",
+      "name": "Sannyasi Baba (Bageshwar Dham)",
+      "part": 13,
+      "tier": "node",
+      "kind": "person",
+      "note": "Ancestor of Dhirendra Krishna Shastri whom the family names as founder of the Bageshwar Dham shrine at Gada."
+    }
   ],
   "nodes_update": [
-    {"id": "kalki-bhagavan", "born": 1949, "died": 2026, "name": "Kalki Bhagavan & Amma Bhagavan (Oneness)", "note": "Vijay Kumar Naidu, born Natham, Tamil Nadu, 7 March 1949; died Chennai 29 September 2026. With his wife Padmavathi (b. 1954) founded Jeevashram (1984), Satyaloka (1994) and Oneness University, Varadaiahpalem (2000); the deeksha or Oneness Blessing."},
-    {"id": "nithyananda", "born": 1978, "name": "Nithyananda (Kailasa)", "note": "Born Arunachalam Rajasekaran, Tiruvannamalai, 1 January 1978 (1977 in some accounts); founded Nithyananda Dhyanapeetam, Bidadi (2003); accused in a 2010 rape case pending at Ramanagara; left India 2019; declared Kailasa December 2019."},
-    {"id": "dhirendra-shastri", "born": 1996, "name": "Dhirendra Krishna Shastri (Bageshwar Dham)", "note": "Born Dhirendra Krishna Garg, Gada, Chhatarpur district, 4 July 1996; head of the Bageshwar Dham Hanuman shrine; known for the divya darbar and Hindu Rashtra campaigning."}
+    {
+      "id": "kalki-bhagavan",
+      "born": 1949,
+      "died": 2026,
+      "name": "Kalki Bhagavan & Amma Bhagavan (Oneness)",
+      "note": "Vijay Kumar Naidu, born Natham, Tamil Nadu, 7 March 1949; died Chennai 29 September 2026; cremated at Ekam Kshetra, Battalavallam, with police honours, early October 2026. With his wife Padmavathi (b. 1954) founded Jeevashram (1984), Satyaloka (1994) and Oneness University, Varadaiahpalem (2000); the deeksha or Oneness Blessing."
+    },
+    {
+      "id": "nithyananda",
+      "born": 1978,
+      "name": "Nithyananda (Kailasa)",
+      "note": "Born Arunachalam Rajasekaran, Tiruvannamalai, 1 January 1978 (1977 in some accounts); founded Nithyananda Dhyanapeetam, Bidadi (2003); charged (2018) in a 2010 rape case pending at Ramanagara; bail cancelled 2020; left India 2019; declared Kailasa December 2019."
+    },
+    {
+      "id": "dhirendra-shastri",
+      "born": 1996,
+      "name": "Dhirendra Krishna Shastri (Bageshwar Dham)",
+      "note": "Born Dhirendra Krishna Garg, Gada, Chhatarpur district, 4 July 1996; head of the Bageshwar Dham Hanuman shrine; known for the divya darbar and Hindu Rashtra campaigning."
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "kalki-bhagavan", "to": "krishnaji-preethaji", "type": "family", "evidence": "documented", "verified": true, "year": 2017, "note": "Son and daughter-in-law; organisation and business interests handed over c. 2017, renamed Ekam."},
-    {"from": "j-krishnamurti", "to": "kalki-bhagavan", "type": "influenced", "evidence": "testimony", "verified": false, "note": "A former disciple (Open, 2019) judged the movement against Krishnamurti's teachings; the nature of the influence on the Jeevashram school is not documented in sources seen."},
-    {"from": "advaita-vedanta", "to": "kalki-bhagavan", "type": "influenced", "evidence": "documented", "verified": true, "note": "Teaching that suffering comes from the separate self and that awakening ends it."},
-    {"from": "ramakrishna", "to": "nithyananda", "type": "institutional", "evidence": "testimony", "verified": true, "year": 1995, "note": "Reportedly joined the Ramakrishna Math, Chennai, in 1995 (Quartz, citing his own account)."},
-    {"from": "tamil-shaiva", "to": "nithyananda", "type": "institutional", "evidence": "documented", "verified": true, "year": 2012, "note": "Named 293rd head of the Madurai Aadheenam in 2012; appointment withdrawn the same year. Agamic Shaiva worship in his temples."},
-    {"from": "nithyananda", "to": "kailasa", "type": "institutional", "evidence": "documented", "verified": true, "year": 2019, "note": "Declared December 2019."},
-    {"from": "rambhadracharya", "to": "dhirendra-shastri", "type": "initiated", "evidence": "documented", "verified": true, "note": "Shastri describes himself as Rambhadracharya's disciple (Wikipedia; widely reported)."},
-    {"from": "sannyasi-baba-bageshwar", "to": "dhirendra-shastri", "type": "family", "evidence": "devotional", "verified": true, "note": "Ancestor and founder of the shrine; Shastri credits his powers partly to Sannyasi Baba's blessing."}
+    {
+      "from": "kalki-bhagavan",
+      "to": "krishnaji-preethaji",
+      "type": "family",
+      "evidence": "documented",
+      "verified": true,
+      "year": 2017,
+      "note": "Son and daughter-in-law; organisation and business interests handed over c. 2017, renamed Ekam."
+    },
+    {
+      "from": "j-krishnamurti",
+      "to": "kalki-bhagavan",
+      "type": "influenced",
+      "evidence": "testimony",
+      "verified": false,
+      "note": "Wikipedia says a childhood friend, R. Sankar, introduced him to Krishnamurti's philosophy; a former disciple (Open, 2019) judged the movement against Krishnamurti's teachings. Not in the movement's own timeline (WRSP)."
+    },
+    {
+      "from": "advaita-vedanta",
+      "to": "kalki-bhagavan",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Teaching that suffering comes from the separate self and that awakening ends it."
+    },
+    {
+      "from": "ramakrishna",
+      "to": "nithyananda",
+      "type": "institutional",
+      "evidence": "testimony",
+      "verified": true,
+      "year": 1995,
+      "note": "Reportedly joined the Ramakrishna Math, Chennai, in 1995 (Quartz, citing his own account)."
+    },
+    {
+      "from": "tamil-shaiva",
+      "to": "nithyananda",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 2012,
+      "note": "Named 293rd head of the Madurai Aadheenam in 2012; appointment withdrawn the same year. Agamic Shaiva worship in his temples."
+    },
+    {
+      "from": "nithyananda",
+      "to": "kailasa",
+      "type": "institutional",
+      "evidence": "documented",
+      "verified": true,
+      "year": 2019,
+      "note": "Declared December 2019."
+    },
+    {
+      "from": "rambhadracharya",
+      "to": "dhirendra-shastri",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Shastri describes himself as Rambhadracharya's disciple (Wikipedia; widely reported)."
+    },
+    {
+      "from": "sannyasi-baba-bageshwar",
+      "to": "dhirendra-shastri",
+      "type": "family",
+      "evidence": "devotional",
+      "verified": true,
+      "note": "Ancestor and founder of the shrine; Shastri credits his powers partly to Sannyasi Baba's blessing."
+    }
   ],
   "places": [
-    {"name": "Oneness University / Ekam, Varadaiahpalem", "lat": 13.58, "lon": 79.95, "figure": "kalki-bhagavan", "what": "Oneness University (2000), Oneness Temple (2008), Ekam (2018); body taken to Ekam Kshetra, Battalavallam, September 2026", "verified": false},
-    {"name": "Natham, Vellore district", "lat": 12.9, "lon": 79.1, "figure": "kalki-bhagavan", "what": "Birthplace, 7 March 1949", "verified": false},
-    {"name": "Tiruvannamalai", "lat": 12.23, "lon": 79.07, "figure": "nithyananda", "what": "Birthplace", "verified": true},
-    {"name": "Nithyananda Dhyanapeetam, Bidadi", "lat": 12.80, "lon": 77.39, "figure": "nithyananda", "what": "Ashram founded 2003; focus of the 2010 Ramanagara case", "verified": false},
-    {"name": "Bageshwar Dham, Gada, Chhatarpur district", "lat": 24.86, "lon": 79.72, "figure": "dhirendra-shastri", "what": "Birthplace and Hanuman shrine; cancer hospital foundation stone laid 23 February 2025", "verified": false}
+    {
+      "name": "Oneness University / Ekam, Varadaiahpalem",
+      "lat": 13.58,
+      "lon": 79.95,
+      "figure": "kalki-bhagavan",
+      "what": "Oneness University (2000), Oneness Temple (2008), Ekam (2018); body taken to Ekam Kshetra, Battalavallam, September 2026",
+      "verified": false
+    },
+    {
+      "name": "Natham, Vellore district",
+      "lat": 12.9,
+      "lon": 79.1,
+      "figure": "kalki-bhagavan",
+      "what": "Birthplace, 7 March 1949",
+      "verified": false
+    },
+    {
+      "name": "Tiruvannamalai",
+      "lat": 12.23,
+      "lon": 79.07,
+      "figure": "nithyananda",
+      "what": "Birthplace",
+      "verified": true
+    },
+    {
+      "name": "Nithyananda Dhyanapeetam, Bidadi",
+      "lat": 12.8,
+      "lon": 77.39,
+      "figure": "nithyananda",
+      "what": "Ashram founded 2003; focus of the 2010 Ramanagara case",
+      "verified": false
+    },
+    {
+      "name": "Bageshwar Dham, Gada, Chhatarpur district",
+      "lat": 24.86,
+      "lon": 79.72,
+      "figure": "dhirendra-shastri",
+      "what": "Birthplace and Hanuman shrine; cancer hospital foundation stone laid 23 February 2025",
+      "verified": false
+    }
   ],
   "glossary": [
-    {"term": "Deeksha (Oneness Blessing)", "script": "దీక్ష", "lang": "te", "def": "In the Oneness movement, a blessing given by placing the hands on the head, which the movement says transmits energy and starts a process of awakening."},
-    {"term": "Ekam", "script": "ఏకం", "lang": "te", "def": "One, oneness. The name of the meditation hall opened at the Oneness campus in 2018 and of the organisation after 2017."},
-    {"term": "Aadheenam", "script": "ஆதீனம்", "lang": "ta", "def": "A Tamil Shaiva monastery headed by a pontiff, such as the Madurai Aadheenam."},
-    {"term": "Kailasa", "script": "கைலாசம்", "lang": "ta", "def": "Mount Kailash, Shiva's abode; also the name Nithyananda gave to his self-declared Hindu nation in 2019."},
-    {"term": "Divya darbar", "script": "दिव्य दरबार", "lang": "hi", "def": "Divine court: Dhirendra Shastri's public sessions where he says he names visitors' troubles and offers remedies."},
-    {"term": "Parcha", "script": "पर्चा", "lang": "hi", "def": "A slip of paper on which Dhirendra Shastri writes what he says is a visitor's problem."},
-    {"term": "Katha", "script": "कथा", "lang": "hi", "def": "A sermon in which a preacher sings and explains a sacred story, such as the Ramcharitmanas, over several days."},
-    {"term": "Hindu Rashtra", "script": "हिंदू राष्ट्र", "lang": "hi", "def": "Hindu nation: the demand that India be declared a Hindu state."},
-    {"term": "Ghar wapsi", "script": "घर वापसी", "lang": "hi", "def": "Homecoming: ceremonies that bring converts to other religions back to Hinduism."},
-    {"term": "Peethadhishwar", "script": "पीठाधीश्वर", "lang": "hi", "def": "The head of a religious seat or shrine."}
+    {
+      "term": "Deeksha (Oneness Blessing)",
+      "script": "దీక్ష",
+      "lang": "te",
+      "def": "In the Oneness movement, a blessing given by placing the hands on the head, which the movement says transmits energy and starts a process of awakening."
+    },
+    {
+      "term": "Ekam",
+      "script": "ఏకం",
+      "lang": "te",
+      "def": "One, oneness. The name of the meditation hall opened at the Oneness campus in 2018 and of the organisation after 2017."
+    },
+    {
+      "term": "Aadheenam",
+      "script": "ஆதீனம்",
+      "lang": "ta",
+      "def": "A Tamil Shaiva monastery headed by a pontiff, such as the Madurai Aadheenam."
+    },
+    {
+      "term": "Kailasa",
+      "script": "கைலாசம்",
+      "lang": "ta",
+      "def": "Mount Kailash, Shiva's abode; also the name Nithyananda gave to his self-declared Hindu nation in 2019."
+    },
+    {
+      "term": "Divya darbar",
+      "script": "दिव्य दरबार",
+      "lang": "hi",
+      "def": "Divine court: Dhirendra Shastri's public sessions where he says he names visitors' troubles and offers remedies."
+    },
+    {
+      "term": "Parcha",
+      "script": "पर्चा",
+      "lang": "hi",
+      "def": "A slip of paper on which Dhirendra Shastri writes what he says is a visitor's problem."
+    },
+    {
+      "term": "Katha",
+      "script": "कथा",
+      "lang": "hi",
+      "def": "A sermon in which a preacher sings and explains a sacred story, such as the Ramcharitmanas, over several days."
+    },
+    {
+      "term": "Hindu Rashtra",
+      "script": "हिंदू राष्ट्र",
+      "lang": "hi",
+      "def": "Hindu nation: the demand that India be declared a Hindu state."
+    },
+    {
+      "term": "Ghar wapsi",
+      "script": "घर वापसी",
+      "lang": "hi",
+      "def": "Homecoming: ceremonies that bring converts to other religions back to Hinduism."
+    },
+    {
+      "term": "Peethadhishwar",
+      "script": "पीठाधीश्वर",
+      "lang": "hi",
+      "def": "The head of a religious seat or shrine."
+    }
   ],
   "art": [],
   "issues": [
@@ -58,7 +248,8 @@
     "dhirendra-shastri.mdx: The Tukaram withdrawal is supported only by search-result headlines (ETV Bharat Feb 2023; IANS Nov 2023, possibly a second remark); not fetched.",
     "dhirendra-shastri.mdx: Udaipur FIR (March 2023) outcome unknown. April 2026 Nagpur challenge outcome unknown. Rambhadracharya's Chitrakoot and Ramanandi details are from general knowledge, not a fetched page.",
     "Word counts run about 1,250 words each (frontmatter excluded), slightly over the 1,200 profile ceiling, because of the controversy sections; the author may trim.",
-    "places: Varadaiahpalem, Natham, Bidadi and Bageshwar Dham coordinates are approximate and marked verified false."
+    "places: Varadaiahpalem, Natham, Bidadi and Bageshwar Dham coordinates are approximate and marked verified false.",
+    "factcheck w35: author to decide whether to mention Dhirendra Shastri's April 2026 Shivaji remark and apology; PIL year for Kalki (2002/2004) unresolved."
   ],
   "sources": {
     "kalki-bhagavan": [
@@ -108,6 +299,30 @@
       "Delhi-Vrindavan padyatra from 7 Nov 2025 -> https://www.theweek.in/wire-updates/national/2025/11/07/des43-dl-cm-padyatra.html",
       "Cancer hospital foundation 23 Feb 2025; 100 beds, 10 acres; 'my younger brother Dhirendra Shastri' -> https://ianslive.in/pm-modi-lays-foundation-stone-of-cancer-hospital-in-mps-bageshwar-dham--20250223153302",
       "Udaipur FIR March 2023; Sai Baba April 2023; Bengal Durga Puja row Sept 2026; no electoral politics -> https://www.outlookindia.com/national/who-is-dhirendra-shastri-from-bengals-durga-puja-row-to-earlier-controversies"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 118,
+    "changes": [
+      "kalki-bhagavan.mdx: death on 29 Sep 2026 in Chennai aged 77 confirmed (Deccan Chronicle, Hans India, NewsBytes 30 Sep 2026; Tuesday = 29 Sep); added cremation at Ekam Kshetra, Battalavallam, with police honours ordered by the AP government (Hans India, 3 Oct 2026) and reference.",
+      "kalki-bhagavan.mdx: Krishnamurti lineage paragraph: added Wikipedia's account that childhood friend R. Sankar introduced him to Krishnamurti; noted WRSP timeline does not mention him. Batch edge note updated; still verified false.",
+      "kalki-bhagavan.mdx: 2002 petition hedged to 'early 2000s'; Wikipedia says 2002 but cites a 2004 Hindu report ('Plea for CBI probe against godman turned down').",
+      "kalki-bhagavan.mdx: IT searches: the department's own release (PTI, Business Standard 18 Oct 2019) gave Rs 43.9 cr cash, Rs 18 cr USD, ~Rs 93 cr total seized and >Rs 500 cr undisclosed income; text had attributed these to press/unnamed officials. 'Foreign receipts from overseas course fees through companies abroad' unsupported; replaced with department's stated probe of diversion of income to offshore entities. 88 kg gold and 1,271 carats attributed to press. Added PTI reference; stated these are allegations; no charge reported.",
+      "kalki-bhagavan.mdx: 'nothing to say to the media' re-attributed to the Kalki Ashram Trust manager speaking to The Week (TNM has no manager remark). Krishna 'appeared before' officials (ETV Bharat headline).",
+      "nithyananda.mdx: MEA wording corrected: passport cancelled and application for new one rejected (TNM, Dec 2019), replacing 'left without a valid passport'; reference added.",
+      "nithyananda.mdx: 2018 plea: he and co-accused present pleaded not guilty (A2 absent) (TNM 6 Jun 2018). Stalled-trial note attributed to Deccan Herald 2022 with three witnesses examined.",
+      "nithyananda.mdx: UN Feb 2023: CEDAW meeting attended, persecution remark at CESCR; 'open sessions' removed (TNM). Newark: signed c. 11 Jan, rescinded 18 Jan 2023 (TNM).",
+      "nithyananda.mdx: April 2025 statement: quote replaced by paraphrase (Onmanorama gives 'healthy, safe, alive and active'); rumour source hedged.",
+      "dhirendra-shastri.mdx: Sannyasi Baba relation: glance said grandfather's grandfather; Wikipedia says great-grandfather and also 'third generation'; both hedged.",
+      "dhirendra-shastri.mdx: 2021 ghar wapsi of 300 (uncited in Wikipedia) replaced by Organiser's attributed report of 220 people, Feb 2023. Hindu Rashtra slogan paraphrased (Wikipedia citing TimesNow headline 'Support me and I will give you Hindu Rashtra').",
+      "dhirendra-shastri.mdx: BOOM: 'every detail' overstated (slip contents not shown public); quote is from ABP Senior VP Sant Prasad Rai, not an editor; verbatim quote added. Registration attributed to DailyO.",
+      "dhirendra-shastri.mdx: Sai Baba clarification reworded to Patrika 5 Apr 2023; Tukaram: specified Nov 2023 regret statement in Pune after Warkari protests and clashes (IANS); Adityanath reaction attributed; BJP president named (Outlook); 'respects all religions, will not tolerate insults' unsourced, rephrased."
+    ],
+    "unresolved": [
+      "Kalki: year of the PIL (2002 vs 2004) and petitioner; The Week's ED FEMA case unconfirmed elsewhere; no later tax assessment outcome found.",
+      "Nithyananda: no Ramanagara trial order after 2022 found (a Karnataka HC stay on transfer petition, c. Dec 2019, also reported by Deccan Herald); Gujarat FIR chargesheet status not found.",
+      "Dhirendra: Udaipur FIR outcome and April 2026 Nagpur challenge outcome unknown; Hindu Rashtra slogan date rests on Wikipedia; Padyatra quote (ETV Bharat) and Delhi-Vrindavan march not re-fetched. April 2026 apology over a Shivaji/Samarth Ramdas remark (Amar Ujala, Hitavada) not covered; author may add.",
+      "Place coordinates remain approximate (verified false)."
     ]
   }
 }

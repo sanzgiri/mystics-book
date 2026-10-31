@@ -2406,6 +2406,118 @@
    "figure": "dhirendra-shastri",
    "what": "Birthplace and Hanuman shrine; cancer hospital foundation stone laid 23 February 2025",
    "verified": false
+  },
+  {
+   "name": "Himalayan Institute, Honesdale, Pennsylvania",
+   "lat": 41.6,
+   "lon": -75.29,
+   "figure": "swami-rama",
+   "what": "Headquarters from 1977; site of the events in the 1994 civil suit",
+   "verified": false
+  },
+  {
+   "name": "Menninger Foundation, Topeka, Kansas",
+   "lat": 39.05,
+   "lon": -95.69,
+   "figure": "swami-rama",
+   "what": "Laboratory tests of voluntary control, c. 1970-71",
+   "verified": false
+  },
+  {
+   "name": "Himalayan Institute Hospital Trust, Jolly Grant, near Dehradun",
+   "lat": 30.19,
+   "lon": 78.17,
+   "figure": "swami-rama",
+   "what": "Hospital begun as a clinic in 1989; where he died, 1996",
+   "verified": false
+  },
+  {
+   "name": "Hassan",
+   "lat": 13.01,
+   "lon": 76.1,
+   "figure": "pattabhi-jois",
+   "what": "Met Krishnamacharya at the Jubilee Hall, 1927",
+   "verified": true
+  },
+  {
+   "name": "Lakshmipuram, Mysore",
+   "lat": 12.3,
+   "lon": 76.65,
+   "figure": "pattabhi-jois",
+   "what": "Ashtanga Yoga Research Institute in his home, 1948",
+   "verified": false
+  },
+  {
+   "name": "Chhindwara",
+   "lat": 22.057,
+   "lon": 78.939,
+   "figure": "shri-mataji",
+   "what": "Birthplace (1923)",
+   "verified": true
+  },
+  {
+   "name": "Nargol",
+   "lat": 20.233,
+   "lon": 72.75,
+   "figure": "shri-mataji",
+   "what": "Shore where, by the movement's account, she opened the sahasrara on 5 May 1970",
+   "verified": false
+  },
+  {
+   "name": "Genoa",
+   "lat": 44.405,
+   "lon": 8.946,
+   "figure": "shri-mataji",
+   "what": "Place of death (2011)",
+   "verified": true
+  },
+  {
+   "name": "Jamalpur",
+   "lat": 25.311,
+   "lon": 86.489,
+   "figure": "pr-sarkar",
+   "what": "Birthplace (1921); railway job; founding of Ananda Marga (January 1955)",
+   "verified": true
+  },
+  {
+   "name": "Kashi Mitra Ghat, Calcutta",
+   "lat": 22.598,
+   "lon": 88.36,
+   "figure": "pr-sarkar",
+   "what": "Kalikananda encounter (1939), by Sarkar's account",
+   "verified": false
+  },
+  {
+   "name": "Patna",
+   "lat": 25.594,
+   "lon": 85.137,
+   "figure": "pr-sarkar",
+   "what": "Bankipur Central Jail (1971-1978); sessions conviction 1976; High Court acquittal 1978",
+   "verified": true
+  },
+  {
+   "name": "Ananda Nagar, Purulia district",
+   "lat": 23.18,
+   "lon": 86.07,
+   "figure": "pr-sarkar",
+   "what": "Movement centre from about 1962",
+   "verified": false
+  },
+  {
+   "name": "Bijon Setu, Kolkata",
+   "lat": 22.517,
+   "lon": 88.375,
+   "figure": "pr-sarkar",
+   "what": "Mob killing of 17 Ananda Marga monks and a nun, 30 April 1982",
+   "verified": false
+  },
+  {
+   "name": "Kolkata",
+   "lat": 22.572,
+   "lon": 88.364,
+   "figure": "pr-sarkar",
+   "what": "Place of death (1990)",
+   "verified": true
   }
  ]
 }
