@@ -1,0 +1,189 @@
+{
+  "batch": "o22",
+  "nodes_add": [
+    {
+      "id": "gaurangi-sharan",
+      "name": "Shri Hit Gaurangi Sharan Ji Maharaj",
+      "part": 7,
+      "tier": "node",
+      "kind": "person",
+      "note": "Radhavallabh renunciant of Vrindavan; guru of Premanand Maharaj, who served him about ten years and received from him initiation into sahachari bhav and nitya vihar ras (ashram's account). Dates not found."
+    },
+    {
+      "id": "mohit-maral-goswami",
+      "name": "Hit Mohit Maral Goswami",
+      "part": 7,
+      "tier": "node",
+      "kind": "person",
+      "note": "18th Tilakayat Adhikari (head) of the Radhavallabh Sampradaya, Radhavallabh temple, Vrindavan, per the temple site; eldest son of the 17th, Hit Radhesh Lal Goswami. By Premanand's ashram's account he gave Premanand the sect's sharanagat mantra and sent him to Gaurangi Sharan. Birth year not given."
+    }
+  ],
+  "nodes_update": [
+    {
+      "id": "premanand-maharaj",
+      "name": "Premanand Maharaj",
+      "born": 1971,
+      "note": "Shri Hit Premanand Govind Sharan Ji Maharaj; born Aniruddh Kumar Pandey, Akhri village, Sarsaul block, Kanpur district, UP. Birth year 1969 (NavbharatLive), 30 Mar 1971 (Wikipedia) or 1972 (Pioneer); 1971 used for the node, flag as uncertain. Left home at 13; naishthik brahmachari (Anandswaroop Brahmachari), sannyasa as Swami Anandashram; Varanasi ghats; Vrindavan (about two decades before 2025 per ThePrint); Shri Hit Radha Keli Kunj, Varaha Ghat. Living."
+    }
+  ],
+  "edges_remove": [],
+  "edges_upsert": [
+    {
+      "from": "radhavallabh",
+      "to": "premanand-maharaj",
+      "type": "lineage",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Member of the Radhavallabh Sampradaya; ashram, Wikipedia and ThePrint agree."
+    },
+    {
+      "from": "gaurangi-sharan",
+      "to": "premanand-maharaj",
+      "type": "initiated",
+      "evidence": "testimony",
+      "verified": true,
+      "note": "Named as his guru (sadguru) by his ashram and by ThePrint (2025); about ten years' service. Date unknown. Verified that he and his ashram state it; no independent record."
+    },
+    {
+      "from": "mohit-maral-goswami",
+      "to": "premanand-maharaj",
+      "type": "initiated",
+      "evidence": "testimony",
+      "verified": true,
+      "note": "Ashram biography: gave him the sharanagat mantra at the Radhavallabh temple before sending him to Gaurangi Sharan. Date unknown."
+    },
+    {
+      "from": "radhavallabh",
+      "to": "gaurangi-sharan",
+      "type": "lineage",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Radhavallabh renunciant (Hit prefix; ashram account)."
+    },
+    {
+      "from": "radhavallabh",
+      "to": "mohit-maral-goswami",
+      "type": "lineage",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Hereditary head (Tilakayat) of the sect, per radhavallabhmandir.com."
+    }
+  ],
+  "places": [
+    {
+      "name": "Shri Hit Radha Keli Kunj, Varaha Ghat, Vrindavan",
+      "lat": 27.58,
+      "lon": 77.69,
+      "figure": "premanand-maharaj",
+      "what": "His ashram on the Parikrama Marg, where he holds satsang and Ekantik Vartalap sessions. Coordinates are for Vrindavan town to two decimals; exact site not checked.",
+      "verified": false
+    },
+    {
+      "name": "Radhavallabh temple, Vrindavan",
+      "lat": 27.58,
+      "lon": 77.70,
+      "figure": "premanand-maharaj",
+      "what": "Where, by the ashram's account, he was drawn into the Radhavallabh Sampradaya and received its initiation mantra. Town-level coordinates.",
+      "verified": false
+    },
+    {
+      "name": "Assi Ghat, Varanasi",
+      "lat": 25.287,
+      "lon": 83.007,
+      "figure": "premanand-maharaj",
+      "what": "Among the Ganga ghats where he lived as a young renunciant.",
+      "verified": true
+    }
+  ],
+  "art": [],
+  "glossary": [
+    {
+      "term": "Naam jap",
+      "script": "नाम जप",
+      "lang": "hi",
+      "def": "Repeating the name of God, aloud or silently, as a practice in itself. Premanand Maharaj's central instruction. (Overlaps the existing entries Japa and Naam; merge if preferred.)"
+    },
+    {
+      "term": "Ekantik Vartalap",
+      "script": "एकांतिक वार्तालाप",
+      "lang": "hi",
+      "def": "Literally a private conversation. At Premanand Maharaj's ashram, a short session in which written questions from a small admitted audience are read out and he answers them; recordings are posted online."
+    },
+    {
+      "term": "Sharanagati",
+      "script": "शरणागति",
+      "lang": "sa",
+      "def": "Taking refuge; full surrender of oneself to God or the guru, leaving the outcome of one's life to them."
+    },
+    {
+      "term": "Sahachari bhav",
+      "script": "सहचरी भाव",
+      "lang": "hi",
+      "def": "In the Radhavallabh tradition, the inner attitude of one of Radha's companions, who lives for the happiness of the divine couple."
+    },
+    {
+      "term": "Nitya vihar",
+      "script": "नित्य विहार",
+      "lang": "hi",
+      "def": "The eternal love play of Radha and Krishna in Vrindavan, which the Radhavallabh devotee hopes to witness as a companion."
+    },
+    {
+      "term": "Hit",
+      "script": "हित",
+      "lang": "hi",
+      "def": "Love; in the Radhavallabh Sampradaya, pure selfless love, and a prefix to the names of its founder Hit Harivansh and many of its teachers."
+    },
+    {
+      "term": "Madhukari",
+      "script": "माधुकरी",
+      "lang": "hi",
+      "def": "Living on small portions of food begged from several households, like a bee gathering from many flowers; a traditional renunciant's discipline in Braj."
+    },
+    {
+      "term": "Naishthik brahmachari",
+      "script": "नैष्ठिक ब्रह्मचारी",
+      "lang": "sa",
+      "def": "One who takes a vow of lifelong celibacy and study, without later marrying."
+    }
+  ],
+  "issues": [
+    "premanand-maharaj.mdx: birth year conflicts (1969 NavbharatLive; 30 March 1971 Wikipedia; 1972 Pioneer). Glance gives all three; node uses 1971 provisionally. No primary record found.",
+    "premanand-maharaj.mdx: dates of leaving Varanasi, arriving in Vrindavan and the two initiations are undocumented. ThePrint's 'two decades ago' (2025) sits awkwardly with ten years' service to his guru before teaching, and with Mohit Maral Goswami being the current head (succeeded his father recently per the temple site); the ashram account may mean he received the mantra from the Goswami family. Left as the ashram's account.",
+    "premanand-maharaj.mdx: kidney illness kept to one sentence (his own public statements; Pioneer column; Wikipedia citing India Today and Indian Express, which could not be fetched here). Author may prefer to drop it under the living-person rule.",
+    "premanand-maharaj.mdx: the July 2025 remarks are known mostly from a short clip; sources fetched (Madhyamam, Dynamite News, Amar Ujala) paraphrase in English or Hindi and none gives a full transcript. No apology or clarification by him or the ashram was found. A national paper of record (Indian Express, The Hindu, NDTV English) could not be fetched; checker should confirm.",
+    "premanand-maharaj.mdx: Ankita Lokhande's support rests on an Aaj Tak web story headline seen in search results only, not fetched.",
+    "premanand-maharaj.mdx: ThePrint follower figures (30M Instagram, 14M YouTube, August 2025) are dated and will age; consider updating at publication.",
+    "premanand-maharaj.mdx: the night walk's later history after July 2024 (resumed, timing changed, postponed for health) is summarised loosely from Zee and NavbharatLive search results; exact dates not established.",
+    "premanand-maharaj.mdx: no photo added. Media cards not used (profile template); the Bhajan Marg YouTube channel URL is from the ashram site.",
+    "Hit Harivansh dates: Wikipedia 1502-1552 with founding 1535; Jagadananda Das (BSOAS 1992) 1502-1553. Profile gives founding as 'usually dated 1535'.",
+    "grace.mdx: names only Part 7 figures with pages (Anandamayi Ma, Prabhupada, Bhaktivinoda, Bhaktisiddhanta, Amma, Shastriji Maharaj, Papa Ramdas, Neem Karoli Baba, Premanand Maharaj). Ramakrishna, Sarada Devi, Vallalar, Ayya Vaikundar and Shirdi Sai Baba sit in other parts in graph.json and are not named. Mother Meera and Gaur Gopal Das are Part 7 tree nodes without pages and are not named.",
+    "Places: Vrindavan coordinates are town-level only (verified: false); exact coordinates for Radha Keli Kunj and the Radhavallabh temple need checking. Akhri village not mapped."
+  ],
+  "sources": {
+    "premanand-maharaj": [
+      "Birth name Aniruddh Kumar Pandey; Akhri village, Sarsaul block, Kanpur; Brahmin family; grandfather a sannyasi; father Shambhu Pandey later took sannyasa; mother Rama Devi; read Shri Sukhsagar in class 5; told mother by class 9; left home at 13 at 3 a.m.; Anandswaroop Brahmachari; Swami Anandashram; akash vritti; Assi Ghat and ghats Haridwar-Varanasi; blessed by Shiva; month of Ras Lila and Chaitanya lila; train to Mathura; Banke Bihari; sent to Radhavallabh temple; Mohit Maral Goswami gave Sharanagat mantra; met Gaurangi Sharan; sahachari bhav and nitya vihar ras; served guru 10 years; madhukari -> https://radhakelikunj.com/?p=269",
+      "Born 30 March 1971; naishthik brahmachari; Shiva vision in Varanasi directed him to Vrindavan; Radhavallabh founded by Hit Harivansh; Radha Keli Kunj at Varaha Ghat on Parikrama Marg; Shri Hit Radha Keli Kunj Trust; satsang 4:15-5:45 AM; Ekantik Vartalap; ADPKD and dialysis; declined donation offers -> https://en.wikipedia.org/wiki/Premanand_Govind_Sharan",
+      "Born 1969 -> https://navbharatlive.com/religion/premanand-govind-sharan-ji-maharaj-vrindavan-wale-real-name-know-unknown-facts-full-biograph-1119198.html",
+      "Born 1972 in Akhari; kidneys failed, dialysis; says he lives by Radha's will; does not offer quick fixes, blessing will not cure body pain; rejects superstition -> https://dailypioneer.com/news/delving-into-indias-faith-faultlines (opinion column, 13 Sep 2026)",
+      "Left home at 13 ('he left his home at the age of 13 to pursue sanyas'); quote 'one among thousands of other sants in the holy town' (arrival two decades before 2025); guru Shri Hit Gaurangi Sharan Ji Maharaj; Ekantik Vartalaap by free token, written questions read by a sevak, 12-15 minute sessions; 30M+ Instagram, 14M+ YouTube; 8 lakh+ on Nirjala Ekadashi June 2025; Kohli and Sharma among visitors; quote 'only naam jaap' (recommends only naam jaap as a solution); denounces meat and alcohol; supports love and inter-caste marriages, parents should support children -> https://theprint.in/ground-reports/sets-premanand-maharaj-apart-doesnt-sell-miracles-celebrity-favourite/2722838/ (18 Aug 2025)",
+      "Bhajan Marg YouTube channel URL; Shri Hit Radha Keli Kunj Trust -> https://radhakelikunj.com/",
+      "Hit glossed as pure love; sahachari as companion of the divine couple -> https://radhakelikunj.com/?p=267",
+      "Night walk from residence on Chhatikara road to Radha Keli Kunj at 2:15 a.m. halted after Hathras stampede, 4 July 2024 -> https://www.amarujala.com/uttar-pradesh/mathura/saint-premanand-stopped-night-marchin-mathura-after-hathras-incident-2024-07-04",
+      "Walk timing changed / postponed later (search results only) -> https://zeenews.india.com/gujarati/spiritual/now-baba-premanand-maharaj-padyatra-will-not-start-at-2-am-time-has-been-changed-413392 ; https://navbharatlive.com/uttar-pradesh/saint-premanand-maharaj-health-deteriorates-padayatra-postponed-indefinitely-1379840.html",
+      "Mathura police said he was in good health amid rumours, 9 Oct 2025 (background only) -> https://www.tribuneindia.com/news/uttar-pradesh/mathura-police-refutes-rumours-says-premanand-maharaj-in-good-health",
+      "July 2025 remark 'only 2 to 4 girls out of 100 are pure'; also criticised men and women with multiple partners; netizen criticism; supporters -> https://madhyamamonline.com/amp/india/hindu-spiritual-leader-says-only-2-to-4-out-of-100-girls-are-pure-1432733 (29 Jul 2025)",
+      "Context: answer to a question about marriage; criticised live-in relationships; called regressive; clip said to be cut from context -> https://www.dynamitenews.com/national/why-did-premanand-maharaj-say-that-only-four-girls-out-of-100-are-pure-and-pious (29 Jul 2025)",
+      "Shri Krishna Janmabhoomi Sangharsh Nyas (Dinesh Sharma) demanded apology and threatened agitation -> https://www.amarujala.com/uttar-pradesh/mathura/saint-premanand-statement-created-a-ruckus-shri-krishna-janmabhoomi-sangharsh-nyas-has-blown-trumpet-of-agitat-2025-07-30 (30 Jul 2025)",
+      "Ankita Lokhande among celebrities supporting him (headline only) -> https://www.aajtak.in/visualstories/entertainment/ankita-lokhande-supports-premanand-maharaj-ji-statement-100-me-se-4-ladkiya-pavitra-tmovg-253224-06-08-2025",
+      "Rambhadracharya quote 'I challenge Premanand ji to speak even one word of Sanskrit in front of me'; saints in Ayodhya and Ujjain objected -> https://ianslive.in/saints-slam-swami-rambhadracharyas-indecent-statement-on-premanand-maharaj--20250824224618 (24 Aug 2025)",
+      "Rambhadracharya said Premanand neither scholar nor miracle-worker; later denied improper remark, 'वे मेरे लिए पुत्र समान हैं' -> https://navbharatlive.com/uttar-pradesh/premanand-row-mathura-saints-back-him-ram-bhadracharya-softens-1330525.html (25 Aug 2025)",
+      "Radhavallabh founded 1535 by Hit Harivansh (1502-1552); Hita Chaurasi 84 hymns in Braj Bhasha; Radha supreme, Krishna her intimate servant; liberation as witnessing companion (sakhi); no image of Radha, gaddi beside Krishna -> https://en.wikipedia.org/wiki/Radha_Vallabha_Sampradaya",
+      "Hita Chaurasi 84 verses in Braj Bhasha praising Radha -> https://en.wikipedia.org/wiki/Hita_Harivansh",
+      "Radha-rasa-sudha-nidhi attributed by Gaudiyas to Prabodhananda and by Radhavallabhis to Hit Harivansh; Harivansh VS 1559 (1502) to VS 1609 (1553) -> https://gaudiya.com/pdf/Prabodhananda_Hit_Harivams_and_the_Radha-rasa-sudha-nidhi.pdf (Jagadananda Das, BSOAS 55.3, 1992)",
+      "Mohit Maral Goswami 18th Tilakayat Adhikari, son of 17th -> https://www.radhavallabhmandir.com/hit-mohit-maral-ji-maharaj.php"
+    ],
+    "grace": [
+      "All figure facts in the Part 7 introduction are taken from the existing pages: anandamayi-ma.mdx (self-initiation 1922, sixty years, remember God), prabhupada.mdx (1965 voyage at 69, sixteen rounds, four rules), bhaktivinoda.mdx, bhaktisiddhanta.mdx, amma.mdx (fisherman's daughter, embrace as darshan, service), shastriji-pramukh.mdx (BAPS 1907, Akshar present on earth), papa-ramdas.mdx (left home 1922, father's mantra, no human guru), neem-karoli-baba.mdx (wrote nothing, no recorded discourses, feeding, Ram Dass), premanand-maharaj.mdx."
+    ]
+  }
+}
