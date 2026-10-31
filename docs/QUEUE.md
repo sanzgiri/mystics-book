@@ -44,12 +44,12 @@ Status: todo / running / written / checked / merged.
 | w33 | sathya-sai-baba (c) | | merged |
 | w34 | dada-lekhraj, sri-chinmoy | new-revelations (incl. godman essay) | merged |
 | w35 | kalki-bhagavan, nithyananda, dhirendra-shastri | | merged |
-| o16 | satyananda, swami-rama, pattabhi-jois | | checking |
+| o16 | satyananda, swami-rama, pattabhi-jois | | merged |
 | o17 | sri-m | technique | merged |
 | o19 | shri-mataji, pr-sarkar | shakti | checking |
 | o22 | premanand-maharaj | grace | running |
 | o25 | periyar (s) | across-the-line, against-authority | running |
-| o27 | ram-singh-namdhari | sound-and-light | todo |
+| o27 | ram-singh-namdhari | sound-and-light | running |
 | o29 | dharmapala | conduct | todo |
 
 ## Low-risk profiles: writer on Sonnet, fact-checker on Opus

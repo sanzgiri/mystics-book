@@ -15,7 +15,7 @@
    "part": 5,
    "tier": "node",
    "kind": "person",
-   "note": "Sent by Satyananda c. 1974 to oversee the Mangrove Mountain ashram, NSW; arrested 1989 on child sexual abuse charges and sentenced that year to 2 years 4 months (Royal Commission Case Study 21). Distinct from other monks of the same name."
+   "note": "Sent by Satyananda c. 1974 to oversee the Mangrove Mountain ashram, NSW; arrested 1989 on child sexual abuse charges, convicted and sentenced that year to 2 years 4 months (Royal Commission Case Study 21); served about 14 months before the High Court of Australia overturned the convictions on appeal in 1991 (Sky News, Dec 2014); died 1997. Distinct from other monks of the same name."
   },
   {
    "id": "bengali-baba",
@@ -50,14 +50,14 @@
    "born": 1923,
    "died": 2009,
    "name": "Swami Satyananda Saraswati",
-   "note": "Born Almora 25 Dec 1923; Sivananda's disciple from 1943, sannyasa 12 Sept 1947; Bihar School of Yoga, Munger, 1964; yoga nidra; handed over to Niranjanananda 1988; Rikhia from Sept 1989; died 5 Dec 2009."
+   "note": "Born Almora 25 Dec 1923; Sivananda's disciple from 1943, sannyasa 12 Sept 1947; Bihar School of Yoga, Munger, 1963 (movement's date; others give 1964); yoga nidra; handed over to Niranjanananda 1988; Rikhia from Sept 1989; died there 5 Dec 2009."
   },
   {
    "id": "swami-rama",
    "born": 1925,
    "died": 1996,
    "name": "Swami Rama",
-   "note": "Born 1925 in Garhwal; US 1969; Menninger Foundation tests c. 1970-71; Himalayan Institute 1971 (Illinois), Honesdale PA 1977; HIHT Dehradun from 1989; died 13 Nov 1996. Civil jury verdict against the Institute, M.D. Pa., 4 Sept 1997."
+   "note": "Born 1925 in Garhwal; US 1969; Menninger Foundation tests from March 1970; Himalayan Institute 1971 (Illinois), Honesdale PA 1977; HIHT Dehradun from 1989; died 13 Nov 1996. Civil jury verdict against the Institute, M.D. Pa., 4 Sept 1997."
   },
   {
    "id": "pattabhi-jois",
@@ -76,7 +76,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1947,
-   "note": "Came to the ashram 1943; sannyasa 12 September 1947; sent out 1956; Bihar School of Yoga, Munger, 1964."
+   "note": "Came to the ashram 1943; sannyasa 12 September 1947; sent out 1956; Bihar School of Yoga, Munger, 1963 (movement's date; others give 1964)."
   },
   {
    "from": "satyananda",
@@ -145,7 +145,7 @@
    "lat": 25.38,
    "lon": 86.47,
    "figure": "satyananda",
-   "what": "School founded 1964; centre of his work until 1988",
+   "what": "School founded 1963 (others give 1964); centre of his work until 1988",
    "verified": false
   },
   {
@@ -177,7 +177,7 @@
    "lat": 39.05,
    "lon": -95.69,
    "figure": "swami-rama",
-   "what": "Laboratory tests of voluntary control, c. 1970-71",
+   "what": "Laboratory tests of voluntary control, from March 1970",
    "verified": false
   },
   {
@@ -274,7 +274,8 @@
   "pattabhi-jois.mdx: no statement from Saraswathi Rangaswamy or KPJAYI was found; Remski (2019) said no official statement had been made by the Jois family or any representative body. Text says none was located.",
   "pattabhi-jois.mdx: Judith Hanson Lasater's account and the corroborating teachers (Maehle, MacGregor) are from Wikipedia; primary statements not fetched.",
   "pattabhi-jois.mdx: years in Hassan (about two) and his move to Mysore follow the existing graph note and Wikipedia, not a primary source. 'Six series' versus three named series is inconsistent in sources; text says primary, intermediate and advanced series.",
-  "Places: Honesdale, Menninger (Topeka), HIHT Jolly Grant and Lakshmipuram coordinates are approximate and marked verified false."
+  "Places: Honesdale, Menninger (Topeka), HIHT Jolly Grant and Lakshmipuram coordinates are approximate and marked verified false.",
+  "factcheck o16: Akhandananda's 1991 High Court reversal is from a Sky News report (Dec 2014); case citation (probably Saraswati v The Queen (1991) 172 CLR 1) unconfirmed. Author may wish to add it once checked."
  ],
  "sources": {
   "satyananda": [
@@ -304,6 +305,32 @@
    "Sharath Instagram statement 10 July 2019: 'I also witnessed him giving improper adjustments'; 'I am sorry that it caused pain for any of his students'; asked students to forgive him -> https://chintamaniyoga.com/an-apology-of-sorts-from-sharath-jois/",
    "Remski: 'rambling personal statement on Instagram that's now deleted'; no official statement by the Jois family or representative body -> https://matthewremski.com/wordpress/wp-json/wp/v2/posts/8755",
    "2019 Saraswathi renamed shala K. Pattabhi Jois Ashtanga Yoga Shala; Sharath Yoga Centre 2019; Sharath died 11 Nov 2024 aged 53 -> https://en.wikipedia.org/wiki/R._Sharath_Jois"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 112,
+  "changes": [
+   "satyananda.mdx: Fellowship/School dates now lead with the movement's own dates (IYFM 1956, BSY 1963; biharyoga.net/wyc-sri-swami-satyananda.php) with 1962 Rajnandgaon / 1964 as alternatives (Wikipedia).",
+   "satyananda.mdx: report release date made precise, 14 September 2016 (RC media release as reprinted at bishop-accountability.org).",
+   "satyananda.mdx: Akhandananda 'convicted' added; conviction overturned on appeal by the High Court of Australia in 1991 after about 14 months served, attributed to press reports (Sky News, 2 Dec 2014, via bishop-accountability.org/2014/12/abuse-inquiry-into-yoga-retreat-opens/). Replaces unattributed SMH 'later overturned'.",
+   "satyananda.mdx: Yoga Australia statement 'accepting the Commission's conclusions' changed to 'acknowledging the Commission's findings' (the statement acknowledges; does not say accepts).",
+   "satyananda.mdx: place of death confirmed as Rikhia, Deoghar (Hinduism Today/jaibihar, 6 Dec 2009); '(place to be confirmed)' removed.",
+   "satyananda.mdx: yoga nidra structure (sankalpa, rotation, breath, opposites, visualisation, sankalpa repeated) and nyasa link confirmed against Wikipedia 'Yoga nidra'; no change.",
+   "swami-rama.mdx: palm temperature figure corrected to Elmer Green's own account (March 1970 session, final difference about 11 F, roughly 6 C; hihtindia.org Beyond Biofeedback excerpt part 2), with the other figures as alternatives.",
+   "swami-rama.mdx: practice order (breath, then relaxation, then mantra) softened to a list without sequence; yoga nidra at Menninger attributed to accounts of the sessions.",
+   "swami-rama.mdx: Webster article titled 'The Case Against Swami Rama of the Himalayas' (Wikipedia); month dropped to 1990.",
+   "swami-rama.mdx: Dec 1999 ruling described as denial of the Institute's motion for new trial or reduced punitive award (vLex opinion, Vanaskie C.J.); added that no appellate ruling was located. Plaintiff named only in the case citation.",
+   "pattabhi-jois.mdx: Walrus date range corrected: named incidents 1990-2002, plus a photograph from the late 1970s or early 1980s (thewalrus.ca/?p=103303).",
+   "pattabhi-jois.mdx: Anneke Lucas named alongside Karen Rain as having published her own account (Walrus; Wikipedia refs); Maehle/MacGregor wording made neutral ('spoken publicly in support of the women's accounts').",
+   "o16.json: Akhandananda node note adds conviction and 1991 High Court reversal; Satyananda BSY date 1963/1964 in node, edge and place; Menninger tests dated from March 1970."
+  ],
+  "unresolved": [
+   "Royal Commission Case Study 21 report PDF not reachable (proxy 403). Whether the Commission itself or only the BSY 2014 submission used 'out of scope'/'untested' remains unconfirmed; text attributes the words to BSY and the no-finding point to secondary accounts.",
+   "Akhandananda appeal: the case is probably Saraswati v The Queen [1991] HCA 21, (1991) 172 CLR 1, but AustLII was blocked and the appellant identity and grounds were not confirmed; text gives only the press-reported outcome.",
+   "Patel v. Himalayan International Institute: no Third Circuit appeal or record of payment/settlement located.",
+   "Swami Rama heart experiment (about 300 beats a minute for 17 seconds) rests on Wikipedia; Green's excerpt fetched did not cover it.",
+   "Pattabhi Jois: no statement by Saraswathi Rangaswamy or KPJAYI located; Lasater, Maehle, MacGregor statements known only via Wikipedia.",
+   "Sharath Jois birth year 1971 derived from age at death."
   ]
  }
 }
