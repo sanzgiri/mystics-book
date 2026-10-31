@@ -49,7 +49,7 @@ Status: todo / running / written / checked / merged.
 | o19 | shri-mataji, pr-sarkar | shakti | merged |
 | o22 | premanand-maharaj | grace | merged |
 | o25 | periyar (s) | across-the-line, against-authority | merged |
-| o27 | ram-singh-namdhari | sound-and-light | running |
+| o27 | ram-singh-namdhari | sound-and-light | merged |
 | o29 | dharmapala | conduct | running |
 
 ## Low-risk profiles: writer on Sonnet, fact-checker on Opus
