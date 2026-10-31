@@ -1,47 +1,270 @@
 {
  "batch": "o27",
  "nodes_add": [
-  {"id": "balak-singh", "name": "Balak Singh of Hazro", "died": 1862, "part": 9, "tier": "node", "kind": "person", "note": "Teacher at Hazro (Attock district, now Pakistan) who taught repetition of God's name above all ritual. Birth given as 1785 (Namdhari site, Dharam Singh), 1797 (Britannica) or 1799 (Encyclopaedia of Sikhism); died 1862. Namdharis count him as Guru after Gobind Singh."},
-  {"id": "jawahar-mal", "name": "Bhagat Jawahar Mal", "part": 9, "tier": "node", "kind": "person", "note": "Hazro devotee said by English Wikipedia to have greatly influenced Balak Singh. Dates unknown; single source."},
-  {"id": "hari-singh-namdhari", "name": "Satguru Hari Singh", "born": 1819, "died": 1906, "part": 9, "tier": "node", "kind": "person", "note": "Born Budh Singh, Ram Singh's younger brother; named to lead by Ram Singh's written edict from Burma in 1875 (Namdhari account); led 1875-1906."},
-  {"id": "partap-singh-namdhari", "name": "Satguru Partap Singh", "part": 9, "tier": "node", "kind": "person", "note": "Namdhari head 1906-1959 (Namdhari site: 53 years). Birth year not verified (site prints 1890, apparently in error)."},
-  {"id": "jagjit-singh-namdhari", "name": "Satguru Jagjit Singh", "died": 2012, "part": 9, "tier": "node", "kind": "person", "note": "Elder son of Partap Singh; Namdhari head from 1959; died 13 December 2012 (Namdhari site)."},
-  {"id": "uday-singh-namdhari", "name": "Satguru Uday Singh", "born": 1958, "part": 9, "tier": "node", "kind": "person", "note": "Son of Bir Singh, nephew of Jagjit Singh; head at Sri Bhaini Sahib from 22 December 2012, appointed per The Tribune by Jagjit Singh's widow Chand Kaur. Born 1958 per Namdhari site."},
-  {"id": "thakur-dalip-singh", "name": "Thakur Dalip Singh", "part": 9, "tier": "node", "kind": "person", "note": "Elder brother of Uday Singh; heads the Sirsa-based Namdhari faction that rejects Uday Singh's succession. Named an accused by the CBI in an alleged 2015 conspiracy against Uday Singh; Mohali CBI court issued a non-bailable warrant in June 2021 (The Tribune); case pending as last reported."}
+  {
+   "id": "balak-singh",
+   "name": "Balak Singh of Hazro",
+   "died": 1862,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Teacher at Hazro (Attock district, now Pakistan) who taught repetition of God's name above all ritual. Birth given as 1785 (Namdhari site, Dharam Singh), 1797 (Britannica) or 1799 (Encyclopaedia of Sikhism); died 1862. Namdharis count him as Guru after Gobind Singh."
+  },
+  {
+   "id": "jawahar-mal",
+   "name": "Bhagat Jawahar Mal",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Hazro devotee said by English Wikipedia to have greatly influenced Balak Singh. Dates unknown; single source."
+  },
+  {
+   "id": "hari-singh-namdhari",
+   "name": "Satguru Hari Singh",
+   "born": 1819,
+   "died": 1906,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born Budh Singh, Ram Singh's younger brother; named to lead by Ram Singh's written edict from Burma in 1875 (Namdhari account); led 1875-1906."
+  },
+  {
+   "id": "partap-singh-namdhari",
+   "name": "Satguru Partap Singh",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Namdhari head 1906-1959 (Namdhari site: 53 years). Birth year not verified (site prints 1890, apparently in error)."
+  },
+  {
+   "id": "jagjit-singh-namdhari",
+   "name": "Satguru Jagjit Singh",
+   "died": 2012,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Elder son of Partap Singh; Namdhari head from 1959; 1920-2012, died 13 December 2012 (Namdhari site).",
+   "born": 1920
+  },
+  {
+   "id": "uday-singh-namdhari",
+   "name": "Satguru Uday Singh",
+   "born": 1958,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Son of Bir Singh, nephew of Jagjit Singh; head at Sri Bhaini Sahib from 22 December 2012, appointed per The Tribune by Jagjit Singh's widow Chand Kaur. Born 1958 per Namdhari site."
+  },
+  {
+   "id": "thakur-dalip-singh",
+   "name": "Thakur Dalip Singh",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Elder brother of Uday Singh; heads the Sirsa-based Namdhari faction that opposed Uday Singh's appointment in 2012 (The Tribune, 2016)."
+  }
  ],
  "nodes_update": [
-  {"id": "ram-singh-namdhari", "name": "Satguru Ram Singh", "born": 1816, "died": 1885, "note": "b. 3 Feb 1816 Bhaini Araian, Ludhiana; met Balak Singh 1841; Namdhari code laid down Baisakhi 1857 (14 April per Encyclopaedia of Sikhism, 12 April per The Tribune); deported 18 Jan 1872 after the Malerkotla executions; d. 29 Nov 1885 Mergui per British records. Namdharis hold that he did not die."}
+  {
+   "id": "ram-singh-namdhari",
+   "name": "Satguru Ram Singh",
+   "born": 1816,
+   "died": 1885,
+   "note": "b. 3 Feb 1816 Bhaini Araian, Ludhiana; met Balak Singh 1841; Namdhari code laid down Baisakhi 1857 (14 April per Encyclopaedia of Sikhism, 12 April per the Namdhari site and The Tribune); deported 18 Jan 1872 after the Malerkotla executions; d. 29 Nov 1885 Mergui per British records. Namdharis hold that he did not die."
+  }
  ],
  "edges_remove": [],
  "edges_upsert": [
-  {"from": "sikh-gurus", "to": "ram-singh-namdhari", "type": "lineage", "evidence": "documented", "verified": true, "note": "Sikh scripture, nam simran and Khalsa ideals; Namdharis also count him in a continuing line of living Gurus, which mainstream Sikhs reject."},
-  {"from": "sikh-gurus", "to": "balak-singh", "type": "claimed", "evidence": "devotional", "verified": true, "year": 1812, "note": "Namdhari belief that Guru Gobind Singh lived in seclusion until 1812 and passed the guruship to Balak Singh. Rejected by mainstream Sikh bodies."},
-  {"from": "jawahar-mal", "to": "balak-singh", "type": "influenced", "evidence": "testimony", "verified": true, "note": "English Wikipedia (Satguru Balak Singh) only."},
-  {"from": "balak-singh", "to": "ram-singh-namdhari", "type": "initiated", "evidence": "documented", "verified": true, "year": 1841, "note": "Met 1841 while Ram Singh served in Nau Nihal Singh's regiment (Encyclopaedia of Sikhism); Namdhari account says Balak Singh initiated him and passed the mantle."},
-  {"from": "ram-singh-namdhari", "to": "hari-singh-namdhari", "type": "lineage", "evidence": "testimony", "verified": true, "year": 1875, "note": "Named by written edict from Burma (Namdhari site). Also his younger brother."},
-  {"from": "hari-singh-namdhari", "to": "partap-singh-namdhari", "type": "lineage", "evidence": "documented", "verified": true, "year": 1906},
-  {"from": "partap-singh-namdhari", "to": "jagjit-singh-namdhari", "type": "lineage", "evidence": "documented", "verified": true, "year": 1959, "note": "Elder son."},
-  {"from": "jagjit-singh-namdhari", "to": "uday-singh-namdhari", "type": "lineage", "evidence": "documented", "verified": true, "year": 2012, "note": "Nephew; appointed after Jagjit Singh's death per The Tribune (2016). Disputed by Thakur Dalip Singh's faction."},
-  {"from": "jagjit-singh-namdhari", "to": "thakur-dalip-singh", "type": "claimed", "evidence": "testimony", "verified": true, "note": "Rival Sirsa-based faction rejects Uday Singh's succession. The basis of its claim was not found in sources consulted."}
+  {
+   "from": "sikh-gurus",
+   "to": "ram-singh-namdhari",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Sikh scripture, nam simran and Khalsa ideals; Namdharis also count him in a continuing line of living Gurus, which mainstream Sikhs reject."
+  },
+  {
+   "from": "sikh-gurus",
+   "to": "balak-singh",
+   "type": "claimed",
+   "evidence": "devotional",
+   "verified": true,
+   "year": 1812,
+   "note": "Namdhari belief that Guru Gobind Singh lived in seclusion until 1812 and passed the guruship to Balak Singh. Rejected by mainstream Sikh bodies."
+  },
+  {
+   "from": "jawahar-mal",
+   "to": "balak-singh",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "English Wikipedia (Satguru Balak Singh) only."
+  },
+  {
+   "from": "balak-singh",
+   "to": "ram-singh-namdhari",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1841,
+   "note": "Met 1841 while Ram Singh served in Nau Nihal Singh's regiment (Encyclopaedia of Sikhism); Namdhari account says Balak Singh initiated him and passed the mantle."
+  },
+  {
+   "from": "ram-singh-namdhari",
+   "to": "hari-singh-namdhari",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1875,
+   "note": "Named by written edict from Burma (Namdhari site). Also his younger brother."
+  },
+  {
+   "from": "hari-singh-namdhari",
+   "to": "partap-singh-namdhari",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1906
+  },
+  {
+   "from": "partap-singh-namdhari",
+   "to": "jagjit-singh-namdhari",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1959,
+   "note": "Elder son."
+  },
+  {
+   "from": "jagjit-singh-namdhari",
+   "to": "uday-singh-namdhari",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 2012,
+   "note": "Nephew; appointed after Jagjit Singh's death per The Tribune (2016). Disputed by Thakur Dalip Singh's faction."
+  },
+  {
+   "from": "jagjit-singh-namdhari",
+   "to": "thakur-dalip-singh",
+   "type": "claimed",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Rival Sirsa-based faction rejects Uday Singh's succession. The basis of its claim was not found in sources consulted."
+  },
+  {
+   "from": "balak-singh",
+   "to": "jaimal-singh",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": false,
+   "year": 1854,
+   "note": "English Wikipedia (Satguru Balak Singh), citing the Sikh Encyclopedia, Kirpal Singh's life of Jaimal Singh (2006) and RSSB's Heaven on Earth (1986): Jaimal Singh, later of Beas, visited Balak Singh in 1854 and asked about the Panch Shabad; Balak Singh is reported as saying they recite only the four-letter Naam. Not checked against the books."
+  }
  ],
  "places": [
-  {"name": "Sri Bhaini Sahib", "lat": 30.86, "lon": 76.04, "figure": "ram-singh-namdhari", "what": "Birthplace (1816); code of conduct laid down at Baisakhi 1857; Namdhari headquarters", "verified": false},
-  {"name": "Hazro", "lat": 33.909, "lon": 72.492, "figure": "ram-singh-namdhari", "what": "Balak Singh's town, where Ram Singh met him (1841)", "verified": true},
-  {"name": "Malerkotla", "lat": 30.531, "lon": 75.879, "figure": "ram-singh-namdhari", "what": "Kukas blown from guns on the parade ground, 17-18 January 1872", "verified": true},
-  {"name": "Rangoon (Yangon)", "lat": 16.80, "lon": 96.16, "figure": "ram-singh-namdhari", "what": "Detention under Bengal Regulation III of 1818 from 1872", "verified": true},
-  {"name": "Mergui (Myeik)", "lat": 12.44, "lon": 98.60, "figure": "ram-singh-namdhari", "what": "Later place of exile; death on 29 November 1885 per British records", "verified": true}
+  {
+   "name": "Sri Bhaini Sahib",
+   "lat": 30.86,
+   "lon": 76.04,
+   "figure": "ram-singh-namdhari",
+   "what": "Birthplace (1816); code of conduct laid down at Baisakhi 1857; Namdhari headquarters",
+   "verified": false
+  },
+  {
+   "name": "Hazro",
+   "lat": 33.909,
+   "lon": 72.492,
+   "figure": "ram-singh-namdhari",
+   "what": "Balak Singh's town, where Ram Singh met him (1841)",
+   "verified": true
+  },
+  {
+   "name": "Malerkotla",
+   "lat": 30.531,
+   "lon": 75.879,
+   "figure": "ram-singh-namdhari",
+   "what": "Kukas blown from guns on the parade ground, 17-18 January 1872",
+   "verified": true
+  },
+  {
+   "name": "Rangoon (Yangon)",
+   "lat": 16.8,
+   "lon": 96.16,
+   "figure": "ram-singh-namdhari",
+   "what": "Detention under Bengal Regulation III of 1818 from 1872",
+   "verified": true
+  },
+  {
+   "name": "Mergui (Myeik)",
+   "lat": 12.44,
+   "lon": 98.6,
+   "figure": "ram-singh-namdhari",
+   "what": "Later place of exile; death on 29 November 1885 per British records",
+   "verified": true
+  }
  ],
  "glossary": [
-  {"term": "Nam simran", "script": "ਨਾਮ ਸਿਮਰਨ", "lang": "pa", "def": "Remembrance of the divine Name; in Sikh and Namdhari practice the steady, often silent repetition of a name of God such as Vaheguru."},
-  {"term": "Gurmantar", "script": "ਗੁਰਮੰਤ੍ਰ", "lang": "pa", "def": "The Guru's mantra. In Namdhari initiation the name Vaheguru, spoken into the initiate's ear."},
-  {"term": "Kuka", "script": "ਕੂਕਾ", "lang": "pa", "def": "Shouter; the popular and British name for the Namdharis, from the ecstatic cries (kuk) of their hymn singing."},
-  {"term": "Namdhari", "script": "ਨਾਮਧਾਰੀ", "lang": "pa", "def": "Bearer of the Name; the Sikh movement led by Ram Singh from 1857, which holds that the line of living Gurus continues."},
-  {"term": "Sant Khalsa", "script": "ਸੰਤ ਖ਼ਾਲਸਾ", "lang": "pa", "def": "The Namdharis' name for their own initiated community."},
-  {"term": "Satguru", "script": "ਸਤਿਗੁਰੂ", "lang": "pa", "def": "True Guru. Namdharis use it as the title of each head of their line."},
-  {"term": "Suba", "script": "ਸੂਬਾ", "lang": "pa", "def": "Province or governor; one of the district leaders Ram Singh appointed to organise his followers."},
-  {"term": "Dasam Granth", "script": "ਦਸਮ ਗ੍ਰੰਥ", "lang": "pa", "def": "The book of the Tenth, writings attributed to Guru Gobind Singh. Namdharis honour it equally with the Guru Granth Sahib."},
-  {"term": "Patshahi", "script": "ਪਾਤਸ਼ਾਹੀ", "lang": "pa", "def": "Sovereignty; a title used for the Sikh Gurus (First Patshahi, Tenth Patshahi). The Akal Takht reserved it for them in 2013."},
-  {"term": "Sikh Rehat Maryada", "script": "ਸਿੱਖ ਰਹਿਤ ਮਰਯਾਦਾ", "lang": "pa", "def": "The Sikh code of conduct issued by the Shiromani Gurdwara Parbandhak Committee, which defines a Sikh by belief in the ten Gurus and the Guru Granth Sahib."}
+  {
+   "term": "Nam simran",
+   "script": "ਨਾਮ ਸਿਮਰਨ",
+   "lang": "pa",
+   "def": "Remembrance of the divine Name; in Sikh and Namdhari practice the steady, often silent repetition of a name of God such as Vaheguru."
+  },
+  {
+   "term": "Gurmantar",
+   "script": "ਗੁਰਮੰਤ੍ਰ",
+   "lang": "pa",
+   "def": "The Guru's mantra. In Namdhari initiation the name Vaheguru, spoken into the initiate's ear."
+  },
+  {
+   "term": "Kuka",
+   "script": "ਕੂਕਾ",
+   "lang": "pa",
+   "def": "Shouter; the popular and British name for the Namdharis, from the ecstatic cries (kuk) of their hymn singing."
+  },
+  {
+   "term": "Namdhari",
+   "script": "ਨਾਮਧਾਰੀ",
+   "lang": "pa",
+   "def": "Bearer of the Name; the Sikh movement led by Ram Singh from 1857, which holds that the line of living Gurus continues."
+  },
+  {
+   "term": "Sant Khalsa",
+   "script": "ਸੰਤ ਖ਼ਾਲਸਾ",
+   "lang": "pa",
+   "def": "The Namdharis' name for their own initiated community."
+  },
+  {
+   "term": "Satguru",
+   "script": "ਸਤਿਗੁਰੂ",
+   "lang": "pa",
+   "def": "True Guru. Namdharis use it as the title of each head of their line."
+  },
+  {
+   "term": "Suba",
+   "script": "ਸੂਬਾ",
+   "lang": "pa",
+   "def": "Province or governor; one of the district leaders Ram Singh appointed to organise his followers."
+  },
+  {
+   "term": "Dasam Granth",
+   "script": "ਦਸਮ ਗ੍ਰੰਥ",
+   "lang": "pa",
+   "def": "The book of the Tenth, writings attributed to Guru Gobind Singh. Namdharis honour it equally with the Guru Granth Sahib."
+  },
+  {
+   "term": "Patshahi",
+   "script": "ਪਾਤਸ਼ਾਹੀ",
+   "lang": "pa",
+   "def": "Sovereignty; a title used for the Sikh Gurus (First Patshahi, Tenth Patshahi). The Akal Takht reserved it for them in 2013."
+  },
+  {
+   "term": "Sikh Rehat Maryada",
+   "script": "ਸਿੱਖ ਰਹਿਤ ਮਰਯਾਦਾ",
+   "lang": "pa",
+   "def": "The Sikh code of conduct issued by the Shiromani Gurdwara Parbandhak Committee, which defines a Sikh by belief in the ten Gurus and the Guru Granth Sahib."
+  }
  ],
  "art": [],
  "issues": [
@@ -51,12 +274,16 @@
   "ram-singh-namdhari.mdx: founding date 14 April 1857 (Encyclopaedia of Sikhism) vs 12 April 1857 (The Tribune); both given.",
   "ram-singh-namdhari.mdx: the brief mentions 'wedding reforms'. No verified cost figure (e.g. rupee amount) was found; the 1863 Khote start rests on English Wikipedia only.",
   "ram-singh-namdhari.mdx: Namdhari self-description as Khalsa (Britannica, Namdhari site 'Sant Khalsa') conflicts with SikhiWiki (written from a critical standpoint), which says they consider themselves Sikhs but not Khalsa and reject khande di pahul. Text uses the movement's own term only.",
-  "ram-singh-namdhari.mdx: the basis of Thakur Dalip Singh's claim was not found. The CBI case naming him (alleged 2015 conspiracy, NBW June 2021) is left out of the profile and recorded on his node; no response from him was retrieved (Tribune 'Bid to implicate me' article failed to load). Author to decide whether to include. Current status of the Chand Kaur murder case not verified.",
   "ram-singh-namdhari.mdx: the statement that Namdhari sources describe no inner sound current or map of regions is an absence-of-evidence claim based on the sources consulted.",
-  "Possible link not used: English Wikipedia's Balak Singh article mentions an 1854 exchange between Balak Singh and a Baba Jaimal Singh about 'the four-letter Naam'. Whether this is the Beas Jaimal Singh (b. 1839) was not checked; worth verifying as a possible cross-link to the Radhasoami line.",
   "batch o27 places: Sri Bhaini Sahib coordinates are approximate and not verified (set verified: false).",
   "Uday Singh's birth year 1958 rests on the Namdhari site only; Hari Singh's 1819 birth also from the Namdhari site.",
-  "sound-and-light.mdx: says Ram Singh began the movement 'a few years before Agra' (1857 vs 1861), consistent with shiv-dayal-singh.mdx. Ayya Vaikundar and Lalaji/Babuji fit the Word/Light question loosely; the intro describes them by what their pages say without forcing them into the theme."
+  "sound-and-light.mdx: says Ram Singh began the movement 'a few years before Agra' (1857 vs 1861), consistent with shiv-dayal-singh.mdx. Ayya Vaikundar and Lalaji/Babuji fit the Word/Light question loosely; the intro describes them by what their pages say without forcing them into the theme.",
+  "ram-singh-namdhari.mdx: who ordered the 16 executions of 18 January is unresolved. History Today and Mathew Lyons name Cowan for the 49 of 17 January; English Wikipedia (Malerkotla) says Cowan and Forsyth ordered the executions; Wikipedia (Forsyth) says Forsyth supported Cowan's action. Text now says accounts differ. A scholarly source (Bajwa 1965) should settle it.",
+  "ram-singh-namdhari.mdx: Mergui transfer date still not found; EoS mentions only Rangoon and gives no place of death. Text keeps Mergui as the British record and notes Rangoon-only accounts.",
+  "thakur-dalip-singh node: CBI case removed under living-person caution. Facts on record: The Tribune (26 June 2021) reports he was named an accused by the CBI in an alleged Nov-Dec 2015 conspiracy to kill Uday Singh with a blast at a Jalandhar music festival (IPC 120B, 304, Explosive Substances Act, Arms Act, UAPA); Mohali CBI court issued a non-bailable warrant in June 2021. Single report; no response from him found; later status unknown. Author to decide if a later, multi-sourced account justifies including it.",
+  "thakur-dalip-singh: basis of his faction's claim to succession not found in sources consulted.",
+  "balak-singh -> jaimal-singh edge added (1854 visit) at verified: false; rests on Wikipedia's summary of Kirpal Singh and RSSB books. Confirm before setting verified, and consider a cross-reference in jaimal-singh.mdx.",
+  "Chand Kaur murder: 2019 HT headline reports a first CBI arrest; a 2023 Tribune report quotes a justice society saying no arrest had been made. Text says only that no one had been convicted as of 2023."
  ],
  "sources": {
   "ram-singh-namdhari": [
@@ -82,10 +309,34 @@
    "CBI court Mohali non-bailable warrant against Thakur Dalip Singh, June 2021 (not used in text) -> https://www.tribuneindia.com/news/chandigarh/warrant-against-head-of-rival-namdhari-sect-274255",
    "Rehat Maryada definition quote 'from Guru Nanak Dev to Guru Gobind Singh' -> https://www.allaboutsikhs.com/the-sikh-rehat-maryada-section-one/",
    "Akal Takht Oct 2013 reserved 'Patshahi' for the Gurus; Namdhari heads had been using it -> https://www.sikhnet.com/news/akal-takht-formally-prohibits-use-title-paatshahi-except-sikh-gurus",
-   "Bajwa, Kuka Movement, Motilal Banarsidass 1965 -> https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/kuka-movement-an-important-phase-in-punjabs-role-in-indias-struggle-for-freedom-by-fauja-singh-bajwa-delhi-motilal-banarsidass-1965-xvi-236-pp-appendices-bibliography-index-illustrations-rs-2000/7288C098A2D3F3F9109076E39B9E817F"
+   "Bajwa, Kuka Movement, Motilal Banarsidass 1965 -> https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/kuka-movement-an-important-phase-in-punjabs-role-in-indias-struggle-for-freedom-by-fauja-singh-bajwa-delhi-motilal-banarsidass-1965-xvi-236-pp-appendices-bibliography-index-illustrations-rs-2000/7288C098A2D3F3F9109076E39B9E817F",
+   "Namdhari site gives founding as 12 April 1857; Jagjit Singh 1920-2012 -> https://sribhainisahib.com/node/4570",
+   "Malerkotla executions 17 and 18 Jan 1872 ordered by Cowan and Forsyth -> https://en.wikipedia.org/wiki/Malerkotla",
+   "500 attempted Malerkotla; deported to Rangoon in March -> https://mathewlyons.co.uk/2024/04/09/a-sikh-uprising-against-the-british-empire-the-kuka-revolt-of-1872/",
+   "Chand Kaur case: no arrests per Mata Chand Kaur Welfare and Justice Society, April 2023 -> https://www.tribuneindia.com/news/jalandhar/arrest-killers-of-mata-chand-kaur-demand-namdharis-494381",
+   "Akal Takht jathedar Giani Gurbachan Singh, 19 Oct 2013, Paatshahi reserved for Gurus -> https://www.sikhnet.com/news/akal-takht-formally-prohibits-use-title-paatshahi-except-sikh-gurus"
   ],
   "sound-and-light": [
    "All figure claims taken from the existing pages: shiv-dayal-singh.mdx (1861 Agra, banker's son, eye centre, sound and light regions), kirpal-singh.mdx (accounts officer, Delhi, West), inayat-khan.mdx (Baroda musician, Chishti, sound), vallalar.mdx (Arutperunjothi, light of grace), ayya-vaikundar.mdx (southern Travancore, no idols, excluded castes), lalaji-babuji.mdx (heart meditation, pranahuti), and this unit's ram-singh-namdhari.mdx."
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 42,
+  "changes": [
+   "ram-singh-namdhari.mdx: 12 April 1857 now attributed to the movement's own site as well as The Tribune (sribhainisahib.com).",
+   "ram-singh-namdhari.mdx: raid size changed from 'between one and several hundred' to 'more than a hundred to five hundred' (EoS, History Today, Mathew Lyons).",
+   "ram-singh-namdhari.mdx: 18 January executions hedged; accounts differ on Cowan vs Forsyth; Forsyth backed Cowan's action against instructions (Wikipedia Forsyth, Malerkotla, History Today).",
+   "ram-singh-namdhari.mdx: Raikot killings marked as later than June 1871; Rangoon-only accounts noted beside Mergui.",
+   "ram-singh-namdhari.mdx: added that no one had been convicted for Chand Kaur's killing as of 2023 (The Tribune, 2023), to avoid implied blame.",
+   "ram-singh-namdhari.mdx: Namdhari side of the establishment dispute stated more fully (Britannica: Khalsa identity; Guru Granth Sahib honoured).",
+   "o27.json: CBI case removed from thakur-dalip-singh node (living-person caution, single source, no response); Jagjit Singh born 1920 added; balak-singh -> jaimal-singh edge added unverified."
+  ],
+  "unresolved": [
+   "Who ordered the 18 January executions",
+   "Mergui transfer date",
+   "Thakur Dalip Singh CBI case status and his response",
+   "Jaimal Singh 1854 visit confirmed only via Wikipedia",
+   "Hari Singh 1819 and Uday Singh 1958 rest on the Namdhari site"
   ]
  }
 }

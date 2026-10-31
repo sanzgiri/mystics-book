@@ -1047,7 +1047,7 @@
    "part": 9,
    "tier": "profile",
    "kind": "person",
-   "note": "b. 3 Feb 1816 Bhaini Araian, Ludhiana; met Balak Singh 1841; Namdhari code laid down Baisakhi 1857 (14 April per Encyclopaedia of Sikhism, 12 April per The Tribune); deported 18 Jan 1872 after the Malerkotla executions; d. 29 Nov 1885 Mergui per British records. Namdharis hold that he did not die."
+   "note": "b. 3 Feb 1816 Bhaini Araian, Ludhiana; met Balak Singh 1841; Namdhari code laid down Baisakhi 1857 (14 April per Encyclopaedia of Sikhism, 12 April per the Namdhari site and The Tribune); deported 18 Jan 1872 after the Malerkotla executions; d. 29 Nov 1885 Mergui per British records. Namdharis hold that he did not die."
   },
   {
    "id": "vallalar",
@@ -1206,7 +1206,8 @@
    "died": 1933,
    "part": 11,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Don David Hewavitarne, 17 Sep 1864, Pettah, Colombo; joined the Theosophical Society early 1884 (January per Sangharakshita, 3 Feb per Theosophy Wiki); Bodh Gaya 22 Jan 1891; founded Maha Bodhi Society May 1891; Chicago Parliament 1893; restricted in Calcutta 1915-1920; novice ordination 1931 at Sarnath as Sri Devamitta Dhammapala; upasampada January 1933; died Sarnath 29 Apr 1933."
   },
   {
    "id": "dipa-ma",
@@ -2881,7 +2882,8 @@
    "part": 9,
    "tier": "node",
    "kind": "person",
-   "note": "Elder son of Partap Singh; Namdhari head from 1959; died 13 December 2012 (Namdhari site)."
+   "note": "Elder son of Partap Singh; Namdhari head from 1959; 1920-2012, died 13 December 2012 (Namdhari site).",
+   "born": 1920
   },
   {
    "id": "uday-singh-namdhari",
@@ -2898,7 +2900,34 @@
    "part": 9,
    "tier": "node",
    "kind": "person",
-   "note": "Elder brother of Uday Singh; heads the Sirsa-based Namdhari faction that rejects Uday Singh's succession. Named an accused by the CBI in an alleged 2015 conspiracy against Uday Singh; Mohali CBI court issued a non-bailable warrant in June 2021 (The Tribune); case pending as last reported."
+   "note": "Elder brother of Uday Singh; heads the Sirsa-based Namdhari faction that opposed Uday Singh's appointment in 2012 (The Tribune, 2016)."
+  },
+  {
+   "id": "henry-olcott",
+   "name": "Henry Steel Olcott",
+   "born": 1832,
+   "died": 1907,
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "American co-founder and president of the Theosophical Society; arrived in Ceylon with Blavatsky May 1880; Dharmapala heard his first lecture there and later served as his translator; director of the Maha Bodhi Society from 1891; left it in 1905. Not subcontinent-born; tree node only. Birth/death years from general knowledge, not re-checked this session."
+  },
+  {
+   "id": "hikkaduwe-sumangala",
+   "name": "Hikkaduwe Sri Sumangala",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "Sri Lankan scholar-monk (Nayaka Maha Thera); first president of the Maha Bodhi Society, founded in Colombo May 1891 (Sangharakshita). Dates omitted, not verified this session."
+  },
+  {
+   "id": "maha-bodhi-society",
+   "name": "Maha Bodhi Society",
+   "part": 11,
+   "tier": "node",
+   "kind": "institution",
+   "era": "founded 1891",
+   "note": "Founded in Colombo by Dharmapala in May 1891 (31 May per Sangharakshita, 3 May per Banglapedia); office moved to Calcutta 1892; journal The Maha Bodhi from 1892; London branch c. 1926; Mulagandhakuti Vihara, Sarnath, opened 11 Nov 1931."
   }
  ],
  "edges": [
@@ -3577,7 +3606,9 @@
    "from": "buddhist-tradition",
    "to": "dharmapala",
    "type": "lineage",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Born into a Buddhist family in Colombo; Theravada; novice 1931 and full ordination January 1933 at Sarnath."
   },
   {
    "from": "buddhist-tradition",
@@ -6281,6 +6312,60 @@
    "evidence": "testimony",
    "verified": true,
    "note": "Rival Sirsa-based faction rejects Uday Singh's succession. The basis of its claim was not found in sources consulted."
+  },
+  {
+   "from": "balak-singh",
+   "to": "jaimal-singh",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": false,
+   "year": 1854,
+   "note": "English Wikipedia (Satguru Balak Singh), citing the Sikh Encyclopedia, Kirpal Singh's life of Jaimal Singh (2006) and RSSB's Heaven on Earth (1986): Jaimal Singh, later of Beas, visited Balak Singh in 1854 and asked about the Panch Shabad; Balak Singh is reported as saying they recite only the four-letter Naam. Not checked against the books."
+  },
+  {
+   "from": "theosophical-society",
+   "to": "dharmapala",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1884,
+   "note": "Member from early 1884; went to Adyar December 1884; left the Society 1905 after parting with Olcott."
+  },
+  {
+   "from": "henry-olcott",
+   "to": "dharmapala",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1880,
+   "note": "Heard Olcott in Colombo 1880; his translator on lecture tours from 1886; toured Japan with him 1889; Olcott director of the Maha Bodhi Society 1891; parted 1905 over priorities (Bodh Gaya vs general mission)."
+  },
+  {
+   "from": "hikkaduwe-sumangala",
+   "to": "dharmapala",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1891,
+   "note": "First president of the Maha Bodhi Society founded by Dharmapala in Colombo, May 1891."
+  },
+  {
+   "from": "dharmapala",
+   "to": "maha-bodhi-society",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1891,
+   "note": "Founder and secretary; moved its office to Calcutta 1892."
+  },
+  {
+   "from": "maha-bodhi-society",
+   "to": "ambedkar",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1950,
+   "note": "The society's journal The Maha Bodhi printed Ambedkar's essay 'The Buddha and the Future of His Religion' in 1950 (per the Ambedkar chapter). No personal contact with Dharmapala, who died in 1933, is claimed."
   }
  ]
 }

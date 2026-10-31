@@ -2614,6 +2614,54 @@
    "figure": "ram-singh-namdhari",
    "what": "Later place of exile; death on 29 November 1885 per British records",
    "verified": true
+  },
+  {
+   "name": "Pettah, Colombo",
+   "lat": 6.936,
+   "lon": 79.851,
+   "figure": "dharmapala",
+   "what": "Birthplace, 17 September 1864",
+   "verified": true
+  },
+  {
+   "name": "Mahabodhi Temple, Bodh Gaya",
+   "lat": 24.696,
+   "lon": 84.991,
+   "figure": "dharmapala",
+   "what": "Arrived 22 January 1891 and vowed to stay; the 1895 image incident and the long campaign for Buddhist control",
+   "verified": true
+  },
+  {
+   "name": "Mulagandhakuti Vihara, Sarnath",
+   "lat": 25.381,
+   "lon": 83.024,
+   "figure": "dharmapala",
+   "what": "Temple he built; opened 11 November 1931; novice ordination 1931, full ordination January 1933, death 29 April 1933",
+   "verified": true
+  },
+  {
+   "name": "Art Institute of Chicago",
+   "lat": 41.88,
+   "lon": -87.624,
+   "figure": "dharmapala",
+   "what": "World's Parliament of Religions, September 1893; his paper 'The World's Debt to Buddha' read 18 September",
+   "verified": true
+  },
+  {
+   "name": "Theosophical Society, Adyar, Chennai",
+   "lat": 13.01,
+   "lon": 80.27,
+   "figure": "dharmapala",
+   "what": "Went to the Society's headquarters in December 1884",
+   "verified": true
+  },
+  {
+   "name": "Calcutta",
+   "lat": 22.57,
+   "lon": 88.36,
+   "figure": "dharmapala",
+   "what": "Maha Bodhi Society office from 1892; held under restriction here 1915-1920 (city-level coordinates)",
+   "verified": true
   }
  ]
 }
