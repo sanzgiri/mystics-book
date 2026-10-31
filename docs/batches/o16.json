@@ -1,0 +1,52 @@
+{
+  "batch": "o16",
+  "nodes_add": [
+    {"id": "niranjanananda", "name": "Swami Niranjanananda Saraswati", "part": 5, "tier": "node", "kind": "person", "note": "Satyananda's successor; took over the running of the Bihar School of Yoga, Munger, in 1988. Birth year not verified in this batch."},
+    {"id": "akhandananda-mangrove", "name": "Swami Akhandananda Saraswati (Mangrove Mountain)", "part": 5, "tier": "node", "kind": "person", "note": "Sent by Satyananda c. 1974 to oversee the Mangrove Mountain ashram, NSW; arrested 1989 on child sexual abuse charges and sentenced that year to 2 years 4 months (Royal Commission Case Study 21). Distinct from other monks of the same name."}
+  ],
+  "nodes_update": [
+    {"id": "satyananda", "born": 1923, "died": 2009, "name": "Swami Satyananda Saraswati", "note": "Born Almora 25 Dec 1923; Sivananda's disciple from 1943, sannyasa 12 Sept 1947; Bihar School of Yoga, Munger, 1964; yoga nidra; handed over to Niranjanananda 1988; Rikhia from Sept 1989; died 5 Dec 2009."}
+  ],
+  "edges_remove": [],
+  "edges_upsert": [
+    {"from": "sivananda", "to": "satyananda", "type": "initiated", "evidence": "documented", "verified": true, "year": 1947, "note": "Came to the ashram 1943; sannyasa 12 September 1947; sent out 1956; Bihar School of Yoga, Munger, 1964."},
+    {"from": "satyananda", "to": "niranjanananda", "type": "lineage", "evidence": "documented", "verified": true, "year": 1988, "note": "Successor; took over the Bihar School of Yoga when Satyananda left Munger in 1988. Initiation year not verified."},
+    {"from": "satyananda", "to": "akhandananda-mangrove", "type": "institutional", "evidence": "documented", "verified": true, "year": 1974, "note": "Sent c. 1974 to oversee the Mangrove Mountain ashram; the Royal Commission (Case Study 21, 2016) found Satyananda had overarching authority there."}
+  ],
+  "places": [
+    {"name": "Almora", "lat": 29.60, "lon": 79.66, "figure": "satyananda", "what": "Birthplace, 1923", "verified": true},
+    {"name": "Bihar School of Yoga, Munger", "lat": 25.38, "lon": 86.47, "figure": "satyananda", "what": "School founded 1964; centre of his work until 1988", "verified": false},
+    {"name": "Rikhiapeeth, Rikhia, near Deoghar", "lat": 24.52, "lon": 86.72, "figure": "satyananda", "what": "Ashram where he lived from September 1989 until his death in 2009", "verified": false},
+    {"name": "Satyananda Yoga Ashram, Mangrove Mountain, NSW", "lat": -33.29, "lon": 151.20, "figure": "satyananda", "what": "Ashram overseen by Akhandananda from c. 1974; subject of Royal Commission Case Study 21", "verified": false}
+  ],
+  "glossary": [
+    {"term": "Yoga nidra", "script": "योग निद्रा", "lang": "sa", "def": "Yogic sleep. A guided practice done lying down, in which attention is led through the body, the breath and images while the practitioner stays aware at the edge of sleep; systematised by Swami Satyananda."},
+    {"term": "Sankalpa", "script": "सङ्कल्प", "lang": "sa", "def": "A resolve or intention. In yoga nidra, a short personal resolution repeated at the start and end of the practice."},
+    {"term": "Nyasa", "script": "न्यास", "lang": "sa", "def": "Placing. A tantric rite in which mantras are placed, by touch or attention, on parts of the body."},
+    {"term": "Bandha", "script": "बन्ध", "lang": "sa", "def": "Lock. A hatha yoga technique of contracting the throat, abdomen or pelvic floor to hold and direct the breath and energy."}
+  ],
+  "art": [],
+  "issues": [
+    "BLOCKED: WebFetch hit its usage limit mid-research (resets about 7:20pm Pacific, 30 Oct 2026) and the container proxy refuses direct fetches. swami-rama.mdx and pattabhi-jois.mdx were NOT written, because their legal and factual claims (Swami Rama's 1997 civil verdict and plaintiff, the 1994 matters; the 2018 Jois adjustment allegations and Sharath Jois's 2017/2018 acknowledgment) could not be verified. Re-run the writer for those two after the reset.",
+    "satyananda.mdx: the Royal Commission's handling of the two witnesses who alleged abuse by Satyananda ('out of scope', 'untested', no finding) is taken from Wikipedia's summary citing Report of Case Study 21, p. 31. The official PDF is robots-blocked to the fetch tool; the checker should read p. 31 and match wording exactly.",
+    "satyananda.mdx: the quotation 'did not properly prioritise the welfare of survivors' was seen in a tool extraction of the Royal Commission media release, not in raw page text. Checker should confirm verbatim.",
+    "satyananda.mdx: Akhandananda's 1989 conviction was reportedly quashed on appeal by the High Court of Australia (c. 1991). Not verified, so the text says only that he was arrested and sentenced in 1989. Add the appeal outcome once verified, or the text may mislead.",
+    "satyananda.mdx: report dated April 2016 (report title page via pdfroom) but publicly released September 2016 (SBS, 15 Sept 2016). Both stated in the text; confirm the release date.",
+    "satyananda.mdx: the Yoga Australia statement quotes a disciples' letter referring to testimony against the current head of Satyananda Yoga (Niranjanananda, living). Left out of the text as insufficiently documented; author's decision.",
+    "satyananda.mdx: International Yoga Fellowship Movement 1962 (Rajnandgaon, per Wikipedia) versus 1956 in other accounts; Bihar School of Yoga 1964 versus 1963. Both given in the text. Confirm against biharyoga.net.",
+    "satyananda.mdx: the Teaching section's description of yoga nidra (sankalpa, rotation of consciousness, opposites, visualisation, the link to nyasa) comes from general knowledge and was NOT checked against a fetched source this session. Verify against the book Yoga Nidra or biharyoga.net.",
+    "satyananda.mdx: place of death (Rikhia) not confirmed; the glance box marks it. Birth name not found.",
+    "satyananda.mdx: no 'Questions raised' heading in the profile template; it is used as an H2 section (vethathiri.mdx uses an H3). Harmonise if needed.",
+    "Places: Munger, Rikhia and Mangrove Mountain coordinates are approximate and marked verified false."
+  ],
+  "sources": {
+    "satyananda": [
+      "Born 25 Dec 1923 Almora; came to Sivananda 1943; sannyasa 12 Sept 1947 on the Ganges; sent out 1956; IYFM 1962 Rajnandgaon; BSY Munger 1964; APMB 1969; Yoga Nidra 1976; handed over 1988; Rikhia Sept 1989; died 5 Dec 2009; successor Niranjanananda; two witnesses alleged abuse by Satyananda, treated as out of scope and untested, no finding (citing RC report pp. 29-31) -> https://en.wikipedia.org/wiki/Satyananda_Saraswati",
+      "Hearing 2-10 Dec 2014, Sydney; oral submissions 29 Apr 2015; scope: ashram's response 1974-2014 to allegations against Akhandananda -> https://www.childabuseroyalcommission.gov.au/case-studies/case-study-21-satyananda-yoga-ashram",
+      "Akhandananda oversaw the ashram from about 1974; arrested 1989, sentenced 1989 to 2 years 4 months; 11 survivors, ten women; no child protection policy 1975-1989; Survivor Support Pack 2014 probably developed without consulting survivors; BSY 'did not properly prioritise the welfare of survivors', focused on reputation -> https://www.childabuseroyalcommission.gov.au/media-releases/report-satyananda-yoga-ashram-released",
+      "Report released September 2016 (article 15 Sept 2016); ashram directors apologised -> https://www.sbs.com.au/language/hindi/hi/article/swami-akhandananda-saraswati-sexually-abused-and-raped-children-at-australias-oldest-yoga-ashram-royal-commission-finds/0cokb9v9d",
+      "Report title and date April 2016; Satyananda sent Akhandananda c. 1974; Akhandananda his chief disciple in Australia -> https://pdfroom.com/books/the-response-of-the-satyananda-yoga-ashram-at-mangrove-mountain/PXn2G3Zj2xV",
+      "Commission concluded Satyananda had 'overarching authority' at the ashram; BSY statement 'did not refer to' Satyananda's alleged conduct; BSY first distanced itself; Mangrove Yoga compensation payments -> https://yogaaustralia.org.au/wp-content/uploads/2024/05/RC-Case-Study-21.pdf"
+    ]
+  }
+}
