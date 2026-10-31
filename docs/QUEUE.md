@@ -68,7 +68,7 @@ Historical figures with no live legal or sensitive controversy. Writer agents us
 
 ## After all units
 
-1. Epilogue from the verdicts and the finished graph.
+1. Epilogue: merged (o30). Remaining: Tier 1 sweep (running), Tier 2 sweep, Tier 3-4 pass, final audit, curated OPEN_ISSUES.md.
 2. Full build, link check, style check, status page review.
 3. Compile docs/OPEN_ISSUES.md from docs/OPEN_ISSUES_BATCHES.md.
 
