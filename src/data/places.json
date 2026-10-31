@@ -2310,6 +2310,102 @@
    "figure": "sri-chinmoy",
    "what": "Home and centre of his community; died here 11 October 2007",
    "verified": false
+  },
+  {
+   "name": "Almora",
+   "lat": 29.6,
+   "lon": 79.66,
+   "figure": "satyananda",
+   "what": "Birthplace, 1923",
+   "verified": true
+  },
+  {
+   "name": "Bihar School of Yoga, Munger",
+   "lat": 25.38,
+   "lon": 86.47,
+   "figure": "satyananda",
+   "what": "School founded 1964; centre of his work until 1988",
+   "verified": false
+  },
+  {
+   "name": "Rikhiapeeth, Rikhia, near Deoghar",
+   "lat": 24.52,
+   "lon": 86.72,
+   "figure": "satyananda",
+   "what": "Ashram where he lived from September 1989 until his death in 2009",
+   "verified": false
+  },
+  {
+   "name": "Satyananda Yoga Ashram, Mangrove Mountain, NSW",
+   "lat": -33.29,
+   "lon": 151.2,
+   "figure": "satyananda",
+   "what": "Ashram overseen by Akhandananda from c. 1974; subject of Royal Commission Case Study 21",
+   "verified": false
+  },
+  {
+   "name": "Thiruvananthapuram",
+   "lat": 8.524,
+   "lon": 76.936,
+   "figure": "sri-m",
+   "what": "Birthplace, 1948 or 1949; the childhood meeting under the jackfruit tree, by his account",
+   "verified": true
+  },
+  {
+   "name": "Vyasa Cave, Mana, near Badrinath",
+   "lat": 30.78,
+   "lon": 79.49,
+   "figure": "sri-m",
+   "what": "Where, by his account, he found Maheshwarnath Babaji at 19",
+   "verified": true
+  },
+  {
+   "name": "Madanapalle",
+   "lat": 13.55,
+   "lon": 78.5,
+   "figure": "sri-m",
+   "what": "Satsang Foundation ashram and his home",
+   "verified": true
+  },
+  {
+   "name": "Oneness University / Ekam, Varadaiahpalem",
+   "lat": 13.58,
+   "lon": 79.95,
+   "figure": "kalki-bhagavan",
+   "what": "Oneness University (2000), Oneness Temple (2008), Ekam (2018); body taken to Ekam Kshetra, Battalavallam, September 2026",
+   "verified": false
+  },
+  {
+   "name": "Natham, Vellore district",
+   "lat": 12.9,
+   "lon": 79.1,
+   "figure": "kalki-bhagavan",
+   "what": "Birthplace, 7 March 1949",
+   "verified": false
+  },
+  {
+   "name": "Tiruvannamalai",
+   "lat": 12.23,
+   "lon": 79.07,
+   "figure": "nithyananda",
+   "what": "Birthplace",
+   "verified": true
+  },
+  {
+   "name": "Nithyananda Dhyanapeetam, Bidadi",
+   "lat": 12.8,
+   "lon": 77.39,
+   "figure": "nithyananda",
+   "what": "Ashram founded 2003; focus of the 2010 Ramanagara case",
+   "verified": false
+  },
+  {
+   "name": "Bageshwar Dham, Gada, Chhatarpur district",
+   "lat": 24.86,
+   "lon": 79.72,
+   "figure": "dhirendra-shastri",
+   "what": "Birthplace and Hanuman shrine; cancer hospital foundation stone laid 23 February 2025",
+   "verified": false
   }
  ]
 }

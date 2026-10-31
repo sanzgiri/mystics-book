@@ -689,7 +689,8 @@
    "died": 2009,
    "part": 5,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Almora 25 Dec 1923; Sivananda's disciple from 1943, sannyasa 12 Sept 1947; Bihar School of Yoga, Munger, 1964; yoga nidra; handed over to Niranjanananda 1988; Rikhia from Sept 1989; died 5 Dec 2009."
   },
   {
    "id": "swami-rama",
@@ -715,7 +716,8 @@
    "born": 1948,
    "part": 5,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Mumtaz Ali Khan, Thiruvananthapuram, 6 November 1948 (1949 in BatGap and the Theosophical Society); Natha name Madhukarnath; began teaching 1998; Satsang Foundation, Madanapalle; Walk of Hope 12 Jan 2015 to 29 Apr 2016; Padma Bhushan 2020."
   },
   {
    "id": "babaji",
@@ -1330,7 +1332,9 @@
    "born": 1949,
    "part": 13,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "died": 2026,
+   "note": "Vijay Kumar Naidu, born Natham, Tamil Nadu, 7 March 1949; died Chennai 29 September 2026. With his wife Padmavathi (b. 1954) founded Jeevashram (1984), Satyaloka (1994) and Oneness University, Varadaiahpalem (2000); the deeksha or Oneness Blessing."
   },
   {
    "id": "nithyananda",
@@ -1339,14 +1343,16 @@
    "tier": "profile",
    "kind": "person",
    "born": 1978,
-   "note": "Declared the 'nation' of Kailasa after leaving India in 2019"
+   "note": "Born Arunachalam Rajasekaran, Tiruvannamalai, 1 January 1978 (1977 in some accounts); founded Nithyananda Dhyanapeetam, Bidadi (2003); accused in a 2010 rape case pending at Ramanagara; left India 2019; declared Kailasa December 2019."
   },
   {
    "id": "dhirendra-shastri",
    "name": "Dhirendra Krishna Shastri (Bageshwar Dham)",
    "part": 13,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "born": 1996,
+   "note": "Born Dhirendra Krishna Garg, Gada, Chhatarpur district, 4 July 1996; head of the Bageshwar Dham Hanuman shrine; known for the divya darbar and Hindu Rashtra campaigning."
   },
   {
    "id": "thycaud-ayyavu",
@@ -2699,6 +2705,63 @@
    "tier": "node",
    "kind": "person",
    "note": "Revolutionary companion of Sri Aurobindo and long-time secretary of the Sri Aurobindo Ashram. Born 13 January 1889, died 7 February 1983 (Sri Aurobindo Ashram life-sketch; dates matched from search listings, page not fetched in fact-check)."
+  },
+  {
+   "id": "niranjanananda",
+   "name": "Swami Niranjanananda Saraswati",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Satyananda's successor; took over the running of the Bihar School of Yoga, Munger, in 1988. Birth year not verified in this batch."
+  },
+  {
+   "id": "akhandananda-mangrove",
+   "name": "Swami Akhandananda Saraswati (Mangrove Mountain)",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Sent by Satyananda c. 1974 to oversee the Mangrove Mountain ashram, NSW; arrested 1989 on child sexual abuse charges and sentenced that year to 2 years 4 months (Royal Commission Case Study 21). Distinct from other monks of the same name."
+  },
+  {
+   "id": "maheshwarnath-babaji",
+   "name": "Maheshwarnath Babaji",
+   "part": 5,
+   "tier": "node",
+   "kind": "person",
+   "note": "Natha yogi known only from Sri M's autobiography: met him at nine in Thiruvananthapuram and at Vyasa cave near Badrinath when he was 19; trained him for about three and a half years; described as a senior disciple of Sri Guru Babaji. No independent record."
+  },
+  {
+   "id": "krishnaji-preethaji",
+   "name": "N.K.V. Krishna & Preetha Krishna (Ekam)",
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Son and daughter-in-law of Kalki Bhagavan and Amma; took over the Oneness organisation and its businesses c. 2017; opened Ekam at Varadaiahpalem, January 2018."
+  },
+  {
+   "id": "kailasa",
+   "name": "Kailasa (self-declared)",
+   "part": 13,
+   "tier": "node",
+   "kind": "institution",
+   "note": "Declared by Nithyananda in December 2019 as a sovereign Hindu nation 'without borders'; recognised by no government or international body."
+  },
+  {
+   "id": "rambhadracharya",
+   "name": "Jagadguru Rambhadracharya",
+   "born": 1950,
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Ramanandi scholar-monk of Chitrakoot; guru of Dhirendra Krishna Shastri."
+  },
+  {
+   "id": "sannyasi-baba-bageshwar",
+   "name": "Sannyasi Baba (Bageshwar Dham)",
+   "part": 13,
+   "tier": "node",
+   "kind": "person",
+   "note": "Ancestor of Dhirendra Krishna Shastri whom the family names as founder of the Bageshwar Dham shrine at Gada."
   }
  ],
  "edges": [
@@ -3037,7 +3100,9 @@
    "from": "babaji",
    "to": "sri-m",
    "type": "claimed",
-   "evidence": "hagiographic"
+   "evidence": "hagiographic",
+   "verified": true,
+   "note": "By his account he met Sri Guru Babaji in the Himalaya through Maheshwarnath and recognised him as his master in a former life; Kriya is his parampara."
   },
   {
    "from": "yoga-nath",
@@ -5760,6 +5825,124 @@
    "evidence": "testimony",
    "verified": true,
    "note": "By Sri Chinmoy's own account he was Nolini Kanta Gupta's personal secretary for about eight years."
+  },
+  {
+   "from": "satyananda",
+   "to": "niranjanananda",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1988,
+   "note": "Successor; took over the Bihar School of Yoga when Satyananda left Munger in 1988. Initiation year not verified."
+  },
+  {
+   "from": "satyananda",
+   "to": "akhandananda-mangrove",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1974,
+   "note": "Sent c. 1974 to oversee the Mangrove Mountain ashram; the Royal Commission (Case Study 21, 2016) found Satyananda had overarching authority there."
+  },
+  {
+   "from": "maheshwarnath-babaji",
+   "to": "sri-m",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "By Sri M's own account in Apprenticed to a Himalayan Master: initiated him into the Natha tradition at about 19 near Badrinath; about three and a half years together. Verified only that he makes this claim."
+  },
+  {
+   "from": "babaji",
+   "to": "maheshwarnath-babaji",
+   "type": "claimed",
+   "evidence": "hagiographic",
+   "verified": true,
+   "note": "Sri M describes Maheshwarnath as a senior disciple of Sri Guru Babaji, whom he identifies with Mahavatar Babaji."
+  },
+  {
+   "from": "yoga-nath",
+   "to": "maheshwarnath-babaji",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Natha yogi in Sri M's account."
+  },
+  {
+   "from": "j-krishnamurti",
+   "to": "sri-m",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Worked in Krishnamurti institutions and became a confidant (Open, 2014); time with the Krishnamurti Foundation (Wikipedia), where he met his wife."
+  },
+  {
+   "from": "kalki-bhagavan",
+   "to": "krishnaji-preethaji",
+   "type": "family",
+   "evidence": "documented",
+   "verified": true,
+   "year": 2017,
+   "note": "Son and daughter-in-law; organisation and business interests handed over c. 2017, renamed Ekam."
+  },
+  {
+   "from": "j-krishnamurti",
+   "to": "kalki-bhagavan",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": false,
+   "note": "A former disciple (Open, 2019) judged the movement against Krishnamurti's teachings; the nature of the influence on the Jeevashram school is not documented in sources seen."
+  },
+  {
+   "from": "advaita-vedanta",
+   "to": "kalki-bhagavan",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Teaching that suffering comes from the separate self and that awakening ends it."
+  },
+  {
+   "from": "ramakrishna",
+   "to": "nithyananda",
+   "type": "institutional",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1995,
+   "note": "Reportedly joined the Ramakrishna Math, Chennai, in 1995 (Quartz, citing his own account)."
+  },
+  {
+   "from": "tamil-shaiva",
+   "to": "nithyananda",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 2012,
+   "note": "Named 293rd head of the Madurai Aadheenam in 2012; appointment withdrawn the same year. Agamic Shaiva worship in his temples."
+  },
+  {
+   "from": "nithyananda",
+   "to": "kailasa",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 2019,
+   "note": "Declared December 2019."
+  },
+  {
+   "from": "rambhadracharya",
+   "to": "dhirendra-shastri",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Shastri describes himself as Rambhadracharya's disciple (Wikipedia; widely reported)."
+  },
+  {
+   "from": "sannyasi-baba-bageshwar",
+   "to": "dhirendra-shastri",
+   "type": "family",
+   "evidence": "devotional",
+   "verified": true,
+   "note": "Ancestor and founder of the shrine; Shastri credits his powers partly to Sannyasi Baba's blessing."
   }
  ]
 }

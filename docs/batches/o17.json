@@ -1,26 +1,99 @@
 {
   "batch": "o17",
   "nodes_add": [
-    {"id": "maheshwarnath-babaji", "name": "Maheshwarnath Babaji", "part": 5, "tier": "node", "kind": "person", "note": "Natha yogi known only from Sri M's autobiography: met him at nine in Thiruvananthapuram and at Vyasa cave near Badrinath when he was 19; trained him for about three and a half years; described as a senior disciple of Sri Guru Babaji. No independent record."}
+    {
+      "id": "maheshwarnath-babaji",
+      "name": "Maheshwarnath Babaji",
+      "part": 5,
+      "tier": "node",
+      "kind": "person",
+      "note": "Natha yogi known only from Sri M's autobiography: met him at nine in Thiruvananthapuram and at Vyasa cave near Badrinath when he was 19; trained him for about three and a half years; described as a senior disciple of Sri Guru Babaji. No independent record."
+    }
   ],
   "nodes_update": [
-    {"id": "sri-m", "name": "Sri M", "born": 1948, "note": "Born Mumtaz Ali Khan, Thiruvananthapuram, 6 November 1948 (1949 in some sources); Natha name Madhukarnath; began teaching 1998; Satsang Foundation, Madanapalle; Walk of Hope 12 Jan 2015 to 29 Apr 2016; Padma Bhushan 2020."}
+    {
+      "id": "sri-m",
+      "name": "Sri M",
+      "born": 1948,
+      "note": "Born Mumtaz Ali Khan, Thiruvananthapuram, 6 November 1948 (1949 in BatGap and the Theosophical Society); Natha name Madhukarnath; began teaching 1998; Satsang Foundation, Madanapalle; Walk of Hope 12 Jan 2015 to 29 Apr 2016; Padma Bhushan 2020."
+    }
   ],
   "edges_remove": [],
   "edges_upsert": [
-    {"from": "maheshwarnath-babaji", "to": "sri-m", "type": "initiated", "evidence": "testimony", "verified": true, "note": "By Sri M's own account in Apprenticed to a Himalayan Master: initiated him into the Natha tradition at about 19 near Badrinath; about three and a half years together. Verified only that he makes this claim."},
-    {"from": "babaji", "to": "maheshwarnath-babaji", "type": "claimed", "evidence": "hagiographic", "verified": true, "note": "Sri M describes Maheshwarnath as a senior disciple of Sri Guru Babaji, whom he identifies with Mahavatar Babaji."},
-    {"from": "babaji", "to": "sri-m", "type": "claimed", "evidence": "hagiographic", "verified": true, "note": "By his account he met Sri Guru Babaji in the Himalaya through Maheshwarnath and recognised him as his master in a former life; Kriya is his parampara."},
-    {"from": "yoga-nath", "to": "maheshwarnath-babaji", "type": "lineage", "evidence": "testimony", "verified": true, "note": "Natha yogi in Sri M's account."},
-    {"from": "j-krishnamurti", "to": "sri-m", "type": "influenced", "evidence": "documented", "verified": true, "note": "Worked in Krishnamurti institutions and became a confidant (Open, 2014); time with the Krishnamurti Foundation (Wikipedia), where he met his wife."}
+    {
+      "from": "maheshwarnath-babaji",
+      "to": "sri-m",
+      "type": "initiated",
+      "evidence": "testimony",
+      "verified": true,
+      "note": "By Sri M's own account in Apprenticed to a Himalayan Master: initiated him into the Natha tradition at about 19 near Badrinath; about three and a half years together. Verified only that he makes this claim."
+    },
+    {
+      "from": "babaji",
+      "to": "maheshwarnath-babaji",
+      "type": "claimed",
+      "evidence": "hagiographic",
+      "verified": true,
+      "note": "Sri M describes Maheshwarnath as a senior disciple of Sri Guru Babaji, whom he identifies with Mahavatar Babaji."
+    },
+    {
+      "from": "babaji",
+      "to": "sri-m",
+      "type": "claimed",
+      "evidence": "hagiographic",
+      "verified": true,
+      "note": "By his account he met Sri Guru Babaji in the Himalaya through Maheshwarnath and recognised him as his master in a former life; Kriya is his parampara."
+    },
+    {
+      "from": "yoga-nath",
+      "to": "maheshwarnath-babaji",
+      "type": "lineage",
+      "evidence": "testimony",
+      "verified": true,
+      "note": "Natha yogi in Sri M's account."
+    },
+    {
+      "from": "j-krishnamurti",
+      "to": "sri-m",
+      "type": "influenced",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Worked in Krishnamurti institutions and became a confidant (Open, 2014); time with the Krishnamurti Foundation (Wikipedia), where he met his wife."
+    }
   ],
   "places": [
-    {"name": "Thiruvananthapuram", "lat": 8.524, "lon": 76.936, "figure": "sri-m", "what": "Birthplace, 1948; the childhood meeting under the jackfruit tree, by his account", "verified": true},
-    {"name": "Vyasa Cave, Mana, near Badrinath", "lat": 30.78, "lon": 79.49, "figure": "sri-m", "what": "Where, by his account, he found Maheshwarnath Babaji at 19", "verified": true},
-    {"name": "Madanapalle", "lat": 13.55, "lon": 78.50, "figure": "sri-m", "what": "Satsang Foundation ashram and his home", "verified": true}
+    {
+      "name": "Thiruvananthapuram",
+      "lat": 8.524,
+      "lon": 76.936,
+      "figure": "sri-m",
+      "what": "Birthplace, 1948 or 1949; the childhood meeting under the jackfruit tree, by his account",
+      "verified": true
+    },
+    {
+      "name": "Vyasa Cave, Mana, near Badrinath",
+      "lat": 30.78,
+      "lon": 79.49,
+      "figure": "sri-m",
+      "what": "Where, by his account, he found Maheshwarnath Babaji at 19",
+      "verified": true
+    },
+    {
+      "name": "Madanapalle",
+      "lat": 13.55,
+      "lon": 78.5,
+      "figure": "sri-m",
+      "what": "Satsang Foundation ashram and his home",
+      "verified": true
+    }
   ],
   "glossary": [
-    {"term": "Natha", "script": "नाथ", "lang": "sa", "def": "An order of Shaiva yogis who trace their line to Matsyendranath and Gorakhnath and are closely tied to the origins of hatha yoga; members often take names ending in -nath."}
+    {
+      "term": "Natha",
+      "script": "नाथ",
+      "lang": "sa",
+      "def": "An order of Shaiva yogis who trace their line to Matsyendranath and Gorakhnath and are closely tied to the origins of hatha yoga; members often take names ending in -nath."
+    }
   ],
   "art": [],
   "issues": [
@@ -34,7 +107,8 @@
     "sri-m.mdx: the two quotations are from the BatGap page (quoted speech in the page summary) and the TS Adyar page; the fetch tool returned them as verbatim sentences, but a human check of the pages is advised.",
     "sri-m.mdx: no media cards or photo (profile template). The Modern Mystic (2011, dir. Raja Choudhury) documentary is noted by Wikipedia if the author wants it.",
     "technique.mdx: written from the existing Part 5 entries in this repo, not fresh web research. It names Pattabhi Jois, Satyananda and Swami Rama, whose profiles do not yet exist; Satyananda's Bihar School of Yoga (Munger, 1964) comes from the graph edge note. 443 words.",
-    "Glossary: 'Natha' added; check it is not already present under another spelling (e.g. 'Nath')."
+    "Glossary: 'Natha' added; check it is not already present under another spelling (e.g. 'Nath').",
+    "sri-m.mdx (checker): Satsang Foundation founding year still unconfirmed (TS Adyar says only 'about twenty years' before an undated page); entry gives none."
   ],
   "sources": {
     "sri-m": [
@@ -48,6 +122,32 @@
     ],
     "technique-part": [
       "All facts in the Part 5 introduction are taken from existing entries: lahiri-mahasaya.mdx (1861, Babaji, graded initiations), yogananda.mdx (America 1920; 'half-minute of Kriya equals one year'), krishnamacharya.mdx, iyengar.mdx, kuvalayananda.mdx (Lonavla 1924, X-ray, pressure), sivananda.mdx, maharishi.mdx, sri-sri-ravi-shankar.mdx, vethathiri.mdx; Satyananda's Bihar School of Yoga 1964 from graph.json edge sivananda->satyananda."
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 58,
+    "changes": [
+      "sri-m.mdx: teachers list replaced 'Anandamayi Ma' with Bhagawan Nityananda of Ganeshpuri and Krishnamurti; Wikipedia names 'Mai Ma' among South Indian saints, not Anandamayi Ma (en.wikipedia.org/wiki/Sri_M)",
+      "sri-m.mdx: name note corrected: a friend called him 'Mr M' and her niece suggested 'Sri M' (Open, Ullekh N.P., 2014)",
+      "sri-m.mdx: 'then in the princely state of Travancore' adjusted, since Travancore became part of Travancore-Cochin in July 1949 and one birth year given is 1949",
+      "sri-m.mdx: autobiography publisher added (Magenta Press); 2010 per Wikipedia and Amrita library catalogue (opac.cb.amrita.edu/bib/14292), 2011 per TS Adyar; Open does not give the year, so attribution to Open removed",
+      "sri-m.mdx: How to Levitate is called a book, not a booklet (Open)",
+      "sri-m.mdx: Walk of Hope purpose no longer put in his mouth; attributed to Wikipedia/Penguin (restore spirituality) and Open's 2014 report of planned multi-faith prayer meetings for communal amity",
+      "sri-m.mdx: 'Muslim by birth and Hindu by initiation' attributed to Open's narration, not his self-description (Open)",
+      "sri-m.mdx: Kabir line attributed to his words in Open ('called the Supreme Being Ram')",
+      "sri-m.mdx: 'several books' on the Upanishads changed to 'commentaries'; unsourced 'answers readers' questions' for On Meditation cut",
+      "sri-m.mdx: verdict list 'independent route' to Babaji changed to 'claims a second route' (testimony only); unverifiable 'no successor has been named' cut (living person)",
+      "sri-m.mdx: both quotations confirmed verbatim as his own speech on batgap.com/sri-m ('Go to the core. Theories are of no use.' also on convention.ts-adyar.org/node/28)",
+      "technique.mdx: Sri M birth 'Kerala in 1948' changed to 'Thiruvananthapuram in 1948 or 1949' to match sri-m.mdx",
+      "technique.mdx: Kuvalayananda corrected: measurements began in Baroda in 1920-21 per kuvalayananda.mdx; Lonavla and the X-ray/pressure studies date from 1924",
+      "technique.mdx: Lahiri's 1861 account attributed to his disciples, matching lahiri-mahasaya.mdx",
+      "o17.json: Thiruvananthapuram place note now '1948 or 1949'"
+    ],
+    "unresolved": [
+      "Satsang Foundation founding year not found.",
+      "Birth year 1948 vs 1949 remains a genuine source conflict; both given.",
+      "Peepal Grove School (Kalam, 2006) confirmed in Wikipedia only; that the Foundation runs it was not independently checked.",
+      "technique.mdx mentions Swami Rama and Pattabhi Jois without profiles yet; only uncontroversial facts drawn from krishnamacharya.mdx are stated."
     ]
   }
 }

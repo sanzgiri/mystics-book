@@ -45,9 +45,9 @@ Status: todo / running / written / checked / merged.
 | w34 | dada-lekhraj, sri-chinmoy | new-revelations (incl. godman essay) | merged |
 | w35 | kalki-bhagavan, nithyananda, dhirendra-shastri | | checking |
 | o16 | satyananda, swami-rama, pattabhi-jois | | running |
-| o17 | sri-m | technique | checking |
+| o17 | sri-m | technique | merged |
 | o19 | shri-mataji, pr-sarkar | shakti | running |
-| o22 | premanand-maharaj | grace | todo |
+| o22 | premanand-maharaj | grace | running |
 | o25 | periyar (s) | across-the-line, against-authority | todo |
 | o27 | ram-singh-namdhari | sound-and-light | todo |
 | o29 | dharmapala | conduct | todo |
