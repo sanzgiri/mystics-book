@@ -2910,7 +2910,7 @@
    "part": 11,
    "tier": "node",
    "kind": "person",
-   "note": "American co-founder and president of the Theosophical Society; arrived in Ceylon with Blavatsky May 1880; Dharmapala heard his first lecture there and later served as his translator; director of the Maha Bodhi Society from 1891; left it in 1905. Not subcontinent-born; tree node only. Birth/death years from general knowledge, not re-checked this session."
+   "note": "American co-founder and president of the Theosophical Society; arrived in Ceylon with Blavatsky May 1880; Dharmapala heard his first lecture there and later served as his translator; director of the Maha Bodhi Society from 1891; left it in 1905. Not subcontinent-born; tree node only. Dates 1832-1907 (born 2 Aug 1832, died 17 Feb 1907) confirmed by checker from standard references."
   },
   {
    "id": "hikkaduwe-sumangala",
@@ -2927,7 +2927,7 @@
    "tier": "node",
    "kind": "institution",
    "era": "founded 1891",
-   "note": "Founded in Colombo by Dharmapala in May 1891 (31 May per Sangharakshita, 3 May per Banglapedia); office moved to Calcutta 1892; journal The Maha Bodhi from 1892; London branch c. 1926; Mulagandhakuti Vihara, Sarnath, opened 11 Nov 1931."
+   "note": "Founded in Colombo by Dharmapala in May 1891 (31 May per Sangharakshita and Sunday Times 2021, 3 May per Banglapedia); office moved to Calcutta 1892; journal The Maha Bodhi from 1892; London branch c. 1926; Mulagandhakuti Vihara, Sarnath, opened 11 Nov 1931."
   }
  ],
  "edges": [
@@ -6338,7 +6338,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1880,
-   "note": "Heard Olcott in Colombo 1880; his translator on lecture tours from 1886; toured Japan with him 1889; Olcott director of the Maha Bodhi Society 1891; parted 1905 over priorities (Bodh Gaya vs general mission)."
+   "note": "Heard Olcott in Colombo 1880; his translator on lecture tours from 1886; toured Japan with him 1889; Olcott director of the Maha Bodhi Society 1891; 1905 Olcott resigned from the MBS and Dharmapala left the TS; Theosophy Wiki gives differing priorities (Bodh Gaya vs general teaching), McMahan cites rejection of Theosophical universalism."
   },
   {
    "from": "hikkaduwe-sumangala",
