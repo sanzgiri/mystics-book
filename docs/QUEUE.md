@@ -50,7 +50,7 @@ Status: todo / running / written / checked / merged.
 | o22 | premanand-maharaj | grace | merged |
 | o25 | periyar (s) | across-the-line, against-authority | merged |
 | o27 | ram-singh-namdhari | sound-and-light | merged |
-| o29 | dharmapala | conduct | running |
+| o29 | dharmapala | conduct | merged |
 
 ## Low-risk profiles: writer on Sonnet, fact-checker on Opus
 
