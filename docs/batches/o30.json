@@ -8,15 +8,17 @@
  "glossary": [],
  "art": [],
  "issues": [
-  "epilogue.mdx: the prologue contains no figure links, so the link format used is the markdown form [Name](/figures/<id>/), matching the href='/figures/shirdi-sai-baba/' already used in content. Confirm this resolves correctly with the site's base path.",
-  "epilogue.mdx section 2: 'about two in three of the 84 verdicts' place newness outside doctrine is the writer's own rough classification of the verdict lines; a keyword pass gave a similar but not identical figure. Author may prefer to drop the number or do a formal tally.",
+  "epilogue.mdx links: checked. Markdown links [Name](/figures/<id>/) match the pattern used in src/content (sathya-sai-baba.mdx href='/figures/shirdi-sai-baba/') and src/pages (tree.astro, map.astro use ${base}/figures/${id}/). astro.config sets no base, so root-relative links resolve. All 44 linked ids exist as src/content/figures/*.mdx and as graph nodes with pages. If a base path is ever added, these links and the existing hrefs in content will need updating together.",
+  "epilogue.mdx section 2: the 'about two in three of the 84 verdicts' figure was cut by the checker (no reproducible tally; writer's own count was a rough manual classification). Text now says 'many of the 84 verdicts'. Author may restore a number after a formal, documented tally of the class=final lines.",
   "epilogue.mdx section 2: the ranking of five innovations (Aurobindo, J. Krishnamurti, Ambedkar, Dayananda Saraswati, Iqbal) replaces the outline's early candidates; Ramana and Krishnamacharya moved to 'innovations of practice' because their own verdicts locate originality in method/form. K.C. Bhattacharyya, Dada Lekhraj and Gopi Krishna named as near misses. Author's call.",
   "graph.json: ayya-vaikundar has an entry but zero edges (deliberate per s05). Five tree-only nodes also have no edges: trailanga-swami, lokenath, mother-meera, rahul-sankrityayan, goenka. Not named in the epilogue.",
   "graph.json: 7 edges have verified=false and 7 have no verified field; palani-swami->sadhguru (used indirectly in section 5 via the Sadhguru chapter wording) is verified=false.",
   "graph.json: Dipa Ma's teachers (Munindra, Mahasi Sayadaw) are typed 'influenced', and Sarada Devi's tie to Ramakrishna 'family', so the '41 of 86 without a teacher edge' count overstates guru-less figures; the text says so. Consider retyping.",
   "graph.json: lahiri-mahasaya transitive descendants include gandhi, ambedkar and periyar via yogananda->gandhi (Kriya instruction 1935, testimony). Not used, but it distorts descendant counts for the Kriya line.",
   "All numbers are as of graph.json on 2026-10-31 and will drift as batches merge; section 1 says so. Recompute before final.",
-  "Word count about 2,790 (body, excluding headings and link URLs)."
+  "Word count about 2,790 (body, excluding headings and link URLs).",
+  "epilogue.mdx section 2: the writer's stated reason for ranking K.C. Bhattacharyya, Dada Lekhraj and Gopi Krishna below the five ('they reached smaller circles') was cut as unsupported (the Brahma Kumaris are not a small circle); the ranking itself remains the author's call.",
+  "epilogue.mdx section 5: Venkusa (no contemporary evidence, Das Ganu 1925) is not a visionary initiation; placed as 'close to' the third group. The Namdhari 1812 claim moved from 'reincarnation' to the immortal/long-lived group. Author may prefer a fourth group ('gurus known only from later accounts')."
  ],
  "sources": {
   "epilogue-section-1-data": [
@@ -70,6 +72,33 @@
   "epilogue-section-6": [
    "Rammohan printed Upanishads, method -> rammohan-roy.mdx; Nagpur 14 Oct 1956 -> ambedkar.mdx; Dharmapala aim -> buddha-returns.mdx; Shirdi mosque named Dwarka, mostly Hindu sources -> across-the-line.mdx",
    "Kuvalayananda measured mostly the body -> technique.mdx part intro; Gandhi vows on a nation -> gandhi.mdx verdict; Krishnamurti last statement -> j-krishnamurti.mdx Critiques"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 112,
+  "method": "All graph figures recomputed from src/data/graph.json on 2026-10-31 with a Python script (tiers, edge types, evidence, verified flags, degrees, root out-degree, Advaita downstream reach, undirected components with and without roots, cross-part person edges, claimed-edge breakdown, initiation edges into entry figures, entries lacking an initiated/lineage/lived-with edge from a person, Vivekananda out-edges and descendants). Every number in the essay reproduced: 322 nodes (24/31/53/2/212), 410 edges (164/79/51/36/35/20/15/8/2), evidence 308/85/11/6, verified 396; advaita-vedanta 22 out vs tantra-shakta 10; 35 of 86 entries downstream of Advaita, 51 not; Ramana 14 (4 in/10 out), Ramakrishna 13 (7/6), Osho 13 (11/2), Sivananda 8 out; components 291 + six multi-node (7,6,4,3,3,2) + six isolated; without roots 36 components, largest 132 with 42 entries, next 20/18/17; 33 cross-part edges; claimed 20 = 1 documented/8 testimony/7 hagiographic/4 devotional; 17 hagiographic+devotional edges; babaji 5 out-edges all hagiographic; 39 initiations into entries = 25/11/3; 41 entries without a teacher edge; Vivekananda 6 out, 17 descendants; Aurobindo 3, KC Bhattacharyya 1, Iqbal 0, Krishnamacharya 6 out. Verdict tally ('two in three') not attempted; number cut. Named-figure statements checked by grep against each figure's verdict, author paragraph, Lineage and Critiques sections and the part intros.",
+  "changes": [
+   "epilogue.mdx s1: Osho's two out-edges go to Ma Anand Sheela (his secretary, a person) and Osho International Foundation, so 'both to his own organisation' was inaccurate; rewritten, and the garbled 'verdict ... drawn as a diagram' sentence split (graph.json; osho.mdx verdict).",
+   "epilogue.mdx s1: Sivananda's eight out-edges are 7 'initiated' plus Venkatesananda 'lived-with'; 'all to monks he initiated' changed to 'all to his own monks, seven of them typed as initiations' (graph.json).",
+   "epilogue.mdx s1: 'Six small islands' did not account for the six isolated nodes; now 'six small clusters and six single names' (graph.json components).",
+   "epilogue.mdx s1: Neem Karoli Baba 'has no recorded teacher' hedged to the chapter's wording, sources consulted name no guru (neem-karoli-baba.mdx Lineage).",
+   "epilogue.mdx s2: cut the unsupported 'about two in three of the 84 verdicts' figure; replaced with 'many of the 84 verdicts' (no reproducible tally).",
+   "epilogue.mdx s2 Aurobindo: added that he denied Hegel's influence; untestability recast as the chapter's attributed question from readers outside the movement (aurobindo.mdx author paragraph, Critiques).",
+   "epilogue.mdx s2 Krishnamurti: 'he never named a source' is not in the chapter; replaced with the author paragraph's 'without borrowing their vocabulary'; counter-case widened to include the Advaitin/Buddhist 'can anyone use it?' critique (j-krishnamurti.mdx verdict, author paragraph, Critiques).",
+   "epilogue.mdx s2 Ambedkar: 'limited karma to this life' corrected to the chapter's account (applied karma to this life, denied it explains station at birth) (ambedkar.mdx 'third problem').",
+   "epilogue.mdx s2: cut unsupported ranking reason 'they reached smaller circles' for the three near misses.",
+   "epilogue.mdx s4 balance: added the Ramakrishna Order's reply to Neevel/Sil and the defenders' reply to Rambachan, both from the chapters (ramakrishna.mdx, vivekananda.mdx Critiques).",
+   "epilogue.mdx s4: 'order built around both meditation and relief work' aligned with the chapter (motto joining liberation and service, famine relief); 'reached much of the yoga taught today' now attributed to Sivananda's own verdict (vivekananda.mdx, sivananda.mdx verdict).",
+   "epilogue.mdx s5: grouping sentence now admits the testimony-based Krishnamacharya and Swami Rama cases; Namdhari 1812 claim (survival, not reincarnation) moved to the long-lived masters group; Prema Sai prophecy added to the reincarnation group; Sadhguru line attributed 'by his own account'; Venkusa marked as close to, not inside, the visionary group (graph.json notes; sadhguru.mdx Lineage; sathya-sai-baba.mdx).",
+   "epilogue.mdx s5: Dipa Ma's teachers typed as influences added to the caveat on the 41-of-86 count (graph.json).",
+   "epilogue.mdx s5: 'most sit at the top of a lineage' did not reproduce (only 1 of the 3 hagiographic initiations, Babaji->Lahiri, heads a line); replaced with the actual three edges (graph.json).",
+   "epilogue.mdx s6: 'Rammohan printed the Upanishads' -> 'translated and published' (rammohan-roy.mdx works list)."
+  ],
+  "unresolved": [
+   "All figures are as of graph.json on 2026-10-31 and must be recomputed if batches merge before publication.",
+   "Ranking of the five innovations and placement of near misses is the author's judgement.",
+   "Section 3 claim that the Mysore yoga line (9 names) and Gaudiya mission (10) are 'some of the largest families' is true only loosely (they rank 6th and 5th of 36); left as is.",
+   "style-check.mjs reports 0 errors overall; it may not scan src/content/essays, so the essay was also checked by hand (no em-dashes)."
   ]
  }
 }
