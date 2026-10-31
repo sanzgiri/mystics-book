@@ -46,11 +46,11 @@ Status: todo / running / written / checked / merged.
 | w35 | kalki-bhagavan, nithyananda, dhirendra-shastri | | merged |
 | o16 | satyananda, swami-rama, pattabhi-jois | | merged |
 | o17 | sri-m | technique | merged |
-| o19 | shri-mataji, pr-sarkar | shakti | checking |
+| o19 | shri-mataji, pr-sarkar | shakti | merged |
 | o22 | premanand-maharaj | grace | checking |
 | o25 | periyar (s) | across-the-line, against-authority | running |
 | o27 | ram-singh-namdhari | sound-and-light | running |
-| o29 | dharmapala | conduct | todo |
+| o29 | dharmapala | conduct | running |
 
 ## Low-risk profiles: writer on Sonnet, fact-checker on Opus
 

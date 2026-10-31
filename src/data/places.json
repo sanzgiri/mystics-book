@@ -2461,7 +2461,7 @@
    "lon": 72.75,
    "figure": "shri-mataji",
    "what": "Shore where, by the movement's account, she opened the sahasrara on 5 May 1970",
-   "verified": false
+   "verified": true
   },
   {
    "name": "Genoa",
@@ -2485,7 +2485,7 @@
    "lon": 88.36,
    "figure": "pr-sarkar",
    "what": "Kalikananda encounter (1939), by Sarkar's account",
-   "verified": false
+   "verified": true
   },
   {
    "name": "Patna",
@@ -2508,8 +2508,8 @@
    "lat": 22.517,
    "lon": 88.375,
    "figure": "pr-sarkar",
-   "what": "Mob killing of 17 Ananda Marga monks and a nun, 30 April 1982",
-   "verified": false
+   "what": "Mob killing of 17 Ananda Marga monastics (16 monks and a nun) at Bijon Setu and two nearby sites, 30 April 1982",
+   "verified": true
   },
   {
    "name": "Kolkata",
@@ -2517,6 +2517,30 @@
    "lon": 88.364,
    "figure": "pr-sarkar",
    "what": "Place of death (1990)",
+   "verified": true
+  },
+  {
+   "name": "Shri Hit Radha Keli Kunj, Varaha Ghat, Vrindavan",
+   "lat": 27.58,
+   "lon": 77.69,
+   "figure": "premanand-maharaj",
+   "what": "His ashram on the Parikrama Marg, where he holds satsang and Ekantik Vartalap sessions. Coordinates are for Vrindavan town to two decimals; exact site not checked.",
+   "verified": false
+  },
+  {
+   "name": "Radhavallabh temple, Vrindavan",
+   "lat": 27.58,
+   "lon": 77.7,
+   "figure": "premanand-maharaj",
+   "what": "Where, by the ashram's account, he was drawn into the Radhavallabh Sampradaya and received its initiation mantra. Town-level coordinates.",
+   "verified": false
+  },
+  {
+   "name": "Assi Ghat, Varanasi",
+   "lat": 25.287,
+   "lon": 83.007,
+   "figure": "premanand-maharaj",
+   "what": "Among the Ganga ghats where he lived as a young renunciant.",
    "verified": true
   }
  ]

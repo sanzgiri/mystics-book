@@ -812,7 +812,7 @@
    "part": 6,
    "tier": "profile",
    "kind": "person",
-   "note": "Founder of Ananda Marga (January 1955, Jamalpur); tantra as universal science; PROUT (1959) and neohumanism (1982). Convicted 29 Nov 1976 by Additional Sessions Judge, Patna; acquitted by Patna High Court 4 July 1978."
+   "note": "Founder of Ananda Marga (January 1955, Jamalpur); tantra as universal science; PROUT (1959) and neohumanism (1982). Arrested December 1971 on charges of conspiracy to murder six followers; convicted 29 Nov 1976 by Additional Sessions Judge, Patna, and sentenced to life; acquitted by Patna High Court 4 July 1978."
   },
   {
    "id": "bhagavan-nityananda",
@@ -931,7 +931,8 @@
    "part": 7,
    "tier": "profile",
    "kind": "person",
-   "note": "Radhavallabh devotee, Vrindavan"
+   "note": "Shri Hit Premanand Govind Sharan Ji Maharaj; born Aniruddh Kumar Pandey, Akhri village, Sarsaul block, Kanpur district, UP. Birth year 1969 (NavbharatLive), 30 Mar 1971 (Wikipedia) or 1972 (Pioneer); 1971 used for the node, flag as uncertain. Left home at 13; naishthik brahmachari (Anandswaroop Brahmachari), sannyasa as Swami Anandashram; Varanasi ghats; Vrindavan (about two decades before 2025 per ThePrint); Shri Hit Radha Keli Kunj, Varaha Ghat. Living.",
+   "born": 1971
   },
   {
    "id": "gaur-gopal-das",
@@ -2800,6 +2801,22 @@
    "tier": "node",
    "kind": "person",
    "note": "By Sarkar's own account a Calcutta bandit he won over near Kashi Mitra Ghat in 1939; counted as Ananda Marga's first disciple."
+  },
+  {
+   "id": "gaurangi-sharan",
+   "name": "Shri Hit Gaurangi Sharan Ji Maharaj",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Radhavallabh renunciant of Vrindavan; guru of Premanand Maharaj, who served him about ten years and received from him initiation into sahachari bhav and nitya vihar ras (ashram's account). Dates not found."
+  },
+  {
+   "id": "mohit-maral-goswami",
+   "name": "Hit Mohit Maral Goswami",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "18th Tilakayat Adhikari (head) of the Radhavallabh Sampradaya, Radhavallabh temple, Vrindavan, per the temple site; eldest son of the 17th, Hit Radhesh Lal Goswami. By Premanand's ashram's account he gave Premanand the sect's sharanagat mantra and sent him to Gaurangi Sharan. Birth year not given."
   }
  ],
  "edges": [
@@ -3569,7 +3586,9 @@
    "from": "radhavallabh",
    "to": "premanand-maharaj",
    "type": "lineage",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Member of the Radhavallabh Sampradaya; ashram, Wikipedia and ThePrint agree."
   },
   {
    "from": "prabhupada",
@@ -6032,7 +6051,7 @@
    "type": "family",
    "evidence": "documented",
    "verified": true,
-   "note": "Born to Marathi Christian parents (per N.K.P. Salve entry; Wikipedia on her gives father Hindu, mother Christian). Followers identify her with the Holy Spirit."
+   "note": "Parents described as Marathi Christians (Wikipedia, N.K.P. Salve); her own Wikipedia entry gives a Hindu father and Christian mother. Followers identify her with the Holy Spirit."
   },
   {
    "from": "gandhi",
@@ -6041,6 +6060,38 @@
    "evidence": "testimony",
    "verified": true,
    "note": "Movement biographies say she spent school holidays at Gandhi's ashram; she joined Quit India in 1942."
+  },
+  {
+   "from": "gaurangi-sharan",
+   "to": "premanand-maharaj",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Named as his guru (sadguru) by his ashram and by ThePrint (2025); about ten years' service. Date unknown. Verified that he and his ashram state it; no independent record."
+  },
+  {
+   "from": "mohit-maral-goswami",
+   "to": "premanand-maharaj",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Ashram biography: gave him the sharanagat mantra at the Radhavallabh temple before sending him to Gaurangi Sharan. Date unknown."
+  },
+  {
+   "from": "radhavallabh",
+   "to": "gaurangi-sharan",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Radhavallabh renunciant (Hit prefix; ashram account)."
+  },
+  {
+   "from": "radhavallabh",
+   "to": "mohit-maral-goswami",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Hereditary head (Tilakayat) of the sect, per radhavallabhmandir.com."
   }
  ]
 }

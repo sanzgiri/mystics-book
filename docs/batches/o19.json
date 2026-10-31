@@ -23,7 +23,7 @@
    "name": "P.R. Sarkar (Anandamurti)",
    "born": 1921,
    "died": 1990,
-   "note": "Founder of Ananda Marga (January 1955, Jamalpur); tantra as universal science; PROUT (1959) and neohumanism (1982). Convicted 29 Nov 1976 by Additional Sessions Judge, Patna; acquitted by Patna High Court 4 July 1978."
+   "note": "Founder of Ananda Marga (January 1955, Jamalpur); tantra as universal science; PROUT (1959) and neohumanism (1982). Arrested December 1971 on charges of conspiracy to murder six followers; convicted 29 Nov 1976 by Additional Sessions Judge, Patna, and sentenced to life; acquitted by Patna High Court 4 July 1978."
   }
  ],
  "edges_remove": [],
@@ -59,7 +59,7 @@
    "type": "family",
    "evidence": "documented",
    "verified": true,
-   "note": "Born to Marathi Christian parents (per N.K.P. Salve entry; Wikipedia on her gives father Hindu, mother Christian). Followers identify her with the Holy Spirit."
+   "note": "Parents described as Marathi Christians (Wikipedia, N.K.P. Salve); her own Wikipedia entry gives a Hindu father and Christian mother. Followers identify her with the Holy Spirit."
   },
   {
    "from": "gandhi",
@@ -85,7 +85,7 @@
    "lon": 72.75,
    "figure": "shri-mataji",
    "what": "Shore where, by the movement's account, she opened the sahasrara on 5 May 1970",
-   "verified": false
+   "verified": true
   },
   {
    "name": "Genoa",
@@ -109,7 +109,7 @@
    "lon": 88.36,
    "figure": "pr-sarkar",
    "what": "Kalikananda encounter (1939), by Sarkar's account",
-   "verified": false
+   "verified": true
   },
   {
    "name": "Patna",
@@ -132,8 +132,8 @@
    "lat": 22.517,
    "lon": 88.375,
    "figure": "pr-sarkar",
-   "what": "Mob killing of 17 Ananda Marga monks and a nun, 30 April 1982",
-   "verified": false
+   "what": "Mob killing of 17 Ananda Marga monastics (16 monks and a nun) at Bijon Setu and two nearby sites, 30 April 1982",
+   "verified": true
   },
   {
    "name": "Kolkata",
@@ -223,7 +223,9 @@
   "Country counts conflict: 120 (trust, 2011, Hinduism Today), over 140 (foundation; Indian Express 2011 per Wikipedia), 100+ (Khaleej Times), 69 in the 2021 directory per Wikipedia. Age at death 87 (Wikipedia, Khaleej Times) vs 88 (Hinduism Today). Both noted in text.",
   "Places marked verified:false (Nargol, Kashi Mitra Ghat, Ananda Nagar, Bijon Setu) need coordinate checks.",
   "No media cards or photos added (profiles do not require them).",
-  "pr-sarkar.mdx: the life sentences in the L.N. Mishra case (18 December 2014) rest on a search-result headline (madhyamam); the article page redirected and was not read. The 7 December 2014 conviction is from a fetched Peninsula report."
+  "pr-sarkar.mdx: the life sentences in the L.N. Mishra case (18 December 2014) rest on a search-result headline (madhyamam); the article page redirected and was not read. The 7 December 2014 conviction is from a fetched Peninsula report.",
+  "Factcheck: Shri Mataji family religion conflict remains (Marathi Christian parents vs Hindu father, Christian mother); author may want a primary biography (e.g. H.P. Salve, My Memoirs).",
+  "Factcheck: Belgian IACSSO litigation hedged; author may wish to cut if no Belgian source can be found."
  ],
  "sources": {
   "shri-mataji": [
@@ -234,7 +236,8 @@
    "Christian family; school holidays at Gandhi's ashram; 5 May 1970 sahasrara at daybreak after Bordi -> https://sahajayoga.yolasite.com/shri-mataji.php",
    "Father freedom fighter and Congress; married 1947; two daughters; began teaching 5 May 1970; never took money; died 23 Feb 2011 Genoa aged 87 -> https://khaleejtimes.com/uae/remembering-an-extraordinary-mother?amp=1",
    "Death reported by the trust; age 88; 120 countries; en-masse self-realisation; Vishwa Nirmala Dharma -> https://www.hinduismtoday.com/hpi/?p=9927",
-   "Cool breeze above the head as sign of self-realisation -> https://statenews.com/article/2017/01/graduate-student-teaches-sahaja-yoga"
+   "Cool breeze above the head as sign of self-realisation -> https://statenews.com/article/2017/01/graduate-student-teaches-sahaja-yoga",
+   "Coney 1999 published by Routledge (originally Curzon Press, Richmond, per Wikipedia citation) -> https://www.routledge.com/Sahaja-Yoga-Socializing-Processes-in-a-South-Asian-New-Religious-Movement/Coney/p/book/9780700710614"
   ],
   "pr-sarkar": [
    "Born 21 May 1921, Jamalpur; parents Lakshmi Narayan Sarkar (homoeopath) and Abharani Devi; Vidyasagar College 1939; railway accountant 1944 to early 1950s; PROUT 1959; neohumanism 1982; microvita 1986; died 21 October 1990 Kolkata; poisoned Feb 1973, fast from 1 April 1973; released 2 August 1978 -> https://sarkarverse.org/wiki/Baba",
@@ -251,10 +254,41 @@
    "PROUT 1959, three-tier economy, samaja, no accumulation without society's permission -> https://en.wikipedia.org/wiki/Progressive_utilization_theory",
    "Bijon Setu 30 April 1982, 16 sadhus and 1 sadhvi, three locations, Deb Commission 4 May 1982, Lala Commission 2012, no convictions, AM blamed CPI(M), CM suggested staging -> https://en.wikipedia.org/wiki/Bijon_Setu_massacre",
    "L.N. Mishra murder: four Ananda Marg followers convicted by New Delhi District Judge Vinod Goel, 7 Dec 2014; claimed innocence -> https://thepeninsulaqatar.com/article/08/12/2014/four-convicted-for-75-l-n-mishra-murder",
-   "Life sentences 18 Dec 2014 (headline) -> https://english.madhyamam.com/national/2014/dec/18/four-get-life-term-1975-ln-mishra-murder-case"
+   "Life sentences 18 Dec 2014 (headline) -> https://english.madhyamam.com/national/2014/dec/18/four-get-life-term-1975-ln-mishra-murder-case",
+   "Arrested December 1971 on charges of conspiracy to commit and abetment of murder of six followers; chargesheet May 1972; convicted, life imprisonment, appeal pending -> https://eparlib.nic.in/bitstream/123456789/836101/1/06_III_16-12-1977_p135_p138_PII.pdf",
+   "West Bengal commission of inquiry into 30 April 1982 attacks (17 dead), notified 14 March 2012, extended 2014 -> https://home.wb.gov.in/content/1434100742Justice_Amitave_Lala_Commission_of_Inquiry.pdf",
+   "L.N. Mishra case: judgment 18 December 2014, life imprisonment; appeals filed in Delhi High Court 2015, unresolved June 2026 -> https://telanganatoday.com/union-ministers-murder-case-remains-unresolved-even-after-50-years-a-stain-on-indias-justice-system",
+   "L.N. Mishra case: four Anand Marg followers sentenced to life; bail pending appeal April 2015 -> https://www.thenewsminute.com/news/three-convicts-ln-mishra-murder-case-get-bail-28723"
   ],
   "shakti-part": [
    "Muktananda initiation 15 August 1947 by Bhagavan Nityananda; Lakshmanjoo nine grades of shaktipata; Gopi Krishna Part 4; Bamakhepa Tarapith -> existing entries src/content/figures/muktananda.mdx, lakshmanjoo.mdx, gopi-krishna.mdx, bamakhepa.mdx"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 78,
+  "changes": [
+   "pr-sarkar.mdx: arrest charges made precise (conspiracy to commit and abetment of murder of six alleged defectors) per Home Minister's Lok Sabha statement of 16 Dec 1977; June 1971 date and five-victim figure kept as attributed variants (skeptics.nz; Oregon Daily Emerald 20 July 1978); reference added",
+   "pr-sarkar.mdx: Lok Sabha written answer date given as 13 July 1977 (eparlib PDF confirmed: 29-11-1976, Additional Sessions Judge Patna, 120B/302, 109, 201/109 IPC, life; appeal 25-1-1977)",
+   "pr-sarkar.mdx: Outlook (Dola Mitra, 2017) claim that he 'was not convicted' now stated and answered by the parliamentary record",
+   "pr-sarkar.mdx: 'order ... in about 1962, with a centre at Ananda Nagar' decoupled; Sarkarverse timeline gives order 1962 and Ananda Nagar separately",
+   "pr-sarkar.mdx: Bijon Setu: Jyoti Basu's staging remark attributed to The Statesman; commission dated 4 May 1982; 2012 commission described from West Bengal gazette notifications (14 March 2012, retired Calcutta HC judge; extended 2014; no report published); 'no one has been convicted' kept (Wikipedia, wrldrels)",
+   "pr-sarkar.mdx: L.N. Mishra case: conviction dated 8 Dec 2014 (Monday; Peninsula/NewsMinute), life sentences 18 Dec 2014 verified from Telangana Today and The News Minute articles, not headline; appeals pending in Delhi HC since 2015 added; 'members ... convicted in separate cases' narrowed to one case; references added",
+   "shri-mataji.mdx: Marathi Christian parents attributed to the N.K.P. Salve Wikipedia entry, not 'her brother's biography'; subtitle and Part 6 intro softened to 'family with Christian roots' given the conflict",
+   "shri-mataji.mdx: glance Nargol account attributed to the movement rather than to her",
+   "shri-mataji.mdx: 1986 personality of the year, 2006 honorary citizenship (listed under Cabella Ligure) and UN invitations attributed to Wikipedia's honours list; 'New York, early 1990s' replaced by what the source says",
+   "shri-mataji.mdx: IACSSO advisory wording corrected to 'syncretic cult' (syncretische cultus) and recruitment-risk warning; Belgian litigation hedged to De Morgen 2008 and Torfs & Vrielink 2019 via Wikipedia",
+   "shri-mataji.mdx: Coney publisher given as Curzon Press, Richmond, 1999, now Routledge (Routledge catalogue; Wikipedia citation); Abgrall publisher Algora added",
+   "shri-mataji.mdx: quotation 'I saw the Primordial Kundalini rising like a big furnace' confirmed verbatim on adishakti.org, which gives it as from talks on the opening of the sahasrara; attribution tightened",
+   "shakti.mdx: Muktananda's 'divine initiation' attributed to Siddha Yoga and shaktipat halls located at weekend Intensives in America, per muktananda.mdx; Bamakhepa 'that the others drew on' cut (not supported by the chapters); Sarkar 'science anyone could test' changed to 'open to anyone' per pr-sarkar.mdx; Lakshmanjoo, Gopi Krishna (Part 4), Lahiri Mahasaya and Yogananda (Part 5) claims checked against graph.json and their entries",
+   "o19.json: Bijon Setu place 'what' corrected (17 killed: 16 monks and a nun, not 17 monks and a nun); Nargol, Kashi Mitra Ghat, Bijon Setu coordinates accepted as approximate; pr-sarkar note and christianity edge note updated"
+  ],
+  "unresolved": [
+   "Belgian IACSSO rulings (preliminary and 2011 appeal) not checked against the judgments or Belgian press beyond Wikipedia's citations",
+   "Nargol as the place of 5 May 1970 rests on devotee sites; official sahajayoga.org not fetchable",
+   "Sarkar's arrest: Sarkarverse gives 29 December 1971, skeptics.nz 1 June 1971 (charge); text uses December 1971 per Lok Sabha",
+   "Ananda Nagar coordinates (23.18, 86.07) not verified",
+   "Abgrall's characterisation ('god-like leader', loyalty and money) checked only via Wikipedia's quotations",
+   "Shri Mataji's 'Meta Modern Era' publication year not verified (left undated)"
   ]
  }
 }
