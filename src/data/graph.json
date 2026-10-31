@@ -1046,7 +1046,8 @@
    "died": 1885,
    "part": 9,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "b. 3 Feb 1816 Bhaini Araian, Ludhiana; met Balak Singh 1841; Namdhari code laid down Baisakhi 1857 (14 April per Encyclopaedia of Sikhism, 12 April per The Tribune); deported 18 Jan 1872 after the Malerkotla executions; d. 29 Nov 1885 Mergui per British records. Namdharis hold that he did not die."
   },
   {
    "id": "vallalar",
@@ -1268,12 +1269,13 @@
   },
   {
    "id": "periyar",
-   "name": "Periyar (E.V. Ramasamy)",
+   "name": "Periyar (E. V. Ramasamy)",
    "born": 1879,
    "died": 1973,
    "part": 12,
    "tier": "sidebar",
-   "kind": "person"
+   "kind": "person",
+   "note": "b. 17 Sept 1879 Erode; Congress 1919-1925; Vaikom satyagraha 1924 (jailed twice); Self-Respect Movement and Kudi Arasu 1925; title Periyar 13 Nov 1938; Justice Party 1939; Dravidar Kazhagam 27 Aug 1944; married Maniammai 9 July 1949; d. 24 Dec 1973 Vellore."
   },
   {
    "id": "theosophical-society",
@@ -2817,6 +2819,86 @@
    "tier": "node",
    "kind": "person",
    "note": "Present (18th) Tilakayat Adhikari, hereditary head of the Radhavallabh Sampradaya at the Radhavallabh temple, Vrindavan, per the temple site; son of the 17th, Hit Radhesh Lal Goswami. By Premanand's ashram's account he gave Premanand the sect's sharanagat mantra; Premanand later met Gaurangi Sharan. Birth year not given."
+  },
+  {
+   "id": "dravidar-kazhagam",
+   "name": "Dravidar Kazhagam",
+   "born": 1944,
+   "part": 12,
+   "tier": "node",
+   "kind": "institution",
+   "note": "Justice Party renamed Dravidar Kazhagam in 1944 under Periyar (his term as leader from 27 August 1944); demanded Dravida Nadu; led by Maniammai from 25 December 1973 and K. Veeramani from 16 March 1978."
+  },
+  {
+   "id": "cn-annadurai",
+   "name": "C. N. Annadurai",
+   "born": 1909,
+   "died": 1969,
+   "part": 12,
+   "tier": "node",
+   "kind": "person",
+   "note": "Periyar's lieutenant in the Dravidar Kazhagam; b. 15 September 1909 Kanchipuram, d. 3 February 1969 Madras; broke with Periyar after the Maniammai marriage and founded the DMK on 17 September 1949; as Chief Minister (1967-69) his government legalised self-respect marriages in 1967."
+  },
+  {
+   "id": "balak-singh",
+   "name": "Balak Singh of Hazro",
+   "died": 1862,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Teacher at Hazro (Attock district, now Pakistan) who taught repetition of God's name above all ritual. Birth given as 1785 (Namdhari site, Dharam Singh), 1797 (Britannica) or 1799 (Encyclopaedia of Sikhism); died 1862. Namdharis count him as Guru after Gobind Singh."
+  },
+  {
+   "id": "jawahar-mal",
+   "name": "Bhagat Jawahar Mal",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Hazro devotee said by English Wikipedia to have greatly influenced Balak Singh. Dates unknown; single source."
+  },
+  {
+   "id": "hari-singh-namdhari",
+   "name": "Satguru Hari Singh",
+   "born": 1819,
+   "died": 1906,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born Budh Singh, Ram Singh's younger brother; named to lead by Ram Singh's written edict from Burma in 1875 (Namdhari account); led 1875-1906."
+  },
+  {
+   "id": "partap-singh-namdhari",
+   "name": "Satguru Partap Singh",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Namdhari head 1906-1959 (Namdhari site: 53 years). Birth year not verified (site prints 1890, apparently in error)."
+  },
+  {
+   "id": "jagjit-singh-namdhari",
+   "name": "Satguru Jagjit Singh",
+   "died": 2012,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Elder son of Partap Singh; Namdhari head from 1959; died 13 December 2012 (Namdhari site)."
+  },
+  {
+   "id": "uday-singh-namdhari",
+   "name": "Satguru Uday Singh",
+   "born": 1958,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Son of Bir Singh, nephew of Jagjit Singh; head at Sri Bhaini Sahib from 22 December 2012, appointed per The Tribune by Jagjit Singh's widow Chand Kaur. Born 1958 per Namdhari site."
+  },
+  {
+   "id": "thakur-dalip-singh",
+   "name": "Thakur Dalip Singh",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Elder brother of Uday Singh; heads the Sirsa-based Namdhari faction that rejects Uday Singh's succession. Named an accused by the CBI in an alleged 2015 conspiracy against Uday Singh; Mohali CBI court issued a non-bailable warrant in June 2021 (The Tribune); case pending as last reported."
   }
  ],
  "edges": [
@@ -3413,7 +3495,9 @@
    "from": "sikh-gurus",
    "to": "ram-singh-namdhari",
    "type": "lineage",
-   "evidence": "documented"
+   "evidence": "documented",
+   "verified": true,
+   "note": "Sikh scripture, nam simran and Khalsa ideals; Namdharis also count him in a continuing line of living Gurus, which mainstream Sikhs reject."
   },
   {
    "from": "sufi-orders",
@@ -6092,6 +6176,111 @@
    "evidence": "documented",
    "verified": true,
    "note": "Hereditary head (Tilakayat) of the sect, per radhavallabhmandir.com."
+  },
+  {
+   "from": "gandhi",
+   "to": "periyar",
+   "type": "reacted-against",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1925,
+   "note": "Congress member 1919-1925; left over communal representation at Kanchipuram, 1925; met Gandhi in 1927 (Bangalore per Wikipedia) with three demands, destruction of the Congress, of Hindu religion and of Brahmin domination, and was dissatisfied (Periyar's account, via P. A. Krishnan, Outlook 2019); attacked Gandhi for the rest of his life, though he proposed renaming India Gandhi Desh after the assassination."
+  },
+  {
+   "from": "ambedkar",
+   "to": "periyar",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1937,
+   "note": "Annihilation of Caste translated into Tamil with Periyar's help and published 1937, segments in Kudi Arasu (Wikipedia); first met in Bombay, January 1940 (6 or 8 January in different accounts), again in Madras 1944 (V. Geetha, Forward Press 2017). Alliance of anti-caste thinkers more than teacher and pupil; Periyar did not follow Ambedkar into Buddhism."
+  },
+  {
+   "from": "periyar",
+   "to": "dravidar-kazhagam",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1944,
+   "note": "Founder-leader from 27 August 1944 until his death in 1973."
+  },
+  {
+   "from": "periyar",
+   "to": "cn-annadurai",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1949,
+   "note": "Annadurai worked under Periyar in the Justice Party and DK; split after the 9 July 1949 marriage and founded the DMK, 17 September 1949 (The News Minute)."
+  },
+  {
+   "from": "sikh-gurus",
+   "to": "balak-singh",
+   "type": "claimed",
+   "evidence": "devotional",
+   "verified": true,
+   "year": 1812,
+   "note": "Namdhari belief that Guru Gobind Singh lived in seclusion until 1812 and passed the guruship to Balak Singh. Rejected by mainstream Sikh bodies."
+  },
+  {
+   "from": "jawahar-mal",
+   "to": "balak-singh",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "English Wikipedia (Satguru Balak Singh) only."
+  },
+  {
+   "from": "balak-singh",
+   "to": "ram-singh-namdhari",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1841,
+   "note": "Met 1841 while Ram Singh served in Nau Nihal Singh's regiment (Encyclopaedia of Sikhism); Namdhari account says Balak Singh initiated him and passed the mantle."
+  },
+  {
+   "from": "ram-singh-namdhari",
+   "to": "hari-singh-namdhari",
+   "type": "lineage",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1875,
+   "note": "Named by written edict from Burma (Namdhari site). Also his younger brother."
+  },
+  {
+   "from": "hari-singh-namdhari",
+   "to": "partap-singh-namdhari",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1906
+  },
+  {
+   "from": "partap-singh-namdhari",
+   "to": "jagjit-singh-namdhari",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1959,
+   "note": "Elder son."
+  },
+  {
+   "from": "jagjit-singh-namdhari",
+   "to": "uday-singh-namdhari",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 2012,
+   "note": "Nephew; appointed after Jagjit Singh's death per The Tribune (2016). Disputed by Thakur Dalip Singh's faction."
+  },
+  {
+   "from": "jagjit-singh-namdhari",
+   "to": "thakur-dalip-singh",
+   "type": "claimed",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "Rival Sirsa-based faction rejects Uday Singh's succession. The basis of its claim was not found in sources consulted."
   }
  ]
 }

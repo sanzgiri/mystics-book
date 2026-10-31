@@ -2542,6 +2542,78 @@
    "figure": "premanand-maharaj",
    "what": "Among the Ganga ghats where he lived as a young renunciant.",
    "verified": true
+  },
+  {
+   "name": "Erode",
+   "lat": 11.341,
+   "lon": 77.717,
+   "figure": "periyar",
+   "what": "Birthplace, 17 September 1879; family business; early Self-Respect base.",
+   "verified": true
+  },
+  {
+   "name": "Vaikom",
+   "lat": 9.749,
+   "lon": 76.395,
+   "figure": "periyar",
+   "what": "Vaikom satyagraha, 1924: arrested and jailed twice; hailed as the Hero of Vaikom.",
+   "verified": true
+  },
+  {
+   "name": "Kanchipuram",
+   "lat": 12.834,
+   "lon": 79.703,
+   "figure": "periyar",
+   "what": "1925 provincial Congress conference where his communal-representation resolution was refused and he left the Congress.",
+   "verified": true
+  },
+  {
+   "name": "Vellore",
+   "lat": 12.916,
+   "lon": 79.132,
+   "figure": "periyar",
+   "what": "Died 24 December 1973.",
+   "verified": true
+  },
+  {
+   "name": "Sri Bhaini Sahib",
+   "lat": 30.86,
+   "lon": 76.04,
+   "figure": "ram-singh-namdhari",
+   "what": "Birthplace (1816); code of conduct laid down at Baisakhi 1857; Namdhari headquarters",
+   "verified": false
+  },
+  {
+   "name": "Hazro",
+   "lat": 33.909,
+   "lon": 72.492,
+   "figure": "ram-singh-namdhari",
+   "what": "Balak Singh's town, where Ram Singh met him (1841)",
+   "verified": true
+  },
+  {
+   "name": "Malerkotla",
+   "lat": 30.531,
+   "lon": 75.879,
+   "figure": "ram-singh-namdhari",
+   "what": "Kukas blown from guns on the parade ground, 17-18 January 1872",
+   "verified": true
+  },
+  {
+   "name": "Rangoon (Yangon)",
+   "lat": 16.8,
+   "lon": 96.16,
+   "figure": "ram-singh-namdhari",
+   "what": "Detention under Bengal Regulation III of 1818 from 1872",
+   "verified": true
+  },
+  {
+   "name": "Mergui (Myeik)",
+   "lat": 12.44,
+   "lon": 98.6,
+   "figure": "ram-singh-namdhari",
+   "what": "Later place of exile; death on 29 November 1885 per British records",
+   "verified": true
   }
  ]
 }
