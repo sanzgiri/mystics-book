@@ -1,0 +1,21 @@
+# Scope pass log, group A
+
+- acharya-prashant: removed death-threat sentence and BJP/Congress video sentence (political controversy); dropped two further-reading entries and renumbered.
+- ambedkar: removed [to locate] recordings sentence; removed 1990 Scheduled Castes Orders Act sentence and the 2022 Delhi minister resignation (legal/political) from Critiques; aside reworded to "political career". Kept the Savarkar intellectual argument. No verdict or lineage change.
+- amma: removed rationalist-opposition and harassment sentence, the Tredwell attendant sentence, the objections-from-traditionalists clauses, the [to locate] note; deleted the Tredwell allegations, Finances and prosecution material from Critiques (kept rationalist and personality-cult critique, merged into one paragraph); deleted the "Controversies and courts" references (17-26). Gap: Critiques now has one paragraph only.
+- anandamayi-ma: removed the [to locate] sentence only.
+- atmananda-krishna-menon: nothing to remove (police service is his occupation; kept).
+- aurobindo: removed Alipore bomb case, arrest, trial, acquittal, warrant, brother's recruiting; subtitle and scene reworded; deleted the Heehs biography dispute and Auroville disputes paragraphs and the Nationalist-claim sentence; dropped legal references and renumbered. Gap: the Alipore year is now stated only as a year of solitary confinement from May 1908 with no stated cause; the author may want a neutral phrase for why. Verdict and lineage unchanged.
+- ayya-vaikundar: removed arrest/imprisonment and missionary hostile reports, two references, renumbered.
+- bamakhepa: softened "beat him" to priests objecting (abuse).
+- bhaktisiddhanta: removed attack on his party in 1925 and the "court split" of 1948 (now "divided").
+- bhaktivinoda: nothing to remove (birthplace dispute is scholarly; kept).
+- chandrasekharendra-saraswati: removed Jayendra murder-case paragraph (arrest, trial, acquittal) and 4 references; Pope-visit protest context; Dravidar Kazhagam sandals incident; 1842 trusteeship clause; Court of Wards wording; [to locate] note. Lineage and verdict unchanged. Gap: Descendants now ends Jayendra's section at his death in 2018.
+- chattampi-swamikal: removed nationalist-appropriation complaint; legacy sentence reworded to Sekher's mixed-legacy reading.
+- chinmayananda: removed 1944 arrest/jail and warrant; VHP presidency, Ayodhya and Babri sentences and the Times reference (renumbered). Gap: his political involvement via VHP is gone entirely; "Hindu revival" paragraph now short.
+- dada-bhagwan: nothing to remove.
+- dada-lekhraj: removed the 1938-39 hostility, notices, kidnapping complaint, warrants, court orders, ban and unlawful-association material; deleted "1930s opposition" and "Former members and families" critiques; removed Friday Times reference (renumbered).
+- dayananda-arsha: nothing removed. Note for author: the "Against conversion" section (Conversion is Violence) is a stated position and a key text, kept; it may count as disputed remarks about religions, your call.
+- dayananda-saraswati: removed the poisoning account, Sind ban and 2008 petition, Sikh break, shuddhi campaign, Theosophist "charges" wording, Nehru and Kapur references (renumbered).
+- debendranath-tagore: nothing to remove.
+- dharmapala: removed Bodh Gaya court case, 1915 riots, newspaper ban, internment, brother's detention, 1915 letter and anti-Muslim and anti-Tamil quotations and Seneviratne review reference, Temple Act wording and 2025 protests, Newslaundry reference; Sumangala moved to a new Associates row. Gap: his nationalist side now rests on one sentence plus Kemper's assessment. Verdict unchanged.
