@@ -10,9 +10,7 @@ Curated list for the author's review before launch. Raw issues from each batch a
 
 ## Media and photos
 
-- Photos: Wikimedia Commons was unreachable from the drafting environment, so no portraits were added in Batch 1. Candidate public-domain portraits exist for many pre-1950 figures (e.g. Ramana Maharshi, PD-India). Needs a pass with a browser.
-- Ramana Maharshi: confirm with the ashram archive that no recording of his voice exists.
-- Nisargadatta Maharaj: locate an archive of the 1978–81 recordings authorised by the family or lineage.
+- Dismissed by the author (7 Nov 2026): the general photo pass note (Wikimedia Commons unreachable in Batch 1), the Ramana Maharshi voice-recording confirmation, and the Nisargadatta 1978-81 recordings archive. No action needed on these three.
 
 ## Facts to confirm (Batch 1, Part 3)
 
