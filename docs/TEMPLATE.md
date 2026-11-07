@@ -59,10 +59,10 @@ The core idea in the teacher's own terms, then the method, then what is distinct
       </ul>
     </div>
   </div>
-  <p class="final">My verdict: one sentence on originality of teaching.</p>
+  <p class="final">Verdict: one sentence on originality of teaching.</p>
 </div>
 
-One short paragraph in the first person expanding the verdict.
+One short paragraph expanding the verdict.
 
 ## Lineage
 
@@ -131,7 +131,7 @@ Frontmatter (glance optional). `## Life`, `## Why this figure appears here`, `<s
 
 ## Part introduction (350–550 words)
 
-`src/content/parts/<slug>.mdx` with frontmatter `status: draft`. First person. Paragraph 1 states the question and the ordinary assumption it challenges. Paragraph 2 introduces the people concretely, one or two sentences each. Paragraph 3 says what they disagree about. Paragraph 4, short, says how to read the part.
+`src/content/parts/<slug>.mdx` with frontmatter `status: draft`. Third person. Paragraph 1 states the question and the ordinary assumption it challenges. Paragraph 2 introduces the people concretely, one or two sentences each. Paragraph 3 says what they disagree about. Paragraph 4, short, says how to read the part.
 
 ## MDX rules
 

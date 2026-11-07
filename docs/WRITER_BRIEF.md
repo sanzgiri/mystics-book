@@ -38,10 +38,10 @@ Thirteen parts, each built around one question. Each person gets an entry with t
 
 | Type | Words | Sections |
 |---|---|---|
-| **chapter** | 3,000–4,500 | frontmatter with `glance`; one `note` aside; opening `scene`; Life; The teaching; Inherited and new (verdict box) plus one short first-person paragraph; Lineage with `<MiniTree id="..."/>`; The practice (if they taught one); Places; In his/her own voice (media cards); Critiques and questions; Descendants; References with an "If you read one book" pick |
+| **chapter** | 3,000–4,500 | frontmatter with `glance`; one `note` aside; opening `scene`; Life; The teaching; Inherited and new (verdict box) plus one short paragraph; Lineage with `<MiniTree id="..."/>`; The practice (if they taught one); Places; In his/her own voice (media cards); Critiques and questions; Descendants; References with an "If you read one book" pick |
 | **profile** | 800–1,200 | frontmatter with `glance`; Life; The teaching; Inherited and new (verdict box); Lineage with `<MiniTree id="..."/>`; Further reading |
 | **sidebar** | 500–700 | frontmatter (glance optional); Life; Why this figure appears here; Further reading. No verdict box. |
-| **part introduction** | 350–550 | `src/content/parts/<slug>.mdx`, frontmatter `status: draft`. First person, like the Part 3 model: name the question, introduce the people, say what they disagree about. |
+| **part introduction** | 350–550 | `src/content/parts/<slug>.mdx`, frontmatter `status: draft`. Third person, in the voice of the book: name the question, introduce the people, say what they disagree about. |
 
 The opening scene must be documented. If you assemble a typical scene from several accounts, say so ("Visitors describe...", "A typical exchange..."). Never invent dialogue or detail.
 
@@ -64,7 +64,7 @@ glance:
 ---
 ```
 
-Use only these HTML structures, copied from the model files: `<aside class="note">`, `<section class="scene">`, `<div class="verdict">` (with `cols`, two `label`s "Inherited" and "New", and `<p class="final">My verdict: ...</p>`), `<ol class="steps">`, `<ul class="places">` with `<span class="yr">`, `<div class="media">` cards, `<section class="refs">`, `<span class="script" lang="..">`. Put a blank line after opening and before closing block tags as in the models. MDX is strict: close every tag, escape `{` and `}` in prose, and avoid `<` in prose.
+Use only these HTML structures, copied from the model files: `<aside class="note">`, `<section class="scene">`, `<div class="verdict">` (with `cols`, two `label`s "Inherited" and "New", and `<p class="final">Verdict: ...</p>`), `<ol class="steps">`, `<ul class="places">` with `<span class="yr">`, `<div class="media">` cards, `<section class="refs">`, `<span class="script" lang="..">`. Put a blank line after opening and before closing block tags as in the models. MDX is strict: close every tag, escape `{` and `}` in prose, and avoid `<` in prose.
 
 ### Media
 

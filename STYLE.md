@@ -8,7 +8,7 @@ The book should read like a well-researched long-form magazine piece written by 
 - Lead with concrete detail: dates, places, objects, what someone said or did.
 - Explain a term once, in everyday words, the first time it appears.
 - Vary sentence length the way speech does.
-- Use the first person only in part introductions, the "Inherited and new" verdict, and the Epilogue.
+- Third person throughout. The narrator never says "I" or "we"; quotations from the figures keep theirs. The verdict box is labelled "Verdict".
 - Report legend as legend: "devotees say," "by his own account," "tradition holds."
 
 ## Avoid

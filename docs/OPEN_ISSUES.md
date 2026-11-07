@@ -13,7 +13,7 @@ The book is live (`launched: true`, entries set to Review). Raw notes from the w
 
 ## Still open
 
-1. **Voice.** Rewrite the "My verdict" lines and the 13 part introductions in your own voice.
+1. **Voice.** The verdict boxes and part introductions are now third person; edit them as you see fit.
 2. **Epilogue.** The ranking of the five innovations (Aurobindo, J. Krishnamurti, Ambedkar, Dayananda Saraswati, Iqbal) and the near-miss placements are judgement calls. Recompute its numbers if the graph changes.
 3. **Dayananda (Arsha).** Closed: the "Against conversion" section is cut (7 Nov 2026).
 4. **Gaps left by the scope pass:** closed (smoothed, 7 Nov 2026; log `docs/CLEANUP_LOG.md`).
@@ -23,4 +23,4 @@ The book is live (`launched: true`, entries set to Review). Raw notes from the w
 8. **Later.** Move entries from Review to Final after your edits; add photos and recordings as they become available.
 
 9. **Judgement calls from the last cleanup:** the Yogananda embalming counterpoint and Sathya Sai Baba's "better Hindu" saying were removed as unverified (restore with a better source if wanted); some graph nodes still carry `born` years for Papaji, Siddharameshwar and Acharya Prashant; Vallalar's Tamil text remains in the body.
-10. **Voice:** consider moving from first to third person (verdict boxes, part introductions, Epilogue); pending your call.
+10. **Voice:** closed 7 Nov 2026. The book is third person throughout (logs `docs/VOICE_LOG_*.md`). Four sentences flagged in `VOICE_LOG_ESSAYS.md` (epilogue, direct-path, grace) are worth a read.
