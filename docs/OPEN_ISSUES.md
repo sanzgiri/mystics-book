@@ -1,96 +1,23 @@
-# Open issues for pre-launch review
+# Open issues (updated 7 November 2026)
 
-Curated list for the author's review before launch. Raw issues from each batch are collected automatically in `docs/OPEN_ISSUES_BATCHES.md`.
+The book is live (`launched: true`, entries set to Review). Raw notes from the writers and checkers are in `docs/OPEN_ISSUES_BATCHES.md`; triage and decision logs are in `docs/TRIAGE.md`, `TIER1_DECISIONS.md`, `TIER2_DECISIONS_A/B.md`, `TIER34_DECISIONS_A-D.md` and `SCOPE_LOG_*.md`.
 
-## Decisions for the author
+## Decisions taken in the closing review
 
-- Final title (working title: The Banyan) and domain.
-- Review every "My verdict" line: these are the book's own judgements and should be in the author's voice.
-- Review each part introduction: first-person framing.
+- **Scope:** the book covers each figure's philosophy, practice, lineage and the personal history that shaped them. Legal proceedings, allegations, misconduct and non-essential political controversies were removed throughout, and the Prologue carries a short "About this book" note. This closed the Sadhguru, BAPS, Swami Rama, Satyananda, Premanand, Amma, Dhirendra Shastri, Kanchi, Ram Rahim and recent-event items.
+- **Unverified facts:** accepted as stated; they are attributed or hedged in the text.
+- **Media:** all "[to locate]" cards dropped. Photos, recordings and art values can be added later. The general photo pass, the Ramana Maharshi voice-recording check and the Nisargadatta recordings archive are dismissed.
+- **Graph:** Lalaji and Babuji split into two nodes; Bergson and Nietzsche added as influences on Iqbal; weak Dada Bhagwan edge dropped; Dharmapala's Sumangala moved to associates. Graph now has 323 nodes and 408 edges.
+- **Sections:** J. Krishnamurti "The practice" kept. Periyar, Osho and Pattabhi Jois lost their Critiques sections under the scope rule.
+- **Launch:** title "The Banyan" kept; entries set to Review; `launched: true`.
 
-## Media and photos
+## Still open
 
-- Dismissed by the author (7 Nov 2026): the general photo pass note (Wikimedia Commons unreachable in Batch 1), the Ramana Maharshi voice-recording confirmation, and the Nisargadatta 1978-81 recordings archive. No action needed on these three.
-
-## Facts to confirm (Batch 1, Part 3)
-
-- Papaji's birth year: 1910 or 1913.
-- Papaji's employer's name: "Krishna Lal Poddar" (one source spells "Lai"). Check against *Nothing Ever Happened*.
-- Siddharameshwar's birth year: 1888 or 1875.
-- Map coordinates for Inchgiri are approximate.
-
-## Recent events to re-verify before launch
-
-- Sri Sri Ravi Shankar: the fact-checker reports a Supreme Court ruling of 22 August 2026 setting aside the 2017 NGT order on the World Culture Festival. This is recent; confirm against the judgment before launch.
-- Ramdev: status of pending cases and the publisher's appeal over *Godman to Tycoon* as of launch date. Ramdev's profile runs ~1,900 words (target 800–1,200) because of the legal material; decide whether to trim.
-- Kanchi Paramacharya chapter: the separate 2002 assault case against Jayendra Saraswati (acquitted 2016) is not mentioned. Decide whether to add it.
-
-## Sadhguru: decision needed
-Fact-checker advises against adding the 2025 online allegations (Delhi High Court called the material unverified). Consider one hedged sentence on the police case under the child-protection law filed 31 Jan 2025 (named former student and four Isha Home School staff, alleged abuse of a pupil 2017-19; Isha denies it; reported by Deccan Herald and South First, 22 Apr 2025). Leave out the June 2025 closure report unless a primary source turns up.
-
-## BAPS profile: decision needed
-Profiles have no critiques section, so the 2021 Robbinsville NJ labour lawsuit against BAPS and scholarly comment (Nussbaum) on BAPS and politics are not in the shastriji-pramukh profile. Decide whether to add a short "Questions" paragraph, or split the combined Shastriji/Pramukh Swami node and give BAPS a chapter-level treatment.
-
----
-
-# Consolidated review list (31 October 2026)
-
-State of the book: 86 profiles and sidebars, 13 part introductions, Prologue and Epilogue, all drafted and fact-checked once; legal and living-person claims (Tier 1), quotations and contested facts (Tier 2) and single-source details (Tier 3-4) reconciled. 838 raw issues in `OPEN_ISSUES_BATCHES.md` were each closed, verified, attributed, hedged, cut, or listed below. Decision logs: `TIER1_DECISIONS.md`, `TIER2_DECISIONS_A/B.md`, `TIER34_DECISIONS_A-D.md`. Every entry is still labelled Draft; the author's pass moves entries to Review or Final.
-
-## A. Decisions only the author can make
-
-1. **Voice and verdicts.** Every "My verdict" line and every part introduction is first person; rewrite in your own voice. The Epilogue's ranking of the five innovations (Aurobindo, J. Krishnamurti, Ambedkar, Dayananda Saraswati, Iqbal) and the near-miss placements are judgement calls. Recompute the Epilogue's numbers if the graph changes.
-2. **Title, domain, launch flag** (`launched: true`), and whether to relabel checked entries to Review.
-3. **Legal and living-person coverage:**
-   - Sadhguru: whether to add one hedged sentence on the 2025 allegations and June 2025 police closure report (fact-checker advises against).
-   - BAPS: whether and where to cover the 2021 Robbinsville labour lawsuit (US Justice Department closed its investigation in September 2025; civil case resuming) and scholarly comment on BAPS and politics; whether to split the BAPS node.
-   - Swami Rama: keep the plaintiff's name in the court-case reference, or omit.
-   - Satyananda: add citation Saraswati v R [1991] HCA 21 once the judgment is read; whether to mention the Yoga Australia letter about the current living head (currently omitted).
-   - Premanand Maharaj: the kidney illness is now well documented; cut under the living-person rule or keep.
-   - Amma: "Balu" stays unidentified unless a major newspaper names him.
-   - Dhirendra Shastri: the Shivaji remark and apology (April 2026) are not covered; the Ambedkar chapter's Dalit critic is a single 2025 writer, a more prominent named critic would be stronger.
-   - Kanchi Paramacharya: the 2002 assault case against Jayendra Saraswati (acquitted 2016) is not mentioned.
-   - New-revelations part and Ram Rahim: the High Court appeal against his 2017 conviction is not checked; the text makes no claim.
-4. **Structure:** Periyar's extra "Critiques and questions" section (keep or fold in); Tulsi and Mahapragya Critiques section for the Agni-pariksha episode; J. Krishnamurti "The practice" section; Ramdev's profile length (about 1,900 words against the 800-1,200 target); Prabhupada exact race and women quotations; Lalaji and Babuji node split; Bergson and Nietzsche nodes for Iqbal; Ayya Vaikundar edges to Thycaud Ayyavu and Narayana Guru (currently no edges); Dada Bhagwan gaudiya edge (weak); Ramakrishna to Keshab edge direction and a possible duplicate `christianity` root.
-5. **Dharmapala:** Hikkaduwe Sumangala is listed under "Teachers" in the glance but sources show him as the society's president; the Gihi Vinaya, a 1906 Bodh Gaya case and later tours are left out.
-
-## B. Facts that could not be verified (stated as unconfirmed in the text, or cut)
-
-Unconfirmed items remain visible in the text with attribution. The main ones to try again with print sources:
-- Periyar: "barbarian language" remark (Wikipedia only), snake-and-Brahmin saying (untraced), the 1953 and 1955-56 dates, Krishnan's 1959 and 1973 translations (a critic's).
-- Ram Singh Namdhari: second-day Malerkotla execution order, Rangoon to Mergui move date, the Balak Singh to Jaimal Singh 1854 edge (marked unverified).
-- Dharmapala: "What the German is to the Britisher" line (paraphrased, not found), Tambiah page for the 1912 quotation, Edmund Hewavitarne's cause of death, ordination dates, monastic name spelling.
-- K. C. Bhattacharyya career years; Yukteswar *Holy Science* first-printing date; Katju 1998 p. 42 (Chinmayananda); Brunton's Kanchi chapter; Gandhi's 1924 *Young India* remarks on *Satyarth Prakash* (no claim made).
-- Print-source checks: Lutyens (1996) and the 1995 Krishnamurti Foundation of America statement on the Sloss book; Osho plea agreement (text keeps five years; one summary says ten; agreement not read); Thakur Dalip Singh CBI case (removed from the node; status unknown).
-- Quotations still one remove from the primary books: U. G. Krishnamurti, Yogananda, Sri M (two quotations, check against the BatGap and TS Adyar pages).
-
-## C. Recent events to re-verify at launch
-
-Sri Sri Ravi Shankar (22 August 2026 Supreme Court ruling), Ramdev (pending cases, *Godman to Tycoon* appeal), Osho (Pune land sale Supreme Court appeal), Asaram (Gujarat appeal reported pending Sept 2026), Nithyananda (trial pending), Kalki Bhagavan (death 29 September 2026).
-
-## D. Media and presentation
-
-- Photos and recordings: every "[to locate]" card (Ambedkar, Amma, Anandamayi Ma, Chandrasekharendra Saraswati, Inayat Khan, Meher Baba, Maharishi, Sathya Sai Baba "In his own voice"); Vivekananda licensed photo; Aurobindo mahasamadhi footage (Overman Foundation) and which mourner count to keep; Iyengar Bellur place entry and voice recording; Lakshmanjoo 1990 recording place; Shirdi Sai Baba Dhuni art; Gandhi and J. Krishnamurti art values.
-- Script checks: Vallalar Tamil by a Tamil reader; Sinhala for Anagarika.
-- Sources to supply: a Digambar-side source for Kanji Swami; a stronger scholarly source for Inayat Khan's Muslim critics.
-- Smaller: map coordinates (Inchgiri, Bhaini Sahib, others approximate); Papaji employer spelling and birth year (1910 or 1913); Siddharameshwar birth year (1888 or 1875); Meher Baba and others' optional extras.
-
-## E. Process note
-
-The 838 raw issues were mostly the writers' and checkers' notes on source strength, not defects in the text. About 80 percent were closed because the text already hedged, attributed or omitted the claim. Anything marked unverified above is visible in the chapter as such.
-
-
----
-
-# Closing decisions (7 November 2026)
-
-Author decisions taken in review, and what was done:
-- Scope: the book now covers philosophy, practice, lineage and the personal history that shaped each figure. Legal proceedings, allegations, misconduct and non-essential political controversies were removed throughout (logs: `SCOPE_LOG_A-D.md`, `SCOPE_LOG_DATA.md`, `SCOPE_LOG_ESSAYS.md`). A short "About this book" note in the Prologue states this.
-- Sadhguru, BAPS, Swami Rama, Satyananda, Premanand, Amma, Dhirendra Shastri, Kanchi, Ram Rahim and recent-event items: closed by the scope decision.
-- Unverified facts: accepted as stated (attributed or hedged in the text).
-- Media placeholders, photos, recordings, art values: dropped; add later as available.
-- Graph: Lalaji and Babuji split, Bergson and Nietzsche added for Iqbal, weak Dada Bhagwan edge dropped. Dharmapala's Sumangala moved to associates.
-- J. Krishnamurti "The practice" kept; Periyar, Osho and Pattabhi Jois lost their Critiques sections under the scope rule.
-- Launch: working title "The Banyan" kept, entries set to Review, `launched: true`.
-
-Still open for later editing: the voice of the verdict lines and part introductions; the Epilogue's ranking of the five innovations; Dayananda (Arsha) "Against conversion" section; sources listed in section B above.
+1. **Voice.** Rewrite the "My verdict" lines and the 13 part introductions in your own voice.
+2. **Epilogue.** The ranking of the five innovations (Aurobindo, J. Krishnamurti, Ambedkar, Dayananda Saraswati, Iqbal) and the near-miss placements are judgement calls. Recompute its numbers if the graph changes.
+3. **Dayananda (Arsha).** Keep or cut the "Against conversion" section (kept as a doctrinal position; it could count as disputed remarks about religions).
+4. **Gaps left by the scope pass** you may want to smooth: Sri Chinmoy, Muktananda and Kalki Bhagavan have no Critiques section; Maharishi no longer says why the Beatles left Rishikesh; Lalaji and Babuji states the succession dispute without an outcome; J. Krishnamurti's break with Rajagopal is just "a break"; Ram Singh Namdhari's Burma exile, Premanand's 2024 walk stop and Nithyananda's 2019 departure carry no stated reason; Ramdev's Lineage keeps one sentence on his guru's 2007 disappearance.
+5. **Print sources for a few unverified facts** (stated as unconfirmed in the text): Periyar's "barbarian language" remark and the 1953 and 1955-56 dates; Ram Singh Namdhari's second-day Malerkotla order and Rangoon-to-Mergui date; Dharmapala's German line, Tambiah page for the 1912 quotation, ordination dates; K. C. Bhattacharyya career years; Yukteswar's *Holy Science* first printing; Katju 1998 p. 42; Osho plea agreement text (five years kept); Lutyens (1996); quotations still one remove from primary books (U. G. Krishnamurti, Yogananda, Sri M).
+6. **Small checks.** Tamil script in Vallalar by a Tamil reader; Sinhala script for Anagarika; map coordinates (Inchgiri, Bhaini Sahib and others are approximate); Papaji's birth year (1910 or 1913) and employer spelling; Siddharameshwar's birth year (1888 or 1875); a Digambar-side source for Kanji Swami; a stronger scholarly source for Inayat Khan's Muslim critics.
+7. **Chapter id.** The page `lalaji-babuji` now stands for Babuji (Lalaji is a separate node); renaming the page needs an `.mdx` change.
+8. **Later.** Move entries from Review to Final after your edits; add photos and recordings as they become available.
