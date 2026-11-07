@@ -78,3 +78,19 @@ Sri Sri Ravi Shankar (22 August 2026 Supreme Court ruling), Ramdev (pending case
 ## E. Process note
 
 The 838 raw issues were mostly the writers' and checkers' notes on source strength, not defects in the text. About 80 percent were closed because the text already hedged, attributed or omitted the claim. Anything marked unverified above is visible in the chapter as such.
+
+
+---
+
+# Closing decisions (7 November 2026)
+
+Author decisions taken in review, and what was done:
+- Scope: the book now covers philosophy, practice, lineage and the personal history that shaped each figure. Legal proceedings, allegations, misconduct and non-essential political controversies were removed throughout (logs: `SCOPE_LOG_A-D.md`, `SCOPE_LOG_DATA.md`, `SCOPE_LOG_ESSAYS.md`). A short "About this book" note in the Prologue states this.
+- Sadhguru, BAPS, Swami Rama, Satyananda, Premanand, Amma, Dhirendra Shastri, Kanchi, Ram Rahim and recent-event items: closed by the scope decision.
+- Unverified facts: accepted as stated (attributed or hedged in the text).
+- Media placeholders, photos, recordings, art values: dropped; add later as available.
+- Graph: Lalaji and Babuji split, Bergson and Nietzsche added for Iqbal, weak Dada Bhagwan edge dropped. Dharmapala's Sumangala moved to associates.
+- J. Krishnamurti "The practice" kept; Periyar, Osho and Pattabhi Jois lost their Critiques sections under the scope rule.
+- Launch: working title "The Banyan" kept, entries set to Review, `launched: true`.
+
+Still open for later editing: the voice of the verdict lines and part introductions; the Epilogue's ranking of the five innovations; Dayananda (Arsha) "Against conversion" section; sources listed in section B above.

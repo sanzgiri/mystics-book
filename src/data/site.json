@@ -1,6 +1,6 @@
 {
   "title": "The Banyan",
   "subtitle": "Indian mystics and philosophers, 1830 to today",
-  "launched": false,
-  "note": "Working title. 'launched' controls search-engine indexing: keep false until launch day."
+  "launched": true,
+  "note": "Working title. launched controls search-engine indexing (true from 7 Nov 2026)."
 }
