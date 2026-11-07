@@ -253,6 +253,10 @@
   {
    "name": "The Dalles, Oregon",
    "figure": "osho"
+  },
+  {
+   "name": "Bijon Setu, Kolkata",
+   "figure": "pr-sarkar"
   }
  ],
  "places": [
@@ -300,23 +304,23 @@
   },
   {
    "term": "Suddha Sanmarga",
-   "def": "The 'pure true path' taught by Vallalar: compassion for all living beings, worship of God as a light of grace, and a goal of a transformed, deathless body. (script unchecked)"
+   "def": "The 'pure true path' taught by Vallalar: compassion for all living beings, worship of God as a light of grace, and a goal of a transformed, deathless body."
   },
   {
    "term": "Jeevakarunyam",
-   "def": "Compassion for all living beings, Vallalar's central ethic, shown above all in feeding the hungry and refusing to kill animals. (script unchecked)"
+   "def": "Compassion for all living beings, Vallalar's central ethic, shown above all in feeding the hungry and refusing to kill animals."
   },
   {
    "term": "Arutperunjothi",
-   "def": "'Supreme Grace-Light', Vallalar's name for God and the first word of his mantra. (script unchecked)"
+   "def": "'Supreme Grace-Light', Vallalar's name for God and the first word of his mantra."
   },
   {
    "term": "Thiruvarutpa",
-   "def": "'Poems of Divine Grace', the roughly 5,800 poems of Vallalar in six books. (script unchecked)"
+   "def": "'Poems of Divine Grace', the roughly 5,800 poems of Vallalar in six books."
   },
   {
    "term": "Anagarika",
-   "def": "Pali for 'homeless one.' The title Dharmapala took for a celibate lay worker who lives like a renunciant without full monastic ordination. (script unchecked)"
+   "def": "Pali for 'homeless one.' The title Dharmapala took for a celibate lay worker who lives like a renunciant without full monastic ordination."
   }
  ]
 }
