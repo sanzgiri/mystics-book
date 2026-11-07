@@ -10,14 +10,6 @@
    "note": "Satyananda's successor; took over the running of the Bihar School of Yoga, Munger, in 1988. Birth year not verified in this batch."
   },
   {
-   "id": "akhandananda-mangrove",
-   "name": "Swami Akhandananda Saraswati (Mangrove Mountain)",
-   "part": 5,
-   "tier": "node",
-   "kind": "person",
-   "note": "Sent by Satyananda c. 1974 to oversee the Mangrove Mountain ashram, NSW; arrested 1989 on child sexual abuse charges, convicted and sentenced that year to 2 years 4 months (Royal Commission Case Study 21); served about 14 months before the High Court of Australia overturned the convictions on appeal in 1991 (Sky News, Dec 2014); died 1997. Distinct from other monks of the same name."
-  },
-  {
    "id": "bengali-baba",
    "name": "Bengali Baba (Swami Rama's guru)",
    "part": 5,
@@ -57,7 +49,7 @@
    "born": 1925,
    "died": 1996,
    "name": "Swami Rama",
-   "note": "Born 1925 in Garhwal; US 1969; Menninger Foundation tests from March 1970; Himalayan Institute 1971 (Illinois), Honesdale PA 1977; HIHT Dehradun from 1989; died 13 Nov 1996. Civil jury verdict against the Institute, M.D. Pa., 4 Sept 1997."
+   "note": "Born 1925 in Garhwal; US 1969; Menninger Foundation tests from March 1970; Himalayan Institute 1971 (Illinois), Honesdale PA 1977; HIHT Dehradun from 1989; died 13 Nov 1996."
   },
   {
    "id": "pattabhi-jois",
@@ -86,15 +78,6 @@
    "verified": true,
    "year": 1988,
    "note": "Successor; took over the Bihar School of Yoga when Satyananda left Munger in 1988. Initiation year not verified."
-  },
-  {
-   "from": "satyananda",
-   "to": "akhandananda-mangrove",
-   "type": "institutional",
-   "evidence": "documented",
-   "verified": true,
-   "year": 1974,
-   "note": "Sent c. 1974 to oversee the Mangrove Mountain ashram; the Royal Commission (Case Study 21, 2016) found Satyananda had overarching authority there."
   },
   {
    "from": "krishnamacharya",
@@ -157,19 +140,11 @@
    "verified": false
   },
   {
-   "name": "Satyananda Yoga Ashram, Mangrove Mountain, NSW",
-   "lat": -33.29,
-   "lon": 151.2,
-   "figure": "satyananda",
-   "what": "Ashram overseen by Akhandananda from c. 1974; subject of Royal Commission Case Study 21",
-   "verified": false
-  },
-  {
    "name": "Himalayan Institute, Honesdale, Pennsylvania",
    "lat": 41.6,
    "lon": -75.29,
    "figure": "swami-rama",
-   "what": "Headquarters from 1977; site of the events in the 1994 civil suit",
+   "what": "Headquarters from 1977",
    "verified": false
   },
   {

@@ -27,7 +27,7 @@
       "name": "Periyar (E. V. Ramasamy)",
       "born": 1879,
       "died": 1973,
-      "note": "b. 17 Sept 1879 Erode; Congress 1919-1925; Vaikom satyagraha 1924 (jailed twice); Self-Respect Movement and Kudi Arasu 1925; title Periyar 13 Nov 1938; Justice Party 1939; Dravidar Kazhagam 27 Aug 1944; married Maniammai 9 July 1949; d. 24 Dec 1973 Vellore."
+      "note": "b. 17 Sept 1879 Erode; Congress 1919-1925; Vaikom satyagraha 1924; Self-Respect Movement and Kudi Arasu 1925; title Periyar 13 Nov 1938; Justice Party 1939; Dravidar Kazhagam 27 Aug 1944; married Maniammai 9 July 1949; d. 24 Dec 1973 Vellore."
     }
   ],
   "edges_remove": [],
@@ -83,7 +83,7 @@
       "lat": 9.749,
       "lon": 76.395,
       "figure": "periyar",
-      "what": "Vaikom satyagraha, 1924: arrested and jailed twice; hailed as the Hero of Vaikom.",
+      "what": "Vaikom satyagraha, 1924; hailed as the Hero of Vaikom.",
       "verified": true
     },
     {

@@ -422,7 +422,7 @@
    "lat": 28.64,
    "lon": 77.23,
    "figure": "ramdev",
-   "what": "Hunger strike against corruption, cleared by police on the night of 4-5 June 2011",
+   "what": "Hunger strike against corruption, June 2011",
    "verified": true
   },
   {
@@ -808,14 +808,6 @@
    "figure": "aurobindo",
    "what": "Baroda State service and Baroda College 1893–1906; silent-mind experience with Lele, January 1908",
    "verified": true
-  },
-  {
-   "name": "Alipore, Kolkata",
-   "lat": 22.527,
-   "lon": 88.332,
-   "figure": "aurobindo",
-   "what": "Alipore jail and sessions court, May 1908 to 6 May 1909",
-   "verified": false
   },
   {
    "name": "Uttarpara",
@@ -2218,14 +2210,6 @@
    "verified": true
   },
   {
-   "name": "The Dalles, Oregon",
-   "lat": 45.594,
-   "lon": -121.179,
-   "figure": "osho",
-   "what": "Town whose restaurant salad bars were contaminated with salmonella by Rajneeshpuram leaders, 1984.",
-   "verified": true
-  },
-  {
    "name": "Kuchwada, Raisen district",
    "figure": "osho",
    "what": "Birthplace, 11 December 1931. Coordinates not verified; omitted.",
@@ -2336,14 +2320,6 @@
    "verified": false
   },
   {
-   "name": "Satyananda Yoga Ashram, Mangrove Mountain, NSW",
-   "lat": -33.29,
-   "lon": 151.2,
-   "figure": "satyananda",
-   "what": "Ashram overseen by Akhandananda from c. 1974; subject of Royal Commission Case Study 21",
-   "verified": false
-  },
-  {
    "name": "Thiruvananthapuram",
    "lat": 8.524,
    "lon": 76.936,
@@ -2396,7 +2372,7 @@
    "lat": 12.8,
    "lon": 77.39,
    "figure": "nithyananda",
-   "what": "Ashram founded 2003; focus of the 2010 Ramanagara case",
+   "what": "Ashram founded 2003",
    "verified": false
   },
   {
@@ -2412,7 +2388,7 @@
    "lat": 41.6,
    "lon": -75.29,
    "figure": "swami-rama",
-   "what": "Headquarters from 1977; site of the events in the 1994 civil suit",
+   "what": "Headquarters from 1977",
    "verified": false
   },
   {
@@ -2488,14 +2464,6 @@
    "verified": true
   },
   {
-   "name": "Patna",
-   "lat": 25.594,
-   "lon": 85.137,
-   "figure": "pr-sarkar",
-   "what": "Bankipur Central Jail (1971-1978); sessions conviction 1976; High Court acquittal 1978",
-   "verified": true
-  },
-  {
    "name": "Ananda Nagar, Purulia district",
    "lat": 23.18,
    "lon": 86.07,
@@ -2556,7 +2524,7 @@
    "lat": 9.749,
    "lon": 76.395,
    "figure": "periyar",
-   "what": "Vaikom satyagraha, 1924: arrested and jailed twice; hailed as the Hero of Vaikom.",
+   "what": "Vaikom satyagraha, 1924; hailed as the Hero of Vaikom.",
    "verified": true
   },
   {

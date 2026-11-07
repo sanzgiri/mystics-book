@@ -41,13 +41,13 @@
       "born": 1949,
       "died": 2026,
       "name": "Kalki Bhagavan & Amma Bhagavan (Oneness)",
-      "note": "Vijay Kumar Naidu, born Natham, Tamil Nadu, 7 March 1949; died Chennai 29 September 2026; cremated at Ekam Kshetra, Battalavallam, with police honours, early October 2026. With his wife Padmavathi (b. 1954) founded Jeevashram (1984), Satyaloka (1994) and Oneness University, Varadaiahpalem (2000); the deeksha or Oneness Blessing."
+      "note": "Vijay Kumar Naidu, born Natham, Tamil Nadu, 7 March 1949; died Chennai 29 September 2026; cremated at Ekam Kshetra, Battalavallam, early October 2026. With his wife Padmavathi (b. 1954) founded Jeevashram (1984), Satyaloka (1994) and Oneness University, Varadaiahpalem (2000); the deeksha or Oneness Blessing."
     },
     {
       "id": "nithyananda",
       "born": 1978,
       "name": "Nithyananda (Kailasa)",
-      "note": "Born Arunachalam Rajasekaran, Tiruvannamalai, 1 January 1978 (1977 in some accounts); founded Nithyananda Dhyanapeetam, Bidadi (2003); charged (2018) in a 2010 rape case pending at Ramanagara; bail cancelled 2020; left India 2019; declared Kailasa December 2019."
+      "note": "Born Arunachalam Rajasekaran, Tiruvannamalai, 1 January 1978 (1977 in some accounts); founded Nithyananda Dhyanapeetam, Bidadi (2003); declared Kailasa December 2019."
     },
     {
       "id": "dhirendra-shastri",
@@ -157,7 +157,7 @@
       "lat": 12.8,
       "lon": 77.39,
       "figure": "nithyananda",
-      "what": "Ashram founded 2003; focus of the 2010 Ramanagara case",
+      "what": "Ashram founded 2003",
       "verified": false
     },
     {

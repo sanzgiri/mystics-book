@@ -536,7 +536,7 @@
    "part": 4,
    "tier": "chapter",
    "kind": "person",
-   "note": "Aurobindo Ghose; Cambridge classicist, Baroda teacher, Calcutta nationalist editor; Alipore bomb case 1908–09 (acquitted); Pondicherry from 4 April 1910; Integral Yoga, the Supermind, The Life Divine, Savitri"
+   "note": "Aurobindo Ghose; Cambridge classicist, Baroda teacher, Calcutta nationalist editor; Pondicherry from 4 April 1910; Integral Yoga, the Supermind, The Life Divine, Savitri"
   },
   {
    "id": "rabindranath-tagore",
@@ -701,7 +701,7 @@
    "part": 5,
    "tier": "profile",
    "kind": "person",
-   "note": "Born 1925 in Garhwal; US 1969; Menninger Foundation tests from March 1970; Himalayan Institute 1971 (Illinois), Honesdale PA 1977; HIHT Dehradun from 1989; died 13 Nov 1996. Civil jury verdict against the Institute, M.D. Pa., 4 Sept 1997."
+   "note": "Born 1925 in Garhwal; US 1969; Menninger Foundation tests from March 1970; Himalayan Institute 1971 (Illinois), Honesdale PA 1977; HIHT Dehradun from 1989; died 13 Nov 1996."
   },
   {
    "id": "vethathiri",
@@ -812,7 +812,7 @@
    "part": 6,
    "tier": "profile",
    "kind": "person",
-   "note": "Founder of Ananda Marga (January 1955, Jamalpur); tantra as universal science; PROUT (1959) and neohumanism (1982). Arrested December 1971 on charges of conspiracy to murder six followers; convicted 29 Nov 1976 by Additional Sessions Judge, Patna, and sentenced to life; acquitted by Patna High Court 4 July 1978."
+   "note": "Founder of Ananda Marga (January 1955, Jamalpur); tantra as universal science; PROUT (1959) and neohumanism (1982)."
   },
   {
    "id": "bhagavan-nityananda",
@@ -1071,13 +1071,13 @@
   },
   {
    "id": "lalaji-babuji",
-   "name": "Lalaji & Babuji (Sahaj Marg)",
-   "born": 1873,
+   "name": "Babuji (Ram Chandra of Shahjahanpur, Sahaj Marg)",
+   "born": 1899,
    "died": 1983,
    "part": 9,
    "tier": "profile",
    "kind": "person",
-   "note": "Lalaji b. 2 Feb 1873, d. 14 Aug 1931; Babuji b. 30 Apr 1899, d. 19 Apr 1983 (Wikipedia; SRCM says 'April 1983')."
+   "note": "Born 30 Apr 1899, Shahjahanpur; court record keeper; met Lalaji June 1922; founded the Shri Ram Chandra Mission 1945; d. 19 Apr 1983 (Wikipedia; SRCM says 'April 1983'). Node id kept from the combined Lalaji and Babuji chapter, which covers both men; Lalaji is node 'lalaji'."
   },
   {
    "id": "jaimal-singh",
@@ -1276,7 +1276,7 @@
    "part": 12,
    "tier": "sidebar",
    "kind": "person",
-   "note": "b. 17 Sept 1879 Erode; Congress 1919-1925; Vaikom satyagraha 1924 (jailed twice); Self-Respect Movement and Kudi Arasu 1925; title Periyar 13 Nov 1938; Justice Party 1939; Dravidar Kazhagam 27 Aug 1944; married Maniammai 9 July 1949; d. 24 Dec 1973 Vellore."
+   "note": "b. 17 Sept 1879 Erode; Congress 1919-1925; Vaikom satyagraha 1924; Self-Respect Movement and Kudi Arasu 1925; title Periyar 13 Nov 1938; Justice Party 1939; Dravidar Kazhagam 27 Aug 1944; married Maniammai 9 July 1949; d. 24 Dec 1973 Vellore."
   },
   {
    "id": "theosophical-society",
@@ -1342,7 +1342,7 @@
    "tier": "profile",
    "kind": "person",
    "died": 2026,
-   "note": "Vijay Kumar Naidu, born Natham, Tamil Nadu, 7 March 1949; died Chennai 29 September 2026; cremated at Ekam Kshetra, Battalavallam, with police honours, early October 2026. With his wife Padmavathi (b. 1954) founded Jeevashram (1984), Satyaloka (1994) and Oneness University, Varadaiahpalem (2000); the deeksha or Oneness Blessing."
+   "note": "Vijay Kumar Naidu, born Natham, Tamil Nadu, 7 March 1949; died Chennai 29 September 2026; cremated at Ekam Kshetra, Battalavallam, early October 2026. With his wife Padmavathi (b. 1954) founded Jeevashram (1984), Satyaloka (1994) and Oneness University, Varadaiahpalem (2000); the deeksha or Oneness Blessing."
   },
   {
    "id": "nithyananda",
@@ -1351,7 +1351,7 @@
    "tier": "profile",
    "kind": "person",
    "born": 1978,
-   "note": "Born Arunachalam Rajasekaran, Tiruvannamalai, 1 January 1978 (1977 in some accounts); founded Nithyananda Dhyanapeetam, Bidadi (2003); charged (2018) in a 2010 rape case pending at Ramanagara; bail cancelled 2020; left India 2019; declared Kailasa December 2019."
+   "note": "Born Arunachalam Rajasekaran, Tiruvannamalai, 1 January 1978 (1977 in some accounts); founded Nithyananda Dhyanapeetam, Bidadi (2003); declared Kailasa December 2019."
   },
   {
    "id": "dhirendra-shastri",
@@ -1680,7 +1680,7 @@
    "part": 2,
    "tier": "node",
    "kind": "person",
-   "note": "Born Subrahmanyam, 18 July 1935; given the name Jayendra Saraswati 22 March 1954; 69th head of the Kanchi monastery; arrested 11 November 2004 and charged with murder and criminal conspiracy in the Sankararaman case; acquitted with all co-accused by the Principal District and Sessions Court, Puducherry, 27 November 2013; no appeal filed; died 28 February 2018.",
+   "note": "Born Subrahmanyam, 18 July 1935; given the name Jayendra Saraswati 22 March 1954; 69th head of the Kanchi monastery; died 28 February 2018.",
    "born": 1935
   },
   {
@@ -2453,16 +2453,7 @@
    "part": 9,
    "tier": "node",
    "kind": "person",
-   "note": "Met Babuji 1964; relied on a nomination dated 23 Mar 1974 (court record); president of Shri Ram Chandra Mission 1983-2014. Contested by Umeshchandra Saxena's side (1982 nomination). SC 29 Apr 2008 made no finding on either nomination. Named Kamlesh Patel successor Oct 2011."
-  },
-  {
-   "id": "umeshchandra-saxena",
-   "name": "Umeshchandra Saxena",
-   "part": 9,
-   "tier": "node",
-   "kind": "person",
-   "note": "Claimant to Babuji's succession on the basis of a nomination dated 16 Apr 1982. His suit OS 697/1995 dismissed 31 May 1999; second appeal dismissed as time-barred 26 Nov 2001; d. 3 Nov 2003 (Allahabad HC, 10 Jul 2015). Birth year unknown.",
-   "died": 2003
+   "note": "Met Babuji 1964; president of Shri Ram Chandra Mission 1983-2014. Named Kamlesh Patel successor Oct 2011."
   },
   {
    "id": "darshan-singh",
@@ -2578,7 +2569,7 @@
    "part": 10,
    "tier": "node",
    "kind": "person",
-   "note": "Early disciple and business partner of Dada Bhagwan; led the Jay Sachchidanand Sangh side of the 1988 split. Death June 2020 (9 June per Wikipedia only). A 2020 fraud complaint reported by News18 Gujarati could not be read or corroborated and is not in the profile."
+   "note": "Early disciple and business partner of Dada Bhagwan; led the Jay Sachchidanand Sangh side of the 1988 split. Death June 2020 (9 June per Wikipedia only)."
   },
   {
    "id": "chandramani",
@@ -2630,7 +2621,7 @@
    "part": 13,
    "tier": "node",
    "kind": "person",
-   "note": "Rajneesh's secretary 1981-85 and head of Rajneeshpuram. Entered Alford pleas on 22 July 1986 to charges including the 1984 Dalles salmonella poisoning and attempted murder of Rajneesh's physician; concurrent sentences up to 20 years; paroled after 29 months; later lived in Switzerland. Birth year given as 1949 or 1950 in different sources; omitted."
+   "note": "Rajneesh's secretary 1981-85 and head of Rajneeshpuram; later lived in Switzerland. Birth year given as 1949 or 1950 in different sources; omitted."
   },
   {
    "id": "osho-international-foundation",
@@ -2639,7 +2630,7 @@
    "tier": "node",
    "kind": "institution",
    "era": "Zurich; formerly Rajneesh International Foundation / Neo-Sannyas International Foundation",
-   "note": "Swiss foundation that claims copyright in Osho's words and holds the OSHO trademark; runs the Osho International Meditation Resort, Pune. US OSHO marks cancelled January 2009; EU mark upheld by the General Court 11 October 2017. Bombay HC upheld refusal of Pune plot sale 8 April 2024; Supreme Court appeal outcome unreported as of Oct 2026."
+   "note": "Swiss foundation that runs the Osho International Meditation Resort, Pune."
   },
   {
    "id": "narayana-kasturi",
@@ -2721,14 +2712,6 @@
    "tier": "node",
    "kind": "person",
    "note": "Satyananda's successor; took over the running of the Bihar School of Yoga, Munger, in 1988. Birth year not verified in this batch."
-  },
-  {
-   "id": "akhandananda-mangrove",
-   "name": "Swami Akhandananda Saraswati (Mangrove Mountain)",
-   "part": 5,
-   "tier": "node",
-   "kind": "person",
-   "note": "Sent by Satyananda c. 1974 to oversee the Mangrove Mountain ashram, NSW; arrested 1989 on child sexual abuse charges, convicted and sentenced that year to 2 years 4 months (Royal Commission Case Study 21); served about 14 months before the High Court of Australia overturned the convictions on appeal in 1991 (Sky News, Dec 2014); died 1997. Distinct from other monks of the same name."
   },
   {
    "id": "maheshwarnath-babaji",
@@ -2928,6 +2911,36 @@
    "kind": "institution",
    "era": "founded 1891",
    "note": "Founded in Colombo by Dharmapala in May 1891 (31 May per Sangharakshita and Sunday Times 2021, 3 May per Banglapedia); office moved to Calcutta 1892; journal The Maha Bodhi from 1892; London branch c. 1926; Mulagandhakuti Vihara, Sarnath, opened 11 Nov 1931."
+  },
+  {
+   "id": "lalaji",
+   "name": "Lalaji (Ram Chandra of Fatehgarh)",
+   "born": 1873,
+   "died": 1931,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born 2 Feb 1873, Fatehgarh; clerk in the collector's office; pupil of Maulana Fazl Ahmad Khan of Raipur (Naqshbandi-Mujaddidi); d. 14 Aug 1931. Teacher of Babuji (Ram Chandra of Shahjahanpur), who founded Sahaj Marg."
+  },
+  {
+   "id": "henri-bergson",
+   "name": "Henri Bergson",
+   "born": 1859,
+   "died": 1941,
+   "part": 4,
+   "tier": "node",
+   "kind": "person",
+   "note": "French philosopher of creative time; his idea of time as creative process informs Iqbal's Reconstruction of Religious Thought in Islam."
+  },
+  {
+   "id": "friedrich-nietzsche",
+   "name": "Friedrich Nietzsche",
+   "born": 1844,
+   "died": 1900,
+   "part": 4,
+   "tier": "node",
+   "kind": "person",
+   "note": "German philosopher of the self-overcoming individual; read closely by Iqbal, who borrowed the image and rejected the atheism."
   }
  ],
  "edges": [
@@ -3135,7 +3148,7 @@
    "evidence": "testimony",
    "verified": true,
    "year": 1908,
-   "note": "Aurobindo wrote (1934) that in Alipore jail Vivekananda 'was speaking with me for about 15 days' as a presence in meditation; also read his works."
+   "note": "Aurobindo wrote (1934) that Vivekananda 'was speaking with me for about 15 days' as a presence in meditation; also read his works."
   },
   {
    "from": "vivekananda",
@@ -3538,14 +3551,6 @@
    "note": "Chishti line (Chishti-Nizami-Kalimi). Claim of training in Suhrawardi, Qadiri and Naqshbandi too rests on his own account ('My Initiation in Sufism'); Wikipedia repeats it as four transmissions"
   },
   {
-   "from": "sufi-orders",
-   "to": "lalaji-babuji",
-   "type": "initiated",
-   "evidence": "documented",
-   "verified": true,
-   "note": "Naqshbandi transmission, now routed through Fazl Ahmad Khan. Remove if the combined node is split."
-  },
-  {
    "from": "tamil-shaiva",
    "to": "vallalar",
    "type": "influenced",
@@ -3670,7 +3675,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1931,
-   "note": "Born into a Digambar Jain family whose parents followed Taran Svami; his 1968 sex lectures began at a Jain youth group's Paryushan series and provoked Jain anger."
+   "note": "Born into a Digambar Jain family whose parents followed Taran Svami; his 1968 sex lectures began at a Jain youth group's Paryushan series."
   },
   {
    "from": "aurobindo",
@@ -3718,13 +3723,6 @@
    "to": "gurinder-singh-dhillon",
    "type": "lineage",
    "evidence": "documented"
-  },
-  {
-   "from": "lalaji-babuji",
-   "to": "daaji",
-   "type": "lineage",
-   "evidence": "documented",
-   "note": "Via Chariji"
   },
   {
    "from": "yoga-nath",
@@ -4648,7 +4646,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1910,
-   "note": "Guardian by his father's letter of March 1910; kept custody after the Privy Council dismissed the father's suit, 25 May 1914."
+   "note": "Guardian by his father's letter of March 1910."
   },
   {
    "from": "theosophical-society",
@@ -5195,7 +5193,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1985,
-   "note": "Met Maharishi 1985; directed the movement's Ayurvedic centre at Lancaster, Massachusetts; parted in the early 1990s after the 1991 JAMA controversy (Warrier)"
+   "note": "Met Maharishi 1985; directed the movement's Ayurvedic centre at Lancaster, Massachusetts; parted in the early 1990s"
   },
   {
    "from": "maharishi",
@@ -5596,40 +5594,13 @@
    "note": "Naqshbandi-Mujaddidi, via Dahnhardt (2002) as summarised on EverybodyWiki."
   },
   {
-   "from": "fazl-ahmad-khan",
-   "to": "lalaji-babuji",
-   "type": "initiated",
-   "evidence": "documented",
-   "verified": true,
-   "year": 1896,
-   "note": "Lalaji's teacher; 1896 successor appointment per Dahnhardt via EverybodyWiki. Ramashram names the teacher Maulana Shah Fazal Ahmed Khan. SRCM pages consulted do not name him."
-  },
-  {
-   "from": "lalaji-babuji",
-   "to": "chaturbhuj-sahay",
-   "type": "lived-with",
-   "evidence": "documented",
-   "verified": true,
-   "year": 1910,
-   "note": "Met Lalaji around 1910-11 (Wikipedia); founded Ramashram Satsang in 1930, naming it for Lalaji. Whether he was Lalaji's chosen successor is the Ramashram view; SRCM names Babuji."
-  },
-  {
    "from": "lalaji-babuji",
    "to": "chariji",
    "type": "lineage",
    "evidence": "documented",
    "verified": true,
    "year": 1983,
-   "note": "Named by Babuji according to SRCM, by a nomination dated 23 Mar 1974 per the court record; president from 1983. Contested in litigation by Umeshchandra Saxena's side (1982 nomination); SC 2008 made no finding on either; 2015/2022 Allahabad HC rulings on the society's registration went against the rival group."
-  },
-  {
-   "from": "lalaji-babuji",
-   "to": "umeshchandra-saxena",
-   "type": "claimed",
-   "evidence": "testimony",
-   "verified": true,
-   "year": 1982,
-   "note": "Nomination of 16 Apr 1982 named him 'spiritual representative in the direct line of succession' (court record). His declaratory suit was dismissed (1999; second appeal time-barred 2001). Chariji's side disputed it."
+   "note": "Named by Babuji according to SRCM; president from 1983."
   },
   {
    "from": "chariji",
@@ -5681,7 +5652,7 @@
    "type": "influenced",
    "evidence": "documented",
    "verified": true,
-   "note": "Gitai; Talks on the Gita (Dhule jail 1932, book 1940); 'The place of the Gita in my life is unique' (preface)."
+   "note": "Gitai; Talks on the Gita (Dhule 1932, book 1940); 'The place of the Gita in my life is unique' (preface)."
   },
   {
    "from": "jain-tradition",
@@ -5698,14 +5669,6 @@
    "evidence": "documented",
    "verified": true,
    "note": "Tulsi was ninth acharya of the order Bhikshu founded; named successor by Kalugani 26 Aug 1936."
-  },
-  {
-   "from": "gaudiya",
-   "to": "dada-bhagwan",
-   "type": "influenced",
-   "evidence": "testimony",
-   "verified": false,
-   "note": "Vaishnava elements; scholarly reading by Flugel via Wikipedia, not verified at source. Consider removing."
   },
   {
    "from": "dada-bhagwan",
@@ -5892,7 +5855,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1981,
-   "note": "Secretary and head of Rajneeshpuram 1981-85; denounced by Rajneesh as a 'gang of fascists' 16 Sept 1985."
+   "note": "Secretary and head of Rajneeshpuram 1981-85."
   },
   {
    "from": "osho",
@@ -5901,7 +5864,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1990,
-   "note": "Holds copyright and trademark claims to his name and words after his death; runs the Pune resort."
+   "note": "Runs the Pune resort after his death."
   },
   {
    "from": "advaita-vedanta",
@@ -6008,15 +5971,6 @@
    "verified": true,
    "year": 1988,
    "note": "Successor; took over the Bihar School of Yoga when Satyananda left Munger in 1988. Initiation year not verified."
-  },
-  {
-   "from": "satyananda",
-   "to": "akhandananda-mangrove",
-   "type": "institutional",
-   "evidence": "documented",
-   "verified": true,
-   "year": 1974,
-   "note": "Sent c. 1974 to oversee the Mangrove Mountain ashram; the Royal Commission (Case Study 21, 2016) found Satyananda had overarching authority there."
   },
   {
    "from": "maheshwarnath-babaji",
@@ -6366,6 +6320,50 @@
    "verified": true,
    "year": 1950,
    "note": "The society's journal The Maha Bodhi printed Ambedkar's essay 'The Buddha and the Future of His Religion' in 1950 (per the Ambedkar chapter). No personal contact with Dharmapala, who died in 1933, is claimed."
+  },
+  {
+   "from": "fazl-ahmad-khan",
+   "to": "lalaji",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1896,
+   "note": "Lalaji's teacher; 1896 successor appointment per Dahnhardt via EverybodyWiki. Ramashram names the teacher Maulana Shah Fazal Ahmed Khan. SRCM pages consulted do not name him."
+  },
+  {
+   "from": "lalaji",
+   "to": "chaturbhuj-sahay",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1910,
+   "note": "Met Lalaji around 1910-11 (Wikipedia); founded Ramashram Satsang in 1930, naming it for Lalaji. Whether he was Lalaji's chosen successor is the Ramashram view; SRCM names Babuji."
+  },
+  {
+   "from": "lalaji",
+   "to": "lalaji-babuji",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1922,
+   "note": "Babuji met Lalaji in June 1922; the Mission's biography says Lalaji recognised him as successor, and Babuji founded the Shri Ram Chandra Mission (1945) in his teacher's name. Ramashram Satsang names Chaturbhuj Sahay as Lalaji's senior disciple."
+  },
+  {
+   "from": "henri-bergson",
+   "to": "iqbal",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1930,
+   "note": "Reconstruction of Religious Thought in Islam (1930) draws on Bergson's idea of creative time; Iqbal sets reality as a living process against a finished block universe."
+  },
+  {
+   "from": "friedrich-nietzsche",
+   "to": "iqbal",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Iqbal read Nietzsche closely and borrowed the image of the self-overcoming individual while rejecting his atheism; scholars still argue how far the perfect man of the poems owes to Nietzsche rather than to the Sufi perfect human."
   }
  ]
 }

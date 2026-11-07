@@ -23,7 +23,7 @@
    "part": 13,
    "tier": "node",
    "kind": "person",
-   "note": "Rajneesh's secretary 1981-85 and head of Rajneeshpuram. Entered Alford pleas on 22 July 1986 to charges including the 1984 Dalles salmonella poisoning and attempted murder of Rajneesh's physician; concurrent sentences up to 20 years; paroled after 29 months; later lived in Switzerland. Birth year given as 1949 or 1950 in different sources; omitted."
+   "note": "Rajneesh's secretary 1981-85 and head of Rajneeshpuram; later lived in Switzerland. Birth year given as 1949 or 1950 in different sources; omitted."
   },
   {
    "id": "osho-international-foundation",
@@ -32,7 +32,7 @@
    "tier": "node",
    "kind": "institution",
    "era": "Zurich; formerly Rajneesh International Foundation / Neo-Sannyas International Foundation",
-   "note": "Swiss foundation that claims copyright in Osho's words and holds the OSHO trademark; runs the Osho International Meditation Resort, Pune. US OSHO marks cancelled January 2009; EU mark upheld by the General Court 11 October 2017. Bombay HC upheld refusal of Pune plot sale 8 April 2024; Supreme Court appeal outcome unreported as of Oct 2026."
+   "note": "Swiss foundation that runs the Osho International Meditation Resort, Pune."
   }
  ],
  "nodes_update": [
@@ -53,7 +53,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1931,
-   "note": "Born into a Digambar Jain family whose parents followed Taran Svami; his 1968 sex lectures began at a Jain youth group's Paryushan series and provoked Jain anger."
+   "note": "Born into a Digambar Jain family whose parents followed Taran Svami; his 1968 sex lectures began at a Jain youth group's Paryushan series."
   },
   {
    "from": "kashmir-shaivism",
@@ -145,7 +145,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1981,
-   "note": "Secretary and head of Rajneeshpuram 1981-85; denounced by Rajneesh as a 'gang of fascists' 16 Sept 1985."
+   "note": "Secretary and head of Rajneeshpuram 1981-85."
   },
   {
    "from": "osho",
@@ -154,7 +154,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1990,
-   "note": "Holds copyright and trademark claims to his name and words after his death; runs the Pune resort."
+   "note": "Runs the Pune resort after his death."
   }
  ],
  "places": [
@@ -204,14 +204,6 @@
    "lon": -120.482,
    "figure": "osho",
    "what": "Commune city 1981-85, incorporated May 1982; now Young Life's Washington Family Ranch.",
-   "verified": true
-  },
-  {
-   "name": "The Dalles, Oregon",
-   "lat": 45.594,
-   "lon": -121.179,
-   "figure": "osho",
-   "what": "Town whose restaurant salad bars were contaminated with salmonella by Rajneeshpuram leaders, 1984.",
    "verified": true
   },
   {

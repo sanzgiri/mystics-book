@@ -1,0 +1,298 @@
+{
+ "batch": "z01",
+ "_note": "Post-scope-pass data edits (7 Nov 2026): split lalaji-babuji (the id now stands for Babuji, the chapter page; Lalaji is node 'lalaji'), add Bergson and Nietzsche, drop weak and legal-only items, scrub legal and misconduct notes. See docs/SCOPE_LOG_DATA.md.",
+ "nodes_add": [
+  {
+   "id": "lalaji",
+   "name": "Lalaji (Ram Chandra of Fatehgarh)",
+   "born": 1873,
+   "died": 1931,
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born 2 Feb 1873, Fatehgarh; clerk in the collector's office; pupil of Maulana Fazl Ahmad Khan of Raipur (Naqshbandi-Mujaddidi); d. 14 Aug 1931. Teacher of Babuji (Ram Chandra of Shahjahanpur), who founded Sahaj Marg."
+  },
+  {
+   "id": "henri-bergson",
+   "name": "Henri Bergson",
+   "born": 1859,
+   "died": 1941,
+   "part": 4,
+   "tier": "node",
+   "kind": "person",
+   "note": "French philosopher of creative time; his idea of time as creative process informs Iqbal's Reconstruction of Religious Thought in Islam."
+  },
+  {
+   "id": "friedrich-nietzsche",
+   "name": "Friedrich Nietzsche",
+   "born": 1844,
+   "died": 1900,
+   "part": 4,
+   "tier": "node",
+   "kind": "person",
+   "note": "German philosopher of the self-overcoming individual; read closely by Iqbal, who borrowed the image and rejected the atheism."
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "lalaji-babuji",
+   "name": "Babuji (Ram Chandra of Shahjahanpur, Sahaj Marg)",
+   "born": 1899,
+   "died": 1983,
+   "note": "Born 30 Apr 1899, Shahjahanpur; court record keeper; met Lalaji June 1922; founded the Shri Ram Chandra Mission 1945; d. 19 Apr 1983 (Wikipedia; SRCM says 'April 1983'). Node id kept from the combined Lalaji and Babuji chapter, which covers both men; Lalaji is node 'lalaji'."
+  },
+  {
+   "id": "aurobindo",
+   "note": "Aurobindo Ghose; Cambridge classicist, Baroda teacher, Calcutta nationalist editor; Pondicherry from 4 April 1910; Integral Yoga, the Supermind, The Life Divine, Savitri"
+  },
+  {
+   "id": "swami-rama",
+   "note": "Born 1925 in Garhwal; US 1969; Menninger Foundation tests from March 1970; Himalayan Institute 1971 (Illinois), Honesdale PA 1977; HIHT Dehradun from 1989; died 13 Nov 1996."
+  },
+  {
+   "id": "pr-sarkar",
+   "note": "Founder of Ananda Marga (January 1955, Jamalpur); tantra as universal science; PROUT (1959) and neohumanism (1982)."
+  },
+  {
+   "id": "periyar",
+   "note": "b. 17 Sept 1879 Erode; Congress 1919-1925; Vaikom satyagraha 1924; Self-Respect Movement and Kudi Arasu 1925; title Periyar 13 Nov 1938; Justice Party 1939; Dravidar Kazhagam 27 Aug 1944; married Maniammai 9 July 1949; d. 24 Dec 1973 Vellore."
+  },
+  {
+   "id": "kalki-bhagavan",
+   "note": "Vijay Kumar Naidu, born Natham, Tamil Nadu, 7 March 1949; died Chennai 29 September 2026; cremated at Ekam Kshetra, Battalavallam, early October 2026. With his wife Padmavathi (b. 1954) founded Jeevashram (1984), Satyaloka (1994) and Oneness University, Varadaiahpalem (2000); the deeksha or Oneness Blessing."
+  },
+  {
+   "id": "nithyananda",
+   "note": "Born Arunachalam Rajasekaran, Tiruvannamalai, 1 January 1978 (1977 in some accounts); founded Nithyananda Dhyanapeetam, Bidadi (2003); declared Kailasa December 2019."
+  },
+  {
+   "id": "jayendra-saraswati",
+   "note": "Born Subrahmanyam, 18 July 1935; given the name Jayendra Saraswati 22 March 1954; 69th head of the Kanchi monastery; died 28 February 2018."
+  },
+  {
+   "id": "chariji",
+   "note": "Met Babuji 1964; president of Shri Ram Chandra Mission 1983-2014. Named Kamlesh Patel successor Oct 2011."
+  },
+  {
+   "id": "kanubhai-patel",
+   "note": "Early disciple and business partner of Dada Bhagwan; led the Jay Sachchidanand Sangh side of the 1988 split. Death June 2020 (9 June per Wikipedia only)."
+  },
+  {
+   "id": "ma-anand-sheela",
+   "note": "Rajneesh's secretary 1981-85 and head of Rajneeshpuram; later lived in Switzerland. Birth year given as 1949 or 1950 in different sources; omitted."
+  },
+  {
+   "id": "osho-international-foundation",
+   "note": "Swiss foundation that runs the Osho International Meditation Resort, Pune."
+  }
+ ],
+ "nodes_remove": [
+  "akhandananda-mangrove",
+  "umeshchandra-saxena"
+ ],
+ "edges_remove": [
+  {
+   "from": "sufi-orders",
+   "to": "lalaji-babuji"
+  },
+  {
+   "from": "fazl-ahmad-khan",
+   "to": "lalaji-babuji"
+  },
+  {
+   "from": "lalaji-babuji",
+   "to": "chaturbhuj-sahay"
+  },
+  {
+   "from": "lalaji-babuji",
+   "to": "daaji"
+  },
+  {
+   "from": "gaudiya",
+   "to": "dada-bhagwan"
+  },
+  {
+   "from": "satyananda",
+   "to": "akhandananda-mangrove"
+  },
+  {
+   "from": "lalaji-babuji",
+   "to": "umeshchandra-saxena"
+  }
+ ],
+ "edges_upsert": [
+  {
+   "from": "fazl-ahmad-khan",
+   "to": "lalaji",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1896,
+   "note": "Lalaji's teacher; 1896 successor appointment per Dahnhardt via EverybodyWiki. Ramashram names the teacher Maulana Shah Fazal Ahmed Khan. SRCM pages consulted do not name him."
+  },
+  {
+   "from": "lalaji",
+   "to": "chaturbhuj-sahay",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1910,
+   "note": "Met Lalaji around 1910-11 (Wikipedia); founded Ramashram Satsang in 1930, naming it for Lalaji. Whether he was Lalaji's chosen successor is the Ramashram view; SRCM names Babuji."
+  },
+  {
+   "from": "lalaji",
+   "to": "lalaji-babuji",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1922,
+   "note": "Babuji met Lalaji in June 1922; the Mission's biography says Lalaji recognised him as successor, and Babuji founded the Shri Ram Chandra Mission (1945) in his teacher's name. Ramashram Satsang names Chaturbhuj Sahay as Lalaji's senior disciple."
+  },
+  {
+   "from": "vivekananda",
+   "to": "aurobindo",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1908,
+   "note": "Aurobindo wrote (1934) that Vivekananda 'was speaking with me for about 15 days' as a presence in meditation; also read his works."
+  },
+  {
+   "from": "bhagavad-gita",
+   "to": "vinoba",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Gitai; Talks on the Gita (Dhule 1932, book 1940); 'The place of the Gita in my life is unique' (preface)."
+  },
+  {
+   "from": "annie-besant",
+   "to": "j-krishnamurti",
+   "type": "protected",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1910,
+   "note": "Guardian by his father's letter of March 1910."
+  },
+  {
+   "from": "jain-tradition",
+   "to": "osho",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1931,
+   "note": "Born into a Digambar Jain family whose parents followed Taran Svami; his 1968 sex lectures began at a Jain youth group's Paryushan series."
+  },
+  {
+   "from": "maharishi",
+   "to": "deepak-chopra",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1985,
+   "note": "Met Maharishi 1985; directed the movement's Ayurvedic centre at Lancaster, Massachusetts; parted in the early 1990s"
+  },
+  {
+   "from": "osho",
+   "to": "osho-international-foundation",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1990,
+   "note": "Runs the Pune resort after his death."
+  },
+  {
+   "from": "osho",
+   "to": "ma-anand-sheela",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1981,
+   "note": "Secretary and head of Rajneeshpuram 1981-85."
+  },
+  {
+   "from": "lalaji-babuji",
+   "to": "chariji",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1983,
+   "note": "Named by Babuji according to SRCM; president from 1983."
+  },
+  {
+   "from": "henri-bergson",
+   "to": "iqbal",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1930,
+   "note": "Reconstruction of Religious Thought in Islam (1930) draws on Bergson's idea of creative time; Iqbal sets reality as a living process against a finished block universe."
+  },
+  {
+   "from": "friedrich-nietzsche",
+   "to": "iqbal",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Iqbal read Nietzsche closely and borrowed the image of the self-overcoming individual while rejecting his atheism; scholars still argue how far the perfect man of the poems owes to Nietzsche rather than to the Sufi perfect human."
+  }
+ ],
+ "places_remove": [
+  {
+   "name": "Satyananda Yoga Ashram, Mangrove Mountain, NSW",
+   "figure": "satyananda"
+  },
+  {
+   "name": "Patna",
+   "figure": "pr-sarkar"
+  },
+  {
+   "name": "Alipore, Kolkata",
+   "figure": "aurobindo"
+  },
+  {
+   "name": "The Dalles, Oregon",
+   "figure": "osho"
+  }
+ ],
+ "places": [
+  {
+   "name": "Vaikom",
+   "lat": 9.749,
+   "lon": 76.395,
+   "figure": "periyar",
+   "what": "Vaikom satyagraha, 1924; hailed as the Hero of Vaikom.",
+   "verified": true
+  },
+  {
+   "name": "Ramlila Maidan, Delhi",
+   "lat": 28.64,
+   "lon": 77.23,
+   "figure": "ramdev",
+   "what": "Hunger strike against corruption, June 2011",
+   "verified": true
+  },
+  {
+   "name": "Nithyananda Dhyanapeetam, Bidadi",
+   "lat": 12.8,
+   "lon": 77.39,
+   "figure": "nithyananda",
+   "what": "Ashram founded 2003",
+   "verified": false
+  },
+  {
+   "name": "Himalayan Institute, Honesdale, Pennsylvania",
+   "lat": 41.6,
+   "lon": -75.29,
+   "figure": "swami-rama",
+   "what": "Headquarters from 1977",
+   "verified": false
+  }
+ ],
+ "glossary_update": [
+  {
+   "term": "Godman",
+   "def": "Indian English for a guru with a mass following, often used in the press with \"self-styled\"."
+  }
+ ]
+}

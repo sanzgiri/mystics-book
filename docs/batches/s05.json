@@ -39,16 +39,7 @@
    "part": 9,
    "tier": "node",
    "kind": "person",
-   "note": "Met Babuji 1964; relied on a nomination dated 23 Mar 1974 (court record); president of Shri Ram Chandra Mission 1983-2014. Contested by Umeshchandra Saxena's side (1982 nomination). SC 29 Apr 2008 made no finding on either nomination. Named Kamlesh Patel successor Oct 2011."
-  },
-  {
-   "id": "umeshchandra-saxena",
-   "name": "Umeshchandra Saxena",
-   "part": 9,
-   "tier": "node",
-   "kind": "person",
-   "note": "Claimant to Babuji's succession on the basis of a nomination dated 16 Apr 1982. His suit OS 697/1995 dismissed 31 May 1999; second appeal dismissed as time-barred 26 Nov 2001; d. 3 Nov 2003 (Allahabad HC, 10 Jul 2015). Birth year unknown.",
-   "died": 2003
+   "note": "Met Babuji 1964; president of Shri Ram Chandra Mission 1983-2014. Named Kamlesh Patel successor Oct 2011."
   },
   {
    "id": "darshan-singh",
@@ -176,16 +167,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1983,
-   "note": "Named by Babuji according to SRCM, by a nomination dated 23 Mar 1974 per the court record; president from 1983. Contested in litigation by Umeshchandra Saxena's side (1982 nomination); SC 2008 made no finding on either; 2015/2022 Allahabad HC rulings on the society's registration went against the rival group."
-  },
-  {
-   "from": "lalaji-babuji",
-   "to": "umeshchandra-saxena",
-   "type": "claimed",
-   "evidence": "testimony",
-   "verified": true,
-   "year": 1982,
-   "note": "Nomination of 16 Apr 1982 named him 'spiritual representative in the direct line of succession' (court record). His declaratory suit was dismissed (1999; second appeal time-barred 2001). Chariji's side disputed it."
+   "note": "Named by Babuji according to SRCM; president from 1983."
   },
   {
    "from": "chariji",

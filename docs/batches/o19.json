@@ -23,7 +23,7 @@
    "name": "P.R. Sarkar (Anandamurti)",
    "born": 1921,
    "died": 1990,
-   "note": "Founder of Ananda Marga (January 1955, Jamalpur); tantra as universal science; PROUT (1959) and neohumanism (1982). Arrested December 1971 on charges of conspiracy to murder six followers; convicted 29 Nov 1976 by Additional Sessions Judge, Patna, and sentenced to life; acquitted by Patna High Court 4 July 1978."
+   "note": "Founder of Ananda Marga (January 1955, Jamalpur); tantra as universal science; PROUT (1959) and neohumanism (1982)."
   }
  ],
  "edges_remove": [],
@@ -109,14 +109,6 @@
    "lon": 88.36,
    "figure": "pr-sarkar",
    "what": "Kalikananda encounter (1939), by Sarkar's account",
-   "verified": true
-  },
-  {
-   "name": "Patna",
-   "lat": 25.594,
-   "lon": 85.137,
-   "figure": "pr-sarkar",
-   "what": "Bankipur Central Jail (1971-1978); sessions conviction 1976; High Court acquittal 1978",
    "verified": true
   },
   {

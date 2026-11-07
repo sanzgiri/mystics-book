@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Merge docs/batches/*.json into src/data/{graph,places,glossary}.json and collect open issues.
-Idempotent: safe to run repeatedly. Usage: python3 scripts/merge-batches.py [batch-id ...]"""
+Idempotent: safe to run repeatedly. Batches may also carry nodes_remove (ids), edges_remove ({from,to}), places_remove ({name,figure}), glossary_remove (terms) and glossary_update. Usage: python3 scripts/merge-batches.py [batch-id ...]"""
 import json, sys, glob, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -24,6 +24,11 @@ for f in files:
     for u in b.get('nodes_update', []):
         if u['id'] in ids: ids[u['id']].update({k: v for k, v in u.items() if v is not None})
         else: issues.append(f"[{bid}] nodes_update for unknown id {u['id']}")
+    nrm = set(b.get('nodes_remove', []))
+    if nrm:
+        graph['nodes'] = [n for n in graph['nodes'] if n['id'] not in nrm]
+        for i in nrm: ids.pop(i, None)
+        graph['edges'] = [e for e in graph['edges'] if e['from'] not in nrm and e['to'] not in nrm]
     rm = {(e['from'], e['to']) for e in b.get('edges_remove', [])}
     graph['edges'] = [e for e in graph['edges'] if (e['from'], e['to']) not in rm]
     for e in b.get('edges_upsert', []):
@@ -32,13 +37,19 @@ for f in files:
         found = [x for x in graph['edges'] if x['from'] == e['from'] and x['to'] == e['to']]
         if found: found[0].clear(); found[0].update(e)
         else: graph['edges'].append(e)
+    prm = {(p['name'], p['figure']) for p in b.get('places_remove', [])}
+    if prm: places['places'] = [p for p in places['places'] if (p['name'], p['figure']) not in prm]
     have = {(p['name'], p['figure']) for p in places['places']}
     for p in b.get('places', []):
         if (p['name'], p['figure']) in have:
             for q in places['places']:
                 if (q['name'], q['figure']) == (p['name'], p['figure']): q.update(p)
         else: places['places'].append(p)
+    grm = {t.lower() for t in b.get('glossary_remove', [])}
+    if grm: gloss[:] = [t for t in gloss if t['term'].lower() not in grm]
     terms = {t['term'].lower(): t for t in gloss}
+    for t in b.get('glossary_update', []):
+        if t['term'].lower() in terms: terms[t['term'].lower()].update(t)
     for t in b.get('glossary', []):
         if t['term'].lower() not in terms: gloss.append(t); terms[t['term'].lower()] = t
     art += b.get('art', [])
