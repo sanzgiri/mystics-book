@@ -1486,7 +1486,7 @@
    "part": 2,
    "tier": "sidebar",
    "kind": "person",
-   "note": "Margaret Noble, b. Dungannon 28 Oct 1867; heard Vivekananda London Nov 1895; brahmacharini 25 March 1898; Bagbazar school 13 Nov 1898; d. Darjeeling Oct 1911 (12 or 13 Oct in sources). Sidebar added 7 Nov 2026."
+   "note": "Margaret Noble, b. Dungannon 28 Oct 1867; heard Vivekananda London Nov 1895; brahmacharini 25 March 1898; Bagbazar school opened 13 Nov 1898, closed after a few months, reopened Feb 1902; d. Darjeeling 13 Oct 1911 (Encyclopedia.com gives 12 Oct). Sidebar added 7 Nov 2026."
   },
   {
    "id": "sudhakar-chaturvedi",
@@ -1836,7 +1836,7 @@
    "part": 12,
    "tier": "sidebar",
    "kind": "person",
-   "note": "Born London 1 Oct 1847; Theosophy 1889; India 1893; Central Hindu College Benares 1898; president of the Theosophical Society 1907-1933; guardian of Krishnamurti from 1910; Home Rule League 1916; Congress president Dec 1917; d. Adyar Sept 1933. Sidebar added 7 Nov 2026."
+   "note": "Born London 1 Oct 1847; joined the Theosophical Society 21 May 1889; India 1893; Central Hindu College Benares 1898; president of the Theosophical Society 1907-1933; guardian of Krishnamurti from March 1910; Home Rule League 1916; Congress president Dec 1917; d. Adyar 20 Sept 1933. Sidebar added 7 Nov 2026."
   },
   {
    "id": "cw-leadbeater",
@@ -3039,7 +3039,7 @@
    "part": 7,
    "tier": "node",
    "kind": "person",
-   "note": "Born Edinburgh 23 Feb 1920; RAF engineer; visited Ramana 1944; at Mirtola after the war; head of the ashram 1965-1997; Padma Shri 1992; d. 13 April 1997."
+   "note": "Born Edinburgh 23 Feb 1920; RAF engineer; visited Ramana 1944; at Mirtola after the war; head of the ashram 1965-1997; Padma Shri 1992; d. 13 April 1997. Succeeded by his disciple Dev Ashish."
   },
   {
    "id": "max-theon",
@@ -3047,7 +3047,7 @@
    "part": 4,
    "tier": "node",
    "kind": "person",
-   "note": "Occultist of the Cosmic Movement; the Mother worked with him and his wife Mary Ware at Tlemcen, Algeria, in 1906-07 (Wikipedia)."
+   "note": "Occultist of the Cosmic Movement; the Mother worked with him and his wife Mary Ware at Tlemcen, Algeria, in 1906-07 (Wikipedia; other accounts give 1905-06)."
   },
   {
    "id": "jules-monchanin",
@@ -6632,21 +6632,12 @@
   },
   {
    "from": "blavatsky-olcott",
-   "to": "dharmapala",
-   "type": "influenced",
-   "evidence": "documented",
-   "verified": true,
-   "year": 1880,
-   "note": "Through Olcott: Colombo lecture of 1880, then his co-worker and translator."
-  },
-  {
-   "from": "blavatsky-olcott",
    "to": "gandhi",
    "type": "influenced",
    "evidence": "documented",
    "verified": true,
    "year": 1891,
-   "note": "Gandhi became an associate member of Blavatsky's London lodge in 1891 (Wikipedia)."
+   "note": "Gandhi visited Blavatsky in 1889 and became an associate member of her lodge in March 1891 (Wikipedia, Helena Blavatsky)."
   },
   {
    "from": "yashoda-ma",
@@ -6680,16 +6671,16 @@
    "type": "institutional",
    "evidence": "documented",
    "verified": true,
-   "note": "Wikipedia describes him as the first Westerner officially affiliated with Gaudiya Vaishnavism of Braj; his biographer sees him moving beyond its dogmas."
+   "note": "Yashoda Ma was initiated by Bal Krishna Goswami of the Radha Raman temple, Brindaban (Quest); Haberman calls him perhaps the first Westerner on the path of Krishna-bhakti and Sardella the first European to embrace Vaishnavism in India (cited on Wikipedia)."
   },
   {
    "from": "max-theon",
    "to": "mirra-alfassa",
-   "type": "initiated",
+   "type": "influenced",
    "evidence": "testimony",
    "verified": true,
    "year": 1906,
-   "note": "She visited Théon and his wife at Tlemcen three times in 1906-07 and practised their teachings (Wikipedia); the Ashram essay says she learned their occult practices there."
+   "note": "She visited Théon and his wife at Tlemcen three times in 1906-07 and practised their teachings (Wikipedia); the Ashram essay says she learned their occult practices there. Type changed from initiated to influenced: no source read describes a formal initiation. Dates 1906-07 (Wikipedia) vs 1905-06 (Aurobindo chapter)."
   },
   {
    "from": "vivekananda",
@@ -6703,9 +6694,10 @@
    "from": "nivedita",
    "to": "aurobindo",
    "type": "influenced",
-   "evidence": "testimony",
-   "verified": false,
-   "note": "Sri Sarada Math lists Aurobindo Ghosh among those her writings and speeches inspired; no direct source read for a closer tie."
+   "evidence": "documented",
+   "verified": true,
+   "note": "Friendship: met at Baroda 1902; she edited his weekly Karmayogin at his request in 1910 (motherandsriaurobindo.in, Sister Nivedita page; Wikipedia calls them close).",
+   "year": 1902
   },
   {
    "from": "nivedita",
@@ -6713,7 +6705,7 @@
    "type": "influenced",
    "evidence": "testimony",
    "verified": false,
-   "note": "Encyclopedia.com and Sri Sarada Math say she influenced or inspired Tagore; the nature of the tie not checked."
+   "note": "Wikipedia names Tagore among her friends; Encyclopedia.com and Sri Sarada Math say she inspired him. Friendship documented, direction and nature of influence unverified."
   },
   {
    "from": "blavatsky-olcott",
@@ -6722,7 +6714,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1889,
-   "note": "Reviewed The Secret Doctrine 1889, met Blavatsky in Paris, became a favoured pupil and co-editor of Lucifer."
+   "note": "Reviewed The Secret Doctrine 1889, met Blavatsky at Lansdowne Road, London, joined the Society 21 May 1889; favoured pupil and co-editor of Lucifer."
   },
   {
    "from": "blavatsky-olcott",
@@ -6730,7 +6722,7 @@
    "type": "influenced",
    "evidence": "documented",
    "verified": true,
-   "note": "Krishna Prem wrote a commentary on the Stanzas of Dzyan from The Secret Doctrine (Quest article)."
+   "note": "Quest article (self-described anecdotal) mentions his first draft of a commentary on the Stanzas of Dzyan; Man, the Measure of All Things in the Stanzas of Dzyan (1969, with Madhava Ashish) is documented on Wikipedia."
   },
   {
    "from": "jules-monchanin",
@@ -6823,11 +6815,11 @@
   {
    "from": "meher-baba",
    "to": "paul-brunton",
-   "type": "influenced",
+   "type": "reacted-against",
    "evidence": "documented",
    "verified": true,
    "year": 1930,
-   "note": "Met Meher Baba in India (Wikipedia); first trip aimed at meeting him (New Dawn profile)."
+   "note": "First India trip (1930-31) was meant to meet Meher Baba (Wikipedia; New Dawn), but A Search in Secret India gave a negative verdict on him (New Dawn profile)."
   },
   {
    "from": "bhagavan-das",
