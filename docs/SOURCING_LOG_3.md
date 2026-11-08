@@ -1,0 +1,19 @@
+# Sourcing log, group 3 (7 Nov 2026)
+
+Method: each added work was checked against a catalogue, publisher or journal page (author, title, publisher, year) fetched in this session. I did not read the books themselves, so no new claim in any chapter was confirmed from their text. Prose was not changed. New items are numbered on from the existing lists, under "Further reading and online".
+
+Not added because I could not verify the details: Kevin Shepherd's Shirdi life (publisher and year not seen); Indira Kher's Satcharita translation (translator not shown); Anthony and Robbins on Meher Baba (journal details not seen); Hermansen on American Sufism (print year unclear); Swallow, "Ashes and Powers" (volume and pages not seen); the 1972 *Journal of Asian Studies* article on the Sai Baba movement (author not shown on the page); Kasturi's *Loving God* (only Wikipedia).
+
+| Chapter | Added | Confirmed or corrected | Still resting on weak sources |
+|---|---|---|---|
+| anandamayi-ma | Lannoy, *Anandamayi* (Element, 1996); anandamayi.org; OUP page for Hallstrom | Hallstrom, OUP, 1999 catalogue record seen (OUP page lists an online date of 2008) | Early life and miraculous episodes (devotee accounts); several Online refs (New World Encyclopedia, Mahavidya) |
+| amma | Lucia, IJHS 18.2 (2014), pp. 221-263; Pechilis, ed., *Graceful Guru* (OUP, 2004); Cornell (Morrow, 2001); amritapuri.org (Math site) | none | Biographical facts via news items, Singapore society pages |
+| shirdi-sai-baba | McLain, *Afterlife of Sai Baba* (U Washington Press, 2016); Sansthan site sai.org.in | Rigopoulos 1993 (SUNY) and Warren (Sterling, 1999) records seen; Rigopoulos 2020 DOI added | Pathri birthplace and Sathya Sai links rest on Wikipedia (refs 10-13); 1930 Satcharita date on EverybodyWiki |
+| meher-baba | Discourses (Sheriar, 1987, 7th ed.); Hopkinson, *Much Silence* (Gollancz, 1974); Lord Meher online; Britannica summary; Purdom publisher added | Birth (25 Feb 1894) and death (31 Jan 1969) dates confirmed by Britannica summary | Babajan and Upasani links rest on Wikipedia and Shepherd's commentaries; Lord Meher is devotional; no university-press study found |
+| shiv-dayal-singh | Babb, *Redemptive Encounters* (UC Press, 1986); Mathur (Vikas, 1973/74 per catalogue); Hawley and Juergensmeyer (OUP, 1988); Lane 1992 catalogue record | Lane 1992 Garland and Juergensmeyer, Princeton, 1991 records seen | Succession details by branch (branch sites, Wikipedia); Tulsi Sahib link (Substack) |
+| inayat-khan | Keesing (East-West, 1974); *A Pearl in Wine* (Omega, 2001); Sedgwick (OUP, 2016) | none | Biographical dates rest on Order sites and chronologies |
+| gandhi | Parel ed. *Hind Swaraj* (CUP, 1997); Parekh (OUP, 1997); Brown (Yale, 1989); Guha (Knopf, 2014); Gandhi Heritage Portal | Reference numbering fixed (item 8 was missing; 9-11 became 8-10) | Birth dates, 1888 voyage, 1906 Johannesburg meeting still cite Wikipedia |
+| ambedkar | Jaffrelot (Columbia UP/Permanent Black, 2005); Rao (UC Press, 2009); Omvedt (Penguin, 2004); Kumar (Stanford UP, 2015); *Annihilation of Caste* annotated ed. (Verso, 2016) | none | 1954 speech on three gurus rests on a news site; Savarkar and Hockings refs unchanged |
+| j-krishnamurti | Jayakar (Harper & Row, 1986); Tillett (Routledge, 1982); J. Krishnamurti Online; Lutyens publisher added | Lutyens 1975 FSG record seen | Birth date dispute and Michel's criticism rest on Wikipedia |
+| osho | Palmer (Syracuse UP, 1994); Thompson and Heelas (Aquarian, 1986); Goldman (U Michigan Press); Osho autobiography (St. Martin's, 2000) | Urban (UC Press, 2015) record seen | Early-life details rest on Osho News and the movement's own pieces |
+| sathya-sai-baba | S. Srinivas, *In the Presence of Sai Baba* (Brill, 2008) | Winged Faith (Columbia UP, 2010) record seen | Early-life and 1940s events rest on movement sources and Wikipedia; only one verified addition because other candidates could not be verified |
