@@ -2974,6 +2974,31 @@
    "tier": "node",
    "kind": "person",
    "note": "Married Jotirao 1840; taught by him from 1841; first woman teacher at the Poona girls' school of 1848; headed the Satyashodhak Samaj women's section"
+  },
+  {
+   "id": "nitya-tripta",
+   "name": "Nitya Tripta (S. Balakrishna Pillai)",
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "Student of Atmananda who kept notes of his talks 1950-1959, published 1963."
+  },
+  {
+   "id": "padmanabha-menon",
+   "name": "K. Padmanabha Menon (Sri Adwayananda)",
+   "died": 2001,
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "Atmananda's eldest son; taught at Anandawadi until 2001; compiled Atmananda Tattwa Samhita (1973) from tape recordings."
+  },
+  {
+   "id": "hari-gopalan-citar",
+   "name": "Hari Gopalan Citar",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Disciple to whom followers say the Akilathirattu Ammanai was dictated; spelled Arigopalan Citar in some Wikipedia passages."
   }
  ],
  "edges": [
@@ -6432,6 +6457,32 @@
    "verified": true,
    "year": 1840,
    "note": "Married 1840; he taught her to read and write from 1841; she taught in the 1848 girls' school."
+  },
+  {
+   "from": "atmananda-krishna-menon",
+   "to": "nitya-tripta",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1950,
+   "note": "Compiled notes of Atmananda's talks 1950-1959 (Wikipedia)."
+  },
+  {
+   "from": "atmananda-krishna-menon",
+   "to": "padmanabha-menon",
+   "type": "family",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Eldest son; continued the teaching at Anandawadi until 2001 (Wikipedia)."
+  },
+  {
+   "from": "ayya-vaikundar",
+   "to": "hari-gopalan-citar",
+   "type": "influenced",
+   "evidence": "hagiographic",
+   "verified": true,
+   "year": 1841,
+   "note": "Followers say the Akilam was dictated to him; dictation date given as 1840 or 1841 on Wikipedia."
   }
  ]
 }

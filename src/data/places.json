@@ -2622,6 +2622,78 @@
    "figure": "dharmapala",
    "what": "Maha Bodhi Society office from 1892; held under restriction here 1915-1920 (city-level coordinates)",
    "verified": true
+  },
+  {
+   "name": "Yangon (Rangoon)",
+   "lat": 16.87,
+   "lon": 96.2,
+   "figure": "dipa-ma",
+   "what": "Lived with her husband from about 1925; first retreat at the Kamayut Meditation Center; practice at Mahasi's centre",
+   "verified": true
+  },
+  {
+   "name": "Chittagong",
+   "lat": 22.36,
+   "lon": 91.78,
+   "figure": "dipa-ma",
+   "what": "Region of her birth village, 1911",
+   "verified": true
+  },
+  {
+   "name": "Rasta Peth, Pune",
+   "lat": 18.51,
+   "lon": 73.87,
+   "figure": "chinmayananda",
+   "what": "Ganesh temple where the first jnana yajna opened on 31 December 1951 (approximate)",
+   "verified": false
+  },
+  {
+   "name": "Rishikesh",
+   "lat": 30.09,
+   "lon": 78.27,
+   "figure": "chinmayananda",
+   "what": "Divine Life Society; sannyasa from Sivananda, 25 February 1949",
+   "verified": true
+  },
+  {
+   "name": "San Diego",
+   "lat": 32.72,
+   "lon": -117.16,
+   "figure": "chinmayananda",
+   "what": "Died 3 August 1993",
+   "verified": true
+  },
+  {
+   "name": "Mayapur (Sri Chaitanya Math)",
+   "lat": 23.42,
+   "lon": 88.39,
+   "figure": "bhaktisiddhanta",
+   "what": "Settled here after 1904-05; founded Sri Chaitanya Math in 1918",
+   "verified": true
+  },
+  {
+   "name": "Agartala, Tripura",
+   "lat": 23.83,
+   "lon": 91.28,
+   "figure": "bhaktisiddhanta",
+   "what": "Royal court post from 1895 (Wikipedia; devotional chronology)",
+   "verified": false
+  },
+  {
+   "name": "Serampore",
+   "lat": 22.75,
+   "lon": 88.34,
+   "figure": "bhaktisiddhanta",
+   "what": "School years from 1883 or 1884",
+   "verified": true
+  },
+  {
+   "name": "Krishnanagar",
+   "lat": 23.4,
+   "lon": 88.5,
+   "figure": "bhaktivinoda",
+   "what": "English school as a boy; posting from 1887 when he identified Mayapur",
+   "verified": true
   }
  ]
 }
