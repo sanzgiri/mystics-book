@@ -28,7 +28,7 @@ const next = parts.find((p) => p.n === part.n + 1);
 
     {Intro ? (
       <>
-        <p><span class={`status ${intro.data.status}`}>{intro.data.status}</span> <span class="tier-tag">Introduction</span></p>
+        <p>{intro.data.status !== 'final' && <span class={`status ${intro.data.status}`}>{intro.data.status}</span>} <span class="tier-tag">Introduction</span></p>
         <Intro />
       </>
     ) : (

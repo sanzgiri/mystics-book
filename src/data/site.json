@@ -5,7 +5,7 @@
   "note": "Working title. launched controls search-engine indexing (true from 7 Nov 2026).",
   "repo": "https://github.com/sanzgiri/mystics-book",
   "license": {
-    "_note": "AUTHOR'S CHOICE. Edit here to change the licence shown on /credits/ and in the footer. CC BY-SA 4.0 for the text is the intended licence.",
+    "_note": "Licence shown on /credits/ and in the footer. See LICENSE and LICENSE-TEXT.md in the repository.",
     "text": {
       "name": "Creative Commons Attribution-ShareAlike 4.0 International",
       "short": "CC BY-SA 4.0",

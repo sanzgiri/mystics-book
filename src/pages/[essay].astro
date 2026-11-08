@@ -22,7 +22,7 @@ const showStatus = entry.id !== 'about';
       <span class="label">{kicker}</span>
       <h1>{entry.data.title}</h1>
       {entry.data.subtitle && <p class="sub">{entry.data.subtitle}</p>}
-      {showStatus && <p><span class={`status ${entry.data.status}`}>{entry.data.status}</span></p>}
+      {showStatus && <p>{entry.data.status !== 'final' && <span class={`status ${entry.data.status}`}>{entry.data.status}</span>}</p>}
     </div>
     <Banyan />
   </header>

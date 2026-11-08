@@ -32,7 +32,7 @@ const rendered = await Promise.all(entries.map(async (x) => ({ ...x, Content: (a
       <article class="col appx" aria-labelledby={node.id}>
         <h2 id={node.id}>{node.name}</h2>
         <p class="appx-glance">{e.data.glance}</p>
-        {part && <p class="appx-part"><a href={partHref(part.slug)}>Part {part.n} · {part.title}</a> <span class={`status ${e.data.status}`}>{e.data.status}</span></p>}
+        {part && <p class="appx-part"><a href={partHref(part.slug)}>Part {part.n} · {part.title}</a> {e.data.status !== 'final' && <span class={`status ${e.data.status}`}>{e.data.status}</span>}</p>}
         <Content />
         <MiniTree id={node.id} />
         <section class="refs" aria-label={`References for ${node.name}`}>

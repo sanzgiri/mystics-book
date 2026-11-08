@@ -47,7 +47,7 @@ const next = idx >= 0 && idx < inPart.length - 1 ? inPart[idx + 1] : null;
           {entry.data.titleScript && <span class="ta-title" lang={entry.data.titleScriptLang}>{entry.data.titleScript}</span>}
           <h1>{entry.data.title}</h1>
           <p class="sub">{node.name}, {lifespan(node)}. {entry.data.subtitle}</p>
-          <p><span class={`status ${entry.data.status}`}>{entry.data.status}</span> <span class="tier-tag">{TIER_LABEL[node.tier]}</span></p>
+          <p>{entry.data.status !== 'final' && <span class={`status ${entry.data.status}`}>{entry.data.status}</span>} <span class="tier-tag">{TIER_LABEL[node.tier]}</span></p>
         </div>
         {entry.data.photo ? (
           <figure class="portrait">
