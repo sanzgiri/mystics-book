@@ -673,7 +673,8 @@
    "died": 2014,
    "part": 5,
    "tier": "profile",
-   "kind": "person"
+   "kind": "person",
+   "note": "Born Bellur 14 Dec 1918; sickly childhood; lived with Krishnamacharya in Mysore from about 1934; Pune from 1937; Light on Yoga 1966; props and timed, sequenced alignment; RIMYI Pune 1975; died Pune 20 Aug 2014."
   },
   {
    "id": "pattabhi-jois",
@@ -1160,7 +1161,7 @@
    "part": 10,
    "tier": "profile",
    "kind": "person",
-   "note": "Talks on the Gita; Gitai; Bhoodan (1951) and gramdan as practice."
+   "note": "Born Gagode 11 Sept 1895; met Gandhi 7 June 1916; Gitai and Talks on the Gita (Dhulia jail 1932); Bhoodan from 18 April 1951 (Pochampally); gramdan from May 1952; Brahma Vidya Mandir 1959; died Paunar 15 Nov 1982."
   },
   {
    "id": "kanji-swami",
@@ -2947,6 +2948,32 @@
    "tier": "node",
    "kind": "person",
    "note": "German philosopher of the self-overcoming individual; read closely by Iqbal, who borrowed the image and rejected the atheism."
+  },
+  {
+   "id": "arumuga-navalar",
+   "name": "Arumuga Navalar",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Jaffna Shaiva scholar and publisher; rejected Ramalingam's Tiruvarutpa as Marutpa (the Arutpa-Marutpa dispute, 1867 to 1904 by Tamil Wiki's dating)"
+  },
+  {
+   "id": "thozhuvur-velayutha-mudaliar",
+   "name": "Thozhuvur Velayutha Mudaliar",
+   "part": 9,
+   "tier": "node",
+   "kind": "person",
+   "note": "Ramalingam's principal disciple; edited and published the first volume of the Tiruvarutpa (Madras, 1867) with a biography"
+  },
+  {
+   "id": "savitribai-phule",
+   "name": "Savitribai Phule",
+   "born": 1831,
+   "died": 1897,
+   "part": 1,
+   "tier": "node",
+   "kind": "person",
+   "note": "Married Jotirao 1840; taught by him from 1841; first woman teacher at the Poona girls' school of 1848; headed the Satyashodhak Samaj women's section"
   }
  ],
  "edges": [
@@ -3300,11 +3327,11 @@
   {
    "from": "krishnamacharya",
    "to": "iyengar",
-   "type": "lived-with",
+   "type": "family",
    "evidence": "documented",
    "verified": true,
    "year": 1934,
-   "note": "Brother-in-law; lived with the family in Mysore."
+   "note": "Brother-in-law; Iyengar lived in his Mysore household from about 1934; relationship described as difficult."
   },
   {
    "from": "krishnamacharya",
@@ -3313,7 +3340,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1927,
-   "note": "Student from 1927 (Hassan), then in Mysore."
+   "note": "Student from the 1927 Hassan demonstration; again at Mysore from about 1932; taught at the palace yogashala; left in charge of the Mysore teaching when Krishnamacharya moved to Chennai (by 1956). Yoga Korunta descent rests on Krishnamacharya's account."
   },
   {
    "from": "krishnamacharya",
@@ -3330,7 +3357,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1947,
-   "note": "Came to the ashram 1943; sannyasa 12 September 1947; left 1956; Bihar School of Yoga, Munger, 1964"
+   "note": "Sannyasa 12 Sept 1947; in 1956 sent him out to teach and, by the Bihar School's account, gave him kriya yoga."
   },
   {
    "from": "sivananda",
@@ -6370,6 +6397,41 @@
    "evidence": "documented",
    "verified": true,
    "note": "Iqbal read Nietzsche closely and borrowed the image of the self-overcoming individual while rejecting his atheism; scholars still argue how far the perfect man of the poems owes to Nietzsche rather than to the Sufi perfect human."
+  },
+  {
+   "from": "anandamayi-ma",
+   "to": "satyananda",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "By his own account, as reported by Wikipedia and the Bihar School, he met her as a young man and she blessed him."
+  },
+  {
+   "from": "vallalar",
+   "to": "thozhuvur-velayutha-mudaliar",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1867,
+   "note": "Principal disciple and editor of the 1867 Tiruvarutpa."
+  },
+  {
+   "from": "vallalar",
+   "to": "arumuga-navalar",
+   "type": "reacted-against",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1867,
+   "note": "Navalar attacked the Tiruvarutpa as Marutpa; dispute dated 1867 to 1904 by Tamil Wiki."
+  },
+  {
+   "from": "jyotirao-phule",
+   "to": "savitribai-phule",
+   "type": "family",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1840,
+   "note": "Married 1840; he taught her to read and write from 1841; she taught in the 1848 girls' school."
   }
  ]
 }

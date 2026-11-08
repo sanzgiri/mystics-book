@@ -1,0 +1,191 @@
+{
+  "batch": "x_expand_a",
+  "nodes_add": [
+    {
+      "id": "arumuga-navalar",
+      "name": "Arumuga Navalar",
+      "part": 9,
+      "tier": "node",
+      "kind": "person",
+      "note": "Jaffna Shaiva scholar and publisher; rejected Ramalingam's Tiruvarutpa as Marutpa (the Arutpa-Marutpa dispute, 1867 to 1904 by Tamil Wiki's dating)"
+    },
+    {
+      "id": "thozhuvur-velayutha-mudaliar",
+      "name": "Thozhuvur Velayutha Mudaliar",
+      "part": 9,
+      "tier": "node",
+      "kind": "person",
+      "note": "Ramalingam's principal disciple; edited and published the first volume of the Tiruvarutpa (Madras, 1867) with a biography"
+    },
+    {
+      "id": "savitribai-phule",
+      "name": "Savitribai Phule",
+      "born": 1831,
+      "died": 1897,
+      "part": 1,
+      "tier": "node",
+      "kind": "person",
+      "note": "Married Jotirao 1840; taught by him from 1841; first woman teacher at the Poona girls' school of 1848; headed the Satyashodhak Samaj women's section"
+    }
+  ],
+  "nodes_update": [
+    {
+      "id": "iyengar",
+      "note": "Born Bellur 14 Dec 1918; sickly childhood; lived with Krishnamacharya in Mysore from about 1934; Pune from 1937; Light on Yoga 1966; props and timed, sequenced alignment; RIMYI Pune 1975; died Pune 20 Aug 2014."
+    },
+    {
+      "id": "vinoba",
+      "note": "Born Gagode 11 Sept 1895; met Gandhi 7 June 1916; Gitai and Talks on the Gita (Dhulia jail 1932); Bhoodan from 18 April 1951 (Pochampally); gramdan from May 1952; Brahma Vidya Mandir 1959; died Paunar 15 Nov 1982."
+    }
+  ],
+  "edges_upsert": [
+    {
+      "from": "krishnamacharya",
+      "to": "pattabhi-jois",
+      "type": "lived-with",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1927,
+      "note": "Student from the 1927 Hassan demonstration; again at Mysore from about 1932; taught at the palace yogashala; left in charge of the Mysore teaching when Krishnamacharya moved to Chennai (by 1956). Yoga Korunta descent rests on Krishnamacharya's account."
+    },
+    {
+      "from": "krishnamacharya",
+      "to": "iyengar",
+      "type": "family",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1934,
+      "note": "Brother-in-law; Iyengar lived in his Mysore household from about 1934; relationship described as difficult."
+    },
+    {
+      "from": "sivananda",
+      "to": "satyananda",
+      "type": "initiated",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1947,
+      "note": "Sannyasa 12 Sept 1947; in 1956 sent him out to teach and, by the Bihar School's account, gave him kriya yoga."
+    },
+    {
+      "from": "anandamayi-ma",
+      "to": "satyananda",
+      "type": "influenced",
+      "evidence": "testimony",
+      "verified": true,
+      "note": "By his own account, as reported by Wikipedia and the Bihar School, he met her as a young man and she blessed him."
+    },
+    {
+      "from": "vallalar",
+      "to": "thozhuvur-velayutha-mudaliar",
+      "type": "lived-with",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1867,
+      "note": "Principal disciple and editor of the 1867 Tiruvarutpa."
+    },
+    {
+      "from": "vallalar",
+      "to": "arumuga-navalar",
+      "type": "reacted-against",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1867,
+      "note": "Navalar attacked the Tiruvarutpa as Marutpa; dispute dated 1867 to 1904 by Tamil Wiki."
+    },
+    {
+      "from": "jyotirao-phule",
+      "to": "savitribai-phule",
+      "type": "family",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1840,
+      "note": "Married 1840; he taught her to read and write from 1841; she taught in the 1848 girls' school."
+    }
+  ],
+  "places": [],
+  "glossary": [
+    {
+      "term": "Panchagni",
+      "script": "पञ्चाग्नि",
+      "lang": "sa",
+      "def": "A Vedic austerity in which the practitioner sits outdoors among four fires beneath the sun; Satyananda practised it at Rikhia."
+    },
+    {
+      "term": "Paramahamsa",
+      "script": "परमहंस",
+      "lang": "sa",
+      "def": "A renunciant of the highest rank; Satyananda lived at Rikhia as a paramahamsa after 1989."
+    },
+    {
+      "term": "Tamasha",
+      "lang": "mr",
+      "def": "A Marathi folk theatre of song and comic scenes; the Satyashodhak Samaj used it to carry its message to peasants."
+    },
+    {
+      "term": "Mysore style",
+      "def": "The way Ashtanga yoga is taught in Pattabhi Jois's tradition: each student practises a memorised series alone at their own pace in a shared room while the teacher helps individually."
+    }
+  ],
+  "issues": [
+    "periyar.mdx: ThePrint says a woman named Meenabal first called him Periyar (1938 women's conference); other sources credit the conference itself. Spelling and attribution not cross-checked.",
+    "iyengar.mdx: sources give Iyengar as eleventh (Wikipedia mirror) or thirteenth (Encyclopedia.com) child of thirteen; existing text left unchanged. Year of Light on the Yoga Sutras of Patanjali not stated (1993 vs 1996).",
+    "pattabhi-jois.mdx: accounts conflict on the Yoga Korunta manuscript (ants: Krishnamacharya vs Jois per B. N. S. Iyengar); walk to Mysore (about 150 km, ashtangayoga.info) vs ran away with two rupees (Wikipedia). Year of marriage to Savitramma (1933) rests on ashtangayoga.info alone.",
+    "satyananda.mdx: Wikipedia says left home at 18, Hinduism Today says came to Rishikesh at 19, biharyoga.net says 20; Fellowship date 1956/1962/1963 and school 1963/1964 conflict across sources.",
+    "vinoba.mdx: father's name given as Narahar Shambhu Rao by Wikipedia only; 'death he chose' wording left as in existing text.",
+    "jyotirao-phule.mdx: Sarvajanik Satya Dharma Pustak contents could not be read this session; no new claims about it were added. Wikipedia dates the work to April 1889 and 1891.",
+    "vallalar.mdx: birth-legend details (infant laugh at Chidambaram, mirror and lamp, vision of Murugan) rest on sriramv.com and Wikipedia and are given as reported. Gazette notice of 1906 was not used."
+  ],
+  "sources": {
+    "periyar": [
+      "Parents Venkatappa Nayakar and Chinnathayee Muthammal; Kannada-speaking Balija merchants; school about five years; Kashi 1904 eating-house story; Revolt 1928; Naicker dropped at Chengalpattu 1929; Malaya Dec 1929 to Jan 1930; Europe/USSR from Dec 1931, back Nov 1932; rationalism, women's rights, birth control, devadasi, script reform; 1952 registration objects -> https://en.wikipedia.org/wiki/Periyar",
+      "Joined Congress 1919 under Rajagopalachari; headed Madras Presidency Congress committee; jailed in non-cooperation; Unmai modelled on Pravda; arranged remarriage of widowed niece; Meenabal and the title Periyar 1938 -> https://theprint.in/theprint-profile/periyar-the-south-indian-socrates-who-smashed-brahminical-patriarchy/168020"
+    ],
+    "pattabhi-jois": [
+      "Father astrologer, priest, landholder; fifth of nine children; Sanskrit from age five; two rupees to Mysore 1930; Sanskrit College 1937 to 1973; series names; Williams and Gilgoff; Singleton and ashtang dand; ujjayi (Manju vs Sharath); Sharath a grandson -> https://en.wikipedia.org/wiki/K._Pattabhi_Jois ; https://en.wikipedia.org/wiki/Ashtanga_(vinyasa)_yoga",
+      "Walk of about 150 km at 15; stipend ten rupees a month March 1937; married Savitramma 1933; children 1941 to 1944; Krishnamacharya left him in charge at Mysore; B. N. S. Iyengar on manuscript; first Westerners learned three series 1975, six by 2009 -> https://www.ashtangayoga.info/philosophy/philosophy/130601-the-origins-of-ashtanga-yoga-part-13/",
+      "Mysore style: one-to-one, self-paced, memorise, first class 15 to 20 min, five or six days a week, watch half an hour first; quote 'When vinyasa is perfect, the mind is under control' -> https://archive.joisyoga.com/practice/mysore-style/",
+      "Yoga Mala: practise in order given; learn breath and vinyasa from a guru; forewords by Sharath Jois and Eddie Stern -> https://terebess.hu/english/Yoga-Mala.pdf"
+    ],
+    "iyengar": [
+      "Doctors predicted he would not reach 21; moved to Bangalore after father's death; failed English exam; won Krishnamacharya over by performing postures; village-to-village teaching on rice and water; Menuhin 1952 (five minutes became three hours); Belgian Queen Mother; Ramamani 1943; retired from full-time teaching 1984; props (weights, pulleys, stools, ropes); Light on Pranayama 1981, Yoga: The Path to Holistic Health 2001, Tree of Yoga 2002 -> https://www.encyclopedia.com/books/culture-magazines/iyengar-bks",
+      "Krishnamacharya sometimes withheld food; props after scooter accident; Light on Yoga in 17 languages and 3 million copies by 2005; Geeta born 1944; Iyengar practised 3 hours asana and 1 hour pranayama at 90 -> https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/B.K.S._Iyengar.html (mirror of Wikipedia)",
+      "Quote 'focus on precision, timing, sequencing, and the use of props helps the practitioner develop awareness in any asana'; only CIYTs may call instruction Iyengar Yoga; accessible to all ages -> https://www.iynaus.org/iyengar-yoga"
+    ],
+    "vinoba": [
+      "Father Narahar Shambhu Rao weaver and rationalist; raised partly by grandfather Shamburao; read Gita young; brahmacharya in adolescence; 7 June 1916; Wardha 8 April 1921; Bhoodan 18 April 1951; one-sixth of land; gramdan after 1954; Brahma Vidya Mandir 1959 and its recitations; Jai Jagat -> https://en.wikipedia.org/wiki/Vinoba_Bhave",
+      "Brother Balkoba; 'internal uneasiness and agitation'; early 1916 burned certificates and went to Kashi; Maharashtra Dharma 1923; left Paunar 12 Sept 1951, returned 10 April 1964; target five crore acres; 23 lakh acres in Bihar 1952 to 1954; 1966, 1969, 1970 and silence year from 25 Dec 1974 -> https://www.mkgandhi.org/vinoba/bio.htm",
+      "108 sub-sections, 432 paragraphs, 540 aphorisms (Samyasutra-vritti); 24 languages; about 2.5 million copies; quote 'the Gita is meant to spiritualize human life' -> https://www.mkgandhi.org/talksongita/note.htm"
+    ],
+    "satyananda": [
+      "Classical education; age-six out-of-body experiences; Anandamayi Ma and Sukhman Giri; Panchagni; 1991 mandate; 1995 twelve-year Rajasooya Yajna; six branches of the Satyananda system; Fellowship 1962 Rajnandgaon -> https://en.wikipedia.org/wiki/Satyananda_Saraswati",
+      "Served over 12 years, edited Hindi journal; wandered about 8 years through India, Afghanistan, Nepal, Burma, Ceylon; Fellowship 1963 and school 1964; ashodashi puja ending 22 Dec 2009 -> https://www.hinduismtoday.com/hpi/2009/12/13/swami-satyananda-saraswati-attains-mahasamadhi/",
+      "1956 kriya yoga and charge to teach 'from door to door and shore to shore'; arrived Rikhia 23 Sept 1989; 1994 prediction about devotion -> https://biharyoga.net/swami-satyananda.php",
+      "Yoga Nidra: systematic rotation of consciousness from nyasa; 'yogic sleep'; birth of yoga nidra episode; sankalpa before and after, seed and watering; fixed order; heaviness then lightness; 'Do not sleep'; not necessary to concentrate; one hour like four hours' sleep -> https://www.vinyasayogaacademy.com/books/YogaNidrabySwamiSatyanandaSaraswatizliborg-200817-225446.pdf"
+    ],
+    "jyotirao-phule": [
+      "Father supplied flowers to Peshwa families; mother died about age one; Sagunabai; schooling interrupted and resumed through a Muslim teacher and a Christian neighbour; Board of Education 1852; Tritiya Ratna 1855 third eye; Hunter Commission 1882 proposals and quote; Ambedkar regarded him as guru -> https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/S000033SO/P000300/M015924/ET/146475552224ET.pdf",
+      "Marathi school 1834 to 1838; Hunter Commission statement 19 Oct 1882; widow remarriage 1860; barbers' campaign 1889; Sarvajanik Satya Dharma written 1889, released after death -> https://unipune.ac.in/chairs/mahatma_phule_chair/mphule_webfiles/life_sketch.htm",
+      "Samaj membership across castes and faiths; Deenbandhu 1877 to 1897; tamashas -> https://en.wikipedia.org/wiki/Satyashodhak_Samaj",
+      "Stroke 1888; Brahmananche Kasab 1869; Shivaji ballad June 1869 -> https://en.wikipedia.org/wiki/Jyotirao_Phule",
+      "Influences: Paine, anti-slavery movements, Buddha, Kabir -> https://www.britannica.com/biography/Jyotirao-Phule"
+    ],
+    "vallalar": [
+      "Father died 1824; infant laugh at Chidambaram deeparadhana; lamp and mirror; Parvathi persuaded him of education; forced marriage to niece; called Vallalar; Satya Gnana Sabhai 1872 with seven screens -> https://sriramv.com/2012/05/14/arutpas-of-ramalinga-swamigal/",
+      "Vision of Murugan; 5,818 poems; Dharmasalai 1867; flag of brotherhood 22 Oct 1873 at Siddhi Valagam; doors forced open in May 1874; meat-eaters worship from outside; Kural classes -> https://en.wikipedia.org/wiki/Ramalinga_Swamigal",
+      "Hall octagonal, 21,600-knot chain, 24 openings, five steps, three bodies, seven screens removed at 1872 dedication, locked 1873, worship at the central door with attention at root of nose, body as temple -> https://www.vallalar.org/English/VORG000000014B",
+      "First volume 1867 Asiatic Press Madras, edited by Velayuda Mudaliyar with biography; instalments 1867, 1880, 1885; modelled on Periya Purana editions; Navalar's Pooliyarutpa Maruppu; 'Calculation Ramalinga' -> https://core-prod.cambridgecore.org/core/journals/modern-asian-studies/article/print-religion-and-canon-in-colonial-india-the-publication-of-ramalinga-adigals-tiruvarutpa/8960F83457A06C714D2F938A23AC4D43",
+      "Six Thirumurai, first four published with his consent; dispute 1867 to 1904 -> https://tamil.wiki/wiki/Arutpa_Marutpa_Debate",
+      "Prayer and blessing poems paraphrased; plain language -> https://tamilnation.netlify.app/sathyam/east/vallalar/"
+    ]
+  },
+  "places_remove": [
+    {
+      "name": "Pochampally, Telangana",
+      "figure": "vinoba"
+    },
+    {
+      "name": "Sathya Gnana Sabha, Vadalur",
+      "figure": "vallalar"
+    }
+  ]
+}
