@@ -1,6 +1,9 @@
 {
   "_readme": "Entries shown on /changelog/, newest first. date is ISO (YYYY-MM-DD, or YYYY-MM when the day is not recorded); text is one or two short factual sentences.",
   "entries": [
+    { "date": "2026-11-08", "title": "Sources and prose", "text": "Added scholarly references to the 30 most important chapters and the eight with the thinnest sourcing, and edited the prose of all 89 entries for plainness and variety." },
+    { "date": "2026-11-08", "title": "Nine new sidebars", "text": "Added short sidebars on Mirra Alfassa, Annie Besant, Sister Nivedita, Blavatsky and Olcott, Krishna Prem, Goenka, Abhishiktananda, Paul Brunton and Ram Dass, and expanded fourteen chapters on important figures." },
+    { "date": "2026-11-08", "title": "Licence and counts", "text": "Published the licence files (CC BY-SA 4.0 for text, MIT for code). Recomputed the Epilogue figures for 343 names and 442 connections. Several dates and one quotation summary were corrected." },
     { "date": "2026-11-07", "title": "Reader pages", "text": "Added About this book, Start here with reading paths, Credits and licence, and this changelog. Every page now has a link for reporting a correction." },
     { "date": "2026-11-07", "title": "Appendix", "text": "Added an appendix of short entries. Six profiles with a smaller body of original teaching moved there, and their old addresses redirect to the new entries." },
     { "date": "2026-11-07", "title": "Unverified claims", "text": "Claims that could not be confirmed were cut or marked \"(unverified)\" in the text." },
