@@ -1,0 +1,78 @@
+{
+ "batch": "zz_zcloseout",
+ "nodes_update": [
+  {
+   "id": "papaji",
+   "unset": [
+    "born"
+   ],
+   "note": "Hariwansh Lal Poonja; born between 1910 and 1913 (Wikipedia gives 13 October 1910 'or later'), so no year is used for the node; died 1997."
+  },
+  {
+   "id": "acharya-prashant",
+   "unset": [
+    "born"
+   ],
+   "note": "Prashant Tripathi; born in Agra; PrashantAdvait Foundation 2015; Vedanta online, mostly in Hindi. Birth year rests only on a COI-flagged Wikipedia article and is left out."
+  },
+  {
+   "id": "premanand-maharaj",
+   "unset": [
+    "born"
+   ],
+   "note": "Shri Hit Premanand Govind Sharan Ji Maharaj; born Aniruddh Kumar Pandey, Akhri village, Sarsaul block, Kanpur district, UP. Birth year 1969 (NavbharatLive), 30 Mar 1971 (Wikipedia, citing ABP Live 2023) or 1972 (Pioneer column, citing a book by Anand Mishra and Resham Mukherjee); no year is used for the node. Left home at 13; naishthik brahmachari (Anandswaroop Brahmachari), sannyasa as Swami Anandashram; Varanasi ghats; Vrindavan (about two decades before 2025 per ThePrint); Shri Hit Radha Keli Kunj, Varaha Ghat. Living."
+  },
+  {
+   "id": "siddharameshwar",
+   "note": "Born August 1888 (siddharameshwar.org, Wikipedia; one source gives 1875); initiated 1906 by Bhausaheb Maharaj; died 9 November 1936."
+  },
+  {
+   "id": "henry-olcott",
+   "note": "American co-founder and president of the Theosophical Society; arrived in Ceylon with Blavatsky May 1880; Dharmapala heard his first lecture there and later served as his translator; director of the Maha Bodhi Society from 1891; later broke with Dharmapala; founded free schools for outcaste children in Madras from June 1894 (BPS Wheel 281). Not subcontinent-born; tree node only. Dates 1832-1907 (born 2 Aug 1832, died 17 Feb 1907) confirmed by checker from standard references."
+  },
+  {
+   "id": "max-theon",
+   "note": "Occultist of the Cosmic Movement; the Mother met him in Paris in 1905 and worked with him and his wife Mary Ware at Tlemcen, Algeria, in 1906 and 1907 (Roshen Dalal; Mother's Agenda)."
+  }
+ ],
+ "edges_upsert": [
+  {
+   "from": "theosophical-society",
+   "to": "dharmapala",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1884,
+   "note": "Member from early 1884; went to Adyar December 1884; later broke with Olcott and the Theosophists over priorities and Theosophical universalism."
+  },
+  {
+   "from": "henry-olcott",
+   "to": "dharmapala",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1880,
+   "note": "Heard Olcott in Colombo 1880; his translator on lecture tours from 1886; toured Japan with him 1889; Olcott director of the Maha Bodhi Society 1891; the two later broke, Theosophy Wiki citing differing priorities (Bodh Gaya vs general teaching) and McMahan citing Dharmapala's rejection of Theosophical universalism."
+  },
+  {
+   "from": "max-theon",
+   "to": "mirra-alfassa",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1906,
+   "note": "She met Théon in Paris in 1905 and stayed with him and his wife at Tlemcen in July to October 1906 and July 1907 (Roshen Dalal's biography of Sri Aurobindo; Mother's Agenda refers to her 'second time' there). Type influenced: no source read describes a formal initiation."
+  }
+ ],
+ "places": [
+  {
+   "name": "Tlemcen, Algeria",
+   "lat": 34.878,
+   "lon": -1.315,
+   "figure": "mirra-alfassa",
+   "what": "Stays with Max Théon and his wife, 1906 and 1907",
+   "verified": true
+  }
+ ],
+ "issues": []
+}

@@ -299,8 +299,7 @@
    "part": 2,
    "tier": "node",
    "kind": "person",
-   "note": "Prashant Tripathi; reportedly born Agra, 1978; PrashantAdvait Foundation 2015; Vedanta online, mostly in Hindi",
-   "born": 1978,
+   "note": "Prashant Tripathi; born in Agra; PrashantAdvait Foundation 2015; Vedanta online, mostly in Hindi. Birth year rests only on a COI-flagged Wikipedia article and is left out.",
    "link": "/appendix/#acharya-prashant"
   },
   {
@@ -340,11 +339,11 @@
   {
    "id": "papaji",
    "name": "H.W.L. Poonja (Papaji)",
-   "born": 1910,
    "died": 1997,
    "part": 3,
    "tier": "chapter",
-   "kind": "person"
+   "kind": "person",
+   "note": "Hariwansh Lal Poonja; born between 1910 and 1913 (Wikipedia gives 13 October 1910 'or later'), so no year is used for the node; died 1997."
   },
   {
    "id": "siddharameshwar",
@@ -354,7 +353,8 @@
    "part": 3,
    "tier": "node",
    "kind": "person",
-   "link": "/appendix/#siddharameshwar"
+   "link": "/appendix/#siddharameshwar",
+   "note": "Born August 1888 (siddharameshwar.org, Wikipedia; one source gives 1875); initiated 1906 by Bhausaheb Maharaj; died 9 November 1936."
   },
   {
    "id": "atmananda-krishna-menon",
@@ -936,8 +936,7 @@
    "part": 7,
    "tier": "profile",
    "kind": "person",
-   "note": "Shri Hit Premanand Govind Sharan Ji Maharaj; born Aniruddh Kumar Pandey, Akhri village, Sarsaul block, Kanpur district, UP. Birth year 1969 (NavbharatLive), 30 Mar 1971 (Wikipedia, citing ABP Live 2023) or 1972 (Pioneer column, citing a book by Anand Mishra and Resham Mukherjee); 1971 used for the node, flag as uncertain. Left home at 13; naishthik brahmachari (Anandswaroop Brahmachari), sannyasa as Swami Anandashram; Varanasi ghats; Vrindavan (about two decades before 2025 per ThePrint); Shri Hit Radha Keli Kunj, Varaha Ghat. Living.",
-   "born": 1971
+   "note": "Shri Hit Premanand Govind Sharan Ji Maharaj; born Aniruddh Kumar Pandey, Akhri village, Sarsaul block, Kanpur district, UP. Birth year 1969 (NavbharatLive), 30 Mar 1971 (Wikipedia, citing ABP Live 2023) or 1972 (Pioneer column, citing a book by Anand Mishra and Resham Mukherjee); no year is used for the node. Left home at 13; naishthik brahmachari (Anandswaroop Brahmachari), sannyasa as Swami Anandashram; Varanasi ghats; Vrindavan (about two decades before 2025 per ThePrint); Shri Hit Radha Keli Kunj, Varaha Ghat. Living."
   },
   {
    "id": "gaur-gopal-das",
@@ -2901,7 +2900,7 @@
    "part": 11,
    "tier": "node",
    "kind": "person",
-   "note": "American co-founder and president of the Theosophical Society; arrived in Ceylon with Blavatsky May 1880; Dharmapala heard his first lecture there and later served as his translator; director of the Maha Bodhi Society from 1891; left it in 1905. Not subcontinent-born; tree node only. Dates 1832-1907 (born 2 Aug 1832, died 17 Feb 1907) confirmed by checker from standard references."
+   "note": "American co-founder and president of the Theosophical Society; arrived in Ceylon with Blavatsky May 1880; Dharmapala heard his first lecture there and later served as his translator; director of the Maha Bodhi Society from 1891; later broke with Dharmapala; founded free schools for outcaste children in Madras from June 1894 (BPS Wheel 281). Not subcontinent-born; tree node only. Dates 1832-1907 (born 2 Aug 1832, died 17 Feb 1907) confirmed by checker from standard references."
   },
   {
    "id": "hikkaduwe-sumangala",
@@ -3047,7 +3046,7 @@
    "part": 4,
    "tier": "node",
    "kind": "person",
-   "note": "Occultist of the Cosmic Movement; the Mother worked with him and his wife Mary Ware at Tlemcen, Algeria, in 1906-07 (Wikipedia; other accounts give 1905-06)."
+   "note": "Occultist of the Cosmic Movement; the Mother met him in Paris in 1905 and worked with him and his wife Mary Ware at Tlemcen, Algeria, in 1906 and 1907 (Roshen Dalal; Mother's Agenda)."
   },
   {
    "id": "jules-monchanin",
@@ -6469,7 +6468,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1884,
-   "note": "Member from early 1884; went to Adyar December 1884; left the Society 1905 after parting with Olcott."
+   "note": "Member from early 1884; went to Adyar December 1884; later broke with Olcott and the Theosophists over priorities and Theosophical universalism."
   },
   {
    "from": "henry-olcott",
@@ -6478,7 +6477,7 @@
    "evidence": "documented",
    "verified": true,
    "year": 1880,
-   "note": "Heard Olcott in Colombo 1880; his translator on lecture tours from 1886; toured Japan with him 1889; Olcott director of the Maha Bodhi Society 1891; 1905 Olcott resigned from the MBS and Dharmapala left the TS; Theosophy Wiki gives differing priorities (Bodh Gaya vs general teaching), McMahan cites rejection of Theosophical universalism."
+   "note": "Heard Olcott in Colombo 1880; his translator on lecture tours from 1886; toured Japan with him 1889; Olcott director of the Maha Bodhi Society 1891; the two later broke, Theosophy Wiki citing differing priorities (Bodh Gaya vs general teaching) and McMahan citing Dharmapala's rejection of Theosophical universalism."
   },
   {
    "from": "hikkaduwe-sumangala",
@@ -6680,7 +6679,7 @@
    "evidence": "testimony",
    "verified": true,
    "year": 1906,
-   "note": "She visited Théon and his wife at Tlemcen three times in 1906-07 and practised their teachings (Wikipedia); the Ashram essay says she learned their occult practices there. Type changed from initiated to influenced: no source read describes a formal initiation. Dates 1906-07 (Wikipedia) vs 1905-06 (Aurobindo chapter)."
+   "note": "She met Théon in Paris in 1905 and stayed with him and his wife at Tlemcen in July to October 1906 and July 1907 (Roshen Dalal's biography of Sri Aurobindo; Mother's Agenda refers to her 'second time' there). Type influenced: no source read describes a formal initiation."
   },
   {
    "from": "vivekananda",

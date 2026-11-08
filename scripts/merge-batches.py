@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Merge docs/batches/*.json into src/data/{graph,places,glossary}.json and collect open issues.
-Idempotent: safe to run repeatedly. Batches may also carry nodes_remove (ids), edges_remove ({from,to}), places_remove ({name,figure}), glossary_remove (terms) and glossary_update. Usage: python3 scripts/merge-batches.py [batch-id ...]"""
+Idempotent: safe to run repeatedly. Batches may also carry nodes_remove (ids), edges_remove ({from,to}), places_remove ({name,figure}), glossary_remove (terms) and glossary_update. A nodes_update entry may carry "unset": [field, ...] to delete fields. Usage: python3 scripts/merge-batches.py [batch-id ...]"""
 import json, sys, glob, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -22,7 +22,9 @@ for f in files:
         if n['id'] in ids: ids[n['id']].update({k: v for k, v in n.items() if v is not None})
         else: graph['nodes'].append(n); ids[n['id']] = n
     for u in b.get('nodes_update', []):
-        if u['id'] in ids: ids[u['id']].update({k: v for k, v in u.items() if v is not None})
+        if u['id'] in ids:
+            ids[u['id']].update({k: v for k, v in u.items() if v is not None and k != 'unset'})
+            for k in u.get('unset', []): ids[u['id']].pop(k, None)
         else: issues.append(f"[{bid}] nodes_update for unknown id {u['id']}")
     nrm = set(b.get('nodes_remove', []))
     if nrm:
