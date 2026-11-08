@@ -1483,9 +1483,9 @@
    "born": 1867,
    "died": 1911,
    "part": 2,
-   "tier": "node",
+   "tier": "sidebar",
    "kind": "person",
-   "note": "Irish disciple of Vivekananda, initiated as a brahmacharini on 25 March 1898; author of The Master as I Saw Him (1910)."
+   "note": "Margaret Noble, b. Dungannon 28 Oct 1867; heard Vivekananda London Nov 1895; brahmacharini 25 March 1898; Bagbazar school 13 Nov 1898; d. Darjeeling Oct 1911 (12 or 13 Oct in sources). Sidebar added 7 Nov 2026."
   },
   {
    "id": "sudhakar-chaturvedi",
@@ -1815,9 +1815,9 @@
    "born": 1878,
    "died": 1973,
    "part": 4,
-   "tier": "node",
+   "tier": "sidebar",
    "kind": "person",
-   "note": "Born Paris 21 Feb 1878; met Aurobindo 29 March 1914; in Pondicherry from 24 April 1920; led the Sri Aurobindo Ashram from November 1926; founded Auroville 1968; died 17 Nov 1973"
+   "note": "Born Paris 21 Feb 1878; met Aurobindo 29 March 1914; in Pondicherry from April 1920; in charge of the Sri Aurobindo Ashram from 24 Nov 1926; founded Auroville 1968; died 17 Nov 1973. Sidebar added 7 Nov 2026."
   },
   {
    "id": "auroville",
@@ -1833,9 +1833,9 @@
    "born": 1847,
    "died": 1933,
    "part": 12,
-   "tier": "node",
+   "tier": "sidebar",
    "kind": "person",
-   "note": "President of the Theosophical Society from 1907; Krishnamurti's guardian from 1910; head of the Order of the Star's sponsors."
+   "note": "Born London 1 Oct 1847; Theosophy 1889; India 1893; Central Hindu College Benares 1898; president of the Theosophical Society 1907-1933; guardian of Krishnamurti from 1910; Home Rule League 1916; Congress president Dec 1917; d. Adyar Sept 1933. Sidebar added 7 Nov 2026."
   },
   {
    "id": "cw-leadbeater",
@@ -2999,6 +2999,54 @@
    "tier": "node",
    "kind": "person",
    "note": "Disciple to whom followers say the Akilathirattu Ammanai was dictated; spelled Arigopalan Citar in some Wikipedia passages."
+  },
+  {
+   "id": "blavatsky-olcott",
+   "name": "Helena Blavatsky and Henry Steel Olcott",
+   "born": 1831,
+   "died": 1907,
+   "part": 11,
+   "tier": "sidebar",
+   "kind": "person",
+   "note": "Founders of the Theosophical Society (New York, 17 Nov 1875); in India from Feb 1879; Adyar from 1882. Blavatsky 1831-1891, Olcott 1832-1907 (henry-olcott is the separate tree node for Olcott alone)."
+  },
+  {
+   "id": "krishna-prem",
+   "name": "Krishna Prem (Ronald Nixon)",
+   "born": 1898,
+   "died": 1965,
+   "part": 7,
+   "tier": "sidebar",
+   "kind": "person",
+   "note": "Born Cheltenham 10 May 1898; RFC pilot; Lucknow 1921; initiated by Yashoda Ma 1928; Mirtola ashram near Almora from 1929; head 1944; d. Mirtola 14 Nov 1965."
+  },
+  {
+   "id": "yashoda-ma",
+   "name": "Sri Yashoda Ma (Monica Devi Chakravarti)",
+   "born": 1882,
+   "died": 1944,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born Monica Roy 1882; wife of Gyanendra Nath Chakravarti; took renunciant vows 1928; initiated Krishna Prem; co-founded Mirtola; d. 1944."
+  },
+  {
+   "id": "madhava-ashish",
+   "name": "Madhava Ashish (Alexander Phipps)",
+   "born": 1920,
+   "died": 1997,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born Edinburgh 23 Feb 1920; RAF engineer; visited Ramana 1944; at Mirtola after the war; head of the ashram 1965-1997; Padma Shri 1992; d. 13 April 1997."
+  },
+  {
+   "id": "max-theon",
+   "name": "Max Théon",
+   "part": 4,
+   "tier": "node",
+   "kind": "person",
+   "note": "Occultist of the Cosmic Movement; the Mother worked with him and his wife Mary Ware at Tlemcen, Algeria, in 1906-07 (Wikipedia)."
   }
  ],
  "edges": [
@@ -6483,6 +6531,126 @@
    "verified": true,
    "year": 1841,
    "note": "Followers say the Akilam was dictated to him; dictation date given as 1840 or 1841 on Wikipedia."
+  },
+  {
+   "from": "blavatsky-olcott",
+   "to": "theosophical-society",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1875,
+   "note": "Founded in New York on 17 November 1875 with W. Q. Judge and others; Adyar headquarters from 1882."
+  },
+  {
+   "from": "blavatsky-olcott",
+   "to": "dayananda-saraswati",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1878,
+   "note": "Union with the Arya Samaj accepted 22 May 1878 (Theosophical Society of Aryavarta); Dayananda attacked the Theosophists publicly on 26 March 1882."
+  },
+  {
+   "from": "blavatsky-olcott",
+   "to": "dharmapala",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1880,
+   "note": "Through Olcott: Colombo lecture of 1880, then his co-worker and translator."
+  },
+  {
+   "from": "blavatsky-olcott",
+   "to": "gandhi",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1891,
+   "note": "Gandhi became an associate member of Blavatsky's London lodge in 1891 (Wikipedia)."
+  },
+  {
+   "from": "yashoda-ma",
+   "to": "krishna-prem",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1928,
+   "note": "She took vairagya vows in 1928 as Yashoda Mai and initiated Nixon, who took the name Krishna Prem."
+  },
+  {
+   "from": "krishna-prem",
+   "to": "madhava-ashish",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Mentor and successor as head of Mirtola in 1965."
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "madhava-ashish",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1944,
+   "note": "A 1944 holiday visit to Ramana's ashram began his spiritual search (Wikipedia)."
+  },
+  {
+   "from": "gaudiya",
+   "to": "krishna-prem",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Wikipedia describes him as the first Westerner officially affiliated with Gaudiya Vaishnavism of Braj; his biographer sees him moving beyond its dogmas."
+  },
+  {
+   "from": "max-theon",
+   "to": "mirra-alfassa",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1906,
+   "note": "She visited Théon and his wife at Tlemcen three times in 1906-07 and practised their teachings (Wikipedia); the Ashram essay says she learned their occult practices there."
+  },
+  {
+   "from": "vivekananda",
+   "to": "mirra-alfassa",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "While still an atheist she read Vivekananda's Raja Yoga and the Bhagavad Gita, which helped her make sense of her experiences (Wikipedia)."
+  },
+  {
+   "from": "nivedita",
+   "to": "aurobindo",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": false,
+   "note": "Sri Sarada Math lists Aurobindo Ghosh among those her writings and speeches inspired; no direct source read for a closer tie."
+  },
+  {
+   "from": "nivedita",
+   "to": "rabindranath-tagore",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": false,
+   "note": "Encyclopedia.com and Sri Sarada Math say she influenced or inspired Tagore; the nature of the tie not checked."
+  },
+  {
+   "from": "blavatsky-olcott",
+   "to": "annie-besant",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1889,
+   "note": "Reviewed The Secret Doctrine 1889, met Blavatsky in Paris, became a favoured pupil and co-editor of Lucifer."
+  },
+  {
+   "from": "blavatsky-olcott",
+   "to": "krishna-prem",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Krishna Prem wrote a commentary on the Stanzas of Dzyan from The Secret Doctrine (Quest article)."
   }
  ]
 }

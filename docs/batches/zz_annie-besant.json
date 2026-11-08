@@ -1,0 +1,48 @@
+{
+ "batch": "zz_annie-besant",
+ "nodes_update": [
+  {
+   "id": "annie-besant",
+   "tier": "sidebar",
+   "note": "Born London 1 Oct 1847; Theosophy 1889; India 1893; Central Hindu College Benares 1898; president of the Theosophical Society 1907-1933; guardian of Krishnamurti from 1910; Home Rule League 1916; Congress president Dec 1917; d. Adyar Sept 1933. Sidebar added 7 Nov 2026."
+  }
+ ],
+ "places": [
+  {
+   "name": "Central Hindu College, Benares",
+   "lat": 25.318,
+   "lon": 82.99,
+   "figure": "annie-besant",
+   "what": "Founded July 1898; became a constituent college of Banaras Hindu University October 1917",
+   "verified": true
+  },
+  {
+   "name": "Theosophical Society, Adyar, Chennai",
+   "lat": 13.01,
+   "lon": 80.27,
+   "figure": "annie-besant",
+   "what": "President from 1907; died here September 1933",
+   "verified": true
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Order of the Star in the East",
+   "def": "Organisation created around Krishnamurti, under Besant, for those who expected a World Teacher; he dissolved it on 3 August 1929."
+  }
+ ],
+ "sources": {
+  "annie-besant": [
+   "Birth, marriage 1867, separation 1873, Fabians 1885, matchgirls 1888, School Board, 1889 Secret Doctrine, 1893 India and Chicago, 1895 Gita, 1898 college, 1907 presidency, 1909 Leadbeater, Home Rule 1916, internment, Congress Dec 1917, death -> https://en.wikipedia.org/wiki/Annie_Besant",
+   "Esoteric Section, Bhagavan Das, Lucifer, Dharma Lodge 1904, Order of the Star in the East 1908, newspapers 1914, 1929 -> https://tforward.theosophy.wiki/besant-annie-wood-1847-1933",
+   "CHC July 1898 aims, Arundale 1908, Malaviya 1911, BHU Act 1915-16, college joined Oct 1917 -> https://theosophy.wiki/en/Central_Hindu_College",
+   "Gita 1895 co-translation, Girls' College 1904, Sanatana Dharma 1903, membership dated 1880 (conflicts with 1889) -> https://whowaswho-indology.info/?p=719",
+   "1909 Leadbeater; Theosophical Society 1895 split, 1907 presidency -> https://en.wikipedia.org/wiki/Theosophical_Society"
+  ]
+ },
+ "issues": [
+  "annie-besant.mdx: guardianship dated March 1910 follows the existing x06 edge and the book's Krishnamurti chapter, not a source read in this pass.",
+  "annie-besant.mdx: Theosophy Wiki says Krishnamurti's training began 1908; Wikipedia says Leadbeater discovered him 1909; text follows 1909.",
+  "annie-besant.mdx: death 19 or 20 Sept 1933 (sources differ); text says September 1933."
+ ]
+}

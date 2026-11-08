@@ -1,0 +1,84 @@
+{
+ "batch": "zz_mirra-alfassa",
+ "nodes_update": [
+  {
+   "id": "mirra-alfassa",
+   "tier": "sidebar",
+   "note": "Born Paris 21 Feb 1878; met Aurobindo 29 March 1914; in Pondicherry from April 1920; in charge of the Sri Aurobindo Ashram from 24 Nov 1926; founded Auroville 1968; died 17 Nov 1973. Sidebar added 7 Nov 2026."
+  }
+ ],
+ "nodes_add": [
+  {
+   "id": "max-theon",
+   "name": "Max Théon",
+   "part": 4,
+   "tier": "node",
+   "kind": "person",
+   "note": "Occultist of the Cosmic Movement; the Mother worked with him and his wife Mary Ware at Tlemcen, Algeria, in 1906-07 (Wikipedia)."
+  }
+ ],
+ "edges_upsert": [
+  {
+   "from": "max-theon",
+   "to": "mirra-alfassa",
+   "type": "initiated",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1906,
+   "note": "She visited Théon and his wife at Tlemcen three times in 1906-07 and practised their teachings (Wikipedia); the Ashram essay says she learned their occult practices there."
+  },
+  {
+   "from": "vivekananda",
+   "to": "mirra-alfassa",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "note": "While still an atheist she read Vivekananda's Raja Yoga and the Bhagavad Gita, which helped her make sense of her experiences (Wikipedia)."
+  }
+ ],
+ "places": [
+  {
+   "name": "Paris",
+   "lat": 48.857,
+   "lon": 2.352,
+   "figure": "mirra-alfassa",
+   "what": "Born 21 February 1878; Académie Julian from 1893",
+   "verified": true
+  },
+  {
+   "name": "Tlemcen, Algeria",
+   "lat": 34.878,
+   "lon": -1.315,
+   "figure": "mirra-alfassa",
+   "what": "Three visits to Max Théon and his wife, 1906-07",
+   "verified": true
+  },
+  {
+   "name": "Sri Aurobindo Ashram, Pondicherry",
+   "lat": 11.934,
+   "lon": 79.835,
+   "figure": "mirra-alfassa",
+   "what": "Arrived 29 March 1914; settled April 1920; in charge from 1926; died here 17 November 1973",
+   "verified": true
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Yoga of the cells",
+   "def": "The Mother's name for her work from 1958 to fix supramental consciousness in the body's cells so that the body itself could change."
+  }
+ ],
+ "sources": {
+  "mirra-alfassa": [
+   "Birth, parents, Académie Julian, marriages, Tlemcen 1906-07, 29 March 1914, Japan, April 1920, 1926, 1930 sole charge, 1943 school, 5 Dec 1950, 1964 resolution, 28 Feb 1968, death 17 Nov 1973 and burial 20 Nov -> https://en.wikipedia.org/wiki/Mirra_Alfassa",
+   "Ashram essay: parents materialists, visions of Aurobindo ten years earlier, Théon 'Principle' and prototype of supramental form, 24 Nov 1926 charge, four aspects, quote of 29 Feb 1956 (verbatim), yoga of the cells from 1958, Agenda, 1951 university centre -> https://search.motherandsriaurobindo.in/_StaticContent/SriAurobindoAshram/-09 E-Library/-03 Disciples/Kireet Joshi/-01 English/Philosophy and Yoga of Sri Aurobindo and Other Essays/-03_The Mother - Her Life and Work.htm",
+   "Inauguration 28 Feb 1968, radio, Charter read in French and 16 languages, urn with soil of 124 countries -> https://www.motherandsriaurobindo.in/auroville/inauguration-ceremony",
+   "1965 message, site, Charter four points, population 2,814 in Jan 2018 -> https://en.wikipedia.org/wiki/Auroville"
+  ]
+ },
+ "issues": [
+  "mirra-alfassa.mdx: the fetched pages gave summaries, not full text; the 29 Feb 1956 quotation is taken from a summary of the Joshi essay and should be checked against the Collected Works before print.",
+  "mirra-alfassa.mdx: Wikipedia dates the arrival to 'end of March' 1914 and the Joshi essay to 29 March; the text uses 29 March.",
+  "mirra-alfassa.mdx: Wikipedia and the ashram essay differ on how she left Pondicherry in 1914-15; the text says only that both agree on about four years in Japan."
+ ]
+}

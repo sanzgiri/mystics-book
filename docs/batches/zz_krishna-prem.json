@@ -1,0 +1,125 @@
+{
+ "batch": "zz_krishna-prem",
+ "nodes_add": [
+  {
+   "id": "krishna-prem",
+   "name": "Krishna Prem (Ronald Nixon)",
+   "born": 1898,
+   "died": 1965,
+   "part": 7,
+   "tier": "sidebar",
+   "kind": "person",
+   "note": "Born Cheltenham 10 May 1898; RFC pilot; Lucknow 1921; initiated by Yashoda Ma 1928; Mirtola ashram near Almora from 1929; head 1944; d. Mirtola 14 Nov 1965."
+  },
+  {
+   "id": "yashoda-ma",
+   "name": "Sri Yashoda Ma (Monica Devi Chakravarti)",
+   "born": 1882,
+   "died": 1944,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born Monica Roy 1882; wife of Gyanendra Nath Chakravarti; took renunciant vows 1928; initiated Krishna Prem; co-founded Mirtola; d. 1944."
+  },
+  {
+   "id": "madhava-ashish",
+   "name": "Madhava Ashish (Alexander Phipps)",
+   "born": 1920,
+   "died": 1997,
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Born Edinburgh 23 Feb 1920; RAF engineer; visited Ramana 1944; at Mirtola after the war; head of the ashram 1965-1997; Padma Shri 1992; d. 13 April 1997."
+  }
+ ],
+ "edges_upsert": [
+  {
+   "from": "yashoda-ma",
+   "to": "krishna-prem",
+   "type": "initiated",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1928,
+   "note": "She took vairagya vows in 1928 as Yashoda Mai and initiated Nixon, who took the name Krishna Prem."
+  },
+  {
+   "from": "krishna-prem",
+   "to": "madhava-ashish",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Mentor and successor as head of Mirtola in 1965."
+  },
+  {
+   "from": "ramana-maharshi",
+   "to": "madhava-ashish",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1944,
+   "note": "A 1944 holiday visit to Ramana's ashram began his spiritual search (Wikipedia)."
+  },
+  {
+   "from": "gaudiya",
+   "to": "krishna-prem",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Wikipedia describes him as the first Westerner officially affiliated with Gaudiya Vaishnavism of Braj; his biographer sees him moving beyond its dogmas."
+  },
+  {
+   "from": "blavatsky-olcott",
+   "to": "krishna-prem",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Krishna Prem wrote a commentary on the Stanzas of Dzyan from The Secret Doctrine (Quest article)."
+  }
+ ],
+ "places": [
+  {
+   "name": "Cheltenham",
+   "lat": 51.9,
+   "lon": -2.078,
+   "figure": "krishna-prem",
+   "what": "Born 10 May 1898",
+   "verified": true
+  },
+  {
+   "name": "Lucknow University",
+   "lat": 26.86,
+   "lon": 80.93,
+   "figure": "krishna-prem",
+   "what": "Taught English from 1921; met the Chakravarti family",
+   "verified": true
+  },
+  {
+   "name": "Mirtola Ashram, near Almora",
+   "lat": 29.64,
+   "lon": 79.7,
+   "figure": "krishna-prem",
+   "what": "Temple and Ashram of Uttar Brindaban, trust deed 4 July 1929; he died here 14 November 1965 (coordinates approximate)",
+   "verified": false
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Vairagya",
+   "def": "Dispassion or renunciation; taking vairagya vows means entering the life of a renunciant."
+  }
+ ],
+ "sources": {
+  "krishna-prem": [
+   "Birth 10 May 1898, RFC 1917, Lucknow 1921, Chakravarti, 1928 vairagya and initiation, Mirtola 1930, head 1944, 1948 visit to Ramana/Aurobindo/Mother, works, death 14 Nov 1965, Radhakrishnan -> https://en.wikipedia.org/wiki/Krishna_Prem",
+   "Cambridge friends (Humphreys), Hindi from the Bhagavata, Banaras post, name Gopalda, temple 1929-31, disciples, teaching more direct, death -> https://mirtolareflections.com/Sri-Krishna-Prem.html",
+   "Trust deed 4 July 1929, 60 acres, Yashoda Mai 1882-1944, Chakravarti at 1893 Parliament, Stanzas of Dzyan commentaries, Madhava Ashish -> https://www.theosophical.org/publications/quest-magazine/2754",
+   "Madhava Ashish birth 1920, RAF, 1944 Ramana visit, farming, Padma Shri 1992, death 13 April 1997, Dev Ashish -> https://en.wikipedia.org/wiki/Madhava_Ashish"
+  ]
+ },
+ "issues": [
+  "krishna-prem.mdx: Wikipedia says the Lucknow post was taken up in 1921 and Mirtola was 'founded 1930'; the trust deed is dated 4 July 1929 (Quest) and the Mirtola site dates the temple 1929-31. Text uses the trust deed and temple dates.",
+  "krishna-prem.mdx: Wikipedia's claim that he was the first Westerner in Gaudiya Vaishnavism is a scholars' assertion not checked against a scholarly source.",
+  "krishna-prem.mdx: Mirtola coordinates are approximate.",
+  "krishna-prem.mdx: his teaching and daily practice are only thinly sourced; disciple memoirs (Bill Aitken, Letters from Mirtola) were not read."
+ ]
+}

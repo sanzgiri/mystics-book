@@ -1,0 +1,72 @@
+{
+ "batch": "zz_nivedita",
+ "nodes_update": [
+  {
+   "id": "nivedita",
+   "tier": "sidebar",
+   "note": "Margaret Noble, b. Dungannon 28 Oct 1867; heard Vivekananda London Nov 1895; brahmacharini 25 March 1898; Bagbazar school 13 Nov 1898; d. Darjeeling Oct 1911 (12 or 13 Oct in sources). Sidebar added 7 Nov 2026."
+  }
+ ],
+ "edges_upsert": [
+  {
+   "from": "nivedita",
+   "to": "aurobindo",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": false,
+   "note": "Sri Sarada Math lists Aurobindo Ghosh among those her writings and speeches inspired; no direct source read for a closer tie."
+  },
+  {
+   "from": "nivedita",
+   "to": "rabindranath-tagore",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": false,
+   "note": "Encyclopedia.com and Sri Sarada Math say she influenced or inspired Tagore; the nature of the tie not checked."
+  }
+ ],
+ "places": [
+  {
+   "name": "Dungannon, County Tyrone",
+   "lat": 54.505,
+   "lon": -6.767,
+   "figure": "nivedita",
+   "what": "Born 28 October 1867",
+   "verified": true
+  },
+  {
+   "name": "Bagbazar, Calcutta",
+   "lat": 22.603,
+   "lon": 88.372,
+   "figure": "nivedita",
+   "what": "Girls' school opened 13 November 1898 in Bosepara Lane, inaugurated with Sarada Devi's blessing",
+   "verified": true
+  },
+  {
+   "name": "Darjeeling",
+   "lat": 27.041,
+   "lon": 88.263,
+   "figure": "nivedita",
+   "what": "Died October 1911",
+   "verified": true
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Brahmacharini",
+   "def": "A woman who has taken the vow of celibate religious study; Vivekananda gave Margaret Noble this status and the name Nivedita on 25 March 1898."
+  }
+ ],
+ "sources": {
+  "nivedita": [
+   "Birth, family, schools, Sesame Club, Nov 1895, Jan 1898, 17 and 25 March 1898, 13 Nov 1898 school, plague 1899, works, artists, death 13 Oct 1911, epitaph -> https://en.wikipedia.org/wiki/Sister_Nivedita",
+   "Bosepara Lane school, plague March 1899, art funding Ajanta/Ellora, 1902-04 lectures, will to Belur Math, influence on Tagore, Gokhale, Aurobindo; header dates 1868 conflict with 1867 -> https://www.srisaradamath.org/sisternivedita.php",
+   "Parents, Halifax, secretary to Geddes, 1903 Nivedita School (conflicts), Havell, Bose, death 12 Oct 1911 -> https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/nivedita-sister-1867-1911"
+  ]
+ },
+ "issues": [
+  "nivedita.mdx: school date 13 Nov 1898 (Wikipedia, Sri Sarada Math) vs 1903 (Encyclopedia.com); death 12 or 13 Oct 1911 in sources.",
+  "nivedita.mdx: edges to Aurobindo and Tagore are marked unverified; secondary sources only.",
+  "nivedita.mdx: Encyclopedia.com gives the Master as I Saw Him correctly but 'The Wave of Indian Life' (1918) for Web of Indian Life; text follows Wikipedia (1904)."
+ ]
+}

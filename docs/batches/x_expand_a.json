@@ -133,7 +133,8 @@
     "satyananda.mdx: Wikipedia says left home at 18, Hinduism Today says came to Rishikesh at 19, biharyoga.net says 20; Fellowship date 1956/1962/1963 and school 1963/1964 conflict across sources.",
     "vinoba.mdx: father's name given as Narahar Shambhu Rao by Wikipedia only; 'death he chose' wording left as in existing text.",
     "jyotirao-phule.mdx: Sarvajanik Satya Dharma Pustak contents could not be read this session; no new claims about it were added. Wikipedia dates the work to April 1889 and 1891.",
-    "vallalar.mdx: birth-legend details (infant laugh at Chidambaram, mirror and lamp, vision of Murugan) rest on sriramv.com and Wikipedia and are given as reported. Gazette notice of 1906 was not used."
+    "vallalar.mdx: birth-legend details (infant laugh at Chidambaram, mirror and lamp, vision of Murugan) rest on sriramv.com and Wikipedia and are given as reported. Gazette notice of 1906 was not used.",
+    "factcheck x_expand_a: Iyengar birth order and Satyananda age on leaving home now given as ranges; Periyar title attribution now gives both ThePrint (Meenabal) and DT Next (in use from 1927). Author may want the original Hunter Commission statement for the Phule quotation."
   ],
   "sources": {
     "periyar": [
@@ -187,5 +188,43 @@
       "name": "Sathya Gnana Sabha, Vadalur",
       "figure": "vallalar"
     }
-  ]
+  ],
+  "factcheck": {
+    "claims_checked": 142,
+    "changes": [
+      "periyar.mdx: 1938 title sentence reworded; conference resolved he be addressed as Periyar; ThePrint's Meenabal attribution kept as ThePrint's, with DT Next's report that the name was in use in a 1927 essay and a 1929 book; DT Next added as ref 7 (theprint.in; dtnext.in)",
+      "pattabhi-jois.mdx: ashtang dand glossed as an older name for the sun salutation, per Singleton as summarised by Wikipedia (en.wikipedia.org/wiki/Ashtanga_(vinyasa)_yoga)",
+      "pattabhi-jois.mdx: B. N. S. Iyengar's account attributed to ashtangayoga.info, temple ceremony in the palace (ashtangayoga.info part 13)",
+      "pattabhi-jois.mdx: practice step on invocation and sun salutations attributed ('by the usual account'); it comes from Wikipedia, not the Jois Yoga archive, which has no invocation or sun salutation counts",
+      "iyengar.mdx: birth order given as eleventh (Wikipedia) or thirteenth (Encyclopedia.com)",
+      "iyengar.mdx: The Tree of Yoga dated to first publication 1988, not 2002 (Open Library edition record)",
+      "iyengar.mdx: Jois claim reworded to match Wikipedia: Jois said he had taught Iyengar, and Iyengar denied it (en.wikipedia.org/wiki/K._Pattabhi_Jois)",
+      "vinoba.mdx: 'spiritualize human life' is the publisher's statement of Vinoba's conviction, not a quotation from Vinoba; attribution fixed (mkgandhi.org/talksongita/note.htm)",
+      "vinoba.mdx: land figures: 'obtained' and 'unfit for distribution' as in the life sketch, not 'pledged' and 'unfit for cultivation' (mkgandhi.org/vinoba/bio.htm)",
+      "vinoba.mdx: one-sixth attributed to Wikipedia; the life sketch does not give it",
+      "satyananda.mdx: age on leaving home given as 18 (Wikipedia), 19 (Hinduism Today) or 20 (biharyoga.net)",
+      "satyananda.mdx: 1956 Fellowship and 1963 school dates attributed to the Bihar School's pages (biharyoga.net/wyc-sri-swami-satyananda.php, added as ref 6); the main biography page gives neither date",
+      "satyananda.mdx: ashodashi puja reported in Hinduism Today as scheduled to end 22 Dec 2009 (article written beforehand); tense fixed",
+      "vallalar.mdx: Murugan vision attributed as Wikipedia gives it (after meditating on the lamp and mirror), without 'as a child'",
+      "vallalar.mdx: 'between the eyebrows' cut twice; vallalar.org says only 'at the root of the nose'",
+      "vallalar.mdx: Kural classes attributed to Ramalingam himself (Wikipedia), not to present-day followers"
+    ],
+    "verified_quotations": [
+      "iyengar: iynaus.org 'focus on precision, timing, sequencing...' verbatim",
+      "pattabhi-jois: Jois Yoga archive 'When vinyāsa is perfect, the mind is under control.' verbatim",
+      "vinoba: 'internal uneasiness and agitation', 'Providence took me to Gandhi', 'The place of the Gita in my life is unique', 'story of my life, and it is also my message' verbatim (mkgandhi.org)",
+      "jyotirao-phule: Hunter statement 'The present number of educated men is very small in relation to the country at large.' as quoted in the ePG Pathshala module (secondary; the original statement was not seen)",
+      "satyananda: 'from door to door and shore to shore', 'Do not sleep', 'it is not necessary to concentrate', 'yogic sleep' (biharyoga.net; Yoga Nidra PDF)",
+      "vallalar: 'Calculation Ramalinga' (Modern Asian Studies, 2014, n. 21)"
+    ],
+    "unresolved": [
+      "vinoba.mdx: first-talk quotations ('attachment to his kith and kin', 'delusion that stands between us and our swadharma') were already in the text before the expansion and were not checked again this pass",
+      "iyengar.mdx: 'Perfection in asana' and 'the major turning point in my life' (Google Arts institute story) were already in the text and could not be fetched; Light on the Yoga Sutras is not cited in the file, so its year (1993 vs 1996) needs no decision",
+      "periyar.mdx: Maniammai marriage date: Wikipedia gives both 9 July 1948 and 1949; the text keeps 9 July 1949",
+      "satyananda.mdx: sankalpa 'watering' image and Sivananda Math free medical care not seen in the fetched text",
+      "jyotirao-phule.mdx: 1888 stroke rests on Wikipedia alone (the unipune life sketch does not mention it)",
+      "vallalar.mdx: 23 May 1867 for the Dharmasalai is not in Wikipedia, which gives only 1867; it was already in the text",
+      "Fetch tool returned summaries; quotations marked verbatim above were confirmed by quote-extraction prompts, but no raw page access was possible (curl blocked by proxy)"
+    ]
+  }
 }

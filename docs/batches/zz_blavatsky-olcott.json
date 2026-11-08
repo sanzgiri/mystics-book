@@ -1,0 +1,125 @@
+{
+ "batch": "zz_blavatsky-olcott",
+ "nodes_add": [
+  {
+   "id": "blavatsky-olcott",
+   "name": "Helena Blavatsky and Henry Steel Olcott",
+   "born": 1831,
+   "died": 1907,
+   "part": 11,
+   "tier": "sidebar",
+   "kind": "person",
+   "note": "Founders of the Theosophical Society (New York, 17 Nov 1875); in India from Feb 1879; Adyar from 1882. Blavatsky 1831-1891, Olcott 1832-1907 (henry-olcott is the separate tree node for Olcott alone)."
+  }
+ ],
+ "edges_upsert": [
+  {
+   "from": "blavatsky-olcott",
+   "to": "theosophical-society",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1875,
+   "note": "Founded in New York on 17 November 1875 with W. Q. Judge and others; Adyar headquarters from 1882."
+  },
+  {
+   "from": "blavatsky-olcott",
+   "to": "dayananda-saraswati",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1878,
+   "note": "Union with the Arya Samaj accepted 22 May 1878 (Theosophical Society of Aryavarta); Dayananda attacked the Theosophists publicly on 26 March 1882."
+  },
+  {
+   "from": "blavatsky-olcott",
+   "to": "dharmapala",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1880,
+   "note": "Through Olcott: Colombo lecture of 1880, then his co-worker and translator."
+  },
+  {
+   "from": "blavatsky-olcott",
+   "to": "gandhi",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1891,
+   "note": "Gandhi became an associate member of Blavatsky's London lodge in 1891 (Wikipedia)."
+  },
+  {
+   "from": "blavatsky-olcott",
+   "to": "annie-besant",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1889,
+   "note": "Reviewed The Secret Doctrine 1889, met Blavatsky in Paris, became a favoured pupil and co-editor of Lucifer."
+  }
+ ],
+ "places": [
+  {
+   "name": "Yekaterinoslav (Dnipro)",
+   "lat": 48.465,
+   "lon": 35.046,
+   "figure": "blavatsky-olcott",
+   "what": "Blavatsky born 12 August 1831",
+   "verified": true
+  },
+  {
+   "name": "Bombay (Mumbai)",
+   "lat": 18.975,
+   "lon": 72.826,
+   "figure": "blavatsky-olcott",
+   "what": "Landed 16 February 1879; first Indian lodge",
+   "verified": true
+  },
+  {
+   "name": "Weliwatta, Galle",
+   "lat": 6.03,
+   "lon": 80.217,
+   "figure": "blavatsky-olcott",
+   "what": "Took the Five Precepts on 19 May 1880",
+   "verified": true
+  },
+  {
+   "name": "Theosophical Society, Adyar, Chennai",
+   "lat": 13.01,
+   "lon": 80.27,
+   "figure": "blavatsky-olcott",
+   "what": "Headquarters from 1882; Olcott died here 17 February 1907",
+   "verified": true
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Pansil",
+   "def": "The Five Precepts taken by Buddhist laity in Sri Lanka; Olcott and Blavatsky took them at Weliwatta, near Galle, on 19 May 1880."
+  },
+  {
+   "term": "Masters of the Ancient Wisdom",
+   "def": "In Blavatsky's teaching, a hidden hierarchy of adepts said to oversee human evolution and to inspire the Theosophical Society; also called Mahatmas."
+  }
+ ],
+ "sources": {
+  "blavatsky-olcott": [
+   "Blavatsky birth, Saratov, 1849, New York 8 July 1873, met Olcott 1874, Isis Unveiled, Secret Doctrine contents, Theosophist Oct 1879, Hodgson/March 1885 departure, London 1887, death 8 May 1891, Gandhi 1891 -> https://en.wikipedia.org/wiki/Helena_Blavatsky",
+   "Birth date, claimed study in India and Tibet presented as claim, works 1877-1889, death -> https://www.britannica.com/biography/Helena-Blavatsky (fetched via search result)",
+   "Founding 17 Nov 1875, objects (1905), Masters, 1895 split -> https://en.wikipedia.org/wiki/Theosophical_Society",
+   "Olcott birth, Bombay 16 Feb 1879, 19 May 1880 precepts, Catechism 1881, flag 1885, colleges 1886-92, Chicago 1893, death 17 Feb 1907 -> https://en.wikipedia.org/wiki/Henry_Steel_Olcott",
+   "17 May 1880 Galle, Colombo branch 17 June 1880, Catechism 24 July 1881 endorsed by Sumangala, 14 beliefs Adyar 8-12 Jan 1891, Dharmapala, Gunananda/Panadura -> https://bps.lk/olib/wh/wh281_Kirthisinghe_Amarasuriya_Colonel-Olcott--Service-to-Buddhism.html",
+   "Adyar estate 1882, Japan 1889 fourteen propositions, Society aims -> https://www.theosophical.org/files/resources/articles/ColonelHenryOlcott.pdf",
+   "Arya Samaj union 22 May 1878, Dayananda attack 26 March 1882 -> https://en.wikipedia.org/wiki/Theosophical_Society_of_the_Arya_Samaj",
+   "Ceylon 1880, Buddhist schools, Young Men's Buddhist Association, 1884 London -> https://newworldencyclopedia.org/entry/Henry_Steel_Olcott"
+  ]
+ },
+ "issues": [
+  "blavatsky-olcott.mdx: placed in Part 11 (Olcott's Buddhist work and Dharmapala) although the Theosophical Society node sits in Part 12; author may prefer Part 2 (Is all religion one?).",
+  "blavatsky-olcott.mdx: Olcott's birthday/arrival dates differ slightly between sources (Dec 1878 departure, Feb 1879 arrival; Wikipedia 'settled 1879', Theosophical.org '1878').",
+  "blavatsky-olcott.mdx: the flag committee date (1885) is Wikipedia's; the BPS essay credits Olcott with the design. Text says he advised the committee.",
+  "blavatsky-olcott.mdx: Dayananda attack date 26 March 1882 from Wikipedia; no second source read.",
+  "blavatsky-olcott.mdx: Panchama schools, the Adyar Library and Olcott's Hindu-reform work were not supported by any source read and are left out; the 'effect on Indian reform' is covered only through the Arya Samaj union and Gandhi's 1891 membership."
+ ]
+}
