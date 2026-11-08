@@ -1,0 +1,13 @@
+{
+  "_readme": "Image and audio credits shown on /credits/. Add one object per item to 'items'. Fields: kind ('image' or 'audio'), title, creator, sourceUrl (page documenting the licence), license (e.g. 'CC BY-SA 4.0', 'Public domain'), licenseUrl (optional), usedOn (optional site path, e.g. '/figures/ramana-maharshi/'). Portraits set in a chapter's frontmatter 'photo' field are listed automatically and need no entry here.",
+  "_example": {
+    "kind": "image",
+    "title": "Portrait of a teacher, 1935",
+    "creator": "Photographer or archive name",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Example.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "usedOn": "/figures/example/"
+  },
+  "items": []
+}
