@@ -2814,6 +2814,118 @@
    "figure": "nivedita",
    "what": "Died October 1911",
    "verified": true
+  },
+  {
+   "name": "Saint-Briac",
+   "lat": 48.63,
+   "lon": -2.14,
+   "figure": "abhishiktananda",
+   "what": "Birthplace (1910)",
+   "verified": false
+  },
+  {
+   "name": "Kulittalai (Shantivanam)",
+   "lat": 10.93,
+   "lon": 78.42,
+   "figure": "abhishiktananda",
+   "what": "Christian ashram on the Kaveri founded with Monchanin, 1950",
+   "verified": false
+  },
+  {
+   "name": "Tirukoilur",
+   "lat": 11.97,
+   "lon": 79.2,
+   "figure": "abhishiktananda",
+   "what": "Home of Sri Gnanananda Giri; first met 1955",
+   "verified": false
+  },
+  {
+   "name": "Gyansu, Uttarkashi",
+   "lat": 30.73,
+   "lon": 78.45,
+   "figure": "abhishiktananda",
+   "what": "Hermitage from 1961; base of his last years",
+   "verified": false
+  },
+  {
+   "name": "Indore",
+   "lat": 22.72,
+   "lon": 75.86,
+   "figure": "abhishiktananda",
+   "what": "Died here, 7 Dec 1973",
+   "verified": false
+  },
+  {
+   "name": "Mandalay",
+   "lat": 21.97,
+   "lon": 96.08,
+   "figure": "goenka",
+   "what": "Birthplace (1924)",
+   "verified": false
+  },
+  {
+   "name": "Rangoon (Yangon)",
+   "lat": 16.84,
+   "lon": 96.17,
+   "figure": "goenka",
+   "what": "International Meditation Centre of U Ba Khin, 1952; where Goenka studied",
+   "verified": false
+  },
+  {
+   "name": "Igatpuri (Dhamma Giri)",
+   "lat": 19.7,
+   "lon": 73.56,
+   "figure": "goenka",
+   "what": "Centre opened 1976; Vipassana Research Institute 1985",
+   "verified": false
+  },
+  {
+   "name": "Global Vipassana Pagoda, Mumbai",
+   "lat": 19.22,
+   "lon": 72.8,
+   "figure": "goenka",
+   "what": "Foundation laid 2000; opened 2009",
+   "verified": false
+  },
+  {
+   "name": "London",
+   "lat": 51.51,
+   "lon": -0.13,
+   "figure": "paul-brunton",
+   "what": "Birthplace (1898); Atlantis Bookshop, Bloomsbury",
+   "verified": false
+  },
+  {
+   "name": "Vevey",
+   "lat": 46.46,
+   "lon": 6.84,
+   "figure": "paul-brunton",
+   "what": "Lived in Switzerland in later years; died here, 27 Jul 1981",
+   "verified": false
+  },
+  {
+   "name": "Boston",
+   "lat": 42.36,
+   "lon": -71.06,
+   "figure": "ram-dass",
+   "what": "Birthplace (1931)",
+   "verified": false
+  },
+  {
+   "name": "Lama Foundation, San Cristobal",
+   "lat": 36.55,
+   "lon": -105.65,
+   "figure": "ram-dass",
+   "what": "From Bindu to Ojas circulated here in 1970; Be Here Now published 1971",
+   "verified": false
+  },
+  {
+   "name": "Maui",
+   "lat": 20.8,
+   "lon": -156.3,
+   "figure": "ram-dass",
+   "what": "Lived here after 2004; died 22 Dec 2019",
+   "verified": false
   }
  ]
 }

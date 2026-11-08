@@ -1,0 +1,142 @@
+{
+ "batch": "zz_abhishiktananda",
+ "nodes_add": [
+  {
+   "id": "jules-monchanin",
+   "name": "Jules Monchanin",
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "French priest in Tamil Nadu; co-founded Shantivanam with Le Saux on 21 Mar 1950; died 10 Oct 1957 (abhishiktananda.org.in chronology).",
+   "died": 1957
+  },
+  {
+   "id": "gnanananda-giri",
+   "name": "Sri Gnanananda Giri",
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "Ascetic of Tirukoilur (Thapovanam); met Le Saux Dec 1955 and taken by him as guru (Gnanananda Peetam page; chronology). Dates not recorded in sources read."
+  },
+  {
+   "id": "bede-griffiths",
+   "name": "Bede Griffiths",
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "Received Shantivanam from Abhishiktananda in Aug 1968 (chronology; Wikipedia)."
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "abhishiktananda",
+   "name": "Swami Abhishiktananda (Henri Le Saux)",
+   "born": 1910,
+   "died": 1973,
+   "part": 3,
+   "tier": "sidebar",
+   "kind": "person",
+   "note": "b. 30 Aug 1910 Saint-Briac; Benedictine Kergonan 1929, priest 1935; to India 1948; Shantivanam with Monchanin 21 Mar 1950; Ramana darshan 24 Jan 1949; Arunachala caves from 1952; Gnanananda Dec 1955; Gyansu hermitage 1961; Shantivanam to Bede Griffiths Aug 1968; d. 7 Dec 1973 Indore."
+  }
+ ],
+ "edges_upsert": [
+  {
+   "from": "jules-monchanin",
+   "to": "abhishiktananda",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1948,
+   "note": "Le Saux joined Monchanin at Kulittalai 17 Aug 1948; Shantivanam inaugurated together 21 Mar 1950; Monchanin died 10 Oct 1957 (abhishiktananda.org.in chronology)."
+  },
+  {
+   "from": "gnanananda-giri",
+   "to": "abhishiktananda",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1955,
+   "note": "Met Dec 1955; Le Saux took him as guru; retreats Feb-Mar 1956 (chronology; Gnanananda Peetam page; Guru and Disciple 1974, not read)."
+  },
+  {
+   "from": "abhishiktananda",
+   "to": "bede-griffiths",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1968,
+   "note": "Relinquished Shantivanam to Griffiths, Aug 1968 (chronology; Wikipedia)."
+  },
+  {
+   "from": "christianity",
+   "to": "abhishiktananda",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1929,
+   "note": "Benedictine monk of Kergonan from 1929, ordained priest 21 Dec 1935 (chronology)."
+  },
+  {
+   "from": "arunachala",
+   "to": "abhishiktananda",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1952,
+   "note": "Long retreats in the caves of Arunachala from 1952 (chronology; Wikipedia)."
+  }
+ ],
+ "places": [
+  {
+   "name": "Saint-Briac",
+   "lat": 48.63,
+   "lon": -2.14,
+   "figure": "abhishiktananda",
+   "what": "Birthplace (1910)",
+   "verified": false
+  },
+  {
+   "name": "Kulittalai (Shantivanam)",
+   "lat": 10.93,
+   "lon": 78.42,
+   "figure": "abhishiktananda",
+   "what": "Christian ashram on the Kaveri founded with Monchanin, 1950",
+   "verified": false
+  },
+  {
+   "name": "Tirukoilur",
+   "lat": 11.97,
+   "lon": 79.2,
+   "figure": "abhishiktananda",
+   "what": "Home of Sri Gnanananda Giri; first met 1955",
+   "verified": false
+  },
+  {
+   "name": "Gyansu, Uttarkashi",
+   "lat": 30.73,
+   "lon": 78.45,
+   "figure": "abhishiktananda",
+   "what": "Hermitage from 1961; base of his last years",
+   "verified": false
+  },
+  {
+   "name": "Indore",
+   "lat": 22.72,
+   "lon": 75.86,
+   "figure": "abhishiktananda",
+   "what": "Died here, 7 Dec 1973",
+   "verified": false
+  }
+ ],
+ "glossary": [],
+ "issues": [
+  "abhishiktananda: Sources read were the ashram chronology, Wikipedia (citing Stuart 2000), and the Gnanananda Peetam page. Stuart, Guru and Disciple, Saccidananda and the diary were not read, so the sidebar does not summarise their arguments. Gnanananda meeting place given as Tirukoilur (Wikipedia) or Thapovanam (Peetam page); the Peetam page and Wikipedia also differ on the first-meeting date (Dec 1955 in all). Papaji meeting 1953 is Wikipedia only (existing graph edge says 1953). Marc Chaduc initiation: 27-30 June 1973 (chronology) vs 30 June (Wikipedia); 'God's will be done' last words from Stuart via Wikipedia. Wikipedia says he refused to join Hindu rituals at Srirangam in 1950 and gives name taken 1950; not used."
+ ],
+ "sources": {
+  "abhishiktananda": [
+   "Chronology of Swami Abhishiktananda's life -> https://abhishiktananda.org.in/html/chronology-of-swami-abhishiktananda-life.php (all dates, Monchanin, Ramana, Gnanananda, Gyansu, Marc Chaduc, death, Bede Griffiths)",
+   "Wikipedia, Abhishiktananda -> https://en.wikipedia.org/wiki/Abhishiktananda (army service 1939-41, call to India 1934, teaching summary, motto, works, Panikkar, Abhishiktananda Society 1978-2008, rights, last words)",
+   "Gnanananda Peetam page -> https://www.srignananandagiripeetam.com/swami-abishiktananda (Dec 1955 meeting, Feb 1956 retreat, dhyana teaching)"
+  ]
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "batch": "zz_paul-brunton",
+ "nodes_add": [
+  {
+   "id": "allan-bennett",
+   "name": "Allan Bennett (Ananda Metteya)",
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "Former Golden Dawn member who became a Buddhist monk; mentored Brunton (New Dawn profile; encyclopedia.com). Dates not recorded in sources read."
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "paul-brunton",
+   "name": "Paul Brunton",
+   "born": 1898,
+   "died": 1981,
+   "part": 3,
+   "tier": "sidebar",
+   "kind": "person",
+   "note": "b. Hyman Abraham Isaacs, London, 21 Oct 1898; India from 1930, Ramana 1931; A Search in Secret India 1934; Overself and Mentalism in Hidden Teaching Beyond Yoga (1941) and Wisdom of the Overself (1943); Notebooks 1984-88; d. Vevey 27 Jul 1981."
+  }
+ ],
+ "edges_upsert": [
+  {
+   "from": "allan-bennett",
+   "to": "paul-brunton",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1920,
+   "note": "Bennett introduced Brunton to Buddhist meditation (encyclopedia.com); mentor per New Dawn profile."
+  },
+  {
+   "from": "meher-baba",
+   "to": "paul-brunton",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1930,
+   "note": "Met Meher Baba in India (Wikipedia); first trip aimed at meeting him (New Dawn profile)."
+  }
+ ],
+ "places": [
+  {
+   "name": "London",
+   "lat": 51.51,
+   "lon": -0.13,
+   "figure": "paul-brunton",
+   "what": "Birthplace (1898); Atlantis Bookshop, Bloomsbury",
+   "verified": false
+  },
+  {
+   "name": "Vevey",
+   "lat": 46.46,
+   "lon": 6.84,
+   "figure": "paul-brunton",
+   "what": "Lived in Switzerland in later years; died here, 27 Jul 1981",
+   "verified": false
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Overself",
+   "script": "",
+   "lang": "en",
+   "def": "Brunton's term for the higher Self; in his system it is identical at the highest level with the World Mind."
+  },
+  {
+   "term": "Mentalism",
+   "script": "",
+   "lang": "en",
+   "def": "Brunton's doctrine that matter has no independent existence and is a form taken by mental processes."
+  }
+ ],
+ "issues": [
+  "paul-brunton: Sources are secondary (Wikipedia, advaita.org.uk, New Dawn profile on paulbrunton.org, encyclopedia.com); A Search in Secret India itself was not read. Conflicts: Wikipedia has Ramana first visit 1931 and 'Hurst' name; encyclopedia.com has Switzerland from 1956, Secret Path 1959 and 'Perspectives' 7,000 pages, and says he left Theosophy after two years while New Dawn says he joined 1920; New Dawn says a second India stay 1935-37 and PhD from a diploma mill (not used); page counts differ (20,000 / 30,000). Meher Baba meeting 1930-31 date approximate. Masson's My Father's Guru (1993) is omitted as outside the scope brief. Kenneth Hurst's Personal View (1989) not read."
+ ],
+ "sources": {
+  "paul-brunton": [
+   "Wikipedia, Paul Brunton -> https://en.wikipedia.org/wiki/Paul_Brunton",
+   "advaita.org.uk -> https://www.advaita.org.uk/reading/paulBrunton.htm",
+   "New Dawn 191 profile -> https://paulbrunton.org/wp-content/uploads/2023/11/A-Search-for-Paul-Brunton-New-Dawn-191.pdf",
+   "encyclopedia.com -> https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/brunton-paul-1898-1981",
+   "Existing edge chandrasekharendra-saraswati->paul-brunton (Chingleput, Jan 1931)"
+  ]
+ }
+}

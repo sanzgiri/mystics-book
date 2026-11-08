@@ -486,8 +486,9 @@
    "born": 1910,
    "died": 1973,
    "part": 3,
-   "tier": "node",
-   "kind": "person"
+   "tier": "sidebar",
+   "kind": "person",
+   "note": "b. 30 Aug 1910 Saint-Briac; Benedictine Kergonan 1929, priest 1935; to India 1948; Shantivanam with Monchanin 21 Mar 1950; Ramana darshan 24 Jan 1949; Arunachala caves from 1952; Gnanananda Dec 1955; Gyansu hermitage 1961; Shantivanam to Bede Griffiths Aug 1968; d. 7 Dec 1973 Indore."
   },
   {
    "id": "yogananda-calcutta",
@@ -518,9 +519,9 @@
    "born": 1898,
    "died": 1981,
    "part": 3,
-   "tier": "node",
+   "tier": "sidebar",
    "kind": "person",
-   "note": "British writer; popularizer"
+   "note": "b. Hyman Abraham Isaacs, London, 21 Oct 1898; India from 1930, Ramana 1931; A Search in Secret India 1934; Overself and Mentalism in Hidden Teaching Beyond Yoga (1941) and Wisdom of the Overself (1943); Notebooks 1984-88; d. Vevey 27 Jul 1981."
   },
   {
    "id": "neo-advaita",
@@ -1245,13 +1246,13 @@
   },
   {
    "id": "goenka",
-   "name": "S.N. Goenka",
+   "name": "S. N. Goenka",
    "born": 1924,
    "died": 2013,
    "part": 11,
-   "tier": "node",
+   "tier": "sidebar",
    "kind": "person",
-   "note": "Born in Burma; outside the book's scope but on the tree"
+   "note": "b. 30 Jan 1924 Mandalay (Wikipedia); course with U Ba Khin 1955, 14 years' study; authorised 1969, courses in India from 1969; Dhamma Giri, Igatpuri 1976; Vipassana Research Institute 1985; Padma Bhushan 2012; d. 29 Sep 2013 Mumbai."
   },
   {
    "id": "j-krishnamurti",
@@ -2079,9 +2080,9 @@
    "born": 1931,
    "died": 2019,
    "part": 7,
-   "tier": "node",
+   "tier": "sidebar",
    "kind": "person",
-   "note": "Born Richard Alpert, Boston, 6 Apr 1931; met Neem Karoli Baba 1967; Be Here Now (1971); died Maui 22 Dec 2019."
+   "note": "Born Richard Alpert, Boston, 6 Apr 1931; Harvard dismissed 1963; met Neem Karoli Baba 1967; Be Here Now (1971); Hanuman Foundation 1974; Seva Foundation 1978; stroke Feb 1997; d. Maui 22 Dec 2019."
   },
   {
    "id": "mataji-krishnabai",
@@ -3047,6 +3048,85 @@
    "tier": "node",
    "kind": "person",
    "note": "Occultist of the Cosmic Movement; the Mother worked with him and his wife Mary Ware at Tlemcen, Algeria, in 1906-07 (Wikipedia)."
+  },
+  {
+   "id": "jules-monchanin",
+   "name": "Jules Monchanin",
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "French priest in Tamil Nadu; co-founded Shantivanam with Le Saux on 21 Mar 1950; died 10 Oct 1957 (abhishiktananda.org.in chronology).",
+   "died": 1957
+  },
+  {
+   "id": "gnanananda-giri",
+   "name": "Sri Gnanananda Giri",
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "Ascetic of Tirukoilur (Thapovanam); met Le Saux Dec 1955 and taken by him as guru (Gnanananda Peetam page; chronology). Dates not recorded in sources read."
+  },
+  {
+   "id": "bede-griffiths",
+   "name": "Bede Griffiths",
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "Received Shantivanam from Abhishiktananda in Aug 1968 (chronology; Wikipedia)."
+  },
+  {
+   "id": "ledi-sayadaw",
+   "name": "Ledi Sayadaw",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "Burmese monk, 1 Dec 1846 - 27 Jun 1923 (Wikipedia); revived vipassana practice for laypeople and monks; teacher of Saya Thetgyi.",
+   "born": 1846,
+   "died": 1923
+  },
+  {
+   "id": "saya-thetgyi",
+   "name": "Saya Thetgyi",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "Burmese lay teacher, 1873-1945 (Dhamma.org); studied seven years under Ledi Sayadaw; taught U Ba Khin.",
+   "born": 1873,
+   "died": 1945
+  },
+  {
+   "id": "u-ba-khin",
+   "name": "Sayagyi U Ba Khin",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "6 Mar 1899 - 19 Jan 1971 (Wikipedia); first Accountant General of Burma; International Meditation Centre, Rangoon, 1952; authorised Goenka 1969.",
+   "born": 1899,
+   "died": 1971
+  },
+  {
+   "id": "allan-bennett",
+   "name": "Allan Bennett (Ananda Metteya)",
+   "part": 3,
+   "tier": "node",
+   "kind": "person",
+   "note": "Former Golden Dawn member who became a Buddhist monk; mentored Brunton (New Dawn profile; encyclopedia.com). Dates not recorded in sources read."
+  },
+  {
+   "id": "bhagavan-das",
+   "name": "Bhagavan Das",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "American seeker in India who introduced Alpert to Neem Karoli Baba in 1967 (Wikipedia, Ram Dass; Be Here Now title phrase came from his remark)."
+  },
+  {
+   "id": "hari-dass-baba",
+   "name": "Baba Hari Dass",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Ram Dass's sadhana tutor; Neem Karoli Baba asked for changes to passages about him in Be Here Now (Wikipedia, Be Here Now)."
   }
  ],
  "edges": [
@@ -6651,6 +6731,130 @@
    "evidence": "documented",
    "verified": true,
    "note": "Krishna Prem wrote a commentary on the Stanzas of Dzyan from The Secret Doctrine (Quest article)."
+  },
+  {
+   "from": "jules-monchanin",
+   "to": "abhishiktananda",
+   "type": "lived-with",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1948,
+   "note": "Le Saux joined Monchanin at Kulittalai 17 Aug 1948; Shantivanam inaugurated together 21 Mar 1950; Monchanin died 10 Oct 1957 (abhishiktananda.org.in chronology)."
+  },
+  {
+   "from": "gnanananda-giri",
+   "to": "abhishiktananda",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1955,
+   "note": "Met Dec 1955; Le Saux took him as guru; retreats Feb-Mar 1956 (chronology; Gnanananda Peetam page; Guru and Disciple 1974, not read)."
+  },
+  {
+   "from": "abhishiktananda",
+   "to": "bede-griffiths",
+   "type": "institutional",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1968,
+   "note": "Relinquished Shantivanam to Griffiths, Aug 1968 (chronology; Wikipedia)."
+  },
+  {
+   "from": "christianity",
+   "to": "abhishiktananda",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1929,
+   "note": "Benedictine monk of Kergonan from 1929, ordained priest 21 Dec 1935 (chronology)."
+  },
+  {
+   "from": "arunachala",
+   "to": "abhishiktananda",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1952,
+   "note": "Long retreats in the caves of Arunachala from 1952 (chronology; Wikipedia)."
+  },
+  {
+   "from": "buddhist-tradition",
+   "to": "ledi-sayadaw",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Theravada monk; Manual of Insight, Manual of Mindfulness of Breathing (Wikipedia)."
+  },
+  {
+   "from": "ledi-sayadaw",
+   "to": "saya-thetgyi",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Thetgyi studied under Ledi for seven years and was encouraged to teach (Dhamma.org tradition page); Wikipedia lists him as a student."
+  },
+  {
+   "from": "saya-thetgyi",
+   "to": "u-ba-khin",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1941,
+   "note": "U Ba Khin took a full course at Thetgyi's centre in 1937 (Wikipedia) or studied under him from 1941 (Dhamma.org); the dates differ."
+  },
+  {
+   "from": "u-ba-khin",
+   "to": "goenka",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1969,
+   "note": "Goenka took a course in 1955 and studied fourteen years; authorised to teach 1969; U Ba Khin died 1971 (Wikipedia; Dhamma.org)."
+  },
+  {
+   "from": "allan-bennett",
+   "to": "paul-brunton",
+   "type": "influenced",
+   "evidence": "testimony",
+   "verified": true,
+   "year": 1920,
+   "note": "Bennett introduced Brunton to Buddhist meditation (encyclopedia.com); mentor per New Dawn profile."
+  },
+  {
+   "from": "meher-baba",
+   "to": "paul-brunton",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1930,
+   "note": "Met Meher Baba in India (Wikipedia); first trip aimed at meeting him (New Dawn profile)."
+  },
+  {
+   "from": "bhagavan-das",
+   "to": "ram-dass",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1967,
+   "note": "Introduced him to Neem Karoli Baba in 1967 (Wikipedia); supplied the phrase that became the book's title."
+  },
+  {
+   "from": "hari-dass-baba",
+   "to": "ram-dass",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1968,
+   "note": "Sadhana tutor (Wikipedia, Be Here Now)."
+  },
+  {
+   "from": "buddhist-tradition",
+   "to": "ram-dass",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1968,
+   "note": "Explored Buddhist meditation in several schools from 1968 (InsightLA)."
   }
  ]
 }

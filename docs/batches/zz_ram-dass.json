@@ -1,0 +1,100 @@
+{
+ "batch": "zz_ram-dass",
+ "nodes_add": [
+  {
+   "id": "bhagavan-das",
+   "name": "Bhagavan Das",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "American seeker in India who introduced Alpert to Neem Karoli Baba in 1967 (Wikipedia, Ram Dass; Be Here Now title phrase came from his remark)."
+  },
+  {
+   "id": "hari-dass-baba",
+   "name": "Baba Hari Dass",
+   "part": 7,
+   "tier": "node",
+   "kind": "person",
+   "note": "Ram Dass's sadhana tutor; Neem Karoli Baba asked for changes to passages about him in Be Here Now (Wikipedia, Be Here Now)."
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "ram-dass",
+   "name": "Ram Dass",
+   "born": 1931,
+   "died": 2019,
+   "part": 7,
+   "tier": "sidebar",
+   "kind": "person",
+   "note": "Born Richard Alpert, Boston, 6 Apr 1931; Harvard dismissed 1963; met Neem Karoli Baba 1967; Be Here Now (1971); Hanuman Foundation 1974; Seva Foundation 1978; stroke Feb 1997; d. Maui 22 Dec 2019."
+  }
+ ],
+ "edges_upsert": [
+  {
+   "from": "bhagavan-das",
+   "to": "ram-dass",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1967,
+   "note": "Introduced him to Neem Karoli Baba in 1967 (Wikipedia); supplied the phrase that became the book's title."
+  },
+  {
+   "from": "hari-dass-baba",
+   "to": "ram-dass",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1968,
+   "note": "Sadhana tutor (Wikipedia, Be Here Now)."
+  },
+  {
+   "from": "buddhist-tradition",
+   "to": "ram-dass",
+   "type": "influenced",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1968,
+   "note": "Explored Buddhist meditation in several schools from 1968 (InsightLA)."
+  }
+ ],
+ "places": [
+  {
+   "name": "Boston",
+   "lat": 42.36,
+   "lon": -71.06,
+   "figure": "ram-dass",
+   "what": "Birthplace (1931)",
+   "verified": false
+  },
+  {
+   "name": "Lama Foundation, San Cristobal",
+   "lat": 36.55,
+   "lon": -105.65,
+   "figure": "ram-dass",
+   "what": "From Bindu to Ojas circulated here in 1970; Be Here Now published 1971",
+   "verified": false
+  },
+  {
+   "name": "Maui",
+   "lat": 20.8,
+   "lon": -156.3,
+   "figure": "ram-dass",
+   "what": "Lived here after 2004; died 22 Dec 2019",
+   "verified": false
+  }
+ ],
+ "glossary": [],
+ "issues": [
+  "ram-dass: Sources are Wikipedia (Ram Dass; Be Here Now), a wire obituary carried by KMPH, and InsightLA. Be Here Now and Miracle of Love were not read. Wikipedia's statement that he studied with Neem Karoli Baba about four years (1967-71) was left out because the guru died in 1973 and the dates do not sit together. Obituary and Wikipedia agree on the Harvard dismissal in 1963 (the obituary says over experiments with hallucinogens); the Harvard drug research is mentioned only as biography. The dating of Hari Dass edge (1968) is approximate. Stroke 1997 and aphasia are from Wikipedia and are personal-life facts bearing on the teaching."
+ ],
+ "sources": {
+  "ram-dass": [
+   "Wikipedia, Ram Dass -> https://en.wikipedia.org/wiki/Ram_Dass",
+   "Wikipedia, Be Here Now (book) -> https://en.wikipedia.org/wiki/Be_Here_Now_(book)",
+   "Wire obituary via KMPH -> https://kmph.com/news/nation-world/baba-ram-dass-spiritual-guru-and-lsd-pioneer-dies-at-88",
+   "InsightLA -> https://insightla.org/teacher/ram-dass/"
+  ]
+ }
+}

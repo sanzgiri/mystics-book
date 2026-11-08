@@ -1,0 +1,137 @@
+{
+ "batch": "zz_goenka",
+ "nodes_add": [
+  {
+   "id": "ledi-sayadaw",
+   "name": "Ledi Sayadaw",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "Burmese monk, 1 Dec 1846 - 27 Jun 1923 (Wikipedia); revived vipassana practice for laypeople and monks; teacher of Saya Thetgyi.",
+   "born": 1846,
+   "died": 1923
+  },
+  {
+   "id": "saya-thetgyi",
+   "name": "Saya Thetgyi",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "Burmese lay teacher, 1873-1945 (Dhamma.org); studied seven years under Ledi Sayadaw; taught U Ba Khin.",
+   "born": 1873,
+   "died": 1945
+  },
+  {
+   "id": "u-ba-khin",
+   "name": "Sayagyi U Ba Khin",
+   "part": 11,
+   "tier": "node",
+   "kind": "person",
+   "note": "6 Mar 1899 - 19 Jan 1971 (Wikipedia); first Accountant General of Burma; International Meditation Centre, Rangoon, 1952; authorised Goenka 1969.",
+   "born": 1899,
+   "died": 1971
+  }
+ ],
+ "nodes_update": [
+  {
+   "id": "goenka",
+   "name": "S. N. Goenka",
+   "born": 1924,
+   "died": 2013,
+   "part": 11,
+   "tier": "sidebar",
+   "kind": "person",
+   "note": "b. 30 Jan 1924 Mandalay (Wikipedia); course with U Ba Khin 1955, 14 years' study; authorised 1969, courses in India from 1969; Dhamma Giri, Igatpuri 1976; Vipassana Research Institute 1985; Padma Bhushan 2012; d. 29 Sep 2013 Mumbai."
+  }
+ ],
+ "edges_upsert": [
+  {
+   "from": "buddhist-tradition",
+   "to": "ledi-sayadaw",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Theravada monk; Manual of Insight, Manual of Mindfulness of Breathing (Wikipedia)."
+  },
+  {
+   "from": "ledi-sayadaw",
+   "to": "saya-thetgyi",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "note": "Thetgyi studied under Ledi for seven years and was encouraged to teach (Dhamma.org tradition page); Wikipedia lists him as a student."
+  },
+  {
+   "from": "saya-thetgyi",
+   "to": "u-ba-khin",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1941,
+   "note": "U Ba Khin took a full course at Thetgyi's centre in 1937 (Wikipedia) or studied under him from 1941 (Dhamma.org); the dates differ."
+  },
+  {
+   "from": "u-ba-khin",
+   "to": "goenka",
+   "type": "lineage",
+   "evidence": "documented",
+   "verified": true,
+   "year": 1969,
+   "note": "Goenka took a course in 1955 and studied fourteen years; authorised to teach 1969; U Ba Khin died 1971 (Wikipedia; Dhamma.org)."
+  }
+ ],
+ "places": [
+  {
+   "name": "Mandalay",
+   "lat": 21.97,
+   "lon": 96.08,
+   "figure": "goenka",
+   "what": "Birthplace (1924)",
+   "verified": false
+  },
+  {
+   "name": "Rangoon (Yangon)",
+   "lat": 16.84,
+   "lon": 96.17,
+   "figure": "goenka",
+   "what": "International Meditation Centre of U Ba Khin, 1952; where Goenka studied",
+   "verified": false
+  },
+  {
+   "name": "Igatpuri (Dhamma Giri)",
+   "lat": 19.7,
+   "lon": 73.56,
+   "figure": "goenka",
+   "what": "Centre opened 1976; Vipassana Research Institute 1985",
+   "verified": false
+  },
+  {
+   "name": "Global Vipassana Pagoda, Mumbai",
+   "lat": 19.22,
+   "lon": 72.8,
+   "figure": "goenka",
+   "what": "Foundation laid 2000; opened 2009",
+   "verified": false
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Anapana",
+   "script": "आनापान",
+   "lang": "pi",
+   "def": "Attention to the natural breath. In Goenka's courses it is the first training, before Vipassana is begun."
+  }
+ ],
+ "issues": [
+  "goenka: Graph id is 'goenka' (existing node, part 11, tree-only) so the figure file is goenka.mdx. Sources: Wikipedia, Dhamma.org (Vipassana Moldova) tradition and Goenka pages, Dhamma.org Austria course page. No scholarly study read. U Ba Khin / Thetgyi date conflict (1937 vs 1941) recorded in the text. Wikipedia says Goenka moved to India in 1971 and the organisation says he began teaching there in 1969; both given. The 'ten-day course' recorded talks come from Wikipedia. Webu Sayadaw 1941 encouragement is Wikipedia only. The Buddha-to-Burma chain (vanished from India five centuries after the Buddha) is the organisation's own claim and is labelled so. Migraine story is Wikipedia only. Mahasi Sayadaw is mentioned only through the existing Dipa Ma chapter."
+ ],
+ "sources": {
+  "goenka": [
+   "Wikipedia, S. N. Goenka -> https://en.wikipedia.org/wiki/S._N._Goenka (birth, migraines, 14 years, authorisation 1969, move 1971, Dhamma Giri 1976, assistants 1982, VRI 1985, pagoda, Padma Bhushan 2012, death, 393 locations)",
+   "Dhamma.org tradition page -> https://md.dhamma.org/about-vipassana/the-tradition/ (chain, Thetgyi, 1955 course, 1969 to India)",
+   "Dhamma.org Goenka page -> https://md.dhamma.org/about-vipassana/sn-goenka/",
+   "Dhamma.org course page -> https://austria.dhamma.org/courses/10-day-courses/ (course structure)",
+   "Wikipedia, Sayagyi U Ba Khin and Ledi Sayadaw"
+  ]
+ }
+}
