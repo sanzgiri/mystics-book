@@ -2,7 +2,7 @@
   "_readme": "Entries shown on /changelog/, newest first. date is ISO (YYYY-MM-DD, or YYYY-MM when the day is not recorded); text is one or two short factual sentences.",
   "entries": [
     { "date": "2026-11-07", "title": "Reader pages", "text": "Added About this book, Start here with reading paths, Credits and licence, and this changelog. Every page now has a link for reporting a correction." },
-    { "date": "2026-11-07", "title": "Appendix", "text": "Added an appendix." },
+    { "date": "2026-11-07", "title": "Appendix", "text": "Added an appendix of short entries. Six profiles with a smaller body of original teaching moved there, and their old addresses redirect to the new entries." },
     { "date": "2026-11-07", "title": "Unverified claims", "text": "Claims that could not be confirmed were cut or marked \"(unverified)\" in the text." },
     { "date": "2026-11-07", "title": "Scope", "text": "Removed legal proceedings, allegations and political controversy not needed for the teaching, across the book, which now keeps to teaching, lineage and practice." },
     { "date": "2026-11-07", "title": "Third-person voice", "text": "The narrator's voice changed from first person to third person throughout. Verdict boxes are now labelled \"Verdict\"." },
