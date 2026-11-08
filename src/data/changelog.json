@@ -1,13 +1,13 @@
 {
-  "_readme": "Entries shown on /changelog/, newest first. date is ISO (YYYY-MM-DD); text is one or two short factual sentences.",
+  "_readme": "Entries shown on /changelog/, newest first. date is ISO (YYYY-MM-DD, or YYYY-MM when the day is not recorded); text is one or two short factual sentences.",
   "entries": [
     { "date": "2026-11-07", "title": "Reader pages", "text": "Added About this book, Start here with reading paths, Credits and licence, and this changelog. Every page now has a link for reporting a correction." },
     { "date": "2026-11-07", "title": "Appendix", "text": "Added an appendix." },
     { "date": "2026-11-07", "title": "Unverified claims", "text": "Claims that could not be confirmed were cut or marked \"(unverified)\" in the text." },
-    { "date": "2026-11-07", "title": "Scope", "text": "Removed legal proceedings, allegations and political controversy not needed for the teaching, across all chapters, profiles and part introductions. The book covers teaching, lineage and practice." },
+    { "date": "2026-11-07", "title": "Scope", "text": "Removed legal proceedings, allegations and political controversy not needed for the teaching, across the book, which now keeps to teaching, lineage and practice." },
     { "date": "2026-11-07", "title": "Third-person voice", "text": "The narrator's voice changed from first person to third person throughout. Verdict boxes are now labelled \"Verdict\"." },
     { "date": "2026-11-07", "title": "Launch", "text": "The book opened to search engines." },
     { "date": "2026-10-31", "title": "Fact-check follow-up", "text": "Open questions raised by the fact-checkers were worked through file by file. Each claim was verified, attributed, hedged or cut." },
-    { "date": "2026-10-26", "title": "First drafts", "text": "Chapters, profiles, sidebars and part introductions drafted and independently fact-checked, with the lineage tree, timeline, map, glossary and search." }
+    { "date": "2026-10", "title": "First drafts", "text": "Chapters, profiles, sidebars and part introductions drafted and independently fact-checked, with the lineage tree, timeline, map, glossary and search." }
   ]
 }
