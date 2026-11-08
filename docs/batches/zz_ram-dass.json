@@ -87,7 +87,7 @@
  ],
  "glossary": [],
  "issues": [
-  "ram-dass: Sources are Wikipedia (Ram Dass; Be Here Now), a wire obituary carried by KMPH, and InsightLA. Be Here Now and Miracle of Love were not read. Wikipedia's statement that he studied with Neem Karoli Baba about four years (1967-71) was left out because the guru died in 1973 and the dates do not sit together. Obituary and Wikipedia agree on the Harvard dismissal in 1963 (the obituary says over experiments with hallucinogens); the Harvard drug research is mentioned only as biography. The dating of Hari Dass edge (1968) is approximate. Stroke 1997 and aphasia are from Wikipedia and are personal-life facts bearing on the teaching."
+  "ram-dass: Sources are Wikipedia (Ram Dass; Be Here Now), a wire obituary carried by KMPH, and InsightLA. Be Here Now and Miracle of Love were not read. Wikipedia's four years with the guru (1967-71) restored by the fact-checker; it is consistent with the 1973 death. Obituary and Wikipedia agree on the Harvard dismissal in 1963 (the obituary says over experiments with hallucinogens); the Harvard drug research is mentioned only as biography. The dating of Hari Dass edge (1968) is approximate. Stroke 1997 and aphasia are from Wikipedia and are personal-life facts bearing on the teaching."
  ],
  "sources": {
   "ram-dass": [
@@ -95,6 +95,18 @@
    "Wikipedia, Be Here Now (book) -> https://en.wikipedia.org/wiki/Be_Here_Now_(book)",
    "Wire obituary via KMPH -> https://kmph.com/news/nation-world/baba-ram-dass-spiritual-guru-and-lsd-pioneer-dies-at-88",
    "InsightLA -> https://insightla.org/teacher/ram-dass/"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 34,
+  "changes": [
+   "ram-dass.mdx: name glossed as 'servant of Ram', often rendered 'servant of God' (Wikipedia)",
+   "ram-dass.mdx: restored Wikipedia's 'studied with him the following four years' (1967-71 does not conflict with the guru's 1973 death)",
+   "ram-dass.mdx: InsightLA paraphrase corrected; Buddhist schools named and dated 1968 (InsightLA)",
+   "ram-dass.mdx: obituary sentence matched to what the KMPH wire obituary says (Compassion in Action; ageing quote)"
+  ],
+  "unresolved": [
+   "Be Here Now and Miracle of Love not read; 'illustrations by Lama residents' not rechecked"
   ]
  }
 }

@@ -138,5 +138,20 @@
    "Wikipedia, Abhishiktananda -> https://en.wikipedia.org/wiki/Abhishiktananda (army service 1939-41, call to India 1934, teaching summary, motto, works, Panikkar, Abhishiktananda Society 1978-2008, rights, last words)",
    "Gnanananda Peetam page -> https://www.srignananandagiripeetam.com/swami-abishiktananda (Dec 1955 meeting, Feb 1956 retreat, dhyana teaching)"
   ]
+ },
+ "factcheck": {
+  "claims_checked": 40,
+  "changes": [
+   "abhishiktananda.mdx: name given as Abhishikteshvarananda, later shortened (Wikipedia)",
+   "abhishiktananda.mdx: cut unsupported 'staying into the summer in silence' at Vanatti (not in chronology)",
+   "abhishiktananda.mdx: Gnanananda meeting dated 12 to 15 December 1955 at Thapovanam near Tirukoilur; 1956 retreat specified (chronology; Gnanananda Peetam page)",
+   "abhishiktananda.mdx: 'I am' paraphrase rewritten to match Wikipedia (truth of the Upanishads; Christ's I AM ruins Christian theology)",
+   "abhishiktananda.mdx: Gnanananda teaching changed from 'inward withdrawal, stilling of thought' (unsupported) to dhyana and total renunciation; darshan teaching attributed to the Peetam page",
+   "abhishiktananda.mdx: heart attack wording matched to Wikipedia ('he himself described as a spiritual awakening')"
+  ],
+  "unresolved": [
+   "The Secret of Arunachala: Wikipedia bibliography 1979, its introduction says 1975; 1979 kept",
+   "Papaji 1953 still Wikipedia only (consistent with papaji.mdx)"
+  ]
  }
 }

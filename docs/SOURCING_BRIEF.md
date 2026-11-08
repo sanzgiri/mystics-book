@@ -1,0 +1,11 @@
+# Sourcing pass: scholarly references (author decision, 7 Nov 2026)
+
+Goal: general readers should be able to follow each major chapter to strong sources. For each chapter in your list:
+1. Read the chapter's References and Further reading, and the facts that carry the chapter (dates, doctrine, lineage claims, quotations).
+2. Add 4 to 8 strong sources per chapter where they exist: scholarly monographs and articles (university presses, peer-reviewed journals), the figure's own major texts in a reliable edition or translation, standard biographies, and the organisation's or archive's own authoritative site. Prefer works a general reader can obtain (open access, Internet Archive, publisher pages). Give author, title, publisher, year, and a link when one exists.
+3. Verify every added work exists: confirm author, title, publisher and year from a catalogue or publisher page (WorldCat, Open Library, Google Books, a university press page, JSTOR or publisher abstract, DOI). Never cite from memory. Never add page numbers unless you have seen the page. Do not add a source you could not verify.
+4. Where an existing claim in the chapter rests only on Wikipedia, a devotional site or a summary page, try to confirm it in one of the stronger sources; if confirmed, cite the stronger source in References; if the stronger source contradicts the chapter, fix the chapter text minimally and log it; if neither confirms nor contradicts, leave the claim unchanged.
+5. Keep or improve the 'If you read one book' pick: it must be a verified book a general reader can use; replace it if a better introductory scholarly or primary work exists.
+6. Group references where helpful (Primary texts; Biographies and studies; Online), in the existing refs markup (copy the structure from the chapter). Keep numbering contiguous.
+7. Do not add legal or misconduct sources. Third person; house style; no new factual claims in the prose except corrections justified by a source you read. Status stays review. Edit only your chapters (and docs/batches/ for corrections to graph data if needed, then run python3 scripts/merge-batches.py).
+8. Log in docs/SOURCING_LOG_<GROUP>.md: chapter, sources added (short cites), claims confirmed or corrected, claims still resting on weak sources. Run node scripts/style-check.mjs. Do not run git or the build. Report briefly.

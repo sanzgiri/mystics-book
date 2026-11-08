@@ -35,11 +35,11 @@
   {
    "from": "meher-baba",
    "to": "paul-brunton",
-   "type": "influenced",
+   "type": "reacted-against",
    "evidence": "documented",
    "verified": true,
    "year": 1930,
-   "note": "Met Meher Baba in India (Wikipedia); first trip aimed at meeting him (New Dawn profile)."
+   "note": "First India trip (1930-31) was meant to meet Meher Baba (Wikipedia; New Dawn), but A Search in Secret India gave a negative verdict on him (New Dawn profile)."
   }
  ],
  "places": [
@@ -84,6 +84,20 @@
    "New Dawn 191 profile -> https://paulbrunton.org/wp-content/uploads/2023/11/A-Search-for-Paul-Brunton-New-Dawn-191.pdf",
    "encyclopedia.com -> https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/brunton-paul-1898-1981",
    "Existing edge chandrasekharendra-saraswati->paul-brunton (Chingleput, Jan 1931)"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 36,
+  "changes": [
+   "paul-brunton.mdx: cut 'Jewish immigrants from Eastern Europe' (not in sources read); replaced with New Dawn's 'only child of a master bootmaker in East London'",
+   "paul-brunton.mdx: Bennett link specified (secretary, New Dawn; initiated into Buddhist meditation, encyclopedia.com)",
+   "paul-brunton.mdx: page counts given as the actual range (20,000 pages Wikipedia; some 7,000 pages encyclopedia.com; over 30,000 notes New Dawn); Switzerland 1956 attributed to encyclopedia.com; 1935-37 stay attributed to New Dawn",
+   "paul-brunton.mdx: 'graph entry on this site' replaced by reference to the Paramacharya chapter",
+   "zz_paul-brunton.json and text: meher-baba->paul-brunton changed from influenced to reacted-against (New Dawn: negative verdict on Meher Baba)"
+  ],
+  "unresolved": [
+   "A Search in Secret India not read; Ramana 1931 visit and Chingleput referral rest on Wikipedia and the Paramacharya chapter",
+   "Theosophy: joined 1920 (New Dawn), left after two years (encyclopedia.com)"
   ]
  }
 }

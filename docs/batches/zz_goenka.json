@@ -123,7 +123,8 @@
   }
  ],
  "issues": [
-  "goenka: Graph id is 'goenka' (existing node, part 11, tree-only) so the figure file is goenka.mdx. Sources: Wikipedia, Dhamma.org (Vipassana Moldova) tradition and Goenka pages, Dhamma.org Austria course page. No scholarly study read. U Ba Khin / Thetgyi date conflict (1937 vs 1941) recorded in the text. Wikipedia says Goenka moved to India in 1971 and the organisation says he began teaching there in 1969; both given. The 'ten-day course' recorded talks come from Wikipedia. Webu Sayadaw 1941 encouragement is Wikipedia only. The Buddha-to-Burma chain (vanished from India five centuries after the Buddha) is the organisation's own claim and is labelled so. Migraine story is Wikipedia only. Mahasi Sayadaw is mentioned only through the existing Dipa Ma chapter."
+  "goenka: Graph id is 'goenka' (existing node, part 11, tree-only) so the figure file is goenka.mdx. Sources: Wikipedia, Dhamma.org (Vipassana Moldova) tradition and Goenka pages, Dhamma.org Austria course page. No scholarly study read. U Ba Khin / Thetgyi date conflict (1937 vs 1941) recorded in the text. Wikipedia says Goenka moved to India in 1971 and the organisation says he began teaching there in 1969; both given. The 'ten-day course' recorded talks come from Wikipedia. Webu Sayadaw 1941 encouragement is Wikipedia only. The Buddha-to-Burma chain (vanished from India five centuries after the Buddha) is the organisation's own claim and is labelled so. Migraine story is Wikipedia only. Mahasi Sayadaw is mentioned only through the existing Dipa Ma chapter.",
+  "factcheck: the 1969 vs 1971 move conflict noted by the writer does not exist in Wikipedia; text corrected to 1969."
  ],
  "sources": {
   "goenka": [
@@ -132,6 +133,19 @@
    "Dhamma.org Goenka page -> https://md.dhamma.org/about-vipassana/sn-goenka/",
    "Dhamma.org course page -> https://austria.dhamma.org/courses/10-day-courses/ (course structure)",
    "Wikipedia, Sayagyi U Ba Khin and Ledi Sayadaw"
+  ]
+ },
+ "factcheck": {
+  "claims_checked": 38,
+  "changes": [
+   "goenka.mdx: Wikipedia dates the move to India to 1969, not 1971 (1971 is U Ba Khin's death); the false 1969/1971 conflict replaced with the agreed 1969 (Wikipedia S. N. Goenka; md.dhamma.org tradition page)",
+   "goenka.mdx: 'leading industrialist' attributed to the organisation is not on its pages; replaced with Wikipedia's 'successful businessman'",
+   "goenka.mdx: migraine/friend sentence aligned with Wikipedia wording; added the organisation's 'totally non-sectarian' and a note that sources read do not call it secular (md.dhamma.org Goenka page)",
+   "Confirmed: 1937 (Wikipedia, U Ba Khin) vs 1941 (Dhamma.org) for U Ba Khin and Thetgyi; Webu Sayadaw 1941; IMC 1952; authorisation 20 June 1969; chain and 'five centuries' as the organisation's claim; course structure and free courses (austria.dhamma.org)"
+  ],
+  "unresolved": [
+   "U Ba Khin and Thetgyi: 1937 or 1941 remains open, as stated in the text",
+   "No scholarly study of the lineage read"
   ]
  }
 }
