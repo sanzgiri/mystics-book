@@ -2,5 +2,19 @@
   "title": "The Banyan",
   "subtitle": "Indian mystics and philosophers, 1830 to today",
   "launched": true,
-  "note": "Working title. launched controls search-engine indexing (true from 7 Nov 2026)."
+  "note": "Working title. launched controls search-engine indexing (true from 7 Nov 2026).",
+  "repo": "https://github.com/sanzgiri/mystics-book",
+  "license": {
+    "_note": "AUTHOR'S CHOICE. Edit here to change the licence shown on /credits/ and in the footer. CC BY-SA 4.0 for the text is the intended licence.",
+    "text": {
+      "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "short": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "code": {
+      "name": "MIT License",
+      "short": "MIT",
+      "url": "https://opensource.org/license/mit"
+    }
+  }
 }

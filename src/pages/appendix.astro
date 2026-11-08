@@ -1,0 +1,53 @@
+---
+// Appendix: short entries for figures kept on the lineage tree without a full chapter.
+// Content lives in src/content/appendix/<id>.mdx; each node in graph.json has link "/appendix/#<id>".
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import MiniTree from '../components/MiniTree.astro';
+import { byId, partByN, partHref, lifespan, href } from '../lib/graph.js';
+
+const entries = (await getCollection('appendix'))
+  .filter((e) => byId[e.id])
+  .map((e) => ({ e, node: byId[e.id] }))
+  .sort((a, b) => (a.node.part ?? 99) - (b.node.part ?? 99) || (a.node.born ?? 0) - (b.node.born ?? 0));
+const rendered = await Promise.all(entries.map(async (x) => ({ ...x, Content: (await render(x.e)).Content })));
+---
+<Base title="Appendix" description="Short entries for figures with a smaller body of original teaching or a smaller historical footprint, kept so the lineage tree stays complete.">
+<main class="wrap" data-pagefind-body>
+  <div class="col">
+    <span class="label">Appendix</span>
+    <h1 style="font-size:clamp(2.2rem,6vw,3.6rem);margin:.4rem 0">Appendix</h1>
+    <p>The appendix gathers figures with a smaller body of original teaching or a smaller historical footprint, kept so the lineage tree stays complete. Each entry gives the person's dates, place and stream, a short account of the life and teaching, where the person sits on the tree and, where there is one, the practice they taught. Their names on the <a href={href('/tree/')}>tree</a>, the <a href={href('/map/')}>map</a> and the <a href={href('/timeline/')}>timeline</a> link here.</p>
+
+    <ul class="toc" aria-label="Entries in the appendix">
+      {rendered.map(({ node }) => (
+        <li><span><a href={`#${node.id}`}>{node.name}</a></span><span class="yrs">{lifespan(node)}</span></li>
+      ))}
+    </ul>
+  </div>
+
+  {rendered.map(({ e, node, Content }) => {
+    const part = partByN[node.part];
+    return (
+      <article class="col appx" aria-labelledby={node.id}>
+        <h2 id={node.id}>{node.name}</h2>
+        <p class="appx-glance">{e.data.glance}</p>
+        {part && <p class="appx-part"><a href={partHref(part.slug)}>Part {part.n} · {part.title}</a> <span class={`status ${e.data.status}`}>{e.data.status}</span></p>}
+        <Content />
+        <MiniTree id={node.id} />
+        <section class="refs" aria-label={`References for ${node.name}`}>
+          <span class="label">References</span>
+          <ol>{e.data.refs.map((r) => <li set:html={r} />)}</ol>
+        </section>
+      </article>
+    );
+  })}
+</main>
+<style>
+  .appx{margin-top:3.2rem;padding-top:1.6rem;border-top:1px solid var(--rule)}
+  .appx h2{margin:0 0 .3rem;scroll-margin-top:5rem}
+  .appx-glance{font-family:var(--f-mono);font-size:.8rem;line-height:1.5;color:var(--muted);margin:0 0 .4rem}
+  .appx-part{font-family:var(--f-mono);font-size:.75rem;margin:0 0 1.2rem}
+  .appx .refs{margin-top:1.2rem}
+</style>
+</Base>

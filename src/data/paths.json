@@ -1,0 +1,118 @@
+{
+  "_readme": "Reading paths for /start/. Every id must be a file in src/content/figures; the build fails otherwise. Keep each 'why' to one plain line.",
+  "firstRead": [
+    { "id": "ramana-maharshi", "why": "The clearest case of a teaching built on one question, Who am I?, and one of the best-connected names on the tree." },
+    { "id": "vivekananda", "why": "The Chicago speech of 1893 and Advaita turned into a creed of service." },
+    { "id": "krishnamacharya", "why": "A Sanskrit scholar in a Mysore palace who joined posture to breath and trained the teachers of the world's yoga classes." },
+    { "id": "gandhi", "why": "Truth and nonviolence treated as a spiritual practice, with every vow and fast described as an experiment." },
+    { "id": "ambedkar", "why": "A reading of the Buddha as a guide for this world, and a direct challenge to caste." }
+  ],
+  "paths": [
+    {
+      "slug": "self-inquiry",
+      "title": "Meditation and self-inquiry",
+      "blurb": "Teachers who pointed attention back at the one who is looking.",
+      "steps": [
+        { "id": "ramana-maharshi", "why": "The source of modern self-inquiry and the question the others keep returning to." },
+        { "id": "papaji", "why": "A devotee of Krishna who met Ramana and later carried the teaching to Western seekers in Lucknow." },
+        { "id": "siddharameshwar", "why": "The teacher who turned his lineage from slow meditation to direct understanding." },
+        { "id": "nisargadatta", "why": "Siddharameshwar's student, who kept one instruction and taught it from a Bombay loft." },
+        { "id": "atmananda-krishna-menon", "why": "A police officer in Kerala who taught the Self by careful reasoning." },
+        { "id": "dipa-ma", "why": "A Buddhist route to the same territory, through insight meditation learned in Burma." }
+      ]
+    },
+    {
+      "slug": "yoga-today",
+      "title": "Yoga as practised today",
+      "blurb": "How postures and breathing became a worldwide daily practice.",
+      "steps": [
+        { "id": "kuvalayananda", "why": "Hatha yoga taken into a laboratory and a scientific journal." },
+        { "id": "krishnamacharya", "why": "Posture joined to breath, and the teacher of the teachers." },
+        { "id": "iyengar", "why": "Precision, props and the manual that put postures in homes worldwide." },
+        { "id": "pattabhi-jois", "why": "Linked postures turned into Ashtanga Vinyasa, the most influential vigorous yoga of the late twentieth century." },
+        { "id": "sivananda", "why": "A doctor turned monk at Rishikesh, whose disciples carried his yoga round the world." },
+        { "id": "satyananda", "why": "Sivananda's student, who built the Bihar School of Yoga and taught yoga nidra." }
+      ]
+    },
+    {
+      "slug": "devotion",
+      "title": "Devotion and grace",
+      "blurb": "Paths in which love of God and chanting the Name carry the whole weight.",
+      "steps": [
+        { "id": "bhaktivinoda", "why": "A magistrate who wrote Chaitanya's theology for a modern, English-reading public." },
+        { "id": "bhaktisiddhanta", "why": "His son, who founded the Gaudiya Math and sent its first missionaries abroad." },
+        { "id": "prabhupada", "why": "The Gaudiya monk who sailed to America at sixty-nine and planted Krishna devotion in more than a hundred cities." },
+        { "id": "papa-ramdas", "why": "An engineer who left home in 1922 with one mantra and taught that Ram is everything." },
+        { "id": "neem-karoli-baba", "why": "A Hanuman devotee who wrote nothing and taught by feeding people." },
+        { "id": "amma", "why": "Love expressed as an embrace and as service." }
+      ]
+    },
+    {
+      "slug": "reform-and-caste",
+      "title": "Social reform and caste",
+      "blurb": "Teachers for whom the spiritual question and the question of caste were the same question.",
+      "steps": [
+        { "id": "ayya-vaikundar", "why": "A Nadar teacher of southern Travancore whose message was that the lowly must be raised." },
+        { "id": "jyotirao-phule", "why": "A Poona reformer who read the Puranas as the record of a conquest." },
+        { "id": "chattampi-swamikal", "why": "The argument that sacred learning belongs to everyone." },
+        { "id": "narayana-guru", "why": "Advaita in Malayalam verse, with a social programme drawn out of it." },
+        { "id": "periyar", "why": "The rationalist answer, which asked Tamils to give up god, scripture and priest." },
+        { "id": "ambedkar", "why": "Twenty-one years of choosing a religion, ending in a Buddhism for this world." }
+      ]
+    },
+    {
+      "slug": "science-and-reason",
+      "title": "Science and reason",
+      "blurb": "Teachers who tested scripture by reason, or put the practices on a laboratory bench.",
+      "steps": [
+        { "id": "rammohan-roy", "why": "Reason as the test of every scripture, and the start of the book's story." },
+        { "id": "dayananda-saraswati", "why": "The claim that the Vedas, read correctly, agree with reason in every line." },
+        { "id": "kuvalayananda", "why": "Yoga measured with instruments and reported in a journal." },
+        { "id": "swami-rama", "why": "A monk who let American scientists wire him to their instruments." },
+        { "id": "maharishi", "why": "A meditation course that staked its reputation on laboratory science." },
+        { "id": "gopi-krishna", "why": "Kundalini described in plain detail and proposed as a biological engine of evolution." }
+      ]
+    },
+    {
+      "slug": "women-teachers",
+      "title": "Women teachers",
+      "blurb": "Women who became gurus and led movements of their own.",
+      "steps": [
+        { "id": "sarada-devi", "why": "Ramakrishna's wife, who became guru and mother to the order his disciples built." },
+        { "id": "anandamayi-ma", "why": "A village girl who initiated herself and taught for sixty years that one reality wears every form." },
+        { "id": "dipa-ma", "why": "A widowed mother who taught meditation from a small flat and trained founders of American insight meditation." },
+        { "id": "shri-mataji", "why": "A teacher who said she could awaken kundalini in a whole hall at once." },
+        { "id": "amma", "why": "A fisherman's daughter who made the embrace into a form of darshan." },
+        { "id": "dada-lekhraj", "why": "A founder who handed his fortune and his movement to a committee of young women." }
+      ]
+    },
+    {
+      "slug": "western-reach",
+      "title": "The Western reach",
+      "blurb": "How Indian teachings crossed the oceans, by lecture hall, book, mail course and ashram.",
+      "steps": [
+        { "id": "vivekananda", "why": "Chicago in 1893, where the crossing began in earnest." },
+        { "id": "dharmapala", "why": "A Buddhist who spoke at the same Chicago parliament." },
+        { "id": "inayat-khan", "why": "A court musician who took the Chishti Sufi path to Europe and America." },
+        { "id": "yogananda", "why": "Kriya Yoga for America by lecture, by mail and through one famous book." },
+        { "id": "prabhupada", "why": "A trunk of translations and a temple movement built from New York outward." },
+        { "id": "maharishi", "why": "Meditation as a fixed course, taught to millions." },
+        { "id": "muktananda", "why": "The guru's awakening touch given as a public initiation in India and the West." }
+      ]
+    },
+    {
+      "slug": "crossing-lineages",
+      "title": "The lineages that cross",
+      "blurb": "Chains of teachers that run across religions, and the people standing where they meet.",
+      "steps": [
+        { "id": "shirdi-sai-baba", "why": "A fakir in a mosque, worshipped in his lifetime by Hindus and Muslims alike." },
+        { "id": "upasni-maharaj", "why": "A doctor who spent a year at Shirdi and then taught the young Meher Baba." },
+        { "id": "meher-baba", "why": "A Zoroastrian from Pune who named five living saints, Hindu and Muslim, as his masters." },
+        { "id": "sathya-sai-baba", "why": "The claim to be Sai Baba of Shirdi reborn, and a movement built on the unity of religions." },
+        { "id": "rajchandra", "why": "A Jain jeweller and poet to whom Gandhi wrote when his faith was in doubt." },
+        { "id": "gandhi", "why": "Where Jain, Vaishnava and Christian threads meet in one practice of truth." },
+        { "id": "sri-m", "why": "A Kerala-born Muslim who, by his own account, trained with a Natha yogi and teaches Kriya Yoga." }
+      ]
+    }
+  ]
+}

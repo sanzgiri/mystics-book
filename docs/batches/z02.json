@@ -1,0 +1,36 @@
+{
+ "batch": "z02",
+ "_note": "Appendix move (author decision, 7 Nov 2026): six profiles become short entries on /appendix/. Their nodes stay on the tree as tier 'node' with a custom link to /appendix/#<id>; edges, places and glossary terms are unchanged. Original chapters archived in docs/archive/figures/. See docs/APPENDIX_LOG.md.",
+ "nodes_update": [
+  {
+   "id": "nithyananda",
+   "tier": "node",
+   "link": "/appendix/#nithyananda"
+  },
+  {
+   "id": "ramdev",
+   "tier": "node",
+   "link": "/appendix/#ramdev"
+  },
+  {
+   "id": "acharya-prashant",
+   "tier": "node",
+   "link": "/appendix/#acharya-prashant"
+  },
+  {
+   "id": "vethathiri",
+   "tier": "node",
+   "link": "/appendix/#vethathiri"
+  },
+  {
+   "id": "dada-bhagwan",
+   "tier": "node",
+   "link": "/appendix/#dada-bhagwan"
+  },
+  {
+   "id": "siddharameshwar",
+   "tier": "node",
+   "link": "/appendix/#siddharameshwar"
+  }
+ ]
+}

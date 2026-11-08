@@ -1,6 +1,6 @@
 ---
 // Auto-drawn neighborhood of one figure: who shaped them (above) and whom they shaped (below).
-import { byId, parentsOf, childrenOf, lifespan, hasPage, figureHref, EDGE_LABEL } from '../lib/graph.js';
+import { byId, parentsOf, childrenOf, lifespan, nodeHref, EDGE_LABEL } from '../lib/graph.js';
 const { id } = Astro.props;
 const me = byId[id];
 const parents = parentsOf(id);
@@ -46,7 +46,7 @@ const path = (p) => {
       </path>
     ))}
     {placed.map((p) => {
-      const link = hasPage(p.node) ? figureHref(p.node.id) : null;
+      const link = nodeHref(p.node);
       const box = (
         <g>
           <rect x={p.x} y={p.y} width={W} height={H} rx="3" fill={p.node.tier === 'root' ? 'var(--bg)' : 'var(--paper)'} stroke="var(--rule)"/>

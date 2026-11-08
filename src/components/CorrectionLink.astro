@@ -1,0 +1,6 @@
+---
+// Link that opens a pre-filled "new issue" on the book's GitHub repository.
+import { correctionUrl } from '../lib/graph.js';
+const { page = '', url = new URL(Astro.url.pathname, Astro.site).href } = Astro.props;
+---
+<a href={correctionUrl(page, url)}><slot>Report a correction</slot></a>

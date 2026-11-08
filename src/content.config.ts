@@ -40,4 +40,16 @@ const parts = defineCollection({
   }),
 });
 
-export const collections = { figures, essays, parts };
+// Appendix: short entries for figures with a smaller body of original teaching or a smaller
+// historical footprint. Filename = node id in src/data/graph.json (the node carries link "/appendix/#<id>").
+// The body holds the prose plus "**Lineage.**" and "**Practice.**" run-in paragraphs; refs are HTML strings.
+const appendix = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/appendix' }),
+  schema: z.object({
+    glance: z.string(),           // one line: dates, place, stream
+    status: z.enum(['draft', 'review', 'final']).default('draft'),
+    refs: z.array(z.string()).min(3).max(5),
+  }),
+});
+
+export const collections = { figures, essays, parts, appendix };

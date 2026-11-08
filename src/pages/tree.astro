@@ -72,7 +72,9 @@ import { parts } from '../lib/graph.js';
   const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
   const personal = new Set(['initiated', 'lived-with', 'protected']);
   const pageTiers = new Set(['chapter', 'profile', 'sidebar', 'node']);
-  const partName = Object.fromEntries(partsData.map((p) => [p.n, p.title]));
+  // A node's custom link (e.g. /appendix/#id) wins over its /figures/ page.
+  const urlOf = (n) => (n.link ? `${base}${n.link}` : pageTiers.has(n.tier) ? `${base}/figures/${n.id}/` : null);
+  const partName =Object.fromEntries(partsData.map((p) => [p.n, p.title]));
   const life = (n) => n.era || (n.born && n.died ? `${n.born}–${n.died}` : n.born ? `b. ${n.born}` : n.died ? `d. ${n.died}` : '');
 
   const elements = [
@@ -126,7 +128,8 @@ import { parts } from '../lib/graph.js';
     const tag = (e) => `<em>(${e.data('type')}${e.data('raw').verified ? '' : ', draft'})</em>${e.data('raw').note ? `<br><small>${e.data('raw').note}</small>` : ''}`;
     const ins = node.incomers('edge').map((e) => `${e.source().data('label')} ${tag(e)}`);
     const outs = node.outgoers('edge').map((e) => `${e.target().data('label')} ${tag(e)}`);
-    const link = pageTiers.has(n.tier) ? `<p><a href="${base}/figures/${n.id}/">Open ${n.tier === 'node' ? 'entry' : 'chapter'} →</a></p>` : '';
+    const url = urlOf(n);
+    const link = url ? `<p><a href="${url}">Open ${n.link && n.link.startsWith('/appendix/') ? 'appendix entry' : n.tier === 'node' ? 'entry' : 'chapter'} →</a></p>` : '';
     panel.innerHTML = `<strong style="font-family:var(--f-display);font-size:1.1rem">${n.name}</strong><br>
       <span style="color:var(--muted)">${life(n)}${n.part ? ` · Part ${n.part}: ${partName[n.part]}` : ' · Root tradition'}</span>
       ${ins.length ? `<p style="margin:.6rem 0 0"><span class="label">Shaped by</span></p><ul>${ins.map((x) => `<li>${x}</li>`).join('')}</ul>` : ''}
@@ -144,8 +147,8 @@ import { parts } from '../lib/graph.js';
 
   cy.on('tap', 'node', (evt) => {
     const node = evt.target;
-    if (selected === node.id() && pageTiers.has(node.data('tier'))) {
-      window.location.href = `${base}/figures/${node.id()}/`;
+    if (selected === node.id() && urlOf(node.data('raw'))) {
+      window.location.href = urlOf(node.data('raw'));
       return;
     }
     selected = node.id();

@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { parts, figuresInPart, lifespan, figureHref, TIER_LABEL, href } from '../../lib/graph.js';
+import { parts, figuresInPart, lifespan, figureHref, TIER_LABEL, href, isAppendix } from '../../lib/graph.js';
 
 export async function getStaticPaths() {
   const intros = await getCollection('parts');
@@ -13,8 +13,9 @@ const { part, intro, written } = Astro.props;
 const done = new Set(written);
 const Intro = intro ? (await render(intro)).Content : null;
 const figs = figuresInPart(part.n).filter((f) => f.tier !== 'root');
-const group = (t) => figs.filter((f) => f.tier === t);
-const sections = [['chapter', 'Chapters'], ['profile', 'Profiles'], ['sidebar', 'Sidebars'], ['node', 'Also on the tree']];
+// Appendix entries are listed in their own group, never among the chapters.
+const group = (t) => (t === 'appendix' ? figs.filter(isAppendix) : figs.filter((f) => f.tier === t && !isAppendix(f)));
+const sections = [['chapter', 'Chapters'], ['profile', 'Profiles'], ['sidebar', 'Sidebars'], ['appendix', 'In the appendix'], ['node', 'Also on the tree']];
 const prev = parts.find((p) => p.n === part.n - 1);
 const next = parts.find((p) => p.n === part.n + 1);
 ---

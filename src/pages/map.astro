@@ -39,7 +39,7 @@ const places = placesData.places.filter((p) => byId[p.figure]);
     if (!f) return;
     L.circleMarker([p.lat, p.lon], { radius: 7, color: flame, weight: 2, fillColor: flame, fillOpacity: .55 })
       .addTo(map)
-      .bindPopup(`<strong>${p.name}</strong><br>${p.what}<br><a href="${base}/figures/${f.id}/">${f.name} →</a>`);
+      .bindPopup(`<strong>${p.name}</strong><br>${p.what}<br><a href="${f.link ? base + f.link : `${base}/figures/${f.id}/`}">${f.name} →</a>`);
   });
 </script>
 </Base>

@@ -2,11 +2,12 @@
 // Editorial dashboard: what is written, how long it is, and how much of its lineage is verified.
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import { nodes, edges, parts, figureHref, href } from '../lib/graph.js';
+import { nodes, edges, parts, figureHref, href, byId } from '../lib/graph.js';
 
 const figures = Object.fromEntries((await getCollection('figures')).map((e) => [e.id, e]));
 const essays = await getCollection('essays');
 const intros = Object.fromEntries((await getCollection('parts')).map((e) => [e.id, e]));
+const appendix = (await getCollection('appendix')).filter((e) => byId[e.id]).sort((a, b) => (byId[a.id].part ?? 99) - (byId[b.id].part ?? 99));
 
 const words = (body = '') => body
   .replace(/^---[\s\S]*?---/, '')
@@ -27,7 +28,7 @@ const rows = nodes
   });
 
 const count = (s) => rows.filter((r) => r.status === s).length;
-const totalWords = rows.reduce((a, r) => a + r.words, 0) + essays.reduce((a, e) => a + words(e.body), 0) + Object.values(intros).reduce((a, e) => a + words(e.body), 0);
+const totalWords = rows.reduce((a, r) => a + r.words, 0) + essays.reduce((a, e) => a + words(e.body), 0) + Object.values(intros).reduce((a, e) => a + words(e.body), 0) + appendix.reduce((a, e) => a + words(e.body), 0);
 const targetWords = rows.reduce((a, r) => a + r.target, 0);
 const verified = edges.filter((e) => e.verified).length;
 ---
@@ -36,7 +37,7 @@ const verified = edges.filter((e) => e.verified).length;
   <div class="col">
     <span class="label">Editorial</span>
     <h1 style="font-size:clamp(2.2rem,6vw,3.6rem);margin:.4rem 0">Status</h1>
-    <p>Progress on every entry. Targets are about 4,000 words for a chapter, 1,000 for a profile and 600 for a sidebar.</p>
+    <p>Progress on every entry: {rows.length} chapters, profiles and sidebars, plus {appendix.length} short entries in the <a href={href('/appendix/')}>appendix</a>. Targets are about 4,000 words for a chapter, 1,000 for a profile, 600 for a sidebar and 180 to 300 for an appendix entry.</p>
   </div>
 
   <div class="kpis">
@@ -78,6 +79,28 @@ const verified = edges.filter((e) => e.verified).length;
       </section>
     );
   })}
+  <section>
+    <h2 style="font-size:1.3rem">Appendix</h2>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Entry</th><th>Part</th><th>Status</th><th class="num">Words</th><th class="num">Edges verified</th></tr></thead>
+        <tbody>
+          {appendix.map((e) => {
+            const mine = edges.filter((x) => x.to === e.id || x.from === e.id);
+            return (
+              <tr>
+                <td><a href={figureHref(e.id)}>{byId[e.id].name}</a></td>
+                <td>{byId[e.id].part}</td>
+                <td><span class={`status ${e.data.status}`}>{e.data.status}</span></td>
+                <td class="num">{words(e.body).toLocaleString('en-US')}</td>
+                <td class="num">{mine.filter((x) => x.verified).length}/{mine.length}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  </section>
 </main>
 <style>
   .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:1rem;margin:1.5rem 0}

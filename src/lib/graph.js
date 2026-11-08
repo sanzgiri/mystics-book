@@ -49,11 +49,36 @@ export function childrenOf(id) {
 }
 
 // Figures that get their own page (everything that is a person-tier entry, not roots).
+// A node with a custom `link` (for example an appendix entry, link "/appendix/#id") has no /figures/ page.
 export function hasPage(n) {
-  return n && n.tier !== 'root';
+  return n && n.tier !== 'root' && !n.link;
 }
+
+// Appendix entries: nodes whose link points into /appendix/.
+export const isAppendix = (n) => !!(n && n.link && n.link.startsWith('/appendix/'));
+export const appendixNodes = nodes.filter(isAppendix);
 
 export const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 export const href = (p) => `${base}${p}`;
-export const figureHref = (id) => href(`/figures/${id}/`);
+// Where a figure's name should link: its custom link if it has one, else its /figures/ page.
+export const figureHref = (id) => (byId[id]?.link ? href(byId[id].link) : href(`/figures/${id}/`));
+// Link for a node box on the trees: null for roots and other nodes with no page and no custom link.
+export const nodeHref = (n) => (n?.link ? href(n.link) : hasPage(n) ? figureHref(n.id) : null);
 export const partHref = (slug) => href(`/parts/${slug}/`);
+
+// "Report a correction": opens a new GitHub issue with a title and body template.
+// No form and no email; readers need a GitHub account.
+import site from '../data/site.json';
+export function correctionUrl(pageTitle = '', pageUrl = '') {
+  const title = `Correction: ${pageTitle || 'page name'}`;
+  const body = [
+    `Page: ${pageUrl || '(paste the page address)'}`,
+    '',
+    'What is wrong (quote the sentence if you can):',
+    '',
+    'What it should say:',
+    '',
+    'Source (book, page, or link):',
+  ].join('\n');
+  return `${site.repo}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}&labels=correction`;
+}

@@ -297,10 +297,11 @@
    "id": "acharya-prashant",
    "name": "Acharya Prashant",
    "part": 2,
-   "tier": "profile",
+   "tier": "node",
    "kind": "person",
    "note": "Prashant Tripathi; reportedly born Agra, 1978; PrashantAdvait Foundation 2015; Vedanta online, mostly in Hindi",
-   "born": 1978
+   "born": 1978,
+   "link": "/appendix/#acharya-prashant"
   },
   {
    "id": "totapuri",
@@ -351,8 +352,9 @@
    "born": 1888,
    "died": 1936,
    "part": 3,
-   "tier": "profile",
-   "kind": "person"
+   "tier": "node",
+   "kind": "person",
+   "link": "/appendix/#siddharameshwar"
   },
   {
    "id": "atmananda-krishna-menon",
@@ -709,8 +711,9 @@
    "born": 1911,
    "died": 2006,
    "part": 5,
-   "tier": "profile",
-   "kind": "person"
+   "tier": "node",
+   "kind": "person",
+   "link": "/appendix/#vethathiri"
   },
   {
    "id": "sri-m",
@@ -1185,9 +1188,10 @@
    "born": 1908,
    "died": 1988,
    "part": 10,
-   "tier": "profile",
+   "tier": "node",
    "kind": "person",
-   "note": "Ambalal Muljibhai Patel, b. 7 Nov 1908 Tarsali (Wikipedia citing Flügel, Jani, Wiley), d. 2 Jan 1988. Surat station experience June 1958 by his own account (Mahavideh Foundation booklet; Flügel abstract names Surat)."
+   "note": "Ambalal Muljibhai Patel, b. 7 Nov 1908 Tarsali (Wikipedia citing Flügel, Jani, Wiley), d. 2 Jan 1988. Surat station experience June 1958 by his own account (Mahavideh Foundation booklet; Flügel abstract names Surat).",
+   "link": "/appendix/#dada-bhagwan"
   },
   {
    "id": "ambedkar",
@@ -1330,9 +1334,10 @@
    "id": "ramdev",
    "name": "Baba Ramdev",
    "part": 13,
-   "tier": "profile",
+   "tier": "node",
    "kind": "person",
-   "note": "Televised pranayama; Patanjali Ayurved. Birth year uncertain (1965-1975), so born is left blank"
+   "note": "Televised pranayama; Patanjali Ayurved. Birth year uncertain (1965-1975), so born is left blank",
+   "link": "/appendix/#ramdev"
   },
   {
    "id": "kalki-bhagavan",
@@ -1348,10 +1353,11 @@
    "id": "nithyananda",
    "name": "Nithyananda (Kailasa)",
    "part": 13,
-   "tier": "profile",
+   "tier": "node",
    "kind": "person",
    "born": 1978,
-   "note": "Born Arunachalam Rajasekaran, Tiruvannamalai, 1 January 1978 (1977 in some accounts); founded Nithyananda Dhyanapeetam, Bidadi (2003); declared Kailasa December 2019."
+   "note": "Born Arunachalam Rajasekaran, Tiruvannamalai, 1 January 1978 (1977 in some accounts); founded Nithyananda Dhyanapeetam, Bidadi (2003); declared Kailasa December 2019.",
+   "link": "/appendix/#nithyananda"
   },
   {
    "id": "dhirendra-shastri",
