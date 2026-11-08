@@ -1,92 +1,270 @@
 {
- "batch": "x_expansion2",
- "nodes_add": [
-  {"id": "nitya-tripta", "name": "Nitya Tripta (S. Balakrishna Pillai)", "part": 3, "tier": "node", "kind": "person", "note": "Student of Atmananda who kept notes of his talks 1950-1959, published 1963."},
-  {"id": "padmanabha-menon", "name": "K. Padmanabha Menon (Sri Adwayananda)", "died": 2001, "part": 3, "tier": "node", "kind": "person", "note": "Atmananda's eldest son; taught at Anandawadi until 2001; compiled Atmananda Tattwa Samhita (1973) from tape recordings."},
-  {"id": "hari-gopalan-citar", "name": "Hari Gopalan Citar", "part": 9, "tier": "node", "kind": "person", "note": "Disciple to whom followers say the Akilathirattu Ammanai was dictated; spelled Arigopalan Citar in some Wikipedia passages."}
- ],
- "nodes_update": [],
- "edges_remove": [],
- "edges_upsert": [
-  {"from": "atmananda-krishna-menon", "to": "nitya-tripta", "type": "lived-with", "evidence": "documented", "verified": true, "year": 1950, "note": "Compiled notes of Atmananda's talks 1950-1959 (Wikipedia)."},
-  {"from": "atmananda-krishna-menon", "to": "padmanabha-menon", "type": "family", "evidence": "documented", "verified": true, "note": "Eldest son; continued the teaching at Anandawadi until 2001 (Wikipedia)."},
-  {"from": "ayya-vaikundar", "to": "hari-gopalan-citar", "type": "influenced", "evidence": "hagiographic", "verified": true, "year": 1841, "note": "Followers say the Akilam was dictated to him; dictation date given as 1840 or 1841 on Wikipedia."}
- ],
- "places": [
-  {"name": "Yangon (Rangoon)", "lat": 16.87, "lon": 96.2, "figure": "dipa-ma", "what": "Lived with her husband from about 1925; first retreat at the Kamayut Meditation Center; practice at Mahasi's centre", "verified": true},
-  {"name": "Chittagong", "lat": 22.36, "lon": 91.78, "figure": "dipa-ma", "what": "Region of her birth village, 1911", "verified": true},
-  {"name": "Rasta Peth, Pune", "lat": 18.51, "lon": 73.87, "figure": "chinmayananda", "what": "Ganesh temple where the first jnana yajna opened on 31 December 1951 (approximate)", "verified": false},
-  {"name": "Rishikesh", "lat": 30.09, "lon": 78.27, "figure": "chinmayananda", "what": "Divine Life Society; sannyasa from Sivananda, 25 February 1949", "verified": true},
-  {"name": "San Diego", "lat": 32.72, "lon": -117.16, "figure": "chinmayananda", "what": "Died 3 August 1993", "verified": true},
-  {"name": "Mayapur (Sri Chaitanya Math)", "lat": 23.42, "lon": 88.39, "figure": "bhaktisiddhanta", "what": "Settled here after 1904-05; founded Sri Chaitanya Math in 1918", "verified": true},
-  {"name": "Agartala, Tripura", "lat": 23.83, "lon": 91.28, "figure": "bhaktisiddhanta", "what": "Royal court post from 1895 (Wikipedia; devotional chronology)", "verified": false},
-  {"name": "Serampore", "lat": 22.75, "lon": 88.34, "figure": "bhaktisiddhanta", "what": "School years from 1883 or 1884", "verified": true},
-  {"name": "Krishnanagar", "lat": 23.4, "lon": 88.5, "figure": "bhaktivinoda", "what": "English school as a boy; posting from 1887 when he identified Mayapur", "verified": true}
- ],
- "glossary": [
-  {"term": "Metta", "script": "mettā", "lang": "sa", "def": "Pali for loving-kindness, a Buddhist meditation of wishing wellbeing first to oneself, then to others."},
-  {"term": "Sat-chit-ananda", "script": "सच्चिदानन्द", "lang": "sa", "def": "Existence, consciousness and bliss, the traditional description of Brahman. Atmananda rendered the last term as peace."},
-  {"term": "Seedar", "script": "சீடர்", "lang": "ta", "def": "In Ayyavazhi, one of the chief disciples of Vaikundar, named after the Pandava brothers."},
-  {"term": "Panividai", "script": "பணிவிடை", "lang": "ta", "def": "The daily service or worship performed at Ayyavazhi shrines."},
-  {"term": "Sahajiya", "lang": "bn", "def": "Name for groups in Bengal who read the love of Radha and Krishna in a bodily, erotic way; criticised by Bhaktivinoda and Bhaktisiddhanta."},
-  {"term": "Biofeedback", "def": "Training in which a person watches a measurement of a body process, such as skin temperature or brain waves, to learn to influence it."},
-  {"term": "Nadi shodhana", "script": "नाडीशोधन", "lang": "sa", "def": "Alternate nostril breathing, taught to balance the breath and calm the nervous system."}
- ],
- "issues": [
-  "dipa-ma: daughter's birth year (Wikipedia 1950) and the details of her death (bowing before a Buddha statue) rest on Wikipedia and Encyclopedia.com; both flagged by Wikipedia as needing citations.",
-  "atmananda-krishna-menon: accounts of his realization in 1923 come from student-run sites; the horse-carriage anecdote is as summarised from Renard part one.",
-  "ayya-vaikundar: Wikipedia articles disagree on the names of the Seedars and on the penance chronology; the Akilam print date is 1927 or 1933.",
-  "chinmayananda: mission site dates the Rishikesh visit to September 1947, a Wikipedia mirror to summer 1947; quotes of the Tapovan tribute come from the mission archive.",
-  "bhaktisiddhanta: ages at memorising the Gita (seven or nine) and age at death (62 or 63) differ across sources; Gaura Kishora's initiation date 1900 or 1901.",
-  "bhaktivinoda: Wikipedia and devotional chronologies differ on marriage year, cholera year and Hindu College enrolment.",
-  "swami-rama: Darbhanga degree dated 1945 (Encyclopedia.com) or 1960 (Hospital Trust); the sealed cave, London, Moscow, Japan claims rest on the Trust alone; the Tigunait biography is titled At the Eleventh Hour (2001) in the chapter, while Encyclopedia.com lists Swami Rama of the Himalayas (1999)."
- ],
- "sources": {
-  "dipa-ma": [
-   "Husband left a week after the wedding; two years with in-laws; lost mother, two infants; adopted brother Bijoy; dream of Buddha verses; first day at Kamayut, dog bite; practised at home; Munindra at 53; sister Hema, one year of strict rules; room above metal-grinding shop; students Malati and Sudipti; several hundred Calcutta students -> https://www.lionsroar.com/mother-of-light-the-inspiring-story-of-dipa-ma/",
-   "Quote 'Clinging to what is dear brings sorrow'; Sharon Kreider quote; Visuddhimagga four stages -> https://www.testimoniesawakening.com/?p=653",
-   "Husband discouraged meditation until children raised; householders, patron saint; neighbour's account of death bowing to Buddha statue -> https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/ma-dipa",
-   "Sayings: busyness is the meditation; cannot separate meditation from life; five minutes a day; if your life is in trouble do metta; meditation is love; know your intention -> https://dipama.com/essential-quotes/",
-   "Three qualities quote; breath at chest and metta phrases (Michele Levey) -> https://www.shambhala.com/snowlion_articles/the-power-of-loving-kindness/",
-   "Daughter born 1950; 1963 siddhi study; death 1 Sep 1989 -> https://en.wikipedia.org/wiki/Dipa_Ma"
+  "batch": "x_expansion2",
+  "nodes_add": [
+    {
+      "id": "nitya-tripta",
+      "name": "Nitya Tripta (S. Balakrishna Pillai)",
+      "part": 3,
+      "tier": "node",
+      "kind": "person",
+      "note": "Student of Atmananda who kept notes of his talks 1950-1959, published 1963."
+    },
+    {
+      "id": "padmanabha-menon",
+      "name": "K. Padmanabha Menon (Sri Adwayananda)",
+      "died": 2001,
+      "part": 3,
+      "tier": "node",
+      "kind": "person",
+      "note": "Atmananda's eldest son; taught at Anandawadi until 2001; compiled Atmananda Tattwa Samhita (1973) from tape recordings."
+    },
+    {
+      "id": "hari-gopalan-citar",
+      "name": "Hari Gopalan Citar",
+      "part": 9,
+      "tier": "node",
+      "kind": "person",
+      "note": "Disciple to whom followers say the Akilathirattu Ammanai was dictated; spelled Arigopalan Citar in some Wikipedia passages."
+    }
   ],
-  "atmananda-krishna-menon": [
-   "Cherukulathu House; eldest son Padmanabha; works and dates (Radhamadhavam 1919, Atmaramam 1935, Atma Darshan 1945/46, Atma Nirvriti 1951/52, Tattwa Samhita 1973); Joseph Campbell; died aged 75; lineage names -> https://en.wikipedia.org/wiki/Atmananda_Krishna_Menon",
-   "Eight stages, 'Existence has the chair', 'Sleep in consciousness', 1923 realization, 'paralyzed my ego' -> https://www.advaita.org.uk/discourses/atmananda/atmananda.htm",
-   "Horse-carriage anecdote; Levy quotes; modern Upanishad -> https://www.advaita-vision.org/shri-atmananda-krishna-menon/",
-   "Prayed for a teacher; 'maximum temptations and obstacles'; Wolter Keers; Ananda Wood; Levy's book -> https://www.stillnessspeaks.com/?p=977",
-   "Taught through personal contact, not institutionalised -> https://sites.google.com/view/southindianstudies/home/publications/atmanandha"
+  "nodes_update": [],
+  "edges_remove": [],
+  "edges_upsert": [
+    {
+      "from": "atmananda-krishna-menon",
+      "to": "nitya-tripta",
+      "type": "lived-with",
+      "evidence": "documented",
+      "verified": true,
+      "year": 1950,
+      "note": "Compiled notes of Atmananda's talks 1950-1959 (Wikipedia)."
+    },
+    {
+      "from": "atmananda-krishna-menon",
+      "to": "padmanabha-menon",
+      "type": "family",
+      "evidence": "documented",
+      "verified": true,
+      "note": "Eldest son; continued the teaching at Anandawadi until 2001 (Wikipedia)."
+    },
+    {
+      "from": "ayya-vaikundar",
+      "to": "hari-gopalan-citar",
+      "type": "influenced",
+      "evidence": "hagiographic",
+      "verified": true,
+      "year": 1841,
+      "note": "Followers say the Akilam was dictated to him; Wikipedia gives 1841 (Ayyavazhi; 10 December 1841 on the Vaikundar page) and 11 December 1840 (timeline)."
+    }
   ],
-  "ayya-vaikundar": [
-   "Penance phases 1834/1835/1838; five Seedars; Father-Mother-Son; teachings -> https://en.wikipedia.org/wiki/Historical_Vaikundar",
-   "Dignity verse; mud pyramids; rejection of sacrifice, devils; headgear; Pathis and Nizhal Thangals -> https://en.wikipedia.org/wiki/Teachings_and_impacts_of_Ayyavazhi",
-   "Kroni and Kaliyan; Akilam 15,000 verses, 17 sections, printed 1927 or 1933; panividai; Thirunamam; mirror; Thuvayal Thavasu 1840; seven Pathis; Hindu status -> https://en.wikipedia.org/wiki/Ayyavazhi"
+  "places": [
+    {
+      "name": "Yangon (Rangoon)",
+      "lat": 16.87,
+      "lon": 96.2,
+      "figure": "dipa-ma",
+      "what": "Lived with her husband from about 1925; first retreat at the Kamayut Meditation Center; practice at Mahasi's centre",
+      "verified": true
+    },
+    {
+      "name": "Chittagong",
+      "lat": 22.36,
+      "lon": 91.78,
+      "figure": "dipa-ma",
+      "what": "Region of her birth village, 1911",
+      "verified": true
+    },
+    {
+      "name": "Rasta Peth, Pune",
+      "lat": 18.51,
+      "lon": 73.87,
+      "figure": "chinmayananda",
+      "what": "Ganesh temple where the first jnana yajna opened on 31 December 1951 (approximate)",
+      "verified": false
+    },
+    {
+      "name": "Rishikesh",
+      "lat": 30.09,
+      "lon": 78.27,
+      "figure": "chinmayananda",
+      "what": "Divine Life Society; sannyasa from Sivananda, 25 February 1949",
+      "verified": true
+    },
+    {
+      "name": "San Diego",
+      "lat": 32.72,
+      "lon": -117.16,
+      "figure": "chinmayananda",
+      "what": "Died 3 August 1993",
+      "verified": true
+    },
+    {
+      "name": "Mayapur (Sri Chaitanya Math)",
+      "lat": 23.42,
+      "lon": 88.39,
+      "figure": "bhaktisiddhanta",
+      "what": "Settled here after 1904-05; founded Sri Chaitanya Math in 1918",
+      "verified": true
+    },
+    {
+      "name": "Agartala, Tripura",
+      "lat": 23.83,
+      "lon": 91.28,
+      "figure": "bhaktisiddhanta",
+      "what": "Royal court post from 1895 (Wikipedia; devotional chronology)",
+      "verified": false
+    },
+    {
+      "name": "Serampore",
+      "lat": 22.75,
+      "lon": 88.34,
+      "figure": "bhaktisiddhanta",
+      "what": "School years from 1883 or 1884",
+      "verified": true
+    },
+    {
+      "name": "Krishnanagar",
+      "lat": 23.4,
+      "lon": 88.5,
+      "figure": "bhaktivinoda",
+      "what": "English school as a boy; posting from 1887 when he identified Mayapur",
+      "verified": true
+    }
   ],
-  "chinmayananda": [
-   "Sept 1947 visit; Char Dham 1948; cowshed 1949-50; sannyasa; Pune 1951 -> https://chinmayamission.com/global/swami-chinmayananda",
-   "Pune: Rasta Peth Ganesh temple, 31 Dec 1951, 18 on first day, 400-500 within a month, 6 a.m. classes, printed booklets -> https://archives.chinmayamission.com/gurudev/RelivingTheFirstJnanaYagna1",
-   "Tapovan quote 'A God without temples...'; postcards; blessings for Pune -> https://archives.chinmayamission.com/gurus/swami-tapovan/Intro",
-   "1965 tour of 39 cities in 18 countries; Harvard 1971; UN 2 Dec 1992; 1980 bypass; death sequence 26 Jul-7 Aug 1993; 95 publications; Holy Geeta 1960; Devi groups; BMI chart -> https://wiki.riteme.site/wiki/Chinmaya",
-   "Manas and buddhi, vasanas, stanza by stanza -> https://ia803003.us.archive.org/4/items/holygeetabyswamichinmayana/Holy%20Geeta%20by%20Swami%20Chinmayana.pdf"
+  "glossary": [
+    {
+      "term": "Metta",
+      "script": "mettā",
+      "lang": "sa",
+      "def": "Pali for loving-kindness, a Buddhist meditation of wishing wellbeing first to oneself, then to others."
+    },
+    {
+      "term": "Sat-chit-ananda",
+      "script": "सच्चिदानन्द",
+      "lang": "sa",
+      "def": "Existence, consciousness and bliss, the traditional description of Brahman. Atmananda rendered the last term as peace."
+    },
+    {
+      "term": "Seedar",
+      "script": "சீடர்",
+      "lang": "ta",
+      "def": "In Ayyavazhi, one of the chief disciples of Vaikundar, named after the Pandava brothers."
+    },
+    {
+      "term": "Panividai",
+      "script": "பணிவிடை",
+      "lang": "ta",
+      "def": "The daily service or worship performed at Ayyavazhi shrines."
+    },
+    {
+      "term": "Sahajiya",
+      "lang": "bn",
+      "def": "Name for groups in Bengal who read the love of Radha and Krishna in a bodily, erotic way; criticised by Bhaktivinoda and Bhaktisiddhanta."
+    },
+    {
+      "term": "Biofeedback",
+      "def": "Training in which a person watches a measurement of a body process, such as skin temperature or brain waves, to learn to influence it."
+    },
+    {
+      "term": "Nadi shodhana",
+      "script": "नाडीशोधन",
+      "lang": "sa",
+      "def": "Alternate nostril breathing, taught to balance the breath and calm the nervous system."
+    }
   ],
-  "bhaktisiddhanta": [
-   "Bimala dream; Ranaghat; Gita at nine; harinama early 1880s; Metropolitan Institution 1887; Tripura 1895; South India 1904; billion-names vow ten years; press 1913; shuddha-bhakti, sahajiya, yukta-vairagya; 1933 untouchability remark; mission figures -> https://en.wikipedia.org/wiki/Bhaktisiddhanta_Sarasvati",
-   "Gita at seven; mango vow; Tripura editing; Gaura Kishora deferrals; grass hut 1905; 1911 essay for father; father's last request; brhat mrdanga; final instruction -> https://gaudiyahistory.iskcondesiretree.com/?p=803",
-   "Gaura Kishora born 1838, babaji after wife's death, avadhuta-like; died 1915 -> https://en.wikipedia.org/wiki/Gaurakisora_Dasa_Babaji",
-   "Mission practices: kirtan, japa, archana, study, exhibitions -> https://en.wikipedia.org/wiki/Gaudiya_Math",
-   "Reformer combining theology with activist public identity -> https://ivsjournal.com/index.php/files/article/view/452"
+  "issues": [
+    "dipa-ma: daughter's birth year (Wikipedia 1950) and the details of her death (bowing before a Buddha statue) rest on Wikipedia and Encyclopedia.com; both flagged by Wikipedia as needing citations.",
+    "atmananda-krishna-menon: accounts of his realization in 1923 come from student-run sites; the horse-carriage anecdote is as summarised from Renard part one.",
+    "ayya-vaikundar: Wikipedia articles disagree on the names of the Seedars and on the penance chronology; the Akilam print date is 1927 or 1933.",
+    "chinmayananda: mission site dates the Rishikesh visit to September 1947, a Wikipedia mirror to summer 1947; quotes of the Tapovan tribute come from the mission archive.",
+    "bhaktisiddhanta: ages at memorising the Gita (seven or nine) and age at death (62 or 63) differ across sources; Gaura Kishora's initiation date 1900 or 1901.",
+    "bhaktivinoda: Wikipedia and devotional chronologies differ on marriage year, cholera year and Hindu College enrolment.",
+    "swami-rama: Darbhanga degree dated 1945 (Encyclopedia.com) or 1960 (Hospital Trust); the sealed cave, London, Moscow, Japan claims rest on the Trust alone; the Tigunait biography is titled At the Eleventh Hour (2001) in the chapter, while Encyclopedia.com lists Swami Rama of the Himalayas (1999).",
+    "factcheck x_expansion2: see factcheck.unresolved; Ayya Vaikundar pick replaced with G. Patrick (author may prefer another)."
   ],
-  "bhaktivinoda": [
-   "Parents, siblings, Calcutta 1852, marriages, 14 children, career, Puri 1870, works and dates, ahdhunika-vada, Nama-hatta, retirement, death aged 75 -> https://en.wikipedia.org/wiki/Bhaktivinoda_Thakur",
-   "1896 Sanskrit poem with English introduction, McGill, JRAS review -> https://bhaktivinodainstitute.org/chaitanya-mahaprabhu-life-precepts-introduction/"
-  ],
-  "swami-rama": [
-   "Early teens sannyasa; Bhole Baba; heart 74 to 52; Smarta Advaita; quotes on religion -> https://www.hinduismtoday.com/magazine/october-1989/1989-10-wisdom-of-the-himalayas-gains-western-popularity/",
-   "Master's advice quote; messenger quote; sealed cave; London, Moscow, Rishikesh, Japan; 1989 two-room clinic; Combined Therapy Program -> https://hihtindia.org/founder/",
-   "Darbhanga 1945; Martin Buber Award 1977; books 1976-78 -> https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/rama-swami-1925-1996",
-   "YMCA classes; Kanpur 1966; warned against feats; unverified degrees -> https://en.wikipedia.org/wiki/Swami_Rama",
-   "DDB emphases and eight qualities of breathing; makarasana/shavasana -> https://www.ahymsin.org/8-qualities-of-yogic-breathing/",
-   "Nadi shodhana purpose -> https://himalayaninstitute.org/online/ten-minute-pranayama-practice/"
-  ]
- }
+  "sources": {
+    "dipa-ma": [
+      "Husband left a week after the wedding; two years with in-laws; lost mother, two infants; adopted brother Bijoy; dream of Buddha verses; first day at Kamayut, dog bite; practised at home; Munindra at 53; sister Hema, one year of strict rules; room above metal-grinding shop; students Malati and Sudipti; several hundred Calcutta students -> https://www.lionsroar.com/mother-of-light-the-inspiring-story-of-dipa-ma/",
+      "Quote 'Clinging to what is dear brings sorrow'; Sharon Kreider quote; Visuddhimagga four stages -> https://www.testimoniesawakening.com/?p=653",
+      "Husband discouraged meditation until children raised; householders, patron saint; neighbour's account of death bowing to Buddha statue -> https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/ma-dipa",
+      "Sayings: busyness is the meditation; cannot separate meditation from life; five minutes a day; if your life is in trouble do metta; meditation is love; know your intention -> https://dipama.com/essential-quotes/",
+      "Three qualities quote; breath at chest and metta phrases (Michele Levey) -> https://www.shambhala.com/snowlion_articles/the-power-of-loving-kindness/",
+      "Daughter born 1950; 1963 siddhi study; death 1 Sep 1989 -> https://en.wikipedia.org/wiki/Dipa_Ma"
+    ],
+    "atmananda-krishna-menon": [
+      "Cherukulathu House; eldest son Padmanabha; works and dates (Radhamadhavam 1919, Atmaramam 1935, Atma Darshan 1945/46, Atma Nirvriti 1951/52, Tattwa Samhita 1973); Joseph Campbell; died aged 75; lineage names -> https://en.wikipedia.org/wiki/Atmananda_Krishna_Menon",
+      "Eight stages, 'Existence has the chair', 'Sleep in consciousness', 1923 realization, 'paralyzed my ego' -> https://www.advaita.org.uk/discourses/atmananda/atmananda.htm",
+      "Horse-carriage anecdote; Levy quotes; modern Upanishad -> https://www.advaita-vision.org/shri-atmananda-krishna-menon/",
+      "Prayed for a teacher; 'maximum temptations and obstacles'; Wolter Keers; Ananda Wood; Levy's book -> https://www.stillnessspeaks.com/?p=977",
+      "Taught through personal contact, not institutionalised -> https://sites.google.com/view/southindianstudies/home/publications/atmanandha"
+    ],
+    "ayya-vaikundar": [
+      "Penance phases 1834/1835/1838; five Seedars; Father-Mother-Son; teachings -> https://en.wikipedia.org/wiki/Historical_Vaikundar",
+      "Dignity verse; mud pyramids; rejection of sacrifice, devils; headgear; Pathis and Nizhal Thangals -> https://en.wikipedia.org/wiki/Teachings_and_impacts_of_Ayyavazhi",
+      "Kroni and Kaliyan; Akilam 15,000 verses, 17 sections, printed 1927 or 1933; panividai; Thirunamam; mirror; Thuvayal Thavasu 1840; seven Pathis; Hindu status -> https://en.wikipedia.org/wiki/Ayyavazhi"
+    ],
+    "chinmayananda": [
+      "Sept 1947 visit; Char Dham 1948; cowshed 1949-50; sannyasa; Pune 1951 -> https://chinmayamission.com/global/swami-chinmayananda",
+      "Pune: Rasta Peth Ganesh temple, 31 Dec 1951, 18 on first day, 400-500 within a month, 6 a.m. classes, printed booklets -> https://archives.chinmayamission.com/gurudev/RelivingTheFirstJnanaYagna1",
+      "Tapovan quote 'A God without temples...'; postcards; blessings for Pune -> https://archives.chinmayamission.com/gurus/swami-tapovan/Intro",
+      "1965 tour of 39 cities in 18 countries; Harvard 1971; UN 2 Dec 1992; 1980 bypass; death sequence 26 Jul-7 Aug 1993; 95 publications; Holy Geeta 1960; Devi groups; BMI chart -> https://wiki.riteme.site/wiki/Chinmaya",
+      "Manas and buddhi, vasanas, stanza by stanza -> https://ia803003.us.archive.org/4/items/holygeetabyswamichinmayana/Holy%20Geeta%20by%20Swami%20Chinmayana.pdf"
+    ],
+    "bhaktisiddhanta": [
+      "Bimala dream; Ranaghat; Gita at nine; harinama early 1880s; Metropolitan Institution 1887; Tripura 1895; South India 1904; billion-names vow ten years; press 1913; shuddha-bhakti, sahajiya, yukta-vairagya; 1933 untouchability remark; mission figures -> https://en.wikipedia.org/wiki/Bhaktisiddhanta_Sarasvati",
+      "Gita at seven; mango vow; Tripura editing; Gaura Kishora deferrals; grass hut 1905; 1911 essay for father; father's last request; brhat mrdanga; final instruction -> https://gaudiyahistory.iskcondesiretree.com/?p=803",
+      "Gaura Kishora born 1838, babaji after wife's death, avadhuta-like; died 1915 -> https://en.wikipedia.org/wiki/Gaurakisora_Dasa_Babaji",
+      "Mission practices: kirtan, japa, archana, study, exhibitions -> https://en.wikipedia.org/wiki/Gaudiya_Math",
+      "Reformer combining theology with activist public identity -> https://ivsjournal.com/index.php/files/article/view/452"
+    ],
+    "bhaktivinoda": [
+      "Parents, siblings, Calcutta 1852, marriages, 14 children, career, Puri 1870, works and dates, ahdhunika-vada, Nama-hatta, retirement, death aged 75 -> https://en.wikipedia.org/wiki/Bhaktivinoda_Thakur",
+      "1896 Sanskrit poem with English introduction, McGill, JRAS review -> https://bhaktivinodainstitute.org/chaitanya-mahaprabhu-life-precepts-introduction/"
+    ],
+    "swami-rama": [
+      "Early teens sannyasa; Bhole Baba; heart 74 to 52; Smarta Advaita; quotes on religion -> https://www.hinduismtoday.com/magazine/october-1989/1989-10-wisdom-of-the-himalayas-gains-western-popularity/",
+      "Master's advice quote; messenger quote; sealed cave; London, Moscow, Rishikesh, Japan; 1989 two-room clinic; Combined Therapy Program -> https://hihtindia.org/founder/",
+      "Darbhanga 1945; Martin Buber Award 1977; books 1976-78 -> https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/rama-swami-1925-1996",
+      "YMCA classes; Kanpur 1966; warned against feats; unverified degrees -> https://en.wikipedia.org/wiki/Swami_Rama",
+      "DDB emphases and eight qualities of breathing; makarasana/shavasana -> https://www.ahymsin.org/8-qualities-of-yogic-breathing/",
+      "Nadi shodhana purpose -> https://himalayaninstitute.org/online/ten-minute-pranayama-practice/"
+    ]
+  },
+  "factcheck": {
+    "claims_checked": 118,
+    "changes": [
+      "dipa-ma: husband's advice reworded to 'put off meditation until she was older' (Encyclopedia.com wording).",
+      "dipa-ma: daughter's birth now 'after some twenty-seven years of marriage' (Encyclopedia.com), Wikipedia's 1950 kept as attribution.",
+      "dipa-ma: Kreider quotation attributed to Testimonies of Awakening and dipama.com (ledger and page).",
+      "dipa-ma: removed 'Always know what you are doing' (absent from dipama.com Essential Quotes and Testimonies).",
+      "dipa-ma: death given as September 1989 (Encyclopedia.com), 1 September attributed to Wikipedia; death account restated as the neighbour's report in Encyclopedia.com wording; Wikipedia's version is tagged citation needed.",
+      "atmananda: 1923 realization (student sites only) cut; kept 1923 name and start of teaching (Wikipedia).",
+      "atmananda: 1919 meeting length given as one night (Stillness Speaks) or day-long (Wikipedia).",
+      "atmananda: carriage anecdote corrected to Renard's version (he invited the noises in) with his quoted words (advaita-vision.org).",
+      "atmananda: sat-chit-ananda rendering corrected to 'existence, knowledge and peace' (Renard).",
+      "atmananda: unsourced quotation 'Where are you between two thoughts?' paraphrased in Life and practice steps; 'higher reasoning' changed to 'higher reason' (advaita.org.uk heading 'Higher and Lower Reason').",
+      "ayya-vaikundar: Akilam print date corrected: Ayyavazhi article gives Akilam 1933 and Arul Nool 1927 (footnote 1939/1918); Vaikundar article gives 1939. 1927 was the Arul Nool date.",
+      "ayya-vaikundar: Thuvayal Thavasu 'March 1840' reduced to 1840 (month unsupported).",
+      "ayya-vaikundar: Seedars named per Historical Vaikundar article (Dharma, Bheeman, Arjunan, Nakulan, Sahadevan); noted Ayyavazhi article also calls Hari Gopalan a Seedar.",
+      "ayya-vaikundar: 'especially the giving of food' cut (Teachings article says charity and almsgiving); 'fear no power except himself' changed to 'except Vaikundar' (source wording).",
+      "ayya-vaikundar: pick changed from R. Ponnu (unread, not found in a catalogue) to G. Patrick, Religion and Subaltern Agency (University of Madras, 2003), full title from RelBib catalogue; reference 4 updated with the record link.",
+      "chinmayananda: Rishikesh visit date given as September 1947 (mission) or summer 1947 (Wikipedia).",
+      "chinmayananda: 'about two years' and 'cowshed during 1949 and 1950' replaced with mission wording (more than two years, cowshed, stone for a pillow); the mission page gives no years.",
+      "chinmayananda: morning classes 6 to 7 a.m. on Shankara's commentary (mission archive).",
+      "bhaktisiddhanta: '(some sources say 7 March)' cut; Wikipedia and the devotional chronology give 27 March or only 1918.",
+      "bhaktisiddhanta: 1933 untouchability sentence cut; Wikipedia records only a 1933 reply to Gandhi, not the stated position, and the item is a disputed social remark under SCOPE_PASS_BRIEF.",
+      "bhaktisiddhanta: naming story adds dream of Jagannath (Wikipedia).",
+      "bhaktivinoda: career dates corrected: government service 1866, deputy magistrate 1868 (Wikipedia), retirement 4 October 1894; '1861' replaced by 'some sources give earlier dates'; headmaster of Bhadrak school.",
+      "bhaktivinoda: Kartabhaja physician gave him a Krishna mantra (Wikipedia wording); fourteen children from Wikipedia footnote, not infobox; Rost 'replied' (praise unsupported).",
+      "bhaktivinoda: 1896 work named (Sri Gauranga Lila-Smarana Mangala Stotram, Sanskrit commentary, 63-page English introduction); 'libraries in Britain and North America' replaced by Institute's claim of learned institutions abroad (only McGill named).",
+      "swami-rama: 'consciously left his body' corrected to the Trust's 'consciously dropped his body'; 'authorised' dropped from Tigunait biography (At the Eleventh Hour, 2001, confirmed by Publishers Weekly listing); sealed cave size added from the Trust; Trust-only claims (Karvirpitham, cave, London, Moscow, Rishikesh, Japan) stay attributed to the Trust with the existing no-confirmation sentence; degree year kept as 1945 (Encyclopedia.com) or 1960 (Trust)."
+    ],
+    "unresolved": [
+      "ayya-vaikundar: JETIR paper (parents Ponnu Nadar and Veyilal Ammaiyar, name Mudisoodum Perumal) could not be fetched; the Ayya Vaikundar Wikipedia page as fetched names mythic parents and does not mention Mudisoodum Perumal.",
+      "ayya-vaikundar: Anna Dharmam step and seven thousand Nizhal Thangals figure checked only partly (Ayyavazhi article gives 'more than 7000' with footnotes of 6,000+ and 8,000+).",
+      "swami-rama: Encyclopedia.com lists a 1999 Tigunait title, Swami Rama of the Himalayas: His Life and Mission; whether it is a separate book was not settled.",
+      "chinmayananda: audience description (office workers, lawyers, students) not found in the mission archive page.",
+      "atmananda: 'defined peace as happiness without interruption' not found in the sources fetched."
+    ]
+  }
 }
