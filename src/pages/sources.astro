@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { href } from '../lib/graph.js';
+import { href, correctionUrl } from '../lib/graph.js';
 ---
 <Base title="Sources" current="sources" description="How the book handles sources, evidence and media rights.">
 <main class="wrap">
@@ -15,8 +15,10 @@ import { href } from '../lib/graph.js';
     <ul>
       <li><strong>Documented:</strong> recorded at the time, or by several independent witnesses.</li>
       <li><strong>Testimony:</strong> reported by one person or by later accounts close to the events.</li>
-      <li><strong>Legendary or devotional:</strong> told by followers, often involving immortal masters, visions or reincarnation. Real as belief; not a historical claim.</li>
+      <li><strong>Hagiographic:</strong> told in lives of the teacher written by followers, often with miracles or meetings that cannot be checked.</li>
+      <li><strong>Devotional:</strong> held as a matter of faith, such as guidance from a deity, a vision, an immortal master or a past life.</li>
     </ul>
+    <p>The <a href={href('/about/')}>About page</a> explains how chapters were drafted and fact-checked, and what the book leaves out.</p>
     <p>A connection is marked verified once it has been checked against sources while writing the chapter it belongs to. Until then it is a draft.</p>
 
     <h2>Media</h2>
@@ -32,7 +34,7 @@ import { href } from '../lib/graph.js';
       <li>Paul Brunton, <i>A Search in Secret India</i> (1934).</li>
     </ol>
 
-    <p>Spotted an error or a better source? The book is built in the open: <a href="https://github.com/sanzgiri/mystics-book">github.com/sanzgiri/mystics-book</a>.</p>
+    <p>Spotted an error or a better source? <a href={correctionUrl('Sources')}>Report a correction</a> on the book's GitHub repository.</p>
     <p><a href={href('/')}>← Back to contents</a></p>
   </div>
 </main>

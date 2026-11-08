@@ -23,6 +23,9 @@ const foot = [
   ['Changelog', '/changelog/'],
   ['Progress', '/status/'],
 ];
+// Highlight the nav item from the prop, or else from the URL (for pages that do not pass one).
+const here = Astro.url.pathname.replace(/\/?$/, '/');
+const active = current || (nav.find(([, , path]) => path !== '/' && here === href(path)) || [])[0] || '';
 const fullTitle = title ? `${title} · ${site.title}` : `${site.title}: ${site.subtitle}`;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const ogImage = new URL(href(image), Astro.site).href;
@@ -69,7 +72,7 @@ const fix = correctionUrl(title || site.title, canonical);
     <a class="brand" href={href('/')}>{site.title}</a>
     <nav aria-label="Book">
       {nav.map(([key, label, path]) => (
-        <a href={href(path)} aria-current={current === key ? 'page' : undefined}>{label}</a>
+        <a href={href(path)} aria-current={active === key ? 'page' : undefined}>{label}</a>
       ))}
       <button class="theme-btn" id="theme-btn" type="button" aria-label="Switch light or dark theme">Theme</button>
     </nav>

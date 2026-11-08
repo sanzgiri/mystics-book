@@ -1,11 +1,14 @@
 // House-style checker. Scans prose in src/content for patterns listed in STYLE.md.
 // ERROR rules fail the build. WARN rules are printed for review.
-// Usage: node scripts/style-check.mjs [--strict]   (--strict turns warnings into errors)
-import { readFileSync, readdirSync, statSync } from 'node:fs';
+// Usage: node scripts/style-check.mjs [--strict] [file-or-dir ...]   (--strict turns warnings into errors)
+// With no paths it scans src/content plus the reader pages and their data files listed in EXTRA.
+import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
 const ROOT = 'src/content';
+const EXTRA = ['src/pages/start.astro', 'src/pages/credits.astro', 'src/pages/changelog.astro', 'src/data/paths.json', 'src/data/changelog.json'];
 const strict = process.argv.includes('--strict');
+const args = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 
 const RULES = [
   // [level, id, regex, message]
@@ -36,15 +39,36 @@ function prose(src) {
 }
 
 function walk(dir) {
+  if (!statSync(dir).isDirectory()) return [dir];
   return readdirSync(dir).flatMap((f) => {
     const p = join(dir, f);
     return statSync(p).isDirectory() ? walk(p) : /\.mdx?$/.test(f) ? [p] : [];
   });
 }
 
+// JSON data: check every string value except keys that start with "_" and identifiers.
+function jsonProse(src) {
+  const out = [];
+  const visit = (v, k = '') => {
+    if (k.startsWith('_') || ['id', 'slug', 'date', 'url', 'sourceUrl', 'licenseUrl', 'usedOn'].includes(k)) return;
+    if (typeof v === 'string') out.push(v);
+    else if (Array.isArray(v)) v.forEach((x) => visit(x));
+    else if (v && typeof v === 'object') Object.entries(v).forEach(([kk, vv]) => visit(vv, kk));
+  };
+  visit(JSON.parse(src));
+  return prose(out.join('\n'));
+}
+// Astro pages: drop <style> and <script> blocks and {expressions} before the usual stripping.
+const astroProse = (src) => prose(src.replace(/<(style|script)[\s\S]*?<\/\1>/g, (m) => '\n'.repeat(m.split('\n').length - 1)).replace(/\{[^{}\n]*\}/g, ' '));
+const read = (file) => {
+  const src = readFileSync(file, 'utf8');
+  return file.endsWith('.json') ? jsonProse(src) : file.endsWith('.astro') ? astroProse(src) : prose(src);
+};
+const files = args.length ? args.flatMap(walk) : [...walk(ROOT), ...EXTRA.filter((f) => existsSync(f))];
+
 let errors = 0, warns = 0;
-for (const file of walk(ROOT)) {
-  const lines = prose(readFileSync(file, 'utf8')).split('\n');
+for (const file of files) {
+  const lines = read(file).split('\n');
   // Skip the references section: titles and citations are not our prose.
   const refStart = lines.findIndex((l) => /^##\s+(References|Further reading)/.test(l));
   lines.forEach((line, i) => {

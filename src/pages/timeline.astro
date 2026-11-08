@@ -66,6 +66,8 @@ const decades = []; for (let y = 1780; y <= 2020; y += 20) decades.push(y);
 <style>
   .tl{overflow-x:auto;background:var(--paper);border:1px solid var(--rule);margin-top:1.5rem;padding:.5rem 0}
   .tl svg{display:block}
-  .tl a:hover text{fill:var(--flame)}
+  .tl a:hover text,.tl a:focus-visible text{fill:var(--flame)}
+  .tl a:focus-visible{outline:2px solid var(--flame);outline-offset:1px}
+  .tl:focus-visible{outline:2px solid var(--flame);outline-offset:2px}
 </style>
 </Base>

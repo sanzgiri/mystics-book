@@ -11,8 +11,9 @@ const places = placesData.places.filter((p) => byId[p.figure]);
     <h1 style="font-size:clamp(2.2rem,6vw,3.6rem);margin:.4rem 0">Map</h1>
     <p>Birthplaces, caves, ashrams and the towns that teachers made famous. Tap a marker for the story and a link to the chapter. Locations outside Part 3 are drafts and approximate.</p>
   </div>
-  <div id="map" aria-label="Map of India with places from the book"></div>
-  <ul class="toc col" style="margin-top:1.5rem">
+  <div id="map" role="region" aria-label="Map of places from the book. The same places are listed in text below the map."></div>
+  <h2 class="col" style="font-size:1.3rem;margin-top:2rem">All places</h2>
+  <ul class="toc col place-list">
     {places.map((p) => (
       <li><span><a href={figureHref(p.figure)}>{p.name}</a> · {byId[p.figure].name}</span><span class="yrs">{p.what}</span></li>
     ))}
@@ -20,6 +21,9 @@ const places = placesData.places.filter((p) => byId[p.figure]);
 </main>
 <style>
   #map{height:min(75vh,760px);border:1px solid var(--rule);margin-top:1.5rem;background:var(--paper)}
+  @media (max-width:720px){#map{height:55vh}}
+  .place-list .yrs{white-space:normal;text-align:right;max-width:22rem}
+  @media (max-width:560px){.place-list li{grid-template-columns:1fr;gap:.1rem}.place-list .yrs{text-align:left}}
   .leaflet-popup-content{font-family:var(--f-body);font-size:.9rem}
 </style>
 <script>

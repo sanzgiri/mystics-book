@@ -1,0 +1,36 @@
+---
+// Public record of changes. Data: src/data/changelog.json (newest first).
+import Base from '../layouts/Base.astro';
+import log from '../data/changelog.json';
+import { correctionUrl } from '../lib/graph.js';
+
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const show = (d) => {
+  const [y, m, day] = d.split('-').map(Number);
+  return day ? `${day} ${MONTHS[m - 1]} ${y}` : `${MONTHS[m - 1]} ${y}`;
+};
+const entries = [...log.entries].sort((a, b) => b.date.localeCompare(a.date));
+---
+<Base title="Changelog" current="changelog" description="A dated record of changes to the book.">
+<main class="wrap">
+  <div class="col">
+    <span class="label">Companion</span>
+    <h1 style="font-size:clamp(2.2rem,6vw,3.6rem);margin:.4rem 0">Changelog</h1>
+    <p>A dated record of changes to the book, newest first. Corrections reported by readers are listed here once they are made. To <a href={correctionUrl()}>report a correction</a>, open a new issue on the book's GitHub repository; the same link is at the foot of every page.</p>
+    <ol class="log">
+      {entries.map((e) => (
+        <li>
+          <time datetime={e.date}>{show(e.date)}</time>
+          <div><strong>{e.title}.</strong> {e.text}</div>
+        </li>
+      ))}
+    </ol>
+  </div>
+</main>
+<style>
+  .log{list-style:none;padding:0;margin:1.5rem 0 0;border-left:1px solid var(--rule)}
+  .log li{position:relative;padding:0 0 1.2rem 1.2rem}
+  .log li::before{content:"";position:absolute;left:-4px;top:.55rem;width:7px;height:7px;border-radius:50%;background:var(--flame)}
+  .log time{display:block;font-family:var(--f-mono);font-size:.75rem;color:var(--muted);letter-spacing:.04em}
+</style>
+</Base>
