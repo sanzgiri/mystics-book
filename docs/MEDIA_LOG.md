@@ -11,7 +11,7 @@ Pass status: portraits done for 67 of 89 chapters (8 November 2026). No audio ad
 
 ## Notes on individual choices
 - **Stamps used in place of photographs** (GODL-India): Sivananda (1986), Mirra Alfassa (1978), Acharya Tulsi (1998), Vinoba Bhave (1983). For Mirra Alfassa, the infobox image is a 1950 Henri Cartier-Bresson photograph. Commons tags it PD-India, but it is very probably still in copyright elsewhere, so it was not used. The Sivananda and Vinoba infobox files were "own work" uploads (2011, 2017) of men who died in 1963 and 1982. The Tulsi file was an unticketed "own work" upload of a man who died in 1997.
-- **Ramakrishna:** Commons gives the photographer as "Abinash Chandra Dna", dated October 1885. The credit reads "Abinash Chandra Dawn", assuming "Dna" is a typo. Check this if it matters.
+- **Ramakrishna:** Commons gives the photographer as "Abinash Chandra Dna", dated October 1885. "Dna" is a typo; the author confirmed the credit as "Abinash Chandra Dawn" (9 November 2026). The Commons page itself is unchanged.
 - **Vivekananda:** the signed Chicago portrait of September 1893. Commons tags it PD-anon, so the credit says "Photographer unknown".
 - **Osho:** a still from a 1972 film by Jayendra Lashkari (CC BY-SA 3.0). The two Nationaal Archief CC0 files are crops of a portrait carried by demonstrators, so they were rejected as derivatives.
 - **Shastriji / Pramukh:** a BAPS photograph (VRT ticket) of Shastriji Maharaj with the young Narayanswarupdas, which covers both figures in the chapter.
